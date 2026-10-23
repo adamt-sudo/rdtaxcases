@@ -40,9 +40,10 @@ for (const f of files) {
   }
   const bad = (m) => problems.push(`${f}: ${m}`);
   if (c.slug !== slug) bad(`slug "${c.slug}" does not match the file name`);
-  for (const k of ["title", "caseNumber", "subject", "jurisdictionGroup", "jurisdictionSlug", "sourceDocUrl", "summary"]) {
+  for (const k of ["title", "caseNumber", "subject", "jurisdictionGroup", "jurisdictionSlug", "summary"]) {
     if (typeof c[k] !== "string" || !c[k].trim()) bad(`"${k}" is missing`);
   }
+  if (c.sourceDocUrl !== undefined && typeof c.sourceDocUrl !== "string") bad(`"sourceDocUrl" must be text`);
   if (!Number.isInteger(c.year)) bad(`"year" must be a whole number`);
   if (!GROUPS.has(c.jurisdictionGroup)) bad(`unknown jurisdictionGroup "${c.jurisdictionGroup}"`);
   if (c.status !== undefined && !STATUSES.has(c.status)) bad(`unknown status "${c.status}"`);
