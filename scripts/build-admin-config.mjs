@@ -130,6 +130,7 @@ function caseFields({ group, slugField }) {
       hint: "Code of the language the text is written in, e.g. it, de, es. Leave empty for English.",
     }),
     str("Source link", "sourceDocUrl", {
+      required: false,
       hint: "Official page of the decision where there is one",
     }),
     {

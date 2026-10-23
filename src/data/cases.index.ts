@@ -98,6 +98,8 @@ import c93 from "../../content/cases/texas-comptrollers-decision-star-accession-
 import c94 from "../../content/cases/oshkosh-truck-corporation-v-wisconsin-department-of-revenue.json";
 import c95 from "../../content/cases/the-ca-lawton-co-v-wisconsin-department-of-revenue.json";
 import c96 from "../../content/cases/appeal-of-first-solar-inc-2023-ota-532p.json";
+import c97 from "../../content/cases/moreton-resources-ltd-v-innovation-science-australia.json";
+import c98 from "../../content/cases/zz-test-case.json";
 
 export const caseRecords = [
   c0,
@@ -197,6 +199,8 @@ export const caseRecords = [
   c94,
   c95,
   c96,
+  c97,
+  c98,
 ] as unknown as CaseRecord[];
 
 export interface TranslationRecord {

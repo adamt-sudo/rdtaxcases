@@ -28,7 +28,7 @@ export interface CaseRecord {
   subject: string;
   jurisdictionGroup: Jurisdiction["group"];
   jurisdictionSlug: string;
-  sourceDocUrl: string;
+  sourceDocUrl?: string;
   /** Path under /public to a downloadable source PDF (e.g. "/documents/foo.pdf"), when one exists. */
   sourcePdfPath?: string;
   /** Language of the report (title/summary/body), as a BCP 47 code. Absent means English. */
