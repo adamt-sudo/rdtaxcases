@@ -148,7 +148,7 @@ function caseFields({ group, slugField }) {
       name: "status",
       widget: "select",
       required: false,
-      default: "published",
+      default: "draft",
       options: [
         { label: "Published", value: "published" },
         { label: "Draft (kept, not shown)", value: "draft" },
@@ -187,7 +187,7 @@ const caseCollection = (name, label, group, slugField, description) => ({
   delete: true,
   slug: "{{fields.slug}}",
   identifier_field: "title",
-  summary: "{{title}} ({{year}})",
+  summary: "{{title}}, {{caseNumber}}",
   sortable_fields: ["title", "year"],
   filter: { field: "jurisdictionGroup", value: group },
   fields: caseFields({ group, slugField }),

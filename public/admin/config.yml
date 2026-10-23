@@ -34,7 +34,7 @@
       "delete": true,
       "slug": "{{fields.slug}}",
       "identifier_field": "title",
-      "summary": "{{title}} ({{year}})",
+      "summary": "{{title}}, {{caseNumber}}",
       "sortable_fields": [
         "title",
         "year"
@@ -172,7 +172,7 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "published",
+          "default": "draft",
           "options": [
             {
               "label": "Published",
@@ -308,7 +308,7 @@
       "delete": true,
       "slug": "{{fields.slug}}",
       "identifier_field": "title",
-      "summary": "{{title}} ({{year}})",
+      "summary": "{{title}}, {{caseNumber}}",
       "sortable_fields": [
         "title",
         "year"
@@ -647,7 +647,7 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "published",
+          "default": "draft",
           "options": [
             {
               "label": "Published",
@@ -783,7 +783,7 @@
       "delete": true,
       "slug": "{{fields.slug}}",
       "identifier_field": "title",
-      "summary": "{{title}} ({{year}})",
+      "summary": "{{title}}, {{caseNumber}}",
       "sortable_fields": [
         "title",
         "year"
@@ -1130,7 +1130,7 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "published",
+          "default": "draft",
           "options": [
             {
               "label": "Published",

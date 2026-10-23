@@ -9,7 +9,7 @@
     "lint": "eslint",
     "prebuild": "node scripts/build-case-index.mjs && node scripts/build-admin-config.mjs",
     "predev": "node scripts/build-case-index.mjs && node scripts/build-admin-config.mjs",
-    "check": "node scripts/build-case-index.mjs && tsc --noEmit && eslint && node scripts/check-changed-cases.mjs"
+    "check": "node scripts/build-case-index.mjs && next typegen && tsc --noEmit && eslint && node scripts/check-changed-cases.mjs"
   },
   "dependencies": {
     "next": "16.3.0",
