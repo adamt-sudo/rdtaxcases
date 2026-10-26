@@ -1,0 +1,21 @@
+# Cloudflare Worker: the login helper for the case editor.
+# It lives in a Cloudflare account owned by the client's company.
+# Deploy with: npx wrangler deploy   (from this folder). See README.md.
+
+name = "rdtaxcases-cms-login"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+# The site that hosts the editor. Must match exactly, with no trailing slash.
+ADMIN_ORIGIN = "https://rdtaxcases.com"
+# The GitHub OAuth app's client id (not secret). Replace after creating the app.
+GITHUB_OAUTH_ID = "REPLACE-WITH-CLIENT-ID"
+# Only these GitHub user names may sign in, comma-separated. Add the
+# reviewer's user name when they join.
+ALLOWED_USERS = "adamt-sudo,Codedhr1,lthivierge-sr"
+# The repository is public, so the editor needs only this narrower permission.
+GITHUB_SCOPE = "public_repo"
+
+# The client secret is NOT stored here. Set it with:
+#   npx wrangler secret put GITHUB_OAUTH_SECRET

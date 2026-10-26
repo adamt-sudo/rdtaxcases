@@ -1,0 +1,18 @@
+# Who must approve changes to what.
+#
+# The repository belongs to the personal account adamt-sudo, so GitHub cannot
+# limit who may press "merge" to named people. Instead the main branch asks
+# for "Require review from Code Owners": a change needs an approval from one
+# of the owners below (and the checks must pass). The owner, as administrator,
+# can still publish their own changes.
+#
+# When the reviewer is added, put their GitHub user name next to the owner's
+# on every line, and on its own the English translations, which carry the
+# "reviewed" flag that only the reviewer sets.
+/content/cases/          @adamt-sudo
+/content/case-order.json @adamt-sudo
+/content/translations/   @adamt-sudo
+/public/documents/       @adamt-sudo
+/public/admin/           @adamt-sudo
+/admin-oauth-worker/     @adamt-sudo
+/.github/                @adamt-sudo

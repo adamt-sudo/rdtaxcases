@@ -1,0 +1,408 @@
+{
+  "slug": "quebe-v-united-states",
+  "title": "Quebe v. United States",
+  "articleTitle": "Exhaustive Report on United States v. Quebe: Implications for the R&D Tax Credit and Section 179D Deductions",
+  "caseNumber": "Case No. 3:15-cv-294",
+  "court": "United States District Court, Southern District of Ohio",
+  "year": 2019,
+  "subject": "Substantiation of Qualified Research Expenses Under Section 41",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Granted summary judgment for the government, finding a construction contractor failed to substantiate its Section 41 credit because it could not prove qualified research expenses in the required base years.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "Executive Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal district court case United States v. Quebe, No. 3:15-cv-294 (S.D. Ohio 2019), stands as a watershed judicial opinion for corporate tax practitioners, the commercial construction industry, and specialty tax consultants. The litigation highlights the severe consequences of failing to satisfy stringent statutory and evidentiary requirements when claiming highly scrutinized tax incentives, specifically the Internal Revenue Code (IRC) § 41 Credit for Increasing Research Activities (the R&D credit) and the IRC § 179D Energy Efficient Commercial Building Property deduction."
+    },
+    {
+      "type": "paragraph",
+      "text": "In an action brought by the United States Department of Justice (DOJ) under 26 U.S.C. § 7405(b) to recover erroneously issued tax refunds, the government successfully unwound hundreds of thousands of dollars in tax benefits claimed by the owners of Quebe Holdings, Inc. (QHI). The court's granting of summary judgment in favor of the government exposed critical flaws in the taxpayer's methodology, particularly regarding the use of inadmissible hearsay to bypass historical base-period calculations for the R&D credit, and the mischaracterization of electrical installation activities as \"design\" work for the purposes of the Section 179D deduction."
+    },
+    {
+      "type": "paragraph",
+      "text": "This exhaustive report analyzes the factual matrix of United States v. Quebe, dissects the court’s rigorous statutory interpretations of IRC § 41 and IRC § 179D, and extracts second- and third-order insights regarding the shifting burden of proof, the perils of contingent-fee tax consulting, and the nearly insurmountable 40-year record retention standard implicitly established by the court's base period rulings. Furthermore, the analysis integrates surrounding federal tax jurisprudence, evaluating how the Quebe decision aligns with broader Internal Revenue Service (IRS) enforcement campaigns targeting corporate credits."
+    },
+    {
+      "type": "heading",
+      "text": "Factual Matrix and Procedural Posture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dennis and Linda Quebe were the owners of Quebe Holdings, Inc. (QHI), an S-corporation operating as a holding company for three separate electrical contracting entities: Chapel Electric, Romanoff Electric, and CRT Technologies. QHI was established in 2002 when it acquired these legacy companies, inheriting both their operational capabilities and their historical tax attributes. The subsidiaries were primarily engaged in designing and installing electrical systems for large-scale commercial and public complexes, including facilities for Wright-Patterson Air Force Base, Dayton Public Schools, Miami Valley Hospital, and Lucas County."
+    },
+    {
+      "type": "paragraph",
+      "text": "In September 2012, QHI retained Alliantgroup, a specialty tax consulting firm, to conduct a comprehensive \"Research and Development Tax Credit Study\" covering the tax years 2008 through 2011. The engagement was structured on a contingency fee basis, entitling the consulting firm to up to 25% of any tax credit ultimately identified and secured by the taxpayer. Based on the consultant's findings, QHI determined it was eligible for both IRC § 41 R&D tax credits and IRC § 179D energy efficiency deductions for the 2009 and 2010 tax years."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, QHI amended its corporate returns (Forms 1120S), claiming approximately $156,000 in R&D credits for 2009 and $147,000 for 2010. As an S-corporation, these benefits flowed through directly to the individual shareholders. Dennis and Linda Quebe subsequently filed amended individual income tax returns (Forms 1040X) to reflect the corporate-level credits and deductions. These amendments reduced the Quebes' personal tax liabilities by $107,292 for the 2009 tax year, and generated an additional $87,054 reduction for 2008 due to carryback provisions. Processing these amended returns, the IRS issued the Quebes refund checks totaling $120,000 for 2009 and $129,000 for 2010."
+    },
+    {
+      "type": "paragraph",
+      "text": "On August 25, 2015, the government filed a lawsuit against the Quebes under 26 U.S.C. § 7405(b), which explicitly permits the United States to sue taxpayers to recoup tax refunds that were erroneously issued. The government moved for summary judgment, arguing that QHI's R&D credit base period calculations were statutorily invalid and factually unsupported, and that the company failed to meet the strict \"placed in service\" and \"designer\" requirements of Section 179D. Judge Thomas M. Rose of the U.S. District Court for the Southern District of Ohio presided over the matter, ultimately resolving the substantive issues in favor of the government in early 2019."
+    },
+    {
+      "type": "heading",
+      "text": "Part I: The IRC § 41 Research and Development Tax Credit Dispute"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal R&D tax credit is an incremental, activity-based incentive designed to reward taxpayers for increasing their research investments within the United States. The core mechanism of the credit measures a taxpayer's current-year Qualified Research Expenses (QREs) against a historical baseline of research spending, known as the \"base amount\". This structure ensures that taxpayers are subsidized only for generating new, expanding research rather than maintaining historical baselines."
+    },
+    {
+      "type": "subheading",
+      "text": "The Statutory Framework for Qualified Research"
+    },
+    {
+      "type": "paragraph",
+      "text": "To claim the R&D credit, a taxpayer must demonstrate that their activities meet the rigid four-part test defined by IRC § 41(d)(1). Substantive compliance with these four pillars is mandatory for all projects generating claimed QREs:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Requirement",
+        "Description and Regulatory Standard"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section 174 Test",
+            "Expenditures must be eligible for treatment as expenses under IRC § 174. The taxpayer must face an objective uncertainty regarding the capability, method, or appropriate design for developing or improving a product or process."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Information Test",
+            "The research must be undertaken for the purpose of discovering information that is \"technological in nature.\" The process of experimentation must fundamentally rely on the physical or biological sciences, engineering, or computer science."
+          ]
+        },
+        {
+          "cells": [
+            "Business Component Test",
+            "The application of the discovered information must be intended to be useful in the development of a new or improved business component, which includes a product, process, computer software, technique, formula, or invention."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation Test",
+            "Substantially all (statutorily defined as 80% or more) of the research activities must constitute elements of a process of experimentation. This involves identifying an uncertainty, formulating alternatives, and systematically evaluating those alternatives through modeling, simulation, or trial and error."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, IRC § 41(b)(1) defines QREs as the sum of in-house research expenses (wages for qualified services and amounts paid for supplies) and 65% of contract research expenses paid to third parties. Activities explicitly excluded from generating QREs include research after commercial production, adaptation of an existing business component to a specific customer's needs, duplication of existing components, and routine data collection or efficiency surveys."
+    },
+    {
+      "type": "subheading",
+      "text": "The Base Period Mechanics: Standard vs. Start-Up Methodology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assuming a taxpayer successfully substantiates their QREs, the calculation of the allowable credit depends entirely on establishing the base amount. The Internal Revenue Code provides distinct methodologies depending on the historical operational timeline of the taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the standard method mandated by Section 41(c)(3)(A), a taxpayer calculates the percentage of its gross receipts spent on qualified research during the default base period of 1984 through 1988. This \"fixed-base percentage\" is then multiplied by the taxpayer's average annual gross receipts for the four years preceding the claim year to establish the base amount. The taxpayer may claim a credit on the QREs that exceed this base amount."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognizing that many modern companies did not exist or did not perform research in the 1980s, Congress enacted an alternative \"start-up\" base period under Section 41(c)(3)(B). A taxpayer is permitted to use the start-up method only if they meet one of two strict criteria:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The taxpayer had no gross receipts or QREs before 1984.",
+        "The taxpayer had fewer than three tax years in which it had both gross receipts and QREs during the default 1984 to 1988 base period."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For tax years after 1993, the start-up method heavily benefits the taxpayer by allowing them to use a statutorily fixed-base percentage of exactly 3% for their first five claim years. For years six through ten, a sliding scale ratio is utilized, beginning with one-sixth of the QREs-to-gross-receipts ratio in the sixth year, and culminating with five-sixths of the ratio in the tenth year. QHI utilized this highly advantageous start-up method to calculate its base amount, maximizing its 2009 and 2010 R&D credits by artificially lowering the hurdle required to demonstrate an incremental increase in research."
+    },
+    {
+      "type": "paragraph",
+      "text": "An alternative to both methods is the Alternative Simplified Credit (ASC). Taxpayers who fail to maintain records from the 1984-1988 period may elect the ASC method, which relies on a more recent three-year rolling average of QREs. However, under IRS procedural rules, taxpayers may not elect the ASC method on an amended return if they utilized the regular method for that year on an original or previously amended return. As QHI utilized the start-up method on its amended returns, its eligibility hinged entirely on surviving the scrutiny of Section 41(c)(3)(B)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Aggregation Rule and the Funded Research Defense"
+    },
+    {
+      "type": "paragraph",
+      "text": "The government vigorously challenged QHI's eligibility to use the start-up method. The DOJ argued that because QHI acquired Chapel Electric and Romanoff Electric in 2002, the historical activities of those subsidiaries must be legally attributed to QHI. Under the R&D credit's controlled group and acquisition aggregation rules, the taxpayer was required to trace the 1984-1988 activities of its acquired entities. The government presented evidence that during the 1984-1988 default period, Chapel and Romanoff generated gross receipts and performed activities highly similar to those QHI was claiming as QREs in 2009 and 2010. These overlapping historical activities included value engineering, determining conduit and wiring pathways, project estimation, and implementing complex change orders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Faced with the irrefutable reality that its subsidiaries were operational and performing electrical design activities in the 1980s, QHI deployed a nuanced legal defense centered on the concept of \"funded research\". Under IRC § 41(d)(4)(H), research is excluded from the definition of qualified research if it is funded by any grant, contract, or another person. Treasury Regulations establish that research is deemed \"funded\" if the taxpayer does not bear the financial risk of the research's failure or does not retain substantial rights to the research results. Jurisprudence, such as the Federal Circuit's ruling in Fairchild Industries, Inc. v. United States, 71 F.3d 868 (1995), confirms that payments to another party disqualify credits if the taxpayer bears no financial risk, establishing the funded research exclusion as a critical boundary for government contractors."
+    },
+    {
+      "type": "paragraph",
+      "text": "QHI asserted that all of the electrical contracting work performed by Chapel and Romanoff in the 1980s was executed strictly under Time and Materials (T&M) contracts. Because T&M contracts guarantee payment for hours worked regardless of the project's ultimate success, they transfer the financial risk to the client. Consequently, any research conducted under T&M parameters is considered \"funded\" and statutorily disqualified from generating QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, QHI argued that its 2009 and 2010 projects were executed under fixed-fee contracts. In a fixed-fee arrangement, cost overruns caused by experimental failures are absorbed by the contractor, satisfying the financial risk requirement and generating valid, unfunded QREs. The legal logic was sound: if QHI's 1980s activities were indeed all funded by T&M contracts, then the subsidiaries technically possessed $0 in QREs during the 1984-1988 base period, rendering QHI legally eligible to bypass the standard fixed-base percentage and use the highly favorable start-up method."
+    },
+    {
+      "type": "subheading",
+      "text": "Evidentiary Failures and the Hearsay Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fatal flaw in QHI's sophisticated legal argument was an absolute lack of contemporaneous documentation to support it. To survive summary judgment, QHI needed to produce admissible evidence demonstrating a genuine dispute of material fact regarding the contractual nature of the 1984-1988 projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "QHI did not produce original 1980s contracts, employee testimonies from that era, or historical financial ledgers indicating billing structures. Instead, QHI relied entirely on the deposition testimony of a single individual: an employee of Alliantgroup, the tax consulting firm hired in 2012 to conduct the R&D study."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judge Rose swiftly dismissed this evidence. The court noted that the consultant possessed no personal knowledge of QHI or its subsidiaries' physical or financial operations during the 1980s. Under the Federal Rules of Evidence, testimony offered by an individual without direct, personal knowledge of the events is classified as inadmissible hearsay. Because inadmissible hearsay cannot be used to defeat a motion for summary judgment, QHI was left with no legally recognized evidence to prove that the 1980s activities were exclusively funded by Time and Materials contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, the court ruled that QHI failed to establish its right to use the start-up calculation method, invalidating the base amount calculation and destroying the foundation of the claimed R&D credits. As tax practitioner Alex E. Sadler observed, Quebe decisively reinforces the doctrine established in earlier precedent like Union Carbide Corp. (T.C. Memo. 2009-50) that taxpayers utilizing the start-up method must possess credible, affirmative evidence of their start-up status."
+    },
+    {
+      "type": "subheading",
+      "text": "The Burden of Proof Asymmetry and 40-Year Recordkeeping Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court's ruling in Quebe exposes a severe asymmetry in the burden of proof that places an extreme, and arguably insurmountable, recordkeeping burden on corporate taxpayers claiming R&D credits."
+    },
+    {
+      "type": "paragraph",
+      "text": "In an erroneous refund suit under § 7405, the government technically bears the ultimate burden of proof to show that a refund was improperly paid, as affirmed in precedent such as Soltermann v. United States, 272 F.2d 387 (9th Cir. 1959). However, in Quebe, the court allowed the government to meet this burden simply by leveraging the fundamental tenet of tax law that deductions and credits are a matter of legislative grace. Under Treasury Regulation § 1.6001-1(a), the taxpayer is required to maintain records sufficient to substantiate the claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "By validating the government's argument, the court effectively required QHI to \"prove a negative\"—that it did not perform unfunded, qualified research in the 1980s. Because QHI acquired these companies in 2002, satisfying the court's standard would require QHI to have obtained and meticulously archived its subsidiaries' daily project contracts, engineering schematics, and billing ledgers from the late 1980s—nearly twenty years before the acquisition occurred, and almost forty years before the current tax audit."
+    },
+    {
+      "type": "paragraph",
+      "text": "This implicit 40-year record retention standard creates a chilling effect on older entities or serial acquirers attempting to navigate the R&D base period aggregation rules. The decision implies that absent perfectly preserved historical archives, an acquiring entity cannot safely utilize the start-up method for legacy subsidiaries."
+    },
+    {
+      "type": "subheading",
+      "text": "The Consistency Rule Omission"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industry analysts note a critical omission in the Quebe court's reasoning regarding the taxpayer's defense: the failure to address the \"consistency rule.\". The consistency rule mandates that the categories of expenses and activities evaluated in the current claim year must be measured identically against the base period years."
+    },
+    {
+      "type": "paragraph",
+      "text": "If QHI's 1980s research was deemed non-qualifying because it was funded, the consistency rule requires those expenses to be excluded from the base amount, effectively zeroing out the base period QREs and legally permitting the start-up method. Furthermore, if the court accepted the government's premise that the 1980s activities were qualified research, the consistency rule would dictate that those activities establish a very low fixed-base percentage (since total historical QREs would likely be minimal compared to current gross receipts). Counterintuitively, applying a low fixed-base percentage under the regular method could potentially yield an even larger R&D tax credit than the 3% fixed rate of the start-up method. The court’s failure to engage with this mechanical reality leaves a gap in the jurisprudence surrounding base period calculations."
+    },
+    {
+      "type": "heading",
+      "text": "Part II: The IRC § 179D Energy Efficient Commercial Building Property Deduction Dispute"
+    },
+    {
+      "type": "paragraph",
+      "text": "The second major facet of the Quebe litigation involved the disallowance of significant deductions claimed under IRC § 179D. Enacted as part of the Energy Policy Act of 2005, Section 179D provides a deduction for the cost of \"energy efficient commercial building property\" (EECBP) placed in service during the taxable year. EECBP generally includes interior lighting systems, HVAC systems, or building envelope modifications that reduce total annual energy and power costs by at least 50% compared to a baseline standard established by the American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because government entities (federal, state, or local) do not pay income tax, they cannot benefit from a tax deduction. To ensure the incentive functions as intended, Congress drafted a special allocation rule under Section 179D(d)(4). This rule allows a government building owner to allocate the value of the deduction to the \"person primarily responsible for designing the property in lieu of the owner\". Relying on this provision, QHI claimed it was the designer of energy-efficient lighting systems for several government projects, notably at Wright-Patterson Air Force Base and four separate public school buildings."
+    },
+    {
+      "type": "subheading",
+      "text": "The Strict \"Placed in Service\" Timing Requirement"
+    },
+    {
+      "type": "paragraph",
+      "text": "The statutory language of Section 179D unambiguously limits deductions to property that is actually \"placed in service during the taxable year\". For the Wright-Patterson Air Force Base claims, QHI asserted the lighting properties were placed in service during the 2009 tax year, generating the initial deductions that drove their amended returns."
+    },
+    {
+      "type": "paragraph",
+      "text": "During discovery, the government introduced devastating documentary evidence contradicting this timeline. Internal project communications demonstrated that for buildings 20016 and 30060 on the base, Chapel Electric was not even contracted to perform the work until 2011. For building 20024C, a January 2010 email from Chapel confirmed that lighting fixtures were still \"perhaps 6 weeks from time of order,\" making it physically impossible for them to have been placed in service in 2009. For remaining buildings, Chapel had formally advised Wright-Patterson in late 2009 that the existing lighting was adequate and no upgrades were necessary."
+    },
+    {
+      "type": "paragraph",
+      "text": "QHI attempted to overcome this factual deficiency by presenting an allocation letter signed by a military official, retroactively assigning the 2009 deduction to the company. The court wholly rejected this, ruling that retroactive allocation letters cannot override contemporaneous, contradictory factual evidence regarding the physical installation dates. The timing requirement is absolute; taxpayers cannot aggregate multi-building, multi-year projects into a single \"earliest placed in service\" date to accelerate deductions."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Designer\" vs. \"Mere Installer\" Dichotomy"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the four public school building projects, the central dispute shifted from timing to classification. The court had to determine whether QHI met the legal definition of the \"person primarily responsible for designing\" the EECBP."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the IRS never promulgated formal, final regulations for Section 179D despite a congressional mandate, the industry and the courts rely heavily on IRS Notice 2008-40 for interim guidance. Notice 2008-40 explicitly defines a \"Designer\" as a person who creates the \"technical specifications for installation of energy efficient commercial building property,\" which may include architects, engineers, contractors, or environmental consultants. Crucially, the Notice expressly excludes any person who \"merely installs, repairs, or maintains the property\" from the definition of a Designer."
+    },
+    {
+      "type": "paragraph",
+      "text": "During depositions, QHI's Chief Operating Officer fundamentally compromised the company's position. The executive testified that Chapel Electric did not design the fixture layout, nor did it determine the lighting parameters or load requirements for the schools. Detailed technical lighting plans, specifying the required fixture types, precise locations, and wiring schematics, were entirely created by independent architectural and engineering firms (Architects of Record) hired by the school districts."
+    },
+    {
+      "type": "paragraph",
+      "text": "QHI's corporate representative admitted that Chapel Electric's role was strictly to evaluate the pre-existing blueprints, select a specific brand of fixture that \"would work best for the application and purchased accordingly,\" and then execute the physical installation. While QHI may have occasionally submitted Requests for Information (RFIs) or identified issues with the original specifications that required standard change orders, they possessed no independent authority to modify the technical specifications without direct approval from the Architects of Record."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judge Rose drew a bright judicial line: interpreting blueprints and selecting commercially available components to fulfill another party's parameters does not equate to creating technical specifications. The court ruled that QHI operated as a \"mere installer,\" categorically disqualifying the company from receiving Section 179D allocations."
+    },
+    {
+      "type": "heading",
+      "text": "Part III: Judicial Precedents and the Broader Litigation Landscape"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Quebe decision does not exist in a vacuum; it operates within a dense matrix of federal tax jurisprudence addressing corporate credits and substantiation. Analyzing comparable cases provides a deeper understanding of the government's litigation strategy and the courts' consistent demand for rigorous documentary evidence."
+    },
+    {
+      "type": "subheading",
+      "text": "Erroneous Refunds and the Government's Burden"
+    },
+    {
+      "type": "paragraph",
+      "text": "The procedural vehicle utilized in Quebe—an erroneous refund suit under 26 U.S.C. § 7405—has a specific legal history. In United States v. McFerrin, the government similarly sued to recover nearly $600,000 in erroneously paid R&D tax credits generated by a specialty consultant. The taxpayer in McFerrin argued that the government was required to meet the rigorous pleading standards of Rule 9 for fraud or misrepresentation. The court rejected this, holding that the government only needed to prove a failure of substantiation by a preponderance of the evidence. The Quebe court followed this exact blueprint, allowing the government to prevail without alleging fraudulent intent, simply by demonstrating QHI's lack of primary source documentation. Furthermore, cases like United States v. Davenport demonstrate that the government aggressively enforces the two-year statute of limitations for filing § 7405 suits based on the date the refund was authorized, underscoring the IRS's procedural vigilance."
+    },
+    {
+      "type": "subheading",
+      "text": "The Process of Experimentation and Technical Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "While Quebe failed on base-period mechanics, other cases demonstrate the peril of failing the substantive four-part test. In United Stationers, Inc. v. United States, 163 F.3d 440 (7th Cir. 1998), a taxpayer purchased commercial software and customized it for internal use. The court denied the R&D credit, ruling that modifying existing commercial packages does not constitute a \"process of experimentation\" nor does it \"discover technological information\" that expands the field's underlying principles. Similarly, in Siemer Milling Co. v. Commissioner (T.C. Memo. 2019-37), the taxpayer failed to prove that substantially all of its activities met the methodical process of experimentation test. These precedents align with Quebe's underlying reality: standard electrical installation, like standard software customization, rarely presents the level of objective uncertainty required by Section 174."
+    },
+    {
+      "type": "subheading",
+      "text": "Substantiation and the Reasonableness Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court's decision in Suder v. Commissioner (T.C. Memo. 2014-201) offers a stark contrast to Quebe. In Suder, the taxpayer successfully substantiated its hardware and software R&D activities through a three-week trial featuring over 170,000 pages of exhibits, proving an ISO-9000 certified development process. However, the court penalized the taxpayer on the valuation of the QREs. The CEO claimed millions in wages as research expenses. The court applied the Section 174(e) reasonableness standard, concluding the wages were excessive and capping them at the 90th percentile of industry standards. Suder proves that even when the underlying research is validly documented (unlike Quebe), the financial quantification of the credit remains subject to aggressive judicial trimming."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Shrink-Back\" Rule and Consistency"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Trinity Industries, Inc. v. United States, the court evaluated the construction of maritime vessels. When an entire project fails to meet the 80% \"substantially all\" requirement for experimentation, the regulations permit taxpayers to \"shrink-back\" the claim to qualify specific sub-components. The court denied Trinity's shrink-back attempt due to an absence of evidence allocating costs to specific subsets of the vessels. Furthermore, the court grappled with the consistency rule, eventually ruling that base period QREs could not be excluded simply because they represented less than 80% of an entire project. This highlights the intricate mathematical tracking required across decades, further validating the vulnerability QHI faced regarding its 1980s base period."
+    },
+    {
+      "type": "subheading",
+      "text": "Successful 179D Designer Allocations"
+    },
+    {
+      "type": "paragraph",
+      "text": "To contrast QHI's failure under Section 179D, one must examine Michael Johnson et ux. v. Commissioner, 160 T.C. No. 2 (2023). In Johnson, an engineering firm (Edwards Engineering) installed HVAC systems in a Veterans Affairs (VA) hospital. Crucially, the record proved that the engineering firm analyzed existing technical programming specifications, actively modified them, and programmed the modified specifications into the new components. Because Edwards Engineering actually generated technical specifications, the Tax Court upheld their allocation as a valid \"Designer\" under Notice 2008-40. This confirms the boundary defined in Quebe: active modification qualifies, whereas mere selection to meet third-party parameters does not."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Precedent",
+        "Primary Statutory Issue",
+        "Holding / Consequence"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "United States v. Quebe",
+            "§ 41 Base Period; § 179D Designer",
+            "Taxpayer failed due to hearsay evidence; Mere installers do not qualify as designers."
+          ]
+        },
+        {
+          "cells": [
+            "United States v. McFerrin",
+            "§ 7405 Erroneous Refund",
+            "Government only needs to prove lack of substantiation, not fraud, to recoup refunds."
+          ]
+        },
+        {
+          "cells": [
+            "Suder v. Commissioner",
+            "§ 174(e) Reasonableness",
+            "Substantial documentation proves R&D, but executive wages must be scaled to industry norms."
+          ]
+        },
+        {
+          "cells": [
+            "United Stationers, Inc.",
+            "§ 41 Process of Experimentation",
+            "Customizing commercial software lacks the technological discovery required for QREs."
+          ]
+        },
+        {
+          "cells": [
+            "Michael Johnson v. Comm.",
+            "§ 179D Designer Allocation",
+            "Contractors who actively modify technical specifications validly qualify as designers."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Part IV: IRS Enforcement Campaigns and Policy Implications"
+    },
+    {
+      "type": "paragraph",
+      "text": "The aggressive litigation posture adopted by the Department of Justice in Quebe is not an isolated event; it is a manifestation of coordinated enforcement strategies directed by the IRS Large Business & International (LB&I) division."
+    },
+    {
+      "type": "subheading",
+      "text": "The Section 179D Compliance Campaign"
+    },
+    {
+      "type": "paragraph",
+      "text": "In late 2017, the IRS initiated a formal Compliance Campaign explicitly targeting Section 179D(d)(4) allocations involving government-owned buildings. Recognizing widespread abuse by contractors and installers, the IRS deployed specialized \"Process Units\" providing audit personnel with direct instructions to scrutinize whether a taxpayer was truly a \"Designer\" under Notice 2008-40."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interestingly, the DOJ’s legal briefing in Quebe and internal IRS memorandums (e.g., CCA AM 2018-005) confirm that Section 179D deductions can be allocated among multiple designers on a single project. If multiple parties (such as an architect and a mechanical engineer) collaborate to create the technical specifications, the government building owner has the discretion to distribute the deduction proportionally. While QHI failed to qualify as one of these designers, this administrative concession protects valid engineering consortiums from being forced into winner-take-all scenarios over a single building's deduction."
+    },
+    {
+      "type": "subheading",
+      "text": "The Research Issues Campaign and TCJA Impacts"
+    },
+    {
+      "type": "paragraph",
+      "text": "In February 2020, the LB&I division announced a sweeping \"Research Issues Campaign\" targeting the R&D credit and IRC § 174 expenditures. Recognizing that the credit consumes significant examination resources, the IRS deployed issue-based examinations to probe base period calculations, the validity of start-up elections, and the substantiation of the four-part test. The campaign specifically instructs examiners to evaluate whether taxpayers using the ASC method properly elected it, and to scrutinize fixed-base percentage estimates for lack of credible evidence—precisely the failure point illuminated in Quebe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Looking forward, the landscape of research taxation is further complicated by the Tax Cuts and Jobs Act (TCJA). Prior to 2022, taxpayers could immediately deduct domestic R&E expenses in the year incurred. Post-TCJA, IRC § 174 requires companies to capitalize and amortize domestic research expenses over five years (and foreign expenses over fifteen years), fundamentally altering the cash-flow calculus of corporate research investments."
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Conclusions and Recommendations"
+    },
+    {
+      "type": "paragraph",
+      "text": "United States v. Quebe is a cautionary tale regarding the collision of complex tax statutes and inadequate factual substantiation. The case reinforces that federal courts will strictly construe the definitions of \"qualified research\" under IRC § 41 and \"designer\" under IRC § 179D, offering no leniency for incomplete records or retroactive administrative approvals."
+    },
+    {
+      "type": "paragraph",
+      "text": "For corporate taxpayers and their advisors, the following strategic imperatives emerge from this exhaustive analysis:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Perils of Contingency-Fee Consulting: The involvement of specialty firms on a 25% contingency fee basis underscores a systemic risk. Contingency models inherently incentivize aggressive tax positions, as the consulting firm is only compensated if credits are generated. The court's rejection of the consultant's deposition as inadmissible hearsay serves as a stark reminder: consultants cannot serve as proxy witnesses for historical operational facts. Taxpayers remain ultimately responsible for substantiating their claims with contemporaneous, primary-source documentation.",
+        "Base Period Substantiation Demands Rigor: Taxpayers utilizing the IRC § 41 start-up method, especially those born of mergers and acquisitions, must conduct rigorous due diligence on the historical activities of their predecessor entities. Relying on the assumption that older contracts were all Time and Materials (and thus \"funded\") is a highly perilous strategy if primary source contracts or direct witness testimony from the 1980s cannot be produced to survive summary judgment. The implicit 40-year record retention standard established by the aggregation rules must be factored into corporate acquisitions.",
+        "Design-Assist is Not Design: Electrical and mechanical contractors engaging in \"design-assist\" or value engineering must recognize the strict boundaries of Section 179D. To claim an allocation, the contractor must prove they independently generated and modified the technical specifications, not merely selected equipment to fulfill an Architect of Record's parameters. Documentation, such as stamped engineering drawings bearing the contractor's name, is critical to differentiate a designer from a mere installer.",
+        "Contemporaneous Documentation is Absolute: Retroactive allocation letters signed by government officials are legally meaningless if the factual timeline proves the energy-efficient property was not physically placed in service during the claimed tax year. Taxpayers must synchronize their tax claims with immutable project milestones, such as certificates of substantial completion or equipment purchase orders."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Quebe decision serves to recalibrate the industry's approach to tax incentives, demanding that the pursuit of maximum financial benefit be matched equally by an unimpeachable foundation of operational and historical evidence."
+    }
+  ]
+}

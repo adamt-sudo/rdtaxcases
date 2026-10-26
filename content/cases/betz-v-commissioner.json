@@ -1,0 +1,466 @@
+{
+  "slug": "betz-v-commissioner",
+  "title": "Betz v. Commissioner",
+  "articleTitle": "The Evolution of Substantiation Standards in Federal Research Tax Credits: A Comprehensive Analysis of Betz v. Commissioner",
+  "caseNumber": "T.C. Memo. 2023-84",
+  "court": "United States Tax Court",
+  "year": 2023,
+  "subject": "Pilot Models and Documentation Standards",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Involved the strict substantiation of Qualified Research Expenses (QREs) and whether supply costs were directly used in the conduct of qualified research.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The federal research and development (R&D) tax credit, codified under Internal Revenue Code (IRC) Section 41, remains one of the most significant yet controversial incentives for technological innovation in the United States. Historically characterized by complex statutory requirements and frequent disputes between taxpayers and the Internal Revenue Service (IRS), the credit has recently entered a new era of heightened judicial scrutiny. This shift is most prominently evidenced by the United States Tax Court’s decision in Betz v. Commissioner, T.C. Memo. 2023-84, a case that has redefined the boundaries of technical uncertainty, the definition of pilot models, and the evidentiary burden required to substantiate qualified research expenses (QREs). The Betz decision serves as a definitive marker for the transition away from \"shortcut estimates\" and toward a requirement for granular, contemporaneous documentation that mirrors the scientific method."
+    },
+    {
+      "type": "heading",
+      "text": "The Legislative and Regulatory Framework of IRC Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "To understand the profound implications of Betz, one must first examine the legal foundation upon which the case was built. The R&D tax credit is designed to reward taxpayers for increasing their research activities, calculated based on the incremental amount of QREs—including wages, supply costs, and contract research expenses—incurred during the tax year. For an activity to constitute \"qualified research,\" it must satisfy a rigorous four-part test established under Section 41(d)(1)."
+    },
+    {
+      "type": "table",
+      "caption": "The Four-Part Test for Qualified Research",
+      "headers": [
+        "Test Component",
+        "Statutory Reference",
+        "Technical Requirement"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section 174 Test",
+            "§ 41(d)(1)(A)",
+            "Expenditures must be eligible for treatment as research or experimental (R&E) costs under Section 174."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Nature Test",
+            "§ 41(d)(1)(B)",
+            "Research must be undertaken to discover information that is \"technological in nature\" (i.e., relying on physical/biological sciences, engineering, or computer science)."
+          ]
+        },
+        {
+          "cells": [
+            "Business Component Test",
+            "§ 41(d)(2)(B)",
+            "Research must relate to a new or improved function, performance, reliability, or quality of a \"business component\" held for sale or use."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation Test",
+            "§ 41(d)(1)(C)",
+            "Substantially all of the activities must constitute elements of a process of experimentation through the evaluation of alternatives."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Section 174 Test is particularly critical, as it requires the taxpayer to demonstrate that the information available at the outset of the development did not establish the capability, methodology, or appropriate design of the business component—a condition known as \"technological uncertainty\". Furthermore, the Process of Experimentation (PoE) Test mandates that \"substantially all\" (interpreted as 80% or more) of the research activities must involve a systematic trial-and-error method, modeling, or simulation to resolve that uncertainty."
+    },
+    {
+      "type": "heading",
+      "text": "Factual Matrix: Catalytic Products International and the 19-Project Dispute"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Betz v. Commissioner, the taxpayers were shareholders of Catalytic Products International, Inc. (CPI), a subchapter S corporation that designed and supplied custom-built air pollution control systems. These systems, primarily catalytic and thermal oxidizers, are used in manufacturing environments to eliminate volatile organic compounds (VOCs) and other hazardous airborne pollutants. For the tax year 2014, CPI claimed $501,531 in net R&D credits based on wage and supply expenditures associated with 19 distinct projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "The business model of CPI involved a multidisciplinary engineering approach. CPI typically oversaw the component fabrication process and the assembly of the systems at subcontractor facilities before installing the units at customer locations. The IRS challenged the entirety of these credits, leading to a trial that focused on whether CPI’s custom engineering rose to the level of \"qualified research\" or was merely the application of existing knowledge to specific customer needs—an activity excluded under the \"adaptation exclusion\" of Section 41(d)(4)(B)."
+    },
+    {
+      "type": "subheading",
+      "text": "Detailed Analysis of the 19 Projects and Technical Failure Points"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court’s evaluation of CPI's portfolio revealed a significant disconnect between the company’s engineering narrative and the statutory requirements for R&D."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Project Category",
+        "Technical Context",
+        "Primary Failure in Betz"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Standard Oxidizers",
+            "Custom systems for VOC removal.",
+            "Design finalized early via spreadsheets; lack of pre-production uncertainty."
+          ]
+        },
+        {
+          "cells": [
+            "M&W Ireland Project",
+            "Wastewater treatment system.",
+            "Deemed an \"exact copy\" with minor site changes; failed adaptation exclusion."
+          ]
+        },
+        {
+          "cells": [
+            "Supply QREs",
+            "Major fabricated components.",
+            "Failed pilot model test; units were deemed final products, not experimental models."
+          ]
+        },
+        {
+          "cells": [
+            "Wage QREs",
+            "Engineering and supervisory labor.",
+            "Inadequate substantiation; reliance on vague testimony and shortcut estimates."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The court’s exhaustive project-by-project analysis indicated that CPI employees generally possessed sufficient technical details from the onset of each project to establish the appropriate design. This finding was fatal to the Section 174 Test. For instance, the court noted that for many projects, CPI had finalized the design during the proposal process using internal spreadsheets where engineers entered specifications, and the output dictated the design choices. This automation suggested that while the parameters were unique to the customer, the methodology and capability were well-established and certain."
+    },
+    {
+      "type": "heading",
+      "text": "The Section 174 Uncertainty Test and the \"Economically Irrational\" Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most impactful segments of the Betz ruling relates to the court's interpretation of when technological uncertainty begins and ends. CPI argued that uncertainty regarding the \"appropriate design\" of their oxidizers persisted until the systems cleared on-site testing at the customer's facility. The Tax Court categorically rejected this \"post-production\" theory of uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Timing and Documentation of Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court held that conducting testing after a product is fully fabricated and installed does not prove that its design remained uncertain before the testing was completed. Judge Nega emphasized that the timing of a taxpayer's expenditures can serve as an objective measure of their subjective intent. By the time on-site testing occurred, CPI had already incurred substantial costs in ordering specially sized, high-value components based on their design drawings. The court reasoned that it would be \"economically irrational\" for a taxpayer to incur such massive fabrication costs if it still lacked the information necessary to establish the appropriate design of the system as a whole."
+    },
+    {
+      "type": "paragraph",
+      "text": "This \"economically irrational\" argument creates a high bar for manufacturers of large-scale equipment. To qualify supply costs as QREs, the taxpayer must prove that the purpose of producing the unit was to evaluate and resolve uncertainty, rather than to deliver a functional product to a client. In Betz, the lack of \"early-stage\" testing at the component or sub-component level suggested that the units were end-products from the start, thereby disqualifying the supply costs under the Section 174 pilot model rule."
+    },
+    {
+      "type": "heading",
+      "text": "The Failure of the Pilot Model Exception"
+    },
+    {
+      "type": "paragraph",
+      "text": "The definition of a \"pilot model\" is a critical intersection between Section 41 and Section 174. A pilot model is defined as any representation or model of a product that is produced to evaluate and resolve uncertainty concerning the product. While a pilot model can ultimately be sold to a customer, its primary purpose at the time of fabrication must be investigative."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Betz, the court found that the shareholders failed to establish that the oxidizers were pilot models because they could not show a \"methodical plan\" to test design alternatives. The court's critique focused on the fact that CPI’s subcontractors were not constructing experimental prototypes but were instead building final systems according to finalized engineering specifications. The absence of testing protocols, hypothesis-testing logs, or documentation of design failures that led to revisions indicated that the \"testing\" performed was merely quality control or commissioning."
+    },
+    {
+      "type": "subheading",
+      "text": "The Adaptation Exclusion and the Discovery Test Critique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Further complicating CPI’s case was the application of the Section 41(d)(4)(B) adaptation exclusion. This rule states that research related to adapting an existing business component to a particular customer's requirement is not qualified research. In the M&W Ireland wastewater project, the court found that CPI delivered what was explicitly described in the proposal as an \"exact copy\" of a previous system, with only minor site-specific modifications to meet European standards. The court ruled that an exact copy with minor modifications falls squarely within the plain meaning of \"adaptation\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interestingly, legal scholars have noted that the court in Betz appeared to apply an obsolete \"discovery test\" from the 2001 final regulations, which required that research \"exceeds, expands, or refines the common knowledge\" in the field. Although the current \"new-to-the-taxpayer\" standard is supposed to be less burdensome, the court’s language suggested that CPI’s work was too \"routine\" or \"standard\" to qualify. While this reliance on outmoded reasoning might be a point of contention for future litigants, the outcome in Betz was primarily driven by a fundamental failure of proof rather than a misapplication of the discovery test alone."
+    },
+    {
+      "type": "heading",
+      "text": "Substantiation of Wage QREs and the Rejection of the Cohan Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Betz case provides a stern warning to taxpayers who rely on retrospective estimates and vague testimony to substantiate their research claims. CPI’s R&D credit was based on a study performed by a tax consultancy that estimated employee time allocations through interviews conducted years after the facts. The court found the resulting time allocations to be \"arbitrary\" and the testimony from CPI executives to be \"self-serving\" and \"lacking in credibility\"."
+    },
+    {
+      "type": "subheading",
+      "text": "The Limitations of the Cohan Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Cohan rule, derived from Cohan v. Commissioner (1930), allows a court to estimate the amount of a deductible expense when the taxpayer proves they incurred an expense but lacks exact records. However, the court in Betz—echoing recent decisions in Little Sandy Coal and Moore—declined to apply Cohan to the R&D wage claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "The court clarified that a taxpayer must first make a \"threshold showing\" that qualified research occurred before the court can exercise its discretion to estimate the expenses. Because CPI could not map specific employee activities to specific technical uncertainties at the project level, the court ruled that any attempt to estimate the wages would be \"unbridled speculation\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Comparison on Cohan Rule",
+        "Court's Stance",
+        "Reasoning"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Union Carbide (2009)",
+            "Applied.",
+            "Taxpayer proved existence of research; estimate had reasonable basis."
+          ]
+        },
+        {
+          "cells": [
+            "Little Sandy Coal (2023)",
+            "Rejected.",
+            "Shortcut estimates lacked principled breakdown of activities."
+          ]
+        },
+        {
+          "cells": [
+            "Betz v. Commissioner (2023)",
+            "Rejected.",
+            "Vague testimony conflicted with contemporaneous record; no baseline for estimate."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This refusal to apply Cohan underscores the absolute necessity for contemporaneous time-tracking or, at the very least, robust technical documentation that links an employee’s daily tasks to a scientific process of experimentation."
+    },
+    {
+      "type": "heading",
+      "text": "The Funded Research Exclusion: Intellectual Property and Substantial Rights"
+    },
+    {
+      "type": "paragraph",
+      "text": "A significant portion of the Betz ruling analyzed whether CPI’s research was \"funded\" by its customers. Under Section 41(d)(4)(H), research is excluded if the taxpayer does not retain \"substantial rights\" in the results or if the payment is not contingent on the success of the research."
+    },
+    {
+      "type": "subheading",
+      "text": "Analysis of CPI's Customer Contracts"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court scrutinized eight specific contracts and found that in five of them, CPI did not retain substantial rights. These contracts either granted the customer \"exclusive ownership\" of the intellectual property or included restrictive clauses that prevented CPI from using the research results in its future business."
+    },
+    {
+      "type": "paragraph",
+      "text": "The court established that \"incidental benefits,\" such as gaining general experience or proficiency in a field, do not constitute substantial rights. If a contract gives the customer the right to exploit the results exclusively, the research is deemed to be performed for the customer, making the expenses ineligible for the credit even if the taxpayer bore financial risk."
+    },
+    {
+      "type": "heading",
+      "text": "Comparative Jurisprudence: The PoE Trilogy"
+    },
+    {
+      "type": "paragraph",
+      "text": "To fully appreciate the impact of Betz, it must be compared with other recent Tax Court and Appellate rulings, specifically Little Sandy Coal Co. v. Commissioner and Phoenix Design Group, Inc. v. Commissioner. Together, these cases form a \"trilogy\" that defines the current standard for the Process of Experimentation (PoE)."
+    },
+    {
+      "type": "subheading",
+      "text": "Little Sandy Coal and the PoE Numerator"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Little Sandy Coal, the 7th Circuit upheld the disallowance of credits for a shipbuilder, but it diverged from the Tax Court’s reasoning in a way that provides a glimmer of hope for taxpayers. The Tax Court had categorically excluded the wages of direct support and supervisory personnel from the numerator of the 80% \"substantially all\" fraction. The 7th Circuit reversed this narrow interpretation, ruling that support and supervision can be included in the numerator if those individuals are actually engaged in experimentation tasks. However, the taxpayer in Little Sandy Coal still lost because, like CPI in Betz, they relied on arbitrary allocations rather than granular time data."
+    },
+    {
+      "type": "subheading",
+      "text": "Phoenix Design and Routine Design"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Phoenix Design Group, the Tax Court ruled that standard mechanical, electrical, and plumbing (MEPF) engineering phases did not constitute qualified research. The court found that \"iterative calculations\" to determine a design are not a process of experimentation if they merely apply established principles to achieve a known result. The court’s demand for a clear showing of \"hypothesis, testing, and evaluation of alternatives\" in Phoenix Design mirrors the skepticism toward \"custom engineering\" seen in Betz."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case",
+        "Key PoE Issue",
+        "Judicial Guidance"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Little Sandy Coal",
+            "Substantially All Fraction.",
+            "Support/Supervision can count if tied to PoE tasks."
+          ]
+        },
+        {
+          "cells": [
+            "Betz",
+            "Pilot Model & Uncertainty.",
+            "Final products are not pilot models; testing must occur early."
+          ]
+        },
+        {
+          "cells": [
+            "Phoenix Design",
+            "Routine Engineering vs. PoE.",
+            "Calculations based on common knowledge fail the scientific method test."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Accuracy-Related Penalties: The Cost of Negligence"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most severe consequences of the Betz decision was the court's imposition of 20% accuracy-related penalties under Section 6662(a). The court found the shareholders negligent because they failed to maintain adequate books and records to substantiate their claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "The taxpayers attempted to argue they had \"reasonable cause\" for the underpayment because they relied on professional advice from their tax consultants. However, the court rejected this defense, noting that the taxpayers could not demonstrate why they would be exempt under Section 6664(c)(1). Specifically, the court highlighted that the consultancy’s fees were based on a percentage of the credit identified, and the taxpayers had not properly overseen the consultant's work to ensure its accuracy. This serves as a warning that hiring a professional does not absolve a taxpayer of the responsibility to ensure the technical integrity of their claim."
+    },
+    {
+      "type": "heading",
+      "text": "Implications for Future R&D Tax Credit Applications"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Betz case provides a blueprint for how the IRS and the courts will evaluate future R&D claims. Taxpayers must move beyond narrative summaries and \"check-the-box\" studies toward a system of rigorous technical and financial governance."
+    },
+    {
+      "type": "subheading",
+      "text": "Implementation of Granular Time-Tracking and Technical Nexus"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rejection of shortcut estimates in Betz and Little Sandy Coal suggests that project-level time-tracking is becoming a de facto requirement for successfully defending an R&D claim. Taxpayers should consider implementing systems that capture employee time at the project and even sub-component level, specifically identifying hours spent on experimentation (testing, evaluation, design revisions) versus routine fabrication or administration."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the \"Technical Nexus\" concept is now paramount. Taxpayers must establish a direct link among:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The specific technical uncertainty identified at the outset.",
+        "The investigative activities (experimentation) undertaken to resolve it.",
+        "The specific expenditures (wages and supplies) incurred for those activities."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Shrinking-Back\" Strategy as a Defensive Tool"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court in Betz acknowledged the possibility that certain wages or supplies might qualify at the component or sub-component level through the application of the \"shrinking-back\" rule provided in Treasury Regulation Section 1.41-4(b)(2). However, CPI failed because they attempted to claim the entire system as a business component and did not provide the records necessary to apply the rule to smaller subsets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Future claimants should identify specific, innovative sub-components within a larger project that meet the R&D criteria, even if the project as a whole is largely an adaptation of a previous design. This modular approach protects a portion of the credit from total disallowance."
+    },
+    {
+      "type": "subheading",
+      "text": "Contract Review and IP Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers must conduct a proactive legal review of their customer contracts to ensure they retain \"substantial rights\" in the research results. Standard industrial contracts often contain \"Work Made for Hire\" or \"Exclusive Ownership\" clauses that can inadvertently disqualify an otherwise valid R&D claim. To preserve the credit, contracts should explicitly allow the taxpayer to retain a non-exclusive, royalty-free right to use the research results in their trade or business."
+    },
+    {
+      "type": "subheading",
+      "text": "Alignment with New IRS Reporting Requirements (Form 6765)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The IRS is currently revamping the reporting process for R&D credits, with a revised Form 6765 expected for tax years 2024 and beyond. The new form will require qualitative information that mirrors the issues litigated in Betz, including:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A detailed identification of each business component.",
+        "The specific information each individual sought to discover (uncertainty).",
+        "A breakdown of QREs per component."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Betz decision effectively provides the judicial foundation for these heightened reporting requirements. Taxpayers who cannot answer these questions at the time of filing will likely face automatic disallowance and penalties in the event of an audit."
+    },
+    {
+      "type": "heading",
+      "text": "The Impact of the Tax Cuts and Jobs Act (TCJA) and the Section 174 Amortization"
+    },
+    {
+      "type": "paragraph",
+      "text": "While Betz was a pre-TCJA case, its findings are even more consequential under the current law. Starting in 2022, Section 174 expenditures can no longer be deducted immediately; they must be capitalized and amortized over five years for domestic research (15 years for foreign). This shift changes the financial calculus for taxpayers. Because the Section 41 credit is based on Section 174-eligible expenditures, a finding that a project failed the Section 174 test (as in Betz) means the taxpayer loses both the credit and the ability to amortize the costs, potentially leading to a total loss of tax benefit and the assessment of penalties."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Discovery Test\" and Future Litigation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court’s reliance on the potentially obsolete \"discovery test\" in Betz creates a point of legal friction. If taxpayers can prove that their work was \"new to them\" and involved technical uncertainty, even if it used existing principles, they may be able to overcome an adaptation exclusion challenge. However, this requires a level of documentation that CPI simply did not have."
+    },
+    {
+      "type": "heading",
+      "text": "Synthesis of Key Findings and Future Outlook"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Betz v. Commissioner decision serves as a transformative precedent that shifts the burden of proof from a narrative level to a granular, scientific level. The court’s rejection of the \"post-production testing\" theory of uncertainty forces taxpayers to identify and document their research activities much earlier in the product lifecycle."
+    },
+    {
+      "type": "subheading",
+      "text": "The Playbook for Future Claims"
+    },
+    {
+      "type": "paragraph",
+      "text": "To mitigate the risks highlighted by Betz, technical taxpayers and their advisors should adopt the following \"playbook\" for R&D credit substantiation:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Action Item",
+        "Technical/Legal Objective",
+        "Evidence Required"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Pre-Development Uncertainty Audit",
+            "Satisfy Sec. 174 Test.",
+            "Memos documenting specific design unknowns before production."
+          ]
+        },
+        {
+          "cells": [
+            "Hypothesis & Alternatives Tracking",
+            "Satisfy PoE Test.",
+            "Logs of design variations, simulations, and failed iterations."
+          ]
+        },
+        {
+          "cells": [
+            "Granular Time-Tracking",
+            "Reject Shortcut Estimates.",
+            "Project-level logs mapping hours to specific PoE tasks."
+          ]
+        },
+        {
+          "cells": [
+            "IP Clause Renegotiation",
+            "Avoid Funded Research Exclusion.",
+            "Contractual language granting the taxpayer rights to results."
+          ]
+        },
+        {
+          "cells": [
+            "Sub-component Shrink-Back",
+            "Protect Partial Credit.",
+            "Technical narratives focused on novel modules within standard systems."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The decision in Betz makes it clear that the R&D tax credit is no longer a \"check-the-box\" benefit that can be secured through an after-the-fact study. It requires a culture of documentation and a deep understanding of the statutory requirements that govern the scientific method within an industrial context. By focusing on the \"technical nexus\" and maintaining contemporaneous records, taxpayers can ensure their claims are not only viable but also resilient in the face of the IRS's increasingly rigorous examination standards. The Betz case, while a significant loss for the taxpayer, provides the clarity necessary for future innovators to navigate the complex intersection of engineering excellence and federal tax law."
+    }
+  ]
+}

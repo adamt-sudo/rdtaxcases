@@ -1,0 +1,492 @@
+{
+  "slug": "united-stationers-inc-v-united-states",
+  "title": "United Stationers, Inc. v. United States",
+  "articleTitle": "The Jurisprudence of Innovation: United Stationers, Inc. v. United States and the Evolving Standards for Internal Use Software R&D Credits",
+  "caseNumber": "982 F. Supp. 1279",
+  "court": "United States District Court for the Northern District of Illinois",
+  "year": 1997,
+  "subject": "Discovery Test and Internal-Use Software",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Denied the credit for internal-use software because it merely adapted existing technology and failed the discovery test.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The legislative intent behind the Credit for Increasing Research Activities, codified as Internal Revenue Code (IRC) § 41, has historically sought to incentivize domestic innovation by providing a tax benefit for expenditures that advance the technological state of American industry. However, the application of this credit to software development, particularly software designed for a company's own internal operations, has remained a contentious frontier of tax law for decades. The landmark case of United Stationers, Inc. v. United States stands as a definitive moment in this legal history, crystallizing the stringent requirements that taxpayers must overcome to qualify for the credit in a pre-modern regulatory environment. By examining the facts of this case, the judicial reasoning of the Seventh Circuit, and the subsequent evolution of Treasury regulations, it becomes clear that United Stationers established a baseline of rigor that continues to influence the Internal Revenue Service (IRS) and the courts today."
+    },
+    {
+      "type": "heading",
+      "text": "I. The Statutory and Legislative Foundation of the Research Tax Credit"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Research and Development (R&D) tax credit was originally introduced by the Economic Recovery Tax Act of 1981 in response to an economic slowdown and a perceived trend of outsourcing technical jobs. Although initially enacted as a temporary measure, the credit's popularity led to fifteen extensions and its eventual permanent status through the Protecting Americans from Tax Hikes (PATH) Act of 2015. The overarching goal has consistently been to reward businesses for driving innovation and maintaining high-skilled employment within the United States."
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure the credit is reserved for truly innovative activities, IRC § 41(d) mandates a rigorous four-pronged test for qualified research. Any activity failing a single prong is disqualified from the credit. The historical tension in the law, as highlighted in United Stationers, often centers on the second and fourth prongs of this test."
+    },
+    {
+      "type": "table",
+      "caption": "The Four-Part Test for Qualified Research Activities",
+      "headers": [
+        "Test Requirement",
+        "IRC Basis",
+        "Legal Standard of Proof"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section 174 Test",
+            "§ 41(d)(1)(A)",
+            "Expenditures must be deductible as R&D costs in the \"experimental or laboratory sense\" to eliminate uncertainty."
+          ]
+        },
+        {
+          "cells": [
+            "Technological in Nature",
+            "§ 41(d)(1)(B)(i)",
+            "The process of experimentation must fundamentally rely on principles of hard sciences such as computer science or engineering."
+          ]
+        },
+        {
+          "cells": [
+            "Business Component Test",
+            "§ 41(d)(1)(B)(ii)",
+            "The resulting information must be useful in the development of a new or improved product or process."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation",
+            "§ 41(d)(1)(C)",
+            "Substantially all (at least 80%) of the activities must involve the systematic evaluation of alternatives to resolve uncertainty."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The interaction between these tests and the specific exclusion for Internal Use Software (IUS) creates a tiered system of scrutiny. Under § 41(d)(4)(E), research regarding computer software developed primarily for the taxpayer’s own use is excluded unless it meets a \"high threshold of innovation\" prescribed by regulations."
+    },
+    {
+      "type": "heading",
+      "text": "II. Factual Background of United Stationers, Inc. v. United States"
+    },
+    {
+      "type": "paragraph",
+      "text": "United Stationers, Inc. (USI), at the time of the dispute, was recognized as the nation’s largest wholesaler of office supplies. During the late 1980s, the company underwent rapid expansion, which strained its existing manual warehousing and distribution systems. In fiscal year 1988, USI initiated a large-scale project to automate and computerize its business operations to address these inefficiencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "The company purchased a foundational software package called \"DCS\" for approximately $956,000 from a consulting firm, using it as a \"building block\" to develop eight distinct software projects. USI maintained that although DCS provided the file structure and data access segments, the software could not be used as purchased. Extensive customization and the development of new application codes were required to meet USI's specific operational needs."
+    },
+    {
+      "type": "subheading",
+      "text": "Analysis of the Eight Software Projects at Issue"
+    },
+    {
+      "type": "paragraph",
+      "text": "The controversy centered on eight specific projects that USI claimed as qualified research. These projects were integral to its plan to centralize management and improve customer response times."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Project Name",
+        "Primary Functional Objective",
+        "Relationship to Business Component"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Document Retention (DRRS)",
+            "Maintenance of customer histories, purchase records, and file retrieval.",
+            "Improved recordkeeping reliability."
+          ]
+        },
+        {
+          "cells": [
+            "Central Invoice Project (CIP)",
+            "Transitioning to paperless, centralized invoicing at corporate headquarters.",
+            "Improved administrative efficiency and data access."
+          ]
+        },
+        {
+          "cells": [
+            "Concept 90",
+            "Marketing program to respond to competitor pricing and manage concessions.",
+            "Increased competitiveness against discounters."
+          ]
+        },
+        {
+          "cells": [
+            "FDP Hierarchy System",
+            "Creation of hierarchical inventory data by region and item.",
+            "Improved inventory management."
+          ]
+        },
+        {
+          "cells": [
+            "Automated Inbound Processing",
+            "Automating incoming and outgoing shipping procedures.",
+            "Replacement of manual warehousing labor."
+          ]
+        },
+        {
+          "cells": [
+            "Receiving System",
+            "Integration with shipping programs to manage dock-level receipts.",
+            "Automation of the supply chain."
+          ]
+        },
+        {
+          "cells": [
+            "Order Processing Enhancements",
+            "Improving the speed of order entry and fulfillment.",
+            "Reduction in operational cycle time."
+          ]
+        },
+        {
+          "cells": [
+            "Inventory Control Algorithms",
+            "Refinement of stock tracking across the distribution network.",
+            "Optimization of working capital."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For the fiscal year ending August 31, 1988, USI claimed a deduction of $156,457 under § 174 for these development costs. The IRS allowed the deduction, which prompted USI to file an amended return seeking a § 41 research tax credit for the same expenditures. When the IRS took no action on the claim, USI sued for a refund in federal court."
+    },
+    {
+      "type": "heading",
+      "text": "III. The District Court's Denial of the Credit"
+    },
+    {
+      "type": "paragraph",
+      "text": "The district court’s ruling, largely based on a magistrate judge's recommendation, set the stage for a critical interpretation of the term \"discovery\" in the context of R&D. The court found that although USI’s projects were \"technological in nature,\" they did not satisfy the requirement for discovering information."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Discovery\" Hurdle"
+    },
+    {
+      "type": "paragraph",
+      "text": "The district court relied on a strict dictionary definition of \"discover,\" meaning \"to obtain for the first time sight or knowledge of\" or \"to make known something secret, hidden, or unknown\". From this perspective, USI was not discovering new information about computer science; rather, it was applying existing technological information provided by the DCS software vendor and adapting it to its business. The court emphasized that applying, modifying, or building upon pre-existing knowledge does not constitute discovery within the meaning of § 41(d)(1)(B)(i)."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure of the Process of Experimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court also scrutinized the process of experimentation. While USI argued that the ultimate success of the projects was in doubt at the outset, the court made a vital distinction between business uncertainty and technical uncertainty. For the CIP project, for example, USI claimed there was no guarantee they would be able to provide accurate invoices on a timely basis. The court found that this was a doubt about the expected benefits of the system, not a doubt about whether the technology existed to build such a system."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the \"means\" to achieve the results were known—relying on standard programming practices and existing software segments—the court concluded that USI did not engage in a process of experimentation in the \"scientific sense\". This ruling established that \"tinkering,\" \"debugging,\" or \"fine-tuning\" software to meet specific business needs does not rise to the level of systematic hypothesis testing required for the R&D credit."
+    },
+    {
+      "type": "heading",
+      "text": "IV. The Seventh Circuit’s Affirmation and the Discovery Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the Seventh Circuit Court of Appeals affirmed the district court’s decision, further entrenching the \"Discovery Rule\" as it existed in 1998. The appellate court’s analysis focused on whether software development must \"expand or refine existing principles of computer science\" to be eligible for the credit."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Broad Effect\" Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit held that for software research to satisfy the technological-information requirement, the resulting information must be \"of broad effect\" and intended to expand the field of computer science. This was a high bar, suggesting that the research must be \"pioneering\" rather than routine commercial development. The court contrasted USI's activities with more foundational research, noting that variations on themes long used by other developers do not qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "This interpretation was consistent with the \"new to the world\" standard, which required that the taxpayer create something that did not exist anywhere else, rather than merely something \"new to the taxpayer\". This strict standard became a significant barrier for many corporate taxpayers during the late 1990s and early 2000s, leading to uniform failure for those seeking credits for commercial software development."
+    },
+    {
+      "type": "subheading",
+      "text": "Scientific Method vs. Trial and Error"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit also clarified the standard for experimentation, reinforcing the idea that it must be modeled after the scientific method. USI’s industrious development and iterative \"trial and error\" were deemed insufficient because they were not designed to dispel uncertainty about the \"technological possibility\" of the software’s success. The court noted that \"industrious software development\" is simply a subset of business steps taken to resolve uncertainty, but only those steps involving systematic hypothesis testing for technical feasibility qualify as experimentation under § 41."
+    },
+    {
+      "type": "heading",
+      "text": "V. Comparison with Concurrent Jurisprudence: Norwest and Eustace"
+    },
+    {
+      "type": "paragraph",
+      "text": "To fully understand the impact of United Stationers, it must be viewed alongside contemporary cases like Norwest Corp. v. Commissioner and Eustace v. Commissioner. These cases collectively defined a restrictive era for software R&D claims."
+    },
+    {
+      "type": "subheading",
+      "text": "The Norwest Decision"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Norwest, the Tax Court evaluated eight software projects similar to USI’s and reached an almost identical conclusion. The court allowed the credit for only one project—the \"Strategic Banking System\"—because it involved the development of a customer-based module designed to interface with diverse, non-compatible databases to handle massive transaction volumes. This specific project was deemed to have used existing technology in \"new and dynamic ways\" that expanded computer science principles, whereas the other seven projects were rejected for lacking significant technical risk."
+    },
+    {
+      "type": "subheading",
+      "text": "The Eustace Decision"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit later applied the United Stationers standard in Eustace v. Commissioner, where the taxpayer sought credits for insurance risk-rating software. The court in Eustace highlighted that the taxpayer's own experts and employees admitted they were not conducting \"research\" in the scientific sense, but rather \"tinkering\" to make the software handle more ratings computations and simultaneous users. The court reiterated that \"fine-tuning\" or \"debugging\" programs to variations of themes used by other developers does not meet the \"scientific sense\" of experimentation established in United Stationers."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Name",
+        "Core Credit Status",
+        "Judicial Reasoning"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "United Stationers",
+            "Denied",
+            "Failed \"Discovery\" and \"Experimentation\" due to use of known methodologies."
+          ]
+        },
+        {
+          "cells": [
+            "Norwest",
+            "1 of 8 projects allowed",
+            "Strategic Banking System involved unique technical complexity; others lacked technical risk."
+          ]
+        },
+        {
+          "cells": [
+            "Eustace",
+            "Denied",
+            "Activities characterized as \"normal software development\" and \"tinkering\"."
+          ]
+        },
+        {
+          "cells": [
+            "Tax & Accounting",
+            "Initially allowed, then reversed",
+            "Tenth Circuit held discovery requires information \"separate from the product\"."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VI. Internal Use Software and the High Threshold of Innovation"
+    },
+    {
+      "type": "paragraph",
+      "text": "A secondary but equally critical holding in United Stationers was that USI’s software fell under the \"Internal Use Software\" (IUS) exclusion of § 41(d)(4)(E). Because the software was developed for USI's own administrative functions—warehousing, invoicing, and marketing—rather than for sale to third parties, it had to meet a \"High Threshold of Innovation\" test."
+    },
+    {
+      "type": "subheading",
+      "text": "The Three-Part Innovation Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legislative history of the 1986 Act, later codified in proposed and final regulations, established three additional requirements for IUS:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Innovative Test: The software must be intended to be unique or novel and result in a reduction in cost or improvement in speed that is substantial and economically significant.",
+        "Significant Economic Risk Test: The taxpayer must commit substantial resources, and there must be \"substantial uncertainty\" due to technical risk that the resources would be recovered.",
+        "Commercial Availability Test: The software cannot be available to be purchased, leased, or licensed in the commercial market for the intended purpose without modification."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The United Stationers court found that USI failed the \"significant economic risk\" test. Although the company spent a large sum, the amount of expenditure is not the deciding factor if the feasibility of the development is not in doubt. Because USI could essentially guarantee that the software would eventually work given enough time and money, there was no \"technical risk\" that the project would fail due to an inability to build the system."
+    },
+    {
+      "type": "subheading",
+      "text": "Documentation of Innovation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The case also underscored the necessity for \"substantial data\" rather than \"nonspecific project summaries\". The court noted that USI’s documentation was general and failed to specifically demonstrate the experimental nature of the activities. This emphasis on documentation has become a cornerstone of IRS audit techniques, where nonspecific descriptions of uncertainty are frequently rejected."
+    },
+    {
+      "type": "heading",
+      "text": "VII. The Regulatory Shift: T.D. 9104 and the Death of the Discovery Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The restrictive \"Discovery Rule\" applied in United Stationers was highly controversial, with critics arguing that it misapplied congressional intent by requiring taxpayers to advance the entire field of computer science. In response to this feedback, the Treasury Department issued Final Regulations in 2004 (T.D. 9104) that fundamentally changed the landscape."
+    },
+    {
+      "type": "subheading",
+      "text": "New to the Taxpayer Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "T.D. 9104 explicitly stated that research does not require the taxpayer to obtain information that \"exceeds, expands, or refines the common knowledge of skilled professionals\" in the field. Instead, the credit only requires that the research be intended to \"eliminate uncertainty\" for the taxpayer. Uncertainty exists if the information available to the taxpayer does not establish the capability, method, or appropriate design of the business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "This transition from \"New to the World\" to \"New to the Taxpayer\" significantly lowered the threshold for the second prong of the four-part test. Had United Stationers been decided under T.D. 9104, the court would not have been able to deny the credit simply because USI used known methodologies or built upon existing vendor software, provided the company could prove that the appropriate design of their specific application was uncertain at the outset."
+    },
+    {
+      "type": "subheading",
+      "text": "The Impact of FedEx v. United States"
+    },
+    {
+      "type": "paragraph",
+      "text": "The evolution continued in cases like FedEx Corp. v. United States, where the government eventually abandoned the \"Discovery Test\" altogether. In that case, the IRS attempted to force FedEx to adhere to older proposed regulations that included the \"discovery\" requirement as a condition for using favorable IUS rules. The district court ruled, and the Department of Justice later conceded in a settlement, that the \"Discovery Rule\" was contrary to congressional intent and that FedEx only had to meet the \"technical uncertainty\" and \"process of experimentation\" tests under the modern standard."
+    },
+    {
+      "type": "heading",
+      "text": "VIII. The 2016 Internal Use Software Regulations: T.D. 9786"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most transformative regulatory update for software developers came in 2016 with T.D. 9786. These regulations provided clarity on the definition of IUS and introduced new avenues for software to qualify for the R&D credit without meeting the \"high threshold of innovation.\""
+    },
+    {
+      "type": "subheading",
+      "text": "Redefining Internal Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under T.D. 9786, software is only considered IUS if it is developed for \"general and administrative functions\" such as financial management, human resources, or back-office service functions. Crucially, the regulations introduced a significant exception for \"third-party interaction\" software."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Category",
+        "Regulation (T.D. 9786)",
+        "Applicable Test"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Commercial Software",
+            "Developed for sale, lease, or license to third parties.",
+            "Four-Part Test only."
+          ]
+        },
+        {
+          "cells": [
+            "Third-Party Interaction",
+            "Enables customers to initiate functions or review data (e.g., online orders, payment processing).",
+            "Four-Part Test only."
+          ]
+        },
+        {
+          "cells": [
+            "Back-Office IUS",
+            "Payroll, bookkeeping, HR, inventory management (if not customer-facing).",
+            "Four-Part Test PLUS High Threshold of Innovation."
+          ]
+        },
+        {
+          "cells": [
+            "Dual-Function Software",
+            "Software with both G&A and third-party functions.",
+            "Bifurcation or Safe Harbor (10% rule)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Dual-Function Safe Harbor"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2016 regulations acknowledge that many modern systems serve multiple purposes. Taxpayers can now \"bifurcate\" or split the costs of software that has both internal and external functions. A \"Safe Harbor\" exists where, if the taxpayer reasonably anticipates that third-party interaction will constitute at least 10% of the software's use, then 25% of the development costs can automatically qualify as non-IUS (subject only to the four-part test). For example, if a company develops 25 user interface screens and at least 3 allow customer interaction (12% of the total), they can leverage this safe harbor."
+    },
+    {
+      "type": "paragraph",
+      "text": "This regulatory evolution addresses many of the problems seen in United Stationers. In the 1980s, USI's Central Invoice Project and Receiving System were purely internal. In today's cloud-based environment, if those same systems allowed customers to log in and check their own invoice status or allowed suppliers to update shipping data, they might be classified as third-party interaction software, exempting them from the rigorous high threshold of innovation that doomed USI’s original claim."
+    },
+    {
+      "type": "heading",
+      "text": "IX. Modern Implications for Documentation and the Process of Experimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the \"Discovery Rule\" is dead, the \"Process of Experimentation\" requirement from United Stationers is very much alive and remains the primary reason R&D credits are denied today."
+    },
+    {
+      "type": "subheading",
+      "text": "The Siemer Milling Precedent"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2019 case Siemer Milling Co. v. Commissioner reinforces the lessons of United Stationers regarding documentation. Like USI, Siemer Milling argued that its product and process improvements involved experimentation. However, the Tax Court found that the record was \"devoid of evidence that the petitioner formulated or tested hypotheses, or engaged in modeling, simulation, or systematic trial and error\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "The court emphasized that broad statements such as \"engineering principles were used\" or \"the taxpayer uses trial and error\" are insufficient. The modern standard requires a \"methodical plan\" involving:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Identifying a specific technical uncertainty at the outset.",
+        "Developing one or more hypotheses to resolve that uncertainty.",
+        "Testing and analyzing those hypotheses through modeling or simulation.",
+        "Refining or discarding the hypotheses as part of a sequential design process."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Documentation for Software Development Life Cycles (SDLC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For future R&D applications, particularly in software, simply following a standard SDLC (e.g., Agile or Scrum) is helpful but not sufficient. Each business component must be independently documented to reflect the actual research performed. This includes maintaining real-time documentation such as design iterations, test results, and engineering notes. The IRS now requires a clear breakdown of business components and a narrative linking each expense to the specific research activities."
+    },
+    {
+      "type": "heading",
+      "text": "X. Legal and Administrative Context: The End of Chevron Deference"
+    },
+    {
+      "type": "paragraph",
+      "text": "A final and burgeoning implication for future R&D tax credit claims lies in the changing landscape of administrative law. The Supreme Court's decision in Loper Bright Enterprises v. Raimondo, which overturned Chevron deference, significantly impacts how courts interpret Treasury regulations."
+    },
+    {
+      "type": "subheading",
+      "text": "Impact on Tax Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, courts were required to defer to the IRS's interpretation of the tax code if the statute was ambiguous and the regulation was \"reasonable.\" Under Loper Bright, courts must now \"decide all relevant questions of law\" independently, meaning that Treasury regulations no longer enjoy an automatic presumption of validity."
+    },
+    {
+      "type": "paragraph",
+      "text": "This change could open the door for taxpayers to challenge more restrictive parts of the IUS regulations. For instance, if a taxpayer believes that the definition of \"internal use\" or the specific \"high threshold of innovation\" criteria in T.D. 9786 are more restrictive than what Congress intended in § 41, they can now challenge those regulations with a greater likelihood of success in court. This makes the original legislative history of the 1986 Act, which United Stationers and Norwest heavily relied upon, even more critical for future litigation, as courts will look to the \"contemporaneous construction\" of the statute by those who drafted it."
+    },
+    {
+      "type": "heading",
+      "text": "XI. Conclusion: The Enduring Legacy of United Stationers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The case of United Stationers, Inc. v. United States remains a seminal chapter in the history of the R&D tax credit, serving as both a landmark for the restrictive \"Discovery Rule\" and a warning about the perils of inadequate documentation. While the specific legal standard for discovery has been relaxed by T.D. 9104, the court’s insistence on technical uncertainty and a scientific process of experimentation continues to define the boundary between routine business operations and qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "The modern software developer operates in an environment vastly different from the 1980s mainframe era of USI. Today's systems are interconnected, customer-facing, and built on rapid iteration. However, the fundamental questions posed by the United Stationers court remain relevant:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Is the taxpayer resolving a technical doubt about capability, method, or design, or simply a business doubt about economic benefit?",
+        "Is the development following a systematic, documented process of testing alternatives, or is it merely industrious troubleshooting?",
+        "Does the software serve a back-office administrative function, or does it enable primary interaction with third parties?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For future R&D applications in the USA, United Stationers dictates that the path to a successful claim is paved with contemporaneous evidence of technical challenges and methodical solutions. The evolution of the law has moved from requiring \"new to the world\" breakthroughs to requiring \"new to the taxpayer\" technical resolution, but the requirement for a rigorous, scientific approach remains the ultimate gatekeeper of the research tax credit. As administrative law shifts and regulations become more subject to judicial scrutiny, the core reasoning of United Stationers regarding what constitutes \"experimentation\" will likely remain the gold standard for distinguishing between routine software development and the innovative research that § 41 was designed to reward."
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "slug": "eustace-v-commissioner",
+  "title": "Eustace v. Commissioner",
+  "articleTitle": "The Jurisprudential Legacy of Eustace v. Commissioner: Navigating Documentation and Innovation in the Research and Development Tax Credit",
+  "caseNumber": "T.C. Memo. 2001-66",
+  "court": "United States Tax Court",
+  "year": 2001,
+  "subject": "Substantiation and the Cohan Doctrine",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Ruled that off-the-shelf software modified for internal use did not meet the high threshold of innovation required for the credit.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The evolution of the Research and Development (R&D) tax credit under Section 41 of the Internal Revenue Code has been a turbulent journey, marked by shifting regulatory definitions and increasingly stringent judicial scrutiny. At the epicenter of this evolution lies the landmark case of Eustace v. Commissioner, a 2002 decision by the United States Court of Appeals for the Seventh Circuit that affirmed a prior Tax Court memorandum. This case remains a foundational pillar in R&D tax controversy, not only for its restrictive interpretation of \"qualified research\" within the software industry but also for establishing a rigorous standard for documentation and the categorical rejection of retrospective estimates. As the Internal Revenue Service (IRS) implements transformative reporting requirements through the 2024 and 2025 revisions of Form 6765, the principles established in Eustace regarding project-level nexus and contemporaneous evidence have ascended to renewed significance."
+    },
+    {
+      "type": "heading",
+      "text": "The Statutory Architecture and Historical Context of Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "The R&D tax credit was originally conceived in 1981 as a temporary measure to stimulate a flagging American economy by incentivizing the technical advancements necessary for national growth. Through Section 41, Congress sought to lower the cost of domestic innovation, particularly in fields where technical uncertainty presented a significant barrier to entry. Over the decades, however, the credit matured from a simple incentive into one of the most litigated and scrutinized areas of tax law. To navigate this complexity, a taxpayer’s activities must satisfy a rigorous four-part test. First, the expenditures must be eligible for treatment as specified research or experimental expenditures under Section 174, the \"Section 174 Test\". Second, the research must be undertaken for the purpose of discovering information that is technological in nature, known as the \"Technological Information Test\". Third, the application of that research must be intended to be useful in the development of a new or improved business component, the \"Business Component Test\". Finally, substantially all of the research activities must constitute elements of a process of experimentation, the \"Process of Experimentation Test\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table delineates the primary requirements of the Section 41 four-part test as interpreted through the lens of modern jurisprudence and the Eustace decision:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Test Component",
+        "Legal Standard and Requirement",
+        "Impact of Eustace Interpretation"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section 174 Test",
+            "Expenditures must be connected to the taxpayer's trade or business and intended to eliminate uncertainty.",
+            "Reinforced that uncertainty must be technical, not merely business or design-related."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Information Test",
+            "Research must fundamentally rely on principles of physical or biological sciences, engineering, or computer science.",
+            "Established that \"simple industrious development\" does not equate to discovering technological information."
+          ]
+        },
+        {
+          "cells": [
+            "Business Component Test",
+            "Research must be intended for the development of a new or improved product, process, software, technique, formula, or invention.",
+            "Emphasized that the business component must be held for sale, lease, license, or used in the trade or business."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation Test",
+            "80% or more of activities must involve evaluating alternatives through a scientific method (modeling, simulation, trial and error).",
+            "Differentiated the \"scientific sense\" of experimentation from the layperson’s \"trial and error\"."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Facts of Applied Systems and the Eustace Petition"
+    },
+    {
+      "type": "paragraph",
+      "text": "The petitioners in Eustace v. Commissioner were the shareholders of Applied Systems, a Subchapter S corporation that developed and sold sophisticated software used by independent insurance agencies to manage their multifaceted business operations. During the early 1990s, Applied Systems embarked on a massive effort to enhance its existing software packages. These enhancements included the development of additional ratings computations to handle complex transaction modules, the implementation of concurrency management to allow multiple users to access files simultaneously without data corruption, and the creation of a memory-efficient proprietary text editor to replace a third-party word processing module."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied Systems did not initially claim the research credit on its originally filed income tax returns for 1990 through 1992. However, the corporation eventually hired a new tax manager who embarked on a retrospective study to identify qualifying expenses. This manager interviewed five departments and approximately 450 employees, ultimately filing amended returns claiming substantial R&D credits. The IRS disallowed these credits, asserting that the software development activities did not rise to the level of \"qualified research\" and that the taxpayer had failed to adequately substantiate its expenses. This disagreement led the petitioners to challenge the Commissioner’s determination in the Tax Court, which ultimately agreed with the IRS that the credit was not available on the facts of the case."
+    },
+    {
+      "type": "heading",
+      "text": "The Judicial Doctrine of the \"Discovery Test\""
+    },
+    {
+      "type": "paragraph",
+      "text": "A central point of contention in the Eustace case was the definition of what it meant to \"discover information\" under Section 41(d)(1)(B)(i). At the time of the Applied Systems projects, the prevailing judicial and administrative interpretation was governed by the \"Discovery Test\". The Tax Court, following precedents like United Stationers, Inc. v. United States, concluded that \"qualified research\" must be research undertaken to discover information that \"goes beyond the current state of knowledge in the computer science field\". The court found that Applied Systems fell \"woefully short\" of this standard. Its activities were described as \"normal software development\" that was neither pioneering nor groundbreaking; rather, it entailed \"variations on themes long used by other developers\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit affirmed this restrictive view, noting that the taxpayer failed to show that its software embodied any leap in information technology or that there was any doubt about the technological ability to produce such software. This high bar required that research must seek to \"expand or refine existing principles of computer science\" and result in information of \"broad effect\". The following comparison table highlights the features developed by Applied Systems and why the court deemed them ineligible under the Discovery Test:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Feature",
+        "Taxpayer Argument for Qualification",
+        "Court Reason for Disallowance"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Ratings Module Expansion",
+            "Required complex new code to handle insurer-to-agency transactions.",
+            "Routine adaptation of existing principles; not an \"innovation in underlying principle\"."
+          ]
+        },
+        {
+          "cells": [
+            "Concurrency Management",
+            "Solved the technical problem of multiple people editing the same file.",
+            "Variations on themes used by other developers; no doubt about technological feasibility."
+          ]
+        },
+        {
+          "cells": [
+            "Proprietary Text Editor",
+            "Created a custom module with reduced memory demands and improved form generation.",
+            "Characterized as \"industrious development\" and \"fine-tuning,\" not scientific experimentation."
+          ]
+        },
+        {
+          "cells": [
+            "Third-Party Integration",
+            "Improved module performance for interfacing with insurance carriers.",
+            "Deemed to be \"simple software development\" focused on commercial utility rather than research."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Seventh Circuit and the Scientific Method of Experimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the Discovery Test, the Seventh Circuit’s opinion in Eustace provided a profound exploration of the \"Process of Experimentation\" requirement. The court famously distinguished between the lay or engineering sense of \"trial and error\" and the \"scientific sense\" of forming and testing hypotheses. In the view of Judge Easterbrook, Section 41 is about research, which necessitates the use of the scientific method. The court observed that \"Galileo engaged in experiments about acceleration when he rolled balls down an inclined plane,\" but an auto manufacturer trying different paint nozzles or a software developer trying different methods to implement a feature with maximum execution speed is merely \"tinkering\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "This distinction between tinkering and experimentation has become a cornerstone of IRS audit techniques. The court emphasized that experimentation is a \"subset of all steps taken to resolve uncertainty\". Searching for a place to park a car involves resolving uncertainty, but it is not a \"process of experimentation.\" Similarly, the iterative calculations and \"design spirals\" often found in software engineering and shipbuilding are only qualified if they are designed to dispel uncertainty about the \"technological possibility\" of success, rather than merely refining a design for aesthetic or commercial reasons."
+    },
+    {
+      "type": "heading",
+      "text": "Documentation Failures and the Rejection of Retrospective Reconstructions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Eustace decision is perhaps most frequently cited by the IRS for its findings on documentation and the burden of proof. The taxpayer in Eustace relied on what the court described as a \"typical prepackaged research credit claim study\". This study involved a reconstruction of qualifying expenses by a tax manager after the fact, which the Tax Court found to be \"unreliable, inaccurate, incomplete, and wholly insufficient\"."
+    },
+    {
+      "type": "subheading",
+      "text": "The Requirement for Project-Level Nexus"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical failure in the Eustace case was the taxpayer’s inability to tie employee salaries to qualified activities at the subcomponent level. The taxpayer provided a \"list of salaries\" and testimony from six employees, but the court ruled this was insufficient for the taxpayer to meet its burden of proof. The IRS Research Credit Claims Audit Techniques Guide (RCCATG) explicitly cites Eustace to support the requirement that taxpayers must establish a clear \"nexus\" between the accounting records and the specific research activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table summarizes the documentation shortcomings in the Eustace case as identified by the IRS and the court:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Documentation Component",
+        "Taxpayer’s Provided Evidence",
+        "Court's Determination of Deficiency"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Employee Time Allocation",
+            "Retrospective worksheet listing 227 employees and estimated salary portions.",
+            "Rejected as \"unreliable\" and \"incomplete\"; failed to show nexus to specific research."
+          ]
+        },
+        {
+          "cells": [
+            "Activity Verification",
+            "Oral testimony from six employees regarding the nature of their general tasks.",
+            "Insufficient to prove that specific salaries were paid for \"qualified research activities\"."
+          ]
+        },
+        {
+          "cells": [
+            "Project Specificity",
+            "Broad claims covering the enhancement of the entire software package.",
+            "Failed to tie expenses to specific business components or sub-elements."
+          ]
+        },
+        {
+          "cells": [
+            "Contemporaneous Records",
+            "Virtually non-existent; relied on after-the-fact interviews by the tax manager.",
+            "Highlighted that retrospective estimates cannot replace real-time tracking of research."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Limitation of the Cohan Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers often attempt to invoke the Cohan rule—a legal principle derived from Cohan v. Commissioner that allows a court to estimate expenses when there is evidence that some expenses were incurred but the exact amount is unknown. However, the Eustace court specifically declined to apply the Cohan rule to make an allocation of salaries. The court reasoned that it was not required to make an allocation where the taxpayer’s evidence was \"insufficient\" and the primary witnesses’ testimony was inconsistent with a finding of research. This established a high bar: the Cohan rule only applies if the taxpayer first proves that qualified research occurred; it cannot be used to bridge a fundamental gap in proving the existence of the research itself."
+    },
+    {
+      "type": "heading",
+      "text": "The Regulatory Shift: T.D. 9104 and the Abandonment of the Discovery Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "The backlash to the restrictive \"Discovery Test\" applied in Eustace and United Stationers eventually led to a major shift in Treasury regulations. In 2004, the Treasury Department issued T.D. 9104, which formally abandoned the Discovery Test in favor of a more flexible \"Uncertainty Test\". Under these modern regulations, research does not require the taxpayer to obtain information that \"exceeds, expands, or refines the common knowledge of a skilled professional\". Instead, research is qualified if it is intended to \"eliminate uncertainty\" concerning the capability, method, or appropriate design for developing or improving a business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite this regulatory shift, the Eustace case remains relevant for its analysis of the process of experimentation. Even under the new Uncertainty Test, a taxpayer must still demonstrate a systematic evaluation of alternatives. Recent cases like Phoenix Design Group, Inc. v. Commissioner (2024) have reaffirmed the Eustace line of thinking, denying credits where engineers performed routine calculations that did not constitute a true \"evaluative process\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table compares the pre-2004 \"Discovery\" standard (Applied in Eustace) with the post-2004 \"Uncertainty\" standard (Current law):"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Attribute",
+        "The \"Discovery\" Standard (Eustace)",
+        "The \"Uncertainty\" Standard (T.D. 9104)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Goal of Research",
+            "Discover information \"new to the world\" or groundbreaking.",
+            "Eliminate uncertainty within the taxpayer's own projects."
+          ]
+        },
+        {
+          "cells": [
+            "State of Knowledge",
+            "Must expand or refine principles in the entire field.",
+            "Must expand the taxpayer's specific knowledge for a component."
+          ]
+        },
+        {
+          "cells": [
+            "Uncertainty Focus",
+            "Technical/Technological Feasibility (Can it be done?).",
+            "Capability, Method, or Appropriate Design (How should it be done?)."
+          ]
+        },
+        {
+          "cells": [
+            "Process Required",
+            "Scientific method to prove a new principle.",
+            "Systematic evaluation of alternatives to find a solution."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Software for Sale vs. Internal Use Software (IUS)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical distinction discussed in Eustace is the treatment of software developed for sale versus software developed for internal use. Applied Systems developed software to be \"sold, leased, licensed, or otherwise marketed to third parties,\" meaning it did not fall under the restrictive Section 41(d)(4)(E) internal-use software (IUS) exclusion. IUS is generally defined as software developed for \"general and administrative functions\" like financial management, human resources, or support services."
+    },
+    {
+      "type": "paragraph",
+      "text": "To qualify for the research credit, IUS must meet an additional \"High Threshold of Innovation\" test, which requires the software to be innovative, involve significant economic risk, and not be commercially available. In Eustace, the taxpayer attempted to argue that because their software was for commercial sale, the standards for \"discovery\" and \"experimentation\" should be more relaxed than those applied in IUS cases like United Stationers. The Seventh Circuit flatly rejected this, stating that the fundamental definitions of \"technological information\" and \"experimentation\" in Section 41(d)(1) apply regardless of whether the software is for sale or internal use."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table outlines the different hurdles for software qualification based on its intended use:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Category",
+        "Statutory Inclusion",
+        "Additional Requirements"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Commercial/External Use",
+            "Software held for sale, lease, or license to third parties.",
+            "Must pass the standard four-part test (Eustace)."
+          ]
+        },
+        {
+          "cells": [
+            "Third-Party Interaction",
+            "Software allowing customers to initiate functions or review data.",
+            "Exception to IUS; must pass the standard four-part test."
+          ]
+        },
+        {
+          "cells": [
+            "Internal Use (G&A)",
+            "Software for payroll, bookkeeping, or general HR functions.",
+            "Must pass the 4-part test plus High Threshold of Innovation test."
+          ]
+        },
+        {
+          "cells": [
+            "Dual-Function Software",
+            "Software that performs both G&A and third-party functions.",
+            "Presumed IUS unless a \"third-party subset\" is identified."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Implications for Future R&D Tax Credit Applications"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Eustace decision has reverberated through decades of IRS audit guidelines and tax litigation, shaping the future of how businesses apply for and defend their R&D credits. The case’s emphasis on contemporaneous documentation and project-level costing has become the modern standard for \"defensible\" claims."
+    },
+    {
+      "type": "subheading",
+      "text": "The Rise of Project-Level Costing and the \"Substantially All\" Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the wake of Eustace, the IRS has shifted its focus to the \"substantially all\" requirement of Section 41(d)(1)(C). This rule dictates that 80% or more of the research activities for a business component must constitute a process of experimentation. Recent cases like Little Sandy Coal v. Commissioner have applied this rule with mathematical precision, forcing taxpayers to provide \"principled ways\" to determine what portion of employee activities constituted experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seven Circuit’s opinion in Little Sandy Coal (2023) explicitly cites the lack of documentation in the Eustace line of reasoning, ruling that \"shortcut estimates\" and \"arbitrary allocations\" will not suffice. If a taxpayer cannot prove that 80% of its activities relate to experimentation at the project level, the entire credit for that project may be disallowed under an \"all or nothing\" approach, unless the taxpayer can successfully invoke the \"shrinking-back\" rule to a smaller subcomponent."
+    },
+    {
+      "type": "subheading",
+      "text": "The Evolution of Form 6765 (2024-2025)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most tangible modern implication of the Eustace legacy is the massive overhaul of IRS Form 6765, Credit for Increasing Research Activities. Starting with the 2024 tax year and becoming mandatory for many in 2025, the new form requires \"qualitative and quantitative information\" that previously was only requested during an audit."
+    },
+    {
+      "type": "paragraph",
+      "text": "The new Section G of Form 6765 requires:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Identification of each business component by name and type.",
+        "A breakdown of wages for \"conducting,\" \"supervising,\" and \"supporting\" research.",
+        "For amended returns, a specific description of the information the taxpayer \"sought to discover\"."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This shift toward \"upfront transparency\" is designed to eliminate the retrospective, \"prepackaged\" studies seen in Eustace. By requiring this level of detail at the time of filing, the IRS is effectively mandating the contemporaneous tracking of research that the Eustace court found to be missing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table summarizes the new reporting requirements for 2025 research credit claims:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Requirement Area",
+        "Information to be Disclosed",
+        "Implication for Taxpayers"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section E",
+            "Amount of officer wages and number of business components.",
+            "Higher scrutiny on executive involvement and project quantity."
+          ]
+        },
+        {
+          "cells": [
+            "Section G (Mandatory)",
+            "Qualitative data for components making up 80% of total QREs.",
+            "Requires projects to be defined and documented before filing."
+          ]
+        },
+        {
+          "cells": [
+            "Activity Categories",
+            "Wages must be split into direct performance, supervision, and support.",
+            "Aligns with Little Sandy Coal’s demand for activity-level cost data."
+          ]
+        },
+        {
+          "cells": [
+            "Software Detail",
+            "Classification as IUS, DFS, or Non-IUS for each module.",
+            "Forces early analysis of software eligibility categories."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Interplay with Section 174 Amortization and the OBBB"
+    },
+    {
+      "type": "paragraph",
+      "text": "The future of R&D tax credit applications is further complicated by changes to Section 174 research and experimentation (R&E) expenditures. Historically, taxpayers could immediately deduct R&E costs in the year incurred. However, the Tax Cuts and Jobs Act (TCJA) of 2017 mandated that, starting in 2022, these costs must be capitalized and amortized over five years for domestic research and fifteen years for foreign research."
+    },
+    {
+      "type": "paragraph",
+      "text": "While the \"One, Big, Beautiful Bill\" (OBBB) enacted in July 2025 restored the option to expense domestic Section 174 costs, the requirement to track and report these expenses remains critical. The IRS has clarified that Section 174 and Section 41 are separate; a company may have Section 174 expenses that must be amortized even if it does not qualify for the Section 41 research credit. This \"decoupling\" means that the nexus between costs and research activities—the very thing missing in Eustace—is now a mandatory accounting requirement for all innovative firms, regardless of their credit-claiming status."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table highlights the differences between Section 174 and Section 41 in the post-TCJA landscape:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Attribute",
+        "Section 174 (R&E Expenditures)",
+        "Section 41 (R&D Tax Credit)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Scope of Costs",
+            "Direct and indirect (overhead, rent, utilities, software).",
+            "Only direct costs (wages, supplies, 65% of contract)."
+          ]
+        },
+        {
+          "cells": [
+            "Core Requirement",
+            "Intended to eliminate uncertainty.",
+            "Must pass the full four-part test (Scientific method)."
+          ]
+        },
+        {
+          "cells": [
+            "Accounting Treatment",
+            "Amortize (5/15 yrs) or Expense (per OBBB).",
+            "20% credit on incremental increases."
+          ]
+        },
+        {
+          "cells": [
+            "Reporting",
+            "Mandatory for all R&D activities.",
+            "Optional tax credit requiring high substantiation."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Contemporary Case Law: From Harper to Phoenix Design Group"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent court decisions continue to reflect the \"Eustace Standard.\" In Harper v. Commissioner (2021) and Premier Tech, Inc. v. Commissioner (2022), the IRS aggressively used procedural objections to dismiss refund claims that lacked the specificity required under Treasury Regulation Section 301.6402-2(b)(1). These cases underscore that taxpayers cannot rely on the IRS audit process to validate procedurally weak filings; they must provide detailed grounds for the refund at the time of the claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Phoenix Design Group, Inc. v. Commissioner (2024), the Tax Court disallowed credits across multiple engineering projects and imposed a 20% accuracy-related penalty under IRC Section 6662. The court found that while the firm conducted \"complex engineering,\" there was \"insufficient evidence of a true experimental process\". The court noted that routine design and adaptation were not tied to new or improved business components, and the taxpayer failed to identify the specific information that was not available at the start of the project. This ruling reinforces that poor documentation not only disallows credits but also creates significant additional tax exposure through penalties."
+    },
+    {
+      "type": "heading",
+      "text": "Synthesis and Strategic Outlook"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legacy of Eustace v. Commissioner is a permanent shift in the burden of proof for R&D tax credits. The case serves as a cautionary tale of \"what not to do\": rely on retrospective estimates, lack project-level costing, and use inconsistent or minimized testimony. For future applications, the implications are profound."
+    },
+    {
+      "type": "subheading",
+      "text": "Elevation of Documentation Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers must move beyond after-the-fact interviews. Defensible claims now require \"robust tracking systems\" that clearly link employee activities and expenses to specific technical uncertainties. Records such as time-tracking systems, technical design logs, correspondence, and testing protocols are no longer \"best practices\"; they are the baseline for survival under audit."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Substantially All\" Trap"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rigorous 80% test means that every business component must be evaluated as a separate \"unit of measure.\" Companies must define their business components granularly enough that they can prove 80% of the activities for each are experimental. As seen in Little Sandy Coal, claiming the entire product is a \"prototype\" is a failing strategy if a significant portion of the work involves routine fabrication or support tasks."
+    },
+    {
+      "type": "subheading",
+      "text": "Proactive Compliance and Disclosure"
+    },
+    {
+      "type": "paragraph",
+      "text": "With the redesign of Form 6765, the R&D credit has entered a \"new era of disclosure\". Taxpayers must be prepared to narrate their R&D journey—the technical unknowns, the alternatives considered, and the experiments conducted—at the very moment they file their return. This requires a multidisciplinary commitment across engineering, finance, and tax functions to ensure that the technical reality of the work is accurately captured in the tax records."
+    },
+    {
+      "type": "paragraph",
+      "text": "In conclusion, Eustace v. Commissioner transformed the R&D tax credit from a relatively straightforward financial incentive into a complex, documentation-driven legal challenge. While regulatory changes have eased the \"Discovery\" requirement, the court’s demand for a scientific process of experimentation and a direct nexus between wages and research remains the defining standard. In the modern landscape of Section 174 amortization and enhanced IRS reporting, the lessons of Applied Systems are more relevant than ever. For the American innovator, success is no longer just about the leap in technology; it is about the meticulous record of the steps taken to achieve it."
+    }
+  ]
+}
