@@ -34,6 +34,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { checkRecord, pdfText } from "./lib/check.mjs";
+import { hasMarkup, inlineProblems, plainText } from "../src/lib/inline-core.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -103,16 +104,17 @@ function sourceFor(rec) {
 const textsOf = (rec) =>
   [rec.title, rec.articleTitle, rec.summary, rec.outcome]
     .filter(Boolean)
-    .map((t) => ({ where: "the header fields", text: t }))
+    .map((t) => ({ where: "the header fields", text: t, markup: false }))
     .concat(
       (rec.body ?? []).flatMap((b, i) => {
         const at = `block ${i + 1}`;
-        if (b.type === "list") return b.items.map((t) => ({ where: at, text: t, block: b }));
+        if (b.type === "list") return b.items.map((t) => ({ where: at, text: t, block: b, markup: true }));
         if (b.type === "table")
-          return [b.caption, ...b.headers, ...b.rows.flatMap((r) => (Array.isArray(r) ? r : r.cells))]
-            .filter(Boolean)
-            .map((t) => ({ where: at, text: t, block: b }));
-        return [{ where: at, text: b.text ?? "", block: b }];
+          return [
+            ...[b.caption, ...b.headers].filter(Boolean).map((t) => ({ where: at, text: t, block: b, markup: false })),
+            ...b.rows.flatMap((r) => (Array.isArray(r) ? r : r.cells)).filter(Boolean).map((t) => ({ where: at, text: t, block: b, markup: true })),
+          ];
+        return [{ where: at, text: b.text ?? "", block: b, markup: b.type === "paragraph" }];
       }),
     );
 
@@ -139,7 +141,14 @@ function formatProblems(rec) {
   if (rec.sourcePdfPath) blocking.push("A PDF is attached. The site does not publish PDFs: clear the PDF field.");
   if (!Array.isArray(rec.body) || !rec.body.length) blocking.push("The body is empty.");
   let glued = 0;
-  for (const { where, text, block } of textsOf(rec)) {
+  for (const { where, text: stored, block, markup } of textsOf(rec)) {
+    // links and emphasis are allowed only in paragraphs, list items and table cells
+    if (markup) {
+      for (const m of new Set(inlineProblems(stored))) blocking.push(`${where}: ${m}.`);
+    } else if (hasMarkup(stored)) {
+      blocking.push(`${where} has a link or emphasis tag. Links and emphasis are allowed only in paragraphs, list items and table cells.`);
+    }
+    const text = plainText(stored);
     const t = text.trim();
     const refs = SECTION.test(t) ? t : text.match(/(^|\n)\s*(works cited|references)\s*\n/i)?.[2];
     if (refs) blocking.push(`${where} is or holds a "${refs.slice(0, 30)}" section. Remove the references list.`);

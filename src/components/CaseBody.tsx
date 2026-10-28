@@ -1,4 +1,6 @@
 import { CaseContentBlock } from "@/types/case";
+import { InlineText } from "@/components/InlineText";
+import { plainText } from "@/lib/inline-core.mjs";
 
 export function CaseBody({ blocks }: { blocks: CaseContentBlock[] }) {
   return (
@@ -11,26 +13,28 @@ export function CaseBody({ blocks }: { blocks: CaseContentBlock[] }) {
                 key={i}
                 className="pt-4 text-xl font-bold text-slate-900 first:pt-0"
               >
-                {block.text}
+                {plainText(block.text)}
               </h2>
             );
           case "subheading":
             return (
               <h3 key={i} className="pt-2 text-base font-semibold text-slate-900">
-                {block.text}
+                {plainText(block.text)}
               </h3>
             );
           case "paragraph":
             return (
               <p key={i} className="leading-relaxed">
-                {block.text}
+                <InlineText text={block.text} />
               </p>
             );
           case "list":
             return (
               <ul key={i} className="list-disc space-y-2 pl-6 leading-relaxed">
                 {block.items.map((item, j) => (
-                  <li key={j}>{item}</li>
+                  <li key={j}>
+                    <InlineText text={item} />
+                  </li>
                 ))}
               </ul>
             );
@@ -60,7 +64,7 @@ export function CaseBody({ blocks }: { blocks: CaseContentBlock[] }) {
                       <tr key={j} className="border-b border-slate-100">
                         {row.map((cell, k) => (
                           <td key={k} className="px-3 py-2 align-top text-slate-600">
-                            {cell}
+                            <InlineText text={cell} />
                           </td>
                         ))}
                       </tr>
