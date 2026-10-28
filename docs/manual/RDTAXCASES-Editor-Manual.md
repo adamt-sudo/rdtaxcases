@@ -70,6 +70,31 @@ GitHub account (never share one). Turn on 2-step verification on it.
 
 New cases start as **Draft**.
 
+### Links and emphasis in the case text
+
+Paragraphs, list items and table cells can hold links and emphasis. Type them
+like this, inside the text:
+
+- A link: `<a href="https://www.swansonreed.com/research-tax-credit/...">the words</a>`
+- Italic: `<em>the words</em>`
+- Bold: `<strong>the words</strong>`
+
+Rules:
+
+- Links may go only to **swansonreed.com** and **rdtaxcases.com** pages. Any
+  other address is refused and the check stops publishing until it is removed.
+- A link must work. The check opens each swansonreed.com link: a page that does
+  not exist (404 or 410) stops publishing; a site that is slow or refuses the
+  check is only a notice, so open that link by hand.
+- Links and emphasis are not allowed in headings, the summary, the title, table
+  headings or captions.
+- To write a "less than" sign, type `&lt;`. Do not type other tags.
+- Press **Preview** to see the case with its real links before saving. The
+  preview also lists any problem it finds in the text.
+
+When a case is imported from its HTML document, the links are already in the
+text; keep them.
+
 ## 5. Editing a case
 
 Open the case, change it, save, set *In review*. The live page stays as it was
@@ -100,6 +125,11 @@ case, not at the decision's wording.
 | "is or holds a 'Works cited' section" | Delete the reference list. |
 | "has a [cite: n] marker" | Delete the marker. |
 | "is one block of ... characters" | Split the text into headings, paragraphs, lists and tables. |
+| "the link to ... is not allowed" / "a link has no href" / "is never closed" | Fix the link or tag in the text (section 4, links and emphasis). Only swansonreed.com and rdtaxcases.com links are allowed. |
+| "has a link or emphasis tag" | Links and emphasis belong only in paragraphs, list items and table cells. |
+| "The link ... is broken (404)" | The page does not exist: correct the address or remove the link. |
+| "The link ... redirects to ..." (notice) | Use the new address. |
+| "could not be checked" (notice) | The other site was slow or refused the check: open the link by hand. |
 | "A PDF is attached" / "A PDF was added" | Remove it: the site does not publish PDFs. |
 | "footnote numbers stuck to a word" (notice) | Delete the numbers stuck to the end of words, like `1997)3`. |
 | "The summary is long" (notice) | Cut it to two to four sentences. |

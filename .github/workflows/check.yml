@@ -39,5 +39,10 @@ jobs:
       - name: Check
         run: npm run check -- --base origin/${{ github.base_ref }}
 
+      # Links inside case text: swansonreed.com pages must answer (a 404 or 410 blocks;
+      # a slow or refusing site is only a notice).
+      - name: Links
+        run: node scripts/check-links.mjs --base origin/${{ github.base_ref }}
+
       - name: Build
         run: npm run build
