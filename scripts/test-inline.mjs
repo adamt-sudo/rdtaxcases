@@ -77,14 +77,14 @@ ok("hasMarkup", () => {
 });
 
 // ---- existing case text has no markup, so nothing changes for existing cases
-ok("existing cases: no markup and unchanged plain text", () => {
+ok("every case: markup valid; text without markup unchanged", () => {
   const dir = path.join(__dirname, "..", "content", "cases");
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
     const c = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     const texts = c.body.flatMap((b) => (b.type === "list" ? b.items : b.type === "table" ? b.rows.flatMap((r) => (Array.isArray(r) ? r : r.cells)) : [b.text]));
     for (const t of texts) {
       assert.equal(inlineProblems(t).length, 0, `${f}: ${t.slice(0, 60)}`);
-      assert.equal(plainText(t), t, `${f}: ${t.slice(0, 60)}`);
+      if (!hasMarkup(t)) assert.equal(plainText(t), t, `${f}: ${t.slice(0, 60)}`);
     }
   }
 });
