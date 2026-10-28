@@ -282,7 +282,9 @@ fs.writeFileSync(
     "\n",
 );
 // ---- the editor preview (public/admin/preview.js), generated from src/lib/inline-core.mjs
-const core = fs.readFileSync(path.join(ROOT, "src", "lib", "inline-core.mjs"), "utf8").replace(/^export /gm, "");
+const core =
+  fs.readFileSync(path.join(ROOT, "src", "lib", "inline-core.mjs"), "utf8").replace(/^export /gm, "") +
+  fs.readFileSync(path.join(ROOT, "src", "lib", "list-label.mjs"), "utf8").replace(/^export /gm, "");
 const names = JSON.stringify(config.collections.map((c) => c.name));
 const previewCss = [
   ".rdp{font-family:system-ui,sans-serif;color:#1e293b;line-height:1.6;padding:16px;max-width:720px}",
@@ -347,6 +349,27 @@ ${core}
   }
   ${names}.forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
   CMS.registerPreviewStyle(${JSON.stringify(previewCss)}, { raw: true });
+
+  // In the case list, do not show the case number twice (see src/lib/list-label.mjs).
+  var pending = false;
+  function tidyList() {
+    pending = false;
+    var cards = document.querySelectorAll('a[href*="/entries/"]');
+    for (var i = 0; i < cards.length; i++) {
+      var walker = document.createTreeWalker(cards[i], NodeFilter.SHOW_TEXT);
+      var node;
+      while ((node = walker.nextNode())) {
+        var shown = dropRepeatedNumber(node.nodeValue);
+        if (shown !== node.nodeValue) node.nodeValue = shown;
+      }
+    }
+  }
+  new MutationObserver(function () {
+    if (!pending) {
+      pending = true;
+      window.setTimeout(tidyList, 30);
+    }
+  }).observe(document.documentElement, { childList: true, subtree: true, characterData: true });
 })();
 `;
 fs.writeFileSync(path.join(ROOT, "public", "admin", "preview.js"), previewJs);

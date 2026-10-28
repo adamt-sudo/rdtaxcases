@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { inlineProblems, linksIn, parseInline, plainText, safeHref, hasMarkup } from "../src/lib/inline-core.mjs";
 import { htmlToBlocks, unescapeDoc } from "./import-html-case.mjs";
+import { dropRepeatedNumber } from "../src/lib/list-label.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 let n = 0;
@@ -133,6 +134,17 @@ ok("wrappers, styles, spans and loose text", () => {
   assert.deepEqual(r.blocks.map((b) => b.type), ["paragraph", "paragraph"]);
   assert.equal(r.blocks[0].text, "Hello <strong>world</strong>");
   assert.equal(r.blocks[1].text, "loose line");
+});
+
+// ---- the editor list does not show a case number twice
+ok("list label", () => {
+  assert.equal(dropRepeatedNumber("Kfv.V.35.196/2013/5., Kfv.V.35.196/2013/5."), "Kfv.V.35.196/2013/5.");
+  assert.equal(dropRepeatedNumber("92/2026, 92/2026"), "92/2026");
+  assert.equal(dropRepeatedNumber("Sundøya Fjordhotel Eiendom AS, LB-2007-54463 (UTV-2008-1196), LB-2007-54463"), "Sundøya Fjordhotel Eiendom AS, LB-2007-54463 (UTV-2008-1196)");
+  assert.equal(dropRepeatedNumber("Amirikian v. United States, 197 F.2d 442"), "Amirikian v. United States, 197 F.2d 442");
+  assert.equal(dropRepeatedNumber("Smith, Jones and Co v. Commissioner, T.C. Memo. 2001-66"), "Smith, Jones and Co v. Commissioner, T.C. Memo. 2001-66");
+  assert.equal(dropRepeatedNumber("No comma here"), "No comma here");
+  assert.equal(dropRepeatedNumber("Trailing, "), "Trailing, ");
 });
 
 console.log(`inline markup and importer: ${n} groups of tests passed`);

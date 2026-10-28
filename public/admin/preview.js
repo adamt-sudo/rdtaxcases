@@ -153,6 +153,17 @@ function inlineProblems(src) {
 function hasMarkup(src) {
   return /<\/?(a|em|i|strong|b)\b/i.test(String(src));
 }
+// The editor's case list shows "<title>, <case number>". When the title already contains the case
+// number (for example a title that is the number itself), the number would show twice: drop the repeat.
+// Decap's summary template cannot test this, so the editor page does it (public/admin/preview.js,
+// generated from this file by scripts/build-admin-config.mjs).
+function dropRepeatedNumber(text) {
+  const i = text.lastIndexOf(", ");
+  if (i <= 0) return text;
+  const before = text.slice(0, i).trim();
+  const after = text.slice(i + 2).trim();
+  return after && before.toLowerCase().includes(after.toLowerCase()) ? before : text;
+}
 
   var h = window.h;
   if (!window.CMS || !h) return;
@@ -204,4 +215,25 @@ function hasMarkup(src) {
   }
   ["usa_federal","usa_states","countries","translations"].forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
   CMS.registerPreviewStyle(".rdp{font-family:system-ui,sans-serif;color:#1e293b;line-height:1.6;padding:16px;max-width:720px}.rdp h1{font-size:26px;margin:0 0 6px}.rdp h2{font-size:20px;margin:22px 0 6px}.rdp h3{font-size:16px;margin:16px 0 4px}.rdp .sub{font-style:italic;color:#475569;margin:0 0 10px}.rdp .sum{background:#eff6ff;border:1px solid #bfdbfe;padding:10px 12px;border-radius:6px;font-size:14px}.rdp a{color:#1d4ed8;text-decoration:underline}.rdp table{border-collapse:collapse;width:100%;font-size:13px}.rdp th,.rdp td{border-bottom:1px solid #e2e8f0;padding:6px 8px;text-align:left;vertical-align:top}.rdp .bad{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;padding:8px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}.rdp .ok{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;padding:6px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}", { raw: true });
+
+  // In the case list, do not show the case number twice (see src/lib/list-label.mjs).
+  var pending = false;
+  function tidyList() {
+    pending = false;
+    var cards = document.querySelectorAll('a[href*="/entries/"]');
+    for (var i = 0; i < cards.length; i++) {
+      var walker = document.createTreeWalker(cards[i], NodeFilter.SHOW_TEXT);
+      var node;
+      while ((node = walker.nextNode())) {
+        var shown = dropRepeatedNumber(node.nodeValue);
+        if (shown !== node.nodeValue) node.nodeValue = shown;
+      }
+    }
+  }
+  new MutationObserver(function () {
+    if (!pending) {
+      pending = true;
+      window.setTimeout(tidyList, 30);
+    }
+  }).observe(document.documentElement, { childList: true, subtree: true, characterData: true });
 })();
