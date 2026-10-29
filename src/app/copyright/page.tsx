@@ -3,18 +3,24 @@ const CONTACT_EMAIL = "info@swansonreed.com";
 export const metadata = {
   title: "Copyright Notice | RDTAXCASES.com",
   description:
-    "Copyright notice for RDTAXCASES.com, published by Swanson Reed: what is protected, what is not, and the rules on copying and bulk reuse.",
+    "Copyright notice and DMCA policy for RDTAXCASES.com, published by SR Tax Services LLC (Swanson Reed): what is protected, what is not, and the rules on copying and bulk reuse.",
 };
 
-function Mail() {
+const DMCA_AGENT_EMAIL = "Clj@swansonreed.com";
+
+function MailLink({ address }: { address: string }) {
   return (
     <a
-      href={`mailto:${CONTACT_EMAIL}`}
+      href={`mailto:${address}`}
       className="font-medium text-blue-700 underline underline-offset-2 hover:text-blue-900"
     >
-      {CONTACT_EMAIL}
+      {address}
     </a>
   );
+}
+
+function Mail() {
+  return <MailLink address={CONTACT_EMAIL} />;
 }
 
 export default function CopyrightPage() {
@@ -29,7 +35,7 @@ export default function CopyrightPage() {
             Copyright Notice
           </h1>
           <p className="mt-4 text-sm text-slate-600">
-            Last updated 26 October 2026
+            Last updated 29 October 2026
           </p>
         </div>
       </section>
@@ -39,7 +45,9 @@ export default function CopyrightPage() {
           <h2 className="text-xl font-semibold text-slate-900">
             Who publishes this site
           </h2>
-          <p>RDTAXCASES.com is published by Swanson Reed.</p>
+          <p>
+            RDTAXCASES.com is published by SR Tax Services LLC (Swanson Reed).
+          </p>
 
           <h2 className="text-xl font-semibold text-slate-900">
             What this notice covers
@@ -96,15 +104,98 @@ export default function CopyrightPage() {
           </p>
 
           <h2 className="text-xl font-semibold text-slate-900">
-            Reports of infringement (DMCA)
+            DMCA / Copyright Policy
           </h2>
+
+          <h3 className="text-lg font-semibold text-slate-900">
+            1. Designated Agent Contact Information
+          </h3>
           <p>
-            Swanson Reed responds to notices under the US Digital Millennium
-            Copyright Act and may send such notices to web hosts and search
-            engines. It may also seek the remedies the law allows, including
-            injunctions and legal costs. To report a suspected infringement of
-            this site&rsquo;s material, write to <Mail /> and give the page
-            address, a description of the work, and your contact details.
+            If you believe that your copyrighted work has been copied in a way
+            that constitutes copyright infringement and is accessible via this
+            Service, please notify our Designated Copyright Agent.
+          </p>
+          <p>
+            As required by the Digital Millennium Copyright Act (DMCA), 17
+            U.S.C. § 512, our Designated Agent can be reached at:
+          </p>
+          <dl className="space-y-1">
+            <div>
+              <dt className="inline font-semibold">Service Provider: </dt>
+              <dd className="inline">SR Tax Services LLC</dd>
+            </div>
+            <div>
+              <dt className="inline font-semibold">Designated Agent: </dt>
+              <dd className="inline">Cherie Jones</dd>
+            </div>
+            <div>
+              <dt className="inline font-semibold">
+                Agent&apos;s Organization:{" "}
+              </dt>
+              <dd className="inline">SR Tax Services LLC</dd>
+            </div>
+            <div>
+              <dt className="inline font-semibold">Physical Address: </dt>
+              <dd className="inline">
+                1120 South Freeway, Suite 123C, Fort Worth, TX 76104
+              </dd>
+            </div>
+            <div>
+              <dt className="inline font-semibold">Phone Number: </dt>
+              <dd className="inline">512.333.2076</dd>
+            </div>
+            <div>
+              <dt className="inline font-semibold">Email Address: </dt>
+              <dd className="inline">
+                <MailLink address={DMCA_AGENT_EMAIL} />
+              </dd>
+            </div>
+          </dl>
+
+          <h3 className="text-lg font-semibold text-slate-900">
+            2. DMCA Takedown Notice Requirements
+          </h3>
+          <p>
+            For your complaint to be valid under the DMCA, you must provide the
+            following information in writing:
+          </p>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              An electronic or physical signature of a person authorized to act
+              on behalf of the copyright owner.
+            </li>
+            <li>
+              Identification of the copyrighted work that you claim has been
+              infringed.
+            </li>
+            <li>
+              Identification of the material that is claimed to be infringing
+              and where it is located on the Service.
+            </li>
+            <li>
+              Information reasonably sufficient to permit us to contact you,
+              such as your address, telephone number, and email address.
+            </li>
+            <li>
+              A statement that you have a good faith belief that use of the
+              material in the manner complained of is not authorized by the
+              copyright owner, its agent, or law.
+            </li>
+            <li>
+              A statement, made under penalty of perjury, that the above
+              information is accurate, and that you are the copyright owner or
+              are authorized to act on behalf of the owner.
+            </li>
+          </ul>
+
+          <h3 className="text-lg font-semibold text-slate-900">
+            3. Repeat Infringer Policy
+          </h3>
+          <p>
+            In accordance with the DMCA and other applicable law, it is the
+            policy of the Service Provider, in appropriate circumstances, to
+            terminate the accounts or access of users who are deemed to be
+            repeat copyright infringers.
           </p>
 
           <h2 className="text-xl font-semibold text-slate-900">
