@@ -6,7 +6,8 @@
 //   /[cc]/[glossary-folder]/[term] glossary term
 //   /[cc]/[legislation-folder]     legislation hub
 //   /[cc]/[legislation-folder]/[law]
-//   /[cc]/[faq-folder]             FAQ: one page per country, no sub-pages
+//   /[cc]/[faq-folder]             FAQ hub: lists the questions
+//   /[cc]/[faq-folder]/[question]  FAQ question: its own page (FAQPage data on each)
 // Paths only, lowercase, a-z 0-9 and single hyphens, no trailing slash, no .html. Reserved: "en" in every country,
 // and "federal" and "states" in /us (the site builds /us/federal, /us/states and /us/states/[state] itself).
 import fs from "node:fs";
@@ -21,7 +22,7 @@ export function loadSiteMap(file = path.join(__dirname, "..", "..", "content", "
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
-/** Check one address. Returns { ok, problems, kind, cc, slug, hub }. kind: home | case | glossary-hub | glossary-term | legislation-hub | legislation-page | faq. */
+/** Check one address. Returns { ok, problems, kind, cc, slug, hub }. kind: home | case | glossary-hub | glossary-term | legislation-hub | legislation-page | faq-hub | faq-question. */
 export function parseAddress(address, siteMap) {
   const problems = [];
   const bad = (m) => problems.push(m);
@@ -52,9 +53,9 @@ export function parseAddress(address, siteMap) {
   const reserved = [...siteMap.reserved.all, ...(siteMap.reserved[cc] ?? [])];
   if (x === glossary || x === legislation || x === faq) {
     const hub = x === glossary ? "glossary" : x === legislation ? "legislation" : "faq";
-    if (!y) return { ok: true, problems: [], kind: hub === "faq" ? "faq" : `${hub}-hub`, cc, hub };
-    if (hub === "faq") return { ok: false, problems: [`/${cc}/${x} is a single FAQ page: it has no sub-pages`] };
-    return { ok: true, problems: [], kind: hub === "glossary" ? "glossary-term" : "legislation-page", cc, hub, slug: y };
+    if (!y) return { ok: true, problems: [], kind: `${hub}-hub`, cc, hub };
+    const kind = hub === "glossary" ? "glossary-term" : hub === "legislation" ? "legislation-page" : "faq-question";
+    return { ok: true, problems: [], kind, cc, hub, slug: y };
   }
   if (reserved.includes(x)) {
     const why = cc === "us" && (x === "federal" || x === "states") ? "is built by the site (listing pages are not delivered)" : "is reserved";

@@ -11,7 +11,9 @@ const ok = (fn) => {
 };
 
 ok(() => {
-  assert.equal(Object.keys(map.countries).length, 52, "the sitemap has the USA and 51 countries");
+  assert.equal(Object.keys(map.countries).length, 53, "the sitemap has the USA and 52 countries (Australia added)");
+  assert.equal(map.countries.au.hreflang, "en-AU");
+  assert.equal(map.countries.rs.htmlLang, "sr-Cyrl-RS");
   assert.equal(map.countries.it.folders.faq, "domande-frequenti");
   assert.equal(map.countries.tn.dir, "rtl");
   assert.equal(map.countries.ph.htmlLang, "fil-PH");
@@ -30,9 +32,12 @@ ok(() => {
   assert.equal(kind("/us/glossary/funded-research"), "glossary-term");
   assert.equal(kind("/us/legislation"), "legislation-hub");
   assert.equal(kind("/us/legislation/section-41-d-4-excluded-activities"), "legislation-page");
-  assert.equal(kind("/us/faq"), "faq");
+  assert.equal(kind("/us/faq"), "faq-hub");
+  assert.equal(kind("/us/faq/what-is-a-contemporaneous-record-for-rd-tax-credits"), "faq-question");
+  assert.equal(kind("/au/legislation"), "legislation-hub");
   assert.equal(kind("/it/glossario/credito-d-imposta"), "glossary-term");
-  assert.equal(kind("/at/haeufige-fragen"), "faq");
+  assert.equal(kind("/at/haeufige-fragen"), "faq-hub");
+  assert.equal(kind("/at/haeufige-fragen/was-ist-ein-forschungsprojekt"), "faq-question");
   assert.equal(kind("/jp/glossary/kenkyu-kaihatsu"), "glossary-term");
 });
 ok(() => {
@@ -50,7 +55,8 @@ ok(() => {
     "/us/federal": "built by the site",
     "/us/states": "built by the site",
     "/it/en": "reserved",
-    "/us/faq/question-one": "single FAQ page",
+    "/us/faq/question/extra": "too many levels",
+    "/us/faq/Question-One": "lowercase",
     "/it/some-case/sub-page": "is a case",
     "/us/glossary/a/b": "too many levels",
     "/us/glossary/term?x=1": "no ? or #",
