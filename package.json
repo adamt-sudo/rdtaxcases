@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/remove-placeholder-page.mjs",
     "start": "next start",
     "lint": "eslint",
     "prebuild": "node scripts/build-case-index.mjs && node scripts/build-admin-config.mjs",

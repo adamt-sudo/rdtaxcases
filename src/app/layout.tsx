@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rdtaxcases.com"),
   title: "RDTAXCASES.com: International R&D Tax Credit Case Law Database",
   description:
     "The most extensive database of international R&D tax credit cases on the internet, a Swanson Reed database.",
@@ -96,6 +97,14 @@ const websiteJsonLd = {
   publisher: {
     "@id": "https://rdtaxcases.com/#organization",
   },
+  copyrightHolder: {
+    "@type": "Organization",
+    name: "Swanson Reed",
+    url: "https://www.swansonreed.com/",
+  },
+  copyrightYear: 2026,
+  copyrightNotice:
+    "© 2026 Swanson Reed. All rights reserved. Published at RDTAXCASES.com; see https://rdtaxcases.com/copyright",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

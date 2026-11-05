@@ -1,6 +1,7 @@
 import { swansonReedContact } from "@/data/contact";
 
 export const metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact | RDTAXCASES.com",
   description:
     "Get in touch with the Swanson Reed team behind RDTAXCASES.com.",

@@ -66,8 +66,22 @@ export const cases: CaseRecord[] = allCases.filter(
   (c) => SHOW_DRAFTS || (c.status ?? "published") === "published"
 );
 
-export function getCaseBySlug(slug: string): CaseRecord | undefined {
-  return cases.find((c) => c.slug === slug);
+/** US cases (federal and state): their pages are /us/[case]. */
+export function getUsCases(): CaseRecord[] {
+  return cases.filter((c) => c.jurisdictionGroup !== "country");
+}
+
+/** Cases of every other country: their pages are /[cc]/[case]. */
+export function getCountryCases(): CaseRecord[] {
+  return cases.filter((c) => c.jurisdictionGroup === "country");
+}
+
+export function getCaseForUs(slug: string): CaseRecord | undefined {
+  return getUsCases().find((c) => c.slug === slug);
+}
+
+export function getCaseForCountry(code: string, slug: string): CaseRecord | undefined {
+  return getCountryCases().find((c) => c.jurisdictionSlug === code && c.slug === slug);
 }
 
 export function getCasesForJurisdiction(

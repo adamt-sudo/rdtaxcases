@@ -3,11 +3,12 @@
 import { useRouter } from "next/navigation";
 import { useId } from "react";
 import { countries } from "@/data/countries";
+import { COUNTRIES_LIVE } from "@/lib/scope";
 
 const LIVE_OPTIONS = [
-  { value: "/usa/states", label: "USA (States)" },
-  { value: "/usa/federal", label: "USA (Federal)" },
-  ...[...countries]
+  { value: "/us/states", label: "USA (States)" },
+  { value: "/us/federal", label: "USA (Federal)" },
+  ...(COUNTRIES_LIVE ? [...countries] : [])
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((c) => ({ value: `/${c.slug}`, label: c.name })),
 ];
@@ -23,7 +24,7 @@ export function CountryDropdown() {
       </label>
       <select
         id={selectId}
-        defaultValue="/usa/federal"
+        defaultValue="/us/federal"
         onChange={(e) => {
           const value = e.target.value;
           if (value) router.push(value);

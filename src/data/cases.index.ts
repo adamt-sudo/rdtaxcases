@@ -98,11 +98,11 @@ import c93 from "../../content/cases/texas-comptrollers-decision-star-accession-
 import c94 from "../../content/cases/oshkosh-truck-corporation-v-wisconsin-department-of-revenue.json";
 import c95 from "../../content/cases/the-ca-lawton-co-v-wisconsin-department-of-revenue.json";
 import c96 from "../../content/cases/appeal-of-first-solar-inc-2023-ota-532p.json";
-import c97 from "../../content/cases/no-lb-2007-54463.json";
-import c98 from "../../content/cases/co-ce-22524-2020.json";
-import c99 from "../../content/cases/is-yskn-92-2026.json";
-import c100 from "../../content/cases/hu-kuria-kfv-v-35196-2013.json";
-import c101 from "../../content/cases/ru-amo-a40-158523-2020.json";
+import c97 from "../../content/cases/lb-2007-54463.json";
+import c98 from "../../content/cases/ce-22524-2020.json";
+import c99 from "../../content/cases/yskn-92-2026.json";
+import c100 from "../../content/cases/kuria-kfv-v-35196-2013.json";
+import c101 from "../../content/cases/amo-a40-158523-2020.json";
 import c102 from "../../content/cases/moreton-resources-ltd-v-innovation-science-australia.json";
 import c103 from "../../content/cases/coal-of-queensland-pty-ltd-v-innovation-science-australia.json";
 

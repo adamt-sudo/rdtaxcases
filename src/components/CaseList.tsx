@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CaseRecord } from "@/types/case";
+import { caseHref } from "@/lib/urls";
 
 export function CaseList({ cases }: { cases: CaseRecord[] }) {
   if (cases.length === 0) {
@@ -15,7 +16,7 @@ export function CaseList({ cases }: { cases: CaseRecord[] }) {
       {cases.map((c) => (
         <li key={c.slug}>
           <Link
-            href={`/cases/${c.slug}`}
+            href={caseHref(c)}
             className="flex flex-col gap-1 px-5 py-4 hover:bg-slate-50"
           >
             <span className="font-medium text-slate-900">{c.title}</span>

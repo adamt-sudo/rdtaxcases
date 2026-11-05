@@ -3,9 +3,14 @@ import { countries } from "@/data/countries";
 import { getCasesForJurisdiction } from "@/data/cases";
 import { CaseList } from "@/components/CaseList";
 import { DocumentLangSetter } from "@/components/DocumentLangSetter";
+import { COUNTRIES_LIVE } from "@/lib/scope";
+
+// Without the country pages (NEXT_PUBLIC_HIDE_COUNTRY_PAGES=1) one stand-in path is built, because a static
+// export needs at least one; scripts/remove-placeholder-page.mjs takes it out after the build.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return countries.map((c) => ({ country: c.slug }));
+  return COUNTRIES_LIVE ? countries.map((c) => ({ country: c.slug })) : [{ country: "xx" }];
 }
 
 export async function generateMetadata({
@@ -21,6 +26,7 @@ export async function generateMetadata({
   return {
     title: `${country.name} R&D Tax Credit Cases | RDTAXCASES.com`,
     description: country.uiLabels.description,
+    alternates: { canonical: `/${country.slug}` },
     // A country page with no published case stays out of search engines
     // until a case exists.
     ...(hasCases ? {} : { robots: { index: false, follow: true } }),
@@ -38,7 +44,7 @@ export default async function CountryPage({
 
   const countryCases = getCasesForJurisdiction("country", country.slug);
 
-  // No hasPart, matching /usa/federal and /usa/states (see comment there).
+  // No hasPart, matching /us/federal and /us/states (see comment there).
   const datasetJsonLd = {
     "@context": "https://schema.org",
     "@type": "Dataset",

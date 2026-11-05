@@ -2,6 +2,7 @@ import { cases } from "@/data/cases";
 import { CaseSearch } from "@/components/CaseSearch";
 
 export const metadata = {
+  alternates: { canonical: "/search" },
   title: "Search Cases | RDTAXCASES.com",
 };
 

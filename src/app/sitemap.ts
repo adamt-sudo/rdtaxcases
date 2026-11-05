@@ -2,8 +2,7 @@ import type { MetadataRoute } from "next";
 import { cases, getCasesForJurisdiction } from "@/data/cases";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { countries } from "@/data/countries";
-
-const BASE_URL = "https://rdtaxcases.com";
+import { absolute, caseHref, countryHref, stateHref, US_FEDERAL, US_HOME, US_STATES } from "@/lib/urls";
 
 export const dynamic = "force-static";
 
@@ -11,33 +10,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE_URL}/usa/states`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/usa/federal`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: absolute("/"), lastModified: now, changeFrequency: "weekly", priority: 1 },
+    { url: absolute(US_HOME), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: absolute(US_STATES), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: absolute(US_FEDERAL), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     // Country pages without a published case are not in the sitemap.
     ...countries
       .filter((c) => getCasesForJurisdiction("country", c.slug).length > 0)
       .map((c) => ({
-      url: `${BASE_URL}/${c.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.9,
-    })),
-    { url: `${BASE_URL}/search`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${BASE_URL}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${BASE_URL}/copyright`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+        url: absolute(countryHref(c.slug)),
+        lastModified: now,
+        changeFrequency: "weekly" as const,
+        priority: 0.9,
+      })),
+    { url: absolute("/search"), lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: absolute("/about"), lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: absolute("/contact"), lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: absolute("/copyright"), lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const stateRoutes: MetadataRoute.Sitemap = usStateJurisdictions.map((j) => ({
-    url: `${BASE_URL}/usa/states/${j.slug}`,
+    url: absolute(stateHref(j.slug)),
     lastModified: now,
     changeFrequency: "weekly",
     priority: 0.7,
   }));
 
   const caseRoutes: MetadataRoute.Sitemap = cases.map((c) => ({
-    url: `${BASE_URL}/cases/${c.slug}`,
+    url: absolute(caseHref(c)),
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.8,
