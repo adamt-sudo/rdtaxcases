@@ -53,3 +53,8 @@ jobs:
         run: |
           node scripts/check-canonicals.mjs out
           node scripts/build-redirects.mjs --check out
+
+      # The rendered HTML says full addresses (https://rdtaxcases.com/...) for every internal link,
+      # canonical and structured-data URL; the content itself stays path-based.
+      - name: Absolute addresses in the HTML
+        run: node scripts/check-absolute-links.mjs out

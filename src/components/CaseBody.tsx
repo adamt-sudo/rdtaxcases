@@ -40,16 +40,18 @@ export function CaseBody({
                 {i === firstParagraph && afterFirstParagraph}
               </Fragment>
             );
-          case "list":
+          case "list": {
+            const List = block.ordered ? "ol" : "ul";
             return (
-              <ul key={i} className="list-disc space-y-2 pl-6 leading-relaxed">
+              <List key={i} className={`${block.ordered ? "list-decimal" : "list-disc"} space-y-2 pl-6 leading-relaxed`}>
                 {block.items.map((item, j) => (
                   <li key={j}>
                     <InlineText text={item} />
                   </li>
                 ))}
-              </ul>
+              </List>
             );
+          }
           case "table":
             return (
               <figure key={i} className="overflow-x-auto">

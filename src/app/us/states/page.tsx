@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { getCasesForJurisdiction } from "@/data/cases";
 import { StateDropdown } from "@/components/StateDropdown";
@@ -56,13 +56,13 @@ export default function UsaStatesPage() {
           ).length;
           return (
             <li key={state.slug}>
-              <Link
+              <SiteLink
                 href={`/us/states/${state.slug}`}
                 className="flex items-baseline justify-between gap-2 rounded px-2 py-1.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-700"
               >
                 <span>{state.name}</span>
                 <span className="text-xs text-slate-600">{count}</span>
-              </Link>
+              </SiteLink>
             </li>
           );
         })}

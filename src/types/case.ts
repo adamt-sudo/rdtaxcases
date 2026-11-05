@@ -11,7 +11,7 @@ export type CaseContentBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "subheading"; text: string }
-  | { type: "list"; items: string[] }
+  | { type: "list"; items: string[]; /** Numbered list (1, 2, 3). */ ordered?: boolean }
   | { type: "table"; caption?: string; headers: string[]; rows: string[][] };
 
 export interface CaseRecord {

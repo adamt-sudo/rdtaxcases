@@ -14,7 +14,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { parse, HTMLElement, TextNode } from "node-html-parser";
-import { encodeText, linksIn, plainText, safeHref } from "../src/lib/inline-core.mjs";
+import { encodeText, linksIn, normalizeInternalHref, plainText, safeHref } from "../src/lib/inline-core.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -29,10 +29,10 @@ export function unescapeDoc(text) {
 
 const IGNORE = new Set(["style", "script", "head", "meta", "title", "hr", "link", "noscript"]);
 const LOOSE_BLOCK = new Set(["div", "section", "article", "main", "body", "html", "header", "footer", "center", "figure", "nav", "aside"]);
-const INLINE_PASS = new Set(["span", "font", "u", "mark", "sup", "sub", "code", "small", "big", "s", "strike", "del", "ins", "abbr", "cite", "q", "kbd", "var", "samp", "time", "label"]);
+const INLINE_PASS = new Set(["span", "font", "u", "mark", "sup", "sub", "code", "small", "big", "s", "strike", "del", "ins", "abbr", "q", "kbd", "var", "samp", "time", "label"]);
 
 export function htmlToBlocks(html) {
-  const report = { tags: {}, droppedTags: {}, droppedLinks: [], looseText: [], warnings: [], headingLevels: {} };
+  const report = { times: [], tags: {}, droppedTags: {}, droppedLinks: [], looseText: [], warnings: [], headingLevels: {} };
   const count = (o, k) => (o[k] = (o[k] ?? 0) + 1);
 
   const inline = (node) => inlineNodes(node.childNodes);
@@ -46,17 +46,18 @@ export function htmlToBlocks(html) {
       if (!(ch instanceof HTMLElement)) continue;
       const tag = ch.tagName.toLowerCase();
       count(report.tags, tag);
+      if (tag === "time" && ch.getAttribute("datetime")) report.times.push(ch.getAttribute("datetime"));
       if (tag === "br") out += " ";
       else if (tag === "a") {
         const href = ch.getAttribute("href");
         const inner = inline(ch);
-        const safe = href ? safeHref(href) : null;
+        const safe = href ? (safeHref(href) ? normalizeInternalHref(safeHref(href)) : null) : null;
         if (safe && inner.trim()) out += `<a href="${safe.replace(/"/g, "%22")}">${inner}</a>`;
         else {
           if (href) report.droppedLinks.push(href);
           out += inner;
         }
-      } else if (tag === "em" || tag === "i") {
+      } else if (tag === "em" || tag === "i" || tag === "cite") {
         const inner = inline(ch);
         out += inner.trim() ? `<em>${inner}</em>` : inner;
       } else if (tag === "strong" || tag === "b") {
@@ -133,7 +134,7 @@ export function htmlToBlocks(html) {
           }
         };
         collect(ch);
-        if (items.length) blocks.push({ type: "list", items });
+        if (items.length) blocks.push(tag === "ol" ? { type: "list", ordered: true, items } : { type: "list", items });
       } else if (tag === "table") {
         flush();
         const caption = ch.querySelector("caption");

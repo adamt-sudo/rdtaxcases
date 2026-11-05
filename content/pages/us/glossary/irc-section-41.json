@@ -1,0 +1,770 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Claiming the Federal Research Credit Under IRC Section 41",
+  "published": "2026-11-03",
+  "updated": "2026-11-04",
+  "language": "en-US",
+  "status": "preview",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/glossary/irc-section-41\">Section 41 of the Internal Revenue Code</a> (<a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41</a>), captioned \"Credit for increasing research activities,\" serves as the main federal incentive Washington uses to pull corporate money toward technical innovation and product development carried out inside the United States. First enacted in 1981 as a temporary provision and extended many times, the credit was made permanent by the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act of 2015</a>. A company earns it only when its research clears a <a href=\"/us/glossary/four-part-test\">four-part qualification test</a> under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)(1)</a>, avoids the <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">eight statutory exclusions listed in Section 41(d)(4)</a>, and is backed by costs that also qualify as <a href=\"/us/glossary/research-and-experimental-expenditures\">research or experimental expenditures</a> under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Section 174</a> (and, for domestic research in tax years beginning after December 31, 2024, under new Section 174A)."
+    },
+    {
+      "type": "paragraph",
+      "text": "This guide walks through that path in the order a tax team actually works it. It starts with why the credit is worth the effort, moves through project screening and <a href=\"/us/glossary/qualified-research-expenses-qre\">eligible costs</a>, applies the rules to a worked case, and then covers <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">computation</a>, coordination with <a href=\"/us/glossary/irc-section-174\">Sections 174</a>, 174A and <a href=\"/us/glossary/section-280c-election\">280C(c)</a>, the current <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> reporting regime, <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a> and case law, and a forward-looking action plan."
+    },
+    {
+      "type": "heading",
+      "text": "Why the credit deserves board-level attention"
+    },
+    {
+      "type": "paragraph",
+      "text": "The <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">research credit</a> is one of the components of the <a href=\"/us/glossary/general-business-credit\">general business credit</a> under Section 38, so each dollar of it cuts federal income tax owed by a full dollar, subject to the general business credit limitation in <a href=\"/us/glossary/irs-form-3800\">Section 38(c)</a>. A deduction works one step removed: it shrinks taxable income, and the saving equals the deduction times the tax rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "The gap is large. At the 21% flat corporate rate set by Section 11(b), writing off $100,000 of spending saves $21,000 of tax. A $100,000 credit, by contrast, removes $100,000 of tax outright, the same result a company would need roughly $476,000 of deductions to reach ($100,000 ÷ 0.21 = $476,190)."
+    },
+    {
+      "type": "subheading",
+      "text": "An incremental subsidy, not a flat one"
+    },
+    {
+      "type": "paragraph",
+      "text": "Congress built the credit to reward growth in research rather than research as such. It pays only on <a href=\"/us/glossary/qualified-research-expenses-qre\">qualified spending</a> that rises above a <a href=\"/us/glossary/base-amount\">base amount</a> <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">derived from the taxpayer's own history</a>, whether that base is the <a href=\"/us/glossary/fixed-base-percentage\">fixed-base computation</a> of the <a href=\"/us/glossary/regular-research-credit-rrc\">regular credit</a> or the trailing three-year average used by the <a href=\"/us/glossary/alternative-simplified-credit-asc\">Alternative Simplified Credit</a>. The design nudges firms that already run R&D programs to widen them, instead of paying them for work they would have done anyway."
+    },
+    {
+      "type": "subheading",
+      "text": "Cash-flow levers beyond the current year"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Carrybacks and carryforwards.</strong> Under Section 39, research credit that a company cannot use in the current year because of the <a href=\"/us/glossary/general-business-credit\">Section 38(c) limitation</a> may be <a href=\"/us/glossary/research-credit-carryback\">carried back one year</a> and then <a href=\"/us/glossary/research-credit-carryforward\">carried forward up to 20 years</a>, so <a href=\"/us/faq/rd-tax-credit-carryforward-rules\">the benefit is not lost to a temporary loss position</a>.",
+        "<strong>Payroll-tax offset.</strong> A <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Business (QSB)</a> under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">Section 41(h)(3)</a>, meaning a corporation (including an <a href=\"/us/glossary/pass-through-entity-rd-credit\">S corporation</a>) or <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">partnership</a> with <a href=\"/us/faq/startup-rd-payroll-tax-offset\">gross receipts of less than $5 million</a> for the tax year and no gross receipts for any tax year before the five-tax-year period ending with that year, may <a href=\"/us/glossary/payroll-tax-credit-election\">elect to apply part of its credit against payroll taxes</a>, <a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">even when it owes no income tax at all</a>. For tax years beginning after December 31, 2022, the Inflation Reduction Act of 2022 raised the annual election cap from $250,000 to $500,000, but the cap is split: up to $250,000 may offset the employer share of Social Security (OASDI) tax, and up to an additional $250,000 may offset the employer share of Medicare (hospital insurance) tax. The election is made in Section D of <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> on a timely filed original income tax return (including extensions), may be made for no more than five tax years, and the credit is then claimed on <a href=\"/us/glossary/irs-form-8974\">Form 8974</a> attached to Form 941 (or Form 943 or 944) <a href=\"/us/faq/how-to-apply-rd-tax-credit-to-payroll-taxes\">beginning with the first calendar quarter that starts after the income tax return is filed</a>.",
+        "<strong>Reinvestment.</strong> Because the saving arrives as reduced tax rather than a future deduction, it frees cash that can be redeployed into the next development cycle."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Why claiming it is not simple"
+    },
+    {
+      "type": "paragraph",
+      "text": "Four features turn a valuable incentive into a compliance project:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Section 174 gateway.</strong> No cost can be a credit-eligible expense unless it first qualifies as a <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental (R&E) expenditure</a> under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a> (Section 41(d)(1)(A)). Shifting rules on how those costs are recovered, from immediate deduction before 2022, to <a href=\"/us/glossary/r-and-e-capitalization\">mandatory capitalization for 2022 through 2024</a>, to restored domestic expensing under Section 174A from 2025, <a href=\"/us/faq/how-section-174-affects-rd-tax-credit\">feed straight into budgeting and forecasting</a>.",
+        "<strong>The anti–double-dip rule.</strong> <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">Section 280C(c)</a> <a href=\"/us/glossary/section-280c-election\">forces a trade-off</a>: either reduce the domestic R&E deduction or capitalized amount by the credit, or <a href=\"/us/glossary/reduced-research-credit\">elect a smaller credit under Section 280C(c)(2)</a>. A taxpayer cannot keep both benefits whole.",
+        "<strong>Audit priority.</strong> Research credit claims were formerly designated a Tier I issue under the IRS Large Business and International (LB&I) Division's tiered issue process, but LB&I discontinued that process by directive in August 2012 (LB&I-04-0812-010). Research issues remain a top enforcement focus through other channels: <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">LB&I launched a dedicated \"Research Issues\" compliance campaign</a> for Sections 41 and 174 on February 27, 2020, and Directive LB&I-04-0320-0006 (March 2020) created a centralized Research Risk Review Team to identify high-risk research issues on LB&I returns, claims and amended returns. Only <a href=\"/us/glossary/contemporaneous-documentation\">well-kept records</a> that <a href=\"/us/glossary/project-to-expense-nexus\">tie each claimed dollar</a> to the <a href=\"/us/glossary/four-part-test\">four-part test</a> keep <a href=\"/us/glossary/rd-tax-credit-audit-defense\">examination risk</a> and <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">penalties</a> in check.",
+        "<strong>Expanded disclosure.</strong> The redesigned <a href=\"/us/faq/irs-form-6765-instructions-2024\">Form 6765</a> now requires qualitative information in Section E and, for tax years beginning after December 31, 2025, <a href=\"/us/glossary/business-component\">business-component-level reporting</a> in Section G for most filers, so <a href=\"/us/faq/documents-needed-for-rd-tax-credit-study\">documentation</a> must be organized by business component from the start."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Screening a project: two filters in sequence"
+    },
+    {
+      "type": "paragraph",
+      "text": "A project earns credit only if it passes every element of the <a href=\"/us/glossary/four-part-test\">four-part test</a> and then survives all <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">eight statutory exclusions</a>. Section 41(d) defines \"<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>\" through <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">these objective criteria</a>, elaborated in Treasury Regulation § 1.41-4, so that only work pushing past established knowledge and ordinary practice is subsidized."
+    },
+    {
+      "type": "paragraph",
+      "text": "The test is run separately on every <a href=\"/us/glossary/business-component\">business component</a> the claim covers, never for a project or department as a whole (<a href=\"/us/legislation/26-usc-41d2-business-component-test\">Section 41(d)(2)(A)</a>). If the requirements are not met at the level of the overall business component, the \"<a href=\"/us/glossary/shrink-back-rule\">shrinking-back rule</a>\" in Treas. Reg. § 1.41-4(b)(2) applies the test to the next most significant subset of elements, and so on down to the most basic element, until a subset that qualifies is found or none remains. That component-by-component lens is what separates designing, developing or improving products, <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">processes</a> or <a href=\"/us/faq/qualifying-rd-activities-software-companies\">software</a> from everyday engineering, <a href=\"/us/glossary/research-after-commercial-production\">tweaks to an ongoing production run</a>, or customary commercial practice."
+    },
+    {
+      "type": "subheading",
+      "text": "Filter one: the four-part test"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Element",
+        "Question an examiner will ask",
+        "What a passing answer looks like",
+        "Records that prove it"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/glossary/permitted-purpose\">Permitted Purpose</a> (business component test), Section 41(d)(1)(B)(ii) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">(d)(3)</a>",
+            "Was the goal a better-functioning product or process?",
+            "New or improved function, performance, reliability or quality",
+            "<a href=\"/us/glossary/contemporaneous-documentation\">Project charter stating measurable technical targets</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/elimination-of-uncertainty\">Elimination of Uncertainty</a> (Section 174 test), <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)(1)(A)</a> and Treas. Reg. § 1.174-2",
+            "Was the capability, the method, or the <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">appropriate design unknown at the start</a>?",
+            "The answer could not be found without the work, and the information sought was <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>",
+            "<a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">Kickoff notes</a> showing the technical path was not obvious"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/process-of-experimentation\">Process of Experimentation</a>, Section 41(d)(1)(C)",
+            "Were alternatives systematically evaluated to resolve that unknown, for <a href=\"/us/glossary/substantially-all-rule\">substantially all (80% or more)</a> of the activities?",
+            "<a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">Iterative hypothesis, modeling, simulation, testing, or structured trial and error</a>",
+            "Status reports, minutes, <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">written project overviews</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/technological-in-nature\">Technological in Nature</a>, Section 41(d)(1)(B)(i)",
+            "Did the work fundamentally rely on hard science?",
+            "Principles of engineering, computer science, biological science or physical science",
+            "Credentials and roles of the <a href=\"/us/glossary/qualified-wages\">technical staff involved</a>"
+          ]
+        }
+      ],
+      "caption": "The four-part test for qualified research under IRC Section 41(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Permitted Purpose.</strong> The term \"<a href=\"/us/glossary/business-component\">business component</a>\" is wide. Under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">Section 41(d)(2)(B)</a>, it covers any product, process, <a href=\"/us/faq/qualifying-rd-activities-software-companies\">computer software</a>, technique, formula or invention that the taxpayer either uses in its own trade or business or holds out for sale, lease or license. What counts is the objective, measurable gain in how the component works: <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">Section 41(d)(3)</a> requires that the research relate to a <a href=\"/us/glossary/permitted-purpose\">new or improved function, performance, reliability or quality</a>. Research related to <a href=\"/us/faq/apparel-fashion-industry-rd-tax-credits\">style, taste, cosmetic or seasonal design factors</a> is expressly not a permitted purpose, and efforts aimed purely at standing out in the market do not count."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Elimination of Uncertainty.</strong> This element is the gatekeeper for the other three. Under Treas. Reg. § 1.174-2(a)(1), the research must aim to <a href=\"/us/glossary/elimination-of-uncertainty\">uncover information that would eliminate uncertainty</a> about the capability or method of developing or improving the component, or about its appropriate design. <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">A useful self-check asks three questions</a>: did the team know <em>whether</em> it could be done, <em>how</em> to do it, and <em>what the final design</em> would be? If the result or the route to it was already known, or could be found without <a href=\"/us/glossary/technological-in-nature\">applying scientific principles</a>, there is no qualifying uncertainty and the activity fails. <a href=\"/us/glossary/contemporaneous-documentation\">Records made while the work was under way</a> should show that the chosen technical approach was not apparent at launch. Note that the regulations look to uncertainty from the taxpayer's perspective at the outset; success of the project is not required, and <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">the ultimate success, failure, sale or use of the product does not determine whether costs qualify</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Process of Experimentation.</strong> Research must be deliberate and structured: <a href=\"/us/glossary/process-of-experimentation\">a process designed to evaluate one or more alternatives</a> to achieve a result where the capability, method or appropriate design is uncertain at the outset (Treas. Reg. § 1.41-4(a)(5)). In practice that means repeated cycles of identifying the uncertainty, identifying alternatives intended to eliminate it, and conducting modeling, simulation, testing, or disciplined trial and error to evaluate those alternatives until the uncertainty is resolved. <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">The statute</a> also requires that \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" of the activities, which Treas. Reg. § 1.41-4(a)(6) defines as 80% or more measured on a cost or other consistently applied reasonable basis, constitute elements of a process of experimentation. The IRS cares about the journey of testing, not just the endpoint, which is why <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">progress reports, project summaries and meeting minutes</a> are central evidence that a methodical process happened and was followed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Technological in Nature.</strong> The work must fundamentally rely on <a href=\"/us/glossary/technological-in-nature\">principles of engineering, computer science, biological science or physical science</a> (<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)(1)(B)(i)</a>; Treas. Reg. § 1.41-4(a)(4)). Research grounded in <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a>, <a href=\"/us/glossary/humanities-exclusion\">arts or humanities</a>, such as economics or <a href=\"/us/faq/can-marketing-agencies-claim-rd-tax-credits\">market research</a>, or tied only to <a href=\"/us/glossary/management-functions-exclusion\">management functions</a>, is expressly outside the definition. Meeting this element usually means <a href=\"/us/glossary/qualified-wages\">specialized technical personnel</a> are doing the work, which helps distinguish it from back-office or market-facing development work, although the taxpayer may rely on existing principles of hard science and need not seek to expand or refine them."
+    },
+    {
+      "type": "subheading",
+      "text": "Filter two: the eight exclusions in Section 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "An activity that looks qualified on its face is still disqualified if any of <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">these exclusions</a> applies."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Exclusion",
+        "When it knocks out the activity",
+        "How claimants stay clear of it"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/glossary/funded-research\">Funded research</a>, Section 41(d)(4)(H)",
+            "Research is funded by <a href=\"/us/faq/grant-funding-rd-tax-credit-eligibility\">any grant</a>, contract or otherwise by another person or governmental entity; under Treas. Reg. § 1.41-4A(d), research is funded if the taxpayer's payment is not contingent on success (the other party bears the <a href=\"/us/glossary/financial-risk-test\">economic risk</a>) or the taxpayer does not retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> to the results",
+            "<a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">Draft contracts</a> that state who owns the intellectual property and who absorbs the loss if the project fails"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/research-after-commercial-production\">Research after commercial production</a>, Section 41(d)(4)(A)",
+            "Work happens after the beginning of commercial production of the business component, meaning the point at which it is ready for commercial sale or use or meets the basic functional and economic requirements of the taxpayer",
+            "Close out <a href=\"/us/glossary/project-accounting\">research cost tracking</a> at the commercial-readiness milestone"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/adaptation-exclusion\">Adaptation</a>, Section 41(d)(4)(B)",
+            "Work merely adapts an existing business component to a particular customer's requirement or need",
+            "Show that the customization itself required resolving <a href=\"/us/glossary/elimination-of-uncertainty\">technical uncertainty</a> through <a href=\"/us/glossary/process-of-experimentation\">experimentation</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/duplication-exclusion\">Duplication</a>, Section 41(d)(4)(C)",
+            "Work reproduces an existing business component, in whole or in part, <a href=\"/us/glossary/reverse-engineering-exclusion\">from a physical examination of the component itself</a> or from plans, blueprints, detailed specifications or publicly available information",
+            "<a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">Document what was technically new</a> rather than copied"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">Surveys, studies and similar activities</a>, Section 41(d)(4)(D)",
+            "<a href=\"/us/glossary/efficiency-surveys\">Efficiency surveys</a>, <a href=\"/us/glossary/management-functions-exclusion\">management functions or techniques</a>, <a href=\"/us/faq/can-marketing-agencies-claim-rd-tax-credits\">market research</a>, testing or development, <a href=\"/us/glossary/routine-data-collection\">routine data collection</a>, or <a href=\"/us/glossary/quality-control-testing\">routine or ordinary testing or inspection for quality control</a>",
+            "Keep these costs out of the <a href=\"/us/glossary/qualified-research-expenses-qre\">QRE base</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/internal-use-software-ius\">Internal-use software</a>, Section 41(d)(4)(E)",
+            "Software developed by or for the taxpayer primarily for its own internal use, specifically <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a> under Treas. Reg. § 1.41-4(c)(6), unless it clears the three-part <a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation test</a>",
+            "Assess each <a href=\"/us/faq/internal-use-software-rd-tax-credit\">software project</a> against the high threshold of innovation test before claiming"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/foreign-research-exclusion\">Foreign research</a>, Section 41(d)(4)(F)",
+            "Research conducted outside the United States, Puerto Rico, or any U.S. possession",
+            "Track work location for every <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">qualified hour</a> and invoice"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/social-sciences-exclusion\">Social sciences</a>, <a href=\"/us/glossary/humanities-exclusion\">arts or humanities</a>, Section 41(d)(4)(G)",
+            "Research in those fields",
+            "Confirm the <a href=\"/us/glossary/technological-in-nature\">hard-science basis</a> of the work"
+          ]
+        }
+      ],
+      "caption": "The eight statutory exclusions from qualified research under IRC Section 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The <a href=\"/us/glossary/funded-research\">funded research exclusion</a> generates more <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">examination disputes</a> than almost any other. It also ties directly to <a href=\"/us/glossary/irc-section-174\">Section 174</a>: Notice 2023-63 (as modified by Notice 2024-12), the interim guidance on Section 174, provides that a research provider performing research under contract generally does not incur <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditures</a> unless it bears <a href=\"/us/glossary/financial-risk-test\">financial risk</a> under the contract or has the right to use the resulting product, and that a research recipient paying for the work treats its payments as its own <a href=\"/us/glossary/research-and-experimental-expenditures\">R&E expenditures</a>. As a result, the same contract language on economic risk and <a href=\"/us/glossary/substantial-rights\">rights to results</a> now matters under both provisions."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a>, the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">final regulations issued in October 2016 (T.D. 9786)</a> define the <a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation test</a> in Treas. Reg. § 1.41-4(c)(6)(iii): the software must be innovative (it would result in a reduction in cost or improvement in speed or other measurable improvement that is substantial and economically significant), its development must involve <a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a> (substantial resources committed with substantial uncertainty, due to technical risk, that they would be recovered within a reasonable period), and it must not be <a href=\"/us/glossary/commercial-availability-standard\">commercially available for use by the taxpayer</a> without modifications that would themselves satisfy the first two requirements. <a href=\"/us/glossary/interactive-software\">Software developed to enable the taxpayer to interact with third parties</a> or <a href=\"/us/glossary/third-party-subset\">to allow third parties to initiate functions or review data on the taxpayer's system</a> is not treated as internal-use software, and special rules apply to <a href=\"/us/glossary/dual-function-software\">dual-function software</a>."
+    },
+    {
+      "type": "heading",
+      "text": "Which costs count: Qualified Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Section 41(b)</a> lists the <a href=\"/us/glossary/qualified-research-expenses-qre\">Qualified Research Expenses (QREs)</a> that feed the credit, and the list is closed: a cost the statute does not name cannot be claimed. The categories split into <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">in-house research expenses</a> under Section 41(b)(2) and <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research expenses</a> under Section 41(b)(3). <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">Overhead, general and administrative costs, and depreciation</a> are not QREs, even though some of them may be <a href=\"/us/glossary/irc-section-174\">Section 174</a> or Section 174A expenditures."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Category",
+        "What qualifies",
+        "Share counted",
+        "Key condition"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/glossary/qualified-wages\">Wages</a>, Section 41(b)(2)(A)(i) and (b)(2)(D)",
+            "Wages paid or incurred to an employee for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\"",
+            "100% of the qualifying portion",
+            "Wages as defined in Section 3401(a)"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/qualified-supplies\">Supplies</a>, Section 41(b)(2)(A)(ii) and (b)(2)(C)",
+            "Tangible property consumed in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>",
+            "100%",
+            "Excludes land, improvements to land, depreciable property, and <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative supplies</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/computer-rental-costs\">Computer use</a>, Section 41(b)(2)(A)(iii)",
+            "Amounts paid or incurred to another person for the right to use computers in the conduct of qualified research",
+            "100%",
+            "Usually <a href=\"/us/glossary/cloud-computing-costs\">rented capacity</a> or time-shared machines"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/contract-research-expenses\">Contract research expenses (CREs)</a>, <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">Section 41(b)(3)</a>",
+            "Amounts paid to any person other than an employee for <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">qualified research performed on the taxpayer's behalf</a>",
+            "<a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% generally</a>; 75% for qualified research consortia; 100% for certain <a href=\"/us/glossary/energy-research-consortium\">energy research</a> performed by eligible small businesses, universities and federal laboratories",
+            "Taxpayer bears the <a href=\"/us/glossary/financial-risk-test\">economic risk</a> and retains <a href=\"/us/glossary/substantial-rights\">substantial rights</a>"
+          ]
+        }
+      ],
+      "caption": "Qualified Research Expense categories under IRC Section 41(b)"
+    },
+    {
+      "type": "subheading",
+      "text": "In-house research expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wages.</strong> <a href=\"/us/glossary/qualified-services\">Qualified services</a> come in three forms under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">Section 41(b)(2)(B)</a>: engaging in qualified research, <a href=\"/us/glossary/direct-supervision\">directly supervising it</a>, and <a href=\"/us/glossary/direct-support\">directly supporting it</a>. Treas. Reg. § 1.41-2(c) limits direct supervision to first-line supervision of the research, <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">not higher-level management</a>, and limits direct support to services in direct support of persons performing or supervising the research, such as a machinist building a <a href=\"/us/glossary/prototype-development\">prototype</a> or a clerk compiling research data, but not <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative services</a> such as payroll or accounting. The statute borrows its definition of \"<a href=\"/us/glossary/qualified-wages\">wages</a>\" from Section 3401(a), which in practice generally corresponds to the federal income tax withholding wages reported in Box 1 of the employee's Form W-2. That cross-reference pulls the payroll system into the claim. A defensible position depends on <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">time records</a> that apportion each person's taxable pay to the share of their hours spent on work that meets the <a href=\"/us/glossary/four-part-test\">four-part test</a>. Under the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" rule in Treas. Reg. § 1.41-2(d)(2), if 80% or more of an employee's services for the year are qualified services, <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">all of that employee's wages for the year are treated as paid for qualified services</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Supplies.</strong> Any <a href=\"/us/glossary/qualified-supplies\">tangible property used up in performing qualified research</a> can count, provided it is not land, an improvement to land, property of a character subject to the allowance for depreciation, or a general and administrative item such as <a href=\"/us/glossary/extraordinary-utilities\">utilities</a>. <a href=\"/us/glossary/prototype-development\">Prototype materials</a> and test consumables are typical; materials consumed in <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">manufacturing trials</a> that are part of a <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a> are a frequently missed example, provided the trial run itself is qualified research rather than routine production."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Computer use.</strong> Amounts a taxpayer pays someone else for the <a href=\"/us/glossary/computer-rental-costs\">right to use computers</a> while doing qualified research are eligible. This usually means time-sharing or rented computing capacity. <a href=\"/us/glossary/cloud-computing-costs\">Cloud hosting</a> used for software development and testing is a commonly overlooked item; IRS Chief Counsel Advice (CCA 201234027) concluded that <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">fees paid to a third party for hosting a taxpayer's software development and testing environment</a> may qualify as amounts paid for the right to use computers in the conduct of qualified research, while production hosting of a released product does not."
+    },
+    {
+      "type": "subheading",
+      "text": "Contract research expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the taxpayer <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">pays an outside party other than an employee</a> to carry out qualified research on its behalf, generally only <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of the payment</a> becomes a QRE (<a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">Section 41(b)(3)(A)</a>). The percentage rises to 75% for amounts paid to a qualified research consortium (Section 41(b)(3)(C)) and to 100% for amounts paid for <a href=\"/us/glossary/energy-research-consortium\">qualified energy research</a> to eligible small businesses, institutions of higher education, and federal laboratories (Section 41(b)(3)(D)). Separately, payments to universities and certain <a href=\"/us/glossary/qualified-organization\">scientific research organizations</a> for basic research may generate a <a href=\"/us/glossary/basic-research-payments\">basic research credit</a> under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">Section 41(e)</a>. Under Treas. Reg. § 1.41-2(e), two compliance conditions must both hold for <a href=\"/us/glossary/contract-research-expenses\">contract research</a> to count:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Economic risk.</strong> The taxpayer must bear the expense even if the research is not successful; <a href=\"/us/glossary/financial-risk-test\">payment cannot be contingent on success</a>.",
+        "<strong>Substantial rights.</strong> The taxpayer must retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> in the results of the research. Where the taxpayer's rights are merely incidental, such as a nonexclusive license with the performer free to exploit the results, the amounts are not <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research expenses</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If either condition fails, the cost drops out, and from the contractor's side the same facts may trigger the <a href=\"/us/glossary/funded-research\">funded research exclusion</a> described above. The agreement must also be entered into before the research is performed, which makes contract timing a <a href=\"/us/glossary/contemporaneous-documentation\">documentation point</a> in its own right."
+    },
+    {
+      "type": "heading",
+      "text": "Worked case: a low-temperature structural adhesive"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rules are easiest to judge against a concrete project. The scenario below is hypothetical; the figures are illustrative only."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The company.</strong> A U.S. maker of industrial adhesives sells a two-part epoxy that bonds aluminum panels for truck trailers. Customers cure it in ovens at 150°C (302°F). The firm sets out to <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">reformulate the product</a> so it reaches the same lap-shear strength when cured at 90°C (194°F), cutting customers' oven energy and the firm's own production cure time by roughly 20%. No catalyst package on the market achieves that strength at that temperature with the firm's resin system."
+    },
+    {
+      "type": "subheading",
+      "text": "Running the four-part test"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Permitted Purpose — passes.</strong> The work aims to improve two <a href=\"/us/glossary/business-component\">business components</a>: the epoxy <em>formula</em> (<a href=\"/us/glossary/permitted-purpose\">better performance</a> at low cure temperature) and the firm's own <em>curing process</em> (shorter cycle, lower energy). Each component should be evaluated and documented separately, consistent with <a href=\"/us/legislation/26-usc-41d2-business-component-test\">Section 41(d)(2)(A)</a>.",
+        "<strong>Elimination of Uncertainty — passes.</strong> At launch, the chemists do not know <a href=\"/us/glossary/elimination-of-uncertainty\">which hardener chemistry, catalyst loading and filler ratio will cure fully</a> at 90°C without sacrificing bond strength, pot life or resistance to humidity.",
+        "<strong>Process of Experimentation — passes.</strong> The team runs a <a href=\"/us/glossary/process-of-experimentation\">designed-experiment matrix of 60 candidate formulations</a>, models cure kinetics, tests bonded coupons for shear strength and aging, and <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">discards or refines candidates</a> based on the data until one formulation meets every target. Because these activities make up <a href=\"/us/glossary/substantially-all-rule\">substantially all</a> (well above 80%) of the activities on the project, the \"substantially all\" requirement of Treas. Reg. § 1.41-4(a)(6) is met.",
+        "<strong>Technological in Nature — passes.</strong> The work rests on <a href=\"/us/glossary/technological-in-nature\">polymer chemistry, materials science and chemical engineering</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">exclusions</a> do not apply. The firm <a href=\"/us/glossary/funded-research\">funds the work itself</a>, research wraps up <a href=\"/us/glossary/research-after-commercial-production\">before the new grade enters commercial production</a>, the formula is <a href=\"/us/glossary/adaptation-exclusion\">not tailored for a single customer</a>, and all work is <a href=\"/us/glossary/foreign-research-exclusion\">done in the United States</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Building the QRE base"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "QRE category",
+        "What the firm counts",
+        "Amount"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/glossary/qualified-wages\">Wages</a>",
+            "Taxable pay of formulation chemists, lab technicians who run the cure and shear tests, and the R&D manager who <a href=\"/us/glossary/direct-supervision\">directly supervises them as a first-line supervisor</a>, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">apportioned to their qualified hours</a>",
+            "$1,900,000"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/qualified-supplies\">Supplies</a>",
+            "Resins, hardeners, catalysts, fillers and aluminum test coupons used up in the trials",
+            "$260,000"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/computer-rental-costs\">Computer use</a>",
+            "Fees paid to a <a href=\"/us/glossary/cloud-computing-costs\">cloud provider</a> for rented high-performance computing time used to simulate cure kinetics",
+            "$80,000"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/contract-research-expenses\">Contract research</a>",
+            "<a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of $400,000</a> paid to an independent lab for accelerated-aging and fatigue testing",
+            "$260,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Total QREs</strong>",
+            "",
+            "<strong>$2,500,000</strong>"
+          ]
+        }
+      ],
+      "caption": "Illustrative Qualified Research Expense base for the adhesives maker"
+    },
+    {
+      "type": "paragraph",
+      "text": "The contract line holds only because the adhesives firm owes the lab its fee whatever the test results show, so it carries the <a href=\"/us/glossary/financial-risk-test\">economic risk</a>, and its agreement, signed before testing began, gives it ownership of all test data and resulting know-how, so it keeps <a href=\"/us/glossary/substantial-rights\">substantial rights</a>. Had the lab been paid only on success, or kept the data, the $260,000 would fall out of the claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "The same $2,500,000 is carried into the computation example below."
+    },
+    {
+      "type": "heading",
+      "text": "Turning QREs into a credit: RRC or ASC"
+    },
+    {
+      "type": "paragraph",
+      "text": "The credit is claimed on <a href=\"/us/glossary/irs-form-6765\">Form 6765, Credit for Increasing Research Activities</a>, attached to the taxpayer's federal income tax return, and that form makes the taxpayer pick one of two computation methods: Section A for the <a href=\"/us/glossary/regular-research-credit-rrc\">Regular Research Credit</a> or Section B for the <a href=\"/us/glossary/alternative-simplified-credit-asc\">Alternative Simplified Credit</a>. The pick shapes both how much work the claim takes and how large the credit can be, so it is a <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">strategic choice</a> rather than a clerical one. Under Treas. Reg. § 1.41-9, the ASC election is made on Form 6765 and may also be made on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> for a year, provided the taxpayer <a href=\"/us/faq/amending-past-tax-returns-for-missed-rd-credits\">has not previously claimed a research credit for that year</a> on an original or amended return."
+    },
+    {
+      "type": "subheading",
+      "text": "Regular Research Credit (RRC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Section 41(a)(1)</a> and (c), the RRC equals 20% of current QREs in excess of a <a href=\"/us/glossary/base-amount\">base amount</a> <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">meant to approximate what the company historically spent on research</a>. <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">The base amount</a> is the taxpayer's <a href=\"/us/glossary/fixed-base-percentage\">fixed-base percentage</a> multiplied by its <a href=\"/us/glossary/average-annual-gross-receipts\">average annual gross receipts</a> for the four preceding tax years, but it can never be less than <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">50% of current-year QREs (Section 41(c)(2))</a>. For established companies, the fixed-base percentage is the ratio of aggregate QREs to aggregate gross receipts for tax years beginning after 1983 and before 1989, a locked-in historical window of 1984 through 1988, capped at 16% (<a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">Section 41(c)(3)</a>). <a href=\"/us/glossary/start-up-provision\">Start-up companies use a 3% fixed-base percentage</a> for their first five tax years with QREs, followed by a statutory phase-in formula (Section 41(c)(3)(B)). When current spending sits far above that base, the RRC can produce the bigger number."
+    },
+    {
+      "type": "paragraph",
+      "text": "The catch is evidence. Rebuilding, and then <a href=\"/us/glossary/rd-tax-credit-audit-defense\">defending</a>, research and receipts data that is decades old is beyond the means of many modern businesses, and the start-up formula, while it avoids the 1980s window, still demands careful year-by-year tracking. That makes the method administratively fragile even where it is theoretically more generous."
+    },
+    {
+      "type": "subheading",
+      "text": "Alternative Simplified Credit (ASC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ASC under <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Section 41(c)(4)</a> drops any reliance on pre-1989 history. It measures growth against the taxpayer's own last three years instead:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Credit = (Current QREs − 50% × Average QREs of the prior 3 years) × 14%</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the taxpayer has no QREs in any one of the three preceding tax years, the ASC instead equals <a href=\"/us/glossary/alternative-simplified-credit-asc\">6% of current-year QREs</a> (Section 41(c)(4)(B))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied to the adhesives maker, with <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">prior-year QREs</a> of $1,500,000, $1,800,000 and $2,100,000:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Calculation",
+        "Result"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Average prior-year QREs",
+            "($1,500,000 + $1,800,000 + $2,100,000) ÷ 3",
+            "$1,800,000"
+          ]
+        },
+        {
+          "cells": [
+            "2. Half of that average",
+            "$1,800,000 × 50%",
+            "$900,000"
+          ]
+        },
+        {
+          "cells": [
+            "3. QREs above the threshold",
+            "$2,500,000 − $900,000",
+            "$1,600,000"
+          ]
+        },
+        {
+          "cells": [
+            "4. ASC before any <a href=\"/us/glossary/section-280c-election\">Section 280C(c) adjustment</a>",
+            "$1,600,000 × 14%",
+            "$224,000"
+          ]
+        }
+      ],
+      "caption": "Alternative Simplified Credit computation for the adhesives maker"
+    },
+    {
+      "type": "paragraph",
+      "text": "The result equals about 9% of total QREs (8.96%), inside the 6–10% range that practitioners commonly cite as a rule of thumb for the credit once the <a href=\"/us/glossary/base-amount\">base amount</a> is taken into account. That range is an industry estimate rather than a statutory figure, and the actual ratio depends on the taxpayer's growth rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because it needs only three recent years of data, behaves predictably from year to year, and costs less to prepare and defend, <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">the ASC is the usual choice for growing companies</a> that value straightforward compliance over squeezing out a larger credit at the price of <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">greater audit exposure</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Choosing between them"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Decision factor",
+        "Leans toward RRC",
+        "Leans toward ASC"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "How growth is measured",
+            "Against a base built from a <a href=\"/us/glossary/fixed-base-percentage\">fixed-base percentage</a> and <a href=\"/us/glossary/average-annual-gross-receipts\">average gross receipts</a>, with a <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">floor of 50% of current QREs</a>",
+            "<a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Against 50% of the trailing three-year QRE average</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Records you must produce",
+            "Consistent QRE and gross-receipts figures for 1984–1988 (<a href=\"/us/glossary/start-up-provision\">or start-up years</a>), plus the four preceding years' gross receipts",
+            "QREs for just the three preceding tax years"
+          ]
+        },
+        {
+          "cells": [
+            "Rate applied",
+            "20% of QREs above the <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a>, with room for a larger credit",
+            "A flat 14% of QREs above the threshold (6% of current QREs if any prior year has no QREs)"
+          ]
+        },
+        {
+          "cells": [
+            "Typical profile",
+            "Mature firms with steady, well-documented research spending over decades",
+            "<a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">Start-ups</a> and scaling firms that prize simplicity, consistency and cheaper exam readiness"
+          ]
+        },
+        {
+          "cells": [
+            "Main risk",
+            "Base-period data that cannot be located or defended",
+            "Leaving some credit on the table in high-growth years"
+          ]
+        }
+      ],
+      "caption": "Regular Research Credit versus Alternative Simplified Credit: decision factors"
+    },
+    {
+      "type": "heading",
+      "text": "Coordinating with Sections 174, 174A and 280C(c)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The full value of a research budget depends on <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">three provisions working together</a>: <a href=\"/us/glossary/irc-section-41\">Section 41</a> grants the credit, <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Section 174</a> (and, since the One Big Beautiful Bill Act, Section 174A) governs how the underlying spending is recovered, and <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">Section 280C(c)</a> stops the two from stacking into a double benefit."
+    },
+    {
+      "type": "subheading",
+      "text": "Section 174 as the entry condition"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)(1)(A)</a> carries a built-in prerequisite, often called the \"<a href=\"/us/glossary/irc-section-174\">section 174 test</a>\": a cost can support the credit only if it is the kind of expenditure that may be treated as a <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditure</a> under Section 174 (and, for domestic research, a domestic research or experimental expenditure under Section 174A). For tax years beginning before January 1, 2022, <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Section 174(a)</a> also let businesses deduct <a href=\"/us/glossary/research-and-experimental-expenditures\">R&E spending</a> in full in the year it was paid or incurred, or elect to amortize it over at least 60 months. Pairing that immediate deduction with a credit on incremental spending was the most favorable combination available."
+    },
+    {
+      "type": "subheading",
+      "text": "Capitalization under the TCJA, then Section 174A"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Period",
+        "Domestic R&E",
+        "Foreign R&E",
+        "Practical effect"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Tax years beginning before January 1, 2022",
+            "Optional immediate deduction under former Section 174(a), or election to amortize over at least 60 months under former Section 174(b)",
+            "Same treatment as domestic R&E",
+            "Deduction and credit both landed early"
+          ]
+        },
+        {
+          "cells": [
+            "Tax years beginning after December 31, 2021, and before January 1, 2025 (<a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act</a>, Pub. L. 115-97)",
+            "<a href=\"/us/glossary/r-and-e-capitalization\">Mandatory capitalization</a>, amortized ratably over five years <a href=\"/us/glossary/mid-year-convention\">beginning at the midpoint of the tax year</a>",
+            "Mandatory capitalization, <a href=\"/us/glossary/section-174-amortization\">amortized over fifteen years</a>",
+            "<a href=\"/us/faq/tcja-impact-on-rd-tax-credit\">Slower cost recovery, weaker cash flow, heavier compliance load</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Tax years beginning after December 31, 2024 (One Big Beautiful Bill Act, Pub. L. 119-21, enacted July 4, 2025)",
+            "Permanent immediate expensing under new Section 174A(a), or an election under Section 174A(c) to amortize over not less than 60 months; <a href=\"/us/faq/section-174-software-development-amortization\">software development costs</a> are included",
+            "Remains under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Section 174</a>: mandatory capitalization and 15-year amortization, with no immediate recovery of unamortized amounts on disposition or abandonment",
+            "Domestic cost recovery accelerates again; <a href=\"/us/glossary/foreign-research-exclusion\">foreign research</a> remains penalized"
+          ]
+        }
+      ],
+      "caption": "Recovery of research and experimental expenditures by tax period"
+    },
+    {
+      "type": "paragraph",
+      "text": "The OBBBA also provides <a href=\"/us/faq/section-174-amortization-changes-2024\">transition relief</a> for domestic R&E capitalized in 2022 through 2024. Any taxpayer may elect to deduct <a href=\"/us/glossary/section-174-amortization\">remaining unamortized domestic amounts</a> either entirely in the first tax year beginning after December 31, 2024, or ratably over the first two such tax years. In addition, small business taxpayers meeting the Section 448(c) <a href=\"/us/glossary/average-annual-gross-receipts\">gross receipts test</a> (average annual gross receipts of $31 million or less for the first tax year beginning after December 31, 2024), other than tax shelters, could elect to apply Section 174A retroactively to tax years beginning after December 31, 2021, by <a href=\"/us/faq/amending-past-tax-returns-for-missed-rd-credits\">amended return</a>; the IRS implemented these rules in Rev. Proc. 2025-28, and the deadline for the retroactive small-business election and related late <a href=\"/us/glossary/section-280c-election\">Section 280C(c)(2) elections</a> or revocations was July 6, 2026, which has now passed."
+    },
+    {
+      "type": "paragraph",
+      "text": "This back-and-forth means <a href=\"/us/faq/rd-advisor-section-174-capitalization-help\">tax teams must watch the law continuously</a>. Whether R&E spending is <a href=\"/us/glossary/r-and-e-capitalization\">capitalized under Section 174</a>, expensed under Section 174A(a), or amortized by election under Section 174A(c) changes the mechanics of the <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">Section 280C(c) adjustment</a> that follows."
+    },
+    {
+      "type": "subheading",
+      "text": "The Section 280C(c) choice"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">Section 280C(c)</a>, as amended by the OBBBA for tax years beginning after December 31, 2024, <a href=\"/us/faq/does-rd-tax-credit-reduce-tax-basis-section-280c\">bars a taxpayer from pairing an undiminished credit with an undiminished write-off of the same spending</a>, so it imposes one of two adjustments, restoring the approach in place before the TCJA. (During the 2022–2024 <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">TCJA</a> regime, the capitalized amount was reduced only to the extent the credit exceeded the amount capitalized, which made the election rarely consequential.)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Option A — keep the full credit, trim the R&E base.</strong> Under Section 280C(c)(1), the taxpayer takes the whole credit under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Section 41</a> and reduces its <a href=\"/us/glossary/research-and-experimental-expenditures\">domestic research or experimental expenditures</a> (as defined in Section 174A(b)), whether deducted or charged to capital account, by the amount of that credit.",
+        "<strong>Option B — elect a reduced credit, keep the R&E base whole.</strong> Under <a href=\"/us/glossary/section-280c-election\">Section 280C(c)(2)</a>, the taxpayer accepts a <a href=\"/us/glossary/reduced-research-credit\">smaller credit</a> and leaves its R&E expenditures untouched. The reduction equals the credit multiplied by the maximum corporate tax rate under Section 11(b). When that rate was 35%, the reduced credit was 65% of the full amount, a 35% sacrifice. At today's 21% rate, the reduced credit is 79% of the full amount. The election must be made on a timely filed original return (including extensions) for the tax year and, once made, is irrevocable for that year."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For the adhesives maker, Option A keeps the $224,000 credit and reduces its deductible Section 174A expenditures by $224,000. <a href=\"/us/glossary/reduced-research-credit\">Option B yields $176,960</a> (that is, $224,000 × 79%) and leaves the full $2,500,000 of spending available to write off."
+    },
+    {
+      "type": "subheading",
+      "text": "Modeling the trade-off"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neither option wins by default. Where domestic R&E is expensed immediately under Section 174A(a), Option A converts $224,000 of deduction (worth $47,040 at 21%) into the full credit, so in a simple single-year comparison it produces the same $176,960 net benefit as Option B; the answer changes when the taxpayer is in a <a href=\"/us/glossary/research-credit-carryforward\">loss position</a>, faces the <a href=\"/us/glossary/general-business-credit\">Section 38(c) limitation</a>, pays <a href=\"/us/faq/how-federal-rd-credit-affects-state-tax-return\">state taxes that conform differently</a>, or has elected to amortize under Section 174A(c). Where R&E is capitalized, Option A lowers the capitalized amount being written off over time, which pushes cost recovery further out. Option B surrenders part of the credit immediately but protects the full expense base. Only a net present value (NPV) model of total tax benefit, run on the company's own discount rate, tax position and recovery schedule, shows which choice is better in a given year."
+    },
+    {
+      "type": "heading",
+      "text": "Reporting on Form 6765 and refund claims"
+    },
+    {
+      "type": "paragraph",
+      "text": "The IRS has substantially redesigned <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> since tax year 2024. Section E requires additional qualitative information from all filers, and Section F summarizes <a href=\"/us/glossary/qualified-research-expenses-qre\">QREs by category</a>. Section G, \"<a href=\"/us/glossary/business-component\">Business Component Information</a>,\" was optional for tax years 2024 and 2025 (IR-2025-99, October 1, 2025). Under the <a href=\"/us/faq/irs-form-6765-instructions-2024\">finalized Form 6765 instructions</a> (Rev. December 2025) released in February 2026, Section G is mandatory for tax years beginning after December 31, 2025, except for (1) <a href=\"/us/glossary/payroll-tax-credit-election\">qualified small businesses that elect the payroll tax credit</a>, and (2) taxpayers claiming the credit on an originally filed return whose total QREs are $1.5 million or less, determined at the <a href=\"/us/glossary/controlled-group\">controlled-group level</a>, and whose gross receipts under Section 448(c)(3) are $50 million or less. Filers subject to Section G report business components in descending order of QREs until they reach 80% of total QREs or 50 components, whichever comes first, and report the remainder in aggregate. The small-filer exception does not apply to <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Refund claims on amended returns face separate rules. Under <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">Chief Counsel memorandum 20214101F</a>, the IRS originally required five items of information for a <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">valid research credit refund claim</a>: the <a href=\"/us/glossary/business-component\">business components</a>, the research activities for each component, the individuals who performed each activity, the information each individual sought to discover, and the total wage, supply and contract research expenses. In a June 18, 2024 update to its research credit claim FAQs, the IRS waived the requirement to provide the individuals and the information they sought for claims postmarked after that date, while reserving the right to request them in examination. The IRS has also <a href=\"/us/faq/irs-rd-tax-credit-refund-timeline\">extended through January 10, 2027 the transition period</a> in which taxpayers receive 45 days to perfect a deficient claim before the IRS makes a <a href=\"/us/glossary/notice-of-claim-disallowance\">final determination</a>."
+    },
+    {
+      "type": "heading",
+      "text": "Audit exposure and the evidence that answers it"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the IRS retired its formal Tier I issue designation in 2012, research credit and Section 174 issues remain among the most prevalent issues in <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">LB&I examinations</a>, as the IRS itself stated when it launched the Research Issues campaign, and the centralized Research Risk Review Team screens returns, claims and amended returns for <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">high-risk research issues</a>. Every claimant should assume scrutiny and <a href=\"/us/glossary/rd-tax-credit-audit-defense\">build the file defensively from day one</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "What draws an examiner's attention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<a href=\"/us/glossary/amended-tax-return-rd-credit\">Amended returns</a> filed to pick up credits for earlier years, which must now meet the <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">specific information requirements for a valid refund claim</a> and, beginning with 2026 tax years, complete Section G without the small-filer exception.",
+        "QRE figures that <a href=\"/us/glossary/consistency-rule\">swing or conflict from one tax year to the next</a>, or that are inconsistent with the <a href=\"/us/glossary/irc-section-174\">Section 174</a> or Section 174A amounts reported on the same return.",
+        "Generic, <a href=\"/us/faq/irs-dirty-dozen-rd-tax-credit-mills\">\"prepackaged\" research credit studies</a> that <a href=\"/us/glossary/project-to-expense-nexus\">never tie particular dollars back to what the statute demands</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">Once an exam opens</a>, the fight seldom stays on the arithmetic of wages and supplies. Examiners tend to move quickly to the technical case, pressing on whether each activity genuinely meets <a href=\"/us/glossary/four-part-test\">all four elements of the Section 41 test</a>, and in particular whether <a href=\"/us/glossary/substantially-all-rule\">substantially all</a> of the activities for each business component were elements of a <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "What the courts have said"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent case law shows why documentation at the <a href=\"/us/glossary/business-component\">business-component level</a> is decisive. In <em>Little Sandy Coal Co. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), affirming T.C. Memo. 2021-15, a shipbuilder claimed the credit for the design and construction of entire <a href=\"/us/glossary/first-in-class-development\">first-in-class vessels</a>. The Seventh Circuit held that the taxpayer failed to show that <a href=\"/us/glossary/substantially-all-rule\">substantially all (80% or more)</a> of its research activities for each vessel constituted elements of a process of experimentation, because it relied on the newness of the vessels and on <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">arbitrary estimates</a> rather than a principled analysis of activities. The court clarified that the \"substantially all\" fraction is computed by reference to activities, not physical components; that <a href=\"/us/glossary/direct-support\">direct support</a> and <a href=\"/us/glossary/direct-supervision\">direct supervision</a> activities can be included in both the numerator and the denominator of the fraction; and that taxpayers would be well-advised to document research activities at the subcomponent level so the <a href=\"/us/glossary/shrink-back-rule\">shrinking-back rule</a> can be applied. In <em>Siemer Milling Co. v. Commissioner</em>, T.C. Memo. 2019-37, the Tax Court <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallowed the credit entirely</a> because the taxpayer could not show that its projects involved a <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a> or <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">substantiate the claimed expenses</a>, underscoring that general descriptions of projects are not enough."
+    },
+    {
+      "type": "subheading",
+      "text": "Building a file that holds up"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">Winning an examination</a> comes down to solid substantiation. Section 6001 and Treas. Reg. § 1.41-4(d) require taxpayers to <a href=\"/us/faq/documents-needed-for-rd-tax-credit-study\">retain records in sufficiently usable form and detail</a> to substantiate that expenditures claimed are eligible for the credit. The strongest files weave a technical story and financial proof into one trail <a href=\"/us/glossary/contemporaneous-documentation\">created while the work was happening</a>, not reconstructed afterward. Material produced during the research persuades the IRS far more than <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">a recap written long after the fact</a>."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Evidence stream",
+        "What it must show",
+        "Examples of supporting records"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">Technical narrative</a>",
+            "That a genuine <a href=\"/us/glossary/elimination-of-uncertainty\">technical uncertainty</a> was present and got resolved through <a href=\"/us/glossary/process-of-experimentation\">systematic experimentation</a> for <a href=\"/us/glossary/substantially-all-rule\">substantially all</a> of the activities of each <a href=\"/us/glossary/business-component\">business component</a>, satisfying <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)</a>",
+            "Approved project charters and budgets, status reports, minutes, written project overviews, lab or field verification results, test logs, email threads on <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">unsuccessful trials</a>, source-control commit histories, <a href=\"/us/glossary/prototype-development\">prototype schematics</a>"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/project-to-expense-nexus\">Financial nexus</a>",
+            "That each claimed dollar traces to a described qualified activity and business component, in a form that can populate <a href=\"/us/glossary/irs-form-6765\">Form 6765 Section G</a>",
+            "Section 3401(a) <a href=\"/us/glossary/qualified-wages\">wages</a> (generally W-2 Box 1) allocated by <a href=\"/us/glossary/project-accounting\">project time records</a>, <a href=\"/us/glossary/qualified-supplies\">supply invoices</a>, <a href=\"/us/glossary/computer-rental-costs\">computer rental charges</a>, general ledger detail"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/contract-research-expenses\">Contract research</a>",
+            "That the taxpayer bore <a href=\"/us/glossary/financial-risk-test\">economic risk</a> and retained <a href=\"/us/glossary/substantial-rights\">substantial rights</a>, keeping clear of the <a href=\"/us/glossary/funded-research\">funded research exclusion</a> and meeting Treas. Reg. § 1.41-2(e)",
+            "Complete copies of every contract, letter agreement and memorandum of understanding, <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">signed before the research was performed</a>"
+          ]
+        }
+      ],
+      "caption": "Evidence streams that substantiate a research credit claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "The link between dollars and activities is the \"<a href=\"/us/glossary/project-to-expense-nexus\">nexus</a>\" examiners look for. <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">Time entries</a> labeled simply \"R&D\" do not create it; entries that say which <a href=\"/us/glossary/elimination-of-uncertainty\">technical uncertainty</a> an employee was working on, for which <a href=\"/us/glossary/business-component\">business component</a>, do. A practical first step for any new claim is to pull Box 1 <a href=\"/us/glossary/qualified-wages\">wage data</a> for the technical staff and last year's general ledger, then map both to documented business components."
+    },
+    {
+      "type": "heading",
+      "text": "Action plan: strengthening the claim and shaping the rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "The surest way to capture the full credit and keep it is to <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">document the four-part test as the work happens</a>, <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">run the numbers both ways</a> every year, and press regulators for clearer lines where the law is vague."
+    },
+    {
+      "type": "subheading",
+      "text": "Inside the company"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Make time tracking tell the technical story.</strong> Allocation codes alone no longer meet the bar, particularly now that Section G requires <a href=\"/us/glossary/business-component\">QREs by business component</a>. Upgrade <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">project-tracking tools</a> so that technical staff must add a short narrative for each block of qualified hours, naming the business component, the <a href=\"/us/glossary/elimination-of-uncertainty\">technical uncertainty</a> under attack and the <a href=\"/us/glossary/process-of-experimentation\">experimental method</a> in use. That captures the <a href=\"/us/glossary/four-part-test\">four-part test</a> as it unfolds, supports the 80% \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" analysis that sank the taxpayer in <em>Little Sandy Coal</em>, and ties <a href=\"/us/glossary/qualified-wages\">wages</a> directly to the statutory criteria.",
+        "<strong>Stand up an R&D governance committee.</strong> Bring engineering, legal and finance together to review and approve research projects before they begin. The committee should <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">record the open technical questions</a> and the planned experimental approach in a signed authorization document. <a href=\"/us/glossary/contemporaneous-documentation\">Status reports and minutes</a> kept throughout then form the documentary record regulators expect, and show the <a href=\"/us/glossary/elimination-of-uncertainty\">Elimination of Uncertainty</a> requirement was already satisfied while planning, when it matters most.",
+        "<strong>Model the Section 280C(c) election every year.</strong> The OBBBA made domestic expensing under Section 174A permanent, but each year the tax function still chooses between immediate expensing and the Section 174A(c) <a href=\"/us/glossary/section-174-amortization\">amortization election</a> and must decide on the <a href=\"/us/glossary/section-280c-election\">Section 280C(c)(2) reduced-credit election</a> on a timely filed original return. The tax function should compare, in present-value terms, reducing the Section 174A base against <a href=\"/us/glossary/reduced-research-credit\">electing the reduced credit</a>, taking into account <a href=\"/us/glossary/research-credit-carryforward\">loss positions</a>, the <a href=\"/us/glossary/general-business-credit\">Section 38(c) limitation</a> and <a href=\"/us/faq/state-vs-federal-rd-tax-credits\">state conformity</a>. That annual exercise keeps the balance between credit taken now and costs recovered later optimized, whether spending is capitalized or expensed.",
+        "<strong>Prepare for Section G now.</strong> For tax years beginning after December 31, 2025, most filers must report QREs by business component on <a href=\"/us/glossary/irs-form-6765\">Form 6765</a>. Build the <a href=\"/us/glossary/business-component\">business-component taxonomy</a>, QRE-by-component reporting, and <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">related narratives</a> into the <a href=\"/us/glossary/project-accounting\">accounting close</a> so the return can be prepared without after-the-fact reconstruction.",
+        "<strong>Bring in specialist help where it pays.</strong> <a href=\"/us/faq/cpa-vs-specialist-rd-tax-credit\">This area of tax law is full of nuance</a>, and a <a href=\"/us/faq/how-long-does-rd-tax-credit-study-take\">dedicated study</a> often surfaces costs teams miss, such as <a href=\"/us/glossary/cloud-computing-costs\">hosted cloud environments that developers build and test in</a>, or <a href=\"/us/glossary/qualified-supplies\">supplies consumed in qualifying manufacturing trials</a>."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "With Treasury and the IRS"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Push for bright-line tests on economic risk and substantial rights.</strong> These two concepts drive the <a href=\"/us/glossary/funded-research\">funded research exclusion</a> and the <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research rules</a>, and their application to particular contract terms is a leading source of <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">audit disputes and litigation</a>. Industry groups should jointly ask the Treasury Department for uniform illustrations in regulations, or published notices, that spell out objective contract terms satisfying each test, coordinated with the final <a href=\"/us/glossary/irc-section-174\">Section 174</a> and Section 174A guidance. Clearer guidance would take guesswork out of <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">multi-party outsourced research deals</a> and reduce <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit exposure</a>.",
+        "<strong>Seek clarity on internal-use software.</strong> The <a href=\"/us/glossary/internal-use-software-ius\">internal-use software (IUS) exclusion</a> subjects software developed primarily for the taxpayer's <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a> to the demanding three-part <a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation test</a> in Treas. Reg. § 1.41-4(c)(6). Sophisticated proprietary software that <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">controls production processes or automates manufacturing</a>, work that can drive major qualified process improvements, frequently draws examiner challenges over whether it falls inside or outside the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">IUS definition</a>. Guidance should draw a sharper line between ordinary back-office programs, which stay subject to the high threshold test, and experimental software central to a taxpayer's technological progress."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "On the calculation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compute the <a href=\"/us/glossary/alternative-simplified-credit-asc\">ASC</a> <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">side by side</a> with the <a href=\"/us/glossary/regular-research-credit-rrc\">RRC</a> every year. The RRC may produce a larger credit on paper, but its dependence on <a href=\"/us/glossary/fixed-base-percentage\">base-period data</a> that may be missing or hard to defend leaves it exposed. In many cases the ASC's steadiness and lighter data demands make <a href=\"/us/glossary/rd-tax-credit-audit-defense\">exam readiness</a> cheaper and outcomes more predictable, benefits that outweigh the modest extra credit the RRC might yield."
+    },
+    {
+      "type": "heading",
+      "text": "Disclaimer"
+    },
+    {
+      "type": "paragraph",
+      "text": "This guide is general information, not tax or legal advice. Statutory references reflect the Internal Revenue Code as amended through the One Big Beautiful Bill Act (Pub. L. 119-21) and IRS guidance available as of November 4, 2026. Taxpayers should consult a <a href=\"/us/faq/questions-to-ask-rd-tax-credit-consultant\">qualified tax professional</a> before claiming the credit or making any election discussed here."
+    }
+  ]
+}

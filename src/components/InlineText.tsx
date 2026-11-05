@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { absoluteHref } from "@/lib/urls";
 import { parseInline, type InlineNode } from "@/lib/inline-core.mjs";
 
 const LINK =
@@ -10,11 +11,11 @@ function render(nodes: InlineNode[]): ReactNode[] {
     if (n.t === "em") return <em key={i}>{render(n.c)}</em>;
     if (n.t === "strong") return <strong key={i}>{render(n.c)}</strong>;
     return n.external ? (
-      <a key={i} href={n.href} className={LINK} target="_blank" rel="noopener">
+      <a key={i} href={absoluteHref(n.href)} className={LINK} target="_blank" rel="noopener">
         {render(n.c)}
       </a>
     ) : (
-      <a key={i} href={n.href} className={LINK}>
+      <a key={i} href={absoluteHref(n.href)} className={LINK}>
         {render(n.c)}
       </a>
     );

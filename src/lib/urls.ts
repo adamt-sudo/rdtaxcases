@@ -30,3 +30,9 @@ export function listingHref(c: Pick<CaseRecord, "jurisdictionGroup" | "jurisdict
 
 /** Absolute address, for canonical links, the sitemap and structured data. */
 export const absolute = (path: string) => (path === "/" ? SITE : `${SITE}${path}`);
+
+/**
+ * What a link writes into the rendered HTML: a path of this site ("/us/federal") becomes its full address; anything
+ * else (mailto:, tel:, other sites, #fragments) is left as it is.
+ */
+export const absoluteHref = (href: string) => (href.startsWith("/") && !href.startsWith("//") ? absolute(href) : href);

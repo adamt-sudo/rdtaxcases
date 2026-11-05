@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 
 export function Footer() {
   return (
@@ -10,12 +10,12 @@ export function Footer() {
         </p>
         <p className="mt-4 text-xs text-slate-600">
           &copy; {new Date().getFullYear()} Swanson Reed. All rights reserved.{" "}
-          <Link
+          <SiteLink
             href="/copyright"
             className="underline underline-offset-2 hover:text-slate-900"
           >
             Copyright
-          </Link>
+          </SiteLink>
         </p>
       </div>
     </footer>

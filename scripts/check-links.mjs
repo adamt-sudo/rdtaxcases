@@ -1,7 +1,7 @@
 // Link checker for the links inside case text (paragraphs, list items, table cells).
 //
 //   node scripts/check-links.mjs [--base origin/main]   cases added or changed since the base
-//   node scripts/check-links.mjs --all                  every case
+//   node scripts/check-links.mjs --all                  every case and every page (content/pages)
 //   node scripts/check-links.mjs --slug a,b             the named cases
 //
 // Links to this site (a path, or rdtaxcases.com) are checked against the case list and the
@@ -23,22 +23,34 @@ const args = process.argv.slice(2);
 const opt = (n) => (args.includes(n) ? args[args.indexOf(n) + 1] : undefined);
 const BASE = opt("--base") ?? "origin/main";
 const DIR = path.join(ROOT, "content", "cases");
+const PAGES = path.join(ROOT, "content", "pages");
+
+// every JSON file under content/pages, as repo-relative paths
+function pageFiles(d = PAGES, acc = []) {
+  if (!fs.existsSync(d)) return acc;
+  for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) pageFiles(p, acc);
+    else if (e.name.endsWith(".json")) acc.push(path.relative(ROOT, p).split(path.sep).join("/"));
+  }
+  return acc;
+}
 
 const git = (...a) => execFileSync("git", a, { cwd: ROOT, encoding: "utf8", maxBuffer: 256 * 1024 * 1024 });
 
 function targets() {
-  if (args.includes("--all")) return fs.readdirSync(DIR).filter((f) => f.endsWith(".json"));
-  if (opt("--slug")) return opt("--slug").split(",").map((s) => `${s.trim()}.json`);
+  if (args.includes("--all")) return [...fs.readdirSync(DIR).filter((f) => f.endsWith(".json")).map((f) => `content/cases/${f}`), ...pageFiles()];
+  if (opt("--slug")) return opt("--slug").split(",").map((s) => `content/cases/${s.trim()}.json`);
   let out;
   try {
-    out = git("diff", "--name-status", "--no-renames", `${BASE}...HEAD`, "--", "content/cases");
+    out = git("diff", "--name-status", "--no-renames", `${BASE}...HEAD`, "--", "content/cases", "content/pages");
   } catch {
-    out = git("diff", "--name-status", "--no-renames", BASE, "--", "content/cases");
+    out = git("diff", "--name-status", "--no-renames", BASE, "--", "content/cases", "content/pages");
   }
   return out
     .split("\n")
     .filter((l) => l && !l.startsWith("D"))
-    .map((l) => path.basename(l.split("\t")[1]))
+    .map((l) => (l.split("\t")[1]))
     .filter((f) => f.endsWith(".json"));
 }
 
@@ -60,6 +72,10 @@ for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
   const addr = c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`;
   published.set(addr, (c.status ?? "published") === "published");
 }
+for (const f of pageFiles()) {
+  const p = JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8"));
+  published.set("/" + f.slice("content/pages/".length, -".json".length), (p.status ?? "published") !== "draft");
+}
 const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
 const PENDING_FILE = path.join(ROOT, "content", "pending-pages.json");
 const pending = new Set(fs.existsSync(PENDING_FILE) ? JSON.parse(fs.readFileSync(PENDING_FILE, "utf8")).pages.map((p) => p.address) : []);
@@ -78,8 +94,7 @@ const warn = (file, msg) => {
 
 // collect: url -> files that use it
 const uses = new Map();
-for (const f of targets()) {
-  const file = `content/cases/${f}`;
+for (const file of targets()) {
   if (!fs.existsSync(path.join(ROOT, file))) continue;
   const rec = JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
   for (const t of textsOf(rec)) {

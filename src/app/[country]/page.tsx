@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { notFound } from "next/navigation";
 import { countries } from "@/data/countries";
 import { getCasesForJurisdiction } from "@/data/cases";
@@ -91,12 +91,12 @@ export default async function CountryPage({
         <ul className="mt-6 flex flex-wrap gap-3 text-sm">
           {hubs.map((h) => (
             <li key={h.kind}>
-              <Link
+              <SiteLink
                 href={h.href}
                 className="rounded-md border border-slate-300 px-4 py-2 font-medium text-slate-700 hover:border-blue-600 hover:text-blue-700"
               >
                 {HUB_LABEL[h.kind]}
-              </Link>
+              </SiteLink>
             </li>
           ))}
         </ul>
