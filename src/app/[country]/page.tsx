@@ -1,6 +1,10 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { countries } from "@/data/countries";
 import { getCasesForJurisdiction } from "@/data/cases";
+import { getCountryHubs, type HubKind } from "@/data/hubs";
+
+const HUB_LABEL: Record<HubKind, string> = { glossary: "Glossary", legislation: "Legislation", faq: "FAQ" };
 import { CaseList } from "@/components/CaseList";
 import { DocumentLangSetter } from "@/components/DocumentLangSetter";
 import { COUNTRIES_LIVE } from "@/lib/scope";
@@ -21,15 +25,16 @@ export async function generateMetadata({
   const { country: countrySlug } = await params;
   const country = countries.find((c) => c.slug === countrySlug);
   if (!country) return {};
-  const hasCases =
-    getCasesForJurisdiction("country", country.slug).length > 0;
+  const hasContent =
+    getCasesForJurisdiction("country", country.slug).length > 0 ||
+    getCountryHubs(country.slug).length > 0;
   return {
     title: `${country.name} R&D Tax Credit Cases | RDTAXCASES.com`,
     description: country.uiLabels.description,
     alternates: { canonical: `/${country.slug}` },
-    // A country page with no published case stays out of search engines
-    // until a case exists.
-    ...(hasCases ? {} : { robots: { index: false, follow: true } }),
+    // A country page with nothing at all (no published case and no section hub) stays out of
+    // search engines until it has some content.
+    ...(hasContent ? {} : { robots: { index: false, follow: true } }),
   };
 }
 
@@ -43,6 +48,7 @@ export default async function CountryPage({
   if (!country) notFound();
 
   const countryCases = getCasesForJurisdiction("country", country.slug);
+  const hubs = getCountryHubs(country.slug);
 
   // No hasPart, matching /us/federal and /us/states (see comment there).
   const datasetJsonLd = {
@@ -80,6 +86,21 @@ export default async function CountryPage({
           </p>
         )}
       </div>
+      {hubs.length > 0 && (
+        // The country's sections. The words are English until the localized site text (Stage 3).
+        <ul className="mt-6 flex flex-wrap gap-3 text-sm">
+          {hubs.map((h) => (
+            <li key={h.kind}>
+              <Link
+                href={h.href}
+                className="rounded-md border border-slate-300 px-4 py-2 font-medium text-slate-700 hover:border-blue-600 hover:text-blue-700"
+              >
+                {HUB_LABEL[h.kind]}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
