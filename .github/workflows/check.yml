@@ -46,3 +46,10 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      # Every indexable page has one canonical link that is its own address; every redirect
+      # target exists and no old address is still built.
+      - name: Canonical links and redirects
+        run: |
+          node scripts/check-canonicals.mjs out
+          node scripts/build-redirects.mjs --check out

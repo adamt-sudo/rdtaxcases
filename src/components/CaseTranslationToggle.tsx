@@ -28,11 +28,14 @@ export function CaseTranslationToggle({
   jurisdictionName,
   backHref,
   labels,
+  caseUrl,
 }: {
   caseRecord: CaseRecord;
   jurisdictionName: string;
   backHref: string;
   labels?: CaseUiLabels;
+  /** Absolute address of the case page, for the brand sentence. */
+  caseUrl: string;
 }) {
   const [showTranslation, setShowTranslation] = useState(false);
   const l = labels ?? DEFAULT_LABELS;
@@ -126,7 +129,18 @@ export function CaseTranslationToggle({
         </button>
       )}
 
-      <CaseBody blocks={active.body} />
+      <CaseBody
+        blocks={active.body}
+        afterFirstParagraph={
+          <p className="text-sm italic text-slate-600">
+            Summarised in the{" "}
+            <a href={caseUrl} className="underline underline-offset-2 hover:text-slate-900">
+              RDTAXCASES.com case library
+            </a>
+            , a Swanson Reed database.
+          </p>
+        }
+      />
 
       <Link
         href={backHref}

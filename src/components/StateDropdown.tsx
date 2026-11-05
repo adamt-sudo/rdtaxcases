@@ -35,7 +35,7 @@ export function StateDropdown() {
         {usStateJurisdictions.map((state) => {
           const count = getCasesForJurisdiction("usa-states", state.slug).length;
           return (
-            <option key={state.slug} value={`/usa/states/${state.slug}`}>
+            <option key={state.slug} value={`/us/states/${state.slug}`}>
               {state.name} ({count})
             </option>
           );

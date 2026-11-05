@@ -3,6 +3,7 @@ import { getCasesForJurisdiction } from "@/data/cases";
 import { CaseList } from "@/components/CaseList";
 
 export const metadata = {
+  alternates: { canonical: "/us/federal" },
   title: "USA Federal R&D Tax Credit Cases | RDTAXCASES.com",
 };
 
@@ -17,11 +18,11 @@ export default function UsaFederalPage() {
   const datasetJsonLd = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "@id": "https://rdtaxcases.com/usa/federal#dataset",
+    "@id": "https://rdtaxcases.com/us/federal#dataset",
     name: "USA Federal R&D Tax Credit Case Rulings",
     description:
       "A collection of U.S. federal court rulings addressing research and development tax credit eligibility, documentation, and calculation.",
-    url: "https://rdtaxcases.com/usa/federal",
+    url: "https://rdtaxcases.com/us/federal",
     // schema.org's license property expects a CreativeWork or URL, not
     // free text — "Copyright Swanson Reed. All Rights Reserved." doesn't
     // satisfy either type, so this points at the site itself instead.

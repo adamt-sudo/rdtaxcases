@@ -2,6 +2,10 @@ import Link from "next/link";
 import { usStateJurisdictions, usFederalJurisdiction } from "@/data/jurisdictions";
 import { cases } from "@/data/cases";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col">
@@ -16,13 +20,13 @@ export default function Home() {
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/usa/states"
+              href="/us/states"
               className="rounded-md bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-800"
             >
               Browse USA States
             </Link>
             <Link
-              href="/usa/federal"
+              href="/us/federal"
               className="rounded-md border border-blue-700 px-6 py-3 text-sm font-semibold text-blue-700 hover:bg-blue-50"
             >
               Browse USA Federal
@@ -44,7 +48,7 @@ export default function Home() {
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
           <Link
-            href="/usa/states"
+            href="/us/states"
             className="rounded-lg border border-slate-200 p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
           >
             <h3 className="text-lg font-semibold text-slate-900">
@@ -56,7 +60,7 @@ export default function Home() {
             </p>
           </Link>
           <Link
-            href="/usa/federal"
+            href="/us/federal"
             className="rounded-lg border border-slate-200 p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
           >
             <h3 className="text-lg font-semibold text-slate-900">

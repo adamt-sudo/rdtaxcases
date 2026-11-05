@@ -21,6 +21,7 @@ export async function generateMetadata({
   return {
     title: `${country.name} R&D Tax Credit Cases | RDTAXCASES.com`,
     description: country.uiLabels.description,
+    alternates: { canonical: `/${country.slug}` },
     // A country page with no published case stays out of search engines
     // until a case exists.
     ...(hasCases ? {} : { robots: { index: false, follow: true } }),
@@ -38,7 +39,7 @@ export default async function CountryPage({
 
   const countryCases = getCasesForJurisdiction("country", country.slug);
 
-  // No hasPart, matching /usa/federal and /usa/states (see comment there).
+  // No hasPart, matching /us/federal and /us/states (see comment there).
   const datasetJsonLd = {
     "@context": "https://schema.org",
     "@type": "Dataset",

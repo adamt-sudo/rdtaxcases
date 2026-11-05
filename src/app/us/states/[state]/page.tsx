@@ -15,7 +15,10 @@ export async function generateMetadata({
   const { state: stateSlug } = await params;
   const state = usStateJurisdictions.find((s) => s.slug === stateSlug);
   if (!state) return {};
-  return { title: `${state.name} R&D Tax Credit Cases | RDTAXCASES.com` };
+  return {
+    title: `${state.name} R&D Tax Credit Cases | RDTAXCASES.com`,
+    alternates: { canonical: `/us/states/${state.slug}` },
+  };
 }
 
 export default async function StatePage({

@@ -1,8 +1,17 @@
+import { Fragment, type ReactNode } from "react";
 import { CaseContentBlock } from "@/types/case";
 import { InlineText } from "@/components/InlineText";
 import { plainText } from "@/lib/inline-core.mjs";
 
-export function CaseBody({ blocks }: { blocks: CaseContentBlock[] }) {
+export function CaseBody({
+  blocks,
+  afterFirstParagraph,
+}: {
+  blocks: CaseContentBlock[];
+  /** Shown once, right after the first paragraph of the text. */
+  afterFirstParagraph?: ReactNode;
+}) {
+  const firstParagraph = blocks.findIndex((b) => b.type === "paragraph");
   return (
     <div className="mt-8 space-y-5 text-slate-800">
       {blocks.map((block, i) => {
@@ -24,9 +33,12 @@ export function CaseBody({ blocks }: { blocks: CaseContentBlock[] }) {
             );
           case "paragraph":
             return (
-              <p key={i} className="leading-relaxed">
-                <InlineText text={block.text} />
-              </p>
+              <Fragment key={i}>
+                <p className="leading-relaxed">
+                  <InlineText text={block.text} />
+                </p>
+                {i === firstParagraph && afterFirstParagraph}
+              </Fragment>
             );
           case "list":
             return (

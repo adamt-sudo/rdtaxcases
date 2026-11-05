@@ -52,12 +52,14 @@ const textsOf = (rec) =>
           : [],
   );
 
+// Addresses of the case pages (path -> published?), and the pages that are not cases.
 const published = new Map();
 for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
   const c = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8"));
-  published.set(c.slug, (c.status ?? "published") === "published");
+  const addr = c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`;
+  published.set(addr, (c.status ?? "published") === "published");
 }
-const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/usa/federal", "/usa/states"]);
+const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
 
 let errors = 0;
 let warnings = 0;
@@ -90,13 +92,16 @@ const external = [];
 for (const [href, files] of uses) {
   const own = href.startsWith("/") ? href : href.replace(/^https:\/\/(www\.)?rdtaxcases\.com/i, "") || "/";
   if (href.startsWith("/") || /^https:\/\/(www\.)?rdtaxcases\.com/i.test(href)) {
-    const p = own.split(/[?#]/)[0].replace(/\/$/, "") || "/";
-    const m = p.match(/^\/cases\/([^/]+)$/);
+    const raw = own.split(/[?#]/)[0] || "/";
+    const p = raw.replace(/\/$/, "") || "/";
     for (const file of files) {
-      if (m) {
-        if (!published.has(m[1])) error(file, `The link ${href} goes to a case that does not exist.`);
-        else if (!published.get(m[1])) error(file, `The link ${href} goes to a case that is not published (a draft or withdrawn).`);
-      } else if (!STATIC.has(p) && !p.startsWith("/usa/states/")) {
+      // the address rules for links: lowercase, no trailing slash, no .html
+      if (raw !== "/" && (raw.endsWith("/") || /[A-Z]/.test(raw) || raw.endsWith(".html"))) {
+        error(file, `The link ${href} breaks the address rules (lowercase, no trailing slash, no .html): the server answers 403 or 404 for it.`);
+      }
+      if (published.has(p)) {
+        if (!published.get(p)) error(file, `The link ${href} goes to a case that is not published (a draft or withdrawn).`);
+      } else if (!STATIC.has(p) && !p.startsWith("/us/states/") && !/^\/[a-z]{2}$/.test(p)) {
         warn(file, `The link ${href} is not a page this checker knows. Check it by hand.`);
       }
     }

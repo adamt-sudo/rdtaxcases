@@ -19,13 +19,13 @@ export function Header() {
         </Link>
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-3">
           <Link
-            href="/usa/states"
+            href="/us/states"
             className="text-sm font-medium text-slate-700 hover:text-blue-700"
           >
             USA States
           </Link>
           <Link
-            href="/usa/federal"
+            href="/us/federal"
             className="text-sm font-medium text-slate-700 hover:text-blue-700"
           >
             USA Federal

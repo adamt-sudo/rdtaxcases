@@ -1,6 +1,7 @@
 const CONTACT_EMAIL = "info@swansonreed.com";
 
 export const metadata = {
+  alternates: { canonical: "/copyright" },
   title: "Copyright Notice | RDTAXCASES.com",
   description:
     "Copyright notice and DMCA policy for RDTAXCASES.com, published by SR Tax Services LLC (Swanson Reed): what is protected, what is not, and the rules on copying and bulk reuse.",

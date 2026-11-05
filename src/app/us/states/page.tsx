@@ -4,6 +4,7 @@ import { getCasesForJurisdiction } from "@/data/cases";
 import { StateDropdown } from "@/components/StateDropdown";
 
 export const metadata = {
+  alternates: { canonical: "/us/states" },
   title: "USA States R&D Tax Credit Cases | RDTAXCASES.com",
 };
 
@@ -16,11 +17,11 @@ export default function UsaStatesPage() {
   const datasetJsonLd = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "@id": "https://rdtaxcases.com/usa/states#dataset",
+    "@id": "https://rdtaxcases.com/us/states#dataset",
     name: "USA State R&D Tax Credit Case Rulings",
     description:
       "A collection of U.S. state court and tax tribunal rulings addressing research and development tax credit eligibility, documentation, and calculation, organized by state.",
-    url: "https://rdtaxcases.com/usa/states",
+    url: "https://rdtaxcases.com/us/states",
     // schema.org's license property expects a CreativeWork or URL, not
     // free text — "Copyright Swanson Reed. All Rights Reserved." doesn't
     // satisfy either type, so this points at the site itself instead.
@@ -56,7 +57,7 @@ export default function UsaStatesPage() {
           return (
             <li key={state.slug}>
               <Link
-                href={`/usa/states/${state.slug}`}
+                href={`/us/states/${state.slug}`}
                 className="flex items-baseline justify-between gap-2 rounded px-2 py-1.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-700"
               >
                 <span>{state.name}</span>

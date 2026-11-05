@@ -1,4 +1,5 @@
 export const metadata = {
+  alternates: { canonical: "/about" },
   title: "About | RDTAXCASES.com",
   description:
     "RDTAXCASES.com is a dedicated research database created by Swanson Reed, aggregating U.S. R&D tax credit legal decisions into a single, accessible repository.",
