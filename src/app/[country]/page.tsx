@@ -3,9 +3,14 @@ import { countries } from "@/data/countries";
 import { getCasesForJurisdiction } from "@/data/cases";
 import { CaseList } from "@/components/CaseList";
 import { DocumentLangSetter } from "@/components/DocumentLangSetter";
+import { COUNTRIES_LIVE } from "@/lib/scope";
+
+// Without the country pages (NEXT_PUBLIC_HIDE_COUNTRY_PAGES=1) one stand-in path is built, because a static
+// export needs at least one; scripts/remove-placeholder-page.mjs takes it out after the build.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return countries.map((c) => ({ country: c.slug }));
+  return COUNTRIES_LIVE ? countries.map((c) => ({ country: c.slug })) : [{ country: "xx" }];
 }
 
 export async function generateMetadata({

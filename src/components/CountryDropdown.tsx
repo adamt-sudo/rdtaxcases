@@ -3,11 +3,12 @@
 import { useRouter } from "next/navigation";
 import { useId } from "react";
 import { countries } from "@/data/countries";
+import { COUNTRIES_LIVE } from "@/lib/scope";
 
 const LIVE_OPTIONS = [
   { value: "/us/states", label: "USA (States)" },
   { value: "/us/federal", label: "USA (Federal)" },
-  ...[...countries]
+  ...(COUNTRIES_LIVE ? [...countries] : [])
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((c) => ({ value: `/${c.slug}`, label: c.name })),
 ];

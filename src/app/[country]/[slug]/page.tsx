@@ -1,13 +1,14 @@
 import { notFound } from "next/navigation";
 import { getCaseForCountry, getCountryCases } from "@/data/cases";
 import { CasePage, caseMetadata } from "@/components/CasePage";
+import { COUNTRIES_LIVE } from "@/lib/scope";
 
 type Params = { country: string; slug: string };
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  const params = getCountryCases().map((c) => ({ country: c.jurisdictionSlug, slug: c.slug }));
+  const params = (COUNTRIES_LIVE ? getCountryCases() : []).map((c) => ({ country: c.jurisdictionSlug, slug: c.slug }));
   // A static export needs at least one path. While no country case is published this one
   // stands in: it renders the not-found page and is never linked, listed or put in the sitemap.
   return params.length ? params : [{ country: "xx", slug: "none" }];
