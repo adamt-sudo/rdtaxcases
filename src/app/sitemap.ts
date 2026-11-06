@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { cases, getCasesForJurisdiction } from "@/data/cases";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { countries } from "@/data/countries";
+import { getPublishedPages } from "@/data/pages";
 import { absolute, caseHref, countryHref, stateHref, US_FEDERAL, US_HOME, US_STATES } from "@/lib/urls";
 
 export const dynamic = "force-static";
@@ -43,5 +44,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...stateRoutes, ...caseRoutes];
+  // Glossary terms, laws and FAQ questions that are published (a preview page is not listed).
+  const pageRoutes: MetadataRoute.Sitemap = getPublishedPages().map((p) => ({
+    url: absolute(p.address),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...stateRoutes, ...caseRoutes, ...pageRoutes];
 }

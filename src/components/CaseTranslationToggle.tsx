@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { CaseRecord } from "@/types/case";
 import { CaseUiLabels } from "@/data/country-labels";
 import { CaseBody } from "@/components/CaseBody";
@@ -142,13 +142,13 @@ export function CaseTranslationToggle({
         }
       />
 
-      <Link
+      <SiteLink
         href={backHref}
         className="mt-10 inline-block text-sm font-medium text-blue-700 hover:underline"
       >
         {l.backToPrefix}
         {jurisdictionName}
-      </Link>
+      </SiteLink>
     </>
   );
 }

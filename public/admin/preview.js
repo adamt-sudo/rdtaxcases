@@ -36,6 +36,18 @@ function safeHref(href) {
   return ALLOWED_HOSTS.includes(u.hostname.toLowerCase()) ? u.href : null;
 }
 
+/**
+ * The address rules for links to this site: no trailing slash (the server redirects it, or answers 403). The
+ * importer applies this to every link it reads, so a delivery written with "/us/glossary/funded-research/" is stored as
+ * "/us/glossary/funded-research". Fragments and queries are kept; other sites' links are not touched.
+ */
+function normalizeInternalHref(href) {
+  if (!href.startsWith("/")) return href;
+  const m = href.match(/^([^?#]*)(.*)$/);
+  const path = m[1].length > 1 ? m[1].replace(/\/+$/, "") : m[1];
+  return path + m[2];
+}
+
 /** True when the link goes to another site (so it opens in a new tab). */
 function isExternal(href) {
   return !href.startsWith("/") && !/^https:\/\/(www\.)?rdtaxcases\.com(\/|$)/i.test(href);

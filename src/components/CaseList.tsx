@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { CaseRecord } from "@/types/case";
 import { caseHref } from "@/lib/urls";
 
@@ -15,7 +15,7 @@ export function CaseList({ cases }: { cases: CaseRecord[] }) {
     <ul className="divide-y divide-slate-200 rounded-lg border border-slate-200">
       {cases.map((c) => (
         <li key={c.slug}>
-          <Link
+          <SiteLink
             href={caseHref(c)}
             className="flex flex-col gap-1 px-5 py-4 hover:bg-slate-50"
           >
@@ -24,7 +24,7 @@ export function CaseList({ cases }: { cases: CaseRecord[] }) {
               {c.year} &middot; {c.subject}
               {c.caseNumber !== "TBD" ? ` · Case No. ${c.caseNumber}` : ""}
             </span>
-          </Link>
+          </SiteLink>
         </li>
       ))}
     </ul>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { usStateJurisdictions, usFederalJurisdiction } from "@/data/jurisdictions";
 import { cases } from "@/data/cases";
 
@@ -19,18 +19,18 @@ export default function Home() {
             cases on the internet, a Swanson Reed database.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Link
+            <SiteLink
               href="/us/states"
               className="rounded-md bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-800"
             >
               Browse USA States
-            </Link>
-            <Link
+            </SiteLink>
+            <SiteLink
               href="/us/federal"
               className="rounded-md border border-blue-700 px-6 py-3 text-sm font-semibold text-blue-700 hover:bg-blue-50"
             >
               Browse USA Federal
-            </Link>
+            </SiteLink>
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function Home() {
         </p>
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
-          <Link
+          <SiteLink
             href="/us/states"
             className="rounded-lg border border-slate-200 p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
           >
@@ -58,8 +58,8 @@ export default function Home() {
               All 50 states, each with a dedicated section for state-level
               R&amp;D tax credit case law.
             </p>
-          </Link>
-          <Link
+          </SiteLink>
+          <SiteLink
             href="/us/federal"
             className="rounded-lg border border-slate-200 p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
           >
@@ -70,7 +70,7 @@ export default function Home() {
               Federal R&amp;D tax credit cases (U.S. Tax Court, Court of
               Federal Claims, and federal appellate decisions).
             </p>
-          </Link>
+          </SiteLink>
         </div>
       </section>
     </div>

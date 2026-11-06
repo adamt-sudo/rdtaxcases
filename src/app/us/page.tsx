@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteLink } from "@/components/SiteLink";
 import { US_FEDERAL, US_STATES } from "@/lib/urls";
 
 export const metadata = {
@@ -17,16 +17,16 @@ export default function UsHomePage() {
       </p>
       <ul className="mt-8 divide-y divide-slate-200 rounded-lg border border-slate-200">
         <li>
-          <Link href={US_FEDERAL} className="block px-5 py-4 hover:bg-slate-50">
+          <SiteLink href={US_FEDERAL} className="block px-5 py-4 hover:bg-slate-50">
             <span className="font-medium text-slate-900">Federal cases</span>
             <span className="block text-xs text-slate-600">Decisions of the federal courts</span>
-          </Link>
+          </SiteLink>
         </li>
         <li>
-          <Link href={US_STATES} className="block px-5 py-4 hover:bg-slate-50">
+          <SiteLink href={US_STATES} className="block px-5 py-4 hover:bg-slate-50">
             <span className="font-medium text-slate-900">State cases</span>
             <span className="block text-xs text-slate-600">Decisions by state</span>
-          </Link>
+          </SiteLink>
         </li>
       </ul>
     </div>

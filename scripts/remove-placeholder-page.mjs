@@ -1,6 +1,6 @@
 // Runs after `next build` (package.json "postbuild"). While no country case is published, the
 // country case route builds one stand-in page (xx/none) because a static export needs at least one
-// path (see src/app/[country]/[slug]/page.tsx). It is not a real page: take it out of the build.
+// path (see src/app/[country]/[slug]/page.tsx; the glossary / law / FAQ route builds xx/xx/none the same way). It is not a real page: take it out of the build.
 import fs from "node:fs";
 import path from "node:path";
 

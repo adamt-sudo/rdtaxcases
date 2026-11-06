@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -24,6 +25,7 @@ const BLOCK_TYPES = new Set(["paragraph", "heading", "subheading", "list", "tabl
 const GROUPS = new Set(["usa-states", "usa-federal", "country"]);
 const STATUSES = new Set(["draft", "published", "withdrawn"]);
 
+const siteMap = loadSiteMap();
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json")).sort();
 let raggedTables = 0;
 const bySlug = new Map();
@@ -46,6 +48,13 @@ for (const f of files) {
   if (c.sourceDocUrl !== undefined && typeof c.sourceDocUrl !== "string") bad(`"sourceDocUrl" must be text`);
   if (!Number.isInteger(c.year)) bad(`"year" must be a whole number`);
   if (!GROUPS.has(c.jurisdictionGroup)) bad(`unknown jurisdictionGroup "${c.jurisdictionGroup}"`);
+  // the case's web address follows the link spec: lowercase a-z, 0-9, single hyphens, at most 100 characters, and not a reserved word
+  if (GROUPS.has(c.jurisdictionGroup) && typeof c.slug === "string") {
+    const addr = c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`;
+    const a = parseAddress(addr, siteMap);
+    if (!a.ok) bad(`web address ${addr}: ${a.problems.join("; ")}`);
+    else if (a.kind !== "case") bad(`web address ${addr} is a ${a.kind}: a case slug cannot be a section folder name`);
+  }
   if (c.status !== undefined && !STATUSES.has(c.status)) bad(`unknown status "${c.status}"`);
   if (c.sourcePdfPath && !fs.existsSync(path.join(ROOT, "public", c.sourcePdfPath))) {
     bad(`sourcePdfPath ${c.sourcePdfPath} does not exist in public/`);
