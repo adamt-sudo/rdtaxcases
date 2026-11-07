@@ -58,12 +58,13 @@ sg|en-SG|${EN}
 nz|en-NZ|${EN}
 au|en-AU|${EN}
 me|sr-Latn-ME|rjecnik|zakonodavstvo|cesta-pitanja
+ae|ar-AE|mustalahat|tashriaat|asila-shaia
 `
   .trim()
   .split("\n");
 
 // Serbia: page content is in Cyrillic (court decisions are), addresses stay Latin. Montenegro stays Latin.
-const OVERRIDE = { rs: { htmlLang: "sr-Cyrl-RS" }, ph: { htmlLang: "fil-PH" }, me: { htmlLang: "cnr-ME" }, tn: { dir: "rtl" }, no: { hreflangAlso: ["nb-NO"] } };
+const OVERRIDE = { rs: { htmlLang: "sr-Cyrl-RS" }, ph: { htmlLang: "fil-PH" }, me: { htmlLang: "cnr-ME" }, tn: { dir: "rtl" }, ae: { dir: "rtl" }, no: { hreflangAlso: ["nb-NO"] } };
 const countries = {};
 for (const line of ROWS) {
   const [cc, hreflang, glossary, legislation, faq] = line.split("|");
@@ -71,7 +72,7 @@ for (const line of ROWS) {
 }
 const siteMap = {
   note:
-    "From the site owner's final sitemap (Australia added by his decision). Each country: its language codes and the three section folders " +
+    "From the site owner's final sitemap (Australia and the United Arab Emirates added by his decisions). Each country: its language codes and the three section folders " +
     "(glossary, legislation, faq): each section has a hub page and one page per term, law or question. " +
     "A case may not be named like a section folder of its country, or 'en'; in /us also not 'federal' or 'states'.",
   reserved: { all: ["en"], us: ["federal", "states"] },

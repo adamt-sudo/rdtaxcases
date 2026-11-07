@@ -11,11 +11,13 @@ const ok = (fn) => {
 };
 
 ok(() => {
-  assert.equal(Object.keys(map.countries).length, 53, "the sitemap has the USA and 52 countries (Australia added)");
+  assert.equal(Object.keys(map.countries).length, 54, "the sitemap has the USA and 53 countries (Australia and the United Arab Emirates added)");
   assert.equal(map.countries.au.hreflang, "en-AU");
   assert.equal(map.countries.rs.htmlLang, "sr-Cyrl-RS");
   assert.equal(map.countries.it.folders.faq, "domande-frequenti");
   assert.equal(map.countries.tn.dir, "rtl");
+  // United Arab Emirates: Arabic, right to left, section folders in Latin letters (the owner's final sheet)
+  assert.deepEqual(map.countries.ae, { hreflang: "ar-AE", htmlLang: "ar-AE", dir: "rtl", folders: { glossary: "mustalahat", legislation: "tashriaat", faq: "asila-shaia" } });
   assert.equal(map.countries.ph.htmlLang, "fil-PH");
 });
 
@@ -39,6 +41,16 @@ ok(() => {
   assert.equal(kind("/at/haeufige-fragen"), "faq-hub");
   assert.equal(kind("/at/haeufige-fragen/was-ist-ein-forschungsprojekt"), "faq-question");
   assert.equal(kind("/jp/glossary/kenkyu-kaihatsu"), "glossary-term");
+  assert.equal(kind("/ae"), "home");
+  assert.equal(kind("/ae/tashriaat"), "legislation-hub");
+  assert.equal(kind("/ae/tashriaat/qanun-alsharaib"), "legislation-page");
+  assert.equal(kind("/ae/mustalahat"), "glossary-hub");
+  assert.equal(kind("/ae/mustalahat/albahth-waltatwir"), "glossary-term");
+  assert.equal(kind("/ae/asila-shaia"), "faq-hub");
+  assert.equal(kind("/ae/asila-shaia/hal-ana-mawhil"), "faq-question");
+  assert.equal(kind("/ae/some-case-2026"), "case");
+  // the English folder names are not the UAE folders: /ae/glossary would be a case, so it is not a section
+  assert.equal(kind("/ae/glossary"), "case");
 });
 ok(() => {
   const bad = {

@@ -89,11 +89,12 @@ const ROWS: {
   { slug: "gb", name: "United Kingdom", nativeName: "United Kingdom", countryCode: "GB", lang: "en" },
   { slug: "au", name: "Australia", nativeName: "Australia", countryCode: "AU", lang: "en" },
   { slug: "sg", name: "Singapore", nativeName: "Singapore", countryCode: "SG", lang: "en" },
+  { slug: "ae", name: "United Arab Emirates", nativeName: "الإمارات العربية المتحدة", countryCode: "AE", lang: "en" },
   { slug: "ie", name: "Ireland", nativeName: "Éire", countryCode: "IE", lang: "en", locale: "en-IE" },
 ];
 
 /**
- * All 52 country pages. A page with no published case shows "no case law
+ * All 53 country pages. A page with no published case shows "no case law
  * yet" and is not indexed; one with a case lists it.
  */
 export const countries: Country[] = ROWS.map((r) => {
