@@ -6,6 +6,7 @@
 //
 //   <a href="https://www.swansonreed.com/...">text</a>
 //   <em>text</em>   <strong>text</strong>   (<i> and <b> are read as the same)
+//   <sub>text</sub>   <sup>text</sup>          (indices in formulas: QRE<sub>t</sub>, Σ<sup>4</sup>)
 //
 // Nothing else is markup. A `<` that does not start one of these tags is plain
 // text. The three entities &lt; &gt; &amp; are decoded (a literal "<" in the
@@ -16,13 +17,17 @@
 // writes with it, and the editor preview is generated from it
 // (scripts/build-admin-config.mjs). It has no dependencies.
 
-/** Hosts a link may point to (besides this site's own relative paths). */
-const ALLOWED_HOSTS = ["swansonreed.com", "www.swansonreed.com", "rdtaxcases.com", "www.rdtaxcases.com"];
+/** This site's own hosts: a link to them is a link to a page of this site (stored as a path). */
+const OWN_HOSTS = ["rdtaxcases.com", "www.rdtaxcases.com"];
 
 const TAG = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)((?:\s+[^<>]*?)?)\s*(\/?)>/g;
-const ALIAS = { a: "a", em: "em", i: "em", strong: "strong", b: "strong" };
+const ALIAS = { a: "a", em: "em", i: "em", strong: "strong", b: "strong", sub: "sub", sup: "sup" };
 
-/** A link target the site accepts: https on an allowed host, or a path on this site. Otherwise null. */
+/**
+ * A link target the site accepts: a path on this site, or an https address (this site's own, or any other site: the
+ * delivered texts cite the IRS, Cornell's Legal Information Institute and others). Not accepted: http, protocol-relative
+ * (//host), javascript:, mailto:, and an address with a user name or password. Otherwise null.
+ */
 function safeHref(href) {
   const h = String(href ?? "").trim();
   if (/^\/(?!\/)[^\s]*$/.test(h)) return h; // a path on this site
@@ -32,8 +37,8 @@ function safeHref(href) {
   } catch {
     return null;
   }
-  if (u.protocol !== "https:" || u.username || u.password) return null;
-  return ALLOWED_HOSTS.includes(u.hostname.toLowerCase()) ? u.href : null;
+  if (u.protocol !== "https:" || u.username || u.password || !u.hostname.includes(".")) return null;
+  return u.href;
 }
 
 /**
@@ -42,6 +47,8 @@ function safeHref(href) {
  * "/us/glossary/funded-research". Fragments and queries are kept; other sites' links are not touched.
  */
 function normalizeInternalHref(href) {
+  const own = href.match(/^https?:\/\/(?:www\.)?rdtaxcases\.com(\/[^]*)?$/i);
+  if (own) href = own[1] || "/"; // a link to this site written with the domain is stored as a path
   if (!href.startsWith("/")) return href;
   const m = href.match(/^([^?#]*)(.*)$/);
   const path = m[1].length > 1 ? m[1].replace(/\/+$/, "") : m[1];
@@ -69,7 +76,7 @@ function hrefOf(attrs) {
 
 /**
  * Parse a stored string. Returns { nodes, problems }.
- * Nodes: { t: "text", s } | { t: "em" | "strong", c: nodes } | { t: "a", href, external, c: nodes }.
+ * Nodes: { t: "text", s } | { t: "em" | "strong" | "sub" | "sup", c: nodes } | { t: "a", href, external, c: nodes }.
  * A tag that is not allowed, a link to a host that is not allowed, or an unbalanced tag becomes plain
  * text in the nodes and is listed in problems (for the format check).
  */
@@ -110,7 +117,7 @@ function parseInline(src) {
       const raw = hrefOf(attrs);
       const href = raw === null ? null : safeHref(raw);
       if (raw === null) problems.push("a link has no href");
-      else if (href === null) problems.push(`the link to ${raw.slice(0, 60)} is not allowed (only swansonreed.com and rdtaxcases.com)`);
+      else if (href === null) problems.push(`the link to ${raw.slice(0, 60)} is not allowed (only https addresses and paths of this site)`);
       const rest = attrs.replace(/\bhref\s*=\s*(?:"[^"]*"|'[^']*')/i, "").replace(/\b(target|rel)\s*=\s*(?:"[^"]*"|'[^']*')/gi, "").trim();
       if (rest) problems.push(`a link has attributes that are not allowed (${rest.slice(0, 40)})`);
       stack.push({ t: "a", href, external: href ? isExternal(href) : false, c: [] });
@@ -122,7 +129,7 @@ function parseInline(src) {
   // tags left open: close them and report
   while (stack.length > 1) {
     const top = stack.pop();
-    problems.push(`<${top.t === "a" ? "a" : top.t === "em" ? "em" : "strong"}> is never closed`);
+    problems.push(`<${top.t}> is never closed`);
     cur().c.push(top);
   }
   // a link without an allowed target is shown as its text only
@@ -163,7 +170,7 @@ function inlineProblems(src) {
 
 /** True when the string contains any of our tags (so a heading or the summary should not). */
 function hasMarkup(src) {
-  return /<\/?(a|em|i|strong|b)\b/i.test(String(src));
+  return /<\/?(a|em|i|strong|b|sub|sup)\b/i.test(String(src));
 }
 // The editor's case list shows "<title>, <case number>". When the title already contains the case
 // number (for example a title that is the number itself), the number would show twice: drop the repeat.
@@ -185,6 +192,8 @@ function dropRepeatedNumber(text) {
       if (n.t === "text") return n.s;
       if (n.t === "em") return h("em", { key: k }, nodesToEls(n.c, k));
       if (n.t === "strong") return h("strong", { key: k }, nodesToEls(n.c, k));
+      if (n.t === "sub") return h("sub", { key: k }, nodesToEls(n.c, k));
+      if (n.t === "sup") return h("sup", { key: k }, nodesToEls(n.c, k));
       return h("a", { key: k, href: n.href, target: "_blank", rel: "noopener" }, nodesToEls(n.c, k));
     });
   }

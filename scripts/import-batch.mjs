@@ -26,6 +26,7 @@ import { prepareDoc } from "./lib/doc-clean.mjs";
 import { makeDescription } from "./lib/describe.mjs";
 import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
 import { refreshPending } from "./lib/pending.mjs";
+import { rewriteLegacyLinks } from "./lib/legacy-links.mjs";
 import { plainText } from "../src/lib/inline-core.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -103,10 +104,12 @@ async function main() {
     if (!write) continue;
 
     if (r.type === "case") {
-      const oldFile = path.join(ROOT, "content", "cases", `${r.oldSlug}.json`);
+      // when the case was already renamed by an earlier run, its file has the new slug
+      const curSlug = fs.existsSync(path.join(ROOT, "content", "cases", `${r.oldSlug}.json`)) ? r.oldSlug : (history.renames[r.oldSlug] ?? r.oldSlug);
+      const oldFile = path.join(ROOT, "content", "cases", `${curSlug}.json`);
       const c = JSON.parse(fs.readFileSync(oldFile, "utf8"));
       const newSlug = a.slug;
-      if (newSlug !== r.oldSlug && fs.existsSync(path.join(ROOT, "content", "cases", `${newSlug}.json`))) {
+      if (newSlug !== curSlug && fs.existsSync(path.join(ROOT, "content", "cases", `${newSlug}.json`))) {
         problem(`the new address /us/${newSlug} is already another case`);
         result.imported.pop();
         continue;
@@ -115,10 +118,10 @@ async function main() {
       const body = blocks[0]?.type === "paragraph" && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
       const next = { ...c, slug: newSlug, summary: capsule || c.summary, metaDescription: desc.text, body };
       const newFile = path.join(ROOT, "content", "cases", `${newSlug}.json`);
-      if (newSlug !== r.oldSlug) {
+      if (newSlug !== curSlug) {
         fs.rmSync(oldFile);
         history.renames[r.oldSlug] = newSlug;
-        order = order.map((s) => (s === r.oldSlug ? newSlug : s));
+        order = order.map((s) => (s === curSlug ? newSlug : s));
       }
       fs.writeFileSync(newFile, JSON.stringify(next, null, 2) + "\n");
       rec.oldSlug = r.oldSlug;
@@ -145,8 +148,9 @@ async function main() {
     history.note ||= "Case slugs that changed: old slug -> current slug. scripts/build-redirects.mjs makes the 301 redirects from it (the old /cases/<slug> and /us/<slug> both go to /us/<current slug>).";
     fs.writeFileSync(histFile, JSON.stringify(history, null, 2) + "\n");
     fs.writeFileSync(orderFile, JSON.stringify(order, null, 2) + "\n");
+    result.legacyLinks = rewriteLegacyLinks({ write: true });
     result.pending = refreshPending({ write: true });
-    result.pending = { total: result.pending.pending.length, added: result.pending.added.length, removed: result.pending.removed.length };
+    result.pending = { total: result.pending.pending.length, added: result.pending.added.length, removed: result.pending.removed.length, legacyLinksRewritten: result.legacyLinks.length };
   }
   if (opt("--report")) fs.writeFileSync(opt("--report"), JSON.stringify(result, null, 1));
   const by = {};
