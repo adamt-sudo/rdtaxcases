@@ -1,0 +1,378 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "How to treat contractor expenses for R&D tax credits (65% rule)",
+  "description": "Contractor expenses for the federal R&D credit are generally limited to 65% of payments, with 75% for research consortia and 100% for energy research.",
+  "summary": "Contractor expenses for the federal R&D tax credit are generally limited to 65% of amounts paid to non-employee contractors for qualified research under IRC Section 41(b)(3)(A). U.S. taxpayers must first isolate the fully qualified portion of each invoice before applying the 65% rule; exceptions allow 75% for qualified research consortia and 100% for qualified energy research.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Contractor expenses for the federal R&D tax credit are generally limited to 65% of amounts paid to non-employee contractors for qualified research under IRC Section 41(b)(3)(A). U.S. taxpayers must first isolate the fully qualified portion of each invoice before applying the 65% rule; exceptions allow 75% for qualified research consortia and 100% for qualified energy research."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Scope"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal Research and Development (R&D) tax credit—formally titled the \"<a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Credit for increasing research activities</a>\" under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41</a>—allows taxpayers to include a statutorily prescribed portion of payments made to third-party contractors as Qualified Research Expenses (QREs). Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">26 U.S.C. § 41(b)(1)</a>, a taxpayer's total QREs for any taxable year equal the sum of in-house research expenses and contract research expenses (CREs) paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer. While eligible in-house research expenses—such as qualified employee wages, direct supplies consumed in experimentation, and qualifying computer leasing or <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">cloud-computing costs</a> for R&D under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(2)</a>—are generally included at 100% of the substantiated amount, payments to non-employee contractors for qualified research are generally limited to 65% of the eligible expenditure under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "This publication provides a comprehensive technical and regulatory analysis of how contractor expenses must be treated under the 65% rule, locked strictly to the scope of contractor expense treatment for R&D tax credits. Specifically, this report analyzes the statutory architecture of IRC Section 41(b)(3) and Treasury Regulation <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)</a>, the mandatory prerequisite of 100% line-item cost substantiation prior to applying the 65% statutory hair-cut, the federal statutory rate exceptions (75% for qualified research consortia under Section 41(b)(3)(C) and 100% for qualified energy research performed by eligible small businesses, universities, and federal laboratories under Section 41(b)(3)(D)), state conformity divergences in Wisconsin, temporal limits on prepaid contract research under Section 41(b)(3)(B), the Four-Part Test under Section 41(d), the dual mandate of economic risk and substantial rights under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)-(3)</a> and the funded research exclusion under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(H)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)</a>, controlling federal court precedents, worked computational examples, and practice compliance frameworks."
+    },
+    {
+      "type": "heading",
+      "text": "1. Statutory Architecture of the 65% Rule Under IRC Section 41(b)(3)"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1 In-House Research Expenses vs. Contract Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(1)</a> and the Internal Revenue Service (IRS) <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">Audit Techniques Guide (ATG) on Qualified Research Expenses</a>, a taxpayer may only claim an expenditure as a QRE if it falls strictly within the statutory categories enumerated in IRC Section 41(b). In-house research expenses under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(2)(A)</a> encompass three distinct items: (i) any wages paid or incurred to an employee for qualified services performed by such employee, (ii) any amount paid or incurred for supplies used in the conduct of qualified research, and (iii) under regulations prescribed by the Secretary, any amount paid or incurred to another person for the right to use computers in the conduct of qualified research (see <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(b)(4)</a>). Eligible <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">in-house research expenses</a> are included in the QRE calculation at 100% of the substantiated qualified expenditure."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a> defines the term \"contract research expenses\" as 65 percent of any amount paid or incurred by the taxpayer to any person (other than an employee of the taxpayer) for qualified research. Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(b)(1)</a>, the distinction between an employee and a non-employee contractor tracks the statutory definition of wages in IRC Section 3401(a), meaning individuals whose compensation is subject to federal income tax withholding and reported on Form W-2 are evaluated under the in-house wage rules of Section 41(b)(2), whereas <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">independent contractors</a>, third-party engineering firms, external laboratories, and non-employee consultants (including those reported on Form 1099-NEC or corporate entities) are governed by the contract research expense rules of Section 41(b)(3). The legislative and analytical rationale for the mandatory 35% statutory haircut (limiting inclusion to 65%) is that commercial third-party contractor invoices do not reflect pure direct R&D wages and consumable supplies; rather, a vendor's gross billing rate embeds the contractor's <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative</a> (G&A) overhead, indirect facility costs, marketing expenses, non-qualifying administrative support, and commercial profit margin alongside direct technical labor and research materials. Congress instituted the <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">flat 65% statutory inclusion rate</a> to strip out these embedded indirect costs and profit margins without requiring the hiring taxpayer to audit the internal cost accounting books of an unrelated third-party vendor."
+    },
+    {
+      "type": "subheading",
+      "text": "1.2 The Prerequisite of 100% Substantiation Prior to Applying the 65% Limit"
+    },
+    {
+      "type": "paragraph",
+      "text": "A foundational compliance requirement under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)</a> and the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a> is that the 65% statutory rate cannot be applied indiscriminately as a rough proxy or safe harbor to a vendor's gross invoice total unless 100% of the underlying billed work constitutes qualified research (or services that would constitute \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(2)(B)</a> if performed by an employee of the taxpayer)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)(i)-(ii)</a>, a contract research expense is 65 percent of any expense paid or incurred in carrying on a trade or business to any person other than an employee of the taxpayer for the performance on behalf of the taxpayer of (i) qualified research as defined in § 1.41-4, or (ii) services which, if performed by employees of the taxpayer, would constitute qualified services within the meaning of IRC Section 41(b)(2)(B) (namely, engaging in the actual conduct of qualified research, or engaging in the <a href=\"/us/glossary/direct-supervision\">direct supervision</a> or direct support of research activities which constitute qualified research). Where a contractor performs services that would not constitute qualified services if performed by an employee—such as accounting, legal, human resources, general administrative duties, or routine non-research tasks, as explicitly illustrated in <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(5) Example 2</a>—no portion of the payment attributable to those non-qualifying services constitutes a contract research expense, even if the vendor's personnel support a project that otherwise involves R&D. Consequently, taxpayers must first substantiate and isolate the 100% qualified research portion of a contractor's invoice—scrubbing out separately billed travel, meals, lodging, administrative surcharges, capital equipment, depreciable property, routine production or maintenance services, and <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">foreign research activities</a>—before multiplying the remaining 100% eligible base by 65%. Furthermore, the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" (80% or greater) rule of <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(d)(2)</a> applies strictly to in-house employee wages and does not allow a taxpayer to include 100% of a mixed-service contractor invoice prior to applying the 65% rate."
+    },
+    {
+      "type": "subheading",
+      "text": "1.3 Statutory Exceptions to the 65% Rate: Consortia (75%), Energy Research (100%), and State Conformity Correction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal law in force under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)</a> establishes two specific statutory exceptions to the standard 65% inclusion rate for contract research expenses:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Qualified Research Consortium (75% Federal Rate):</strong> Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(C)(i)</a>, 75 percent is substituted for 65 percent for amounts paid or incurred by the taxpayer to a \"qualified research consortium\" for qualified research on behalf of the taxpayer and at least one unrelated taxpayer. Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(C)(ii)</a>, a qualified research consortium is defined as any organization that is described in IRC Section 501(c)(3) or Section 501(c)(6) and is exempt from tax under Section 501(a), is organized and operated primarily to conduct scientific research, and is not a private foundation. Additionally, <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">basic research payments</a> to qualified universities and scientific research organizations are governed separately under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(e)</a>, with any portion not exceeding the base period amount eligible for treatment as contract research expenses subject to the 65% rule per Section 41(e)(1)(B) and the <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. December 2025)</a>.",
+        "<strong>Eligible Small Businesses, Universities, and Federal Laboratories for Energy Research (100% Federal Rate):</strong> Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(D)(i)</a>, 100 percent is substituted for 65 percent for amounts paid or incurred by the taxpayer in carrying on any trade or business of the taxpayer during the taxable year to an eligible small business, an institution of higher education (as defined in IRC Section 3304(f)), or an organization that is a Federal laboratory (as defined in Section 4(6) of the Stevenson-Wydler Technology Innovation Act of 1980, 15 U.S.C. § 3703(6)) for qualified energy research. Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(D)(ii)</a>, an \"eligible small business\" means a small business with respect to which the taxpayer does not own a 50 percent or greater interest and which employed an average of 500 or fewer employees during either of the 2 preceding calendar years."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong><a href=\"/us/faq/state-vs-federal-rd-tax-credits\">Wisconsin State Conformity</a>:</strong>"
+    },
+    {
+      "type": "list",
+      "items": [
+        "First, the 100% inclusion rate for payments to eligible small businesses (500 or fewer employees), universities, and federal laboratories for qualified energy research is a <strong>federal</strong> statutory rule codified under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(D)</a> (originally enacted in the federal Energy Tax Incentives Act of 2005, P.L. 109-58, § 1351(a)), not a unique Wisconsin state enhancement.",
+        "Second, the Wisconsin Department of Revenue's <a href=\"https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleR-Inst.pdf\">Instructions for 2025 Schedule R</a> explicitly state: <em>\"The changes to the federal research credit relating to energy research and <a href=\"/us/glossary/energy-research-consortium\">energy research consortium</a> were not adopted for Wisconsin purposes.\"</em> On Line 4 of Wisconsin Schedule R, taxpayers may enter only 65% of amounts paid under a contract for qualified research performed in Wisconsin by a non-employee, or 75% of payments made to a qualified research consortium in Wisconsin. While Wisconsin provides an enhanced 11.5% credit calculation rate for research related to designing internal combustion engines and certain energy-efficient products, it does not allow a 100% inclusion rate for energy contract research expenses."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "1.4 Temporal Constraints: Prepaid Contract Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(B)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(4)</a>, if any contract research expenses paid or incurred during any taxable year are attributable to qualified research to be conducted after the close of that taxable year, those expenses must be treated as paid or incurred during the subsequent taxable year in which the qualified research is actually conducted. Both the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a> and the <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. December 2025)</a> confirm that regardless of whether the taxpayer uses the cash or accrual method of accounting, prepaid contract research expenditures—such as advance retainers, upfront milestone deposits, or year-end prepayments for research to be performed in the following year—cannot be claimed in the year of payment and are includible at 65% (or 75%/100% where applicable) only in the tax period in which the contractor performs the underlying research services."
+    },
+    {
+      "type": "subheading",
+      "text": "1.5 Summary Comparison of Statutory Contract Research Inclusion Rates"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Expense Category",
+        "Statutory / Regulatory Authority",
+        "Federal Inclusion Rate",
+        "Wisconsin Schedule R Inclusion Rate",
+        "Key Qualifying Conditions"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Standard Contract Research Expenses",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>; <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)</a>",
+            "65%",
+            "65% (for research performed in WI)",
+            "Paid or incurred to a non-employee for qualified research performed on behalf of the taxpayer in the U.S."
+          ]
+        },
+        {
+          "cells": [
+            "Qualified Research Consortium Payments",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(C)(i)-(ii)</a>",
+            "75%",
+            "75% (for consortium research in WI)",
+            "Paid to a tax-exempt IRC § 501(c)(3) or § 501(c)(6) non-private foundation conducting scientific research for the taxpayer and at least 1 unrelated taxpayer."
+          ]
+        },
+        {
+          "cells": [
+            "Qualified Energy Research Payments (Small Business, University, Federal Lab)",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(D)</a>; <a href=\"https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleR-Inst.pdf\">WI 2025 Schedule R Instructions</a>",
+            "100%",
+            "Not adopted (standard 65% / 75% rules apply)",
+            "Paid to an eligible small business (500 or fewer employees), university, or Federal laboratory for qualified energy research under federal law."
+          ]
+        },
+        {
+          "cells": [
+            "Prepaid Contract Research Expenses",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(B)</a>; <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(4)</a>",
+            "0% in year of prepayment; 65%/75%/100% in year research is conducted",
+            "0% in year of prepayment; 65%/75% in year research is conducted in WI",
+            "Attributable to qualified research conducted after the close of the taxable year in which paid or incurred."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. The Four-Part Test and Contemporaneous Nexus Documentation"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 The Four-Part Test Under IRC Section 41(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before any payment to a contractor can be included at 65% under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>, the underlying activities performed by the contractor must satisfy the statutory definition of \"<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>\" in <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)</a> and the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-activities\">IRS Audit Techniques Guide on Qualified Research Activities</a>:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>The Section 174 Test (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)(A)</a>):</strong> The expenditures must be eligible to be treated as specified research or experimental expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a>, meaning they are incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense aimed at eliminating uncertainty concerning the development or improvement of a product or process (see 26 CFR § 1.174-2).",
+        "<strong>The Technological in Nature Test (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)(B)(i)</a>):</strong> The research must be undertaken for the purpose of discovering information that is technological in nature, meaning the process of experimentation fundamentally relies on principles of the physical or biological sciences, engineering, or computer science, rather than <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a>, arts, humanities, economics, or business management.",
+        "<strong>The Business Component / Permitted Purpose Test (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)(B)(ii)</a> & <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">§ 41(d)(3)</a>):</strong> The application of the discovered information must be intended to be useful in the development of a new or improved business component of the taxpayer—defined in <a href=\"/us/legislation/26-usc-41d2-business-component-test\">Section 41(d)(2)(B)</a> as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(3)(A)-(B)</a>, the research must relate to a new or improved function, performance, reliability, or quality, and is explicitly disqualified if its purpose relates to style, taste, cosmetic, or seasonal design factors.",
+        "<strong>The Process of Experimentation Test (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)(C)</a>):</strong> Substantially all of the activities must constitute elements of a process of experimentation for a <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">permitted purpose</a>, involving the identification of technical uncertainty regarding capability, method, or appropriate design, the identification and evaluation of one or more alternatives, hypothesis formulation, and systematic modeling, simulation, or trial-and-error testing. Routine adaptation of an existing business component to a particular customer's requirement or need, duplication of an existing business component (<a href=\"/us/glossary/reverse-engineering-exclusion\">reverse engineering</a>), surveys or routine data collection, and research after commercial production are expressly excluded under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(A)-(E)</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, under the <a href=\"/us/glossary/foreign-research-exclusion\">Foreign Research Exclusion</a> in <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(F)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)</a>, qualified research excludes any research conducted outside the United States, the Commonwealth of Puerto Rico, or any possession of the United States. The determinative factor is the physical location where the contractor's personnel perform the research activities, not the jurisdiction of the contractor's corporate headquarters or billing entity. Even if a taxpayer contracts with a U.S.-domiciled engineering or software firm, any portion of the work subcontracted to or performed by offshore engineers outside the United States and its qualifying territories is strictly excluded and must be removed from the invoice before calculating the 65% CRE amount."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Substantiation and Nexus Documentation for Outsourced Research"
+    },
+    {
+      "type": "paragraph",
+      "text": "As emphasized in <a href=\"https://www.adp.com/resources/articles-and-insights/articles/r/r-and-d-tax-credit-documentation\">ADP's R&D Tax Credit Documentation Guide</a>, the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a>, and the <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. December 2025)</a> (including Section G business component reporting requirements for contract research expenses), taxpayers claiming CREs must maintain <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a> under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.6001-1\">26 CFR § 1.6001-1</a> establishing a clear nexus between the accounting records of contractor payments and the specific qualified research activities performed per business component."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Documentation Category",
+        "Specific Compliance & Audit Function",
+        "Governing Authority / Source"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Master Service Agreements (MSAs), Statements of Work (SOWs), and Purchase Orders",
+            "Establish that the agreement was entered into prior to the performance of research, define technical scope of work, allocate financial risk of failure, and assign intellectual property / substantial rights.",
+            "<a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)-(3)</a>; <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(1)</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Itemized Vendor Invoices and General Ledger Records",
+            "Substantiate the exact amounts paid or incurred during the tax year and allow line-by-line segregation of qualified research labor/materials from excluded G&A, travel, capital assets, or foreign costs prior to applying the 65% limit.",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>; <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Form 1099-NEC Filings",
+            "Verify that payments were made to an independent non-employee contractor rather than an employee reported on Form W-2, preventing double-counting between wage QREs and CREs.",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Technical Reports, Test Logs, Prototypes, and Issue Trackers",
+            "Prove that the contractor's activities satisfied the Four-Part Test under IRC § 41(d), including <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> and a systematic process of experimentation tied to a specific business component.",
+            "<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(1)</a>; <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. Dec. 2025)</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. The Dual Mandate: Economic Risk and Substantial Rights (\"On Behalf Of\" and Funded Research Rules)"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 Statutory and Regulatory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent both the hiring taxpayer (the client) and the performing contractor from claiming the R&D tax credit for the same underlying work (double-dipping), the Internal Revenue Code and Treasury Regulations pair two complementary legal frameworks:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>From the Client's Perspective (Claiming the 65% CRE):</strong> Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)</a>, an expense is paid or incurred for qualified research performed on behalf of the taxpayer only if the research is conducted pursuant to an agreement that: Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)</a>, if an expense is paid or incurred pursuant to an agreement under which payment is contingent on the success of the research, the expense is considered paid for the product or result rather than the performance of research, and that contingent payment is strictly ineligible to be treated as a contract research expense by the client. Additionally, under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(3)</a>, qualified research is performed on behalf of the taxpayer only if the taxpayer has a right to the research results (though the right need not be exclusive).",
+        "is entered into prior to the performance of the qualified research,",
+        "provides that the research be performed on behalf of the taxpayer, and",
+        "requires the taxpayer to bear the expense even if the <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">research is not successful</a>.",
+        "<strong>From the Contractor's Perspective (The <a href=\"/us/glossary/funded-research\">Funded Research Exclusion</a>):</strong> Under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(H)</a>, qualified research excludes any research to the extent <a href=\"/us/faq/grant-funding-rd-tax-credit-eligibility\">funded by any grant</a>, contract, or otherwise by another person (or governmental entity). Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(1)-(2)</a>, research performed for another person is treated as funded unless the performing party both bears the <a href=\"/us/glossary/financial-risk-test\">financial risk of failure</a> (because payment is contingent on the success of the research) and retains substantial rights in the research results."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Written Agreement Requirement:</strong> While <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)(i)</a> and the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a> state that the agreement must be \"entered into prior to the performance of the qualified research\" without using the phrase \"in writing\" in the regulatory clause itself, <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(1)</a> requires examination of all agreements entered into between the parties performing and paying for the research, and written agreements (such as MSAs, SOWs, and Purchase Orders) executed prior to performance are essential in practice to substantiate prior entry, risk allocation, and intellectual property rights during an <a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">IRS examination</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 The Economic Risk Standard and Contract Structures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether the hiring taxpayer or the contractor bears the <a href=\"/us/glossary/significant-economic-risk\">economic risk of failure</a> depends on the specific payment and acceptance terms of the governing agreements:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Time-and-Materials (T&M) Contracts:</strong> Under a straight <a href=\"/us/glossary/time-and-materials-contract\">T&M contract</a>, the client pays the contractor an agreed hourly or daily rate for technical labor and reimburses materials regardless of whether the technical hypothesis succeeds or fails. Because the client is legally obligated to pay for the time expended even if the research is unsuccessful, the client bears the financial risk of failure under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)(iii)</a> and may claim 65% of the eligible expenditures (provided the client also holds <a href=\"/us/glossary/substantial-rights\">substantial rights</a> to the research results).",
+        "<strong>Fixed-Price / Milestone Contracts Contingent on Success:</strong> Where a <a href=\"/us/glossary/fixed-price-contract\">fixed-price or milestone contract</a> conditions payment on the successful delivery and acceptance of a functioning prototype or specific technical outcome (such that the contractor receives no payment, or must refund progress payments, if the research fails to meet technical acceptance criteria), the contractor bears the financial risk of failure. Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)</a>, the client cannot claim payments that are contingent on the success of the research as CREs. However, as noted in the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE Audit Techniques Guide</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(5) Example 1</a>, if a contract calls for a fixed payment of $300x to perform qualified research <em>regardless of the success of the research</em>, then 65% of that non-contingent fixed amount ($195x) qualifies as a contract research expense of the client.",
+        "<strong>Mixed-Risk and Pro Rata Allocation:</strong> As noted in the <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-activities\">IRS Qualified Research Activities Audit Techniques Guide</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(3)(i)-(ii)</a>, where a research performer retains substantial rights in the research results under a contract where payments are not contingent on success, the research is treated as funded to the extent of the payments (reimbursements) received, and the performer may claim excess qualified research expenses above the funded amount, allocating funding pro rata between nonqualified and otherwise qualified research expenses pursuant to <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(3)(ii)</a>."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "3.3 The Substantial Rights Standard and Judicial Precedent"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(3)</a>, qualified research is performed on behalf of the taxpayer if the taxpayer has a right to the research results; furthermore, the taxpayer need not have an exclusive right to the research results. Conversely, under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(a)(3)(i)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(2)</a>, a taxpayer does not retain substantial rights in the research if the taxpayer must pay a royalty or licensing fee for the right to use the results of the research, or if the agreement confers on another person the exclusive right to exploit the results. Additionally, as reflected in the <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. December 2025)</a>, software that is <a href=\"/us/glossary/commercial-availability-standard\">commercially available</a> for purchase, lease, or license and used for its intended purpose without significant modifications does not qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Judicial Precedents Governing Contract Risk and Substantial Rights:</strong>"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong><em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000)</strong>: In <a href=\"https://law.justia.com/cases/federal/appellate-courts/F3/210/1366/483974/\">Lockheed Martin Corp. v. United States, 210 F.3d 1366 (Fed. Cir. 2000)</a>, the U.S. Court of Appeals for the Federal Circuit reversed the Court of Federal Claims and held that \"substantial rights\" in research under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(2)</a> do not require exclusive rights or patent-assignment exclusivity. Rather, the right to use the research results in the taxpayer's trade or business without paying a royalty or fee for that right is a substantial right, even when the counterparty also retains a license or right to use the results.",
+        "<strong><em>Perficient Inc. & Subsidiaries v. Commissioner</em>, Docket Nos. 15467-17 & 7600-18 (U.S. Tax Court)</strong>: <a href=\"https://www.casemine.com/judgement/us/615ee0d9b50db9553e75c8bc\">Perficient Inc. & Subsidiaries v. Commissioner</a> (see also <a href=\"https://www.millerchevalier.com/publication/monthly-tax-roundup-volume-1-issue-6\">Miller & Chevalier Tax Roundup</a>) involved a technology consulting firm challenging the IRS's disallowance of R&D tax credits under the <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(H)</a> funded research exclusion across representative client software development agreements and contesting the interpretation and validity of the substantial rights test in <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)</a>.",
+        "<strong><em>Grigsby v. United States</em>, 85 F.4th 258 (5th Cir. 2023)</strong>: In <a href=\"/cases/grigsby-v-united-states\">Grigsby v. United States, 85 F.4th 258 (5th Cir. 2023)</a>, the U.S. Court of Appeals for the Fifth Circuit affirmed summary judgment for the government recovering erroneously refunded Section 41 credits claimed by shareholders of Cajun Industries, holding both that the taxpayer failed to establish qualifying business components on four representative construction contracts and that boilerplate work-for-hire, title-vesting, and confidentiality clauses divested the contractor of substantial rights under IRC § 41(d)(4)(H).",
+        "<strong><em>Smith v. Commissioner</em>, T.C. Memo. 2026-50 (U.S. Tax Court, June 16, 2026)</strong>: In <a href=\"https://www.currentfederaltaxdevelopments.com/blog/2026/6/16/architectural-research-credits-the-funded-research-exclusion-and-reasonable-compensation-an-analysis-of-smith-v-commissioner\">Smith v. Commissioner, T.C. Memo. 2026-50</a> (see also <a href=\"https://www.frazierdeeter.com/insights/article/when-innovative-isnt-enough-what-the-tax-courts-smith-v-commissioner-decision-means-for-your-rd-credit/\">Frazier & Deeter's analysis</a> and <a href=\"https://www.millerchevalier.com/publication/tax-court-denies-taxpayers-regulatory-challenge-partially-strikes-down-irss-application\">Miller & Chevalier's alert</a>), the U.S. Tax Court rejected an administrative-law challenge under <em>Loper Bright Enterprises v. Raimondo</em>, upholding the validity of <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)</a> under statutory <em>stare decisis</em> and as the faithful reading of IRC § 41(d)(4)(H). Evaluating six representative <a href=\"/us/faq/architect-rd-tax-credit-eligibility\">architectural contracts</a> of Adrian Smith + Gordon Gill Architecture, LLP, the Tax Court held that none of the six contracts made payment contingent on the success of the research because payments were tied to monthly progress billing, phases, or hourly rates (and termination-for-convenience clauses merely represented a lost opportunity for future profit rather than financial risk of research failure). On the substantial rights prong, the Court held that two of the six contracts completely divested the firm of substantial rights (making project data the client's absolute property and requiring prior written client consent for reuse), rendering those two projects fully funded and completely ineligible; however, for the remaining four projects where the firm retained substantial rights to reuse its technical knowledge without paying a fee, the firm remained eligible to claim research credits strictly to the extent its qualified research expenses exceeded the client reimbursements received under <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-4A\">26 CFR § 1.41-4A(d)(3)(i)</a>."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Hypothetical Worked Example: Applying the 65% Rule and Cost Segregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>(Note: The following worked calculation is strictly <strong>hypothetical</strong> and illustrates the step-by-step application of rates and rules under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)</a>.)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hypothetical Fact Pattern:</strong> Apex Manufacturing Corp. (a U.S. taxpayer) enters into a written Time-and-Materials contract with Delta Engineering LLC (an unrelated non-employee U.S. engineering firm) prior to the start of the project. Under the agreement, Apex is obligated to pay Delta's hourly rates regardless of whether the <a href=\"/us/glossary/prototype-development\">technical prototype</a> succeeds, and Apex retains a perpetual, royalty-free right to use all resulting designs and code. During the current taxable year, Apex pays Delta a gross invoiced amount of <strong>$200,000</strong>. An itemized review of Delta's invoices reveals the following line items:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>$140,000</strong> for U.S.-based engineering labor and prototype materials consumed directly in systematic experimentation on a new business component;",
+        "<strong>$30,000</strong> for testing subcontracted to a laboratory located outside the United States;",
+        "<strong>$10,000</strong> for separately billed travel, meals, and general administrative overhead; and",
+        "<strong>$20,000</strong> for <a href=\"/us/glossary/research-after-commercial-production\">routine post-production maintenance</a> of an existing commercial product."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step-by-Step Calculation:</strong>"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Start with Gross Vendor Invoice Amount:</strong> $200,000",
+        "<strong>Subtract Foreign Research Costs (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(F)</a>):</strong> $200,000 - $30,000 = $170,000",
+        "<strong>Subtract Non-Qualifying Travel and G&A Overhead (<a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)</a>; <a href=\"https://www.irs.gov/businesses/audit-techniques-guide-credit-for-increasing-research-activities-ie-research-tax-credit-irc-ss-41-qualified-research-expenses\">IRS QRE ATG</a>):</strong> $170,000 - $10,000 = $160,000",
+        "<strong>Subtract Post-Production Maintenance (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(A)</a>):</strong> $160,000 - $20,000 = <strong>$140,000</strong> (Substantiated 100% Qualified Research Base)",
+        "<strong>Apply the Standard 65% Statutory Inclusion Rate (<a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>):</strong> $140,000 × 0.65 = <strong>$91,000</strong> in includible Contract Research Expenses (QREs).",
+        "<strong>Alternative Federal Statutory Rate Comparisons on the Same $140,000 Qualified Base:</strong>",
+        "If paid to a <strong>qualified research consortium</strong> under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(C)(i)</a> (75% rate): $140,000 × 0.75 = <strong>$105,000</strong> in federal QREs.",
+        "If paid to an <strong>eligible small business (500 or fewer employees), university, or Federal laboratory for qualified energy research</strong> under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(D)</a> (100% federal rate): $140,000 × 1.00 = <strong>$140,000</strong> in federal QREs (whereas if claimed on a <a href=\"/us/faq/how-federal-rd-credit-affects-state-tax-return\">Wisconsin return</a> under the <a href=\"https://www.revenue.wi.gov/TaxForms2025/2025-ScheduleR-Inst.pdf\">Wisconsin 2025 Schedule R Instructions</a>, the federal energy research rules are not adopted, so the standard 65% rate yielding <strong>$91,000</strong> or 75% consortium rate yielding <strong>$105,000</strong> applies)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Compliance Methodologies and Practice Frameworks"
+    },
+    {
+      "type": "subheading",
+      "text": "5.1 Generalist Ledger Automation vs. Dedicated Forensic Vetting"
+    },
+    {
+      "type": "paragraph",
+      "text": "From a technical tax compliance standpoint, general ledger category labels alone (for instance, an expense account labeled \"Engineering Services\" or \"Outside Consultants\") cannot establish whether a contract satisfies <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(2)</a> (prior agreement and economic risk of failure), <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(3)</a> (retention of substantial rights), <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(F)</a> (domestic U.S. research performance), or line-by-line cost segregation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Operational Model",
+        "Methodology",
+        "Compliance Implications"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Generalist Ledger Automation (e.g., <a href=\"/us/faq/pilot-rd-tax-credit-reviews\">Pilot</a>)",
+            "Connects directly to accounting ledgers (such as QuickBooks or Xero) and identifies potential R&D expenses via payroll and vendor keyword matching.",
+            "Ledger descriptions alone do not verify written MSA/SOW risk allocation, IP rights, foreign subcontractor exclusions, or <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> nexus."
+          ]
+        },
+        {
+          "cells": [
+            "Dedicated Specialist Practice",
+            "Combines technical interviews, MSA/SOW contract review, and line-by-line vendor invoice cost segregation prior to applying the 65% limit.",
+            "Aligns with <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS ATG</a> substantiation standards."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "5.2 Two-Layer Segregation Protocol for Contractor Invoices"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Technical Process Verification:</strong> Evaluating the contractor's technical activities against the Four-Part Test under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)</a>, excluding routine testing or commercial <a href=\"/us/glossary/adaptation-exclusion\">adaptation</a>, and screening out foreign research performed outside the United States under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(d)(4)(F)</a>.",
+        "<strong>Forensic Accounting and Invoice Scrubbing:</strong> Reviewing vendor invoices line by line to remove capital expenditures, depreciable property, travel, and administrative overhead before applying the 65% inclusion rate under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "While this two-step sequence accurately reflects the statutory requirement under <a href=\"https://www.law.cornell.edu/uscode/text/26/41\">26 U.S.C. § 41(b)(3)(A)</a> and <a href=\"https://www.law.cornell.edu/cfr/text/26/1.41-2\">26 CFR § 1.41-2(e)(1)</a> to isolate 100% eligible research costs before applying the 65% percentage, \"Segregation Engine\" is a proprietary consultancy phrase rather than a statutory or IRS concept."
+    },
+    {
+      "type": "subheading",
+      "text": "5.3 IRC Section 280C(c) and the IRS ASC 730 Directive"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong><a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)</a> Reduced Credit Election:</strong> Consistent with <a href=\"https://www.law.cornell.edu/uscode/text/26/280C\">26 U.S.C. § 280C(c)</a> and the <a href=\"https://www.irs.gov/pub/irs-pdf/i6765.pdf\">Instructions for Form 6765 (Rev. December 2025)</a>, taxpayers may elect a <a href=\"/us/glossary/reduced-research-credit\">reduced research credit</a> under IRC Section 280C(c) on a timely filed original return (including extensions) on Form 6765 to avoid reducing their otherwise allowable domestic research expenditure deductions or amortization by the full amount of the research credit.",
+        "<strong>The <a href=\"/us/glossary/asc-730-directive\">IRS LB&I ASC 730 Directive</a> and Contract Research Expenses:</strong> The IRS's official <a href=\"https://www.irs.gov/businesses/corporations/faqs-irc-41-qres-and-asc-730-lbi-directive\">FAQs - IRC 41 QREs and ASC 730 LB&I directive</a> explicitly state that <em>\"the Directive removes all contract costs from the computation of the ADJ ASC 730 FS R&D amount.\"</em> Under FAQ A4 on that IRS page, the removal of contract costs from the ASC 730 Directive safe harbor does not prevent a taxpayer from claiming eligible IRC Section 41(b)(3) contract research expenses on <a href=\"/us/glossary/irs-form-6765\">Form 6765</a>, but those contract research expenses are <strong>excluded</strong> from the ASC 730 Directive safe harbor and must be separately substantiated and remain subject to standard IRS examination procedures."
+      ]
+    }
+  ]
+}

@@ -51,13 +51,17 @@ export function htmlToBlocks(html) {
       else if (tag === "a") {
         const href = ch.getAttribute("href");
         const inner = inline(ch);
-        const safe = href ? (safeHref(href) ? normalizeInternalHref(safeHref(href)) : null) : null;
+        const own = href ? normalizeInternalHref(href.trim()) : href; // this site's own address -> a path, no trailing slash
+        const safe = own ? (safeHref(own) ? normalizeInternalHref(safeHref(own)) : null) : null;
         if (safe && inner.trim()) out += `<a href="${safe.replace(/"/g, "%22")}">${inner}</a>`;
         else {
           if (href) report.droppedLinks.push(href);
           out += inner;
         }
-      } else if (tag === "em" || tag === "i" || tag === "cite") {
+      } else if (tag === "sub" || tag === "sup") {
+        const inner = inline(ch);
+        out += inner.trim() ? `<${tag}>${inner}</${tag}>` : inner;
+      } else if (tag === "em" || tag === "i" || tag === "cite" || tag === "var") {
         const inner = inline(ch);
         out += inner.trim() ? `<em>${inner}</em>` : inner;
       } else if (tag === "strong" || tag === "b") {

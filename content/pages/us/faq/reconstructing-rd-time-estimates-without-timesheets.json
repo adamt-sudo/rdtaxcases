@@ -1,0 +1,576 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "Can I reconstruct R&D time estimates if I didn’t track hours?",
+  "description": "Businesses without timesheets can reconstruct R&D time estimates for the IRC § 41 credit, but only with a systematic method anchored to objective records.",
+  "summary": "Yes. U.S. businesses that did not keep contemporaneous timesheets can reconstruct R&D time estimates for the IRC § 41 research credit, but only with a systematic methodology anchored to objective records such as Git commits, Jira logs, test results, and calendars. Flat percentages, uncorroborated estimates, and non-statistical \"audited week\" samples are rejected by the IRS and the Tax Court.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Yes. U.S. businesses that did not keep contemporaneous timesheets can reconstruct R&D time estimates for the IRC § 41 research credit, but only with a systematic methodology anchored to objective records such as Git commits, Jira logs, test results, and calendars. Flat percentages, uncorroborated estimates, and non-statistical \"audited week\" samples are rejected by the IRS and the Tax Court."
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes—businesses that did not maintain <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">contemporaneous timesheets</a> can reconstruct Research and Development (R&D) time estimates retrospectively, provided they apply a systematic, corroborated methodology rather than arbitrary flat percentages or unbacked managerial guesses. Tax authorities across major jurisdictions—including the U.S. Internal Revenue Service (IRS), the Australian Taxation Office (ATO), and HM Revenue and Customs (HMRC) in the United Kingdom—acknowledge that while real-time timesheets or job cards represent the most accurate method for allocating labor costs, taxpayers lacking contemporaneous time logs may substantiate claims by anchoring structured technical interviews and activity diaries to objective secondary evidence created during the normal course of business, such as Git commit histories, Jira issue logs, engineering test results, calendar records, and design documentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, an audit of statutory provisions, administrative guidelines, and judicial precedents in the United States and comparative jurisdictions establishes four critical compliance realities that govern any retrospective R&D wage reconstruction:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Strict Judicial and Administrative Rejection of Uncorroborated Estimates:</strong> Under Internal Revenue Code (IRC) § 6001 and Treasury Regulation § 1.41-4(d), taxpayers bear the burden of retaining records in sufficiently usable form and detail to substantiate Qualified Research Expenses (QREs). In <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66, <em>aff'd</em>, 312 F.3d 905 (7th Cir. 2002), as highlighted in the IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Research Credit Claims Audit Techniques Guide</a> (RCCATG)</em>, the U.S. Tax Court rejected post-hoc wage reconstructions that lacked corroborating project records as \"unreliable, inaccurate, incomplete, and wholly insufficient,\" and refused to apply the judicial estimation rule of <em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930), to allocate salaries to functionality where the taxpayer failed to establish a factual basis for the estimate.",
+        "<strong>Jurisdictional Conflict on Representative Sample Extrapolation (\"Audited Weeks\"):</strong> While general compliance commentary suggests that tax authorities permit extrapolating findings from a limited \"audited week\" across an entire claim period, primary-source verification exposes a fundamental jurisdictional conflict between U.S. and Australian practice. Australian R&D tax consultancy guidance reflecting ATO practice indicates that businesses may reconstruct one representative week or month per quarter from secondary evidence and extrapolate conservatively if daily engineering tasks follow a consistent pattern. Conversely, official U.S. administrative guidance in the IRS RCCATG explicitly states that \"there is no authority that allows taxpayers to use a judgment sample to compute the research credit,\" instructing IRS examiners to disallow any activities or expenses outside the substantiated sample unless the taxpayer employs a valid <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling methodology</a>.",
+        "<strong>Correction of Statutory Apportionment Terminology:</strong> Where baseline industry commentary repeatedly places the phrase \"just and reasonable apportionment\" in quotation marks while citing ATO and UK consultancy sources, verification against primary texts confirms that the actual standards articulated are the \"most reasonable basis of apportionment\" under official ATO guidance, a \"reasonable and consistent method\" or \"Appropriate Apportionment\" under UK R&D commentary reflecting HMRC guidance, and \"appropriate proportion\" under UK compliance standards, while U.S. IRC § 41, Treas. Reg. § 1.41-4(d), and the IRS <em>Audit Techniques Guide</em> require a verifiable nexus linking employee wages, time spent on qualified services, and discrete business components.",
+        "<strong>Heightened U.S. Granular Reporting Under Revised Form 6765 (Section G) and LB&I Audit Reforms:</strong> In the United States, the IRS finalized major revisions to <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (<em>Credit for Increasing Research Activities</em>) in January 2025 with final updated instructions issued in February 2026. While new Section G (<em>Business Component Information</em>) is optional for tax years beginning before 2026 (2024 and 2025 tax years), it becomes mandatory for tax years beginning after 2025 (starting in tax year 2026) for filers that do not qualify for the <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Business (QSB)</a> payroll tax credit election or the small-filer exception (controlled-group QREs of $1.5 million or less and average annual gross receipts of $50 million or less). Coupled with the IRS Large Business & International (LB&I) division's elimination of the formal Written Acknowledgement of Facts (AOF) <a href=\"/us/glossary/information-document-request-idr\">Information Document Request (IDR)</a> process starting in 2026, U.S. taxpayers reconstructing R&D time must now disaggregate employee wages into direct research, direct supervision, and direct support at the discrete business-component level from the outset of the claim."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "I. The Regulatory and Economic Mandate for R&D Wage Substantiation"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1. Economic Rationale and the Centrality of Technical Labor Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public fiscal support for private-sector R&D through statutory tax credits and notional deductions is grounded in addressing market failures caused by knowledge spillovers. When private firms invest capital and technical labor in resolving scientific or technological uncertainties, the resulting knowledge diffuses into the wider economy through labor mobility, shared technical concepts, and imitation. According to World Bank policy analysis (updated June 12, 2025), empirical estimates for the United States indicate that marginal private returns to R&D average around 14%, whereas social marginal returns—which capture spillover benefits accrued by other firms and society—can reach up to 58%. Because private enterprises cannot fully appropriate these external social returns and face information asymmetries when seeking external financing for uncertain research investments, the World Bank analysis notes that optimal R&D investment could be two to four times higher than the levels achieved without public intervention. Reflecting this macroeconomic rationale, 34 of the 38 Organization for Economic Co-operation and Development (OECD) member countries provided R&D tax incentives as of 2024 to stimulate private research expenditure."
+    },
+    {
+      "type": "paragraph",
+      "text": "To claim these fiscal incentives, taxpayers must accurately identify and quantify their eligible expenditures—termed Qualified Research Expenses (QREs) under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC § 41(b)</a> in the United States, qualifying expenditure in the United Kingdom, or notional R&D deductions in Australia. Under IRC § 41(b)(1) and (2), <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">in-house QREs</a> consist of wages paid or incurred to an employee for \"qualified services\" performed by that employee, amounts paid or incurred for \"supplies\" used in the conduct of qualified research, and eligible costs for the rental or lease of computers used in qualified research, alongside applicable percentages of eligible contract research expenses (including up to 75% for qualified research consortia and 100% for eligible energy research). Across technology, software engineering, and manufacturing sectors, compliance advisors and case records confirm that employee wages and salaries typically represent the single largest category of claimed R&D expenditure—accounting for 95% of the total credit claim in U.S. Tax Court litigation such as <em>Suder v. Commissioner</em>, T.C. Memo. 2014-201. Consequently, both the financial value and the audit survival of an R&D tax claim depend heavily on how accurately a business apportions technical personnel time between qualifying activities aimed at resolving genuine scientific or <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technological uncertainty</a> and routine, non-qualifying commercial, production, or administrative tasks."
+    },
+    {
+      "type": "subheading",
+      "text": "1.2. The Audit Landscape, Nexus, and the Burden of Proof"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tax authorities globally enforce strict evidentiary standards when examining R&D wage claims. Under U.S. federal tax law, tax credits are treated as matters of legislative grace, are allowed only as clearly provided for by statute, and are narrowly construed, as affirmed by the U.S. Courts of Appeals in <em>United States v. McFerrin</em>, 570 F.3d 672, 675 (5th Cir. 2009), and <em>Stinson Estate v. United States</em>, 214 F.3d 846, 848 (7th Cir. 2000). Pursuant to IRC § 6001 and Treas. Reg. § 1.6001-1(a) and (e), every person subject to federal income tax must keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown on any tax return. Specifically for the research credit, Treas. Reg. § 1.41-4(d) mandates that a taxpayer claiming a credit under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC § 41</a> \"must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer lacks contemporaneous time-tracking records and relies on retrospective time reconstruction, the taxpayer assumes a substantially heightened evidentiary burden. Federal case law establishes a precise boundary governing when courts will—and will not—apply the judicial estimation doctrine of <em>Cohan v. Commissioner</em>, 39 F.2d 540, 544 (2d Cir. 1930), to retrospective R&D wage estimates. In <em>United States v. McFerrin</em>, 570 F.3d 672, 679 (5th Cir. 2009), the Fifth Circuit held that while a trial court \"need not credit McFerrin's reconstruction of expenses from years after the fact,\" if the taxpayer first establishes with credible evidence that qualified research activities occurred, the court should look to testimony and other evidence—including the institutional knowledge of employees—to determine a fair estimate of the allowable credit, \"bearing heavily if it chooses upon the taxpayer whose inexactitude is of his own making\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, both the U.S. Tax Court and the Courts of Appeals refuse to apply the <em>Cohan</em> estimation rule when a taxpayer presents uncorroborated percentage estimates without establishing a factual foundation linking specific employee time to qualified activities at the business-component level. In <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66, <em>aff'd</em>, 312 F.3d 905 (7th Cir. 2002), the taxpayer (Applied Systems, Inc., a commercial insurance software developer) prepared a retrospective worksheet listing the salaries of 227 employees and offered the trial testimony of six employees regarding their activities. As highlighted in Chapter I of the IRS <em>Research Credit Claims Audit Techniques Guide (RCCATG)</em>, the Tax Court rejected the taxpayer's reconstruction of qualifying expenses as \"unreliable, inaccurate, incomplete, and wholly insufficient,\" holding that a pro-forma salary list supplemented by generalized oral testimony failed to prove that salaries were paid for qualified research at the subcomponent level. Crucially, the Tax Court held that \"the rule of <em>Cohan</em> did not require the Court to make an allocation (of salaries to functionality)\" where the taxpayer failed to specifically show what expenses it paid or incurred in performing qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "Subsequent decisions reinforce this strict evidentiary threshold. In <em>Shami v. Commissioner</em>, T.C. Memo. 2012-78, <em>aff'd in relevant part</em>, 741 F.3d 560 (5th Cir. 2014), the taxpayers relied on <em>McFerrin</em> and <em>Cohan</em> to argue that the Tax Court was required to estimate the amount of <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">executive wages</a> allocable to qualified services. The Tax Court rejected the argument and distinguished <em>McFerrin</em>, holding that where taxpayers fail to provide sufficient evidence to estimate the appropriate allocation of wages between qualified and non-qualified services, the <em>Cohan</em> rule does not allow the court to make an estimate. Similarly, in <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, T.C. Memo. 2021-15, <em>aff'd</em>, 62 F.4th 287, 308 (7th Cir. 2023), the Seventh Circuit affirmed the complete disallowance of research credits where the taxpayer lacked time records and asked the court to \"take it on faith\" from trial testimony that estimated wage allocations were exclusively for activities constituting qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "This line of precedent, alongside the IRS <em>Audit Techniques Guide: Credit for Increasing Research Activities (IRC § 41)</em> and the IRS <em>RCCATG</em>, establishes two core compliance requirements for reconstructing R&D time in the United States: establishing <a href=\"/us/glossary/project-to-expense-nexus\">accounting-to-activity <strong>nexus</strong></a> and substantiating work at the <strong>business component or subcomponent level</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, taxpayers must demonstrate a verifiable link (\"nexus\") connecting accounting payroll records, the specific time allocated by individual employees, and the underlying Qualified Research Activities (QRAs). The IRS RCCATG observes that most prepackaged research credit studies reflect a combined \"hybrid\" approach blending cost-center accounting with project methods. This hybrid approach fails examination scrutiny when the compiled information does not establish a clear, auditable relationship between departmental cost-center wage records and specific research projects or activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)(1)</a> and (2), the four-part qualification test—comprising the Section 174 Test under IRC § 41(d)(1)(A), the Discovering Technological Information Test under IRC § 41(d)(1)(B)(i), the Business Component Test under IRC § 41(d)(1)(B)(ii), and the Process of Experimentation Test under IRC § 41(d)(1)(C)—is applied separately to each discrete \"business component,\" defined as any product, process, computer software, technique, formula, or invention held for sale, lease, or license, or used by the taxpayer in a trade or business. If the four-part test is not satisfied at the top-level product or software system, the statutory <strong>\"shrinking-back\" rule</strong> under Treas. Reg. § 1.41-4(b)(2) requires applying the test to the most significant subset of elements—the subcomponent level—continuing downward until either a qualifying subset of elements is reached or the most basic element fails the test. Additionally, under IRC § 41(d)(2)(C), when a taxpayer claims a research credit relating to its production process, the production process must be divided into two distinct business components, one relating to the process and another relating to the product."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, time reconstruction under IRC § 41 is governed by two distinct applications of the <a href=\"/us/glossary/substantially-all-rule\"><strong>\"substantially all\" (80%) rule</strong></a>. First, at the <em>activity qualification level</em> under IRC § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), \"substantially all\" of a taxpayer's research activities with respect to a business component—defined as 80% or more of the research activities measured on a cost or other consistently applied reasonable basis—must constitute elements of a process of experimentation for a qualified purpose (new or improved function, performance, reliability, or quality under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC § 41(d)(3)(A)</a>). As held in <em>Little Sandy Coal</em>, because individuals providing <a href=\"/us/glossary/direct-supervision\">direct supervision</a> or direct support under IRC § 41(b)(2)(B)(ii) are not \"engaged in\" research, their non-experimental support activities—as well as routine production fabrication by shop-floor workers under Treas. Reg. § 1.41-2(c)(3)(ii)—cannot be treated as elements of a process of experimentation in the numerator of the 80% activity test. Second, at the <em>employee wage allocation level</em>, IRC § 41(b)(2)(B) defines \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" as engaging in qualified research, or engaging in the direct supervision or direct support of qualified research. Under the IRC § 41 <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" wage allocation rule</a>, if an employee spends at least 80% of their working time during the taxable year performing qualified services, the taxpayer may claim 100% of that employee's wages as QREs; conversely, for any employee below the 80% threshold, only the actual substantiated proportion of time spent on qualified services counts toward the credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent administrative shifts in the United States, the United Kingdom, and Australia have further tightened documentation expectations prior to and during examination."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, following an initial draft in June 2024, the IRS released the finalized January 2025 revision of <strong>Form 6765 (<em>Credit for Increasing Research Activities</em>)</strong> in February 2025 and published the final <em><a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a></em> (Rev. December 2025) on February 6, 2026. Historically, taxpayers completed little more than high-level aggregate QRE fields on Form 6765. The updated Form 6765 introduces <strong>Section E (<em>Other Information</em>)</strong> (requiring disclosure of the total number of business components generating QREs, officer wages included in QREs, acquisitions or dispositions, new expenditure categories, and whether <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> methods were utilized), <strong>Section F (<em>Qualified Research Expenses Summary</em>)</strong>, and <strong>Section G (<em>Business Component Information</em>)</strong>. Under the final IRS instructions, Section G is optional for all filers for tax years beginning before 2026 (covering the 2024 and 2025 tax years) and becomes <strong>mandatory for tax years beginning after 2025 (starting with the 2026 tax year)</strong>. Only two exceptions exempt a filer from completing Section G: (1) Qualified Small Business (QSB) taxpayers under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC § 41(h)(1)–(3)</a> (corporations or partnerships with under $5 million in current-year gross receipts and no gross receipts prior to the 5-tax-year window) that check the box on Form 6765 to claim the reduced payroll tax credit (up to $500,000); or (2) small filers with total controlled-group QREs of <strong>$1.5 million or less</strong> and average annual gross receipts for the prior three tax years under IRC § 448(c)(3) (without regard to subparagraph (A)) of <strong>$50 million or less</strong> claiming a research credit on an originally filed return. Filers required to complete Section G must comply with the <strong>\"80%/Top 50\" business components rule</strong>, itemizing business components covering a minimum of 80% of total QREs up to a maximum of 50 business components, and must separately report <strong>direct research wages, direct supervision wages, and direct support wages</strong> (alongside supplies, computer leasing, and contract research) for every reported business component. Furthermore, taxpayers filing <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a> claiming a research credit refund must complete Line 49(f) describing the specific information sought to be discovered for each component and adhere to IRS valid refund claim procedures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Concurrently, in the IRS audit playbook for Large Business & International (LB&I) examinations (which govern businesses with assets of $10 million or more), the IRS issued an administrative policy directive eliminating the <strong>Written Acknowledgement of Facts (AOF) Information Document Request (IDR)</strong> process (governed by Internal Revenue Manual [IRM] 4.46.4.11 and referred to in some commentary as the \"Agreement of Facts\" process) starting in 2026, after making it optional through the end of 2025. Previously, the AOF IDR was issued near the close of an examination to allow taxpayers to agree to or dispute the IRS examination team's presentation of facts before the issuance of a <strong>Notice of Proposed Adjustment (NOPA)</strong>. While LB&I has simultaneously encouraged earlier issue resolution through <strong>Accelerated Issue Resolution (AIR)</strong> under Rev. Proc. 94-67 and <strong>Fast Track Settlement (FTS)</strong>, the elimination of the AOF process removes a final procedural buffer before NOPA issuance, heightening the requirement for corporate tax teams to submit complete, factual IDR responses throughout every stage of the examination to build an appeals-ready record."
+    },
+    {
+      "type": "paragraph",
+      "text": "Parallel regulatory tightening has occurred internationally. In the United Kingdom, HMRC published its <em>Guidelines for Compliance for R&D tax reliefs (GfC3)</em> in October 2023 alongside mandatory submission of the <strong>Additional Information Form (AIF)</strong> for all R&D claims, which requires project-by-project cost breakdowns, documentation of baseline technological capabilities by competent professionals, and written project descriptions covering at least 50% of qualifying expenditure (with a minimum of three project descriptions for claims involving 4 to 10 projects). In Australia, official ATO guidance (updated March 23, 2023) mandates that businesses create records as soon as transactions occur (or as soon as possible thereafter), demonstrate how incurred expenditure relates to registered R&D activities and how it is apportioned between eligible and ineligible activities, and retain those records in English for <strong>five years</strong> after a claim is made."
+    },
+    {
+      "type": "heading",
+      "text": "II. Operational Realities and Cognitive Barriers in Retrospective Apportionment"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1. Operational Deficiencies in Contemporaneous Time Tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "In principle, real-time tracking avoids the complexities of retrospective reconstruction altogether. The ATO explicitly states in its official record-keeping guidance: <em>\"The most accurate and effective method of allocating time is to maintain timesheets or job cards. If you don't use these methods, it may be more difficult to show that the allocation of time is accurate. It is your responsibility to make sure you keep sufficient records to support your claims.\"</em> Similarly, both HMRC and the IRS treat contemporaneous time logs as the foundational benchmark for wage substantiation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practice, however, many innovative organizations do not possess compliant real-time timesheets at the close of a tax period. R&D project management diverges from conventional commercial project delivery because experimental goals and deliverables shift fluidly in response to technical findings and emerging opportunities. Even where companies utilize <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">commercial time-tracking</a> or project-management platforms (such as Minute7, BigTime, or Project Insight) to manage billing, DCAA-aligned government contract timekeeping, or task workflows, UK and Australian compliance guidance from ForrestBrown (updated October 10, 2024), randd UK (updated December 2, 2025), and Bulletpoint identifies three structural reasons why contemporaneous timesheets are frequently absent or insufficient in R&D-focused businesses."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, commercial timesheets are rarely used solely for R&D tax purposes; consequently, as ForrestBrown explains, there will not be a <strong>\"perfect alignment\"</strong> between what commercial timesheets record and the actual qualifying R&D projects, meaning a degree of professional judgment must still be applied to determine exact allocations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the accuracy of any contemporaneous timesheet depends on whether the technical staff filling them out understand the strict statutory definition of R&D for tax purposes. Without training, developers frequently log routine maintenance, bug fixing of commercially available products, administrative work, or user-interface styling under general project codes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, fast-moving technical teams prioritize core development and rapid innovation over routine administrative compliance. Notably, the ATO itself acknowledges in its official guidance that individual timesheets or job cards may not be practical where a business has a large number of employees, where an employee works exclusively on eligible R&D activities, or where an employee works on long-term projects consisting mostly of eligible R&D activities in which the ratio of time between eligible and non-eligible activities remains fairly constant—in which case an accurate <strong>summary sheet</strong> or <strong>activity diary</strong> may serve as an acceptable substitute."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2. Cognitive Barriers: The Fallibility of Unassisted Human Memory"
+    },
+    {
+      "type": "paragraph",
+      "text": "When an organization lacks contemporaneous timesheets and attempts to reconstruct R&D hours simply by asking employees or managers to estimate how they spent their time months or years earlier, the resulting figures are compromised by human memory limitations. Research on retrospective recall from Dovetail (updated November 14, 2023) and cognitive verbalization literature (Ericsson & Simon, 1980, 1993) explains that unassisted retrospective reporting suffers from four interrelated psychological mechanisms that undermine reliability and validity:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Recall Limitation vs. Recall Bias:</strong> <em>Recall limitation</em> refers to the natural human tendency to forget or degrade information over time. By contrast, <em>recall bias</em> (also termed <em>memory bias</em> or <em>retrospection bias</em>) occurs when conscious or unconscious external factors—such as personal beliefs, priming, suggestion, or subsequent knowledge—actively shape and distort how past events or exposures are remembered and reported. While confirmation bias involves selectively interpreting information to confirm pre-existing beliefs, recall bias distorts the accuracy of retrieving individual memories from long-term storage, leading to systematic under-reporting or over-reporting.",
+        "<strong>The Time-Lapse Effect:</strong> The time frame between an original activity and its recollection is a primary driver of memory degradation. As days, weeks, or months pass, memories naturally fade or become distorted due to simple forgetting—a problem that randd UK notes is especially acute in R&D claims when technical personnel have juggled responsibilities across multiple concurrent R&D and routine commercial projects.",
+        "<strong>Affective Distortion (Emotional States):</strong> Emotional states during the time of recall and throughout the project lifecycle directly influence memory biases. Heightened emotions alter personal perceptions, and affective experiences trigger selective memory retrieval, causing individuals to vividly recall emotionally intense episodes (such as a major prototype failure or breakthrough) while omitting routine operational intervals.",
+        "<strong>Social Desirability Bias and Impression Management:</strong> Social desirability bias leads participants to consciously or unconsciously adjust their memories or responses to align with social or professional expectations, such as overstating time dedicated to innovative R&D work. In organizational interview literature, this aligns with <em>Impression Management (IM)</em>—including assertive self-promotion and opinion conformity—where interviewees inflate role-related accomplishments when questions are unstructured."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Because of these four mechanisms, uncorroborated retrospective time estimation fails tax audits due to a compounding vulnerability: the absence of objective <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous records</a> combines with the subjective unreliability of human memory. If an R&D claim relies on unanchored recollections, it cannot satisfy the ATO's \"most reasonable basis of apportionment\" standard, HMRC's \"reasonable and consistent method\" / \"Appropriate Apportionment\" standard, or the IRS's corroboration requirements under IRC § 6001 and Treas. Reg. § 1.41-4(d). To make retrospective estimates defensible, the reconstruction methodology must incorporate mitigation strategies that anchor human recall to objective, time-stamped operational evidence."
+    },
+    {
+      "type": "heading",
+      "text": "III. Comparative Analysis of Retrospective Estimation Methodologies"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1. Unacceptable Proxies: Flat Percentages and Unbacked Estimates"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the absence of detailed time logs, businesses often default to simplified estimation proxies that lack audit defensibility. The first unacceptable method is <strong>flat percentage allocation</strong>, where a firm claims a uniform percentage of an entire technical department's payroll without employee-level or business-component-level substantiation. The IRS RCCATG explicitly instructs examiners to reject this practice: <em>\"In some instances, taxpayers may not even apply percentages at the employee level. Rather, a single percentage is determined and applied to total department wage costs. Arbitrary and unsupported allocations should not be accepted. These are merely estimates and are not sufficient to support a claim.\"</em> Moreover, flat departmental percentages cannot satisfy the itemized reporting requirements of revised IRS Form 6765 Section G, which requires breaking out employee wages by role (direct research, direct supervision, direct support) for each discrete business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "A second unacceptable approach is <strong>unsubstantiated managerial or good-faith estimation</strong>, where percentage splits are based solely on a manager's or employee's recollection without underlying documentary corroboration. Both the IRS RCCATG and the U.S. Tax Court in <em>Eustace v. Commissioner</em>, <em>Shami v. Commissioner</em>, and <em>Little Sandy Coal Co. v. Commissioner</em> reject uncorroborated <a href=\"/us/glossary/credible-oral-testimony\">oral testimony</a> or unsupported time surveys."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when basic time records exist, Australian R&D tax consultancy Bulletpoint classifies time documentation into four distinct tiers, cautioning that the first three levels are inadequate for ATO compliance:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Level 1 — Guesstimate (Inadequate):</strong> Consists of rough percentage estimates without tracking exact hours or tasks (such as claiming <em>\"Approximately 70% on R&D this week\"</em>), which carries the highest audit risk.",
+        "<strong>Level 2 — Basic Calculation (Inadequate):</strong> Logs hours per day without task breakdowns (such as <em>\"7 hours/day for 4 days on R&D\"</em>, totaling 28 hours for the week), making it hard to substantiate during an audit.",
+        "<strong>Level 3 — General Weekly Timesheet (Inadequate):</strong> Lists daily hours assigned generically to \"R&D\" (e.g., Monday through Thursday at 7 hours per day labeled <em>\"R&D\"</em>) without detailing the specific experimental tasks performed.",
+        "<strong>Level 4 — Detailed Weekly Timesheet (Adequate):</strong> Logs daily hours tied to explicit tasks and projects (for example, <em>\"Monday: 2 hours – Prototype testing; 3 hours – Software code refinement for Project X; 2 hours – Team brainstorming for new R&D project; Tuesday: 3 hours – Analysis of test results for Project Y; 4 hours – Research on latest tech trends\"</em>), which meets ATO substantiation standards."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "3.2. Acceptable Standard: Corroborated Apportionment and Secondary Evidence"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where contemporaneous Level 4 timesheets were not maintained, tax authorities and compliance specialists recognize that activity and cost allocations must be reconstructed using <strong>corroborating secondary evidence</strong>—operational records generated during the project that were not originally created for tax purposes, but that establish a factual timeline of specific R&D activities. Across IRS, ATO, and HMRC guidance and specialist commentary, acceptable secondary evidence encompasses four main categories of operational records:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Version Control and Issue-Tracking Logs:</strong> Git commit hashes and version histories, Jira ticket worklogs, sprint planning records, and defect/bug management logs.",
+        "<strong>Engineering and Experimental Artifacts:</strong> System architecture diagrams, Computer-Aided Design (CAD) drawings, laboratory notes, photographs of <a href=\"/us/glossary/prototype-development\">prototype testing</a>, failed prototype data, test results, and screen-capture logs.",
+        "<strong>Communications and Scheduling Records:</strong> Time-stamped emails discussing R&D tasks and technical challenges, project meeting minutes, and calendar exports or appointment books (such as calendar PDFs covering audited periods).",
+        "<strong>Personnel, Financial, and Contractual Documentation:</strong> Employee job descriptions outlining R&D responsibilities, performance evaluations, employee résumés establishing \"competent professional\" qualifications, payroll registers, and contractor agreements and invoices separating core R&D from supporting or commercial activities. (Note: Bulletpoint observes that under Australian ATO rules, independent <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">arm's-length contractors</a> are not strictly required to keep detailed timesheets if their contracts, proposals, and invoices clearly break down R&D activities, hours worked, and deliverables, whereas associate contractors with financial, familial, or structural ties to the company are treated like internal employees and must maintain detailed timesheets and supporting documentation under heightened ATO scrutiny.)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition, official ATO guidance (updated March 23, 2023) stresses that no single apportionment formula is accepted across all non-salary expenditure types; each expenditure category must be apportioned using the method that best reflects the extent to which it was incurred on R&D activities. Specifically, administrative costs and overheads can be claimed only if there is a direct link to R&D activities, and period-of-use overhead expenses (such as electricity or asset decline in value) should generally be apportioned using employee R&D hours relative to total company hours rather than R&D salary dollars over total salaries. Location and premises-related expenses (such as rent, lease costs, land taxes, or property rates) must be apportioned by the <strong>area of use</strong> dedicated to R&D, as the ATO considers staff headcount and hours spent irrelevant for location-based costs. Finally, apportioning expenses on the basis of R&D salaries over total company salaries is considered reasonable by the ATO <em>only</em> for employee salary-related on-costs (such as superannuation, workers' compensation, and payroll taxes) when those exact amounts cannot be separately determined from the financial accounts."
+    },
+    {
+      "type": "subheading",
+      "text": "3.3. Jurisdictional Conflict on Sample Extrapolation (\"Audited Week\" Method)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A major compliance pitfall occurs when taxpayers assume that representative sample extrapolation rules permitted in one jurisdiction apply universally. While baseline R&D commentary asserts generally that a business can scrutinize a limited <strong>\"audited week\"</strong> and extrapolate those findings across an entire claim period if daily R&D tasks were structurally similar, primary-source verification demonstrates a direct <strong>jurisdictional conflict</strong> between Australian ATO consultancy practice and official U.S. IRS administrative guidance."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Australia, R&D advisory firm Bulletpoint explains that when a business did not keep detailed timesheets throughout the year, conducting a \"Time Audit\" (\"Audited Week\") is an accepted alternative method to reconstruct R&D time allocations for the ATO. Bulletpoint outlines five sequential steps for this method: (1) select a representative sample of one week or one month per quarter reflecting typical R&D work; (2) analyze historical secondary evidence from that specific week or month (calendar entries, emails, meeting notes, development sprints, and testing sessions); (3) rebuild a detailed timesheet for the audited week or month breaking down hours by specific R&D task; (4) apply the sample findings across the rest of the quarter if day-to-day work follows a predictable pattern (such as software developers coding, testing, and debugging); and (5) apply a conservative estimate to reduce audit risk (for example, if the four quarterly audited weeks indicate 85%, 82%, 91%, and 87% R&D time, claiming a conservative <strong>75%</strong> overall to account for potential error)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, by contrast, Chapter II (<em>Statistical Sampling</em>) of the official IRS <em>Research Credit Claims Audit Techniques Guide (RCCATG)</em> explicitly prohibits extrapolating non-statistical judgment samples across an entire claim period:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>\"Taxpayers must be able to support 100% of the research credit claimed, unless they use a statistical sample... Non-statistical sampling (often called judgment sampling) lacks the scientific safeguards of statistical sampling. The only assurance of accuracy in a judgment sample comes from the judgment of the sampler. A projection of the results from a non-statistical sample would be right only by chance. There is no authority that allows taxpayers to use a judgment sample to compute the research credit. Taxpayers would be entitled to the credit only on the activities or expenses that they substantiated from the sample. Any activities or expenses not substantiated should be disallowed.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under standard legal hierarchy, official agency administrative guidance in the IRS RCCATG (enforcing IRC § 6001 and Treas. Reg. § 1.41-4(d)) governs U.S. federal tax examinations over foreign consultancy commentary. Consequently, unless a U.S. taxpayer conducts a valid <em>statistical</em> sample meeting IRS statistical sampling parameters, the taxpayer cannot rely on a single \"audited week\" judgment sample per quarter to extrapolate annual QREs; instead, U.S. retrospective reconstructions must corroborate activities and employee time allocations across all claimed business components and periods throughout the tax year."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Estimation Methodology",
+        "Primary Data Inputs",
+        "Susceptibility to Recall & Social Bias",
+        "Audit Defensibility & Jurisdictional Standing",
+        "Primary Compliance Risk"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Flat Percentage Allocation (Bulletpoint Level 1)",
+            "Payroll / General Ledger department wage totals only",
+            "<strong>High</strong> (Relies on untested blanket assumptions)",
+            "<strong>Low / Disallowed</strong> (Rejected as arbitrary per IRS RCCATG and <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66; incompatible with Form 6765 Section G)",
+            "Complete claim disallowance and potential 20% tax underpayment or <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">erroneous claim penalties</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Unbacked Managerial / Retrospective Timesheet Entry (Levels 2–3)",
+            "Unassisted long-term human memory or generic daily hour logs",
+            "<strong>High</strong> (Severe degradation from time-lapse, affective distortion, and social desirability bias)",
+            "<strong>Low to Moderate</strong> (Inadequate under ATO/HMRC rules; rejected by U.S. Tax Court in <em>Shami</em> and <em>Little Sandy Coal</em> without corroboration)",
+            "Overstatement of eligible hours; failure to prove subcomponent nexus or qualify for <em>Cohan</em> estimation"
+          ]
+        },
+        {
+          "cells": [
+            "Representative Sample / \"Audited Week\" Extrapolation",
+            "Secondary evidence (emails, calendars, sprint logs) for 1 week or 1 month per quarter, extrapolated conservatively",
+            "<strong>Moderate to Low</strong> (Anchored for sample week, but relies on pattern uniformity across quarter)",
+            "<strong>Jurisdiction-Dependent</strong> (Accepted under Australian ATO consultancy practice with conservative haircut; <strong>disallowed</strong> as an unverified judgment sample under U.S. IRS RCCATG)",
+            "Disallowance of all extrapolated non-sampled periods in U.S. IRS audits"
+          ]
+        },
+        {
+          "cells": [
+            "Structured Expert Interview with Evidence-Based Timelines (EBTR)",
+            "Technical lead testimony anchored to full-year Git/Jira logs, test results, CAD drawings, and payroll records",
+            "<strong>Low</strong> (Neutralized by pre-constructed time-stamped Evidence-Based Timelines, stimulated recall, and multi-specialist review)",
+            "<strong>High</strong> (Satisfies IRS ATG / RCCATG Phase 2 & 3 corroboration, Form 6765 Section G component-by-role reporting, ATO reasonable basis, and HMRC GfC3 standards)",
+            "Upfront specialist time and technical documentation assembly effort"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "IV. The Structured Expert Interview Methodology: Overcoming Cognitive and Legal Hurdles"
+    },
+    {
+      "type": "subheading",
+      "text": "4.1. Regulatory Recognition of Corroborated Employee Interviews"
+    },
+    {
+      "type": "paragraph",
+      "text": "When contemporaneous timesheets are missing, the structured expert interview serves as a primary mechanism for linking objective secondary artifacts to employee time percentages. Both the general IRS <em>Audit Techniques Guide: Credit for Increasing Research Activities (i.e. Research Tax Credit) IRC § 41</em> (June 2005) and the IRS <em>Research Credit Claims Audit Techniques Guide (RCCATG)</em> (May 2008) explicitly recognize the role of employee interviews when tied to existing documentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the <em>Qualified Research Expenses</em> chapter of the IRS IRC § 41 <em>Audit Techniques Guide</em>, the IRS states: <em>\"Identifying the employees whose wages are claimed as QREs and determining the services they perform is perhaps the most important phase of auditing the research credit. Payroll records, employee job descriptions, performance evaluations, calendars and appointment books are good sources of information. The goal is to determine what the employee did and how much time they spent doing it... When appropriate, interviews should be considered to supplement and corroborate information obtained from the review of existing records.\"</em> The <em>Qualified Research Activities</em> chapter reiterates this exact standard: <em>\"As with the evaluation of wages, interviews should be considered to supplement and corroborate information obtained from the review of existing records.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, in Chapter I (<em>Typical Prepackage RC Claim Study</em>) of the IRS RCCATG, the IRS notes that Research Credit Claim Studies typically consist of three phases of preparation:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Phase 1 — Initial Evaluation:</strong> Conducting a feasibility assessment to determine whether the taxpayer is entitled to the research credit and developing a study plan.",
+        "<strong>Phase 2 — Execution of the Study Plan:</strong> Requesting, reviewing, and compiling accounting records; securing and reviewing corroborative evidence that is still available; conducting physical inspections of some operations; and <em>\"conducting employee interviews at various levels within the taxpayer's organization\"</em> (alongside questionnaires or surveys).",
+        "<strong>Phase 3 — Compilation of Findings:</strong> Compiling and organizing documentation for submission and preparing finalized <strong>\"computational workpapers\"</strong> summarizing the findings of the taxpayer's analysis—including spreadsheets and workpapers reflecting credit computations, departmental cost summaries, project cost summaries, and individual employees' qualified and non-qualified activity allocations across wage, supply, and <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research</a> categories."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, the IRS RCCATG emphasizes that employee interviews and questionnaires are legally sufficient only when supported by measurable corroborative records. If an interview merely records a manager's uncorroborated recollection or percentage estimate without tying it to project records and discrete business components, the IRS treats the allocation as arbitrary and subject to disallowance."
+    },
+    {
+      "type": "subheading",
+      "text": "4.2. Designing Interviews to Neutralize Recall Bias: Evidence-Based Timeline Retrospectives (EBTR)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To transform an employee interview from an unsubstantiated recollection into a systematic reconstruction, the interview protocol must incorporate cognitive mitigation techniques grounded in empirical software engineering and behavioral research."
+    },
+    {
+      "type": "paragraph",
+      "text": "A core methodology for this process is the <strong>Evidence-Based Timeline Retrospective (EBTR)</strong> framework developed by Elizabeth Bjarnason et al. (<em>Evidence-Based Timelines for Project Retrospectives—A Method for Assessing Requirements Engineering in Context</em>, published in the <em>2013 IEEE Euromicro Conference on Software Engineering and Advanced Applications [SEAA]</em> proceedings). Verification of the published study confirms that EBTRs counteract human memory decay by injecting pre-constructed, time-stamped <strong>Evidence-Based Timelines (EBTs)</strong> directly into retrospective meetings across four structured phases:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Phase 1 — EBTR Planning:</strong> The analyst defines the assessment goals, formulates a set of focus questions, and selects the specific project aspects and evidence sources to visualize—specifically (i) performed activities, (ii) important events, and (iii) delivered artifacts (including planned and actual dates).",
+        "<strong>Phase 2 — EBT Construction:</strong> Prior to interviewing staff, the analyst extracts objective, time-stamped evidence from existing engineering systems—such as scope and prioritization systems, requirements databases, project planning tools, test records, and defect management systems—and plots this evidence chronologically along visual timelines.",
+        "<strong>Phase 3 — EBTR Meeting:</strong> Key project personnel representing roles across the project lifecycle (ideally 4 to 8 project members alongside 1 moderator) gather around the visual timelines. Rather than asking participants to estimate past work from memory alone, the moderator leads a focused discussion anchored to the time-stamped EBT artifacts, enabling participants to add clarifications, corrections, and context to produce jointly agreed timelines.",
+        "<strong>Phase 4 — EBTR Validation:</strong> Participants review the meeting notes and updated timelines to validate the reconstructed project history and conclusions."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Complementing the EBTR framework, three additional bodies of empirical interview research reinforce how structured questioning neutralizes cognitive distortion during R&D time reconstruction."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, cognitive psychology research on <strong>Think-Aloud (TA)</strong> and <strong>Stimulated Recall Interviews (SRI)</strong> (rooted in Ericsson & Simon's 1980 and 1993 verbal protocol analysis and examined in Taylor & Francis qualitative research) demonstrates that re-exposing participants to objective stimuli recorded during task execution—such as video replays, design drafts, or commit logs—triggers accurate retrieval of cognitive sequences and minimizes retrospective memory decay."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, organizational psychology research on <strong>Structured vs. Unstructured Interviews</strong> (synthesized by Joe Thornton, June 9, 2016) demonstrates that unstructured interviews give interviewers unchecked discretion and allow interviewees to engage in <strong>Impression Management (IM)</strong>—including assertive self-promotion, ingratiation, opinion conformity, and deceptive overstatement of accomplishments. By contrast, structured interviews standardize questions around a formal job and task analysis, evaluate responses using objective <strong>Anchored Rating Scales (ARS)</strong>, and utilize predetermined <strong>behavioral questions</strong> that require concrete, verifiable examples from past work—such as <em>\"Give me an example of a time when you identified a bottleneck in your previous job and fixed it\"</em>. Furthermore, sociological research on interview design emphasizes balancing structure with semi-structured flexibility: while a purely rigid, pre-coded questionnaire limits respondent elaboration and can yield superficial data, combining a standardized core interview schedule with open-ended probing questions tied to timeline artifacts enables engineers to articulate complex technical uncertainties and experimental iterations in depth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, Dovetail's recall-bias mitigation guidance outlines six practical safeguards for retrospective interviews: (1) minimizing the time lapse between events and data collection (for instance, through quarterly reviews rather than waiting years after the fact); (2) utilizing written logs, diaries, and objective measurement tools; (3) phrasing questions carefully as open-ended inquiries rather than leading prompts; (4) using visual aids and prompts (such as photos, videos, or diagrams) to trigger accurate recall; (5) conducting interviews in a distraction-free, private environment to reduce external social pressure; and (6) conducting follow-up interviews and secondary validation to confirm self-reported information."
+    },
+    {
+      "type": "subheading",
+      "text": "4.3. The Role of the Specialist Technical Writer/Editor"
+    },
+    {
+      "type": "paragraph",
+      "text": "A frequent operational obstacle in R&D claim preparation is that senior engineers and software developers rarely have the bandwidth or statutory training to <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">draft compliant tax narratives</a>."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Pre-Interview Technical Familiarization:</strong> Reading scientific and trade journals and related materials to become familiar with the client's product technologies and production methods, and analyzing field developments.",
+        "<strong>Personnel Interviews:</strong> Interviewing production and engineering personnel to extract specific details regarding developmental work.",
+        "<strong>Operational Observation:</strong> Observing production, developmental, and experimental activities to determine operating procedures and technical detail.",
+        "<strong>Document Finalization:</strong> Utilizing established outlines and source materials to format, organize, and finalize technical documents so that client reports flow accurately alongside raw data and results provided by engineers.",
+        "<strong>Iterative Review with Engineers:</strong> Communicating edited changes directly to engineers and managers and collaborating within a team alongside fellow writers and a chief editor to ensure technical fidelity."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "V. The Four-Phase Structured Reconstruction Workflow and Six-Eye Review"
+    },
+    {
+      "type": "subheading",
+      "text": "5.1. Anatomy of the Four-Phase Retrospective Reconstruction Process"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Phase 1 — Project and Technical Identification (Business Component Filtering):</strong> The reconstruction begins by breaking broad commercial \"Business Projects\" down into discrete qualifying <strong>\"Technical Projects\"</strong> (business components under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(B)</a> or subcomponents under the Treas. Reg. § 1.41-4(b)(2) shrinking-back rule). Before any hours are estimated, the specialist reviews project plans, system architecture diagrams, patent filings, and baseline industry literature to confirm whether the work meets the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part statutory eligibility criteria</a> under IRC § 41(d)(1): (a) qualifying as research and experimental expenditures under IRC § 174 / § 174A (Section 174 Test); (b) relying on principles of physical or biological sciences, engineering, or computer science (Technological Information Test); (c) intending to develop a new or improved product, process, software, technique, formula, or invention function, performance, reliability, or quality (Business Component Test); and (d) seeking to resolve a specific scientific or technological uncertainty whose solution was not readily available or deducible by a competent professional in the field. Projects consisting of routine software development, bug fixing of an existing commercial product, standard industry implementations, or cosmetic maintenance are excluded upfront.",
+        "<strong>Phase 2 — Activity Reconstruction via Evidence-Based Timelines (Technical Nexus):</strong> Rather than interviewing financial executives alone, the specialist interviews the designated <strong>Technical Lead</strong> (a competent professional who directly oversaw the engineering work). Applying the EBTR approach, the interviewer presents a chronological timeline populated with objective secondary artifacts—Git commit histories, Jira keys, CAD drawings, test logs, failed prototypes, and meeting minutes. By probing specific technical obstacles and iterations (such as asking what technical uncertainty arose in a specific sprint and why the initial design alternative failed), the interview anchors staff recollections to time-stamped system records and documents a systematic <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\"><strong>Process of Experimentation</strong></a> (Hypothesis → Test → Analyze → Refine).",
+        "<strong>Phase 3 — Staff Allocation and Subcomponent Cost Apportionment:</strong> Once the chronological timeline of experimental sprints and technical hurdles is established, the team overlays individual personnel. Leaves, public holidays, general administration, and routine operational duties are excluded first. Each employee's active engineering time is then apportioned across specific qualifying business components (or subcomponents under the IRC § 41(d) shrinking-back rule), classified by role into <strong>direct research, direct supervision, or <a href=\"/us/glossary/direct-support\">direct support</a></strong> (as required by IRC § 41(b)(2)(B) and revised Form 6765 Section G), and cross-referenced against payroll registers and General Ledger (GL) wage accounts.",
+        "<strong>Phase 4 — Documentation Finalization and Six-Eye Quality Control:</strong> The Technical Writer/Editor compiles the corroborated technical narrative and Phase 3 computational workpapers, secures sign-off from the Technical Lead confirming that the reconstructed percentages accurately represent the work performed, and submits the claim package to an independent multi-disciplinary quality review."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Reconstruction Phase",
+        "Primary Objective",
+        "Corroborating Secondary Artifacts",
+        "Statutory & Audit Defensibility Target"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "P1: Technical Identification",
+            "Isolate qualifying business components and designate competent professional leads.",
+            "Project specifications, architecture diagrams, patent filings, baseline literature.",
+            "Satisfy IRC § 41(d) Section 174, Technological Information, Business Component, and Technical Uncertainty tests; meet HMRC GfC3 baseline rules."
+          ]
+        },
+        {
+          "cells": [
+            "P2: Activity Reconstruction",
+            "Reconstruct the iterative process of experimentation and neutralize recall bias.",
+            "Pre-constructed Evidence-Based Timelines (EBTs) using Git commits, Jira logs, CAD drawings, test results, and emails.",
+            "Establish the Scientific Method (Hypothesis → Test → Analyze → Refine) under Treas. Reg. § 1.41-4(a)(5) and anchor oral testimony to contemporaneous records."
+          ]
+        },
+        {
+          "cells": [
+            "P3: Cost Apportionment",
+            "Separate direct, supervisory, and support R&D time from routine commercial duties, holidays, and leave.",
+            "Sprint velocity records, calendar exports, activity diaries, payroll registers, and GL accounts.",
+            "Achieve ATO \"most reasonable basis of apportionment\", HMRC \"reasonable and consistent method\", and IRS Form 6765 Section G subcomponent nexus + 80% rule compliance."
+          ]
+        },
+        {
+          "cells": [
+            "P4: Documentation & Six-Eye Review",
+            "Finalize statutory narrative, computational workpapers, and independent risk audit.",
+            "Technical Lead sign-off, GL-to-asset reconciliations, third-party contracts, and pre-audit checklist.",
+            "Survive IRS LB&I IDR scrutiny (post-AOF elimination), ATO reviews, and HMRC enquiries."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "5.2. Governance and Audit Defense: The Six-Eye Review Process"
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>First Set of Eyes is the Qualified Engineer</strong>, who evaluates the claim from an engineering lifecycle perspective, reviewing architecture diagrams, Git commits, CAD drawings, and testing logs, and interviewing the client's technical staff. Working alongside the Scientist, the Engineer verifies that each element of the experimentation process is documented for each specific business component—preventing failures to substantiate process elements of the type seen in <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, T.C. Memo. 2021-15, <em>aff'd</em>, 62 F.4th 287 (7th Cir. 2023), where the taxpayer failed to prove that at least 80% of its shipbuilding activities constituted elements of a process of experimentation—and flags projects lacking testing logs or version history as high-risk regardless of how innovative the final product appears."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Second Set of Eyes is the Scientist</strong>, who enforces adherence to the scientific method and the IRC § 41 / <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">§ 174</a> Process of Experimentation test, checking that at least 80% of claimed activities constitute a systematic, investigative, and experimental progression to eliminate uncertainty. The Scientist rejects \"result-only\" claims based on uncorroborated high-level estimates and oral testimony, requiring the client to produce iterative experimental data—such as lab notes and <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">failed prototypes</a>—before a claim can proceed."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Third Set of Eyes is the CPA or Enrolled Agent</strong>, who manages financial and statutory compliance by reconciling General Ledger (GL) accounting entries with the physical and technical functions of assets or supplies and reviewing commercial contracts for \"Financial Risk\" and \"Substantial Rights\" clauses to exclude funded research under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)(H)</a> and Treas. Reg. § 1.41-4A(d). On the supply side, collaborating with the Engineer prevents asset-versus-supply classification disputes such as that litigated in <em>TG Missouri Corp. v. Commissioner</em>, 133 T.C. 278 (2009). (Nevertheless, reconciling the General Ledger against asset function ensures depreciable in-house machinery is never improperly claimed as a supply.) On the contract side, the CPA/EA screens out time-and-materials or client-reimbursed agreements where payment is not contingent on technical success (<em>Fairchild Industries, Inc. v. United States</em>, 71 F.3d 868 (Fed. Cir. 1995)) or where the taxpayer fails to retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> in the research results (<em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000); <em>Dynetics, Inc. v. United States</em> (2015)), preventing the funded-research disallowances seen in <em>Perficient, Inc. v. Commissioner</em>, T.C. Dkt. No. 15467-17 (July 11, 2022) and <em>Grigsby v. United States</em>, No. 19-00596-BAJ-SDJ (M.D. La. Oct. 19, 2022)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Passing the Six-Eye Review and a pre-audit dry-run review is a mandatory underwriting prerequisite for <strong>creditARMOR</strong> (an <a href=\"/us/faq/is-rd-tax-credit-audit-protection-worth-it\">audit defense insurance</a> and risk-management platform covering CPA, tax attorney, and specialist consultant defense costs) and is included on claims prepared via the firm's <strong>TaxTrex</strong> AI language model software."
+    },
+    {
+      "type": "heading",
+      "text": "VI. Quantitative Verification and Hypothetical Reconstruction Walkthrough"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Benchmark or Reconstruction Stage",
+        "Verified / Recomputed Value",
+        "Associated Ineligible / Counterpart Value",
+        "Governing Rule, Formula, or Source Authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "U.S. Marginal Returns to R&D (World Bank Estimate)",
+            "<strong>14.0%</strong> Marginal Private Return",
+            "Up to <strong>58.0%</strong> Social Marginal Return",
+            "World Bank policy estimates for U.S. R&D spillover returns (updated June 12, 2025; optimal R&D investment 2x–4x higher; 34 of 38 OECD countries offer R&D tax incentives)."
+          ]
+        },
+        {
+          "cells": [
+            "IRC § 41 \"Substantially All\" Threshold (80% Rule)",
+            "<strong>≥80.0%</strong> Qualified Time / Activity",
+            "<strong>&lt;20.0%</strong> Non-Qualifying Activity",
+            "At least 80% of business component research activities must be experimentation (Treas. Reg. § 1.41-4(a)(6)); ≥80% direct/supervisory/support R&D employee time permits claiming 100% of wages (otherwise only actual % counts)."
+          ]
+        },
+        {
+          "cells": [
+            "Form 6765 Section G Mandatory Reporting Thresholds (Post-2025 Tax Years)",
+            "<strong>&gt; $1.5M</strong> <a href=\"/us/glossary/controlled-group\">Controlled-Group</a> QREs or <strong>&gt; $50M</strong> Prior 3-Yr Avg Gross Receipts",
+            "<strong>≤ $1.5M</strong> QREs AND <strong>≤ $50M</strong> Gross Receipts (or <a href=\"/us/glossary/payroll-tax-credit-election\">QSB Payroll Credit Election</a>) Exempt",
+            "IRS <em>Instructions for Form 6765</em> (Rev. Dec. 2025 / released Feb. 2026): Non-exempt filers must report business components covering <strong>≥80% of total QREs</strong> up to a maximum of <strong>50 components</strong> (\"80%/Top 50\" rule)."
+          ]
+        },
+        {
+          "cells": [
+            "ATO Time-Audit Quarterly Sample Weeks (Hypothetical Example 1)",
+            "<strong>86.25%</strong> Unadjusted Mean (Q1: 82%, Q2: 85%, Q3: 87%, Q4: 91%)",
+            "<strong>13.75%</strong> Unadjusted Non-R&D Time",
+            "Bulletpoint ATO Time Audit protocol: 1 representative week/month reconstructed per quarter from secondary evidence (<strong>disallowed</strong> for U.S. IRS claims per RCCATG)."
+          ]
+        },
+        {
+          "cells": [
+            "ATO Time-Audit Conservative Claimed Rate (Hypothetical Example 1)",
+            "<strong>75.0%</strong> Conservative Claimed R&D Apportionment",
+            "<strong>25.0%</strong> Excluded Buffer (11.25 percentage-point haircut)",
+            "Bulletpoint ATO Time Audit protocol: reduces 82%–91% sample range to a conservative 75% claim to mitigate variance risk."
+          ]
+        },
+        {
+          "cells": [
+            "Source Simulator Baseline Raw Payroll (Hypothetical Example 2)",
+            "<strong>1,440 Hours</strong> Total Raw Payroll Time",
+            "<strong>0 Hours</strong> Excluded Prior to Reconstruction",
+            "12 weeks × 3 developers/engineers × 40 hours/week = 1,440 raw hours (total-raw-hours)."
+          ]
+        },
+        {
+          "cells": [
+            "Source Simulator Step 1: Static HTML Output (65% Intensity, Unadjusted)",
+            "<strong>936 Hours (65.0%)</strong> Qualified R&D Time",
+            "<strong>504 Hours (35.0%)</strong> Ineligible Routine/UI Time",
+            "1,440 hours × 0.65 technical intensity = 936 eligible hours (res-eligible in static HTML, omitting the 0.85 realism cap)."
+          ]
+        },
+        {
+          "cells": [
+            "Source Simulator Step 2: JavaScript Formula Output (65% Intensity × 0.85 Realism Factor)",
+            "<strong>796 Hours (55.25% / ~55.3%)</strong> Qualified R&D Time",
+            "<strong>644 Hours (44.75% / ~44.7%)</strong> Ineligible Routine/Admin Time",
+            "1,440 hours × 0.65 intensity × 0.85 maxRealismFactor = 795.6 hours, rounded to 796 eligible hours (filtering out ~44.7% of raw time)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "6.1. Hypothetical Worked Example 1: Quarterly \"Audited Week\" Extrapolation with Conservative Haircut (Australian ATO Framework)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Methodological Caveat: This worked example is hypothetical, constructed using the verified methodology and benchmark percentages from Bulletpoint's ATO compliance guidance and ATO notional deduction rules. As established in Section 3.3, this sample-extrapolation method reflects Australian ATO commentary and is <strong>not permitted</strong> for U.S. IRS research credit claims under the IRS RCCATG."
+    },
+    {
+      "type": "paragraph",
+      "text": "Suppose a Melbourne-based software engineering firm (Hypothetical Company A) employs a Senior Systems Engineer earning an annual salary of 160,000 AUD (40,000 AUD per quarter) working a standard 40-hour week across four quarters. The engineer did not maintain daily timesheets during the income year, but worked consistently on developing a fault-tolerant distributed database algorithm. To reconstruct the engineer's R&D time under the ATO's \"most reasonable basis of apportionment\" standard, the firm conducts a four-quarter Time Audit using secondary evidence (calendar PDFs, Git commit timestamps, Jira sprint logs, and test failure reports) for one representative week in each quarter."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Step 1 (Reconstructing Sample Weeks from Secondary Evidence)</strong>, analyzing the time-stamped project artifacts for the four representative weeks yields 32.8 qualifying R&D hours out of 40.0 hours in Quarter 1 (32.8 ÷ 40.0 = 82.0%), 34.0 qualifying hours out of 40.0 hours in Quarter 2 (34.0 ÷ 40.0 = 85.0%), 34.8 qualifying hours out of 40.0 hours in Quarter 3 (34.8 ÷ 40.0 = 87.0%), and 36.4 qualifying hours out of 40.0 hours in Quarter 4 (36.4 ÷ 40.0 = 91.0%)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Step 2 (Computing the Unadjusted Sample Mean)</strong>, averaging the four quarterly sample percentages produces an unadjusted mean R&D apportionment of (82.0% + 85.0% + 87.0% + 91.0%) ÷ 4 = 345.0% ÷ 4 = 86.25%. Applied directly to the engineer's 160,000 AUD salary, an unadjusted 86.25% allocation would equal 160,000 AUD × 0.8625 = 138,000 AUD."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Step 3 (Applying the Conservative Audit Haircut)</strong>, following Bulletpoint's verified time-audit guidance—where audited weeks showing 85%, 82%, 91%, and 87% R&D time across quarters are reduced to a conservative 75.0% overall claim to allow for potential error—the firm claims 75.0% rather than 86.25%. This yields a conservative notional salary deduction of 160,000 AUD × 0.750 = 120,000 AUD, establishing an 11.25 percentage-point (18,000 AUD) compliance buffer against audit adjustments."
+    },
+    {
+      "type": "subheading",
+      "text": "6.2. Hypothetical Worked Example 2: Step-by-Step Calculation Audit (U.S. IRC § 41 Framework)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Discrepancy Between Static HTML and JavaScript Formula:</strong> That static calculation multiplies 1,440 raw hours × 0.65 intensity = 936 eligible hours (65.0%) and 1,440 − 936 = 504 ineligible hours (35.0%), omitting the 0.85 realism cap.",
+        "<strong>Application of the Verified IRC § 41 80% Wage Rule and Form 6765 Section G Breakdown:</strong> Because the reconstructed eligible time ratio—whether unadjusted at 65.0% (936 hours) or realism-adjusted at 55.25% (796 hours)—is below the 80% \"substantially all\" employee wage threshold under IRC § 41, the company cannot claim 100% of the three engineers' wages for the 12-week project. Instead, only the actual substantiated proportion counts. Assuming each engineer earns $3,000 per week ($36,000 per engineer over 12 weeks, or $108,000 total team payroll for the 12-week sprint), the allowable QRE wage claim under the realism-adjusted reconstruction is $108,000 × (796 ÷ 1,440) = <strong>$59,700</strong> (or $108,000 × 0.5525 = $59,670 unrounded). On revised IRS Form 6765 Section G (mandatory starting in tax year 2026 for non-exempt filers), if two of the engineers engaged in hands-on coding and testing while the third engineer acted as the first-line supervisor directing the experimental design, the $59,700 QRE figure for that business component must be disaggregated on Section G into <strong>$39,800 of Direct Research Wages</strong> and <strong>$19,900 of Direct Supervision Wages</strong>."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VII. Strategic Recommendations for Transitioning from Reconstruction to Real-Time Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "While a structured expert interview anchored to Evidence-Based Timelines (EBTR) and vetted through a multi-disciplinary Six-Eye Review provides a defensible mechanism for past periods where hours were not tracked, retrospective reconstruction requires substantial forensic effort and faces higher audit scrutiny than <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous record-keeping</a>. Based on verified guidance from the IRS, ATO, HMRC, and specialist compliance practitioners, organizations should implement a two-stage transition strategy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <strong>Immediate Interim Strategy (Capturing Contemporaneous Proxy Artifacts and Quarterly Surveys)</strong>, while transitioning toward comprehensive daily time tracking, management should configure existing project management and developer platforms (such as Jira, Git, or Tempo) to capture R&D evidence at the discrete business-component level as work occurs. Specifically, firms should maintain a master list of business components—recording each component's technical goal, start date, milestones, and completion date—and include the business component name or code directly in General Ledger entries and Jira/Git tags. First-line engineering supervisors and quality-assurance personnel supporting prototype building and testing should track their time by specific project rather than charging a single <a href=\"/us/glossary/general-and-administrative-functions\">General & Administrative (G&A)</a> or overhead code, ensuring the company can populate the direct research, direct supervision, and direct support wage fields on Form 6765 Section G. Furthermore, if real-time timesheets are not yet deployed, conducting <strong>quarterly time-allocation surveys</strong> tied to a current project list—combined with written baseline capability and uncertainty notes prepared by competent professionals at project kick-off in accordance with HMRC's <em>GfC3</em>—provides far stronger contemporaneous data than a single end-of-year survey and protects against data loss from staff departures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <strong>Long-Term Target State (Daily Routine Level 4 Time Tracking)</strong>, organizations should integrate daily, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">task-specific time tracking</a> directly into standard engineering workflows so that logging hours becomes a routine habit. To satisfy Bulletpoint's Level 4 (<em>Detailed Weekly Timesheet</em>) criteria as well as IRS Form 6765 Section G, ATO, and HMRC requirements, timesheets should be completed daily, signed off by the employee, tied explicitly to individual business components or subcomponents, and accompanied by concise task descriptions that separate direct experimentation, direct supervision, and qualifying direct support activities from routine commercial development."
+    }
+  ]
+}

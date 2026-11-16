@@ -8,355 +8,490 @@
   "subject": "Discovery Test and Internal-Use Software",
   "jurisdictionGroup": "usa-federal",
   "jurisdictionSlug": "federal",
-  "summary": "Held that the company's internal-use package tracking software qualified for the R&D tax credit because it met the high threshold of innovation.",
+  "summary": "In FedEx Corp. v. United States (W.D. Tenn. 2009), a federal district court held that FedEx could apply the general qualified research rules of the 2003 Final Regulations (T.D. 9104) together with the 2001 internal-use software High Threshold of Innovation test, rejecting an IRS announcement that tried to reimpose the repudiated discovery test on taxpayers' R&D tax credit claims.",
   "body": [
     {
-      "type": "paragraph",
-      "text": "The legal landscape governing the Research and Development tax credit, codified under Section 41 of the Internal Revenue Code, has undergone a fundamental transformation over the last two decades. Central to this evolution is the litigation history of FedEx Corporation, a multi-decade saga that encompasses both direct challenges to research credit standards and broader challenges to the administrative authority of the Internal Revenue Service and the Department of the Treasury. The 2009 decision in FedEx Corp. v. United States remains the seminal benchmark for internal-use software and the rejection of the \"Discovery Test,\" while the 2023 and 2025 rulings involving the same parties have fundamentally altered the framework through which all tax regulations are interpreted in the post-Loper Bright era. To understand the implications for future R&D tax credit applications, one must analyze the intersection of technical software development requirements, the evidentiary standards for experimentation, and the shifting paradigms of administrative law that now empower taxpayers to challenge restrictive agency interpretations."
-    },
-    {
       "type": "heading",
-      "text": "The Statutory Architecture of the Research Credit and the IUS Exemption"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Research and Development tax credit was introduced in 1981 to combat a perceived decline in American industrial innovation. However, the initial broadness of the credit led to significant controversy regarding what activities truly constituted \"qualified research\". By 1986, Congress introduced the \"Four-Part Test\" to ensure that the credit was applied only to activities that were technological in nature and involved a structured process of experimentation intended to eliminate technical uncertainty."
+      "text": "Section 1: Executive Summary and Case Background"
     },
     {
       "type": "subheading",
-      "text": "The Emergence of the Internal-Use Software Conflict"
+      "text": "Procedural Posture and Factual Genesis of the Taxpayer's Claim"
     },
     {
       "type": "paragraph",
-      "text": "While Congress intended to reward software development, it remained skeptical of \"routine\" software created for internal back-office functions. This skepticism gave rise to the \"Internal-Use Software\" (IUS) exclusion under Section 41(d)(4)(E), which states that research on computer software developed primarily for the taxpayer's internal use is generally ineligible for the credit unless it meets a \"High Threshold of Innovation\" (HTI) test."
+      "text": "In <em>FedEx Corporation v. United States</em>, Docket No. 2:08-cv-02423, 103 AFTR 2d 2009-2722, 2009-1 USTC ¶ 50,435 (W.D. Tenn. June 9, 2009), motion for reconsideration denied, 108 AFTR 2d 2011-5669 (W.D. Tenn. Mar. 28, 2011), the United States District Court for the Western District of Tennessee adjudicated a foundational administrative and statutory controversy governing the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Credit for Increasing Research Activities</a> under Section 41 of the Internal Revenue Code (IRC). The litigation arose from a massive, multi-year software engineering initiative undertaken by FedEx Corporation (\"FedEx\"), a global shipping, express transportation, and logistics enterprise headquartered in Memphis, Tennessee."
     },
     {
       "type": "paragraph",
-      "text": "The definition of what constitutes IUS has shifted significantly across different regulatory regimes. The primary friction point between the IRS and taxpayers has been the boundary between software used for \"General and Administrative\" (G&A) functions and software that enables interaction with third parties."
+      "text": "In 1996, FedEx management identified a need for a new computer business system with better revenue controls to ensure timely and accurate billing and to eliminate \"revenue leakage\". According to FedEx's own memorandum, which the court recited solely as background, no existing client-server system was capable of processing data at volumes comparable to FedEx transaction volumes. Consequently, FedEx embarked on a research and development (R&D) project to develop a new and innovative technology."
+    },
+    {
+      "type": "paragraph",
+      "text": "FedEx incurred substantial expenditures researching and developing the project. Ultimately, the technological challenges associated with the project were too great to overcome, and FedEx <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">abandoned the project</a> in 2001. On its federal income tax returns for fiscal years ending May 1997 through May 2000, FedEx claimed certain <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a> for the project and, as a result, claimed research tax credits under IRC Section 41."
+    },
+    {
+      "type": "paragraph",
+      "text": "Following an administrative examination, the Internal Revenue Service (IRS) <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallowed the claimed research tax credits</a> in their entirety. On June 26, 2008, FedEx initiated a tax refund suit against the United States in the U.S. District Court for the Western District of Tennessee, seeking recovery of $11,647,819 in federal income taxes assessed against and collected from FedEx for the taxable years 1997 through 2000. On February 11, 2009, FedEx moved for partial summary judgment to establish the threshold legal standards governing the general Section 41(d)(1) \"discovery test\" and the Section 41(d)(4)(E) \"<a href=\"/us/glossary/internal-use-software-ius\">internal use software</a>\" (IUS) exclusion."
+    },
+    {
+      "type": "subheading",
+      "text": "The Governing Statutory and Regulatory Architecture under IRC Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "To evaluate the legal mechanics of the <em>FedEx</em> ruling, the dispute must be situated within the statutory text of <a href=\"/us/glossary/irc-section-41\">IRC Section 41</a> and the turbulent regulatory history promulgated by the U.S. Department of the Treasury (\"Treasury\") and the IRS between 2001 and 2004. Enacted originally in 1981 to incentivize domestic technological innovation, now codified under IRC Section 41 and made permanent by the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act</a> of 2015, the federal R&D tax credit provides a general business credit equal to 20 percent of the excess of a taxpayer's QREs for the taxable year over a statutorily defined base amount, alongside alternative calculation regimes such as the Alternative Simplified Credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "For an activity to constitute \"qualified research\" under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)</a>, the taxpayer bears the affirmative burden of demonstrating that the research satisfies four cumulative statutory requirements with respect to a specific business component. First, under the Section 174 <a href=\"/us/glossary/elimination-of-uncertainty\">Eliminating Uncertainty Test</a> of IRC Section 41(d)(1)(A), the expenditures must qualify as expenses under IRC Section 174, meaning they must be incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense aimed at eliminating objective uncertainty concerning the capability, method, or appropriate design of a product or process. Second, under the Discovering Technological Information Test of IRC Section 41(d)(1)(B)(i), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, relying on the principles of the physical or biological sciences, engineering, or computer science. Third, under the <a href=\"/us/legislation/26-usc-41d2-business-component-test\">Business Component Test</a> of IRC Section 41(d)(1)(B)(ii), the application of the discovered technological information must be intended to be useful in the development of a new or improved business component, defined as any product, process, computer software, technique, formula, or invention held for sale, lease, or license, or used by the taxpayer in its trade or business. Fourth, under the <a href=\"/us/glossary/process-of-experimentation\">Process of Experimentation Test</a> of IRC Section 41(d)(1)(C), substantially all—defined by regulation as 80 percent or more—of the research activities must constitute elements of a process of experimentation relating to a new or improved function, performance, or reliability or quality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where a software engineering project satisfies the <a href=\"/us/glossary/four-part-test\">four-part test</a> of Section 41(d)(1), IRC Section 41(d)(4)(E) establishes a broad statutory exclusion for Internal-Use Software. Under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">Section 41(d)(4)(E)</a>, except to the extent provided by Treasury regulations, research with respect to computer software developed by or for the benefit of the taxpayer primarily for internal use by the taxpayer is excluded from qualified research, unless the software is developed for use in an activity that itself constitutes qualified research or is part of a qualified production process. Because Section 41(d)(4)(E) contains a specific grant of rulemaking authority (\"[e]xcept to the extent provided in regulations\"), the District Court characterized the internal-use software regulations as \"legislative\" regulations issued under delegated legislative authority, through which Treasury defines the circumstances under which internal-use software can overcome this exclusion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Between January 2001 and February 2004, Treasury and the IRS issued four successive, conflicting regulatory pronouncements that created the exact legal trap litigated in <em>FedEx Corp. v. United States</em>. In the January 2001 Final Regulations (T.D. 8930, 66 Fed. Reg. 280, issued Jan. 3, 2001), Treasury finalized regulations under Treas. Reg. § 1.41-4, effective for expenditures paid or incurred on or after January 3, 2001 (with the internal-use software provisions applicable to taxable years beginning after December 31, 1985), addressing both the general Section 41(d)(1)(B) discovery test and the Section 41(d)(4)(E) IUS exception. For the general discovery test, T.D. 8930 imposed a highly restrictive standard, mandating that any qualified research must be undertaken to obtain knowledge that exceeds, expands, or refines the common knowledge of skilled professionals in a particular field of science or engineering. Simultaneously, in Treas. Reg. § 1.41-4(c)(6)(vi), T.D. 8930 articulated the three-prong \"<a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation</a>\" (HTI) test for internal-use software, allowing IUS to qualify if three conditions were satisfied: first, the software is innovative, meaning it is intended to result in a reduction in cost, improvement in speed, or other improvements that are substantial and economically significant; second, the software development involves significant economic risk, meaning the taxpayer commits substantial resources and there is substantial uncertainty, because of technical risk, that such resources will be recovered within a reasonable period; and third, the software is not commercially available for use by the taxpayer without modifications that would satisfy the first two prongs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on public comments, the statute, and its legislative history, Treasury and the IRS determined that the definition of qualified research in T.D. 8930, including its \"common knowledge of skilled professionals\" discovery standard, did not fully address Congress' concerns regarding the importance of research activities to the U.S. economy. In response, Treasury issued the December 2001 Proposed Regulations (REG-112991-01, 66 Fed. Reg. 66362, Dec. 26, 2001), proposed to apply to taxable years ending on or after December 26, 2001, while stating that the IRS generally would not challenge return positions consistent with them. These proposed rules eliminated the restrictive discovery test, clarifying that research satisfies Section 41(d)(1) if it is intended to eliminate uncertainty concerning the development or improvement of a business component's capability, method, or design. However, Treasury simultaneously altered the first prong of the IUS High Threshold of Innovation test, adding a much stricter requirement that for internal-use software to be considered \"innovative,\" it must also be \"intended to be unique or novel\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "When Treasury finalized the 2001 Proposed Regulations in the December 2003 Final Regulations (T.D. 9104, 69 Fed. Reg. 22, Dec. 31, 2003 / Jan. 2, 2004), it permanently retained the broader, taxpayer-favorable general eligibility rules, excluding the \"common knowledge\" discovery test. Furthermore, the preamble and effective date provisions of T.D. 9104 explicitly stated that although the final regulations applied prospectively to taxable years ending on or after December 31, 2003, the IRS would not challenge return positions that are consistent with its rules for taxable years ending before December 31, 2003. Crucially, however, T.D. 9104 declined to adopt the controversial \"unique or novel\" IUS standard from the 2001 Proposed Regulations; instead, it removed the substantive IUS rules entirely and designated Treas. Reg. § 1.41-4(c)(6) as \"[Reserved]\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "On February 9, 2004, the IRS, through Announcement 2004-9, 2004-6 I.R.B. 441 (which carried the Advance Notice of Proposed Rulemaking, or ANPRM, on internal-use software and is referred to by the District Court as the \"2004 Announcement\"), invited public comment on future IUS rules and provided interim reliance rules for taxable years beginning after December 31, 1985. The ANPRM stated that, until further guidance was published, taxpayers could rely on either all of the provisions relating to internal-use software in the 2001 Proposed Regulations (which contained the heightened \"unique or novel\" IUS hurdle) or all of the provisions relating to internal-use software in T.D. 8930. Through this all-or-nothing bundling directive, the IRS declared that any taxpayer electing to use the more favorable IUS High Threshold of Innovation test under T.D. 8930—which did not require software to be \"unique or novel\"—must also satisfy the repudiated discovery test of T.D. 8930."
     },
     {
       "type": "table",
       "headers": [
-        "Regulatory Era",
-        "Definition of Internal-Use Software",
-        "Qualification Standard for IUS"
+        "Regulatory Pronouncement",
+        "Citation & Issue Date",
+        "General Section 41(d)(1)(B) Discovery Standard",
+        "Internal-Use Software (IUS) High Threshold of Innovation Standard",
+        "Retroactive Application & Transition Posture"
       ],
       "rows": [
         {
           "cells": [
-            "Pre-2001 Standards",
-            "Broadly defined to include any software not held for sale or lease.",
-            "High Threshold of Innovation (HTI) required, but poorly defined."
+            "<strong>2001 Final Regulations</strong>",
+            "T.D. 8930, 66 Fed. Reg. 280 (Jan. 3, 2001)",
+            "Strict \"Discovery Test\": Must obtain knowledge that exceeds, expands, or refines the common knowledge of skilled professionals.",
+            "Three-prong HTI test: (1) Innovative (substantial and economically significant cost reduction or speed improvement); (2) Significant economic risk due to technical risk; (3) Not commercially available.",
+            "Effective for expenditures paid or incurred on or after Jan. 3, 2001 (IUS provisions applicable to taxable years beginning after Dec. 31, 1985); its discovery test was abandoned after Treasury and the IRS concluded that T.D. 8930 did not fully address Congressional concerns."
           ]
         },
         {
           "cells": [
-            "2001 Final Regulations (T.D. 8930)",
-            "Included a three-part HTI test and a \"Discovery Test\" requiring global novelty.",
-            "Required knowledge that \"exceeds, expands, or refines\" the common knowledge of skilled professionals."
+            "<strong>2001 Proposed Regulations</strong>",
+            "REG-112991-01, 66 Fed. Reg. 66362 (Dec. 26, 2001)",
+            "Eliminated the \"common knowledge\" discovery test; focused on eliminating technological uncertainty regarding capability, method, or design.",
+            "Modified Prong 1 (Innovativeness) to require that the software be \"intended to be unique or novel\" in addition to achieving substantial improvements.",
+            "Proposed to apply to taxable years ending on or after Dec. 26, 2001; IRS stated it generally would not challenge return positions consistent with the proposed regulations."
           ]
         },
         {
           "cells": [
-            "2016 Final Regulations",
-            "Narrowed G&A to specific functions (Finance, HR, Support Services); clarified dual-function software.",
-            "Replaced \"Discovery\" with technical uncertainty; emphasized intent at the beginning of development."
+            "<strong>2003 Final Regulations</strong>",
+            "T.D. 9104, 69 Fed. Reg. 22 (Dec. 31, 2003 / Jan. 2, 2004)",
+            "Permanently excluded the T.D. 8930 discovery test; finalized the broader uncertainty standard.",
+            "Removed substantive IUS provisions entirely; designated Treas. Reg. § 1.41-4(c)(6) as \"[Reserved]\".",
+            "Effective for tax years ending on or after Dec. 31, 2003, but explicitly promised IRS would not challenge consistent positions for prior years."
           ]
         },
         {
           "cells": [
-            "2024+ Post-Loper Bright",
-            "Regulatory definitions are now subject to \"Single Best Meaning\" statutory analysis.",
-            "Courts may now independently define IUS and HTI based on the literal text of Section 41."
+            "<strong>2004 Announcement (ANPRM)</strong>",
+            "Announcement 2004-9, 2004-6 I.R.B. 441 (Feb. 9, 2004)",
+            "Purported to force taxpayers electing T.D. 8930 IUS rules to apply T.D. 8930's repudiated discovery test.",
+            "Permitted reliance on either all of the IUS provisions of the 2001 Proposed Regulations or all of the IUS provisions of T.D. 8930 for tax years after Dec. 31, 1985.",
+            "Held not entitled to substantial deference and unable to override the 2003 Final Regulations in <em>FedEx Corp. v. United States</em>; IRS examiners later instructed in CCA 201423023 not to challenge such mixed reliance."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge and the Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the audit and subsequent litigation of FedEx's 1997–2000 refund claims, FedEx elected to evaluate its revenue control software under the general Section 41 eligibility rules of the 2003 Final Regulations (T.D. 9104)—which eliminated the strict discovery test—while simultaneously applying the IUS High Threshold of Innovation test from the January 2001 Final Regulations (T.D. 8930)—which defined innovativeness in terms of substantial and economically significant cost reductions or speed improvements without the \"unique or novel\" mandate."
+    },
+    {
+      "type": "paragraph",
+      "text": "The United States challenged FedEx's position on the grounds that a taxpayer cannot \"pick and choose\" favorable provisions across two different regulatory packages. Relying on the 2004 Announcement (Announcement 2004-9), the government argued that it reflected the IRS's interpretation of its own regulations and was entitled to substantial judicial deference. Under the government's theory, the 2001 Final Regulations governed because the tax years at issue were 1997 through 2000 (or, alternatively, FedEx could rely on the 2001 Proposed Regulations), and the discovery and IUS provisions were not severable under <em>North Carolina v. Environmental Protection Agency</em>, 531 F.3d 896 (D.C. Cir. 2008), so that FedEx could access the T.D. 8930 IUS exception only by also satisfying T.D. 8930's stringent \"common knowledge of skilled professionals\" discovery test, as the 2004 Announcement required."
+    },
+    {
+      "type": "paragraph",
+      "text": "On June 9, 2009, the U.S. District Court for the Western District of Tennessee rejected the government's argument and granted FedEx's motion for partial summary judgment. The Court held as a matter of law that FedEx was legally entitled to apply the general qualified research standards of the 2003 Final Regulations (T.D. 9104) alongside the internal-use software High Threshold of Innovation standards of the 2001 Final Regulations (T.D. 8930), completely unburdened by T.D. 8930's abolished discovery test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court's holding rested on three foundational principles of statutory and administrative law. First, the Court addressed the direct conflict between sub-regulatory guidance and formal regulations, noting that while an agency's interpretation of its own regulations generally warrants judicial deference, interpretations lacking the force of law do not warrant <em>Chevron</em>-style deference, and a court need not defer where an alternative reading is compelled by the regulation's plain language or by other indications of the agency's intent at the time of the regulation's promulgation. In promulgating the 2001 Proposed Regulations and T.D. 9104, Treasury and the IRS stated that the T.D. 8930 discovery test did not accurately reflect Congressional intent, and T.D. 9104 provided that the IRS would not challenge return positions consistent with it for taxable years ending before December 31, 2003. Second, the Court held that the IRS impermissibly attempted to amend the 2003 Final Regulations through an announcement (the 2004 Announcement), observing that Treasury could have issued Temporary Regulations under 26 U.S.C. § 7805(e) but did not, and that the only legislative regulations ever issued under Section 41(d)(4)(E)'s grant of rulemaking authority were the 2001 Final Regulations, which Treasury has never amended, so the 2004 Announcement could not override regulations carrying the force and effect of law. Third, the Court rejected the government's attempt to reimpose the repudiated standard, holding that because Treasury and the IRS had stated when promulgating the 2001 Proposed Regulations and the 2003 Final Regulations that the \"common knowledge of skilled professionals\" discovery test did not accurately reflect Congressional intent, requiring FedEx to satisfy that test through the 2004 Announcement was contrary to the IRS's stated intent and not entitled to substantial deference; the Court also found <em>North Carolina v. EPA</em> inapposite because it was not being asked to sever a regulation, and reasoned that the statutory discovery test and the IUS exception need not be applied together."
+    },
+    {
+      "type": "paragraph",
+      "text": "The United States moved for reconsideration of the summary judgment order, which the District Court denied on March 28, 2011 (<em>FedEx Corp. v. United States</em>, 108 AFTR 2d 2011-5669). Following a February 2013 final decision largely in FedEx's favor and the government's appeal to the Sixth Circuit, the parties settled on August 29, 2013, and the government dropped its appeal. On June 6, 2014, the IRS Office of Chief Counsel issued Chief Counsel Advice (CCA) 201423023, concluding that, while taxpayers may continue to follow the ANPRM in its entirety, the IRS should not challenge taxpayers who elect to follow the internal-use software provisions of either T.D. 8930 or the 2001 Proposed Regulations while simultaneously applying the general Section 41 eligibility rules of T.D. 9104. Notably, the 2009 <em>FedEx</em> order itself applied the then-prevailing <em>Chevron</em> framework and the deference owed to an agency's interpretation of its own regulations, declining deference because the 2004 Announcement conflicted with the regulations and the agency's stated intent; the broader structural shift in federal tax administrative law later passed through <em>Mayo Foundation</em> (2011) and culminated in the U.S. Supreme Court's 2024 overruling of <em>Chevron</em> deference in <em>Loper Bright Enterprises v. Raimondo</em>, which the same district court addressed in later <em>FedEx Corporation v. United States</em> foreign tax credit regulation litigation (No. 2:20-cv-02794, Order dated February 13, 2025), rejecting the government's argument that <em>Loper Bright</em> required deference to the challenged regulation."
+    },
+    {
+      "type": "heading",
+      "text": "Section 2: Core Legal, Technical, and Evidentiary Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "While <em>FedEx Corp. v. United States</em> represents a decisive procedural and legal victory for taxpayers regarding the governing regulatory standard, the underlying dispute—and the broader body of federal Section 41 jurisprudence surrounding it—exposes the severe legal, technical, contractual, and evidentiary failures that routinely <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">trigger IRS audit disallowances</a> in complex software and engineering R&D claims. When a taxpayer's claim is examined by the IRS Large Business and International (LB&I) division or litigated in federal court, surviving the threshold legal standard is merely the first step; the taxpayer must still substantiate every technical, financial, and procedural element of the claim."
+    },
+    {
+      "type": "subheading",
+      "text": "The Discovery Test Trap Versus Objective Section 174 Technological Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "The central legal controversy in <em>FedEx</em> stemmed from the IRS's effort to weaponize the T.D. 8930 \"Discovery Test\" against internal-use software projects. Prior to T.D. 9104 and the <em>FedEx</em> decision, federal courts applying the pre-2003 discovery framework routinely disqualified massive corporate software initiatives by holding that the taxpayer merely adapted existing computer science principles rather than expanding the boundaries of the field. For example, in <em>United Stationers, Inc. v. United States</em>, 982 F. Supp. 1279 (N.D. Ill. 1997), and <em><a href=\"/us/tax-accounting-software-v-united-states\">Tax & Accounting Software Corp. v. United States</a></em>, 301 F.3d 1254 (10th Cir. 2002) (reversing a district court decision for the taxpayer, 111 F. Supp. 2d 1153 (N.D. Okla. 2000)), courts denied research tax credits because the taxpayers' software development did not objectively discover new technological knowledge unknown to skilled professionals in computer science."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although T.D. 9104 eliminated (and <em>FedEx</em> confirmed taxpayers' right to rely on the elimination of) the requirement that a taxpayer expand the \"common knowledge of skilled professionals,\" a critical evidentiary failure persists when taxpayers conflate business or operational uncertainty with technological uncertainty under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a> and Treas. Reg. § 1.41-4(a)(3). In <em>FedEx</em>, management initiated the project because it needed better revenue controls to ensure accurate billing and eliminate \"revenue leakage\". In IRS examinations, when project charters, capital appropriation requests, and executive summaries describe the project's uncertainty purely in commercial terms—such as whether the software will reduce unbilled shipments, improve user workflow, or integrate business units—the IRS routinely issues a Notice of Proposed Adjustment (NOPA) asserting a lack of <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">objective technological uncertainty</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the T.D. 9104 standard validated in <em>FedEx</em>, uncertainty must exist objectively based on information available to the taxpayer regarding capability (whether a specific technological objective can be achieved at all), method (how to achieve the objective technologically), or appropriate design (what system architecture or algorithmic design will satisfy the technical specifications). In FedEx's case, the court's order recited only as background, without bearing on the legal issue decided, that no existing client-server system could process data at volumes comparable to FedEx transaction volumes and that the technological challenges proved too great to overcome; the court made no finding on whether FedEx's research involved qualifying technological uncertainty, which is the type of computer science question (rather than the business goal of capturing lost billing revenue) that a taxpayer must document. Where taxpayers fail to document the underlying computer science or engineering constraints—and instead document only functional business requirements—their claims fail the <a href=\"/us/glossary/irc-section-174\">Section 174</a> and Section 41(d)(1)(B) threshold regardless of T.D. 9104's leniency."
+    },
+    {
+      "type": "subheading",
+      "text": "Evidentiary Deficiencies Under the Three-Prong IUS High Threshold of Innovation Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "By defeating the 2004 Announcement in <em>FedEx</em>, the taxpayer secured the right to evaluate its <a href=\"/us/faq/internal-use-software-rd-tax-credit\">internal-use software</a> under the three-prong High Threshold of Innovation (HTI) test of T.D. 8930 rather than the 2001 Proposed Regulations' \"unique or novel\" standard. Nevertheless, the HTI test remains an exceptionally rigorous evidentiary hurdle, and failure to substantiate any of its three cumulative prongs results in complete disqualification under IRC Section 41(d)(4)(E)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the first prong of the T.D. 8930 HTI test (Treas. Reg. § 1.41-4(c)(6)), software is \"innovative\" only if it is intended to result in a reduction in cost, improvement in speed, or other improvements that are substantial and economically significant. Taxpayers routinely fail this prong by relying on vague, qualitative assertions that a new system is \"faster,\" \"more modern,\" or \"more reliable\" than a legacy system. As demonstrated in <em><a href=\"/us/wicor-v-united-states\">Wicor, Inc. v. United States</a></em>, 116 F. Supp. 2d 1028 (E.D. Wis. 2000), and <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66, implementing an integrated enterprise computer system or modifying off-the-shelf software for internal operational efficiency fails the innovativeness test unless the taxpayer establishes contemporaneous, quantifiable baseline metrics and target performance improvements, such as orders-of-magnitude increases in transaction throughput per second or quantified per-transaction processing cost reductions. Furthermore, if a taxpayer inadvertently elects or is bound by the 2001 Proposed Regulations rather than T.D. 8930, the taxpayer faces the even steeper hurdle of proving the software architecture was intended to be \"unique or novel\" within the industry."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second prong of the HTI test requires that the software development involve \"<a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a>,\" defined as the commitment of substantial resources where there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period. A fatal evidentiary error examined in <em><a href=\"/us/norwest-corp-v-commissioner\">Norwest Corp. v. Commissioner</a></em>, 110 T.C. 454 (1998), occurs when a taxpayer demonstrates high financial expenditure and schedule delays, but fails to prove that the risk of non-recovery stemmed directly from technical risk rather than routine project management risk, vendor delays, scope creep, or user adoption failure. In <em>FedEx</em>, the abandonment of the project in 2001 because its technological challenges were too great to overcome was recited by the court only as background; because the motion presented a pure question of law, the court made no finding on whether FedEx satisfied the significant economic risk prong. Conversely, when a project succeeds, taxpayers frequently lack contemporaneous risk logs proving that at the outset of the project, technical failure was a substantial, credible threat to capital recovery."
+    },
+    {
+      "type": "paragraph",
+      "text": "The third prong of the HTI test mandates that the software not be <a href=\"/us/glossary/commercial-availability-standard\">commercially available</a> for use by the taxpayer without modifications that themselves satisfy the first two prongs. This requirement intersects directly with the general statutory exclusion for the <a href=\"/us/glossary/adaptation-exclusion\">adaptation of an existing business component</a> under IRC Section 41(d)(4)(B). In cases such as <em><a href=\"/us/united-stationers-v-united-states\">United Stationers</a></em> and <em>Eustace</em>, taxpayers failed because they purchased commercial vendor software and expended millions of dollars configuring, customizing, and building interfaces around the core package. In <em>FedEx</em>, the taxpayer asserted, and the court recited only as background, that no existing client-server system was capable of processing data at volumes comparable to FedEx transaction volumes; the court did not decide whether the commercial availability prong was met. Taxpayers who fail to preserve contemporaneous Request for Proposal (RFP) technical evaluations, vendor benchmark failures, and architectural gap analyses prior to writing code regularly lose at audit because the IRS recharacterizes their engineering as routine customization of commercially available software."
+    },
+    {
+      "type": "subheading",
+      "text": "Process of Experimentation, the Eighty Percent Threshold, and Nexus Documentation Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where a project addresses genuine technological uncertainty and satisfies the IUS High Threshold of Innovation, federal courts have repeatedly denied R&D tax credits in full due to failures in proving a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">structured process of experimentation</a> under IRC Section 41(d)(1)(C) and failures in contemporaneous substantiation under Treas. Reg. § 1.41-4(d). Under Section 41(d)(1)(C) and T.D. 9104, a taxpayer must demonstrate a systematic process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain at the beginning of the taxpayer's research activities. Further, \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" (at least 80 percent) of the research activities measured on a cost or time basis with respect to the business component must constitute elements of this process of experimentation. In recent landmark decisions—including <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), <em>Betz v. Commissioner</em>, T.C. Memo. 2023-84, <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113, and <em><a href=\"/us/george-v-commissioner\">George v. Commissioner</a></em>, T.C. Memo. 2026-10—courts have strictly enforced the 80 percent \"substantially all\" rule and disallowed claims, in whole or in part, where taxpayers relied on trial-and-error engineering or routine design modifications without documenting hypotheses, modeling, systematic testing of alternatives, and quantitative evaluation of results."
+    },
+    {
+      "type": "paragraph",
+      "text": "Directly tied to the process of experimentation is the <a href=\"/us/glossary/project-to-expense-nexus\">factual nexus</a> deficiency. Standard IRS NOPA language in the audit record routinely asserts that a taxpayer's reconstruction of claimed QREs is unreliable, incomplete, and wholly insufficient to establish that its claimed research expenditures qualify for the research credit. This evidentiary breakdown stems primarily from the widespread corporate reliance on cost-center accounting rather than business component tracking. Large enterprises frequently track engineering salaries and contractor costs in broad departmental cost centers rather than tying hours to discrete \"<a href=\"/us/glossary/business-component\">business components</a>\" (specific software modules or technical sub-systems). Without project-based accounting, the taxpayer cannot establish the mandatory factual nexus between W-2 wages claimed under Section 41(b)(2) and a qualified business component under Section 41(d)(2), resulting in disputes such as <em>Harper v. Commissioner</em>, T.C. Memo. 2023-57 (in which the Tax Court rejected an overly restrictive IRS reading of the business component requirement), and in judicial disallowance as seen in <em><a href=\"/us/trinity-industries-v-united-states\">Trinity Industries, Inc. v. United States</a></em>, 691 F. Supp. 2d 688."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, taxpayers frequently undermine their claims by relying on <a href=\"/us/glossary/credible-oral-testimony\">retrospective oral testimony</a> and uncorroborated employee surveys. Although Treas. Reg. § 1.41-4(d) does not mandate a specific form of record and courts permit reasonable estimation under the <em>Cohan</em> doctrine only when qualified research is proven to have occurred (<em>United States v. McFerrin</em>, 570 F.3d 672 (5th Cir. 2009); <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66), courts consistently reject claims built on retrospective employee surveys, post-hoc oral interviews, and undocumented executive wage allocations, as adjudicated in <em>Shami v. Commissioner</em>, T.C. Memo. 2012-78 (by contrast, in <em>Suder v. Commissioner</em>, T.C. Memo. 2014-201, the Tax Court accepted credible testimony and sustained most of the taxpayer's claimed research credits), and <em><a href=\"/us/scott-moore-v-commissioner\">Scott Moore v. Commissioner</a></em>, T.C. Memo. 2023-207."
+    },
+    {
+      "type": "paragraph",
+      "text": "A related substantiation pitfall involves the improper inclusion of non-qualified \"<a href=\"/us/faq/patent-legal-fees-rd-tax-credit-deduction\">patent obtaining\" costs</a> and capitalizable repair expenses. In R&D credit examinations, the IRS has disallowed in-house patent attorneys' and staff's \"<a href=\"/us/glossary/patent-perfection-costs\">patent obtaining\" expenditures</a>—costs incurred for researching, preparing, and completing patent applications, exhibits, diagrams, and textual analysis of inventions—on the grounds that legal protection activities occur after or outside the experimental research process. Similarly, in parallel <em>FedEx Corp. v. United States</em> litigation concerning aircraft maintenance, the IRS challenged whether removing jet engines for part replacement constituted deductible operational expenses or capitalizable property improvements—a distinction that in the Section 41 context separates routine post-production maintenance and <a href=\"/us/glossary/quality-control-testing\">quality control</a> (explicitly excluded under § 41(d)(4)(A)) from experimental pre-production R&D. Finally, under the Regular Credit calculation of IRC Section 41(c), where the credit equals 20 percent of QREs exceeding a base amount calculated by multiplying the taxpayer's <a href=\"/us/glossary/fixed-base-percentage\">fixed-base percentage</a> by its average annual gross receipts for the four preceding taxable years, a major audit dispute alongside <em>FedEx</em> (and litigated in <em>Procter & Gamble Co. v. United States</em>, 733 F. Supp. 2d 857 (S.D. Ohio 2010), leading to the December 2014 proposed regulations) involved the IRS's effort to include intra-company sales to foreign subsidiaries in annual gross receipts, artificially inflating the base amount and eroding the net R&D credit."
+    },
+    {
+      "type": "subheading",
+      "text": "Contractual Risk Allocation and Funded Research Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "A fourth major category of disqualification highlighted in the Section 41 case law cluster accompanying <em>FedEx</em> is the <a href=\"/us/glossary/funded-research\">Funded Research Exclusion</a> under IRC Section 41(d)(4)(H) and Treas. Reg. § 1.41-4A(d). Under Section 41(d)(4)(H), qualified research does not include any research to the extent <a href=\"/us/faq/grant-funding-rd-tax-credit-eligibility\">funded by any grant</a>, contract, or otherwise by another person or governmental entity. Furthermore, when a taxpayer engages third-party software developers or engineering firms—claiming 65 percent of those payments as \"<a href=\"/us/glossary/contract-research-expenses\">contract research expenses</a>\" under IRC Section 41(b)(3)—Treas. Reg. § 1.41-2(e) imposes the exact mirror-image requirement."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under controlling federal precedent—specifically <em>Fairchild Industries, Inc. v. United States</em>, 71 F.3d 868 (Fed. Cir. 1995), <em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000), <em>Geosyntec Consultants, Inc. v. United States</em>, 776 F.3d 1330 (11th Cir. 2015), <em>Tangel v. Commissioner</em>, T.C. Memo. 2021-1, and <em><a href=\"/us/meyer-borgman-johnson-v-commissioner\">Meyer, Borgman & Johnson, Inc. v. Commissioner</a></em>, 100 F.4th 986 (8th Cir. 2024)—a taxpayer's research is disqualified as \"funded\" (or ineligible as a contract research expense) if the underlying commercial contract fails either the Contingent Payment Test or the Substantial Rights Test. Under the <a href=\"/us/glossary/financial-risk-test\">Contingent Payment Test</a> established in <em>Fairchild Industries</em>, payment for the research must be explicitly contingent upon the technical success of the research. As demonstrated in <em>Geosyntec Consultants</em> and <em>Meyer, Borgman & Johnson</em>, while fixed-price contracts that condition payment on formal technical acceptance generally leave financial risk on the researcher, capped cost-plus contracts and <a href=\"/us/glossary/time-and-materials-contract\">time-and-materials contracts</a> where the contractor is paid for hours worked regardless of technical success shift the financial risk away from the performer, rendering the research \"funded\" and disqualifying the claim. Conversely, when a taxpayer like FedEx hires <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">third-party software contractors</a> to assist in developing internal-use software, FedEx can only claim those contractor costs if the contract places the financial risk of technical failure squarely on FedEx, meaning FedEx must pay the contractor even if the overarching client-server system fails and is abandoned, as occurred in 2001. Simultaneously, under the Substantial Rights Test of <em>Lockheed Martin</em> and <em><a href=\"/us/tangel-v-commissioner\">Tangel</a></em>, the taxpayer claiming the R&D tax credit must retain \"substantial rights\" in the results of the research. If a taxpayer enters into a statement of work where the client or the third-party software vendor retains exclusive ownership of the resulting source code, algorithms, or engineering designs—or if the taxpayer must pay a royalty to use the resulting technology in its own business—the taxpayer lacks <a href=\"/us/glossary/substantial-rights\">substantial rights</a> and is barred from claiming the Section 41 credit."
+    },
+    {
+      "type": "heading",
+      "text": "Section 3: Comparative Summary Table of Legal Requirements, Audit Failures, and Judicial Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and regulatory requirement examined in <em>FedEx Corp. v. United States</em> and its accompanying Section 41 federal case law against the specific taxpayer vulnerabilities challenged by the IRS and the controlling judicial standards of proof."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory or Regulatory Requirement",
+        "Governing Authority",
+        "Taxpayer Vulnerability or Contested IRS Disallowance Position",
+        "Judicial Standard of Proof and Controlling Holding"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Retroactive Regulatory Reliance vs. Administrative Bundling</strong>",
+            "IRC § 41(d)(4)(E); T.D. 8930 (2001); Prop. Reg. REG-112991-01 (2001); T.D. 9104 (2003); ANPRM / Announcement 2004-9",
+            "The IRS argued under the 2004 ANPRM that taxpayers could not \"pick and choose\" regulations: electing the T.D. 8930 IUS High Threshold of Innovation test allegedly required the taxpayer to also satisfy T.D. 8930's strict \"common knowledge\" discovery test.",
+            "<strong>Taxpayer Prevails (<em>FedEx Corp. v. United States</em>)</strong>: An informal IRS announcement cannot override the unconditional retroactive reliance provision of formal regulations (T.D. 9104) or resurrect a discovery standard repudiated as contrary to Congressional intent. IRS examiners instructed in CCA 201423023 not to challenge such reliance."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Technological Information (\"Discovery\") & Uncertainty Test</strong>",
+            "IRC § 41(d)(1)(A)–(B); IRC § 174; Treas. Reg. § 1.41-4(a)(2)–(3) (T.D. 9104)",
+            "Disallowance where project documentation frames objectives solely around commercial or financial goals (e.g., \"eliminating revenue leakage\" or improving billing controls) rather than objective computer science or engineering uncertainty.",
+            "<strong>Objective Technical Uncertainty Standard</strong>: The taxpayer need not expand the \"common knowledge of skilled professionals\" (<em>FedEx</em>; T.D. 9104), but must prove objective uncertainty regarding the <strong>capability, method, or appropriate design</strong> of the business component using hard sciences or computer science."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Prong 1: High Threshold of Innovation — \"Innovativeness\"</strong>",
+            "IRC § 41(d)(4)(E); Treas. Reg. § 1.41-4(c)(6) (T.D. 8930 vs. 2001 Prop. Regs.)",
+            "Qualitative claims of \"faster\" or \"more accurate\" software without baseline-to-target metrics; or inadvertently falling under the 2001 Proposed Regulations' requirement that the software be \"unique or novel\".",
+            "<strong>Substantial & Economically Significant Standard</strong>: Under T.D. 8930 (applicable per <em>FedEx</em>), the taxpayer avoids the \"unique or novel\" hurdle but must substantiate that the software was intended to achieve <strong>substantial and economically significant</strong> reductions in cost or improvements in speed/throughput (<em>Wicor</em>; <em><a href=\"/us/eustace-v-commissioner\">Eustace</a></em>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Prong 2: High Threshold of Innovation — \"Significant Economic Risk\"</strong>",
+            "IRC § 41(d)(4)(E); Treas. Reg. § 1.41-4(c)(6) (T.D. 8930)",
+            "Claiming large financial budgets where risk stems from commercial execution, schedule delays, or routine implementation hurdles rather than underlying technical infeasibility.",
+            "<strong>Causal Nexus to Technical Risk</strong>: The taxpayer must prove substantial resources were committed and that <em>because of technical risk</em>, there was substantial uncertainty those resources would be recovered within a reasonable period (<em>Norwest Corp.</em>). FedEx's 2001 abandonment of the project because its technological challenges were too great to overcome was recited only as background, with no judicial finding on this prong."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Prong 3: Non-Commercial Availability & Adaptation Exclusion</strong>",
+            "IRC § 41(d)(4)(B); IRC § 41(d)(4)(E); Treas. Reg. § 1.41-4(c)(6)",
+            "Purchasing commercial off-the-shelf (COTS) or vendor client-server software and claiming credits for routine configuration, data migration, or interface customization.",
+            "<strong>Inability to Use Without Qualifying Modification</strong>: The taxpayer must prove no commercial software could be purchased, leased, or licensed and used for the intended purpose without modifications satisfying Prongs 1 and 2 (<em>United Stationers</em>; <em>Eustace</em>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Process of Experimentation & \"Substantially All\" (80%) Rule</strong>",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)–(6)",
+            "Engaging in ad-hoc trial-and-error debugging or failing to prove that at least 80% of business component activities constituted structured experimentation.",
+            "<strong>Scientific Method & Quantitative 80% Threshold</strong>: The taxpayer must systematically identify technical alternatives and test hypotheses through modeling, simulation, or systematic trial and error, proving of component activities were experimental (<em>Little Sandy Coal</em>; <em><a href=\"/us/phoenix-design-group-v-commissioner\">Phoenix Design Group</a></em>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Contemporaneous Substantiation & Business Component Nexus</strong>",
+            "IRC § 6001; Treas. Reg. § 1.41-4(d)",
+            "Relying on cost-center accounting, retrospective employee surveys, oral estimates, or claiming excluded \"patent obtaining\" legal costs and post-production maintenance.",
+            "<strong>Usable Form & Direct Factual Nexus</strong>: While reasonable flexibility applies (<em><a href=\"/us/united-states-v-mcferrin\">McFerrin</a></em>), taxpayers must retain records in sufficiently usable form and detail to establish a direct factual nexus between specific QREs (wages, supplies, contractors) and qualified business components (<em>Shami</em>; <em>Suder</em>; <em>George</em>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Funded Research Exclusion & Contract Research Risk</strong>",
+            "IRC § 41(d)(4)(H); <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC § 41(b)(3)</a>; Treas. Reg. § 1.41-4A(d); Treas. Reg. § 1.41-2(e)",
+            "Performing research under capped <a href=\"/us/glossary/cost-plus-contract\">cost-plus</a> or time-and-materials contracts, or failing to retain substantial intellectual property rights in vendor/customer agreements.",
+            "<strong>Contingent Payment & Substantial Rights Mandate</strong>: The claimant must bear the financial risk of failure (payment explicitly contingent on technical success) AND retain substantial rights in the resulting technology (<em>Fairchild Industries</em>; <em>Lockheed Martin</em>; <em>Geosyntec</em>; <em>Meyer, Borgman & Johnson</em>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/us/glossary/base-amount\">Base Amount</a> Gross Receipts Computation</strong>",
+            "<a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">IRC § 41(c)(1)–(3)</a>; Treas. Reg. § 1.41-3",
+            "IRS inclusion of intra-company sales to foreign subsidiaries in prior 4-year <a href=\"/us/glossary/average-annual-gross-receipts\">average annual gross receipts</a>, artificially inflating the base amount and reducing the net credit.",
+            "<strong>Exclusion of Intra-Group Transactions</strong>: Gross receipts from intra-group transactions across <a href=\"/us/glossary/controlled-group\">controlled group</a> members are excluded from the base amount computation (<em>Procter & Gamble Co. v. United States</em>; Dec. 2014 Proposed Regulations)."
           ]
         }
       ]
     },
     {
       "type": "heading",
-      "text": "FedEx Corp. v. United States (2009): The Rejection of the Discovery Test"
+      "text": "Section 4: Two Applied Remedial Case Studies"
     },
     {
       "type": "paragraph",
-      "text": "The 2009 case of FedEx Corp. v. United States, No. 08-2423 (W.D. Tenn.), serves as the foundational precedent for contemporary IUS claims. The litigation arose from a massive software project initiated by FedEx in 1996 to develop a sophisticated computer-based system for tracking global billing records. The project continued until 2001, when it was ultimately abandoned after substantial expenditures had been incurred. FedEx filed for research credits for tax years 1997 through 2000, which the IRS denied on the grounds that the software failed to meet the Discovery Test and the HTI test as then interpreted by the agency."
+      "text": "To translate the legal holdings and evidentiary lessons of <em>FedEx Corp. v. United States</em> and its surrounding federal jurisprudence into actionable tax governance, the following two applied case studies examine realistic corporate R&D initiatives facing the exact statutory, regulatory, contractual, and documentation pitfalls identified in Section 2. For each scenario, a step-by-step remedial restructuring protocol demonstrates how the taxpayer can re-engineer its project governance, technical documentation, contractual agreements, and experimentation tracking to survive an IRS LB&I examination and satisfy IRC Section 41."
     },
     {
       "type": "subheading",
-      "text": "The Discovery Test Controversy"
-    },
-    {
-      "type": "paragraph",
-      "text": "The primary legal question was whether the IRS could require FedEx to meet the \"Discovery Test,\" which mandated that research must be undertaken to obtain knowledge that \"exceeds, expands, or refines the common knowledge of skilled professionals in a particular field of science or engineering\". The IRS argued that because FedEx sought to rely on the 2001 Final Regulations (T.D. 8930), it must accept the Discovery Test contained therein. FedEx countered that the Treasury Department had elsewhere admitted the Discovery Test was inconsistent with congressional intent and that the IRS could not use an informal \"Announcement\" (2004-9) to force taxpayers to comply with an invalid standard."
-    },
-    {
-      "type": "paragraph",
-      "text": "The court ruled in favor of FedEx, granting partial summary judgment. This decision was monumental because it invalidated the Discovery Test, affirming that \"discovery\" under Section 41 simply means the elimination of technical uncertainty from the perspective of the taxpayer, not the global scientific community. The court found that the IRS lacked the authority to create enforceable law through an announcement that circumvented the formal rulemaking process."
+      "text": "Case Study 1: Enterprise Logistics and Real-Time Distributed Revenue Ledger"
     },
     {
       "type": "subheading",
-      "text": "The Rebirth of the High Threshold of Innovation Test"
+      "text": "Scenario and Initial Audit Vulnerability Profile"
     },
     {
       "type": "paragraph",
-      "text": "While the court discarded the Discovery Test, it clarified the High Threshold of Innovation (HTI) test that still applies to IUS today. The FedEx court approved a three-pronged HTI test:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Innovation: The software must be intended to result in a reduction in cost, improvement in speed, or other improvement that is substantial and economically significant.",
-        "Significant Economic Risk: The taxpayer must commit substantial resources to the development, and there must be substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period.",
-        "Commercial Availability: The software cannot be purchased, leased, or licensed and used for the intended purpose without modifications that would satisfy the first two requirements."
-      ]
+      "text": "Horizon Intermodal Logistics Corp. (\"Horizon\"), a U.S.-based freight transportation and supply-chain conglomerate with $14 billion in annual revenue, initiates a 36-month, $22 million software engineering project titled \"Project Sentinel.\" Horizon's legacy mainframe billing system processes freight waybills in overnight batch cycles, resulting in severe \"revenue leakage\"—specifically unbilled accessorial charges, miscalculated dimensional weight tariffs, and delayed interline settlement—estimated at $85 million annually. Project Sentinel aims to build an internal-use, real-time distributed transaction and billing engine capable of ingesting telemetry, optical dimensioning scans, and dynamic tariff rules across 650 freight terminals simultaneously."
     },
     {
       "type": "paragraph",
-      "text": "This ruling provided a massive boon to large enterprises, particularly financial institutions and logistics firms, by making it possible to qualify major software infrastructure projects that had previously been barred by the Discovery Test's \"new to the world\" standard."
-    },
-    {
-      "type": "heading",
-      "text": "Technical and Evidentiary Requirements for Qualified Research"
-    },
-    {
-      "type": "paragraph",
-      "text": "The FedEx precedent did not remove the necessity of the \"Four-Part Test\" found in Section 41(d). For a project to qualify, it must meet all four criteria, even if it passes the HTI test. The contemporary application of these tests, particularly in the wake of Phoenix Design Group v. Commissioner (2024), reveals a critical need for granular, activity-level documentation."
+      "text": "In its initial configuration, Horizon's project governance exhibits five fatal vulnerabilities that mirror the IRS's attack vectors in <em>FedEx</em>, <em>Norwest Corp.</em>, and <em>United Stationers</em>. First, the Capital Expenditure (CapEx) request presented to Horizon's Board of Directors defines Project Sentinel's objective entirely in commercial terms as \"eliminating revenue leakage, automating audit controls, and improving billing accuracy by 99.5%,\" with no mention of underlying computer science uncertainties. Second, Horizon licenses an enterprise commercial cloud database platform as a foundational layer, allowing an IRS engineer to argue that Project Sentinel is merely a routine adaptation or configuration of commercially available software under IRC Section 41(d)(4)(B) and fails the third prong of the IUS High Threshold of Innovation test. Third, Horizon's tax department has not formally documented which internal-use software regulations govern Project Sentinel (for taxable years beginning on or after October 4, 2016, the final regulations of T.D. 9786 rather than the T.D. 8930 rules validated for earlier years in <em>FedEx</em> and CCA 201423023), nor has it established quantitative baseline-versus-target speed or cost-reduction metrics or a technical risk register. Fourth, Horizon tracks its 110 software engineers across three broad IT cost centers (\"Enterprise Billing IT,\" \"Core Infrastructure,\" and \"Legal/IP Support\"), commingling core algorithm development with routine user-interface design, data migration, and in-house patent attorneys' \"patent obtaining\" legal expenses. Fifth, Horizon engages a third-party software consultancy (\"CloudScale Systems\") for $6 million under a Master Services Agreement (MSA) that grants CloudScale joint ownership and unrestricted commercial licensing rights over the underlying distributed consensus frameworks developed during the engagement."
     },
     {
       "type": "subheading",
-      "text": "The Four-Part Test Under Modern Scrutiny"
+      "text": "Step 1: Project Governance and Regulatory Election Alignment"
     },
     {
       "type": "paragraph",
-      "text": "The interaction between statutory language and judicial interpretation has refined the requirements for each prong of the qualified research test:"
+      "text": "To remediate these structural flaws, Horizon's tax counsel must first execute a formal pre-filing Technical Tax Memorandum invoking <em>FedEx Corp. v. United States</em> (103 AFTR 2d 2009-2722) and IRS CCA 201423023. This memorandum explicitly establishes that Project Sentinel's general qualification under IRC Section 41(d)(1) is governed by T.D. 9104, which requires only the resolution of technological uncertainty regarding capability, method, or design, free of the repudiated \"common knowledge\" discovery test, while its qualification under the Section 41(d)(4)(E) IUS exception is governed, for taxable years beginning on or after October 4, 2016, by the three-prong High Threshold of Innovation test of the final internal-use software regulations (T.D. 9786, Treas. Reg. § 1.41-4(c)(6)), which likewise does not impose the 2001 Proposed Regulations' \"unique or novel\" requirement; the <em>FedEx</em>-validated pairing of T.D. 9104 with the T.D. 8930 IUS test remains relevant only to earlier taxable years."
     },
     {
-      "type": "list",
-      "items": [
-        "Permitted Purpose: The research must be related to developing a new or improved business component, such as a product, process, or software.",
-        "Technological in Nature: The process of experimentation must fundamentally rely on principles of physical or biological sciences, engineering, or computer science.",
-        "Elimination of Uncertainty: The research must seek to resolve uncertainty about the capability, method, or appropriate design of the component.",
-        "Process of Experimentation: This is the most frequently litigated prong. It requires a systematic evaluation of alternatives, such as modeling, simulation, or iterative testing."
-      ]
+      "type": "paragraph",
+      "text": "Simultaneously, rather than treating \"Project Sentinel\" as a single monolithic business component—which risks failing the 80 percent \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" rule of Section 41(d)(1)(C) if routine user-interface, reporting, and data-migration tasks exceed 20 percent of total hours—Horizon must restructure its project architecture into discrete, independent Business Components under Treas. Reg. § 1.41-4(b)(2). Specifically, Horizon must isolate the Real-Time Distributed Lock-Free Consensus and Event-Streaming Kernel as Business Component 1A and the High-Throughput Optical Dimensioning and Dynamic Tariff Reconciliation Engine as Business Component 1B, while segregating the Customer Invoicing Web Portal, Legacy Mainframe Data Migration, and ERP Financial Connectors into Non-Qualified Component 1C, which is excluded entirely from the <a href=\"/us/glossary/qualified-research-expenses-qre\">QRE claim</a>. Furthermore, Horizon must immediately segregate and remove all time and expenses of its in-house patent attorneys and paralegals preparing patent applications and exhibits (\"patent obtaining\" costs that the IRS challenges in R&D credit examinations) from the QRE pool. In parallel, when computing its four-year average annual gross receipts for the Regular Credit base amount under Section 41(c), Horizon must purge all intra-company logistics billings to its foreign subsidiaries in accordance with <em><a href=\"/us/procter-gamble-v-united-states\">Procter & Gamble</a></em> and the Section 41 gross receipts regulations."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation of the Three-Prong High Threshold of Innovation Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Horizon's Chief Architect must next issue an <em>Architectural Design & Uncertainty Charter</em> that reframes the project from the business goal of \"stopping revenue leakage\" to resolving objective computer science uncertainties under Section 174 and T.D. 9104. This charter must document the exact architectural uncertainty: whether a distributed, multi-region event-streaming ledger can maintain strict serializability (ACID compliance) at a throughput of 180,000 concurrent waybill mutations per second with sub-20-millisecond tail latency without suffering distributed deadlock or split-brain state corruption."
+    },
+    {
+      "type": "paragraph",
+      "text": "To substantiate Prong 1 (Innovativeness) of the HTI test under T.D. 9786 prior to writing production code, the engineering team must publish a <em>Quantitative Benchmark Specification</em> contrasting the legacy mainframe batch system—which requires 14 hours to reconcile 4 million waybills at an infrastructure compute cost of $0.042 per transaction—against Project Sentinel's design targets of real-time reconciliation in under 15 milliseconds (a 99.9 percent latency reduction) at a compute cost of $0.006 per transaction (an 85.7 percent cost reduction). These documented, auditable metrics are designed to satisfy the HTI test's mandate that the software be intended to result in a reduction in cost or improvement in speed that is substantial and economically significant."
+    },
+    {
+      "type": "paragraph",
+      "text": "To substantiate Prong 2 (Significant Economic Risk via Technical Risk), Horizon must establish a contemporaneous <em>Technical Risk & Capital Recovery Register</em> signed by the Chief Technology Officer and Chief Financial Officer. This register must explicitly document that the $16 million allocated to Business Components 1A and 1B cannot be recovered within a reasonable period unless the engineering team resolves the distributed lock-contention bottleneck; if the custom consensus algorithm fails under peak holiday freight volume, the entire architecture will suffer cascading state failure and must be scrapped, mirroring FedEx's actual 2001 abandonment of its client-server project. Finally, to substantiate Prong 3 (Non-Commercial Availability and COTS Gap Analysis), prior to licensing the underlying cloud database kernel, Horizon's architecture review board must execute a formal <em>Commercial Off-The-Shelf (COTS) Technical Feasibility & Stress-Test Report</em>. By running synthetic load benchmarks on three leading commercial database platforms and preserving the failure logs showing that out-of-the-box commercial systems crash at 22,000 transactions per second due to two-phase commit locking overhead, Horizon proves that no commercially available software can be used for the intended purpose without designing a wholly new custom consensus and in-memory caching layer that independently satisfies Prongs 1 and 2."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Experimentation Tracking and Contemporaneous Substantiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy IRC Section 41(d)(1)(C) and <em><a href=\"/us/little-sandy-coal-v-commissioner\">Little Sandy Coal</a></em>, Horizon must reconfigure its Jira and Git development workflows for Business Components 1A and 1B so that every epic and sprint ticket captures a complete scientific process of experimentation. Each engineering ticket assigned to the R&D components must mandate entries for the specific technical uncertainty and hypothesis (such as evaluating whether Raft-based consensus versus optimistic concurrency control with vector clocks can sustain 180,000 transactions per second under 5 percent network packet loss), the experimental alternatives evaluated, the simulation and load-test telemetry logs, and the resulting technical conclusion and code iteration."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than relying on year-end employee surveys or cost-center ratios that courts rejected in <em><a href=\"/us/shami-v-commissioner\">Shami</a></em> and <em>Suder</em>, Horizon must mandate weekly timecard certification directly linked to the Jira Business Component codes (1A, 1B, or non-qualified 1C). Any employee whose experimental time on Component 1A or 1B falls below 80 percent is governed by exact hourly allocation, while Horizon continuously monitors component-level hours to verify that across Component 1A and Component 1B as discrete business components, at least 80 percent of total engineering activities constitute documented experimental trials, thereby satisfying the \"substantially all\" statutory mandate."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contractual Restructuring for Third-Party Systems Integrators"
+    },
+    {
+      "type": "paragraph",
+      "text": "To rescue the $6 million in third-party contractor expenditures—yielding $3.9 million in QREs at the <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65 percent statutory rate</a> under IRC Section 41(b)(3)—Horizon must execute a binding bilateral addendum to the CloudScale MSA prior to the performance of the research services. Under the amended Substantial Rights Clause, Horizon must strip CloudScale of joint ownership and commercial licensing rights, vesting 100 percent exclusive ownership of all custom source code, architectural schematics, and inventions in Horizon as \"work made for hire\" and prohibiting CloudScale from reusing the custom consensus code for other clients without a royalty-bearing license from Horizon, in strict compliance with <em><a href=\"/us/lockheed-martin-v-united-states\">Lockheed Martin</a></em>. Under the amended Financial Risk Allocation Clause, the contract must explicitly state that Horizon pays CloudScale for engineering research services at Horizon's sole economic risk, such that Horizon remains financially liable for CloudScale's developmental efforts even if Business Components 1A and 1B fail to achieve the target throughput specifications and are ultimately abandoned."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Industrial Aerospace and Automated Fleet Telemetry Integration"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Initial Audit Vulnerability Profile"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vanguard AeroSystems Corp. (\"Vanguard\"), a domestic aerospace engineering and fleet maintenance technology firm, undertakes a $15 million R&D initiative titled \"Project Aegis.\" Vanguard operates both an internal fleet maintenance division and an external commercial engineering division that designs predictive jet-engine diagnostics and automated component replacement systems for major commercial cargo airlines. Project Aegis involves two intertwined workstreams: first, developing an embedded acoustic-thermodynamic sensor array and edge-computing telemetry unit mounted inside high-bypass turbofan jet engines during overhaul to predict turbine blade micro-fractures in real time; and second, developing a centralized fleet maintenance scheduling software platform for a major cargo airline client (\"Global Air Cargo\") under a $9 million commercial engineering contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "In its existing posture, Vanguard faces severe disqualification risks across four fronts identified in <em>FedEx</em> and federal Section 41 case law. First, during engine tear-downs where prototype Aegis sensors are installed, Vanguard mechanics also perform heavy jet-engine maintenance by removing engines and replacing worn turbine components—the exact type of expenditure disputed in <em>FedEx Corp. v. United States</em> regarding deductible repairs versus capitalizable property improvements. Vanguard's accounting system lumps $4.5 million of routine engine overhaul labor and replacement parts into the Project Aegis R&D cost pool as \"<a href=\"/us/glossary/qualified-supplies\">qualified supplies</a>\" and \"wages\". Second, Vanguard treats the entire software stack—both the embedded real-time turbofan firmware and the administrative maintenance scheduling dashboard—as a single software package, exposing the entire software expenditure to the Section 41(d)(4)(E) IUS exclusion and the IRS's argument that the scheduling dashboard is merely an adaptation of commercial avionics ERP software under <em>United Stationers</em> and <em>Eustace</em>. Third, Vanguard's engineers build three full-scale instrumented jet-engine test rigs (\"<a href=\"/us/glossary/pilot-model\">pilot models</a>\"), but do not document systematic mathematical modeling or alternative design evaluations, risking total disallowance of pilot model supply costs and engineering wages under <em>Little Sandy Coal Co. v. Commissioner</em> and <em>Betz v. Commissioner</em>. Fourth, Vanguard's $9 million contract with Global Air Cargo is structured as a cost-plus-fixed-fee contract subject to a maximum price cap, under which Global Air Cargo reimburses Vanguard bi-weekly for engineering hours incurred, with no requirement that the final system pass objective technical performance testing before Vanguard is paid—a contractual structure held to be \"funded\" and non-qualifying in <em><a href=\"/us/geosyntec-consultants-v-united-states\">Geosyntec Consultants, Inc. v. United States</a></em> and <em>Meyer, Borgman & Johnson, Inc. v. Commissioner</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Governance Restructuring, Cost Segregation, and Dual-Function Partitioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drawing directly on the distinction between routine aircraft engine part replacement (<em>FedEx</em> engine repair capitalization context) and experimental pilot model testing (<em><a href=\"/us/tg-missouri-v-commissioner\">TG Missouri Corp. v. Commissioner</a></em>, 133 T.C. 278; <em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50), Vanguard's tax and cost-accounting teams must establish strict Work Breakdown Structure (WBS) firewalls. All labor and replacement parts associated with restoring commercial jet engines to serviceable \"like-new\" condition must be routed to capitalizable asset or operational maintenance accounts. Only the fabrication of sacrificial prototype acoustic waveguide housings, experimental high-temperature piezoelectric sensors, and dedicated test-cell instrumentation may be coded to the Section 41 Qualified Supply account under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(C)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, Vanguard must separate its <a href=\"/us/glossary/hardware-software-integration\">hardware-embedded software</a> from its administrative internal-use software. Under Treas. Reg. § 1.41-4(c)(6) as finalized by T.D. 9786, software is internal-use software only if it is developed for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a> (financial management, human resource management, and support services); software developed to be embedded in and directly control physical hardware—such as the real-time turbofan acoustic signal-processing firmware—is not developed for those functions and therefore falls outside the Section 41(d)(4)(E) IUS exclusion. Vanguard must formally bifurcate Project Aegis into two distinct Business Components: Business Component 2A (Hardware-Embedded Telemetry and Signal Processing Firmware), which is evaluated solely under the general <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> of IRC Section 41(d)(1) and T.D. 9104, and Business Component 2B (Predictive Fleet Maintenance Scheduling Platform), which is evaluated under the T.D. 9104 general test and, to the extent it constitutes internal-use software under T.D. 9786, substantiated under that regulation's High Threshold of Innovation test (the T.D. 8930 test validated in <em>FedEx</em> and CCA 201423023 governs only earlier taxable years)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and COTS Adaptation Defense"
+    },
+    {
+      "type": "paragraph",
+      "text": "For Business Component 2A, Vanguard's aerospace engineers must draft a formal <em>Thermodynamic & Acoustic Uncertainty Specification</em> documenting why existing commercial engine-health monitoring sensors fail at turbine inlet temperatures exceeding and acoustic background noise levels above . The specification must identify the exact design uncertainties regarding the appropriate material composition and geometric shielding of the silicon-carbide acoustic transducer, alongside the mathematical formulation of a Fast Fourier Transform (FFT) wavelet-denoising algorithm capable of isolating micro-fracture harmonic signatures from broadband combustion turbulence in under 5 milliseconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "For Business Component 2B, Vanguard must document an architectural teardown demonstrating that commercial aviation maintenance ERP packages operate on static flight-hour tables and cannot ingest continuous, multi-gigabyte real-time stochastic failure probability streams. By documenting the mathematical development of a novel Markov-chain Monte Carlo (MCMC) fleet-grounding optimization engine built from scratch in C++, Vanguard insulates Component 2B from being characterized as a routine adaptation of off-the-shelf software under IRC Section 41(d)(4)(B), <em>United Stationers</em>, and <em>Eustace</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Structured Process of Experimentation and Pilot Model Substantiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure that the three instrumented test-cell engine rigs qualify as experimental pilot models and satisfy the 80 percent \"substantially all\" process of experimentation test under IRC Section 41(d)(1)(C), <em>Little Sandy Coal</em>, and <em><a href=\"/us/betz-v-commissioner\">Betz</a></em>, Vanguard must institute a formal Four-Phase Stage-Gate Experimentation Protocol. In Phase 1 (Hypothesis and Computational Fluid Dynamics Modeling), prior to physical fabrication, engineers must archive ANSYS thermal-structural simulation files predicting sensor survival and acoustic attenuation across four alternative transducer mounting geometries. In Phase 2 (Iterative <a href=\"/us/glossary/prototype-development\">Prototype Fabrication</a> and Test-Cell Execution), each physical test run on the dynamometer rig must be logged with a unique Experiment ID tying the physical supply costs and technician wages to the specific design alternative under evaluation. In Phase 3 (Diagnostic Failure Analysis), when Prototype Geometry A suffers thermal delamination after 40 hours at full thrust, engineers must record a formal <em>Metallurgical & Signal Failure Report</em> explaining why the design hypothesis failed and defining the engineering modifications required for Prototype Geometry B. In Phase 4 (Substantially All Time-Audit), Vanguard must enforce automated bi-weekly <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">time-tracking</a> across all aerospace engineers and test-cell technicians, verifying that at least 85 percent of all labor hours billed to Business Component 2A are directly mapped to Phases 1 through 3 of the experimental protocol, maintaining a clear evidentiary margin above the statutory 80 percent threshold."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contractual Re-Engineering to Overcome the Funded Research Exclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the $9 million Global Air Cargo contract from disqualifying Vanguard's research under IRC Section 41(d)(4)(H), Vanguard must renegotiate and execute a restated commercial agreement prior to the commencement of the tax year, replacing the capped cost-plus structure (<em>Geosyntec</em>) with a Fixed-Price, Milestone-Contingent Acceptance Contract modeled directly on <em><a href=\"/us/fairchild-industries-v-united-states\">Fairchild Industries, Inc. v. United States</a></em> (71 F.3d 868). The restated contract must divide the project into four discrete technical milestones and explicitly stipulate that all progress advances are refundable deposits, establishing that Vanguard is legally entitled to retain payment if and only if the delivered telemetry hardware and predictive algorithm pass a formal, quantitative <em>Factory & Flight Acceptance Test (FAT)</em>—specifically demonstrating at least 94 percent micro-fracture detection accuracy with a false-positive rate below 0.5 percent over 500 simulated flight cycles. If Vanguard fails to achieve the technical specification, Global Air Cargo retains the unconditional contractual right to reject the deliverables, terminate the contract for technical default, and demand a full refund of prior milestone payments. Furthermore, pursuant to <em>Lockheed Martin Corp. v. United States</em> (210 F.3d 1366), the restated contract must explicitly provide that Vanguard retains sole title, patent rights, and underlying copyright in all core acoustic-thermodynamic algorithms, sensor designs, and source code developed under Project Aegis, granting Global Air Cargo only a non-exclusive license to operate the deployed units on its aircraft fleet without requiring Vanguard to seek permission or pay royalties to commercialize the technology with other aviation customers."
+    },
+    {
+      "type": "subheading",
+      "text": "Summary Comparison of Remedial Restructuring Across Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "The table below synthesizes the transformation from audit-vulnerable project execution to audit-ready statutory compliance across both applied case studies."
     },
     {
       "type": "table",
       "headers": [
-        "Case Law",
-        "Key Ruling on the Four-Part Test",
-        "Implication for Future Applications"
+        "Compliance Dimension",
+        "Pre-Remediation Vulnerability (Audit Disallowance Trigger)",
+        "Post-Remediation Architecture (Statutory & Judicial Compliance)",
+        "Governing Legal Standard Satisfied"
       ],
       "rows": [
         {
           "cells": [
-            "United States v. McFerrin",
-            "Allowed the use of estimates (Cohan Rule) if qualified research is proven.",
-            "Documentation must first prove the research occurred before expenses can be estimated."
+            "<strong>Regulatory Standard & IUS Election</strong>",
+            "Ambiguous reliance on mixed regulatory standards; vulnerability to IRS imposition of the T.D. 8930 \"common knowledge\" discovery test or the 2001 Proposed Regulations' \"unique or novel\" test.",
+            "Formal Technical Tax Memorandum applying the general Section 41(d)(1) rules of T.D. 9104 and the IUS High Threshold of Innovation test of T.D. 9786 (with the <em>FedEx</em>-validated T.D. 8930 pairing limited to earlier taxable years); hardware-embedded firmware bifurcated out of IUS entirely.",
+            "<em>FedEx Corp. v. United States</em> (103 AFTR 2d 2009-2722); IRS CCA 201423023; T.D. 9786; Treas. Reg. § 1.41-4(c)(6)."
           ]
         },
         {
           "cells": [
-            "Union Carbide v. Commissioner",
-            "Validated process improvement research as a \"permitted purpose.\"",
-            "Direct costs of trials on production lines are eligible QREs."
+            "<strong>Section 174 Uncertainty & COTS Adaptation Defense</strong>",
+            "Project charters focused on business metrics (\"eliminating revenue leakage\"); undocumented integration of commercial databases and aviation ERPs.",
+            "Architectural charters defining objective computer science and thermodynamic design uncertainties; pre-project COTS stress-test failure logs proving commercial software cannot function without fundamental redesign.",
+            "IRC § 41(d)(1)(A)–(B); IRC § 41(d)(4)(B); <em>United Stationers</em>; <em>Eustace</em>; <em>Wicor</em>."
           ]
         },
         {
           "cells": [
-            "Siemer Milling Co. v. Commissioner",
-            "Emphasized the \"Process of Experimentation\" and uncertainty at the outset.",
-            "\"Trial and error\" or routine adaptations do not satisfy the POE requirement."
+            "<strong>High Threshold of Innovation (HTI) Substantiation</strong>",
+            "Qualitative claims of \"faster billing\" and unsegregated IT budgets that fail to link financial exposure to technical risk.",
+            "Quantified baseline-to-target latency and unit-cost reduction specifications (Prong 1) paired with a CFO/CTO Technical Risk & Capital Recovery Register (Prong 2).",
+            "IRC § 41(d)(4)(E); T.D. 9786 HTI Test (T.D. 8930 for earlier years); <em>Norwest Corp. v. Commissioner</em>."
           ]
         },
         {
           "cells": [
-            "Phoenix Design Group (2024)",
-            "Denied credits for \"routine engineering\" and lack of documentation.",
-            "Professional judgment and standard calculations are not a \"process of experimentation.\""
+            "<strong>Process of Experimentation & Nexus Documentation</strong>",
+            "Departmental cost-center accounting; <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective employee estimates</a>; commingled routine jet-engine overhaul parts and in-house \"patent obtaining\" legal costs.",
+            "Granular business component partitioning; hypothesis-driven Jira/Stage-Gate logs; <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous timecards</a> proving experimental activity; strict exclusion of routine engine repair and patent legal costs.",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(d); <em>Little Sandy Coal</em>; <em>Betz</em>; <em>Shami</em>; <em><a href=\"/us/suder-v-commissioner\">Suder</a></em>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Contractual Risk & IP Ownership Structure</strong>",
+            "Vendor MSA granting joint IP rights; customer engineering performed under a <a href=\"/us/glossary/capped-contract\">capped cost-plus contract</a> with bi-weekly hour reimbursement.",
+            "Vendor MSA amended to vest 100% exclusive IP in taxpayer with developmental risk on taxpayer; customer contract converted to <a href=\"/us/glossary/fixed-price-contract\">fixed-price</a> with payment strictly contingent on passing quantitative Flight Acceptance Testing.",
+            "IRC § 41(d)(4)(H); Treas. Reg. § 1.41-2(e); <em>Fairchild Industries</em>; <em>Lockheed Martin</em>; <em>Geosyntec</em>; <em>Meyer, Borgman & Johnson</em>."
           ]
         }
       ]
-    },
-    {
-      "type": "heading",
-      "text": "The Impact of Loper Bright on IRS Rulemaking and R&D Litigation"
-    },
-    {
-      "type": "paragraph",
-      "text": "The most significant development for future R&D tax credit applications is not found in a research credit case, but in the 2025 decision in FedEx Corp. v. United States (concerning foreign tax credits) and the Supreme Court's 2024 ruling in Loper Bright Enterprises v. Raimondo."
-    },
-    {
-      "type": "subheading",
-      "text": "The Death of Chevron Deference"
-    },
-    {
-      "type": "paragraph",
-      "text": "For forty years, the Chevron doctrine required courts to defer to \"reasonable\" agency interpretations of ambiguous statutes. This gave the IRS immense power to define terms like \"process of experimentation\" and \"internal use software\" through regulations that often restricted the credit more than the statutory text suggested."
-    },
-    {
-      "type": "paragraph",
-      "text": "The 2024 Loper Bright decision overturned Chevron, ruling that courts must exercise independent judgment to say what the law is. In the 2025 FedEx case, the District Court applied Loper Bright to reject the government's reliance on the \"Regulatory Haircut Rule,\" stating that an agency cannot use its delegated authority to promulgate regulations that contravene the \"single best meaning\" of a statute as determined by a court."
-    },
-    {
-      "type": "subheading",
-      "text": "Implications for Section 41 Challenges"
-    },
-    {
-      "type": "paragraph",
-      "text": "This shift in administrative law creates a new \"offensive\" tool for taxpayers. Many restrictive R&D tax credit regulations are now vulnerable to challenge if they add hurdles not found in the original legislation."
-    },
-    {
-      "type": "list",
-      "items": [
-        "Challenging the \"Shrinking-Back\" Rule: While often used by taxpayers to save portions of a project, the IRS uses the rule to narrow the scope of qualified research. A court could find that the regulatory complexity of the \"substantially all\" and \"shrinking-back\" tests exceeds the statutory intent of Section 41.",
-        "Challenging the Definition of POE: The IRS's current definition of \"process of experimentation\" (evaluating alternatives through a systematic process) is far more specific than the statutory phrase. Post-Loper Bright, a taxpayer could argue for a broader interpretation that includes standard industrial testing protocols.",
-        "Challenging IUS Definitions: The 2016 regulations' definition of \"general and administrative\" functions as the only basis for IUS could be challenged. If a taxpayer's software doesn't fit the statutory intent of \"internal use,\" the regulatory categories may be deemed non-binding."
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Funded Research and State Law: The System Technologies Precedent"
-    },
-    {
-      "type": "paragraph",
-      "text": "Another critical area of future litigation involves the \"Funded Research\" exclusion under Section 41(d)(4)(H). The IRS frequently attempts to deny credits to contractors, arguing that their research is funded by their customers."
-    },
-    {
-      "type": "paragraph",
-      "text": "In the 2025 case of System Technologies, Inc. v. Commissioner, the Tax Court denied the IRS's motion for summary judgment, holding that the research was not funded. The court's reasoning relied heavily on state law (Indiana's version of the Uniform Commercial Code) to determine if the taxpayer bore the financial risk of failure. This case demonstrates that future R&D applications must be supported not just by technical data, but by a sophisticated analysis of the contractual rights and remedies under state law."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Contract Feature",
-        "Impact on Funded Research Status",
-        "Implication for QRE Eligibility"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Fixed-Price Contract",
-            "Retains risk for the taxpayer if research fails.",
-            "Generally considered \"unfunded\" and thus eligible for the credit."
-          ]
-        },
-        {
-          "cells": [
-            "Contingent Payment",
-            "Payment must be linked to the success of the research itself.",
-            "Essential for avoiding the funded research exclusion."
-          ]
-        },
-        {
-          "cells": [
-            "UCC Remedies",
-            "State law remedies for non-delivery can prove financial risk.",
-            "Analysis of choice-of-law provisions is now a standard part of R&D defense."
-          ]
-        },
-        {
-          "cells": [
-            "Intellectual Property Rights",
-            "Taxpayer must retain \"substantial rights\" to the research.",
-            "Full transfer of IP to a customer may disqualify the research."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Quantitative Modeling of the R&D Tax Credit"
-    },
-    {
-      "type": "paragraph",
-      "text": "The calculation of the research credit is inherently mathematical, involving the comparison of current-year expenditures against a historical base. The \"Regular Research Credit\" (RRC) and the \"Alternative Simplified Credit\" (ASC) are the two primary methodologies used by large corporations like FedEx."
-    },
-    {
-      "type": "subheading",
-      "text": "The Credit Calculation Formula"
-    },
-    {
-      "type": "paragraph",
-      "text": "The credit is typically calculated as:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\text{Credit} = \\text{Rate} \\times (\\text{QRE}_{\\text{current}} - \\text{Base Amount})$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "Where the Base Amount for the RRC is:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\text{Base Amount} = \\text{Fixed-Base Percentage} \\times \\text{Average Gross Receipts}_{\\text{last 4 years}}$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "In the 2009 FedEx case, a specific technical ruling was issued regarding this calculation: the court ruled that intercompany transactions must be included in \"gross receipts\" when determining the base amount. This adjustment typically increases the base amount, thereby reducing the net credit, a significant win for the IRS that highlights the importance of precise revenue accounting in R&D applications."
-    },
-    {
-      "type": "subheading",
-      "text": "Section 174 Amortization and Section 41 Interaction"
-    },
-    {
-      "type": "paragraph",
-      "text": "Starting in 2022, Section 174 requires the amortization of research and experimentation (R&E) costs over five years (or fifteen for foreign research). While this is a separate provision from the Section 41 credit, the definitions of \"uncertainty\" in both sections are linked. The recent Phoenix Design and Meyer, Borgman & Johnson cases emphasize that failing the Section 174 uncertainty test automatically disqualifies the Section 41 credit."
-    },
-    {
-      "type": "heading",
-      "text": "The Future of Documentation and Audit Defense"
-    },
-    {
-      "type": "paragraph",
-      "text": "The \"FedEx legacy\" in tax litigation is one of procedural rigor and statutory literalism. For future R&D tax credit applications, the primary lesson is that the IRS will no longer receive the \"benefit of the doubt\" in court, but taxpayers will be held to an exacting standard of proof."
-    },
-    {
-      "type": "subheading",
-      "text": "Lessons from Phoenix Design Group (2024)"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Phoenix Design Group ruling serves as a vital counterpoint to the legal optimism of Loper Bright. Despite the broader legal ability to challenge the IRS, PDG lost its case because its documentation was \"insufficiently contemporaneous\" and \"activity-level\" support was missing."
-    },
-    {
-      "type": "paragraph",
-      "text": "The court rejected the taxpayer's claim for three main reasons:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Linear Design vs. Iterative Experimentation: The firm followed a standard six-stage engineering process that the court deemed routine rather than experimental.",
-        "Inconsistent Narratives: Hour sheets did not align with the technical challenges described in the R&D study.",
-        "Professional Judgment vs. Science: The court held that using \"professional expertise\" to solve a problem is not a \"process of experimentation\" unless it involves testing and evaluating alternatives."
-      ]
-    },
-    {
-      "type": "subheading",
-      "text": "Strategic Recommendations for Future Claimants"
-    },
-    {
-      "type": "paragraph",
-      "text": "Based on the combined impact of the FedEx, Loper Bright, and Phoenix Design decisions, future R&D tax credit applications should adhere to the following strategic pillars:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Adopt a \"Statute-First\" Defense: Do not assume that IRS Audit Technique Guides or regulations are final. If a claim meets the statutory definition of Section 41 but fails a specific regulatory \"hurdle,\" it may be worth litigating.",
-        "Prioritize Contemporaneous Documentation: The Tax Court is increasingly skeptical of \"look-back\" studies created years after the research occurred. Capturing project data, failure logs, and testing results in real-time is now the only way to ensure credit sustainability.",
-        "File Protective Claims: Given the Corner Post decision and the shifting administrative law landscape, taxpayers should file protective claims for credits that were previously withheld due to restrictive IRS interpretations.",
-        "Rigorous Contract Analysis: For service-based firms, ensuring that contracts explicitly place the financial risk of research failure on the provider is essential for qualifying under the \"funded research\" rules."
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Conclusion: The New Equilibrium in Research Incentives"
-    },
-    {
-      "type": "paragraph",
-      "text": "The litigation of FedEx Corporation has come to define the modern boundaries of the research tax credit. From the 2009 victory that dismantled the Discovery Test for internal-use software to the 2025 triumph that empowered taxpayers to challenge the very validity of Treasury regulations under Loper Bright, FedEx has consistently pushed the judiciary to reclaim its role as the final arbiter of tax law."
-    },
-    {
-      "type": "paragraph",
-      "text": "For future R&D applications in the United States, the implications are dual-faceted. On one hand, the legal environment is more favorable than it has been in forty years, as the era of automatic deference to the IRS has ended. On the other hand, the evidentiary bar has been raised; \"professional judgment\" and high-level project summaries are no longer sufficient to prove a process of experimentation. The future of the research credit belongs to those who can marry sophisticated legal challenges to regulatory overreach with meticulous, real-time documentation of their technical journey to resolve uncertainty."
     }
-  ]
+  ],
+  "metaDescription": "FedEx Corp. v. United States (W.D. Tenn. 2009): FedEx could apply the 2003 qualified research regulations with the High Threshold of Innovation test."
 }

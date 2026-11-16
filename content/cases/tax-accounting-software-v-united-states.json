@@ -1,0 +1,475 @@
+{
+  "slug": "tax-accounting-software-v-united-states",
+  "title": "Tax & Accounting Software Corp. v. United States",
+  "articleTitle": "The Judicial and Regulatory Evolution of Federal Research Incentives: A Comprehensive Analysis of Tax & Accounting Software Corp. v. United States and the Contemporary R&D Tax Credit Framework",
+  "caseNumber": "111 F. Supp. 2d 1153",
+  "court": "United States District Court for the Northern District of Oklahoma",
+  "year": 2000,
+  "subject": "Discovery Test",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Tax & Accounting Software Corp. v. United States, 301 F.3d 1254 (10th Cir. 2002), is a foundational federal R&D tax credit case for U.S. commercial software developers under I.R.C. § 41. The Tenth Circuit reversed summary judgment for the taxpayer, holding that qualified research must discover information separate from the product itself and involve outset uncertainty about technical feasibility.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary and Case Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal appellate ruling in <em>Tax & Accounting Software Corp. v. United States</em>, 301 F.3d 1254 (10th Cir. 2002) (<em>TAASC II</em>), reversing and remanding <em>Tax & Accounting Software Corp. v. United States</em>, 111 F. Supp. 2d 1153 (N.D. Okla. 2000) (<em>TAASC I</em>), stands as a foundational precedent in United States federal tax jurisprudence governing the research and development (R&D) tax credit under <a href=\"/us/glossary/irc-section-41\">Section 41 of the Internal Revenue Code</a> (I.R.C., 26 U.S.C. § 41). Addressing an issue of first impression within the United States Court of Appeals for the Tenth Circuit, the decision delineates the statutory boundaries between routine, industrious commercial software engineering and \"<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>\" eligible for the incremental tax credit. By reversing the district court's grant of summary judgment in favor of the taxpayer and remanding the case, the Tenth Circuit established stringent legal and evidentiary benchmarks for the \"discovering information\" requirement under I.R.C. § 41(d)(1)(B) and the \"<a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a>\" requirement under I.R.C. § 41(d)(1)(C)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Taxpayer's Claim and Commercial Software Development Activities"
+    },
+    {
+      "type": "paragraph",
+      "text": "The plaintiff-taxpayer, Tax and Accounting Software Corporation (TAASC), is an Oklahoma corporation taxed as a <a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through Subchapter S corporation</a> engaged in the development and commercial marketing of computer software applications for tax and accounting professionals. Tim E. Kloehr was the sole shareholder of TAASC during the tax years at issue. Because of TAASC's Subchapter S election, all corporate income and tax attributes flowed through to Tim Kloehr's individual federal income tax return in 1993 and to the joint federal income tax return filed by Tim Kloehr and his spouse, Sheryl Kloehr, in 1994."
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 1993 and 1994 taxable years, TAASC incurred aggregate research and development expenditures of $1,838,756 in 1993 and $2,444,938 in 1994 to develop four computer software products for sale to its customers. TAASC claimed a portion of the wages and expenses associated with these four software development initiatives as qualified research expenses (QREs) under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41(a)</a>. The functional architecture and commercial outcomes of these four software suites are detailed in the table below:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Product",
+        "Commercial Architecture and Technical Functionality",
+        "Market and Technical Outcome"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>EasyACCT</strong>",
+            "An integrated accounting suite designed to record transactions, accumulate historical financial data, prepare financial statements, and transfer data seamlessly to TAASC's tax-preparation systems. Featured a consolidated single-transaction module integrating Invoices/Receivables and inventory management.",
+            "The parties agreed that at the time of its introduction to the public EasyACCT was unique in the functions that it provided; the Tenth Circuit made no finding as to its commercial or technical success."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>EasyMICR</strong>",
+            "A specialized software utility developed in both MS-DOS and Microsoft Windows environments to print magnetic-ink-character recognition (MICR) banking transit codes onto blank check stock for Quicken and QuickBooks users.",
+            "A <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">commercial failure</a> (the Tenth Circuit made no finding of technological success) that was subsequently integrated into the <em>EasyACCT</em> suite."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Professional Tax System</strong>",
+            "A comprehensive, multi-entity tax preparation platform integrating separate tax programs (individual, corporate, partnership, fiduciary/trust) into a single seamless package capable of generating federal and state returns from a single dataset.",
+            "The first commercial software program to allow for electronic filing with state and federal governments; designed to run with minimal memory and therefore able to run on a wide range of computers."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>EasyTEL</strong>",
+            "An automated, multi-tasking telecommunications and call-processing system combining personal computer hardware and custom software to answer and route calls, record voicemail, deliver automated phone information (Audiotex), convert incoming faxes to electronic mail, and distribute faxes.",
+            "Unusual because it was designed to run on low-cost computer hardware and requires little maintenance."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge and Procedural History"
+    },
+    {
+      "type": "paragraph",
+      "text": "Following an examination of the 1993 and 1994 returns, the Internal Revenue Service (IRS) reviewed TAASC's tax treatment of the software development expenditures. TAASC had incurred total research and development expenses of $1,838,756 (1993) and $2,444,938 (1994) and claimed a portion of them as research tax credits; in the litigation, the government conceded that the research satisfied the § 174 requirement of I.R.C. § 41(d)(1)(A), although the Tenth Circuit's opinion does not state that the IRS allowed a <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">§ 174(a)(1) deduction</a> for the full amounts. However, the IRS disallowed the claimed I.R.C. § 41 research tax credits in their entirety, resulting in federal income tax deficiencies against the Kloehrs of $123,764 for 1993 and $192,510 for 1994."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Kloehrs paid the assessed deficiencies in full and initiated a tax refund suit on May 14, 1998, in the United States District Court for the Northern District of Oklahoma pursuant to I.R.C. § 7422(a) and 28 U.S.C. § 1346(a)(1). On cross-motions for summary judgment under Federal Rule of Civil Procedure 56, the government contended that TAASC's software engineering activities constituted routine commercial product development rather than qualified research. Specifically, the government argued that to satisfy the \"discovering information\" requirement of I.R.C. § 41(d)(1)(B), qualified research must \"rely upon, and expand or refine, principles of the physical or biological sciences, engineering or computer science\" (Appellant's Br. at 13)—a position paralleling the Treasury's regulatory formulation requiring knowledge that \"exceeds, expands, or refines the common knowledge of skilled professionals in a particular field of science or engineering\" (the strict \"Discovery Test\" articulated in the Treasury's 1998 proposed regulations, 63 Fed. Reg. 66,503, and January 2001 final regulations, 66 Fed. Reg. 280). Furthermore, the government asserted that a \"process of experimentation\" under I.R.C. § 41(d)(1)(C) requires the taxpayer to face uncertainty at the outset regarding whether the final technical result is feasibly achievable at all."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>TAASC I</em>, the District Court rejected the government's arguments and granted summary judgment in favor of TAASC. The District Court first distinguished prior appellate and Tax Court precedents—specifically <em><a href=\"/us/norwest-corp-v-commissioner\">Norwest Corp. & Subsidiaries v. Commissioner</a></em>, 110 T.C. 454 (1998), and <em>United Stationers, Inc. v. United States</em>, 163 F.3d 440 (7th Cir. 1998)—noting that those decisions applied a heightened seven-part test governing <em>internal-use software</em>, whereas TAASC developed <em>commercial software</em> for sale or licensing to external customers and therefore only needed to meet the general statutory tests of I.R.C. § 41(d)(1). Evaluating the general statutory framework, the District Court held that construing \"discovering information\" as a separate substantive requirement demanding \"newness and expansion of existing knowledge\" was a \"strained and improper reading without any support in the legislative history\". Instead, the District Court concluded that the statutory phrase \"discovering information that is technological in nature\" merely distinguishes hard sciences (such as computer science and engineering) from non-technological <a href=\"/us/glossary/social-sciences-exclusion\">soft sciences</a> (such as economics or management), and that evolutionary software development yielding a novel commercial product satisfies the statute. The District Court also held that TAASC engaged in a valid process of experimentation because its programmers evaluated multiple coding alternatives to overcome memory and processing constraints."
+    },
+    {
+      "type": "paragraph",
+      "text": "The United States appealed to the Tenth Circuit. Appellate review was abated from January 18, 2002, through May 24, 2002, at the government's request; the opinion does not state the reason for the abatement, although on December 26, 2001, the Treasury Department had issued new proposed regulations (66 Fed. Reg. 66,362) superseding the regulations that became final in January 2001 (66 Fed. Reg. 280)."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory Framework Under I.R.C. Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enacted originally under the Economic Recovery Tax Act of 1981 and substantially restructured by the Tax Reform Act of 1986, I.R.C. § 41(a) provides an incremental tax credit (forming part of the <a href=\"/us/glossary/general-business-credit\">general business credit</a> under I.R.C. § 38) equal to 20 percent of the amount by which a taxpayer's qualified research expenses for the taxable year exceed a statutory base amount. To prevent taxpayers from claiming the credit for virtually all commercial product development costs, Congress narrowed the definition of \"qualified research\" in 1986 under I.R.C. § 41(d)(1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "As structured by the Tenth Circuit in <em>TAASC II</em>, a taxpayer must satisfy five separate and independent statutory elements under I.R.C. § 41(d)(1) to establish that an activity constitutes qualified research. First, under the Section 174 Eligibility Test of I.R.C. § 41(d)(1)(A), the expenditures connected with the research must be eligible for treatment as expenses under I.R.C. § 174(a)(1), which governs <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental expenditures</a> incurred in connection with the taxpayer's trade or business and is defined by Treas. Reg. § 1.174-2 as costs for activities intended to discover information that would eliminate uncertainty concerning the development or improvement of a product. Second, under the \"Discovering Information\" Requirement of I.R.C. § 41(d)(1)(B), the research must be undertaken specifically for the purpose of discovering information. Third, under the \"<a href=\"/us/glossary/technological-in-nature\">Technological in Nature</a>\" Requirement of I.R.C. § 41(d)(1)(B)(i), the information sought to be discovered must be technological in nature, meaning the underlying process of experimentation fundamentally relies on principles of the physical or biological sciences, engineering, or computer science. Fourth, under the Business Component and <a href=\"/us/glossary/permitted-purpose\">Permitted Purpose Test</a> of I.R.C. § 41(d)(1)(B)(ii) and § 41(d)(3), the application of the discovered information must be intended to be useful in the development of a new or improved business component of the taxpayer, relating specifically to a new or improved function, performance, reliability, or quality of a product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used in the taxpayer's trade or business. Fifth, under the \"Process of Experimentation\" Requirement of I.R.C. § 41(d)(1)(C), \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" of the research activities must constitute elements of a process of experimentation relating to a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>TAASC II</em>, the United States government conceded that TAASC satisfied the first requirement (§ 174 deductibility) and the fourth requirement (development of new or improved commercial software <a href=\"/us/glossary/business-component\">business components</a>), and the parties did not dispute the third requirement (\"technological in nature\"). Consequently, the Tenth Circuit's appellate adjudication focused exclusively on the legal interpretation and evidentiary application of the second requirement (the \"discovering information\" test) and the fifth requirement (the \"process of experimentation\" test)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tenth Circuit's Final Holding and Administrative Law Posture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exercising jurisdiction under 28 U.S.C. § 1291 and reviewing the District Court's grant of summary judgment de novo, the Tenth Circuit reversed the judgment and remanded the case for further proceedings. In its statutory analysis, the appellate panel reaffirmed the cardinal canon of federal tax construction: tax credits are a matter of legislative grace, are to be strictly and narrowly construed, and taxpayers bear the burden of clearly showing that they are entitled to them—although, where there is clear provision in the statute for a particular credit, the credit is allowable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, the Tenth Circuit conducted a rigorous administrative law analysis regarding the level of judicial deference owed to Treasury regulations and IRS litigating positions under <em>Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc.</em>, 467 U.S. 837 (1984), <em>Christensen v. Harris County</em>, 529 U.S. 576 (2000), and <em>Skidmore v. Swift & Co.</em>, 323 U.S. 134, 140 (1944). Because, at the time the case began, the government's interpretation of § 41(d)(1) had not been incorporated into a final regulation that had gone through notice-and-comment rulemaking (and the later 2001 regulations were not at issue in the case), the court held under Christensen that the government's position was due respect only to the extent of its power to persuade, rather than the much greater deference owed under Chevron. Evaluating the government's regulatory pronouncements and litigating positions under the Skidmore persuasiveness standard, the Tenth Circuit concluded that, because the government's position on the discovery requirement had changed significantly as it developed its regulations, that position was not entitled to substantial deference, and that, because the government had either taken no position or had altered its position on the experimentation issues, its interpretation of the process of experimentation requirement was entitled to little deference."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interpreting the statutory text of I.R.C. § 41(d)(1) independently, the Tenth Circuit established three controlling holdings that govern the research credit. First, the court established a standalone \"discovering information\" mandate, holding that the District Court committed reversible error by reading the phrase \"discovering information\" out of I.R.C. § 41(d)(1)(B). While rejecting the government's extreme requirement that a taxpayer must expand or refine fundamental principles of computer science, the Tenth Circuit held that \"discover\" requires the taxpayer to find new or previously unknown technological information—not merely new to the taxpayer, but unknown to the public and standard technical literature. Crucially, this newly discovered information must be separate and distinct from the final product that is actually developed, possessing independent technical value applied toward product development. Second, the court clarified that known methods are permitted in experimentation under I.R.C. § 41(d)(1)(C), holding that a \"process of experimentation\" can encompass research in which the taxpayer evaluates and tests alternative methods to achieve a result even when all of the individual methods are already commonly known, provided it is uncertain at the outset which method or combination will enable the taxpayer to achieve the desired technical result. Third, relying on the 1986 legislative history (H.R. Rep. No. 99-426, S. Rep. No. 99-313, and H.R. Conf. Rep. No. 99-841) and the 1981 legislative history of predecessor § 44F and rejecting subsequent 1998 and 1999 legislative history under <em>Pierce v. Underwood</em>, 487 U.S. 552 (1988), the Tenth Circuit mandated outset uncertainty as to technical feasibility, holding that the taxpayer must show that it was uncertain, at the time it commenced the research, whether the end result of the process of experimentation was technically feasible; the court reasoned that the 1986 legislative history suggests the credit is inapplicable when the final design is certain at the outset or the taxpayer knows how to achieve the result at the beginning of the claimed research, and that allowing the credit where the feasibility of the final result was certain would undermine the credit's rationale of encouraging high-risk research. Accordingly, where the taxpayer believed at the outset that its goal was technically feasible—as TAASC conceded when it acknowledged that its programmers did not question the technical feasibility of the products—the research fails I.R.C. § 41(d)(1)(C) as a matter of law."
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal and Evidentiary Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "The disqualification of TAASC's summary judgment victory in <em>TAASC II</em>—and the broader vulnerability of commercial software claims across federal circuits—stemmed from five intersecting legal, technical, and evidentiary failures in how TAASC conceptualized, documented, and litigated its software development activities."
+    },
+    {
+      "type": "subheading",
+      "text": "Conflation of Product Novelty with the Discovery of Separate Technological Information"
+    },
+    {
+      "type": "paragraph",
+      "text": "TAASC's primary legal failure was equating the commercial and functional novelty of its finished software products with the statutory requirement of \"discovering information\" under I.R.C. § 41(d)(1)(B). Throughout the proceedings, TAASC emphasized that <em>EasyACCT</em>, <em>EasyMICR</em>, <em>Professional Tax System</em>, and <em>EasyTEL</em> were new and innovative, describing them as new and more efficient combinations of software not available to the public. TAASC argued that the discovery test requires only that a taxpayer discover technological information that led it to develop innovative products, and alternatively that the \"discovering information\" test in § 41 should have the same meaning as it has in the definition of research for purposes of <a href=\"/us/glossary/irc-section-174\">I.R.C. § 174</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tenth Circuit rejected the § 174 equivalence argument as historically inaccurate, noting that the § 174 definition of \"discovering information\" was developed in Treasury Regulations only after § 41 was enacted, and grounded its separation holding in the text of I.R.C. § 41(d)(1)(B). Under I.R.C. § 41(d)(1)(B)(ii), qualified research must be undertaken for the purpose of \"discovering information ... the application of which is intended to be useful in the development of a new or improved business component\". As the appellate panel explained, the statute requires that the new information be intended to be useful in developing a business component; if the \"information\" discovered were simply the finished product or software code itself, the statutory requirement that the information have an \"application ... intended to be useful in the development of\" the product would not be met, because the new information \"cannot merely be the product itself but must also have independent value that can be applied in the development of a new product\". Citing the Seventh Circuit's distinction in <em><a href=\"/us/wicor-v-united-states\">Wicor, Inc. v. United States</a></em>, 263 F.3d 659, 660 (7th Cir. 2001), between \"the domain of genuine research from that of implementation of existing research findings,\" the Tenth Circuit held that the taxpayer must prove it discovered new technological information that exists <em>separately and independently</em> from the commercial product developed. Because TAASC's evidence emphasized that its four software packages were new and innovative, and because neither party developed below whether any new information TAASC discovered was independent and separate from the products it developed, the Tenth Circuit held that summary judgment for TAASC was inappropriate on the discovery issue, without itself deciding whether TAASC ultimately met that requirement."
+    },
+    {
+      "type": "subheading",
+      "text": "Fatal Admissions Negating Technical and Design Uncertainty at the Outset"
+    },
+    {
+      "type": "paragraph",
+      "text": "A devastating tactical and evidentiary error committed by TAASC involved its affirmative concessions regarding technical feasibility. TAASC conceded in its appellate briefing that it believed its objective was \"technically feasible\" from the start (specifically regarding the <em>Professional Tax System</em> project) and expressly acknowledged before the District Court that \"its programmers did not question the technical feasibility of the products\" at the outset of development."
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, TAASC conceded before the District Court that its research did not \"expand or refine\" existing principles of computer science. While the Tenth Circuit held that the latter concession was not automatically fatal (because the court rejected the IRS's overly narrow \"expand or refine principles of computer science\" standard), TAASC's admissions regarding the absence of outset uncertainty as to technical feasibility meant that it could not, as a matter of law, satisfy I.R.C. § 41(d)(1)(C). Drawing on the 1981 legislative history of predecessor § 44F, the Tenth Circuit observed that the research tax credit was intended, at least in part, to incentivize high-risk technological endeavors that private businesses would otherwise avoid due to technical uncertainty. When a taxpayer admits that its programmers did not question the technical feasibility of the products at the outset, its research cannot, as a matter of law, satisfy the process of experimentation requirement."
+    },
+    {
+      "type": "subheading",
+      "text": "Misplaced Reliance on Subsequent Legislative History"
+    },
+    {
+      "type": "paragraph",
+      "text": "To excuse its lack of outset feasibility uncertainty, TAASC relied heavily on committee reports accompanying the 1998 and 1999 congressional extensions of I.R.C. § 41—specifically H.R. Conf. Rep. No. 105-825 (1998)—which stated that a process of experimentation may exist \"even if the taxpayer knows at the outset that it may be technically possible to achieve the result\". The District Court accepted this 1998 conference report language as controlling evidence of congressional intent regarding the 1993 and 1994 tax years."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tenth Circuit dismantled this legal strategy by applying the Supreme Court's canon of statutory interpretation from <em>Pierce v. Underwood</em>, 487 U.S. 552 (1988), and <em>Reno v. Bossier Parish School Board</em>, 520 U.S. 471 (1997). When Congress extended the sunset date of the research credit in 1998 and 1999, it did not substantively change the statutory text of I.R.C. § 41(d)(1)(B) or (C) as enacted in 1986. Under <em>Pierce</em>, subsequent committee commentary accompanying a statutory reenactment that leaves the operative statutory text unchanged carries no authoritative weight in determining the meaning of the earlier statute; declaring the meaning of an already-enacted statute is an exclusively judicial function. Consequently, the Tenth Circuit declined to consider the 1998 and 1999 legislative history and relied instead on the 1986 legislative history—principally H.R. Rep. No. 99-426, together with the substantially identical Senate Report and H.R. Conf. Rep. No. 99-841—which suggests the credit is inapplicable where the design of the item as a whole is certain at the outset or where the method of reaching the objective is readily discernible and applicable at the beginning of the research."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Distinguish Scientific Hypothesis Testing from Routine Trial-and-Error and Debugging"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under I.R.C. § 41(d)(1)(C), \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" of the taxpayer's claimed research activities must constitute elements of a \"process of experimentation\". TAASC submitted affidavits asserting that its programmers explored a variety of programming alternatives to integrate modules, reduce memory footprints, and achieve hardware compatibility across its four software products. The Tenth Circuit accepted that these sealed affidavits indicated TAASC did explore a variety of alternatives, but it observed that TAASC's broad interpretation of the statute would allow relatively basic activities, such as debugging software, to qualify as experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "As the 1986 House Report quoted by the Tenth Circuit describes—an approach consistent with the Seventh Circuit's ruling in <a href=\"/us/united-stationers-v-united-states\">United Stationers</a> (and with that court's later decision in Eustace v. Commissioner, 312 F.3d 905 (7th Cir. 2002), which was issued after TAASC II and is not cited in it)—experimentation under the 1986 legislative history involves a sequential design process: identifying a specific design or method uncertainty at the outset, formulating a technical hypothesis as to how a specific design decision or methodology will resolve that uncertainty, testing and analyzing the hypothesis through modeling, simulation, or structured experimentation, and refining or discarding the hypothesis based on empirical test data. By contrast, routine software development and debugging involve selecting among known coding techniques where the programmer has no genuine doubt that one of the standard methods will resolve the bug or integrate the routines. As the Tenth Circuit explained, without the government's limitation on what experimentation can mean (outset uncertainty as to the feasibility of the result), all debugging would qualify for the I.R.C. § 41 tax credit, contravening congressional intent."
+    },
+    {
+      "type": "subheading",
+      "text": "Conclusory Affidavits and Insufficient Contemporaneous Documentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, in Section V of <em>TAASC II</em>, the Tenth Circuit highlighted a critical evidentiary deficiency that prevented resolution of the discovery inquiry on the appellate record: the record was \"filled with the conclusory assertions of both parties\" that the evidence clearly demonstrated that TAASC had, or had not, met the formulation of the test advanced by that party. TAASC's evidence emphasized that its products were new and innovative, while the government's evidence minimized the innovations in TAASC's work; on the separate experimentation issue, TAASC's affidavits submitted under seal indicated that it explored a variety of alternatives."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tenth Circuit identified one crucial question that neither party developed below—whether any new information TAASC discovered was independent and separate from the new products it developed; the further documentation gaps described in the remainder of this paragraph are practitioner observations rather than findings stated in the opinion. Specifically, TAASC failed to document exactly what technological information was unknown to the public and standard computer science literature prior to the 1993–1994 development cycle. Furthermore, the record failed to demonstrate how any purportedly discovered information existed as an independent technological asset separate from the commercial source code of <em>EasyACCT</em>, <em>EasyMICR</em>, <em>Professional Tax System</em>, and <em>EasyTEL</em>. TAASC also omitted architectural mapping showing which specific sub-components—analyzed under the regulatory \"shrinking-back\" concept of Treas. Reg. § 1.41-4(b)(2)—involved genuine outset uncertainty regarding architectural design or algorithmic method, as opposed to routine user-interface coding, tax-table updates, or standard debugging. Finally, the record lacked quantitative time and cost accounting substantiating how the \"substantially all\" threshold (requiring at least 80 percent of the research activities, measured on a cost or time basis, to constitute elements of a process of experimentation) was satisfied for each discrete business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "In assessing the continuing doctrinal impact of <em>TAASC II</em>, tax practitioners must account for subsequent administrative developments without losing sight of controlling judicial statutory construction. Following the litigation in <em>TAASC II</em>, the Treasury Department promulgated Final Regulations in T.D. 9104, Treas. Reg. § 1.41-4, effective for taxable years ending on or after December 31, 2003. While the 2003 Final Regulations eliminated the controversial 2001 regulatory requirement that discovered information \"exceed, expand, or refine common knowledge\" and clarified that uncertainty under I.R.C. § 41 exists if the information available to the taxpayer does not establish the capability or method for developing or improving the product, or the appropriate design of the product, <em>TAASC II</em> remains controlling Tenth Circuit statutory precedent. Specifically, <em>TAASC II</em>'s statutory mandate that simple industrious software development and routine debugging do not qualify, that the taxpayer must have been uncertain at the outset whether the end result was technically feasible (so that a concession that programmers did not question feasibility is fatal as a matter of law), and that discovered technological information must be conceptualized separately from mere commercial product output continues to govern judicial scrutiny in federal refund suits and Tax Court proceedings."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and evidentiary requirement analyzed in <em>Tax & Accounting Software Corp. v. United States</em> against TAASC's specific legal or factual failure and the governing judicial standard of proof established by the Tenth Circuit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Element & Authority",
+        "Taxpayer's Position & Evidentiary Failure in TAASC",
+        "Tenth Circuit's Governing Legal Standard & Burden of Proof"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Section 174 Eligibility Test</strong> I.R.C. § 41(d)(1)(A); I.R.C. § 174(a)(1); Treas. Reg. § 1.174-2",
+            "TAASC incurred $1,838,756 (1993) and $2,444,938 (1994) in research and development expenses that the government conceded met the § 174 requirement, but argued in the alternative that the § 174 \"<a href=\"/us/glossary/elimination-of-uncertainty\">elimination of uncertainty</a>\" standard should define the \"discovering information\" test of § 41(d)(1)(B).",
+            "<strong>Conceded as Met, but Legally Distinct:</strong> The government conceded § 174 eligibility. However, the court held that § 41 imposes a narrower, more stringent standard than § 174; qualifying for a § 174 deduction does not establish entitlement to a § 41 tax credit."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. \"Discovering Information\" Test (Objective Newness)</strong> I.R.C. § 41(d)(1)(B)",
+            "TAASC and the District Court treated \"discovering information\" as a mere lead-in to \"technological in nature,\" arguing that learning how to assemble evolutionary commercial software products through industrious programming sufficed.",
+            "<strong>Standalone Requirement of Publicly Unknown Information:</strong> \"Discover\" requires finding information that is <em>new or previously unknown</em>—not merely new to the taxpayer, but unknown to the public and standard technical literature. (Court rejected IRS's stricter requirement of expanding fundamental principles of computer science)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. \"Discovering Information\" Test (Separation from Product)</strong> I.R.C. § 41(d)(1)(B)(ii)",
+            "TAASC relied on the functional uniqueness and market novelty of its four finished software packages (<em>EasyACCT</em>, <em>EasyMICR</em>, <em>Professional Tax System</em>, <em>EasyTEL</em>) as proof of discovery, failing to isolate independent technological information.",
+            "<strong>Mandatory Separation of Information and Product:</strong> The newly discovered technological information <strong>cannot merely be the product itself</strong>; it must be separate and distinct from the developed product and possess independent technical value applied in developing the business component."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. \"Technological in Nature\" Test</strong> I.R.C. § 41(d)(1)(B)(i); H.R. Conf. Rep. No. 99-841",
+            "No failure on this specific element; TAASC demonstrated that its software development relied on computer science principles rather than soft sciences (such as accounting rules or business management).",
+            "<strong>Undisputed / Conceded:</strong> The parties did not dispute that TAASC's research was \"technological in nature\"."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. Business Component / Permitted Purpose Test</strong> I.R.C. § 41(d)(1)(B)(ii); I.R.C. § 41(d)(2)–(3)",
+            "The Tenth Circuit did not address sub-component analysis; the dispute concerned the research and development expenses for the four software products as a whole, and the opinion does not discuss the \"shrinking-back\" rule to isolate specific uncertain sub-components from routine modules.",
+            "<strong>Conceded at Product Level, Vulnerable at Sub-Component Level:</strong> While the government conceded the four software programs were new/improved business components, satisfying the \"substantially all\" experimentation test was not analyzed at the sub-component level; the opinion notes only that the validity of TAASC's research purposes under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)</a> was not at issue (the shrinking-back rule, later codified in Treas. Reg. § 1.41-4(b)(2), is a practitioner consideration rather than part of the holding)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>6. \"Process of Experimentation\" (Outset Uncertainty)</strong> I.R.C. § 41(d)(1)(C); 1986 Conf. Rep. No. 99-841",
+            "TAASC fatally conceded in its briefs and before the District Court that it believed its software objectives were \"technically feasible\" and that \"its programmers did not question the technical feasibility of the products\" at the outset.",
+            "<strong>Outset Uncertainty as to Technical Feasibility Required:</strong> Relying on the 1986 legislative history (and rejecting 1998/1999 legislative history under <em>Pierce v. Underwood</em>), the taxpayer must show it was uncertain at the outset whether the end result was technically feasible; the legislative history suggests the credit is inapplicable if the final design is certain at the outset or the taxpayer knows how to achieve the result at the beginning, and TAASC's feasibility concessions defeated this requirement as a matter of law."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>7. \"Process of Experimentation\" (Hypothesis Testing vs. Debugging)</strong> I.R.C. § 41(d)(1)(C)",
+            "TAASC presented evidence of evaluating multiple coding alternatives under memory and hardware constraints, and the court accepted that TAASC explored a variety of alternatives, but warned that TAASC's broad reading of the statute would allow routine software debugging to qualify.",
+            "<strong>Sequential Scientific Hypothesis Evaluation:</strong> While commonly known methods may be used if it is uncertain which method will work, the court quoted the 1986 House Report describing experimentation as developing, testing, analyzing, and refining or discarding hypotheses in a sequential design process, i.e., true experimentation in the scientific or laboratory sense; debugging, where the developer has little or no doubt that one known method will work, does not qualify."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>8. Evidentiary Substantiation & Summary Judgment Burden</strong> Fed. R. Civ. P. 56; I.R.C. § 6001",
+            "The record was filled with conclusory assertions of both parties; TAASC's evidence emphasized that its products were new and innovative, and the key question whether any discovered information was separate from the products was never developed below.",
+            "<strong>Strict Construction & Burden of Proof:</strong> Tax credits are narrowly construed legislative grace. Taxpayers bear the burden of clearly showing entitlement; because the separation question was undeveloped, summary judgment for TAASC on the discovery issue was inappropriate, and TAASC's feasibility concessions defeated the experimentation requirement as a matter of law (the opinion does not specifically require <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous documentation</a>)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate how taxpayers and technical tax advisors can operationalize the judicial mandates of <em>TAASC II</em> alongside current Treasury Regulations (Treas. Reg. § 1.41-4), the following two industry case studies examine commercial projects facing the exact legal and evidentiary pitfalls that defeated TAASC's summary judgment motion. Each case study provides a step-by-step remedial restructuring across project governance, technical documentation, contractual architecture, and experimentation tracking."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Commercial Fintech and Multi-Jurisdictional Tax Engine Software (Cloud SaaS Architecture)"
+    },
+    {
+      "type": "subheading",
+      "text": "Project Scenario and Initial TAASC Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "A United States <a href=\"/us/faq/fintech-software-rd-tax-credit-guide\">financial technology corporation</a> (\"FinTax Corp.\"), organized as a Delaware C corporation, develops a cloud-native, multi-tenant software-as-a-service (SaaS) platform that integrates real-time general ledger accounting with automated multi-state pass-through entity tax apportionment and electronic filing, analogous to TAASC's <em>EasyACCT</em> and <em>Professional Tax System</em>. FinTax Corp. incurs $4.2 million in software developer wages and <a href=\"/us/glossary/cloud-computing-costs\">cloud computing supply costs</a> to build the platform, which must process 100,000 concurrent ledger transactions per second with sub-50-millisecond latency while executing complex state tax nexus calculations in low-memory serverless containers."
+    },
+    {
+      "type": "paragraph",
+      "text": "In preparing its initial I.R.C. § 41 claim, FinTax Corp.'s engineering leadership commits three classic <em>TAASC</em> errors that expose the entire claim to summary disallowance. First, in internal project charters and R&D credit interviews, the Vice President of Engineering makes a fatal feasibility admission, stating that senior architects knew from day one that building the integrated cloud tax engine was 100 percent technically feasible using standard microservices and known database sharding techniques, characterizing the effort as a matter of industrious coding and testing alternatives. Second, FinTax Corp. engages in product-level aggregation and conflation by claiming 100 percent of the $4.2 million development cost of the entire commercial software suite, arguing that because the finished platform is the first commercial product to combine real-time ledger ingestion with automated state e-filing in serverless memory, the product itself proves the discovery of technological information. This position violates <em>TAASC II</em>'s requirement that discovered information be separate from the product itself and fails to segregate routine user-interface and tax-form coding. Third, the company's Agile Jira ticket logs contain thousands of entries labeled simply as bug fixes, memory tuning, and API refactoring, with no documented hypotheses or experimental test protocols, rendering the activity legally indistinguishable from routine software debugging."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Sub-Component Segregation (\"Shrinking Back\")"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the disqualification of the entire $4.2 million claim, FinTax Corp. must immediately restructure its project governance around the <a href=\"/us/glossary/shrink-back-rule\">shrinking-back rule</a> under Treas. Reg. § 1.41-4(b)(2) before the tax year closes. Rather than defining the entire commercial SaaS platform as a single \"business component\" under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">I.R.C. § 41(d)(2)(B)</a>, tax counsel and engineering directors must partition the software architecture into discrete functional sub-components. Under this governance partition, non-qualifying routine sub-components—including user interface dashboards, statutory tax-rate lookup tables, standard OAuth authentication modules, and routine XML schema formatting for state e-filing portals—are carved out and excluded from the <a href=\"/us/glossary/qualified-research-expenses-qre\">QRE</a> computation. Conversely, engineering governance isolates two qualifying research sub-components as standalone business components: the Zero-Allocation In-Memory Serialization Engine (engineered to parse cyclic multi-entity ownership graphs within a strict 128-megabyte serverless container limit without triggering garbage-collection latency spikes) and the Speculative Lock-Free Distributed Ledger Consensus Protocol (designed to reconcile concurrent multi-state tax adjustments across asynchronous database shards without transactional deadlocks). By shrinking back to these two core algorithmic sub-components, FinTax Corp. eliminates routine coding noise and ensures that more than 80 percent (\"substantially all\") of the activities within each designated business component constitute genuine experimentation under I.R.C. § 41(d)(1)(C)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation of Outset Uncertainty and Separate Technological Discovery"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Tenth Circuit's two-prong holding in <em>TAASC II</em>, FinTax Corp. must institute a mandatory Pre-Development Technical Uncertainty and Discovery Charter (TUDC) prior to writing production code for each qualifying sub-component. Engineering governance policies must train technical leads to distinguish commercial optimism—believing the organization will eventually deliver a marketable product—from genuine <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> as to feasibility, method, and design. The TUDC must explicitly document why publicly available computer science literature, open-source libraries, and standard cloud architecture patterns fail to establish the capability (technical feasibility), method, or appropriate design required to achieve sub-50-millisecond serialization of cyclic graphs under a 128-megabyte memory ceiling. Furthermore, to satisfy <em>TAASC II</em>'s mandate that discovered information be separate and distinct from the commercial product itself, FinTax Corp. must require its architects to author internal Technical Discovery Whitepapers upon concluding each experimental phase. Rather than pointing to the compiled <em>FinTax SaaS</em> executable as the discovery, the whitepaper documents a newly discovered mathematical relationship governing cache-oblivious bit-packed directed acyclic graph (DAG) traversal in ephemeral runtimes. This documented algorithmic principle possesses independent technological value that can be applied across future software products, cleanly separating the discovered technological information from the commercial software product."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contractual Architecture (Preserving Rights and Financial Risk)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where FinTax Corp. engages third-party specialist software engineering firms or enterprise launch customers during development, it must structure its commercial and vendor contracts to avoid the funded research exclusion under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)(H)</a> and Treas. Reg. § 1.41-4A(d), which disqualifies research to the extent funded by any grant, contract, or otherwise by another person or governmental entity. All enterprise early-adopter licensing agreements must be structured as conditional commercial software licenses where customer payment is strictly contingent upon the delivery and formal acceptance of a fully functional software product meeting specific performance warranties, thereby shifting all <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of research failure onto FinTax Corp. Similarly, when retaining external distributed-systems consultants whose fees are claimed at 65 percent as contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">I.R.C. § 41(b)(3)</a>, FinTax Corp. must execute Master Services Agreements under which FinTax Corp. bears the full financial risk of non-performance—paying the contractor on a time-and-materials basis regardless of whether the experimental algorithm succeeds—and retains exclusive ownership and substantial rights in all underlying technical discoveries, whitepapers, and source code."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Tracking and Contemporaneous Substantiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid the \"conclusory assertions\" trap identified in Section V of <em>TAASC II</em>, FinTax Corp. must reconfigure its Agile Jira workflow and Git version-control repositories to capture the four-step scientific method contemporaneously. Engineers working on the two qualifying sub-components must <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">log their hours</a> against structured Experimentation Epics that mandate empirical entries before any pull request is merged, as illustrated in the governance matrix below:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Experimentation Tracking Field",
+        "Required Technical Content for Qualifying Sub-Component",
+        "Legal Standard Satisfied Under TAASC II"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Outset Technical Uncertainty Statement</strong>",
+            "Documents why standard heap-based JSON serialization fails under a 128 MB container limit (causing Out-Of-Memory crashes at 40,000 TPS) and why the optimal memory architecture is unknown at the outset.",
+            "Establishes outset uncertainty as to technical feasibility, method, and design under I.R.C. § 41(d)(1)(C) and the 1986 Legislative History."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Formulated Scientific Hypothesis</strong>",
+            "States a testable proposition: <em>\"Replacing standard heap allocation with a custom flat-buffer arena allocator utilizing relative pointer swizzling will reduce p99 garbage-collection pause time from 140ms to under 15ms at 100k TPS\"</em>.",
+            "Differentiates structured scientific hypothesis formulation from unstructured engineering trial-and-error."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. Systematic Testing of Alternatives</strong>",
+            "Archives automated load-test telemetry logs, memory profiler snapshots, and benchmark data evaluating Alternative A (off-heap byte buffers), Alternative B (region-based memory pools), and Alternative C (custom bit-packed arena allocator).",
+            "Demonstrates a sequential <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> evaluating multiple known or novel alternatives where the successful method is uncertain."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Empirical Analysis & Separate Discovery Record</strong>",
+            "Records why Alternatives A and B failed (CPU cache misses), how Alternative C was refined, and links to the standalone Technical Whitepaper documenting the independent cache-oblivious traversal algorithm.",
+            "Proves hypothesis refinement/discarding and isolates newly discovered technological information separate from the commercial product."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "By linking employee bi-weekly W-2 timecards directly to these specific Experimentation Epics and excluding post-release maintenance and bug-fixing tickets, FinTax Corp. builds an audit-ready contemporaneous record that satisfies the strict burden of proof demanded by the Tenth Circuit."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Embedded Telecommunications Hardware-Software Integration (Industrial Edge Computing)"
+    },
+    {
+      "type": "subheading",
+      "text": "Project Scenario and Initial TAASC Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "An American telecommunications and industrial automation manufacturer (\"TelEdge Systems Inc.\") undertakes a project to develop an automated, multi-tasking edge-computing call, telemetry, and signal-processing appliance, analogous to TAASC's <em>EasyTEL</em> and <em>EasyMICR</em> <a href=\"/us/glossary/hardware-software-integration\">hardware-software integration</a> projects. The appliance is designed to execute real-time voice-over-IP (VoIP) packet routing, acoustic echo cancellation, and optical/fax-to-digital document conversion simultaneously on ultra-low-cost, low-wattage ARM microcontrollers without dedicated digital signal processing (DSP) co-processors. TelEdge incurs $3.5 million in <a href=\"/us/glossary/qualified-wages\">engineering wages</a>, prototype circuit board supplies, and contractor costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "TelEdge's initial tax credit claim suffers from three severe vulnerabilities under <em>TAASC II</em>. First, TelEdge's engineers utilize existing, commercially known voice codecs, standard Linux kernel modules, and off-the-shelf microcontroller chips. During an IRS examination, the auditing engineer cites <em>TAASC II</em>, <em>United Stationers</em>, and <em><a href=\"/us/eustace-v-commissioner\">Eustace</a></em> to argue that TelEdge merely engaged in routine systems integration and parameter fine-tuning of known technologies where the method of integration was readily discernible at the outset. Second, one module of the project—an embedded magnetic and optical signal decoder similar to <em>EasyMICR</em>—is abandoned as a standalone commercial product due to market failure and folded into the main appliance. TelEdge lacks contemporaneous documentation showing what technological uncertainty was addressed prior to commercial abandonment, relying instead on retrospective <a href=\"/us/glossary/credible-oral-testimony\">oral testimony</a> from its Chief Technology Officer. Third, TelEdge entered into a joint development agreement with a major logistics client that contributed $800,000 toward prototype development in exchange for joint intellectual property rights and guaranteed unit price discounts, triggering an immediate <a href=\"/us/glossary/funded-research\">funded-research</a> challenge under I.R.C. § 41(d)(4)(H)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Establishing \"Known Methods\" Uncertainty Under TAASC II"
+    },
+    {
+      "type": "paragraph",
+      "text": "TelEdge must leverage a critical pro-taxpayer holding within <em>TAASC II</em>: the Tenth Circuit explicitly held that a \"process of experimentation\" can include research in which the taxpayer tries alternative methods to achieve a result where all of the individual methods are already commonly known, provided it is uncertain at the outset which method will allow the taxpayer to achieve the result. To operationalize this standard, TelEdge's R&D Review Board must establish formal System Architecture Uncertainty Gateways at Phase 0 (Concept) and Phase 1 (Preliminary Design). Rather than claiming the routine physical assembly of the appliance, governance documents must define the research objective around the conflicting physical and computational constraints: executing concurrent acoustic echo cancellation and optical rasterization on a single-core 400 MHz ARM microcontroller with only 64 megabytes of shared static RAM without thermal throttling or packet loss. While each individual signal-processing technique—such as Fast Fourier Transforms, Kalman filtering, and Direct Memory Access (DMA) ring routing—is known in standard engineering literature, the Phase 0 Gateway documentation proves that it is fundamentally uncertain at the outset which algorithmic combination, interrupt-scheduling architecture, or fixed-point arithmetic approximation can achieve real-time concurrency without hardware lockup, and whether such concurrency is technically feasible at all on that hardware (TAASC II also requires outset uncertainty as to the technical feasibility of the end result)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation Isolating Independent Engineering Knowledge"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy <em>TAASC II</em>'s separation-of-information test, TelEdge must restructure its engineering deliverables to capture the independent technological knowledge generated during both commercially successful and commercially abandoned phases, recognizing that under I.R.C. § 41 and its legislative history, research need not be commercially successful to qualify—a point the Tenth Circuit did not decide, although the products at issue included the commercially unsuccessful <em>EasyMICR</em> program. TelEdge must institute a centralized Engineering Knowledge Repository (EKR) that is maintained separately from the commercial product bill of materials (BOM) and production firmware binary. During the development of the abandoned standalone decoder module and the main <em>TelEdge</em> appliance, engineers discover specific empirical thermal-dissipation and interrupt-latency curves governing asynchronous DMA bus contention on low-power RISC architectures. By documenting these mathematical transfer functions and hardware-timing laws in standalone internal engineering bulletins within the EKR, TelEdge proves to the IRS and reviewing courts that it discovered new technological information possessing independent engineering value separate from the commercial appliance itself."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contractual Restructuring to Eliminate Funded Research Disqualification"
+    },
+    {
+      "type": "paragraph",
+      "text": "To protect its QREs from disqualification under the funded research exclusion of I.R.C. § 41(d)(4)(H) and Treas. Reg. § 1.41-4A(d) as interpreted in federal case law (including <em><a href=\"/us/fairchild-industries-v-united-states\">Fairchild Industries, Inc. v. United States</a></em> and <em>Geosyntec Consultants, Inc. v. United States</em>), TelEdge must formally amend its contractual templates with customers and commercial partners. TelEdge must restructure the $800,000 customer agreement so that it receives no non-refundable progress payments or milestone reimbursements for research activities. Instead, all payments from the logistics client must be expressly contingent upon the successful completion of research, formal technical acceptance testing, and commercial delivery of production units meeting strict technical specifications. If the research fails to achieve the sub-wattage concurrency metrics, TelEdge receives zero compensation and must refund any advance deposit, establishing beyond dispute that TelEdge bears 100 percent of the financial risk of research failure. Concurrently, TelEdge must excise all \"joint IP ownership\" or \"exclusive client license\" clauses that strip the taxpayer of <a href=\"/us/glossary/substantial-rights\">substantial rights</a> in the underlying research; the amended agreement must stipulate that TelEdge retains sole, unencumbered legal title and intellectual property rights to all discovered engineering principles, firmware architectures, and hardware designs, granting the customer only a non-exclusive commercial license to operate the finished hardware units purchased."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Laboratory Experimentation Tracking and Quantitative Cost Segregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Tenth Circuit's demand for scientific or laboratory experimentation evidence (as described in the 1986 House Report quoted by the court), TelEdge must implement a structured Hardware-in-the-Loop (HIL) Experimentation Log coupled with strict cost accounting. Every prototype printed circuit board spin and firmware kernel build must be assigned a sequential Experiment ID mapping the four statutory experimentation phases, as structured in the table below:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "HIL Experimentation Phase",
+        "Contemporaneous Engineering Record & Empirical Data",
+        "Statutory & Judicial Compliance Nexus"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Phase 1: Baseline Design & Method Uncertainty</strong>",
+            "Logs logic-analyzer traces showing 18% VoIP packet drop and bus lockups when executing standard Linux interrupt scheduling concurrently with optical fax rasterization on the 400 MHz microcontroller.",
+            "Proves that technical feasibility was uncertain and that the method of achieving the objective was not readily discernible at the beginning of research."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Phase 2: Evaluation of Known & Hybrid Alternatives</strong>",
+            "Documents three competing architectural hypotheses: Method 1 (Priority-ceiling real-time kernel preemption), Method 2 (Time-Division Multiplexing via secondary DMA channels), and Method 3 (Custom zero-copy lock-free ring buffer with dynamic clock scaling).",
+            "Satisfies <em>TAASC II</em>'s rule that evaluating known methods qualifies when it is uncertain which method will achieve the result."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Phase 3: Laboratory Simulation & Empirical Testing</strong>",
+            "Archives SPICE circuit simulations, oscilloscope timing waveforms, and infrared thermal imaging logs generated across 45 laboratory test runs comparing packet jitter and power draw across Methods 1, 2, and 3.",
+            "Demonstrates true experimentation in the scientific or laboratory sense rather than routine debugging."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Phase 4: Cost & Wage Segregation</strong>",
+            "Links engineer W-2 hours and prototype board fabrication invoices (<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">I.R.C. § 41(b)(2)(C) supplies</a>) directly to the Experiment ID, terminating QRE capture immediately once Method 3 passes validation and enters commercial production.",
+            "Substantiates the \"substantially all\" threshold (§ 41(d)(1)(C)) and prevents inclusion of routine manufacturing costs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Strategic Synthesis and Practice Directives"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tenth Circuit's ruling in <em>Tax & Accounting Software Corp. v. United States</em>, 301 F.3d 1254 (10th Cir. 2002), remains a pivotal cautionary landmark in federal R&D tax credit litigation. While the decision rejected the IRS's most extreme regulatory overreach—confirming that taxpayers need not achieve revolutionary scientific breakthroughs that expand fundamental principles of computer science and may utilize commonly known methods when it is uncertain which method will succeed—the court simultaneously erected formidable statutory barriers against routine commercial software development claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "For corporate taxpayers, software engineering executives, and technical tax advisors operating within the United States federal tax jurisdiction, sustainable compliance under <em>TAASC II</em> requires adherence to four foundational practice directives. First, taxpayers must never conflate the commercial product with the statutory discovery; claiming the I.R.C. § 41 credit based solely on the commercial uniqueness, speed, efficiency, or market success of a finished software application or hardware product is a fatal error of law, and taxpayers must instead <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneously document</a> the underlying technological information (algorithms, architectural principles, engineering transfer functions) discovered during research and demonstrate its independent technical value separate from the final product. Second, taxpayers must preserve and document outset uncertainty as to technical feasibility, design, and method; admissions that programmers never questioned the technical feasibility of a project will defeat the process of experimentation requirement as a matter of law, as in TAASC II, requiring project initiation records to rigorously explain why existing knowledge and readily discernible methods could not establish the capability, method, or appropriate design at the beginning of the research. Third, engineering teams must elevate documentation from routine debugging to scientific hypothesis testing, ensuring that the evaluation of coding alternatives is recorded as a sequential process of formulating hypotheses, testing via modeling, simulation, or systematic experimentation, and analyzing empirical results while excluding routine debugging and unstructured trial-and-error via the regulatory shrinking-back rule. Finally, because federal courts strictly construe tax credits as matters of legislative grace and place on taxpayers the burden of clearly showing entitlement, taxpayers must eliminate conclusory post-hoc reconstructions by integrating tax-ready technical substantiation directly into contemporaneous engineering workflows, version-control logs, and risk-bearing commercial contracts."
+    }
+  ],
+  "metaDescription": "Tax & Accounting Software v. United States (10th Cir. 2002): qualified research must discover information separate from the product itself."
+}

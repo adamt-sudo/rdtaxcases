@@ -1,0 +1,320 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "Can I claim AWS hosting costs as R&D expenses?",
+  "description": "AWS cloud hosting costs count toward the federal R&D credit only for the portion used in qualified research, such as development and testing environments.",
+  "summary": "U.S. businesses can often count Amazon Web Services (AWS) cloud hosting costs toward the federal R&D tax credit, but only the portion used directly in qualified research, such as development, testing, and staging environments, under IRC §41(b)(2)(A)(iii). Production hosting of a released commercial product serving live customers generally does not qualify.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "U.S. businesses can often count Amazon Web Services (AWS) cloud hosting costs toward the federal R&D tax credit, but only the portion used directly in qualified research, such as development, testing, and staging environments, under IRC §41(b)(2)(A)(iii). Production hosting of a released commercial product serving live customers generally does not qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Prepared November 11, 2026. Federal (US) rules only. This report is general information, not tax or legal advice. Passages marked \"Analysis\" are interpretation, not statements of law.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "1. Short answer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Often yes, but only for the part of the Amazon Web Services (AWS) bill that is used directly in the conduct of qualified research. The federal research tax credit counts amounts paid or incurred to another person \"for the right to use computers in the conduct of qualified research\" as an in-house <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">qualified research expense (QRE)</a> under Internal Revenue Code (IRC) §41(b)(2)(A)(iii). Cloud infrastructure used to build, test, and stage new or improved software architectures, algorithms, or system functionalities can fit that statutory category. Hosting a finished, live commercial product serving production customer traffic generally does not qualify. Separately, for taxable years beginning after December 31, 2024, domestic research or experimental expenditures can again be deducted currently in the year paid or incurred under IRC §174A, as enacted by Public Law 119-21 (§70302), and <a href=\"/us/faq/section-174-software-development-amortization\">software development costs</a> are explicitly treated as such expenditures under IRC §174A(d)(3)."
+    },
+    {
+      "type": "heading",
+      "text": "2. How AWS costs fit into the research credit"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 The statutory category: rental of computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC §41(b)(2)(A)(iii)</a> explicitly includes within the statutory definition of in-house research expenses, \"under regulations prescribed by the Secretary, any amount paid or incurred to another person for the right to use computers in the conduct of qualified research.\" Because on-demand cloud compute capacity is neither a tangible physical supply consumed in research under IRC §41(b)(2)(A)(ii) nor an employee wage under IRC §41(b)(2)(A)(i), this computer rental and time-sharing provision is the primary statutory category on which AWS hosting expenditures rely to achieve 100 percent QRE inclusion (as opposed to the 65 percent inclusion rate applicable to third-party contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC §41(b)(3)</a>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation §1.41-2(b)(4) establishes the governing regulatory conditions. Under the general rule of Treas. Reg. §1.41-2(b)(4), amounts paid or incurred for the use of personal property are not qualified research expenses, except that in-house research expenses include amounts paid or incurred to another person for the right to use (time-sharing) computers in the conduct of qualified research. To qualify under this time-sharing exception, the regulation mandates three cumulative requirements:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "the computer must be owned and operated by someone other than the taxpayer;",
+        "the computer must be located off the taxpayer's premises; and",
+        "the taxpayer must not be the primary user of the computer."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The current <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a>, Credit for Increasing Research Activities (Rev. December 2025), direct taxpayers to report eligible computer rental or lease amounts on Line 44 (or enter the total amount from Section G, Column 55, if Section G is required and completed). Those instructions restate the mandatory regulatory conditions that the computer must be located off the taxpayer's premises and that the taxpayer must not be the operator or primary user of the computer, and they further require that the claimed amount be reduced by any consideration the taxpayer received from another person for the right to use substantially identical personal property."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysis. A public-cloud infrastructure-as-a-service (IaaS) or platform-as-a-service (PaaS) arrangement such as AWS elastic compute instances (e.g., Amazon EC2, AWS Lambda, Amazon EKS, or Amazon SageMaker training clusters) is physically owned, maintained, and operated by Amazon Web Services in the provider's remote data centers, which cleanly satisfies the first two conditions of Treas. Reg. §1.41-2(b)(4). The third condition—that the taxpayer must not be the \"primary user\" of the computer—is generally satisfied in multi-tenant public cloud environments because workloads are dynamically routed and virtualized across shared physical server hardware utilized by numerous unrelated customers. Technical tax commentary published in <em>The Tax Adviser</em> supports this multi-tenant time-sharing analysis for cloud server rentals. However, if a taxpayer contracts for single-tenant dedicated physical hosts where a specific physical server rack is reserved exclusively for that taxpayer's sole use over a substantial portion of its useful life, audit scrutiny under the \"primary user\" restriction increases significantly. Furthermore, because the IRS has not issued a formal revenue ruling specifically addressing AWS commercial agreements under Treas. Reg. §1.41-2(b)(4), taxpayers must carefully retain AWS service agreements, architecture documentation, and billing logs rather than assuming automatic qualification."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 The activity must be qualified research"
+    },
+    {
+      "type": "paragraph",
+      "text": "Satisfying the computer-rental rules under IRC §41(b)(2)(A)(iii) and Treas. Reg. §1.41-2(b)(4) is necessary but not sufficient; the underlying computer usage only qualifies if the computing resources are actively used in the conduct of \"qualified research\" as defined in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC §41(d)</a>. Specifically, IRC §41(d)(1) and §41(d)(3) establish the following <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four cumulative requirements</a> for each business component:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong><a href=\"/us/faq/how-section-174-affects-rd-tax-credit\">Section 174A Eligibility Test</a> (§41(d)(1)(A)):</strong> The expenditures must be eligible to be treated as domestic research or experimental expenditures under IRC §174A (as amended by Pub. L. 119-21, §70302, for taxable years beginning after December 31, 2024; previously referencing IRC §174), meaning costs incurred in the experimental or laboratory sense to eliminate uncertainty concerning the development or improvement of a product or software component.",
+        "<strong>Technological Information Test (§41(d)(1)(B)(i)):</strong> The research must be undertaken for the purpose of discovering information which is technological in nature, relying on the principles of computer science, engineering, or the physical or biological sciences.",
+        "<strong>Business Component Test (§41(d)(1)(B)(ii)):</strong> The application of that technological information must be intended to be useful in the development of a new or improved business component of the taxpayer (defined in <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC §41(d)(2)(B)</a> to include any product, process, computer software, technique, formula, or invention held for sale, lease, or license, or used by the taxpayer in its trade or business).",
+        "<strong>Process of Experimentation for a Qualified Purpose Test (§41(d)(1)(C) and §41(d)(3)):</strong> <a href=\"/us/glossary/substantially-all-rule\">Substantially all</a> (defined in Treas. Reg. §1.41-4(a)(6) as 80 percent or more) of the research activities must constitute elements of a process of experimentation—evaluating alternatives through modeling, simulation, systematic trial and error, or testing to resolve technical uncertainty—relating to a qualified purpose, defined in IRC §41(d)(3)(A) as a new or improved function, performance, or reliability or quality."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Two statutory exclusions under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC §41(d)(4)</a> are particularly critical when auditing AWS cloud hosting bills:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong><a href=\"/us/glossary/research-after-commercial-production\">Research after commercial production</a> (§41(d)(4)(A)):</strong> Any research conducted after the beginning of commercial production of the business component is strictly excluded from qualified research. Once a software release or cloud application has met its basic functional and economic design specifications and is deployed to serve live commercial customers, ongoing hosting and routine maintenance costs cease to qualify.",
+        "<strong><a href=\"/us/glossary/internal-use-software-ius\">Internal-use software</a> (§41(d)(4)(E)):</strong> Except to the extent provided in Treasury regulations, any research with respect to computer software that is developed by (or for the benefit of) the taxpayer primarily for internal use by the taxpayer is excluded, unless the software is developed for use in an activity that itself constitutes qualified research or a production process, or satisfies the high threshold of innovation test under Treas. Reg. §1.41-4(c)(6) (requiring that the software be innovative, involve significant economic risk, and not be commercially available for use by the taxpayer). Note that under Treas. Reg. §1.41-4(c)(6)(iv), software developed to be commercially sold, leased, licensed, or otherwise marketed to third parties—or software developed to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system—is generally not treated as developed <a href=\"/us/faq/internal-use-software-rd-tax-credit\">primarily for internal use</a>."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Development environments vs. production hosting"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analysis.</strong> Read together, the computer-rental rule under IRC §41(b)(2)(A)(iii), the qualified research definition under IRC §41(d)(1), and the commercial-production exclusion under IRC §41(d)(4)(A) mandate a strict functional segregation of a taxpayer's AWS bill:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "AWS usage",
+        "Likely treatment for the §41 credit",
+        "Why"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Development, test, and staging environments used to resolve <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> in a new or improved software product",
+            "Potentially a QRE (computer rental)",
+            "Direct use of time-shared computers in the conduct of qualified research (IRC §41(b)(2)(A)(iii); Treas. Reg. §1.41-2(b)(4))"
+          ]
+        },
+        {
+          "cells": [
+            "Compute capacity used for systematic experiments such as algorithmic benchmarking, machine-learning model training, or load testing of alternative architectures",
+            "Potentially a QRE",
+            "Directly relates to evaluating alternatives for function, performance, reliability, or quality (IRC §41(d)(1)(C), <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§41(d)(3)</a>)"
+          ]
+        },
+        {
+          "cells": [
+            "Production hosting of a released, stable commercial product serving live customer traffic",
+            "Generally not a QRE",
+            "Research after commercial production is statutorily excluded (IRC §41(d)(4)(A)); commentary in <em>The Tax Adviser</em> confirms post-development commercial hosting is ineligible"
+          ]
+        },
+        {
+          "cells": [
+            "General corporate file storage, backups, email servers, CRM hosting, or other administrative cloud infrastructure",
+            "Not a QRE",
+            "Not used in the conduct of qualified research; commentary in <em>The Tax Adviser</em> explicitly excludes administrative and general storage usage"
+          ]
+        },
+        {
+          "cells": [
+            "Cloud hosting for internal-use software projects (e.g., <a href=\"/us/glossary/erp-implementation-qualification\">internal ERP</a>, HR, or accounting tools)",
+            "Excluded unless regulatory exceptions are met",
+            "Excluded under IRC §41(d)(4)(E) unless the software meets the <a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation test</a> or dual-function safe harbor under Treas. Reg. §1.41-4(c)(6)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.4 Substantiation: allocating the bill"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analysis.</strong> Because AWS invoices customers by cloud service, region, and resource usage metrics (such as compute hours, gigabytes stored, and data transfer) rather than by R&D qualification status, the taxpayer bears the burden under IRC §6001 and Treas. Reg. §1.41-4(d) to substantiate and allocate the qualifying research share of the invoice. Additionally, under the <a href=\"/us/glossary/consistency-rule\">consistency rule</a> of IRC §41(c)(5) and Treas. Reg. §1.41-9(c)(2) (for the Alternative Simplified Credit), taxpayers claiming cloud computing QREs in the credit determination year must ensure consistent treatment of computer rental QREs in their historical base period calculations."
+    },
+    {
+      "type": "paragraph",
+      "text": "While specific tagging conventions are practitioner best practices rather than rigid statutory mandates, the regulatory requirement under Treas. Reg. §1.41-2(b)(4) that the computer be used \"in the conduct of qualified research\"—combined with the heightened business-component reporting requirements in Section G of revised Form 6765—means that unallocated or lump-sum AWS hosting bills lacking <a href=\"/us/glossary/project-to-expense-nexus\">clear technical nexus</a> are routinely disallowed upon IRS examination."
+    },
+    {
+      "type": "subheading",
+      "text": "2.5 Hypothetical example"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Hypothetical.</em> A software-as-a-service (SaaS) startup pays AWS $120,000 during the taxable year. Its AWS Cost Explorer logs and environment resource tags establish the following breakdown:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Environment",
+        "Annual cost",
+        "Treatment"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Development, CI/CD automated testing, and staging environments (qualified experimentation on new software architecture)",
+            "$48,000",
+            "Computer-rental QRE under IRC §41(b)(2)(A)(iii)"
+          ]
+        },
+        {
+          "cells": [
+            "Production environment (hosting live commercial customer traffic and customer databases)",
+            "$72,000",
+            "Not a QRE (excluded post-commercial production hosting)"
+          ]
+        },
+        {
+          "cells": [
+            "Total",
+            "<strong>$120,000</strong>",
+            "<strong>QRE from AWS: $48,000</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Arithmetic and compliance check: $48,000 + $72,000 = $120,000. Only the $48,000 attributable to development and staging experimentation enters the <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">QRE computation</a> on Form 6765 (Line 44, or Column 55 of Section G if applicable). The resulting net tax credit dollar amount depends on the taxpayer's elected credit calculation method on Form 6765—either the 20 percent Regular Credit under IRC §41(a)(1) or the 14 percent Alternative Simplified Credit (ASC) under <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">IRC §41(c)(4)</a> (or 6 percent for startups without QREs in any of the three preceding taxable years under IRC §41(c)(4)(B)(ii)), adjusted for any IRC §280C(c) reduced credit election—along with the company's qualified wages and contract research expenses, which this isolated AWS example does not model."
+    },
+    {
+      "type": "heading",
+      "text": "3. AWS costs as research or experimental expenditures (§174 / §174A)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When taxpayers ask whether they can claim AWS hosting costs as \"R&D expenses,\" the question also encompasses the federal income tax deduction for research or experimental (R&E) expenditures, which is governed by statutory provisions separate from—though closely linked to—the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC §41 research tax credit</a>."
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Current law (Taxable years beginning after December 31, 2024):</strong> New IRC §174A, enacted by §70302 of Public Law 119-21 (139 Stat. 72, signed July 4, 2025, commonly referred to as the One Big Beautiful Bill Act or OBBBA), restores current expensing for <a href=\"/us/glossary/research-and-experimental-expenditures\">domestic R&E costs</a>. Under IRC §174A(a), a taxpayer may treat domestic research or experimental expenditures which are paid or incurred by the taxpayer during the taxable year in connection with the taxpayer's trade or business as expenses which are not chargeable to capital account, and such expenditures are allowed as a current deduction notwithstanding IRC §263. Alternatively, under IRC §174A(c), a taxpayer may elect to <a href=\"/us/glossary/r-and-e-capitalization\">charge domestic R&E expenditures to capital account</a> and amortize them ratably over a period of not less than 60 months. Crucially for AWS software development environments, IRC §174A(d)(3) explicitly provides that \"any amount paid or incurred in connection with the development of any software shall be treated as a research or experimental expenditure.\" (Foreign research or experimental expenditures remain subject to mandatory 15-year amortization under amended <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC §174</a>.)",
+        "<strong>2022–2024 rules and Notice 2023-63 hosting guidance:</strong> For taxable years beginning after December 31, 2021, and before January 1, 2025, prior IRC §174 (as amended by the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act of 2017</a>, Pub. L. 115-97, §13206) required taxpayers to capitalize and amortize domestic specified research or experimental (SRE) expenditures over 5 years. In interim guidance issued under Notice 2023-63, 2023-39 I.R.B. 919 (§4.03(2)(e)), the IRS specifically excluded from <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">SRE</a> software development expenditures the costs of website hosting that involve the payment of a specified, periodic fee to an Internet service provider in return for hosting a website on its servers connected to the Internet. Revenue Procedure 2025-28, 2025-38 I.R.B. 393 (released August 28, 2025, and further updated by Rev. Proc. 2026-32), references reliance on Sections 3 through 7 of Notice 2023-63 (as modified by Notice 2024-12) for domestic expenditures paid or incurred in taxable years beginning before January 1, 2025. While the IRS has not issued separate formal regulations under IRC §174A addressing cloud hosting fees for post-2024 years, the core distinction under Treas. Reg. §1.174-2 between costs <a href=\"/us/glossary/incident-to-development\">incident to the development</a> or improvement of a product/software (eligible under §174A) and routine commercial production or website hosting fees (deductible as ordinary and necessary business expenses under IRC §162 rather than §174A) remains fundamental.",
+        "<strong>Small business retroactive election (Window now closed):</strong> Under Pub. L. 119-21, §70302(f)(1), an eligible small business taxpayer—defined as a taxpayer (other than a tax shelter under IRC §448(d)(3)) that meets the IRC §448(c) gross receipts test for its first taxable year beginning after December 31, 2024 (average annual gross receipts for the three prior taxable years of $31,000,000 or less for a taxable year beginning in 2025, per Rev. Proc. 2024-40 and Section 3.02(1) of Rev. Proc. 2025-28)—was permitted to elect to apply IRC §174A retroactively to domestic R&E expenditures paid or incurred in taxable years beginning after December 31, 2021. Section 3 of Rev. Proc. 2025-28 required eligible small businesses making this retroactive election on an amended return or administrative adjustment request (AAR) (or revoking/making a corresponding <a href=\"/us/glossary/section-280c-election\">IRC §280C(c)(2) election</a> under Section 5) to file on or before the earlier of July 6, 2026, or the expiration of the statutory period of limitations for credit or refund under IRC §6511. As of November 11, 2026, that retroactive small-business amendment window has closed, though taxpayers recovering remaining <a href=\"/us/glossary/section-174-amortization\">unamortized pre-2025 domestic TCJA §174 amounts</a> over one or two years beginning in 2025 may still utilize the automatic accounting method change procedures under Pub. L. 119-21, §70302(f)(2) and Rev. Proc. 2025-28 (Designated Change Number 273)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analysis.</strong> The IRC §174A deduction and the IRC §41 research tax credit directly interact in two statutory ways: first, IRC §41(d)(1)(A) explicitly requires that expenditures claimed for the research credit be eligible to be treated as domestic research or experimental expenditures under IRC §174A; second, under <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC §280C(c)(1)</a> (as amended by Pub. L. 119-21, §70302(b)(2) for taxable years beginning after December 31, 2024), a taxpayer must reduce its domestic IRC §174A deduction (or capital account charge) by the full amount of the IRC §41 research credit unless the taxpayer timely makes the irrevocable reduced credit election under IRC §280C(c)(2) on its original return. Consequently, developmental AWS cloud costs that qualify as computer-rental QREs under IRC §41(b)(2)(A)(iii) must also be consistently classified as domestic R&E software development expenditures under IRC §174A, whereas commercial production AWS hosting costs fall outside <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">both IRC §41 and IRC §174A</a> (and are instead treated as ordinary operating costs under IRC §162 or cost of goods sold)."
+    },
+    {
+      "type": "heading",
+      "text": "4. Turning qualifying AWS costs into cash: the payroll tax offset"
+    },
+    {
+      "type": "subheading",
+      "text": "4.1 Who qualifies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(h)(3)(A), a \"Qualified Small Business\" (QSB) eligible to make the payroll tax credit election with respect to any taxable year is a corporation (including an S corporation) or a partnership (or any other person, such as a sole proprietor, not treated as a tax-exempt organization under IRC §501) that satisfies two strict gross-receipts criteria, tested on an aggregated controlled-group basis under IRC §41(h)(5) and <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">§41(f)(1)</a>:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The entity's gross receipts (as determined under IRC §448(c)(3), without regard to subparagraph (A) thereof) for the taxable year are <strong>less than $5,000,000</strong>; and",
+        "The entity <strong>did not have gross receipts</strong> (as so determined) for <strong>any taxable year preceding the 5-taxable-year period</strong> ending with such taxable year (for example, a calendar-year taxpayer making the election for the 2025 or 2026 taxable year must have had zero gross receipts in all taxable years prior to 2021 or 2022, respectively)."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "4.2 How much and against what"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Rule",
+        "Statutory and regulatory position",
+        "Governing authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Annual election cap",
+            "Up to <strong>$500,000</strong> per taxable year (originally $250,000 under the <a href=\"/us/glossary/path-act\">PATH Act of 2015</a>, increased by an additional $250,000 for taxable years beginning after December 31, 2022, by the Inflation Reduction Act of 2022, Pub. L. 117-169, §13902). A taxpayer may make the election for at most 5 taxable years.",
+            "<a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC §41(h)(4)(B)(i)–(ii)</a>; IRS Payroll Tax Credit Guidance"
+          ]
+        },
+        {
+          "cells": [
+            "Order of payroll tax application",
+            "For calendar quarters beginning after December 31, 2022, the credit applies first against the <strong>employer share of Old-Age, Survivors, and Disability Insurance (Social Security) tax</strong> (6.2% under IRC §3111(a)) up to $250,000 per quarter, and any remaining credit applies against the <strong>employer share of Hospital Insurance (Medicare) tax</strong> (1.45% under IRC §3111(b)) for that quarter.",
+            "IRC §3111(f)(1); IRC §41(h)(4)(B)(i); Instructions for Form 8974"
+          ]
+        },
+        {
+          "cells": [
+            "Quarterly limit and carryover",
+            "The payroll tax credit taken in any calendar quarter cannot exceed the total employer Social Security and employer Medicare tax liability imposed for that quarter; any unused excess credit carries forward automatically to the succeeding calendar quarter.",
+            "IRC §3111(f)(2)–(3); Instructions for Form 8974"
+          ]
+        },
+        {
+          "cells": [
+            "Effective quarter",
+            "The payroll tax offset is available starting in the <strong>first calendar quarter that begins after the date on which the taxpayer files its federal income tax return</strong> making the QSB election on Form 6765.",
+            "IRC §3111(f)(1); IRS Payroll Tax Credit Guidance"
+          ]
+        },
+        {
+          "cells": [
+            "Election deadline",
+            "The <a href=\"/us/glossary/payroll-tax-credit-election\">QSB payroll tax election</a> must be made on Form 6765 attached to a <strong>timely filed original federal income tax return (including extensions)</strong> for the taxable year to which the election applies. It cannot be made for the first time on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a>.",
+            "IRC §41(h)(4)(A)(ii); Instructions for Form 6765"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "4.3 Forms"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong><a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (<em>Credit for Increasing Research Activities</em>):</strong> Compute the total federal research credit, substantiate QREs (including eligible AWS computer rental costs in Section A/B and Section G as applicable), and complete <strong>Section D</strong> (<em>Qualified Small Business Payroll Tax Election and Payroll Tax Credit</em>). Under the current Instructions for Form 6765 (Rev. December 2025), the taxpayer checks the QSB qualification box on Line 33a, enters the elected portion of the research credit (not to exceed $500,000) on <strong>Line 34</strong>, and calculates the allowable payroll tax credit on <strong>Line 36</strong> (which is the smallest of Line 34, Line 35, or $500,000).",
+        "<strong><a href=\"/us/glossary/irs-form-8974\">Form 8974</a> (<em>Qualified Small Business Payroll Tax Credit for Increasing Research Activities</em>):</strong> Carry the elected payroll tax credit from Form 6765, Line 36, to Form 8974, Part 1, Column (e). (Note: the Instructions for Form 8974 (Rev. December 2024) clarify that for income tax returns for tax years beginning before January 1, 2024, this amount came from old Form 6765, Line 44, whereas for tax years beginning after December 31, 2023, it comes from revised Form 6765, Line 36. While the general IRS summary webpage on the small business payroll tax credit still contains a legacy reference to Form 6765 Line 44, practitioners preparing current returns must follow the revised Form 6765 and Form 8974 instructions, where Line 36 is the payroll tax credit and Line 44 is now the line for computer rental QREs.) In Part 2 of Form 8974, the taxpayer calculates the exact credit allocation against the employer share of Social Security tax (up to $250,000) and the employer share of Medicare tax.",
+        "<strong>Form 941 (<em>Employer's Quarterly Federal Tax Return</em>) (or Form 943 / Form 944):</strong> Attach the completed Form 8974 to the quarterly federal employment tax return beginning in the first calendar quarter after the income tax return was filed, reporting the credit from Form 8974, Line 12 (or Line 17, as applicable) on Form 941, Line 11a, to directly <a href=\"/us/faq/how-to-apply-rd-tax-credit-to-payroll-taxes\">reduce the quarterly payroll tax</a> deposit liability."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analysis.</strong> In the hypothetical software startup scenario presented in Section 2.5 above, the $48,000 of developmental AWS compute spend is reported on Form 6765, Line 44 (and Section G, Column 55, if applicable) and combined with the startup's qualified R&D wages and <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">contractor costs</a>. Assuming the startup meets the IRC §41(h)(3) QSB gross-receipts test and calculates its credit using the 14 percent <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Alternative Simplified Credit method</a> (or the 6 percent startup ASC rate if in its first three years of QREs), the incremental credit attributable to the $48,000 of AWS QREs flows directly into Section D of Form 6765 (up to the $500,000 statutory cap). By timely filing its income tax return with Form 6765 and claiming the offset via Form 8974 on its subsequent Form 941 filings, the startup converts its qualifying AWS R&D hosting costs into immediate <a href=\"/us/faq/startup-rd-payroll-tax-offset\">quarterly payroll cash savings</a>, even while operating at a net tax loss."
+    },
+    {
+      "type": "heading",
+      "text": "5. Practical checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analysis.</strong> Based on the statutory and regulatory rules set forth in IRC §§41, 174A, and 3111(f), Treas. Reg. §1.41-2(b)(4), and current IRS form instructions, taxpayers and tax auditors evaluating AWS hosting costs should execute the following six compliance steps:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Verify Qualified Research Eligibility (IRC §41(d)):</strong> Confirm that each software development project utilizing AWS resources satisfies all four elements of the IRC §41(d) test (Section 174A eligibility, technological in nature, new or improved business component, and process of experimentation for function, performance, reliability, or quality) and is not disqualified under the post-commercial-production exclusion (§41(d)(4)(A)) or the internal-use software exclusion (§41(d)(4)(E)).",
+        "<strong>Confirm Computer-Rental Conditions (Treas. Reg. §1.41-2(b)(4)):</strong> Verify that the AWS compute infrastructure is owned and operated by AWS, is physically located off the taxpayer's premises, and operates in a shared/multi-tenant environment where the taxpayer is not the primary user of the underlying physical server hardware.",
+        "<strong>Implement Granular Cost Allocation and Substantiation (IRC §6001):</strong> Segregate AWS invoices between eligible development/testing/staging compute environments and excluded commercial production hosting, customer database storage, or general administrative IT using AWS Cost Allocation Tags, Cost and Usage Reports (CUR), and <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous engineering documentation</a>, and ensure base-period consistency under IRC §41(c)(5).",
+        "<strong>Report Qualifying AWS Compute on Form 6765:</strong> Report the substantiated qualifying portion of the AWS bill at 100 percent inclusion as \"rental or lease costs of computers\" on revised Form 6765, Line 44 (and break down by business component in Section G, Column 55, if Section G reporting applies).",
+        "<strong>Align IRC §174A R&E Treatment and IRC §280C(c) Elections:</strong> Treat the qualifying developmental AWS software costs consistently as domestic research or experimental expenditures under IRC §174A for taxable years beginning after December 31, 2024, and coordinate the mandatory <a href=\"/us/faq/does-rd-tax-credit-reduce-tax-basis-section-280c\">IRC §280C(c)(1) deduction reduction</a> or timely elect the reduced credit under IRC §280C(c)(2).",
+        "<strong>Execute the QSB Payroll Tax Offset (IRC §41(h) & §3111(f)):</strong> If the company qualifies as a <a href=\"/us/glossary/qualified-small-business-qsb\">QSB</a> (under $5,000,000 in current-year gross receipts and no gross receipts prior to the 5-taxable-year window), make the payroll tax election in Section D of Form 6765 (Lines 33a–36, up to $500,000) on a timely filed original income tax return, and apply the credit starting in the following calendar quarter using Form 8974 attached to Form 941."
+      ]
+    }
+  ]
+}

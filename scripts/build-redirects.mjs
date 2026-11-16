@@ -42,11 +42,21 @@ export function oldToNew() {
   const { usStateJurisdictions } = loadTs("src/data/jurisdictions.ts");
   const dir = path.join(ROOT, "content", "cases");
   const rows = [];
+  // content/slug-history.json: case slugs that changed (old -> current). An old slug's /cases/<old> and /us/<old> both go
+  // straight to /us/<current>: no chain, and /cases/<current> (never a live address) is not listed.
+  const histFile = path.join(ROOT, "content", "slug-history.json");
+  const renames = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")).renames ?? {} : {};
+  const renamedTo = new Set(Object.values(renames));
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
     const c = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     if (c.jurisdictionGroup === "country") continue; // country cases were never public at /cases/...
     if ((c.status ?? "published") !== "published") continue;
-    rows.push({ old: `/cases/${c.slug}`, next: `/us/${c.slug}`, kind: "case", title: c.title });
+    if (!renamedTo.has(c.slug)) rows.push({ old: `/cases/${c.slug}`, next: `/us/${c.slug}`, kind: "case", title: c.title });
+    for (const [o, n] of Object.entries(renames)) {
+      if (n !== c.slug) continue;
+      rows.push({ old: `/cases/${o}`, next: `/us/${c.slug}`, kind: "case", title: c.title });
+      rows.push({ old: `/us/${o}`, next: `/us/${c.slug}`, kind: "case-renamed", title: c.title });
+    }
   }
   rows.push({ old: "/usa/federal", next: "/us/federal", kind: "listing", title: "USA Federal" });
   rows.push({ old: "/usa/states", next: "/us/states", kind: "listing", title: "USA States" });

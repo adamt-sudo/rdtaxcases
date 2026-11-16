@@ -46,6 +46,7 @@ for (const f of files) {
     if (typeof c[k] !== "string" || !c[k].trim()) bad(`"${k}" is missing`);
   }
   if (c.sourceDocUrl !== undefined && typeof c.sourceDocUrl !== "string") bad(`"sourceDocUrl" must be text`);
+  if (c.metaDescription !== undefined && (typeof c.metaDescription !== "string" || c.metaDescription.length > 155)) bad(`"metaDescription" must be text of at most 155 characters`);
   if (!Number.isInteger(c.year)) bad(`"year" must be a whole number`);
   if (!GROUPS.has(c.jurisdictionGroup)) bad(`unknown jurisdictionGroup "${c.jurisdictionGroup}"`);
   // the case's web address follows the link spec: lowercase a-z, 0-9, single hyphens, at most 100 characters, and not a reserved word

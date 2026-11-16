@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { inlineProblems, linksIn, parseInline, plainText, safeHref, hasMarkup } from "../src/lib/inline-core.mjs";
+import { decodeEntities, inlineProblems, linksIn, normalizeInternalHref, parseInline, plainText, safeHref, hasMarkup } from "../src/lib/inline-core.mjs";
 import { htmlToBlocks, unescapeDoc } from "./import-html-case.mjs";
 import { dropRepeatedNumber } from "../src/lib/list-label.mjs";
 
@@ -14,8 +14,10 @@ const ok = (name, fn) => {
   n++;
 };
 
-// ---- links: only swansonreed.com and rdtaxcases.com
-ok("allowed hosts", () => {
+// ---- links: a path of this site, or an https address (the delivered texts cite the IRS, Cornell LII and others)
+ok("allowed links", () => {
+  assert.equal(safeHref("https://www.irs.gov/irb/2011-35_IRB"), "https://www.irs.gov/irb/2011-35_IRB");
+  assert.equal(safeHref("https://www.law.cornell.edu/uscode/text/26/41"), "https://www.law.cornell.edu/uscode/text/26/41");
   assert.equal(safeHref("https://www.swansonreed.com/a/b/"), "https://www.swansonreed.com/a/b/");
   assert.equal(safeHref("https://swansonreed.com/x"), "https://swansonreed.com/x");
   assert.equal(safeHref("https://rdtaxcases.com/cases/a"), "https://rdtaxcases.com/cases/a");
@@ -23,13 +25,12 @@ ok("allowed hosts", () => {
 });
 ok("refused links", () => {
   for (const bad of [
-    "https://example.com/",
+    "http://example.com/",
     "http://www.swansonreed.com/",
     "//evil.com/x",
     "javascript:alert(1)",
-    "https://swansonreed.com.evil.com/",
-    "https://evil.com/swansonreed.com",
     "https://user:pw@swansonreed.com/",
+    "https://localhost/",
     "mailto:a@swansonreed.com",
     "",
   ]) assert.equal(safeHref(bad), null, bad);
@@ -47,9 +48,9 @@ ok("own-site link is not external", () => {
   assert.equal(parseInline('<a href="https://rdtaxcases.com/cases/x">x</a>').nodes[0].external, false);
 });
 ok("a refused link shows its text only and is reported", () => {
-  const { nodes, problems } = parseInline('see <a href="https://example.com/">here</a> now');
+  const { nodes, problems } = parseInline('see <a href="http://example.com/">here</a> now');
   assert.equal(nodes.every((x) => x.t === "text"), true);
-  assert.equal(plainText('see <a href="https://example.com/">here</a> now'), "see here now");
+  assert.equal(plainText('see <a href="http://example.com/">here</a> now'), "see here now");
   assert.equal(problems.length, 1);
 });
 ok("other tags and attributes are refused", () => {
@@ -71,6 +72,19 @@ ok("links are listed", () => {
   const l = linksIn('<a href="https://www.swansonreed.com/a/">A</a> and <em><a href="/cases/b">B</a></em>');
   assert.deepEqual(l.map((x) => [x.href, x.text]), [["https://www.swansonreed.com/a/", "A"], ["/cases/b", "B"]]);
 });
+ok("sub and sup (formula indices)", () => {
+  const { nodes, problems } = parseInline("QRE<sub>t</sub> and \u03A3<sup>4</sup>");
+  assert.deepEqual(problems, []);
+  assert.equal(nodes.map((x) => x.t).join(","), "text,sub,text,sup");
+  assert.equal(plainText("QRE<sub>t</sub> and x<sup>2</sup>"), "QREt and x2");
+  assert.equal(hasMarkup("x<sup>2</sup>"), true);
+});
+ok("a link to this site written with the domain is stored as a path, without a trailing slash", () => {
+  assert.equal(normalizeInternalHref("https://rdtaxcases.com/us/glossary/funded-research/"), "/us/glossary/funded-research");
+  assert.equal(normalizeInternalHref("https://www.rdtaxcases.com/us/faq/x"), "/us/faq/x");
+  assert.equal(normalizeInternalHref("http://rdtaxcases.com"), "/");
+  assert.equal(normalizeInternalHref("https://www.irs.gov/a/"), "https://www.irs.gov/a/");
+});
 ok("hasMarkup", () => {
   assert.equal(hasMarkup("a <em>b</em>"), true);
   assert.equal(hasMarkup("R&D <5"), false);
@@ -84,7 +98,8 @@ ok("every case: markup valid; text without markup unchanged", () => {
     const texts = c.body.flatMap((b) => (b.type === "list" ? b.items : b.type === "table" ? b.rows.flatMap((r) => (Array.isArray(r) ? r : r.cells)) : [b.text]));
     for (const t of texts) {
       assert.equal(inlineProblems(t).length, 0, `${f}: ${t.slice(0, 60)}`);
-      if (!hasMarkup(t)) assert.equal(plainText(t), t, `${f}: ${t.slice(0, 60)}`);
+      // text without markup shows as stored, except that the entities &lt; &gt; &amp; (what the importer writes for < > &) are decoded
+      if (!hasMarkup(t)) assert.equal(plainText(t), decodeEntities(t), `${f}: ${t.slice(0, 60)}`);
     }
   }
 });
@@ -106,14 +121,14 @@ ok("blocks", () => {
   assert.deepEqual(blocks[7].headers, ["Requirement", "Holding"]);
   assert.equal(blocks[7].rows.length, 2);
 });
-ok("links and emphasis survive, others are dropped", () => {
+ok("links and emphasis survive, other tags are dropped", () => {
   assert.ok(blocks[1].text.includes('<a href="https://www.swansonreed.com/research-tax-credit/glossary/funded-research-exclusion/">funded research exclusion</a>'));
   assert.ok(!blocks[1].text.includes("target"));
   assert.ok(blocks[2].text.includes("<em>Robertson v. United States</em>"));
   assert.ok(blocks[2].text.includes("<strong>consideration</strong>"));
-  assert.ok(!blocks[2].text.includes("example.com"));
+  assert.ok(blocks[2].text.includes('<a href="https://example.com/not-allowed">')); // any https link is kept now
   assert.ok(blocks[2].text.includes("outside article"));
-  assert.deepEqual(report.droppedLinks, ["https://example.com/not-allowed"]);
+  assert.deepEqual(report.droppedLinks, []);
   assert.ok(blocks[2].text.includes("R&D credit"));
   assert.ok(blocks[7].rows[0].cells[1].includes("5 &lt; 6"));
   assert.equal(plainText(blocks[7].rows[0].cells[1]), "The prize discharged an obligation (less than 5 < 6 pages).");

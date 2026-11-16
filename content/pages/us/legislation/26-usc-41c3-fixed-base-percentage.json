@@ -1,0 +1,736 @@
+{
+  "kind": "legislation-page",
+  "country": "us",
+  "title": "26 U.S. Code Section 41(c)(3) Fixed-Base Percentage",
+  "description": "Under 26 U.S.C. § 41(c)(3), the fixed-base percentage is the 1984–1988 research-to-gross-receipts ratio, capped at 16%, or a 3% start-up default.",
+  "summary": "Under 26 U.S.C. § 41(c)(3), the fixed-base percentage is the ratio of a U.S. taxpayer's qualified research expenses to gross receipts for 1984–1988, or a 3% start-up default with a phase-in for newer companies. Capped at 16% and rounded to 0.01%, it sets the base amount that QREs must exceed to earn the 20% Regular Research Credit.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(c)(3), the fixed-base percentage is the ratio of a U.S. taxpayer's qualified research expenses to gross receipts for 1984–1988, or a 3% start-up default with a phase-in for newer companies. Capped at 16% and rounded to 0.01%, it sets the base amount that QREs must exceed to earn the 20% Regular Research Credit."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Statutory Mandate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Internal Revenue Code (IRC) Section 41(c)(3), codified at 26 U.S.C. § 41(c)(3), defines the \"Fixed-Base Percentage\" as the foundational historical ratio governing the United States federal Credit for Increasing Research Activities. Expressed mathematically as the ratio of a taxpayer's aggregate <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a> to aggregate gross receipts during a statutorily prescribed historical base period, the Fixed-Base Percentage operationalizes the congressional mandate that the regular research and development (R&D) tax credit function strictly as an incremental incentive. As documented in congressional legislative histories and Government Accountability Office (GAO) evaluations, the policy architecture is designed to reward taxpayers solely for research expenditures that exceed their normalized historical spending intensity, rather than subsidizing baseline research activities that would have been undertaken regardless of the tax benefit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the Regular Research Credit computation of <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41(a)(1)</a>, a taxpayer may claim a 20 percent tax credit strictly on current-year QREs that exceed an established \"base amount\". Pursuant to <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">Section 41(c)(1)</a>, that base amount is calculated as the mathematical product of the taxpayer's Fixed-Base Percentage and its average annual gross receipts over the four taxable years immediately preceding the credit year. Expressed algebraically, the core statutory relationship governing the Regular Research Credit is defined as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preliminary Base Amount = Fixed-Base Percentage × ((1/4) × Σ<sub>i=1</sub><sup>4</sup> Gross Receipts<sub>t−i</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular Research Credit = 0.20 × max(0, QRE<sub>t</sub> − max(Preliminary Base Amount, 0.50 × QRE<sub>t</sub>))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, the Fixed-Base Percentage serves as the primary quantitative threshold determining credit entitlement: an overstated Fixed-Base Percentage inflates the base amount and suppresses the allowable credit, whereas an understated or unsubstantiated Fixed-Base Percentage renders the entire base amount calculation defective, exposing the taxpayer to severe audit adjustments, credit disallowance, and <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> imposed by the Internal Revenue Service (IRS). From an economic and structural standpoint, the use of a historical ratio indexed to trailing four-year gross receipts rather than a static dollar threshold reflects an intentional legislative effort to scale a firm's required baseline R&D commitment dynamically with its commercial expansion or contraction."
+    },
+    {
+      "type": "paragraph",
+      "text": "First introduced into the Internal Revenue Code temporarily by the Economic Recovery Tax Act of 1981 (Pub. L. 97-34) and made a permanent provision in 2015 under the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act</a> (Pub. L. 114-113) following decades of temporary legislative extensions, Section 41 distinguishes sharply between established corporate entities—anchored to a fixed 1984–1988 historical base window—and start-up companies governed by a multi-year statutory phase-in schedule. Furthermore, while the federal statute establishes the overarching structural mechanics, thirty-seven states administer localized R&D tax incentives that either conform to, modify, or reimagine the Fixed-Base Percentage framework through strict geographic ring-fencing and specialized state-level base formulas. This <a href=\"/us/faq/state-vs-federal-rd-tax-credits\">dual federal-state compliance architecture</a> requires corporate tax departments to maintain parallel, jurisdiction-specific accounting ledgers capable of withstanding both federal IRS examination and disparate state revenue agency audits."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory Architecture of the Federal Fixed-Base Percentage"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal research tax credit encompasses discrete computational pathways for general research expenditures, the two primary methods being the Regular Research Credit under Section 41(a)(1) and the Alternative Simplified Credit (ASC) under Section 41(c)(4) (originally enacted as Section 41(c)(5) prior to statutory renumbering following the repeal of the expired Alternative Incremental Research Credit). While the ASC relies on a rolling three-year QRE average, the Regular Research Credit depends entirely upon the Fixed-Base Percentage rules of Section 41(c)(3) to enforce its incremental mandate."
+    },
+    {
+      "type": "subheading",
+      "text": "Section 41(c)(3)(A) Mechanics for Established Entities"
+    },
+    {
+      "type": "paragraph",
+      "text": "For established corporate taxpayers that conducted regular research and generated revenue during the mid-1980s, 26 U.S.C. § 41(c)(3)(A) mandates that the Fixed-Base Percentage be computed by dividing the taxpayer's aggregate QREs by its aggregate gross receipts for all taxable years beginning after December 31, 1983, and before January 1, 1989. This five-year window (1984 through 1988 for calendar-year taxpayers) functions as the permanent statutory anchor for the Regular Research Credit:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fixed-Base Percentage<sub>Established</sub> = min(0.1600, Σ<sub>t=1984</sub><sup>1988</sup> QRE<sub>t</sub> ÷ Σ<sub>t=1984</sub><sup>1988</sup> Gross Receipts<sub>t</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Three statutory constraints govern the translation of this historical ratio into the <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">current-year base amount</a>. First, under the precision and rounding mandate of Section 41(c)(3)(D), the resulting percentage must be rounded to the nearest one-hundredth of one percent (0.01%), which equates to four decimal places when expressed as a decimal or two decimal places when expressed as a percentage (such as 0.0800 or 8.00%). Even minor rounding errors at the fourth decimal place can produce material dollar discrepancies when multiplied against billions of dollars in trailing four-year average gross receipts for large multinational enterprises. Second, under the statutory ceiling of Section 41(c)(3)(C), regardless of how research-intensive an established taxpayer was during the 1984–1988 window, the Fixed-Base Percentage cannot exceed a maximum cap of 16 percent (16.00% or 0.1600). Third, once the Fixed-Base Percentage is multiplied by the average annual gross receipts for the four taxable years immediately preceding the credit year to yield the preliminary base amount, Congress enacted the 50 percent minimum base floor under <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">Section 41(c)(2)</a>, which mandates that the base amount shall in no event be less than 50 percent of the current credit year's QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysis of the structural interplay between the 16 percent Fixed-Base Percentage cap and the 50 percent minimum base floor reveals a tightly bounded economic corridor for the Regular Research Credit. The 16 percent cap under Section 41(c)(3)(C) protects historically R&D-heavy enterprises—such as pharmaceutical, aerospace, and semiconductor pioneers that devoted more than 16 percent of their mid-1980s revenue to qualified research—from facing an insurmountably high base amount as their modern commercial revenues scale. Conversely, the 50 percent minimum floor under Section 41(c)(2) prevents taxpayers with exceptionally low historical Fixed-Base Percentages or depressed prior-four-year gross receipts from applying the 20 percent credit rate to nearly all of their current-year QREs, thereby preserving the incremental policy objective of the statute. Because at least half of current-year QREs must be absorbed into the base amount under Section 41(c)(2), the maximum effective net credit yield of the Regular Research Credit is mathematically bounded at 10 percent of total current-year QREs (20% × 50% = 10%), or 10 cents per dollar of qualified research spending."
+    },
+    {
+      "type": "subheading",
+      "text": "Section 41(c)(3)(B) Start-Up Company Rules and Ten-Year Phase-In"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognizing that emerging enterprises formed after the mid-1980s—as well as firms that were pre-revenue or lacked research activities during that period—cannot compute a meaningful 1984–1988 historical ratio, Congress enacted specific <a href=\"/us/glossary/start-up-provision\">start-up provisions</a> under 26 U.S.C. § 41(c)(3)(B). Under Section 41(c)(3)(B)(i), a taxpayer is statutorily defined as a \"start-up company\" for purposes of the research credit if the first taxable year in which the taxpayer had both gross receipts and QREs began after December 31, 1983, or if the taxpayer had fewer than three taxable years beginning after December 31, 1983, and before January 1, 1989, in which it simultaneously incurred QREs and generated gross receipts. Because this statutory classification depends strictly on 1984–1988 operational history rather than current enterprise scale or corporate maturity, any modern corporation founded after 1988—including multi-billion-dollar technology conglomerates formed in the 1990s or 2000s—is governed by the start-up rules of Section 41(c)(3)(B) unless it acquires an established pre-1989 trade or business invoking the successor aggregation rules of Section 41(f)(3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For qualifying start-up companies, Section 41(c)(3)(B)(ii) establishes a two-stage transition to determine the Fixed-Base Percentage for taxable years beginning after December 31, 1993. During the initial five-year phase—encompassing each of the taxpayer's first five taxable years beginning after December 31, 1993, in which the taxpayer incurs QREs—the statute assigns a mandatory default Fixed-Base Percentage of 3.00 percent (0.0300). Beginning in the sixth taxable year in which the taxpayer incurs QREs, the statute initiates a ten-year phase-in schedule under which the 3 percent statutory default is replaced by an increasing fractional share of the taxpayer's actual historical ratio of aggregate QREs to aggregate gross receipts. Specifically, in the taxpayer's sixth QRE year, the Fixed-Base Percentage is calculated as one-sixth (1/6) of the ratio of aggregate QREs to aggregate gross receipts for the fourth and fifth such taxable years; in the seventh year, one-third (1/3) of the ratio for the fifth and sixth years; in the eighth year, one-half (1/2) of the ratio for the fifth, sixth, and seventh years; in the ninth year, two-thirds (2/3) of the ratio for the fifth through eighth years; and in the tenth year, five-sixths (5/6) of the ratio for the fifth through ninth years. Beginning in the eleventh QRE year and for all subsequent taxable years, the start-up company reaches mature equilibrium, and its Fixed-Base Percentage becomes a pure historical ratio (6/6) calculated using aggregate QREs and aggregate gross receipts from any five taxable years selected by the taxpayer out of the fifth through tenth such taxable years, subject to the 16 percent statutory maximum cap under Section 41(c)(3)(C) and four-decimal rounding under Section 41(c)(3)(D)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Start-Up QRE Year (Post-1993)",
+        "Statutory Authority",
+        "Historical Base Years Included in Ratio",
+        "Fractional Multiplier Applied to Ratio",
+        "Applicable Statutory Cap and Rounding"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Years 1 through 5",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(I)",
+            "None (Statutory Default)",
+            "Fixed at 3.00% (0.0300)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 6",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(II)",
+            "QRE Years 4 and 5",
+            "1/6 × (Σ<sub>t=4</sub><sup>5</sup> QRE<sub>t</sub> ÷ Σ<sub>t=4</sub><sup>5</sup> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 7",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(III)",
+            "QRE Years 5 and 6",
+            "1/3 × (Σ<sub>t=5</sub><sup>6</sup> QRE<sub>t</sub> ÷ Σ<sub>t=5</sub><sup>6</sup> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 8",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(IV)",
+            "QRE Years 5, 6, and 7",
+            "1/2 × (Σ<sub>t=5</sub><sup>7</sup> QRE<sub>t</sub> ÷ Σ<sub>t=5</sub><sup>7</sup> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 9",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(V)",
+            "QRE Years 5, 6, 7, and 8",
+            "2/3 × (Σ<sub>t=5</sub><sup>8</sup> QRE<sub>t</sub> ÷ Σ<sub>t=5</sub><sup>8</sup> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 10",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(VI)",
+            "QRE Years 5, 6, 7, 8, and 9",
+            "5/6 × (Σ<sub>t=5</sub><sup>9</sup> QRE<sub>t</sub> ÷ Σ<sub>t=5</sub><sup>9</sup> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        },
+        {
+          "cells": [
+            "Year 11 and Thereafter",
+            "26 U.S.C. § 41(c)(3)(B)(ii)(VII)",
+            "Any 5 years selected by taxpayer from QRE Years 5 through 10",
+            "1.00 × (Σ<sub>selected 5</sub> QRE<sub>t</sub> ÷ Σ<sub>selected 5</sub> GR<sub>t</sub>)",
+            "16.00% cap; rounded to 0.01%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical structural dynamic of Section 41(c)(3)(B)(ii) emerges during the transition from Year 5 to Year 6 and in the selective five-out-of-six-year election in Year 11. For a venture-backed technology or biotechnology enterprise that remains pre-revenue or generates minimal gross receipts during its fourth and fifth QRE years while spending heavily on research, the ratio of aggregate QREs to aggregate gross receipts in Years 4 and 5 may exceed 96 percent. Even when multiplied by one-sixth (1/6) in Year 6, that ratio will immediately hit the 16.00 percent statutory ceiling under Section 41(c)(3)(C), causing the taxpayer's Fixed-Base Percentage to jump abruptly from 3.00 percent in Year 5 to 16.00 percent in Year 6. Furthermore, once the company reaches Year 11, the statutory freedom to select any five taxable years out of the fifth through tenth QRE years creates a permanent optimization opportunity: by excluding the single year between Years 5 and 10 that exhibits the highest QRE-to-gross-receipts intensity, a corporate tax department can permanently lock in a lower Fixed-Base Percentage for all future taxable years."
+    },
+    {
+      "type": "subheading",
+      "text": "Evaluating the Alternative Simplified Credit (ASC) Pathway"
+    },
+    {
+      "type": "paragraph",
+      "text": "The administrative burden of preserving and defending historical accounting records dating back to 1984 under Section 41(c)(3)(A)—or tracking multi-decade start-up QRE year counts under Section 41(c)(3)(B)—has been a focal point of tax policy scrutiny. In its landmark evaluation, <em>Tax Policy: The Research Tax Credit's Design and Administration Can Be Improved</em> (GAO-10-136), the Government Accountability Office analyzed the structural design of the research tax credit and concluded that the Fixed-Base Percentage framework generates substantial compliance costs for taxpayers and administrative burdens for the IRS. The GAO further demonstrated that because the Fixed-Base Percentage indexes the current base amount to trailing four-year gross receipts rather than historical QREs alone, the formula distributes tax subsidies unevenly: businesses with stagnant or declining gross receipts can receive windfall credits for routine research expenditures they would have incurred regardless of the credit, whereas innovative firms that substantially expand their R&D budgets during periods of rapid revenue growth are mathematically penalized by an inflated base amount."
+    },
+    {
+      "type": "paragraph",
+      "text": "To alleviate the severe substantiation challenges of the Regular Research Credit, Congress introduced the Alternative Simplified Credit (ASC), reported on Section B of <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a>. Codified in the current Internal Revenue Code at <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">26 U.S.C. § 41(c)(4)</a> (originally enacted as Section 41(c)(5) prior to the repeal of the expired Alternative Incremental Research Credit), the ASC eliminates both the gross receipts variable and the 1984–1988 Fixed-Base Percentage requirement. Instead, the ASC compares current-year QREs against a base amount equal to 50 percent of the taxpayer's average QREs for the three preceding taxable years, applying a 14 percent credit rate to the excess:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ASC<sub>Standard</sub> = 0.14 × max(0, QRE<sub>t</sub> − 0.50 × ((1/3) × Σ<sub>i=1</sub><sup>3</sup> QRE<sub>t−i</sub>))"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a taxpayer has zero QREs in any of the three preceding taxable years, Section 41(c)(4)(B) specifies that the ASC is computed as a flat 6 percent of current-year QREs. Although the Regular Research Credit utilizing the Fixed-Base Percentage typically generates a higher gross credit yield—up to 10 cents per dollar of QREs when the 50 percent minimum base floor binds, compared to a 7 percent effective rate under the ASC for a taxpayer with constant year-over-year QREs (14% × (1 − 0.50) = 7%)—taxpayers frequently <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">elect the ASC</a> to mitigate the audit risks of historical gross receipts verification and base-period Consistency Rule disputes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Federal Calculation Methodology",
+        "Statutory Authority",
+        "Base Amount Determination Factor",
+        "Statutory Credit Rate",
+        "Primary Administrative and Audit Challenge"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Regular Research Credit (Established)",
+            "26 U.S.C. § 41(a)(1), § 41(c)(3)(A)",
+            "Fixed-Base Percentage (1984–1988 ratio, capped at 16%) × Prior 4-Year Average Gross Receipts (subject to 50% QRE minimum floor)",
+            "20% of excess QREs over Base Amount (up to 10% net effective rate on total QREs)",
+            "Substantiating 1984–1988 QREs and gross receipts and maintaining strict base-to-credit-year parity under the Consistency Rule."
+          ]
+        },
+        {
+          "cells": [
+            "Regular Research Credit (Start-Up)",
+            "26 U.S.C. § 41(a)(1), § 41(c)(3)(B)",
+            "3.00% default FBP in Years 1–5; phased-in historical ratio in Years 6–10; 5-of-6-year ratio in Year 11+ × Prior 4-Year Average Gross Receipts",
+            "20% of excess QREs over Base Amount (up to 10% net effective rate on total QREs)",
+            "Tracking exact start-up year counts post-1983/1993, gross receipts exclusions, and controlled group acquisitions."
+          ]
+        },
+        {
+          "cells": [
+            "Alternative Simplified Credit (Standard)",
+            "26 U.S.C. § 41(c)(4)(A) (formerly § 41(c)(5)(A))",
+            "50% of the average annual QREs for the 3 preceding taxable years (zero reliance on gross receipts)",
+            "14% of excess QREs over Base Amount",
+            "Substantiating rolling 3-year historical QREs and adjusting for corporate acquisitions or dispositions under Section 41(f)(3)."
+          ]
+        },
+        {
+          "cells": [
+            "Alternative Simplified Credit (Start-Up / No Prior QREs)",
+            "26 U.S.C. § 41(c)(4)(B) (formerly § 41(c)(5)(B))",
+            "None (applicable when taxpayer has zero QREs in any of the 3 preceding taxable years)",
+            "6% of total current-year QREs",
+            "Substantiating current-year QRE qualification under the Section 41(d) <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a>."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Gross Receipts, Controlled Group Aggregation, and the Consistency Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "While corporate tax departments frequently concentrate compliance resources on maximizing the QRE numerator, IRS examination adjustments to the Fixed-Base Percentage and the trailing four-year base amount routinely arise from errors in the gross receipts denominator, controlled group aggregation failures, or violations of the statutory Consistency Rule."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Scope of Gross Receipts Under Treas. Reg. § 1.41-3(c)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation § 1.41-3(c) provides the authoritative administrative definition of \"gross receipts\" for purposes of Section 41(c), encompassing the total amount derived by the taxpayer from all activities and from all sources, recognized according to the standard method of accounting used by the taxpayer in computing federal income tax liability for the taxable year. Because gross receipts serve both as the denominator of the Fixed-Base Percentage (FBP = ΣQRE<sub>base</sub> ÷ ΣGR<sub>base</sub>) and as the multiplier in the current-year base amount (Base Amount = FBP × GR̄<sub>prior 4 yrs</sub>), misclassifications distort the calculation in opposite directions depending on the period: inflating 1984–1988 (or start-up base-period) gross receipts artificially depresses the Fixed-Base Percentage, whereas understating prior-four-year gross receipts artificially lowers the current-year base amount."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, gross receipts for Section 41 purposes are not synonymous with top-line operating revenue on a financial income statement prepared under Generally Accepted Accounting Principles (GAAP). Under Treas. Reg. § 1.41-3(c)(1), gross receipts must be reduced by returns and allowances made during the taxable year. However, to prevent taxpayers from artificially inflating the base-period denominator or distorting trailing receipts through non-operating transactions, Treas. Reg. § 1.41-3(c)(2) explicitly excludes receipts from the sale or exchange of capital assets as defined in IRC § 1221, repayments of loans or similar instruments, receipts from sales or exchanges not in the ordinary course of business (such as bulk sales of fixed assets or dispositions of business divisions), returns of capital, and tax-exempt income. Furthermore, the <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Audit Techniques Guide (ATG)</a> for Research Credit Computation instructs examiners to verify that taxpayers have not reduced gross receipts by the Cost of Goods Sold (COGS)—a frequent compliance error where taxpayers pull \"gross profit\" rather than gross receipts from their tax returns, which the ATG explicitly prohibits by requiring gross receipts to be recognized prior to any deduction for COGS."
+    },
+    {
+      "type": "paragraph",
+      "text": "Special statutory adjustments also govern foreign corporations and short taxable years. For foreign corporations, 26 U.S.C. § 41(c)(6) (cited as Section 41(c)(7) prior to statutory renumbering) restricts gross receipts strictly to those that are effectively connected with the conduct of a trade or business within the United States, the Commonwealth of Puerto Rico, or any United States territory or possession. This prevents multinational foreign corporations from diluting their Fixed-Base Percentage by including worldwide foreign-source revenue in the denominator while only claiming domestic U.S. QREs in the numerator. In addition, when a taxpayer experiences a short taxable year consisting of fewer than twelve months—frequently triggered by mergers, acquisitions, or consolidated group entries and exits—gross receipts must be annualized under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">Section 41(f)(4)</a> and Treas. Reg. § 1.41-3(c)(3) by multiplying the short-period gross receipts by twelve and dividing by the number of months in the short taxable year to ensure an equitable comparison across full-year and partial-year periods."
+    },
+    {
+      "type": "subheading",
+      "text": "Controlled Groups and Single-Taxpayer Aggregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "When calculating the Fixed-Base Percentage and the trailing four-year average gross receipts, entities that are members of a controlled group of corporations (within the meaning of Section 41(f)(5), applying a more-than-50-percent ownership threshold under modified IRC § 1563 rules) or a group of trades or businesses under <a href=\"/us/glossary/common-control\">common control</a> are treated as a single taxpayer under 26 U.S.C. § 41(f)(1). This statutory mandate requires the <a href=\"/us/glossary/aggregation-rules\">full aggregation</a> of both QREs and gross receipts across all members of the controlled group, regardless of whether those entities file a consolidated federal income tax return."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, Treasury Regulation § 1.41-6(i) dictates that intra-group transfers, royalties, management fees, and sales between members of a <a href=\"/us/glossary/controlled-group\">controlled group</a> are generally disregarded for purposes of computing both gross receipts and QREs. By treating the entire controlled group as a single economic unit, Section 41(f)(1) and Treas. Reg. § 1.41-6(i) prevent corporate groups from isolating research activities inside a dedicated R&D subsidiary with minimal external gross receipts to manipulate the Fixed-Base Percentage, trigger the 50 percent minimum base floor, and artificially inflate the research credit yield. Similarly, under the acquisition and disposition rules of Section 41(f)(3) (known as the Major Portion Rule), when a taxpayer acquires or disposes of a major portion of a trade or business or a separate unit thereof, both the historical QREs and the historical gross receipts attributable to that acquired or disposed unit must be added to or subtracted from the taxpayer's base-period and trailing four-year figures to prevent structural <a href=\"/us/faq/rd-tax-credits-during-company-acquisition-ma\">M&A transactions</a> from creating artificial spikes or drops in the Fixed-Base Percentage."
+    },
+    {
+      "type": "subheading",
+      "text": "The Consistency Rule Under Section 41(c)(5) (Formerly Section 41(c)(6))"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most heavily litigated and strictly enforced provisions governing the Fixed-Base Percentage is the <a href=\"/us/glossary/consistency-rule\">Consistency Rule</a>, codified in the current Internal Revenue Code at 26 U.S.C. § 41(c)(5) (historically enacted and widely cited in judicial opinions and IRS guidance as Section 41(c)(6)) and amplified by Treas. Reg. § 1.41-3(d). Because the Fixed-Base Percentage establishes a historical benchmark of research intensity, the statute mandates that the QREs taken into account in computing the Fixed-Base Percentage must be determined on a basis consistent with the determination of QREs for the credit year, regardless of whether the statute of limitations for filing a claim or refund has expired for the historical base years."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical terms, if a taxpayer adopts a broader or more aggressive methodology for capturing QREs in the current credit year—such as including additional tiers of direct supervision engineering wages, prototype production supplies, or <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> development expenditures—the taxpayer is legally obligated to recalculate its 1984–1988 base period (or start-up phase-in base years) using that exact same methodology. That symmetrical recalculation increases the numerator of the Fixed-Base Percentage, driving up the base amount and moderating the current-year credit. In its Research Credit Claims Audit Techniques Guide (RCCATG), the IRS notes that taxpayers frequently attempt to use high-level estimates, historical tax return line items, or statistical extrapolation to compute base-year QREs while utilizing granular, time-tracked project data and interview-based cost-center surveys for current-year expenditures. The IRS explicitly rejects <a href=\"/us/glossary/irs-statistical-sampling\">statistical extrapolation</a> from later years backward into the 1984–1988 window as an acceptable method for establishing the Fixed-Base Percentage, placing the burden of proof entirely on the taxpayer to substantiate the historical consistency of the claim under Treas. Reg. § 1.41-3(d)."
+    },
+    {
+      "type": "heading",
+      "text": "Federal Judicial Interpretations and Case Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal appellate and trial courts have repeatedly adjudicated disputes over Section 41 substantiation, the Fixed-Base Percentage, start-up defaults, and the Consistency Rule, consistently construing Section 41 narrowly on the ground that tax credits and deductions are a matter of legislative grace."
+    },
+    {
+      "type": "subheading",
+      "text": "United States v. McFerrin (5th Cir. 2009)"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>United States v. McFerrin</em>, 570 F.3d 672 (5th Cir. 2009), the United States Court of Appeals for the Fifth Circuit addressed the fundamental tension between a taxpayer's entitlement to a research credit and the strict substantiation requirements of the Internal Revenue Code. While reinforcing the judicial principle that tax credits are narrowly construed and that the taxpayer bears the burden of proving entitlement, the Fifth Circuit invoked the <em>Cohan</em> rule (<em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930)), holding that if a taxpayer can definitively prove that qualified research activities occurred during the relevant period, the trial court should estimate the allowable tax credit even if exact <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous time-tracking records</a> are deficient, bearing heavily if it chooses upon the taxpayer whose inexactitude is of its own making."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, this estimation leniency does not excuse the taxpayer from properly applying the Fixed-Base Percentage mechanics or proving underlying activity qualification. The IRS routinely invokes the <em>McFerrin</em> standard to police the boundaries of qualified research, ensuring that only activities strictly satisfying all four statutory requirements of <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">Section 41(d)</a>—permitted purpose (new or improved function, performance, reliability, or quality), technological in nature (relying on hard sciences), elimination of uncertainty (concerning capability, method, or appropriate design), and process of experimentation—are included in the current-year QRE pool and the Fixed-Base Percentage numerator. Furthermore, where a taxpayer relies on <em>Cohan</em> estimation to <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">reconstruct current-year QREs</a> without applying the same estimation breadth to its base-period activities, the resulting asymmetry creates immediate exposure under the Consistency Rule."
+    },
+    {
+      "type": "subheading",
+      "text": "United States v. Davenport (N.D. Tex. 2012)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal district court decision in <em>United States v. Davenport</em>, 897 F. Supp. 2d 496 (N.D. Tex. 2012), demonstrates the severe consequences of failing to substantiate historical base-period data. During examination and litigation concerning the taxpayers' 2002 and 2003 tax returns, the government asserted that the taxpayers utilized an unsubstantiated Fixed-Base Percentage to calculate their <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">flow-through corporate research credits</a>. Because the taxpayers could not produce the requisite historical documentation to prove an established 1984–1988 base ratio, the government successfully argued that a 3.00 percent Fixed-Base Percentage had to apply, treating the entity as a start-up company under Section 41(c)(3)(B) for calculation purposes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Davenport</em> underscores a critical strategic vulnerability in IRS examinations: when historical ledgers cannot be produced and verified during an audit, the IRS will enforce either the statutory 3.00 percent start-up default (if the taxpayer qualifies under the initial five-year start-up window) or, where a taxpayer is an established company or a post-Year-5 start-up whose historical QRE ratio cannot be bounded below the statutory ceiling, the 16.00 percent statutory maximum cap under Section 41(c)(3)(C), depending on which statutory fallback applies to the taxpayer's posture. When a taxpayer claiming a low historical Fixed-Base Percentage (for example, 1.50%) is forced onto a higher statutory fallback percentage, the base amount multiplies accordingly, often wiping out 100 percent of the incremental QRE excess."
+    },
+    {
+      "type": "subheading",
+      "text": "Trinity Industries, Inc. v. United States (5th Cir. 2014)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Trinity Industries, Inc. v. United States</em>, 757 F.3d 426, No. 12-11012 (5th Cir. 2014), serves as the definitive appellate precedent on the application of the Consistency Rule under IRC § 41(c)(5) (cited in the opinion as § 41(c)(6)). Trinity Industries claimed research tax credits for the design and development of new <a href=\"/us/glossary/first-in-class-development\">first-in-class</a> shipbuilding vessels, utilizing a Fixed-Base Percentage of approximately 1.31 percent on its amended tax returns after including ten specific prototype vessels in its 1984–1988 base-period QRE calculations."
+    },
+    {
+      "type": "paragraph",
+      "text": "During a bifurcated bench trial, the federal district court ruled in Phase I that several vessels claimed in the credit years did not meet the definition of qualified research because they failed to rely on a process of experimentation for at least 80 percent (<a href=\"/us/glossary/substantially-all-rule\">\"substantially all\"</a>) of the project's total costs under an all-or-nothing prototype evaluation. In Phase II, Trinity argued that to maintain compliance with the Consistency Rule of Section 41(c)(5), it had to be permitted to remove four similarly situated vessels from its historical 1984–1988 base period, as those historical vessels would also fail the strict experimentation threshold applied by the district court in Phase I. Removing those four vessels from the 1984–1988 base period reduced Trinity's historical QRE numerator, lowering its Fixed-Base Percentage below 1.31 percent and thereby preserving a larger current-year credit on its remaining qualified vessel projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the district court initially refused to adjust the Fixed-Base Percentage in Phase II, the Fifth Circuit reversed and remanded on the Consistency Rule issue. The appellate court reinforced that the Consistency Rule is an absolute bilateral mandate: the exact same legal and technical standard used by the government or the court to disqualify current-year projects must be symmetrically applied to disqualify base-year projects, thereby recalibrating the Fixed-Base Percentage downward when credit-year scope is narrowed. <em>Trinity Industries</em> thus establishes that the Consistency Rule is both a sword for the IRS (when taxpayers expand current-year QREs) and a shield for taxpayers (when courts or examiners narrow the definition of qualified research in the credit year)."
+    },
+    {
+      "type": "subheading",
+      "text": "Union Carbide Corp. v. Commissioner (T.C. Memo. 2009-50)"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50, <em>aff'd</em>, 697 F.3d 104 (2d Cir. 2012), the United States Tax Court clarified the standard of technological uncertainty required for research to qualify under Section 41, while also addressing <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">plant-scale process improvements</a> and base-period consistency. The Tax Court rejected the stringent regulatory \"discovery test\" in favor of the statutory \"eliminate uncertainty\" test, holding that research need not discover information that exceeds the common knowledge of skilled professionals in the field, provided the activities rely on principles of physical, biological, computer, or engineering sciences to eliminate <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> regarding capability, method, or appropriate design."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, <em>Union Carbide</em> illustrated the peril of claiming process-improvement supplies consumed during commercial production runs without accounting for comparable historical plant trials in the 1984–1988 base period. The ruling directly impacts how taxpayers compute their Fixed-Base Percentage: adopting a broader definition of qualifying research in the credit year under the eliminate-uncertainty standard requires a corresponding expansion of historical base-year QREs to maintain strict alignment with the Consistency Rule."
+    },
+    {
+      "type": "heading",
+      "text": "State Conformity and Divergent Administrative Frameworks"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the federal statutory architecture governs national implementation of the credit, thirty-seven states administer localized R&D tax incentives. The majority of these states conform to the core federal definitions of IRC § 41 but impose strict geographical limitations on both QREs and gross receipts, or modify the base calculation mechanics altogether, fundamentally altering how the Fixed-Base Percentage operates at the state level."
+    },
+    {
+      "type": "subheading",
+      "text": "California: Revenue and Taxation Code Section 23609 and FTB Legal Ruling 2012-03-01"
+    },
+    {
+      "type": "paragraph",
+      "text": "The California Research and Development Credit under California Revenue and Taxation Code (R&TC) Section 23609 closely mirrors IRC § 41 but mandates that both qualified research and <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">basic research</a> be physically conducted strictly within the State of California. Consequently, when calculating the 15 percent California regular credit on Franchise Tax Board (FTB) Form 3523, both the Fixed-Base Percentage and the four-year trailing average annual gross receipts must be computed using exclusively California data."
+    },
+    {
+      "type": "paragraph",
+      "text": "For purposes of R&TC § 23609 and Form FTB 3523, California gross receipts are defined specifically as gross receipts from the sale of real, tangible, or intangible property held for sale to customers in the ordinary course of business that is delivered or shipped to a purchaser within California, regardless of the shipping terms or free-on-board (f.o.b.) shipping point. Notably, this destination-based tangible, intangible, and real property sales definition under R&TC § 23609(h)(3) often diverges from a taxpayer's general market-based sales factor apportionment numerator used on Schedule R, as services revenue and non-California destination sales are excluded from R&TC § 23609 gross receipts. The California Franchise Tax Board strictly enforces this geographic boundary, and a multi-state corporation that erroneously utilizes its consolidated federal gross receipts figure for the California base calculation distorts the incremental threshold and faces severe audit adjustments."
+    },
+    {
+      "type": "paragraph",
+      "text": "California also rigorously enforces the 50 percent mandatory minimum base floor rule, which resolves a critical mathematical anomaly for <a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">pre-revenue technology and life sciences startups</a>—as well as California R&D centers of corporations that ship 100 percent of their products to customers outside California—that perform extensive R&D in California while generating zero California gross receipts. Mathematically, dividing QREs by zero gross receipts is undefined, and multiplying a Fixed-Base Percentage by zero average annual gross receipts yields a preliminary base amount of zero. In Legal Ruling LDG 2012-03-01, the Franchise Tax Board ruled that for a taxpayer with zero California gross receipts, the calculated preliminary base amount defaults to zero, which immediately engages the statutory 50 percent minimum base floor. Thus, the taxpayer must use a California base amount equal to exactly 50 percent of its current-year California QREs, ensuring that even pre-revenue or out-of-state-shipping firms satisfy an incremental spending threshold before realizing the 15 percent California regular credit rate (yielding an effective net credit of 7.5 percent of total California QREs)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, unlike the federal code, California does not conform to the federal 14 percent Alternative Simplified Credit. Instead, through the enactment of Senate Bill 711, California introduced a state-level Alternative Simplified Credit at substantially lower rates: 3 percent of California QREs that exceed 50 percent of the taxpayer's average California QREs for the three preceding taxable years, or a start-up rate of 1.3 percent of current-year California QREs if the taxpayer has no prior-three-year California QREs. Because the 15 percent California regular credit (up to 7.5 percent net effective yield) dwarfs the 3 percent California ASC (1.5 percent net effective yield for steady spenders), California taxpayers have an overwhelming economic incentive to maintain and defend their California Fixed-Base Percentage calculations."
+    },
+    {
+      "type": "subheading",
+      "text": "Texas: Franchise Tax Subchapter M and Margin Apportionment"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2013, the Texas Legislature enacted House Bill 800, establishing an R&D tax incentive framework under Texas Tax Code Chapter 171, Subchapter M. Because Texas imposes a Franchise Tax (commonly known as the Margin Tax) rather than a traditional corporate income tax, the Texas program provides businesses a strategic mutual-exclusivity election for each reporting period: a taxpayer may claim either a state sales and use tax exemption on the purchase, lease, or rental of depreciable tangible personal property used directly in qualified research, or a Franchise Tax credit based on qualified research expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "When electing the Texas Franchise Tax Credit—administered by the Texas Comptroller of Public Accounts and claimed by filing Form 05-170 (Texas Franchise Tax Research and Development Activities Credits Schedule) alongside the Long Form (Form 05-900 / 05-158) or Form 05-915—the calculation conforms to the federal Fixed-Base Percentage architecture while strictly ring-fencing the inputs so that QREs must be incurred within Texas and gross receipts must be apportioned to Texas. Because the Texas regular credit rate is 5 percent of excess Texas QREs (or 6.25 percent under the state's alternative calculation method when contracting with a Texas institution of higher education), precision in calculating the Texas-specific base and Texas-apportioned gross receipts is essential to offsetting Margin Tax liability effectively. Texas tax law also permits taxpayers to integrate Title 2 historical provisions, such as solar and clean coal deductions, into margin apportionment, demonstrating the structural interaction between state margin apportionment and Subchapter M research tax incentives."
+    },
+    {
+      "type": "subheading",
+      "text": "Georgia: Three-Year Rolling Ratio Base and Payroll Withholding Offsets"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Georgia Research and Development Tax Credit (O.C.G.A. § 48-7-40.12) provides a 10 percent credit on the increase in Georgia QREs over a historically determined base amount, but it replaces the federal four-year gross receipts average and 1984–1988 window with a contemporary three-year trailing average of Georgia QRE-to-gross-receipts ratios multiplied by current-year Georgia gross receipts. Specifically, the Georgia base amount is calculated by multiplying the taxpayer's current-year Georgia gross receipts by a fixed-base percentage defined as the lesser of (a) the average of the ratios of aggregate Georgia QREs to Georgia gross receipts for the preceding three taxable years, or (b) a statutory ceiling of 30 percent (0.3000):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Base Amount<sub>Georgia</sub> = GR<sub>GA,t</sub> × min(0.3000, (1/3) × Σ<sub>i=1</sub><sup>3</sup> (QRE<sub>GA,t−i</sub> ÷ GR<sub>GA,t−i</sub>))"
+    },
+    {
+      "type": "paragraph",
+      "text": "This formula diverges structurally from federal IRC § 41(c)(1) and § 41(c)(3): whereas the federal statute computes the Fixed-Base Percentage as a single ratio of five-year aggregate QREs to five-year aggregate gross receipts (capped at 16 percent) and multiplies it by trailing four-year average gross receipts, Georgia computes the arithmetic mean of three individual annual ratios (capped at 30 percent) and multiplies that percentage by current-year Georgia gross receipts, without imposing a 50 percent minimum base floor. Consequently, for start-up companies with zero gross receipts in Georgia, the base amount may be treated as zero, enabling 100 percent of qualifying Georgia research expenses to receive the full 10 percent credit. A major financial advantage of the Georgia regime is its monetization flexibility: the credit can offset up to 50 percent of the company's net Georgia corporate income tax liability, and any remaining excess credit may be applied directly against Georgia state payroll withholding taxes, generating immediate operating cash flow."
+    },
+    {
+      "type": "subheading",
+      "text": "New York: Article 9-A Excelsior Jobs Program and Life Sciences Credits"
+    },
+    {
+      "type": "paragraph",
+      "text": "The New York State Department of Taxation and Finance administers research incentives primarily through the Excelsior Jobs Program and the Life Sciences Research and Development Tax Credit under Article 9-A of the corporate franchise tax. Rather than requiring taxpayers to compute a standalone New York Fixed-Base Percentage from 1984–1988 state records, the standard Excelsior research credit is statutorily defined as 50 percent of the portion of the taxpayer's federal research tax credit that is proportionally attributable to research expenditures conducted in New York State. This credit is fully refundable and statutorily capped at 6 percent of New York QREs for standard projects, or 8 percent of New York QREs for designated green projects aimed at reducing greenhouse gases or advancing clean energy technologies. By linking the state benefit directly to the federal IRC § 41(c)(3) calculation, New York reduces state-specific base substantiation burdens while preserving an incremental incentive."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <a href=\"/us/faq/rd-tax-credits-for-biotech-startups\">emerging biotechnology</a> and medical technology companies, New York also offers the Life Sciences Research and Development Tax Credit, which is available to certified new life sciences businesses and dispenses with the federal Fixed-Base Percentage calculation entirely while relying on federal definitions for underlying QREs. The Life Sciences credit uses a tiered rate structure based on workforce size: qualifying companies with fewer than 10 employees receive a 20 percent credit on New York QREs, whereas those with 10 or more employees receive a 15 percent credit, with the credit being fully refundable up to an annual cap of $500,000 per taxpayer."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "New York R&D Incentive Program",
+        "Target Taxpayer Profile",
+        "Credit Rate and Base Mechanics",
+        "Refundability and Statutory Cap"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Excelsior R&D Tax Credit (Standard)",
+            "Certified general corporate innovators in targeted industries",
+            "50% of the federal IRC § 41 credit attributable to NYS QREs (inherits federal FBP or ASC base)",
+            "Fully refundable; capped at 6% of NYS QREs"
+          ]
+        },
+        {
+          "cells": [
+            "Excelsior R&D Tax Credit (Green Project)",
+            "Certified clean energy and greenhouse gas reduction innovators",
+            "50% of the federal IRC § 41 credit attributable to NYS green project QREs",
+            "Fully refundable; capped at 8% of NYS QREs"
+          ]
+        },
+        {
+          "cells": [
+            "Life Sciences R&D Credit (&lt;10 Employees)",
+            "Certified new small biotech and medtech start-up entities",
+            "20% of current-year NYS QREs (no Fixed-Base Percentage base subtraction)",
+            "Fully refundable; capped at $500,000 per year"
+          ]
+        },
+        {
+          "cells": [
+            "Life Sciences R&D Credit (10+ Employees)",
+            "Certified mid-sized new biotech and life sciences entities",
+            "15% of current-year NYS QREs (no Fixed-Base Percentage base subtraction)",
+            "Fully refundable; capped at $500,000 per year"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Indiana: Indiana Code 6-3.1-4 and Historical Discovery Test Enforcement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indiana administers a state-level research expense credit codified at Indiana Code (IC) 6-3.1-4 (also referenced in administrative materials alongside IC 6-3-3) that requires the calculation of an Indiana-specific Fixed-Base Percentage utilizing solely Indiana QREs and Indiana gross receipts. The Indiana Department of Revenue (IDOR) has historically pursued stringent audit enforcement regarding substantiation and base-period documentation. For taxable years prior to 2016, IDOR frequently invoked Treasury Decision (T.D.) 8930 to impose the highly restrictive \"discovery test,\" requiring taxpayers to prove that their research sought to discover information exceeding the common knowledge of skilled professionals in the field. Although the federal courts and the IRS retreated from the severity of the discovery test in favor of the eliminate-uncertainty standard, its historical application in Indiana underscores how aggressive scrutiny of the QRE numerator can collapse a taxpayer's state Fixed-Base Percentage and trigger credit disallowances. Aligning with the federal system, Indiana also enacted an Indiana Alternative Simplified Credit providing a 10 percent credit on current-year Indiana QREs that exceed 50 percent of the taxpayer's average Indiana QREs for the three preceding taxable years, offering relief from historical Fixed-Base Percentage calculations."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jurisdiction",
+        "Statutory Authority",
+        "Fixed-Base Percentage / Base Period Architecture",
+        "Geographic Sourcing Rule",
+        "Regular / Primary Credit Rate",
+        "Alternative / Simplified Credit Rate"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Federal",
+            "26 U.S.C. § 41(c)(3)",
+            "1984–1988 QRE-to-Gross-Receipts ratio (capped at 16%) or 11-year Start-Up Phase-In × 4-year trailing average gross receipts (50% QRE minimum floor)",
+            "U.S. domestic QREs; worldwide gross receipts (ECI only for foreign corps under § 41(c)(6))",
+            "20%",
+            "14% (or 6% with no prior-3-year QREs)"
+          ]
+        },
+        {
+          "cells": [
+            "California",
+            "Cal. R&TC § 23609 (Form FTB 3523)",
+            "Mirrors federal FBP structure and 50% minimum base floor (FTB Legal Ruling LDG 2012-03-01 enforces 50% floor when CA gross receipts equal zero)",
+            "CA-only QREs; CA destination-sourced sales of tangible/intangible/real property",
+            "15%",
+            "3% (or 1.3% with no prior-3-year QREs under SB 711)"
+          ]
+        },
+        {
+          "cells": [
+            "Texas",
+            "Tex. Tax Code Ch. 171, Sub. M (Forms 05-170, 05-900, 05-915)",
+            "Mirrors federal FBP structure applied to Texas Franchise Tax (Margin Tax) or elective sales tax exemption",
+            "Texas-only QREs and Texas-apportioned gross receipts",
+            "5%",
+            "6.25% (alternative / higher-ed rate)"
+          ]
+        },
+        {
+          "cells": [
+            "Georgia",
+            "O.C.G.A. § 48-7-40.12",
+            "Current-year GA gross receipts × lesser of (a) prior 3-year average ratio of GA QREs to GA gross receipts, or (b) 30% cap",
+            "Georgia-only QREs and Georgia gross receipts",
+            "10% (offsets up to 50% of income tax + payroll withholding)",
+            "N/A (single rolling 3-year ratio method)"
+          ]
+        },
+        {
+          "cells": [
+            "New York",
+            "N.Y. Tax Law Art. 9-A",
+            "Piggybacks on federal IRC § 41 calculation for Excelsior; no base subtraction for Life Sciences credit",
+            "NYS-apportioned share of federal credit (Excelsior) or NYS QREs (Life Sciences)",
+            "50% of NYS share of federal credit (capped at 6% or 8% of NYS QREs)",
+            "20% (&lt;10 employees) or 15% (10+ employees) for Life Sciences"
+          ]
+        },
+        {
+          "cells": [
+            "Indiana",
+            "Ind. Code § 6-3.1-4 (cited with IC 6-3-3)",
+            "Indiana-specific FBP using 1984–1988 or start-up rules; historically audited under T.D. 8930 discovery test pre-2016",
+            "Indiana-only QREs and Indiana gross receipts",
+            "Indiana Regular Tiered Credit",
+            "10% of excess over 50% of prior 3-year Indiana QRE average"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Hypothetical Worked Example: Form 6765 Section A Regular Credit Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mathematical application of 26 U.S.C. § 41(c)(3) and its <a href=\"/us/faq/irs-form-6765-instructions-2024\">reporting mechanics on IRS Form 6765</a> (<em>Credit for Increasing Research Activities</em>), consider a hypothetical domestic technology firm, TechNova Corporation, which has conducted continuous research since 1982 and therefore computes its Fixed-Base Percentage as an established taxpayer under Section 41(c)(3)(A)."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Fact Pattern and Step-by-Step Mathematical Verification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume that TechNova Corporation's contemporaneous financial ledgers from the 1984–1988 base period substantiate aggregate QREs (QRE<sub>1984–1988</sub>) of $4,000,000 (determined on a basis consistent with current-year QRE accounting under the Consistency Rule) and aggregate gross receipts (GR<sub>1984–1988</sub>) of $50,000,000. During the current taxable year, TechNova incurs $2,000,000 in QREs (QRE<sub>current</sub>, reported on Form 6765, Line 9), and its annual gross receipts, net of returns and allowances under Treas. Reg. § 1.41-3(c), for the four immediately preceding taxable years (GR<sub>t−4</sub>, GR<sub>t−3</sub>, GR<sub>t−2</sub>, GR<sub>t−1</sub>) were $13,000,000, $14,500,000, $15,500,000, and $17,000,000, respectively."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Step 1, TechNova calculates its Fixed-Base Percentage by dividing its 1984–1988 aggregate QREs ($4,000,000) by its 1984–1988 aggregate gross receipts ($50,000,000), deriving a ratio of 0.0800, or 8.00 percent. Because 8.00 percent satisfies the four-decimal rounding rule of Section 41(c)(3)(D) and falls below the 16.00 percent maximum statutory cap of Section 41(c)(3)(C), 8.00% is entered on Form 6765, Line 10. In Step 2, TechNova determines its average annual gross receipts for the four preceding taxable years by summing $13,000,000, $14,500,000, $15,500,000, and $17,000,000 ($60,000,000 total) and dividing by 4, yielding $15,000,000, which is entered on Form 6765, Line 11. In Step 3, TechNova computes its preliminary base amount by multiplying the Line 10 Fixed-Base Percentage (8.00%) by the Line 11 average annual gross receipts ($15,000,000), resulting in a preliminary base amount of $1,200,000 on Form 6765, Line 12."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Steps 4 through 6, TechNova applies the 50 percent minimum base floor rule of 26 U.S.C. § 41(c)(2). Under the statutory formula of Section 41(c)(2), the mandatory minimum floor equals 50 percent of current-year QREs (0.50 × $2,000,000 = $1,000,000), and because the calculated base amount of $1,200,000 is strictly greater than the $1,000,000 minimum floor, the statute requires using the greater base figure of $1,200,000, leaving excess QREs of $800,000 ($2,000,000 − $1,200,000). On the physical layout of IRS Form 6765 (Section A), the form operationalizes this exact statutory constraint by comparing excess QREs rather than base amounts: Line 13 subtracts the Line 12 base amount ($1,200,000) from Line 9 current-year QREs ($2,000,000) to show preliminary excess QREs of $800,000; Line 14 multiplies Line 9 current-year QREs by 50 percent to establish maximum creditable QREs of $1,000,000; and Line 15 instructs the taxpayer to enter the smaller of Line 13 or Line 14, yielding $800,000 of creditable excess QREs. Both mathematical formulations are algebraically identical:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creditable Excess QREs = QRE<sub>current</sub> − max(Base Amount, 0.50 × QRE<sub>current</sub>) = min(QRE<sub>current</sub> − Base Amount, 0.50 × QRE<sub>current</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "$2,000,000 − max($1,200,000, $1,000,000) = min($800,000, $1,000,000) = $800,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, in Step 7, TechNova multiplies the $800,000 of creditable excess QREs by the 20 percent statutory credit rate under Section 41(a)(1), yielding a final gross federal Regular Research Credit of $160,000 (prior to any <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC § 280C(c)</a> reduced credit election)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Statutory / Form 6765 Component",
+        "Mathematical Formula Applied",
+        "Verified Result"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "Line 10: Fixed-Base Percentage",
+            "FBP = QRE<sub>1984–1988</sub> ÷ GR<sub>1984–1988</sub> = $4,000,000 ÷ $50,000,000",
+            "8.00%"
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Line 11: Average Annual Gross Receipts (Prior 4 Years)",
+            "GR̄<sub>4 yr</sub> = ($13M + $14.5M + $15.5M + $17M) ÷ 4",
+            "$15,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "Line 12: Preliminary Base Amount",
+            "Line 10 × Line 11 = 8.00% × $15,000,000",
+            "$1,200,000"
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "Statutory Minimum Floor / Form 6765 Line 14",
+            "0.50 × Line 9 QRE<sub>current</sub> = 0.50 × $2,000,000",
+            "$1,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Effective Base Amount (IRC § 41(c)(2))",
+            "max(Line 12, Line 14) = max($1,200,000, $1,000,000)",
+            "$1,200,000"
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "Creditable Excess QREs (Form 6765 Line 13 / Line 15)",
+            "min(Line 9 − Line 12, Line 14) = min($800,000, $1,000,000)",
+            "$800,000"
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Final Gross Regular Research Credit",
+            "0.20 × Line 15 = 0.20 × $800,000",
+            "$160,000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If TechNova had engaged in aggressive tax planning by inflating its current-year QREs to $3,000,000 without re-validating and adjusting its 1984–1988 base-period ledgers under the Consistency Rule, an IRS examiner would disallow the unsubstantiated incremental claim for violating IRC § 41(c)(5) (formerly § 41(c)(6)) and assess accuracy-related penalties."
+    },
+    {
+      "type": "heading",
+      "text": "IRS Examination Standards, Audit Techniques Guides, and Specialized Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers claiming the Regular Research Credit must be prepared to defend both their Fixed-Base Percentage and their current-year expenditures against intensive examination governed by the IRS Audit Techniques Guide (ATG)."
+    },
+    {
+      "type": "subheading",
+      "text": "IRS Audit Techniques Guide Substantiation Mandates"
+    },
+    {
+      "type": "paragraph",
+      "text": "The IRS Audit Techniques Guide directs examiners to focus <a href=\"/us/glossary/information-document-request-idr\">Information Document Requests (IDRs)</a> on the statutory pillars of the Section 41(d) four-part test, particularly scrutinizing the \"process of experimentation\" and the \"elimination of technological uncertainty\". The ATG emphasizes that a defensible <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> must be systematic and iterative—involving the formulation of hypotheses, modeling or simulation, systematic testing of design alternatives, and failure analysis—rather than a linear engineering design process."
+    },
+    {
+      "type": "paragraph",
+      "text": "When examining the Fixed-Base Percentage, IRS agents use IDRs to demand historical general ledgers, W-2 payroll registers, and <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous project documentation</a> from the 1984–1988 base period (or start-up phase-in years) to verify that the Consistency Rule has been honored. The ATG explicitly instructs examiners to reject high-level estimates or top-down percentage allocations for wage calculations, requiring instead that labor accounting systems employ granular, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">activity-level time tracking</a> that links employee compensation directly to the resolution of technological uncertainty. Inadequate responses to these IDRs can expand the scope of an examination and expose the entire Fixed-Base Percentage calculation to disallowance."
+    },
+    {
+      "type": "subheading",
+      "text": "Specialized Advisory Methodologies in R&D Tax Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Navigating the intersection of Section 41(c)(3) historical base calculations, the Consistency Rule, and divergent state conformity regimes requires specialized technical and legal workflows that extend beyond manual expense aggregation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory or Administrative Domain",
+        "Governing Authority",
+        "Core Technical Mandate",
+        "Examination and Audit Consequence"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Established Entity Fixed-Base Percentage",
+            "26 U.S.C. § 41(c)(3)(A), (C), (D)",
+            "Ratio of 1984–1988 aggregate QREs to 1984–1988 aggregate gross receipts, rounded to 0.01% and capped at 16.00%.",
+            "Failure to substantiate historical ledgers triggers fallback to statutory maximums or start-up default adjustments under <em>Davenport</em>."
+          ]
+        },
+        {
+          "cells": [
+            "Start-Up Entity Phase-In Schedule",
+            "26 U.S.C. § 41(c)(3)(B)(i)–(ii)",
+            "3.00% default for first 5 post-1993 QRE years; fractional scaling (1/6, 1/3, 1/2, 2/3, 5/6) in Years 6–10; 5-of-6-year selection in Year 11+.",
+            "Miscounting historical QRE years or omitting pre-acquisition controlled group history distorts the fractional phase-in tier."
+          ]
+        },
+        {
+          "cells": [
+            "Minimum Base Amount Floor",
+            "26 U.S.C. § 41(c)(2); Cal. FTB Legal Ruling LDG 2012-03-01",
+            "Base amount cannot be less than 50% of current-year QREs (caps net Regular Credit at 10% federally and 7.5% in California).",
+            "Pre-revenue or zero-state-receipts entities must still absorb 50% of current QREs into the base amount."
+          ]
+        },
+        {
+          "cells": [
+            "Gross Receipts Definition & Exclusions",
+            "Treas. Reg. § 1.41-3(c); 26 U.S.C. § 41(c)(6), § 41(f)(4)",
+            "Net of returns and allowances, prior to COGS deduction; excludes § 1221 capital assets, loans, non-ordinary sales, capital returns, and tax-exempt income.",
+            "Deducting COGS or failing to annualize short taxable years distorts both the FBP denominator and 4-year trailing receipts."
+          ]
+        },
+        {
+          "cells": [
+            "Controlled Group & Bilateral Consistency",
+            "26 U.S.C. § 41(f)(1), § 41(c)(5) (formerly § 41(c)(6)); <em>Trinity Industries</em>",
+            "Single-taxpayer group aggregation disregarding intra-group transfers; symmetrical QRE definition across base and credit years.",
+            "Expanding credit-year QRE capture requires base-period upward adjustment; narrowing credit-year projects allows base-period removal."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Synthesis and Analytical Conclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "A comprehensive technical evaluation of 26 U.S.C. § 41(c)(3) demonstrates that the Fixed-Base Percentage is not merely an arithmetic ratio, but the central legislative gatekeeper that determines whether a taxpayer's research spending is genuinely incremental relative to its historical economic footprint. Synthesizing the federal statutory rules, Treasury Regulations, judicial precedents, and state conformity regimes yields three foundational conclusions for corporate tax administration."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, corporate taxpayers face an inescapable structural trade-off between maximizing credit yield under the 20 percent Regular Research Credit and minimizing historical substantiation risk under the 14 percent Alternative Simplified Credit. While the Regular Research Credit frequently delivers a higher net tax benefit (up to 10 percent of total QREs), claiming it requires unimpeachable archival documentation of 1984–1988 or start-up phase-in QREs and gross receipts, properly adjusted for returns, allowances, and regulatory exclusions under Treas. Reg. § 1.41-3(c) without improper reductions for Cost of Goods Sold. Where historical ledgers have been lost to corporate restructurings or system migrations, electing the ASC under Section 41(c)(4) eliminates base-period Fixed-Base Percentage exposure entirely."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, as cemented by the Fifth Circuit in <em>Trinity Industries</em>, the Consistency Rule of Section 41(c)(5) (formerly § 41(c)(6)) operates as an absolute bilateral equilibrium. Taxpayers cannot expand current-year QRE capture methodologies without symmetrically expanding base-period QRE numerators, nor can taxing authorities impose a restrictive technical standard to disqualify credit-year projects without permitting the removal of identically situated projects from the historical base period."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, multi-state enterprises must maintain strictly segregated state-level Fixed-Base Percentage and gross receipts workpapers. Whether applying California's destination-sourced gross receipts definition and FTB Legal Ruling LDG 2012-03-01 zero-receipts 50 percent floor, electing between Texas Subchapter M franchise tax credits and sales tax exemptions, computing Georgia's three-year rolling ratio capped at 30 percent for payroll withholding offsets, leveraging New York's refundable Excelsior and Life Sciences credits, or navigating Indiana's historical substantiation standards, precision in state-specific base modeling is essential to defensible R&D tax monetization."
+    }
+  ]
+}

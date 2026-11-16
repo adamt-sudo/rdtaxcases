@@ -2,6 +2,8 @@ export type InlineNode =
   | { t: "text"; s: string }
   | { t: "em"; c: InlineNode[] }
   | { t: "strong"; c: InlineNode[] }
+  | { t: "sub"; c: InlineNode[] }
+  | { t: "sup"; c: InlineNode[] }
   | { t: "a"; href: string; external: boolean; c: InlineNode[] };
 
 export const ALLOWED_HOSTS: string[];

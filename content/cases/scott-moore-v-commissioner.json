@@ -8,432 +8,608 @@
   "subject": "Qualified Research Expenses / Officer Wages",
   "jurisdictionGroup": "usa-federal",
   "jurisdictionSlug": "federal",
-  "summary": "Explored the boundaries of the process of experimentation test in the context of custom product development and engineering.",
+  "summary": "Scott Moore v. Commissioner is a U.S. Tax Court decision (T.C. Memo. 2023-20), affirmed by the Seventh Circuit in 2024, on R&D tax credit claims under IRC Section 41. It applies to businesses claiming executive compensation as qualified research expenses. The key takeaway: without records showing how much time went to qualified research, the entire claim can be disallowed.",
   "body": [
     {
+      "type": "heading",
+      "text": "1. Executive Summary & Case Background"
+    },
+    {
       "type": "paragraph",
-      "text": "The landscape of federal tax controversy regarding the Research and Development (R&D) tax credit under Section 41 of the Internal Revenue Code has undergone a profound transformation, marked by a decisive shift toward heightened evidentiary standards and the necessity for granular, contemporaneous documentation. At the center of this evolution is the landmark case of Scott Moore and Gayla Moore v. Commissioner, T.C. Memo. 2023-20, which was subsequently affirmed by the United States Court of Appeals for the Seventh Circuit in 2024. This case serves as a definitive bellwether for taxpayers, particularly those in the middle market and those utilizing pass-through entities, by illustrating the fatal consequences of failing to maintain task-specific records for high-level executives. As the Internal Revenue Service continues an unprecedented winning streak in R&D litigation, the Moore decision provides a masterclass in the application of the four-part test, the \"one-up\" rule of direct supervision, and the absolute burden of proof placed upon the taxpayer to quantify qualified research activities with mathematical precision."
+      "text": "The litigation in <em>Scott Moore and Gayla Moore v. Commissioner of Internal Revenue</em>—adjudicated initially by the United States Tax Court in T.C. Memo. 2023-20 (Docket No. 18632-19, decided February 23, 2023, Opinion by Judge John O. Colvin) and unanimously affirmed by the United States Court of Appeals for the Seventh Circuit in No. 23-2681 (133 AFTR 2d 2024-1457, decided April 30, 2024, Opinion by Circuit Judge Frank H. Easterbrook)—stands as a defining modern precedent in United States federal research and development (R&D) tax credit jurisprudence. Read alongside the Seventh Circuit's separate ruling in Little Sandy Coal Co. v. Commissioner, 62 F.4th 287 (7th Cir. 2023)—which addressed whether a shipbuilder's <a href=\"/us/glossary/first-in-class-development\">first-in-class vessels</a> satisfied the \"substantially all\" process-of-experimentation requirement and which is not cited in the Seventh Circuit's Moore opinion—the Moore decisions establish an uncompromising evidentiary threshold for taxpayers seeking to include high-level executive compensation within qualified research expenses (QREs) under Internal Revenue Code (IRC) Section 41."
+    },
+    {
+      "type": "subheading",
+      "text": "Corporate Structure and the Taxpayer's Claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 2014 and 2015 tax years at issue, Petitioner Gayla Moore was the sole shareholder and Chief Executive Officer (CEO) of Nevco, Inc. (Nevco), a Subchapter S corporation headquartered in Greenville, Illinois. Her husband, Petitioner Scott Moore, served as Nevco's Vice President of Strategic Initiatives. Nevco engaged in the design, engineering, and manufacture of athletic scoreboards, LED video displays, scoring control consoles, and related audio and structural equipment utilized in indoor and outdoor sports venues. Because Nevco operated as an <a href=\"/us/glossary/pass-through-entity-rd-credit\">S corporation</a>, all federal income tax attributes and tax credits claimed on its Forms 1120S (<em>U.S. Income Tax Return for an S Corporation</em>) flowed through directly to Gayla Moore and were reported on the couple's joint individual Forms 1040 (<em>U.S. Individual Income Tax Return</em>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Confronted with intensifying market competition and a perceived lag in product innovation, Nevco had previously retained an outside consultant, Gary Robert, between 2004 and 2006 to advise the company on personnel and inventory requirements. Nevco subsequently hired Mr. Robert as its Chief Operating Officer (COO) in 2006, and during the 2014 and 2015 tax years, he served concurrently as Nevco's President and COO, reporting directly to Ms. Moore. In this dual executive capacity, Mr. Robert devoted a substantial majority of his professional efforts to spearheading new product development. Nevco paid Mr. Robert base salary compensation of $85,092 in 2014 and $178,956 in 2015, supplemented by substantial performance bonuses."
+    },
+    {
+      "type": "paragraph",
+      "text": "On its 2014 and 2015 Forms 1120S, prepared by an external accounting firm, Nevco claimed federal research tax credits under <a href=\"/us/glossary/irc-section-41\">IRC Section 41</a>. For the 2014 tax year, Nevco computed its credit using the regular research credit methodology under Section 41(a)(1), relying on the statutory 1984–1988 base period to establish its <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">fixed-base percentage</a>. For the 2015 tax year, Nevco elected the <a href=\"/us/glossary/alternative-simplified-credit-asc\">Alternative Simplified Credit (ASC)</a> methodology under Section 41(c)(5). In compiling its in-house wage QREs, Nevco included 65% of Mr. Robert's total compensation (base salary and bonuses), predicated on oral assertions that Mr. Robert spent between 50% and 65% of his time directing, supervising, or participating in new product development across several hardware and software initiatives, most notably five flagship projects examined at trial: the <em>Scoreboard Truss</em>, <em>Scorbitz</em>, the <em>New Caney Ribbon Board</em>, the <em>MPCX-2</em> control console, and the <em>Slim Shot Clock</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon examination of the Moores' 2014 and 2015 tax returns, the Internal Revenue Service (IRS) scrutinized Nevco's wage QRE allocations. Importantly, the Commissioner did not dispute that Nevco conducted qualified research during 2014 and 2015; in fact, the IRS allowed the <a href=\"/us/glossary/qualified-research-expenses-qre\">wage QREs</a> claimed for Nevco's Director of Engineering, Dave Paslay, as well as the wages of several staff engineers who executed the technical design and testing work. However, the Commissioner disallowed 100% of the claimed QREs attributable to Gary Robert's compensation, issuing a statutory Notice of Deficiency determining individual income tax deficiencies against Scott and Gayla Moore of $68,263 for 2014 and $141,945 for 2015."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court's rejection of the claim, as later summarized by the Seventh Circuit, rested on three interrelated legal and factual grounds. First, despite the recordkeeping mandate of Treasury Regulation Section 1.41-4(d), Mr. Robert lacked written records of how he spent his time; Nevco's payroll records logged how much time employees worked, but not the tasks they performed or supervised. Second, while the Commissioner acknowledged that Mr. Robert spent a lot of time conducting or supervising research, Mr. Robert could not estimate, even approximately, how much of his time was devoted to \"qualified\" research, and the taxpayers failed to demonstrate or reliably estimate what specific fraction of Mr. Robert's activities met the statutory definition of \"qualified research\" under Section 41(d)—specifically, activities resolving technological uncertainty through a structured process of experimentation. Third, under Section 41(b)(2)(B)(ii) and Treasury Regulation Section 1.41-2(c)(2), Mr. Robert did not engage in either \"direct supervision\" or \"direct support\" of Dave Paslay, Nevco's director of engineering, whose salary the Commissioner was willing to treat as a qualified research expense; the Tax Court concluded that Mr. Robert was a \"higher-level manager\" excluded from the definition of direct supervision and that he did not directly supervise or support persons performing <a href=\"/us/glossary/qualified-services\">qualified services</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory and Regulatory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under United States federal tax law, IRC Section 38(b)(4) and Section 41(a)(1) permit a taxpayer to claim a general business credit equal to 20% of the amount by which the taxpayer's QREs for the taxable year exceed a statutory <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a>:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternatively, under the ASC methodology elected by Nevco in 2015 pursuant to Section 41(c)(5) (subsequently codified at <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Section 41(c)(4)</a>), the credit equals 14% of the QREs that exceed 50% of the average QREs for the three preceding taxable years:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pursuant to <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Section 41(b)(1)(A)</a> and Section 41(b)(2)(A)(i), a taxpayer's QREs include \"in-house research expenses,\" which encompass \"any wages paid or incurred to an employee for qualified services performed by such employee\". Section 41(b)(2)(D)(i) cross-references Section 3401(a) to define <a href=\"/us/glossary/qualified-wages\">wages</a> as all remuneration for services performed by an employee, including salaries and bonuses. Under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">Section 41(b)(2)(B)</a>, \"qualified services\" are strictly bifurcated into two statutory categories: engaging in the actual conduct of qualified research under clause (i), or engaging in the \"direct supervision or direct support\" of research activities which constitute qualified research under clause (ii). Treasury Regulation Section 1.41-2(d)(1)–(2) dictates that if an employee performs both qualified services and non-qualified services during a taxable year, only the amount of wages apportioned to the performance of qualified services constitutes an in-house research expense, unless at least 80% (\"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\") of the employee's total services during the year constitute qualified services, in which case 100% of the employee's wages qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "For underlying activities to constitute \"qualified research\" under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)</a>, the taxpayer must satisfy the conjunctive Four-Part Test separately for each \"business component,\" which Section 41(d)(2)(B) defines as any product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used in the taxpayer's trade or business. First, under the Section 174 Test of Section 41(d)(1)(A), the expenditures must be eligible to be treated as specified research or experimental expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a>, which Treasury Regulation Section 1.174-2(a)(1) defines as costs incurred in the experimental or laboratory sense aimed at eliminating uncertainty concerning the development or improvement of a product. While claiming the Section 41 credit is elective, for tax years beginning after December 31, 2021, the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act of 2017</a> mandated that domestic Section 174 expenditures be capitalized and amortized, underscoring the heightened compliance interplay between Sections 41 and 174 (which subsequent legislative enactments such as Section 174A have further addressed for domestic research while retaining 15-year amortization for foreign expenditures)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, under the <a href=\"/us/glossary/technological-in-nature\">Technological in Nature Test</a> of Section 41(d)(1)(B)(i) and Treasury Regulation Section 1.41-4(a)(4), the research must be undertaken for the purpose of discovering information that is technological in nature, meaning the activity must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science. Third, under the Business Component and Permitted Purpose Test of Section 41(d)(1)(B)(ii) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">Section 41(d)(3)(A)</a>, the application of the research must be intended to be useful in the development of a new or improved business component of the taxpayer, specifically relating to a new or improved function, performance, reliability, or quality. Fourth, under the <a href=\"/us/glossary/process-of-experimentation\">Process of Experimentation Test</a> of Section 41(d)(1)(C), \"substantially all\" of the research activities must constitute elements of a process of experimentation. Under Treasury Regulation Section 1.41-4(a)(5)(i), a process of experimentation requires the identification of technical uncertainty regarding capability, method, or appropriate design, the identification of one or more alternatives intended to eliminate that uncertainty, and the systematic evaluation of those alternatives through modeling, simulation, or a systematic trial-and-error methodology. Under Treasury Regulation Section 1.41-4(a)(6), the \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" requirement is satisfied only if 80% or more of the research activities, measured on a cost or other consistently applied reasonable basis, constitute elements of a process of experimentation:"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a broader product fails the Four-Part Test—typically because less than 80% of the total activities on the overall product involve experimentation—Treasury Regulation Section 1.41-4(b)(2), known as the <a href=\"/us/glossary/shrink-back-rule\">Shrink-Back Rule</a>, directs that the requirements be applied at the next most significant subset of elements (subcomponent) of the product until either a qualifying subcomponent is isolated or the most basic element fails to qualify. Finally, every Section 41 claim is governed by Treasury Regulation Section 1.41-4(d) and IRC Section 6001, which require the taxpayer to retain records in \"sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\"."
+    },
+    {
+      "type": "subheading",
+      "text": "The Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Following a trial on the merits, the United States Tax Court ruled entirely in favor of the Commissioner, holding that no portion of Gary Robert's 2014 or 2015 compensation qualified as QREs under Section 41. Judge Colvin evaluated the five flagship products on a product-by-product basis and concluded that while Mr. Robert was heavily involved in new product development, the Moores failed to establish that he engaged in the \"direct supervision\" or \"direct support\" of qualified research under Section 41(b)(2)(B)(ii), and further failed to provide any evidentiary basis to determine what portion of his direct activities constituted statutory \"qualified research\" under Section 41(b)(2)(B)(i)."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the Seventh Circuit affirmed the Tax Court's judgment in its entirety, while expressly limiting its discussion to only one of the Tax Court's three reasons—Mr. Robert's inability to estimate, even approximately, how much of his time was devoted to qualified research—and stating that otherwise the Tax Court's opinion speaks for itself. Writing for the appellate panel, Judge Easterbrook observed that while both parties agreed Mr. Robert spent substantial time conducting or supervising research in a colloquial sense, the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Section 41(a)(1)</a> credit is limited to 20% of the increase over a base amount, so calculating it requires accurate details about <em>qualified</em> research. As the Seventh Circuit famously summarized, <em>\"To do the math, one needs accurate details,\" and, in the next paragraph of its opinion, it noted that \"The Tax Court found it impossible to answer the 'was it qualified?' and 'how much?' questions\"</em>. Rejecting the Moores' argument that the Tax Court committed an error of law, the Seventh Circuit applied the Supreme Court's framework in <em>U.S. Bank, N.A. v. Village at Lakeridge, LLC</em>, 583 U.S. 387, 395–96 (2018), holding that determining whether work is qualified and how much time was spent on it are case-specific factual findings subject to review only for \"clear error\". Because the Moores bore both the burden of production and the burden of persuasion under Tax Court Rule 142(a) and failed to provide written records or credible estimates of Mr. Robert's experimental time, the Tax Court's factual findings were dispositive against them."
     },
     {
       "type": "heading",
-      "text": "The Statutory Architecture of the Section 41 Research Credit"
+      "text": "2. Core Legal & Evidentiary Failures"
     },
     {
       "type": "paragraph",
-      "text": "To appreciate the gravity of the Moore decision, one must first navigate the complex statutory and regulatory framework that governs the credit for increasing research activities. Section 41 was enacted to stimulate business investment in technological innovation by providing a credit against tax for expenses incurred in performing qualified research. This credit is inherently incremental, rewarding taxpayers who exceed a historical base level of R&D spending, thereby fostering continuous advancement in American industry."
+      "text": "The total disallowance of Gary Robert's compensation in <em>Scott Moore v. Commissioner</em> did not stem from an absence of innovation at Nevco; rather, it resulted from five compounding legal, technical, organizational, and evidentiary failures that severed the nexus between Nevco's commercial engineering projects and the statutory text of IRC Section 41."
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 Conflation of Broad \"New Product Development\" with Statutory \"Qualified Research\""
     },
     {
       "type": "paragraph",
-      "text": "Qualified research expenditures (QREs) are generally categorized into in-house research expenses and contract research expenses. In-house expenses are the primary focus of the Moore litigation and comprise wages paid to employees for qualified services, the costs of supplies used in the conduct of research, and computer rental or leasing costs. Section 41(b)(2)(B) meticulously defines \"qualified services\" as activities consisting of engaging in qualified research, or the direct supervision or direct support of research activities which themselves constitute qualified research."
+      "text": "The foundational substantive error committed by the taxpayers and their tax return preparers was equating the commercial concept of \"new product development\" (NPD) with the narrow statutory definition of \"qualified research\" under IRC Section 41(d). At trial, the Moores presented <a href=\"/us/glossary/credible-oral-testimony\">credible oral testimony</a> establishing that Mr. Robert spent 50% to 65% of his working hours on new product development, and they claimed 65% of his total compensation as QREs accordingly. The Tax Court found that Mr. Robert focused a majority of his time on new product development, and the Seventh Circuit noted that the Commissioner acknowledged Mr. Robert spent a lot of time conducting or supervising research. However, the Tax Court was careful to distinguish qualified research from the broader category of new product development, which, as a commercial matter, can encompass a vast array of lifecycle activities—including market opportunity analysis, product ideation, functional requirement definition, aesthetic and ergonomic design, component sourcing, vendor negotiation, cost-of-goods-sold (COGS) optimization, production tooling, inventory planning, and commercial launch management—that fall outside IRC Section 41."
     },
     {
       "type": "paragraph",
-      "text": "The qualification of an activity hinges on a rigorous four-part test, which is applied at the level of the \"business component\"—defined as any product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in its trade or business."
+      "text": "In its product-by-product examination of the <em>Scoreboard Truss</em>, <em>Scorbitz</em>, <em>New Caney Ribbon Board</em>, <em>MPCX-2</em>, and <em>Slim Shot Clock</em>, the Tax Court noted that Mr. Robert made various executive decisions regarding the design and development of those products. Crucially, on the <em>Scorbitz</em> project—a wireless hardware and software system designed to transmit real-time scoreboard data to spectators' mobile devices—Mr. Robert's contributions were significant enough that he was named as an inventor on the resulting United States patent. Yet the Tax Court, while acknowledging that some of Mr. Robert's activities—such as his Scorbitz contributions—may have constituted qualified research, found that the same testimony also described product development activities that were not qualified research, such as second-level oversight of the engineering team, so his involvement in a patented project did not establish what portion of his time constituted \"qualified research\". Even where some of Mr. Robert's technical contributions to <em>Scorbitz</em> or the other four products may have crossed the threshold into qualified research, his 65% time allocation lumped all commercial, managerial, and non-experimental NPD tasks into a single undifferentiated bucket."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Failure to Prove a Structured Process of Experimentation and Omit Subcomponent \"Shrink-Back\" Isolation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(d)(1)(C) and Treasury Regulation Section 1.41-4(a)(5), qualified research requires not merely technical problem-solving, but a structured process of experimentation undertaken to <a href=\"/us/glossary/elimination-of-uncertainty\">eliminate technical uncertainty</a> concerning capability, method, or appropriate design, wherein 80% (\"substantially all\") of the research activities on the business component constitute elements of that experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, Judge Easterbrook zeroed in on this exact failure, noting that while the Moores insisted Mr. Robert conducted or supervised \"research,\" none of the evidence introduced at trial established what fraction of Mr. Robert's work involved <em>experimentation</em>. During trial testimony, Mr. Robert was entirely unable to estimate how much of his product development work involved a process of experimentation—either under the formal regulatory definition (identifying technical uncertainties, formulating competing hypotheses or alternatives, and conducting systematic modeling, simulation, or testing) or even under a casual, colloquial notion of trial-and-error testing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the taxpayers failed to properly leverage the Shrink-Back Rule under Treasury Regulation Section 1.41-4(b)(2). When evaluating complex manufactured assemblies such as the <em>Scoreboard Truss</em>, the <em>New Caney Ribbon Board</em> (a custom venue installation), or the <em>Slim Shot Clock</em>, many activities involve routine engineering adaptation of existing commercial components, standard structural load calculations, or aesthetic casing design—activities expressly excluded from Section 41 under IRC Section 41(d)(4)(B) (adaptation of an existing business component) or failing the 80% process-of-experimentation threshold. The Seventh Circuit's opinion in Moore does not address the shrink-back rule; rather, it was in <a href=\"/us/little-sandy-coal-v-commissioner\">Little Sandy Coal</a> that the Seventh Circuit cautioned that taxpayers who cannot demonstrate a process of experimentation at the business component level would be well-advised to document research activities for subcomponents. Because no one at Nevco kept records of Mr. Robert's activities or of the time he spent on any particular project, the record provided no basis for isolating any portion of his time on qualifying subassemblies."
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Disqualification Under the \"One-Up\" Direct Supervision and Direct Support Mandate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Moores could not substantiate the specific hours Mr. Robert personally spent hands-on conducting qualified experimentation under Section 41(b)(2)(B)(i), they attempted to qualify his compensation under Section 41(b)(2)(B)(ii) by arguing that, as President and COO in charge of product development, he engaged in the \"direct supervision\" or \"direct support\" of Nevco's engineering department."
+    },
+    {
+      "type": "paragraph",
+      "text": "This argument collided directly with the strict regulatory hierarchy of Treasury Regulation Section 1.41-2(c)(2), colloquially known in R&D tax practice as the \"one-up\" rule. Under Treasury Regulation Section 1.41-2(c)(2), \"<a href=\"/us/glossary/direct-supervision\">direct supervision</a>\" means the immediate, first-line management of qualified research, such as a laboratory group leader or engineering manager who directly supervises the engineers or scientists conducting the experiments. The regulation explicitly stipulates that direct supervision does not include activities of higher-level managers and executives to whom first-line managers report, even if those higher-level managers are qualified scientists or engineers."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Nevco, the Commissioner recognized that Nevco's staff engineers performed qualified research and that Dave Paslay, Nevco's Director of Engineering, directly supervised those engineers. Consequently, Mr. Paslay occupied the \"first-line management\" (\"one-up\") tier, and the IRS properly allowed Mr. Paslay's wages as QREs. Because Mr. Paslay reported to Mr. Robert (who in turn reported to CEO Gayla Moore), Mr. Robert was a \"two-up\" executive with respect to the engineering team supervised by Mr. Paslay. As a matter of law under Treasury Regulation Section 1.41-2(c)(2), Mr. Robert's oversight of Mr. Paslay could not qualify as direct supervision."
+    },
+    {
+      "type": "paragraph",
+      "text": "While a few engineers reported directly to Mr. Robert rather than through Mr. Paslay during 2014 and 2015, the Tax Court found that the Moores failed to prove Mr. Robert provided first-line <em>technical</em> supervision of <em>qualified research</em> to those individuals. Reviewing project status reports, setting commercial deadlines, approving budgets, and presiding over cross-functional product development meetings constitute general executive management, not the immediate supervision of scientific experimentation. Similarly, the court rejected the claim that Mr. Robert provided \"direct support\" under Treasury Regulation Section 1.41-2(c)(3). Regulatory \"<a href=\"/us/glossary/direct-support\">direct support</a>\" is restricted to hands-on auxiliary tasks (\"one-down\" support) directly facilitating experiments—such as a machinist milling parts for an experimental prototype, a lab technician cleaning testing apparatus, or a clerk compiling experimental test data—and explicitly excludes general administrative, financial, or executive services."
+    },
+    {
+      "type": "subheading",
+      "text": "2.4 Absence of Contemporaneous Records and the Collapse of Cohan Estimation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fatal evidentiary flaw that sealed the outcome in both courts was Nevco's non-compliance with the recordkeeping mandate of Treasury Regulation Section 1.41-4(d). Nevco maintained standard payroll registers confirming the hours employees worked and the gross wages paid, which satisfied compensation verification under IRC Section 3401(a), but it maintained zero written records—such as <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">timesheets</a>, project-coded calendars, engineering notebooks, or task logs—showing the specific activities Mr. Robert performed or the business components to which his time was devoted."
+    },
+    {
+      "type": "paragraph",
+      "text": "In tax litigation, when a taxpayer establishes that they incurred a deductible expense or credit-eligible activity but lacks exact records of the amount, taxpayers routinely invoke the venerable judicial doctrine of <em>Cohan v. Commissioner</em>, 39 F.2d 540, 543–44 (2d Cir. 1930), which permits the Tax Court to estimate the allowable amount while bearing heavily upon the taxpayer whose inexactitude is of their own making. However, federal appellate and Tax Court precedent strictly limits <em>Cohan</em> in Section 41 disputes: the Court will only estimate QREs under <em>Cohan</em> if the taxpayer first provides a credible evidentiary foundation and a principled methodology enabling a rational estimate."
+    },
+    {
+      "type": "paragraph",
+      "text": "A comparison with prior Tax Court executive compensation cases illustrates why <em>Cohan</em> failed the Moores. In <em><a href=\"/us/suder-v-commissioner\">Suder v. Commissioner</a></em>, T.C. Memo. 2014-201, the Tax Court accepted retrospective percentage estimates of executive time spent on qualified research by a senior executive with deep institutional technical knowledge in the telecommunications industry, because the court found the testimony of the executive and other company witnesses credible and sufficiently detailed as to specific projects, and the record distinguished his technical work from administrative functions handled by other executives, although the court still reduced the executive's compensation includible as QREs to a reasonable amount. Conversely, in <em><a href=\"/us/shami-v-commissioner\">Shami v. Commissioner</a></em>, T.C. Memo. 2012-78, aff'd in relevant part, 741 F.3d 560 (5th Cir. 2014), and <em>Little Sandy Coal Co. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), the courts refused to apply <em>Cohan</em> where taxpayers offered uncorroborated, self-serving percentage estimates of executive or engineering time without an objective factual anchor separating qualified experimentation from non-qualified work."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Moore</em>, because Mr. Robert could not even offer an approximate estimate at trial of how much of his 50%–65% NPD time was spent on actual experimentation versus non-qualified product development, any judicial attempt to pick a percentage (such as 10% or 20%) would have been pure, unguided speculation rather than a rational <em>Cohan</em> estimate. As the Seventh Circuit emphasized in Little Sandy Coal—a principle consistent with, though not expressly restated in, its Moore opinion—when a taxpayer claims an \"all-or-nothing\" or overbroad allocation without offering a principled way to determine the qualified portion, the taxpayer receives nothing."
+    },
+    {
+      "type": "subheading",
+      "text": "2.5 Appellate Standard of Review Trap: Fact Versus Law Under Village at Lakeridge"
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal to the Seventh Circuit, the Moores attempted to bypass their evidentiary deficit by framing the Tax Court's decision as a <em>legal error</em>, contending that the Tax Court's inability to answer the \"was it qualified?\" and \"how much?\" questions was a legal error rather than a finding of fact. Had the Seventh Circuit agreed that the issue was a question of law, it would have reviewed the Tax Court's ruling <em>de novo</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judge Easterbrook swiftly dismantled this appellate strategy by invoking the United States Supreme Court's decision in <em>U.S. Bank, N.A. v. Village at Lakeridge, LLC</em>, 583 U.S. 387, 395–96 (2018). Under <em>Village at Lakeridge</em>, when a trial court applies an established legal standard to a thick cluster of case-specific facts—answering questions such as \"what did this individual actually do?\" and \"how much time did he spend doing it?\"—the resulting determination is case-specific rather than based on resolving a dispute about what a legal rule provides, and is therefore treated as a finding of fact reviewed for \"clear error\". Under Tax Court Rule 142(a), and absent a burden shift under IRC Section 7491(a), the IRS's deficiency determination is presumed correct, and the taxpayer bears both the initial burden of production (coming forward with credible evidence) and the ultimate burden of persuasion (proving entitlement by a preponderance of the evidence). Because the Moores failed to produce evidence answering the factual \"was it qualified?\" and \"how much?\" inquiries, the Seventh Circuit saw no error at all in the Tax Court's conclusion, let alone a clear one, and held that conclusion dispositive against them."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory, regulatory, and procedural requirement addressed in <em>Scott Moore v. Commissioner</em> against the specific evidentiary and legal failures of the taxpayer and the governing standard of proof enforced by the United States Tax Court and the Seventh Circuit:"
     },
     {
       "type": "table",
-      "caption": "The Four-Part Test Criteria",
       "headers": [
-        "Requirement",
-        "Statutory/Regulatory Basis",
-        "Technical Objective"
+        "Legal Requirement & Statutory / Regulatory Authority",
+        "Governing Statutory & Regulatory Mandate",
+        "Taxpayer's Evidentiary & Legal Failure in Moore",
+        "Court's Standard of Proof & Final Holding"
       ],
       "rows": [
         {
           "cells": [
-            "Section 174 Test",
-            "IRC § 41(d)(1)(A); § 174",
-            "Expenditures must be research or experimental in the laboratory sense."
+            "<strong>In-House Wage QREs: Direct Conduct of Qualified Research</strong> IRC § 41(b)(2)(A)(i), § 41(b)(2)(B)(i); Treas. Reg. § 1.41-2(d)(1)–(2)",
+            "Only wages apportioned to the actual performance of \"qualified services\" qualify as QREs (unless the 80% \"substantially all\" employee service threshold is met).",
+            "Claimed a blanket 65% of President/COO Gary Robert's salary and bonus based on general \"new product development\" (NPD) involvement across five products without segregating commercial, executive, and routine tasks from hands-on technical research.",
+            "Taxpayer must provide a specific, <a href=\"/us/glossary/project-to-expense-nexus\">factual nexus</a> linking employee hours directly to statutory qualified research activities; broad NPD involvement does not satisfy § 41(b)(2)(B)(i). <strong>0% of wages allowed</strong>."
           ]
         },
         {
           "cells": [
-            "Technological in Nature",
-            "IRC § 41(d)(1)(B)(i)",
-            "The research must fundamentally rely on principles of hard sciences (e.g., engineering, physics, computer science)."
+            "<strong>In-House Wage QREs: Direct Supervision (\"One-Up\" Rule)</strong> IRC § 41(b)(2)(B)(ii); Treas. Reg. § 1.41-2(c)(2)",
+            "Covers <em>only</em> immediate, first-line management of qualified research. Explicitly excludes higher-level managers to whom first-line managers report, even if the upper executive is a qualified scientist or engineer.",
+            "Claimed Robert supervised the engineering department, but Director of Engineering Dave Paslay (whose wages the IRS allowed) was the first-line (\"one-up\") supervisor, making Robert an excluded \"two-up\" executive. For engineers reporting directly to Robert, failed to prove technical supervision of experiments versus executive oversight.",
+            "Strict adherence to the organizational \"one-up\" hierarchy. Executive review of budgets, timelines, and design milestones does not constitute first-line supervision of experimental research. <strong>Disallowed in full</strong>."
           ]
         },
         {
           "cells": [
-            "Business Component Test",
-            "IRC § 41(d)(1)(B)(ii)",
-            "Research must be intended to be useful in developing a new or improved function, performance, or quality of a product."
+            "<strong>In-House Wage QREs: Direct Support (\"One-Down\" Rule)</strong> IRC § 41(b)(2)(B)(ii); Treas. Reg. § 1.41-2(c)(3)",
+            "Covers hands-on auxiliary services directly supporting individuals conducting or first-line supervising experiments (e.g., machining prototype parts, cleaning lab gear, logging test data).",
+            "Asserted that the COO's executive coordination, inventory/vendor advising, and product strategy supported the engineering staff's research efforts.",
+            "Direct support is limited to direct physical or clerical experimental assistance and excludes <a href=\"/us/glossary/general-and-administrative-functions\">general administrative</a>, financial, or executive management functions. <strong>Disallowed in full</strong>."
           ]
         },
         {
           "cells": [
-            "Process of Experimentation",
-            "IRC § 41(d)(1)(C)",
-            "Substantially all activities must involve a process to evaluate alternatives to resolve technical uncertainty."
+            "<strong>Section 174 & Technological Uncertainty Test</strong> IRC § 41(d)(1)(A), <a href=\"/us/glossary/irc-section-174\">§ 174</a>; Treas. Reg. § 1.174-2(a)(1), § 1.41-4(a)(3)",
+            "Research must be undertaken in the experimental or laboratory sense to eliminate objective technical uncertainty regarding capability, method, or appropriate design.",
+            "Relied on testimony about Robert's general NPD involvement—including his contributions to the patented Scorbitz project—to support a blanket allocation of his time across Scorbitz, Scoreboard Truss, New Caney Ribbon Board, MPCX-2, and Slim Shot Clock, without showing which activities addressed technological uncertainty.",
+            "Product novelty, commercial importance, or patent issuance alone does not prove that all associated executive activities addressed objective technological uncertainty. <strong>Failed to substantiate</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Technological in Nature Test</strong> IRC § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(4)",
+            "The process of discovering information must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science.",
+            "Blended Robert's occasional technical engineering inputs with commercial product specification, market positioning, and manufacturing operations without distinguishing the underlying scientific principles applied by Robert personally.",
+            "Taxpayer must demonstrate that the specific individual's claimed tasks—not merely the engineering department's tasks—fundamentally relied on hard sciences. <strong>Failed to substantiate</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Process of Experimentation & \"Substantially All\" (80%) Rule</strong> IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)–(6)",
+            "At least 80% of the research activities on a business component must constitute elements of a structured process of experimentation (identifying uncertainties, alternatives, and systematic testing/modeling).",
+            "Robert could not estimate—either under the regulatory criteria or even colloquially as trial-and-error—what fraction of his research activities involved experimentation.",
+            "Consistent with the Seventh Circuit's separate reasoning in Little Sandy Coal (not cited in Moore), the taxpayer must offer a principled factual basis to quantify the experimental numerator and total activity denominator to prove the 80% threshold. <strong>Failed as a matter of fact</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Business Component & Shrink-Back Rule</strong> <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(B)</a>; Treas. Reg. § 1.41-4(b)(2)",
+            "<a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> applies separately to each business component. If the overall product fails the 80% experimentation test, the taxpayer must \"shrink back\" to the next most significant qualifying subcomponent.",
+            "Presented evidence at the macro product level across the five scoreboard/venue products without isolating or tracking time against specific experimental subcomponents.",
+            "The Tax Court evaluated Mr. Robert's work product-by-product; under Little Sandy Coal (not cited in Moore), taxpayers are well-advised to document research at the subcomponent level if the macro product includes substantial non-experimental or adaptation work. <strong>Shrink-back not addressed in Moore; record lacked data to support it</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Recordkeeping & Substantiation Mandate</strong> IRC § 6001; Treas. Reg. § 1.41-4(d); <em>Cohan</em> Rule (39 F.2d 540)",
+            "Taxpayers must retain records in \"sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\".",
+            "Nevco's payroll records logged only total hours worked, not tasks performed or supervised. No written logs, calendars, or credible estimates were offered to anchor a <em>Cohan</em> estimation.",
+            "<em>\"To do the math, one needs accurate details\"</em>. <em>Cohan</em> estimation cannot supply missing proof that qualified research occurred or create an allocation out of pure speculation. <strong>Disallowed in full</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Burden of Proof & Appellate Standard of Review</strong> Tax Court Rule 142(a); IRC § 7491(a); <em>Village at Lakeridge</em> (583 U.S. 387)",
+            "Taxpayer bears the burdens of production and persuasion in Tax Court. Case-specific factual findings are reviewed on appeal strictly for \"clear error\".",
+            "Argued on appeal that the Tax Court committed a legal error (which would be reviewed de novo) by finding it impossible to determine \"was it qualified?\" and \"how much?\".",
+            "Determining whether work is qualified and quantifying the time spent are case-specific factual findings under <em>Village at Lakeridge</em>; absent clear error, failure of proof is dispositive against the taxpayer. <strong>Affirmed</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the judicial mandates of <em>Scott Moore v. Commissioner</em> (and its companion Seventh Circuit precedent in <em>Little Sandy Coal</em>) into actionable tax compliance and controversy defense, the following two applied industry case studies examine taxpayers confronting the exact legal pitfalls that defeated the Moores' claim. Each case study provides a step-by-step analysis demonstrating how to restructure project governance, technical documentation, contract terms, and experimentation tracking to satisfy IRC Section 41 and withstand IRS and Tax Court scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Industrial Optoelectronic Display & Structural Hardware Manufacturer (Overcoming the \"One-Up\" Supervision Trap, NPD Conflation, and Subcomponent Shrink-Back Failures)"
+    },
+    {
+      "type": "subheading",
+      "text": "Factual Scenario and Identified Moore Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apex Venue Systems, Inc. (Apex), a Subchapter S corporation based in Illinois, designs and manufactures large-scale outdoor LED display systems, structural mounting trusses, and ruggedized environmental enclosures for collegiate and municipal stadiums. Apex employs a Chief Operating Officer (COO), Sarah Vance, who holds a Master of Science in Mechanical Engineering and receives $320,000 in annual W-2 wages (base salary plus performance bonus). Reporting directly to Ms. Vance is an Engineering Director, Mark Evans, who manages six full-time mechanical and electrical engineers. Two senior firmware engineers, however, report directly to Ms. Vance."
+    },
+    {
+      "type": "paragraph",
+      "text": "During the current tax year, Apex initiates \"Project Titan,\" an initiative to develop a modular, hurricane-rated cantilevered scoreboard truss and an ultra-slim, passively cooled micro-LED display cabinet (mirroring Nevco's <em>Scoreboard Truss</em> and <em>Slim Shot Clock</em> projects). Ms. Vance spends approximately 60% of her working hours on Project Titan. Her activities include meeting with stadium athletic directors to define size and visibility specifications, negotiating aluminum extrusion pricing with suppliers, reviewing CAD drawings with Mr. Evans, personally running finite element analysis (FEA) simulations on a novel vibration-damping truss joint, and co-authoring a patent application for the cabinet's passive phase-change thermal dissipation plate. Apex's CPA firm proposes claiming 60% of Ms. Vance's compensation ($192,000) as in-house wage QREs based on an oral interview estimating her involvement in Project Titan's new product development."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the holding of <em>Scott Moore v. Commissioner</em>, Apex's proposed claim will suffer complete disallowance across four distinct dimensions. First, because Mr. Evans is the first-line manager (\"one-up\") supervising the six mechanical and electrical engineers, Ms. Vance is a higher-level (\"two-up\") executive whose oversight of Mr. Evans and his team is categorically barred under Treasury Regulation Section 1.41-2(c)(2). Second, Ms. Vance's 60% allocation blends commercial specification gathering, vendor pricing negotiations, and executive review with her genuine hands-on FEA modeling and thermal plate invention; under <em>Moore</em>, her co-inventorship on the thermal plate patent does not qualify her non-experimental NPD hours. Third, Project Titan as a macro product includes routine structural framing, standard power supply integration, and commercial sheet-metal enclosure fabrication, meaning less than 80% of the total activities on the overall scoreboard system constitute experimentation; claiming Project Titan as a single <a href=\"/us/glossary/business-component\">business component</a> without subcomponent isolation will fail under the \"substantially all\" analysis applied in Little Sandy Coal (an issue the Moore courts did not need to reach, because the qualification of Nevco's projects was not in dispute). Fourth, Apex possesses only standard payroll records and an uncorroborated 60% oral estimate, precluding <em>Cohan</em> estimation and guaranteeing a 0% allowance in Tax Court."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remediation Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Restructuring Project Governance and Organizational Reporting Lines"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the automatic disqualification of Ms. Vance's supervisory time under Treasury Regulation Section 1.41-2(c)(2) and strictly segregate her direct engineering performance under Section 41(b)(2)(B)(i), Apex must restructure its R&D governance at project inception. Apex must formally exclude 100% of the time Ms. Vance spends reviewing progress reports, budgets, or CAD milestones presented by Engineering Director Mark Evans. Mr. Evans is designated in the corporate R&D governance charter as the sole \"one-up\" first-line supervisor for mechanical and electrical engineering, ensuring Mr. Evans's qualified supervisory wages are fully protected just as Dave Paslay's wages were protected in <em>Moore</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, for the two senior firmware engineers who report directly to Ms. Vance—and for the specific phase-change thermal dissipation subproject—Apex's Board and CEO issue a formal <em>Technical Project Charter</em>. This charter designates Ms. Vance as the Lead Principal Investigator and First-Line Technical Supervisor for the <em>Thermal & Firmware Control Group</em>, completely bypassing Mr. Evans for those specific subcomponents. Furthermore, Ms. Vance's role is formally bifurcated in internal governance documents into Corporate COO Administration and Commercial NPD (non-qualified) versus Principal Mechanical and Thermal Research Engineer (qualified direct conduct of research under IRC Section 41(b)(2)(B)(i), where she personally executes FEA structural modeling and thermal bench testing)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Restructuring Technical Documentation and Applying the Shrink-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than treating \"Project Titan\" as a single monolithic business component—which would fail the 80% process-of-experimentation threshold and would replicate the undifferentiated, product-level time allocation that left Mr. Robert's work on Nevco's Scoreboard Truss and Slim Shot Clock unsubstantiated—Apex proactively applies the Shrink-Back Rule under Treasury Regulation Section 1.41-4(b)(2) at the start of the tax year. Apex divides Project Titan within its Product Lifecycle Management (PLM) and enterprise resource planning (ERP) systems into five distinct subcomponent codes: <em>Titan-01</em> (Macro Enclosure and Cosmetic Bezel, classified as non-qualified commercial design and routine manufacturing under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)</a>); <em>Titan-02</em> (Standard Power Distribution and Off-the-Shelf Cabling, classified as non-qualified routine adaptation under IRC Section 41(d)(4)(B)); <em>Titan-03</em> (Harmonic Vibration-Damping Cantilevered Truss Joint, isolated as a qualified experimental subcomponent under Treasury Regulation Section 1.41-4(b)(2)); <em>Titan-04</em> (Passive Phase-Change Micro-LED Thermal Dissipation Plate, isolated as a qualified experimental subcomponent); and <em>Titan-05</em> (High-Refresh PWM Synchronization Firmware, isolated as a qualified software/firmware subcomponent supervised directly by Ms. Vance)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For each of the three isolated subcomponents (<em>Titan-03</em>, <em>Titan-04</em>, and <em>Titan-05</em>), Ms. Vance and her direct reports author a contemporaneous <em><a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">Technical Uncertainty & Experimentation Protocol</a></em> before fabrication begins. For <em>Titan-03</em>, the protocol documents why standard structural engineering equations cannot predict harmonic resonance under 130-mph wind gusts given the novel asymmetric cantilever geometry (establishing objective design uncertainty under Treasury Regulation Section 1.41-4(a)(3)), details three competing joint geometries and damping alloys (identifying technical alternatives), and archives the solid-mechanics FEA simulation files and physical wind-tunnel stress-test logs (substantiating an iterative process of experimentation relying on mechanical engineering principles under Treasury Regulation Section 1.41-4(a)(4)–(5))."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Restructuring Employment, Bonus, and Vendor Contract Terms"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure that executive compensation and third-party <a href=\"/us/glossary/prototype-development\">prototype expenditures</a> reinforce the factual record rather than undermining it, Apex revises its internal employment agreements and external vendor contracts. Ms. Vance's annual employment agreement and bonus plan are amended to explicitly delineate her responsibilities. Instead of a single undifferentiated executive bonus tied to company EBITDA or general \"product launch milestones,\" her incentive compensation is bifurcated into an Operational and Commercial Bonus tied to inventory turnover and on-time manufacturing delivery (excluded from QREs), and a Technical R&D Milestone Bonus tied specifically to executing FEA simulation protocols and validating thermal dissipation prototypes on subcomponents <em>Titan-03</em> and <em>Titan-04</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "In parallel, when Apex contracts with an outside machine shop to mill experimental aluminum-lithium alloy truss joints for <em>Titan-03</em> destructive testing, the purchase order and Master Services Agreement (MSA) explicitly specify that the parts are non-commercial experimental prototypes for destructive laboratory testing under IRC Sections 174 and 41, reference subcomponent code <em>Titan-03</em>, and stipulate that Apex bears 100% of the financial risk if the prototype geometry fails during stress testing, thereby preserving supply QREs under Section 41(b)(2)(C) or contract research QREs under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">Section 41(b)(3)</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Implementing Granular Experimentation and Time-Tracking Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy Judge Easterbrook's mandate—<em>\"To do the math, one needs accurate details\"</em>—and comply with Treasury Regulation Section 1.41-4(d) as well as heightened <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> officer-wage and business-component reporting requirements, Apex replaces retrospective oral estimates with a contemporaneous, bimodal tracking system. Ms. Vance is required to <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">log her hours weekly</a> in Apex's ERP timekeeping system against both a Subcomponent Code (<em>Titan-01</em> through <em>Titan-05</em>, or <em>General Corporate</em>) and one of four specific Activity Task Codes: <em>Code E-1</em> (Direct Experimentation, encompassing hypothesis formulation, FEA simulation, CAD modeling of uncertain design alternatives, physical bench testing, and test data analysis); <em>Code E-2</em> (First-Line Technical Supervision, encompassing direct one-on-one technical code reviews and experimental test-plan guidance provided to the two firmware engineers reporting directly to Ms. Vance on <em>Titan-05</em>); <em>Code N-1</em> (Non-Qualified NPD and Commercial, covering customer specification meetings, vendor pricing negotiations, aesthetics, production tooling, and post-validation quality control); and <em>Code N-2</em> (Excluded Higher-Level Management, covering the review of reports from Engineering Director Mark Evans, budgeting, and general COO duties)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every hour logged by Ms. Vance to <em>Code E-1</em> or <em>Code E-2</em> is cross-referenced to digital timestamps in SolidWorks (FEA simulation saves), Git/Jira (firmware commit reviews on <em>Titan-05</em>), and laboratory test-bench logs. At year-end, Apex's contemporaneous ledger establishes the exact mathematical breakdown of Ms. Vance's 2,080 total working hours and $320,000 total compensation summarized in the table below:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Activity Task Code & Description",
+        "Assigned Subcomponent(s)",
+        "IRC § 41 Qualification Status",
+        "Logged Annual Hours",
+        "Percentage of Total Time",
+        "Allocated Compensation ($)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Code E-1: Direct Conduct of Experimentation</strong> (FEA structural simulations & thermal bench testing)",
+            "<em>Titan-03</em> & <em>Titan-04</em>",
+            "<strong>Qualified</strong> under IRC § 41(b)(2)(B)(i)",
+            "520 hrs",
+            "25.0%",
+            "$80,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Code E-2: First-Line Technical Supervision</strong> (Direct supervision of 2 firmware engineers without intervening manager)",
+            "<em>Titan-05</em>",
+            "<strong>Qualified</strong> under IRC § 41(b)(2)(B)(ii) & Treas. Reg. § 1.41-2(c)(2)",
+            "208 hrs",
+            "10.0%",
+            "$32,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Code N-1: Commercial NPD & Routine Engineering</strong> (Customer specs, vendor pricing, aesthetics, tooling)",
+            "<em>Titan-01</em> & <em>Titan-02</em>",
+            "<strong>Excluded</strong> as non-experimental NPD & adaptation (§ 41(d)(4))",
+            "520 hrs",
+            "25.0%",
+            "$80,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Code N-2: Higher-Level Executive Management</strong> (\"Two-up\" oversight of Engineering Director Evans & COO duties)",
+            "<em>General Corporate</em>",
+            "<strong>Excluded</strong> under Treas. Reg. § 1.41-2(c)(2) (\"one-up\" rule)",
+            "832 hrs",
+            "40.0%",
+            "$128,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Total Verified Executive Time & Compensation</strong>",
+            "<strong>All Categories</strong>",
+            "<strong>Net Qualified QREs = 35.0% ($112,000)</strong>",
+            "<strong>2,080 hrs</strong>",
+            "<strong>100.0%</strong>",
+            "<strong>$320,000</strong>"
           ]
         }
       ]
     },
     {
       "type": "paragraph",
-      "text": "Source:"
+      "text": "Furthermore, on subcomponents <em>Titan-03</em>, <em>Titan-04</em>, and <em>Titan-05</em>, the combined time logs of Ms. Vance and the assigned engineers prove that over 85% of all research activities on each isolated subcomponent constituted elements of a process of experimentation, easily clearing the 80% \"substantially all\" hurdle of Treasury Regulation Section 1.41-4(a)(6). Instead of claiming an unsubstantiated 60% ($192,000) that gets reduced to $0 in Tax Court, Apex claims exactly 35.0% ($112,000) of Ms. Vance's W-2 wages, backed by a <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous audit trail</a> that satisfies every requirement of <em>Moore</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Connected Telemetry & Custom Venue Software Integration Developer (Overcoming Agile Experimentation Deficits, Customer Adaptation Exclusions, and Funded Research Risks)"
+    },
+    {
+      "type": "subheading",
+      "text": "Factual Scenario and Identified Moore Pitfalls"
     },
     {
       "type": "paragraph",
-      "text": "The \"substantially all\" requirement in the fourth prong is particularly demanding, necessitating that at least 80 percent of the activities for a business component constitute elements of a process of experimentation. As demonstrated in Moore, the failure to satisfy this threshold for a specific individual's time leads to the total disallowance of their associated wages as QREs."
-    },
-    {
-      "type": "heading",
-      "text": "Factual Underpinnings of the Moore Case: Nevco, Inc. and the Pursuit of Innovation"
+      "text": "GridLink Telemetry, LLC (GridLink), a domestic limited liability company taxed as an S corporation, develops embedded microprocessor controllers and cloud-to-edge mobile fan-engagement software for professional sports arenas (mirroring the <em>Scorbitz</em>, <em>MPCX-2</em>, and <em>New Caney Ribbon Board</em> projects in <em>Moore</em>). GridLink's President and Chief Technology Officer (CTO), David Chen (annual W-2 wages of $280,000), oversees a VP of Software Engineering, Priya Patel, who manages twelve software developers."
     },
     {
       "type": "paragraph",
-      "text": "The petitioners in the case, Scott and Gayla Moore, were the owners of Nevco, Inc. (Nevco), a prominent manufacturer of scoreboards, video displays, and related sports-venue technology. Nevco, organized as a Subchapter S corporation, passed its tax attributes—including the Section 41 credit—through to Gayla Moore as the sole shareholder. The tax years under examination were 2014 and 2015, during which Nevco claimed substantial research credits that were subsequently challenged by the Commissioner of Internal Revenue."
+      "text": "During the tax year, GridLink undertakes two major initiatives. The first is the \"PulseSync\" Protocol, a proprietary low-latency wireless protocol intended to synchronize live arena scoreboard telemetry with 50,000 concurrent spectator smartphones via stadium Wi-Fi and 5G without packet degradation (analogous to <em>Scorbitz</em>). Mr. Chen conceives the high-level network architecture, writes the initial mathematical whitepaper on packet-loss predictive caching (for which GridLink files a provisional patent naming Mr. Chen as lead inventor), and attends bi-weekly Agile sprint demos led by Ms. Patel. The second initiative is the \"MetroDome Custom Ribbon Integration,\" a $1.2 million contract with a municipal stadium authority to customize GridLink's existing control console software (analogous to <em>MPCX-2</em> and <em>New Caney Ribbon Board</em>) to drive a uniquely curved, 360-degree LED fascia board at MetroDome. The contract provides for monthly progress payments billed on a <a href=\"/us/glossary/time-and-materials-contract\">time-and-materials (T&M)</a> basis, grants the stadium authority exclusive ownership of all custom software scripts developed under the contract, and requires GridLink to configure existing display drivers to match the stadium's third-party scoring feed. GridLink claims 65% of Mr. Chen's wages ($182,000) and 80% of its engineering staff wages across both initiatives as QREs, relying on the <em>PulseSync</em> patent filing and high-level retrospective estimates of Agile story points."
     },
     {
       "type": "paragraph",
-      "text": "Nevco's competitive position in the sports equipment market depended on its ability to innovate. During the period in question, the company’s engineering department worked on several sophisticated business components intended to improve the functionality and performance of venue displays and control systems."
+      "text": "GridLink's tax position is fatally defective under <em>Moore</em> and related Section 41 jurisprudence for three reasons. First, exactly like Gary Robert on <em>Scorbitz</em>, Mr. Chen's status as lead inventor on the <em>PulseSync</em> patent does not establish what fraction of his time was spent on a systematic process of experimentation versus initial conceptual ideation, commercial product roadmapping, and \"two-up\" attendance at Ms. Patel's sprint demos. Second, standard Agile software development mixes routine user-interface (UI/UX) coding, database operations, bug fixing, and commercial feature configuration with genuine algorithmic experimentation; without isolating experimental epics, GridLink cannot prove the 80% \"substantially all\" test as applied in Little Sandy Coal, nor provide the activity-level time allocation whose absence was fatal in Moore. Third, configuring existing display drivers to interface with a specific customer's venue hardware constitutes disqualified <a href=\"/us/glossary/adaptation-exclusion\">adaptation of an existing business component</a> under IRC Section 41(d)(4)(B) and Treasury Regulation Section 1.41-4(c)(3). Worse yet, because the MetroDome contract is billed on a T&M basis without contingent technical acceptance risk and transfers exclusive intellectual property (IP) rights to the customer, the entire <em>MetroDome</em> project is disqualified as <a href=\"/us/glossary/funded-research\">funded research</a> under IRC Section 41(d)(4)(H) and Treasury Regulation Section 1.41-4A(d)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remediation Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Restructuring Project Governance and Executive Role Delineation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To insulate Mr. Chen's qualified technical contributions from his \"two-up\" executive duties over VP of Software Engineering Priya Patel, GridLink implements a strict governance separation. All hours spent by Mr. Chen attending bi-weekly Agile sprint reviews, product roadmap meetings, or executive status updates with Ms. Patel are classified as higher-level management excluded under Treasury Regulation Section 1.41-2(c)(2), while Ms. Patel is documented as the sole \"one-up\" direct supervisor for the software engineering team."
+    },
+    {
+      "type": "paragraph",
+      "text": "To capture Mr. Chen's genuine technical work, GridLink establishes an isolated R&D unit—the <em>Predictive Caching & Edge Synchronization Lab</em>—where Mr. Chen acts not as a supervisor of Ms. Patel, but as an individual contributor and Principal Systems Architect performing direct hands-on research under IRC Section 41(b)(2)(B)(i) alongside two dedicated network physicists. Additionally, GridLink institutes a quarterly <em>Section 41 Governance Review</em> comprising the CTO, the VP of Engineering, and external tax counsel to evaluate every software epic and customer contract against the <a href=\"/us/glossary/four-part-test\">Four-Part Test</a> and statutory exclusions during the tax year, preventing non-qualified customer adaptation work from contaminating the QRE pool."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Restructuring Technical Documentation via Agile Subcomponent Isolation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the product-by-product analysis applied by the Tax Court in Moore and the subcomponent documentation guidance of Little Sandy Coal, GridLink ceases claiming its entire mobile application—which includes non-qualified fan login screens, payment gateways, and graphic skins—as a single business component. Using the Shrink-Back Rule of Treasury Regulation Section 1.41-4(b)(2), GridLink shrinks back the business component definition on <em>PulseSync</em> exclusively to the <strong>UDP Multicast Predictive Jitter-Buffer Engine (Subcomponent PS-Core-01)</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within Jira and Confluence, every Epic and User Story assigned to <em>PS-Core-01</em> is structured around the mandatory regulatory elements of Treasury Regulation Section 1.41-4(a)(5). Each Epic contains a mandatory <em><a href=\"/us/faq/irs-technical-uncertainty-description-examples\">Technical Uncertainty Statement</a></em> documenting why standard TCP/IP and existing WebRTC protocols fail to maintain sub-50-millisecond synchronization when 50,000 client nodes simultaneously contend for radio-frequency spectrum across high-density stadium Wi-Fi access points. The Epic further records <em>Competing Technical Hypotheses</em>—such as Alternative A (Kalman-filter client-side clock drift prediction), Alternative B (Edge-compute forward error correction with dynamic payload compression), and Alternative C (Hybrid peer-to-peer mesh relay)—and links directly to automated network-simulator benchmark scripts (NS-3 simulation logs), packet-loss telemetry graphs, and failed Git branches showing why Alternative C failed battery-drain thresholds and how Alternative B was iteratively modified through 14 test cycles to achieve sub-18-millisecond latency."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Restructuring Customer Contract Terms to Overcome Funded Research and Adaptation Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "To salvage the genuine R&D embedded within the <em>MetroDome</em> initiative—specifically, developing a novel real-time non-linear pixel-warping shader algorithm capable of rendering distortion-free video across compound-curved LED arrays without frame drops—GridLink restructures its commercial contracting practices before executing customer agreements. GridLink separates the MetroDome engagement into two distinct contractual schedules. <em>Schedule A (Commercial Hardware Installation & Routine Driver Configuration)</em> covers site-specific wiring, third-party scoring feed mapping, and routine parameter adaptation; all labor billed under Schedule A is explicitly tagged as non-qualified adaptation under IRC Section 41(d)(4)(B) and excluded from the Section 41 claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, <em>Schedule B (Next-Generation Non-Linear Pixel-Warping Shader Engine Development)</em> is structured as a <a href=\"/us/glossary/fixed-price-contract\">firm fixed-price</a> ($250,000), technical-milestone-contingent agreement. Under Schedule B, GridLink's right to receive payment—and to retain any progress advances—is expressly contingent upon delivering a shader engine that passes rigorous, objective technical acceptance testing (rendering 4K60fps video across a 37-degree compound curve with less than 0.2% geometric distortion and under 4 milliseconds of GPU frame-buffer overhead); if GridLink fails to resolve this technical uncertainty, the customer is entitled to reject the deliverable and receive a full refund under governing state contract law. Furthermore, the IP clause is revised so that GridLink retains exclusive title and <a href=\"/us/glossary/substantial-rights\">substantial rights</a> to the underlying <em>Non-Linear Pixel-Warping Shader Engine (Subcomponent Shader-Warp-02)</em> for reuse across all future stadium clients, granting the MetroDome authority only a non-exclusive license to use the compiled object code at its venue. This contractual restructuring completely neutralizes the funded research exclusion under IRC Section 41(d)(4)(H) and Treasury Regulation Section 1.41-4A(d)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Implementing Automated Experimentation Tracking to Prove the 80% Numerator"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the deficiency affirmed by the Seventh Circuit in Moore—where the Tax Court found it impossible to answer <em>\"was it qualified?\"</em> or <em>\"how much?\"</em>—GridLink integrates its software development toolchain directly with its tax accounting ledger. Developers and Mr. Chen cannot commit source code to the Git repository or close a Jira ticket without logging the exact hours expended and selecting a mandatory Section 41 Qualification Tag: [EXP-SIM] for mathematical modeling, network simulation, or algorithmic prototyping (Qualified Experimentation); [EXP-TEST] for automated load testing, latency benchmarking, and iterative debugging of uncertain architectural alternatives (Qualified Experimentation); [NON-EXP-DEV] for routine UI coding, standard API hooks, documentation, or post-release maintenance (Non-Experimental Activity); and [EXEC-ADMIN] for sprint demos, commercial scoping, patent attorney meetings, and \"two-up\" management (Excluded Overhead)."
+    },
+    {
+      "type": "paragraph",
+      "text": "At year-end, GridLink exports the complete Jira and Git ledger for its subcomponents, establishing the exact mathematical fractions required under IRC Section 41(d)(1)(C), Treasury Regulation Section 1.41-4(a)(6), and Treasury Regulation Section 1.41-4(d) as set forth in the table below:"
     },
     {
       "type": "table",
-      "caption": "Detailed Breakdown of Nevco’s Business Components",
       "headers": [
-        "Business Component",
-        "Purpose and Technical Focus",
-        "Outcome and Evidence"
+        "Isolated Subcomponent / Personnel Ledger",
+        "Total Logged Hours (Denominator)",
+        "Experimental Hours ([EXP-SIM] + [EXP-TEST])",
+        "Non-Experimental / Admin Hours",
+        "Experimentation Percentage (≥80% Rule)",
+        "Final IRC § 41 Qualification Outcome"
       ],
       "rows": [
         {
           "cells": [
-            "Scoreboard Truss",
-            "Developing structural support systems for large-scale outdoor displays to withstand wind and environmental loads.",
-            "Involved mechanical engineering and stress modeling."
+            "<strong>Subcomponent PS-Core-01</strong> (UDP Multicast Jitter-Buffer Engine)",
+            "3,400 hrs",
+            "3,060 hrs",
+            "340 hrs ([NON-EXP-DEV])",
+            "<strong>90.0%</strong>",
+            "<strong>Qualifies in full</strong> under IRC § 41(d)(1)(C) & Shrink-Back Rule"
           ]
         },
         {
           "cells": [
-            "Scorbitz",
-            "A cloud-based platform for integrating and broadcasting live sports data to multiple digital outlets.",
-            "Resulted in a patent where the COO was a named inventor."
+            "<strong>Subcomponent Shader-Warp-02</strong> (Fixed-Price Non-Linear Pixel Shader)",
+            "1,500 hrs",
+            "1,290 hrs",
+            "210 hrs ([NON-EXP-DEV])",
+            "<strong>86.0%</strong>",
+            "<strong>Qualifies in full</strong> (Unfunded fixed-price & substantial IP retained)"
           ]
         },
         {
           "cells": [
-            "New Caney Ribbon Board",
-            "Customized LED ribbon board systems designed for specific venue requirements and visual synchronization.",
-            "Focused on electrical engineering and signal timing."
+            "<strong>MetroDome Schedule A</strong> (Routine Venue Driver Adaptation)",
+            "2,100 hrs",
+            "0 hrs",
+            "2,100 hrs (Routine Adaptation)",
+            "<strong>0.0%</strong>",
+            "<strong>100% Excluded</strong> under IRC § 41(d)(4)(B) & § 41(d)(4)(H)"
           ]
         },
         {
           "cells": [
-            "MPCX–2",
-            "A wireless handheld controller for scoreboards, emphasizing signal reliability and user interface design.",
-            "Addressed technical uncertainties in wireless communication."
-          ]
-        },
-        {
-          "cells": [
-            "Slim Shot Clock",
-            "Designing a miniaturized, low-profile shot clock to minimize obstruction while maintaining visibility and durability.",
-            "Required material science and miniaturization techniques."
+            "<strong>CTO David Chen Individual Ledger</strong> ($280,000 Total W-2 Wages)",
+            "2,000 hrs",
+            "<strong>440 hrs</strong> (Hands-on algorithm modeling & testing on <em>PS-Core-01</em> & <em>Shader-Warp-02</em>)",
+            "<strong>1,560 hrs</strong> ([EXEC-ADMIN]: patent meetings, ideation, \"two-up\" sprint reviews)",
+            "<strong>22.0% Direct QRE Allocation</strong>",
+            "<strong>Exactly $61,600 (22.0%) Allowed</strong> as substantiated direct wage QREs"
           ]
         }
       ]
     },
     {
-      "type": "paragraph",
-      "text": "Source:"
-    },
-    {
-      "type": "paragraph",
-      "text": "While the IRS conceded that the wages for the engineering department and the direct engineering supervisor were qualified, the primary controversy centered on the inclusion of Gary Robert, the company’s President and Chief Operating Officer (COO). The Moores allocated 65 percent of Robert’s salary and bonuses to the R&D credit, asserting that he was significantly engaged in new product development and the oversight of the research team."
-    },
-    {
-      "type": "heading",
-      "text": "The Judicial Evaluation of Gary Robert’s Qualified Services"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Tax Court’s analysis of Gary Robert’s role was exhaustive, focusing on whether his activities met the definitions of \"engaging in qualified research,\" \"direct supervision,\" or \"direct support\" under Section 41(b)(2)(B). This evaluation highlights a critical distinction between \"new product development\" in a broad business sense and \"qualified research\" in a statutory sense."
-    },
-    {
       "type": "subheading",
-      "text": "Direct Performance and the Failure of Documentation"
+      "text": "Synthesis of Remedial Impact Across Both Case Studies"
     },
     {
       "type": "paragraph",
-      "text": "Robert testified, and was corroborated by other employees, that he spent between 50 and 65 percent of his time on new product development. He was deeply involved in the Scorbitz project, even appearing as a named inventor on the resulting patent. However, the court found that \"new product development\" is a broader category than \"qualified research\". The former may include market research, aesthetic design, administrative planning, and customer feedback—none of which are qualified activities under Section 41."
-    },
-    {
-      "type": "paragraph",
-      "text": "The fundamental failure for the Moores was the absence of records that could parse Robert’s time. Although he clearly participated in meetings and technical discussions, the record provided no estimates of the time he spent specifically on the \"process of experimentation\"—the iterative evaluation of alternatives to resolve technical uncertainty—as opposed to general management."
-    },
-    {
-      "type": "subheading",
-      "text": "The \"One-Up\" Rule: Direct Supervision vs. Managerial Oversight"
-    },
-    {
-      "type": "paragraph",
-      "text": "One of the most nuanced aspects of the Moore decision is the application of the \"one-up\" rule for direct supervision. Under Treasury Regulation § 1.41-2(c)(2), \"direct supervision\" means the immediate supervision (first-line management) of qualified research. It specifically excludes supervision by a higher-level manager to whom first-line managers report, even if that high-level manager is a scientist or engineer."
-    },
-    {
-      "type": "paragraph",
-      "text": "At Nevco, the organizational structure was as follows:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Engineers: Performed the actual research.",
-        "Director of Engineering (Dave Paslay): Provided immediate supervision to the engineers (this was conceded by the IRS as qualified).",
-        "President/COO (Gary Robert): Supervised the Director of Engineering."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "The Tax Court concluded that because Robert was \"two layers removed\" from the direct research activity, his supervision did not qualify as \"direct supervision\". He was overseeing a manager, not the researchers themselves. This structural limitation is a major hurdle for executives in mid-to-large organizations claiming the credit, as their involvement is often categorized as \"supervision of supervision,\" which is explicitly non-qualified."
-    },
-    {
-      "type": "subheading",
-      "text": "Direct Support and Administrative Exclusions"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Moores also failed to demonstrate that Robert provided \"direct support\" for qualified research. Direct support includes activities like a machinist building an experimental model or a secretary typing technical lab results. Robert’s high-level involvement in budgeting, personnel requirements, and inventory management for the engineering department was deemed to be general administrative support rather than the specific, technical support required by the regulations."
-    },
-    {
-      "type": "heading",
-      "text": "The Evidentiary Crisis: Substantiation and the Record-Keeping Mandate"
-    },
-    {
-      "type": "paragraph",
-      "text": "The overarching theme of the Moore case is the \"crucial role of supporting documentation\". Under 26 C.F.R. § 1.41-4(d), taxpayers must maintain records in a \"sufficiently usable form and detail\" to prove the eligibility of their expenditures. The Tax Court’s rejection of the Moores’ claim was not necessarily a rejection of the fact that Robert did research, but a rejection of the proof of how much he did."
-    },
-    {
-      "type": "subheading",
-      "text": "The Failure of Post-Hoc Estimates and the Cohan Rule"
-    },
-    {
-      "type": "paragraph",
-      "text": "Taxpayers often rely on the \"Cohan Rule,\" derived from Cohan v. Commissioner, which allows a court to estimate expenses if it is clear the taxpayer incurred them, even if documentation is imperfect. However, recent R&D cases have shown that courts are increasingly unwilling to apply this rule to Section 41 claims because of the specific, multi-layered statutory requirements of the credit."
-    },
-    {
-      "type": "paragraph",
-      "text": "In Moore, the COO could not even provide a \"credible estimate\" or a \"principled way\" to determine what fraction of his time involved experimentation. The Seventh Circuit noted that without a fraction, the credit could not be calculated properly, as the credit is based on a mathematical increase over a base amount. If the numerator (current year QREs) is unknown, the equation is unsolvable."
-    },
-    {
-      "type": "subheading",
-      "text": "Payroll Records vs. Task Records"
-    },
-    {
-      "type": "paragraph",
-      "text": "A common misconception among taxpayers is that standard payroll records are sufficient for R&D credit substantiation. The Moore court explicitly clarified that while Nevco’s payroll records logged how much time employees worked, they failed to log the tasks performed or supervised. For an R&D credit, the nature of the task is the defining characteristic of eligibility."
+      "text": "The table below contrasts the pre-remediation posture (which replicates the fatal defects of <em>Scott Moore v. Commissioner</em>) against the post-remediation compliance architecture implemented in Case Studies 1 and 2:"
     },
     {
       "type": "table",
       "headers": [
-        "Documentation Type",
-        "Nevco's Documentation",
-        "Judicial Deficit"
+        "Compliance Dimension",
+        "Pre-Remediation Posture (Moore Failure Mode)",
+        "Post-Remediation Architecture (Audit-Ready Standard)"
       ],
       "rows": [
         {
           "cells": [
-            "Time Tracking",
-            "General payroll logs.",
-            "Did not distinguish research tasks from administrative duties."
+            "<strong>Organizational Hierarchy & \"One-Up\" Supervision</strong>",
+            "C-suite executive (COO/CTO) claims supervisory QREs over an Engineering Director/VP who already serves as the \"one-up\" first-line manager.",
+            "\"Two-up\" oversight of the Engineering Director/VP is 100% excluded. Executive claims only direct hands-on experimentation (§ 41(b)(2)(B)(i)) or formal first-line technical supervision of an isolated \"Tiger Team\" reporting directly to the executive."
           ]
         },
         {
           "cells": [
-            "Technical Notes",
-            "Project descriptions for business components.",
-            "Did not link specific employee hours to these technical activities."
+            "<strong>Business Component & Shrink-Back Definition</strong>",
+            "Allocates executive time across entire commercial products (Scoreboard Truss, Slim Shot Clock, full mobile apps) without separating experimental activities from routine engineering and commercial NPD, leaving no basis to measure the 80% threshold for the executive's work.",
+            "Proactively applies the Shrink-Back Rule (Treas. Reg. § 1.41-4(b)(2)) in the ERP/PLM system to isolate specific high-uncertainty subcomponents (<em>Titan-03 Truss Joint</em>, <em>PS-Core-01 Jitter Buffer</em>) where experimentation exceeds 80%."
           ]
         },
         {
           "cells": [
-            "Testimony",
-            "Oral testimony from Robert and colleagues.",
-            "Vague and unable to quantify experimentation vs. development."
+            "<strong>Treatment of Patents & Product Novelty</strong>",
+            "Assumes that because an executive is named on a patent (<em>Scorbitz</em>), all 50%–65% of their NPD time on that product and other products is automatically qualified.",
+            "Recognizes that patent issuance proves novelty, not time allocation. Strictly separates patentable technical experimentation hours from patent attorney meetings, market ideation, and commercial rollout."
           ]
         },
         {
           "cells": [
-            "Project Records",
-            "Emails and meeting notes.",
-            "Insufficient to overcome the \"one-up\" rule for supervision."
+            "<strong>Time Tracking & Substantiation (Treas. Reg. § 1.41-4(d))</strong>",
+            "Relies solely on payroll registers (showing total hours paid) plus retrospective, uncorroborated oral estimates (50%–65%) unable to support a <em>Cohan</em> estimate.",
+            "Implements <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous weekly time tracking</a> coded by Subcomponent and Activity Phase ([EXP-SIM], [EXP-TEST] vs. [NON-EXP-DEV], [EXEC-ADMIN]), corroborated by timestamped CAD/FEA saves and Git commits."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Contractual Risk & Customer Adaptation</strong>",
+            "Combines custom venue configuration with R&D under T&M contracts that transfer IP to the customer, triggering adaptation (§ 41(d)(4)(B)) and funded research (§ 41(d)(4)(H)) exclusions.",
+            "Bifurcates contracts into routine adaptation schedules (excluded) and fixed-price, technical-milestone-contingent R&D schedules where the taxpayer bears <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of failure and retains substantial IP rights."
           ]
         }
       ]
     },
     {
-      "type": "paragraph",
-      "text": "Source:"
-    },
-    {
       "type": "heading",
-      "text": "The Seventh Circuit’s Affirmation and the Finality of Factual Findings"
+      "text": "5. Strategic Conclusions for U.S. Tax Practitioners"
     },
     {
       "type": "paragraph",
-      "text": "The United States Court of Appeals for the Seventh Circuit’s 2024 decision in Moore v. Commissioner solidified the Tax Court’s findings and underscored the difficulty of reversing such decisions on appeal. The Seventh Circuit’s opinion focused on the standard of review and the burden of proof."
-    },
-    {
-      "type": "subheading",
-      "text": "Fact vs. Law: The \"Clear Error\" Standard"
+      "text": "The twin rulings of the United States Tax Court and the Seventh Circuit in <em>Scott Moore v. Commissioner</em> mark a decisive shift in federal R&D tax credit enforcement. For decades, many closely held manufacturers, engineering firms, and software developers relied on retrospective interviews to assign broad percentages (frequently 50% to 80%) of C-suite and <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">senior executive compensation</a> to Section 41 QREs under the banner of \"new product development\" or \"executive supervision of engineering\". <em>Moore</em> extinguishes the viability of that practice across three fundamental pillars of <a href=\"/us/glossary/rd-tax-credit-audit-defense\">tax controversy defense</a>."
     },
     {
       "type": "paragraph",
-      "text": "The Moores argued that the Tax Court’s inability to calculate the credit was a legal error. The Seventh Circuit rejected this, characterizing the determination of whether Robert’s research was \"qualified\" and \"how much\" time he spent on it as a finding of fact. As a factual finding, it is reviewed only for \"clear error,\" meaning it will only be overturned if it is unsupported by the record. The appellate court found no such error, stating the Tax Court’s conclusion was \"dispositive\" because the Moores bore the burden of production and persuasion."
-    },
-    {
-      "type": "subheading",
-      "text": "The \"Edison\" Analogy and the Process of Experimentation"
+      "text": "First, <em>Moore</em> signals the demise of unanchored executive estimates under the <em>Cohan</em> doctrine. Federal courts will no longer bridge the evidentiary gap between general \"new product development\" and statutory \"qualified research\" when a taxpayer fails to offer a principled, data-backed methodology for separating experimental activities from commercial and managerial functions. Even tangible proof of genuine innovation—such as being named an inventor on a United States patent (<em>Scorbitz</em>) or successfully engineering five complex commercial venue products—will result in a zero-dollar QRE allowance for an executive if the taxpayer cannot answer Judge Easterbrook's two mandatory factual questions with accurate details: <em>\"Was it qualified?\"</em> and <em>\"How much?\"</em>."
     },
     {
       "type": "paragraph",
-      "text": "The Seventh Circuit’s opinion, authored by Judge Easterbrook, provided a blunt assessment of the \"process of experimentation\" requirement. The court noted that none of the evidence showed what fraction of Robert’s research involved experimentation—\"even the trial-and-error kind made famous by Thomas Edison\". By referencing Edison, the court emphasized that while the threshold for what constitutes experimentation is technically broad (including simple trial-and-error), the threshold for proving that experimentation occurred and was quantified is remarkably high."
-    },
-    {
-      "type": "heading",
-      "text": "Comparative Analysis: Moore in the Context of a \"Losing Streak\""
+      "text": "Second, the Tax Court's ruling—which the Seventh Circuit affirmed without separately discussing the supervision ground, stating that the Tax Court's opinion otherwise speaks for itself—reinforces a rigid enforcement of the \"one-up\" supervisory ceiling under Treasury Regulation Section 1.41-2(c)(2). Whenever a company employs a Director of Engineering, VP of Engineering, or Laboratory Manager who serves as the first-line supervisor of the technical staff—as Dave Paslay did at Nevco—the regulation operates as an absolute legal bar against claiming \"direct supervision\" QREs for the President, COO, or CEO to whom that Engineering Director reports. Upper-tier executives can only qualify their wages to the exact extent they maintain contemporaneous proof of hands-on direct performance of experimental research under Section 41(b)(2)(B)(i) or direct first-line technical supervision of engineers who report straight to them without an intervening manager."
     },
     {
       "type": "paragraph",
-      "text": "The Moore decision is part of a broader trend of IRS victories in R&D tax credit litigation. To understand the future of R&D applications, one must view Moore alongside other recent cases that have established similar precedents."
-    },
-    {
-      "type": "subheading",
-      "text": "Little Sandy Coal and the 80-Percent Activity Test"
-    },
-    {
-      "type": "paragraph",
-      "text": "In Little Sandy Coal Co. v. Commissioner, also affirmed by the Seventh Circuit in 2023, the court disallowed credits for the construction of a tanker and a dry dock. The court focused on the \"substantially all\" test, ruling that the taxpayer failed to show that at least 80 percent of the activities related to the business component constituted elements of a process of experimentation. The court rejected the argument that because a project is a \"prototype,\" all activities in its development are inherently experimental. This aligns with Moore’s distinction between broad product development and specific experimentation."
-    },
-    {
-      "type": "subheading",
-      "text": "Siemer Milling and the Documentation Gap"
-    },
-    {
-      "type": "paragraph",
-      "text": "Siemer Milling Company v. Commissioner serves as another reminder that inadequate documentation is a \"key factor\" in disallowing research credits. In that case, the taxpayer’s inability to maintain contemporaneous records regarding the testing of new wheat varieties led to the disallowance of the credit, mirroring the evidentiary failure in Moore."
-    },
-    {
-      "type": "subheading",
-      "text": "Meyer, Borgman & Johnson (MBJ) and Funded Research"
-    },
-    {
-      "type": "paragraph",
-      "text": "While Moore focused on internal documentation, the case of Meyer, Borgman & Johnson, Inc. v. Commissioner (2024) addressed the \"funded research\" exclusion. The Eighth Circuit affirmed that if research is paid for by a client through a contract that does not make payment contingent on the success of the research, the taxpayer cannot claim the credit. This adds another layer of complexity for R&D applications: even with perfect documentation, the underlying contract must place the technical and economic risk on the taxpayer."
-    },
-    {
-      "type": "heading",
-      "text": "Future Implications for R&D Tax Credit Applications"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Moore decision, combined with recent IRS regulatory updates, creates a new paradigm for taxpayers seeking to claim the Section 41 credit. The implications are particularly significant for executive compensation, documentation systems, and the defense of refund claims."
-    },
-    {
-      "type": "subheading",
-      "text": "Strategic Implications for Executive Compensation"
-    },
-    {
-      "type": "paragraph",
-      "text": "Taxpayers should exercise extreme caution when including high-level executives in their R&D calculations. Based on the \"one-up\" rule and the Moore precedent, the following table summarizes the risks and requirements for executive QREs:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Executive Role",
-        "Qualified Service Potential",
-        "Risk Level",
-        "Requirement for Inclusion"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "First-Line Manager",
-            "High (Direct Supervision)",
-            "Moderate",
-            "Must supervise researchers directly; no intervening managers."
-          ]
-        },
-        {
-          "cells": [
-            "C-Suite (CEO/COO)",
-            "Low (General Management)",
-            "Very High",
-            "Must document \"hands-on\" experimentation or immediate support."
-          ]
-        },
-        {
-          "cells": [
-            "Technical Lead/VP",
-            "Moderate (Direct Performance)",
-            "High",
-            "Must maintain a project-by-project time log and separate experimentation from strategy."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "Source:"
-    },
-    {
-      "type": "subheading",
-      "text": "The Shift Toward Granularity: Form 6765 and FAA 20214101F"
-    },
-    {
-      "type": "paragraph",
-      "text": "The IRS has institutionalized the lessons from Moore through new reporting requirements. In 2024, the IRS updated the requirements for research credit refund claims, necessitating that taxpayers provide specific information for each business component at the time of the claim."
-    },
-    {
-      "type": "paragraph",
-      "text": "Requirements for Refund Claims (FAA 20214101F):"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Identification of all business components for the claim year.",
-        "Detailed description of all research activities performed by each component.",
-        "The total qualified employee wages, supply expenses, and contract research expenses for each component.",
-        "Note: The IRS recently waived the requirement to name every individual and specify the exact information each sought to discover, but the core requirement for component-level data remains."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "Furthermore, an updated Form 6765 will become mandatory for most taxpayers in 2025, requiring the breakdown of QREs by type (wages, supplies, etc.) at a much more detailed level than in previous years. This aligns with the judicial demand in Moore for \"accurate details\" and \"mathematical precision\"."
-    },
-    {
-      "type": "subheading",
-      "text": "Leveraging the Shrink-Back Rule"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Moore and Little Sandy Coal decisions emphasize that the \"substantially all\" test is applied at the business component level. If a project as a whole fails the 80 percent threshold (for example, if a large portion of the work was routine assembly or administrative), taxpayers can utilize the \"shrink-back rule\". This rule allows the taxpayer to identify a smaller sub-component (e.g., a specific engine part or a software module) that does meet the four-part test. However, this requires even more granular documentation to isolate the costs associated specifically with that sub-component."
-    },
-    {
-      "type": "heading",
-      "text": "Nuanced Conclusions and Actionable Recommendations for Taxpayers"
-    },
-    {
-      "type": "paragraph",
-      "text": "The legacy of Scott Moore v. Commissioner is a definitive end to the era of \"estimation-only\" R&D credits for high-level personnel. The case confirms that the IRS and the courts will no longer accept a taxpayer's \"say-so,\" regardless of how credible their testimony may be, if it is not supported by contemporaneous, task-specific records."
-    },
-    {
-      "type": "subheading",
-      "text": "Recommendations for Professional Practice"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Implement Task-Based Time Tracking: Companies should transition from simple payroll logging to project-based time tracking systems that allow employees to categorize their hours into \"qualified research\" (experimentation), \"direct supervision,\" \"direct support,\" and \"non-qualified development\".",
-        "Define Business Components Early: Technical uncertainties and the process of experimentation should be documented at the start of each project. This \"contemporaneous documentation\" is the most effective defense against a future IRS challenge.",
-        "Strict Adherence to the One-Up Rule: Taxpayers should review their organizational charts to determine if executive supervision is \"immediate\" or \"removed.\" If an executive manages a manager, their wages should likely be excluded from the credit calculation to avoid triggering an audit.",
-        "Audit the Consultant’s Work: Many companies use outside R&D tax credit consultants. Taxpayers should ensure these consultants are not merely performing a \"study\" based on retrospective interviews, but are actually gathering the hard technical evidence required to satisfy the \"process of experimentation\" test.",
-        "Preparation for the New Form 6765: Tax departments should begin adjusting their data collection processes now to meet the mandatory 2025 reporting requirements. The ability to allocate wages and supplies to specific business components is no longer an \"optional\" best practice—it is becoming a regulatory mandate."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "The Moore case serves as a stark reminder that while the R&D tax credit is a powerful tool for economic growth, it is also a highly technical and heavily scrutinized tax benefit. The burden of proof remains firmly on the taxpayer, and in the absence of a documented \"process of experimentation,\" the court’s conclusion will invariably be \"dispositive\" against the claim. As innovation continues to drive the American economy, the documentation of that innovation will remain the most critical factor in securing its tax-advantaged status."
+      "text": "Third, by classifying the \"was it qualified?\" and \"how much?\" determinations as case-specific factual findings governed by the deferential \"clear error\" appellate standard of <em>U.S. Bank, N.A. v. Village at Lakeridge, LLC</em>, the Seventh Circuit has effectively insulated Tax Court substantiation disallowances from appellate reversal. Because taxpayers bear both the burden of production and the burden of persuasion under Tax Court Rule 142(a), an evidentiary failure at the examination and Tax Court trial stage is legally fatal and cannot be cured by framing the dispute as a question of statutory interpretation on appeal. For United States tax attorneys, CPAs, and corporate tax directors—especially in light of mandatory <a href=\"/us/glossary/r-and-e-capitalization\">Section 174 capitalization</a> interdependencies and the expanded officer-wage and business-component reporting schedules on revised IRS Form 6765—<em>Scott Moore v. Commissioner</em> mandates an immediate transition from retrospective estimation studies to contemporaneous, subcomponent-level experimentation tracking and strict organizational role delineation."
     }
-  ]
+  ],
+  "metaDescription": "Scott Moore v. Commissioner, T.C. Memo. 2023-20: without records of time on qualified research, a whole executive compensation claim can be disallowed."
 }

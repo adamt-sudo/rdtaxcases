@@ -1,0 +1,709 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "R&D credits for crypto and blockchain development",
+  "description": "Crypto and blockchain developers can claim the federal R&D credit under IRC Section 41 for novel consensus mechanisms and zero-knowledge proof circuits.",
+  "summary": "Crypto and blockchain development companies in the USA can claim the federal R&D tax credit under IRC Section 41 when building novel consensus mechanisms, zero-knowledge proof circuits, cross-chain bridges, or formally verified smart contracts. Qualifying domestic wages, off-premises cloud compute, non-depreciable supplies, and 65% of contract research count, but depreciable hardware, forked code, and foreign research are excluded.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Crypto and blockchain development companies in the USA can claim the federal R&D tax credit under IRC Section 41 when building novel consensus mechanisms, zero-knowledge proof circuits, cross-chain bridges, or formally verified smart contracts. Qualifying domestic wages, off-premises cloud compute, non-depreciable supplies, and 65% of contract research count, but depreciable hardware, forked code, and foreign research are excluded."
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizations engineering cryptocurrency protocols, distributed ledger architectures, and decentralized finance (DeFi) systems routinely conduct technical activities that align with the federal Research and Development (R&D) tax credit under Internal Revenue Code (IRC) Section 41 (26 U.S.C. § 41). Because architecting novel consensus mechanisms, implementing zero-knowledge proof (ZKP) cryptographic circuits, engineering trustless cross-chain interoperability bridges, and executing formal smart contract verification require resolving fundamental technological uncertainties through systematic experimentation, the domestic labor, off-premises cloud computing, non-depreciable tangible supply, and third-party testing expenditures associated with these initiatives frequently qualify for federal tax credit recovery."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, while baseline advisory commentary frequently classifies specialized computer hardware—such as custom validator nodes, Application-Specific Integrated Circuits (ASICs), and Graphics Processing Units (GPUs)—alongside cloud compute time and digital data sets as \"Qualified Supply\" expenses, 26 U.S.C. § 41(b)(2)(C) explicitly excludes \"property of a character subject to the allowance for depreciation\" from the statutory definition of qualified supplies. This statutory exclusion is reinforced by 26 U.S.C. § 174A(d)(1), which likewise bars expenditures for the acquisition or improvement of depreciable property from domestic research or experimental expenditure treatment. Consequently, capital hardware assets cannot be claimed as supply expenses, intangible digital data sets fail the tangible property requirement of § 41(b)(2)(C), and cloud computing expenditures must be segregated and reported separately under 26 U.S.C. § 41(b)(2)(A)(iii) (Form 6765, Line 44 and Section G, Column 55) as off-premises computer rental costs rather than supplies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, although baseline commentary asserts that the 2024 redesign of IRS Form 6765 immediately mandates project-by-project Qualified Research Expense (QRE) reporting and a detailed project-level categorization of corporate officers' wages, official IRS <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a> (Rev. December 2025, released in final form on February 6, 2026, for use with the January 2025 form revision) establish that Section G (Business Component Information) remains optional for all filers on original returns for tax years beginning before 2026 and becomes mandatory only for tax years beginning after 2025, subject to specific statutory and administrative exemptions for qualified small businesses and smaller filers. Furthermore, corporate officers' wages are reported as a single aggregate figure in Section E, Line 38, rather than broken out by individual project in Section G, which instead categorizes project wages by functional service role across Columns 50 through 53."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, regarding Decentralized Autonomous Organizations (DAOs), while baseline commentary states that courts attempt to classify unincorporated DAOs as \"traditional corporate entities\", controlling federal judicial precedent—including <em>Samuels v. Lido DAO</em>, 2024 WL 4815022 (N.D. Cal. Nov. 18, 2024), <em>Houghton v. Leshner</em>, 2023 WL 6826814 (N.D. Cal. Sept. 20, 2023), and the <em>Ooki DAO</em> (<em>bZx DAO</em>) enforcement rulings—demonstrates that courts default to classifying unregistered DAOs as general partnerships under state law. This classification exposes active governance participants and tokenholders to joint and several personal liability while subjecting research expenditures to strict partnership-level trade or business qualification rules under 26 CFR § 1.41-2(a)(4)."
+    },
+    {
+      "type": "heading",
+      "text": "I. Executive Summary: Strategic Utilization of IRC Section 41 in Web3 and Blockchain Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41 and 26 CFR § 1.41-1, the federal Credit for Increasing Research Activities provides a statutory tax incentive designed to stimulate domestic technological innovation by reducing a taxpayer's federal tax liability based on qualified research expenses (QREs) paid or incurred in carrying on a trade or business. Under current law in force as reflected in Form 6765 (Rev. December 2024 and January 2025 revision) and its final Instructions (Rev. December 2025, issued February 6, 2026), eligible QREs must relate strictly to domestic research activities—specifically excluding any <a href=\"/us/glossary/foreign-research-exclusion\">research conducted outside the United States</a>, the Commonwealth of Puerto Rico, or any possession of the United States (26 U.S.C. § 41(d)(4)(F))."
+    },
+    {
+      "type": "paragraph",
+      "text": "While general industry commentary often characterizes the research credit broadly as a dollar-for-dollar reduction of tax liability based on QREs, the actual statutory benefit is calculated as a specific percentage of incremental QREs on Form 6765 under one of <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">two electoral calculation regimes</a>: the Regular Credit in Section A or the Alternative Simplified Credit (ASC) in Section B. Under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41(a)(1)</a>, the Regular Credit (Form 6765, Section A) equals 20% of the excess of the taxpayer's current-year QREs over a statutory base amount, reported on Section A, Line 13. If the taxpayer elects the reduced credit under <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">26 U.S.C. § 280C(c)(2)</a> to preserve its full current-year research expense deduction, the credit is reduced by the maximum corporate tax rate of 21%, yielding an effective net credit rate of 15.8% (20% × 79%). Alternatively, under <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">26 U.S.C. § 41(c)(4)</a>, taxpayers may elect the Alternative Simplified Credit (Form 6765, Section B), which equals 14% of current-year QREs that exceed 50% of the average QREs for the three preceding taxable years, reported on Section B, Line 24. If the taxpayer elects the reduced credit under 26 U.S.C. § 280C(c)(2) on Line 26, the gross ASC is multiplied by 79%, resulting in an effective rate of 11.06% of incremental QREs. For startup entities or first-time claimants that had no QREs in any one of the three preceding taxable years, 26 U.S.C. § 41(c)(4)(B) reduces the gross ASC rate to 6% of current-year QREs, or 4.74% (6% × 79%) if electing the reduced credit under § 280C. Once elected on Form 6765, the ASC applies to the current taxable year and all subsequent taxable years unless revoked with the consent of the IRS."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">early-stage Web3 protocol startups</a> that have not yet generated federal income tax liability, 26 U.S.C. § 41(h) provides an essential liquidity mechanism. A \"qualified small business\" (QSB)—defined under 26 U.S.C. § 41(h)(3) as a corporation, partnership, or sole proprietorship with less than $5 million in gross receipts for the current taxable year and no gross receipts for any taxable year preceding the five-tax-year period ending with the current taxable year—may elect on Form 6765 (Section D) and <a href=\"/us/glossary/irs-form-8974\">Form 8974</a> (attached to Form 941) to apply a portion of its research credit against federal payroll tax liabilities for up to five years. For taxable years beginning after December 31, 2022, the statutory cap on this payroll tax offset is $250,000 increased by an additional $250,000, providing up to $500,000 per year in immediate payroll tax relief (<a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">26 U.S.C. § 41(h)(4)(B)</a>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, the economics of claiming the Section 41 credit in 2025 and 2026 are directly governed by its interaction with newly enacted 26 U.S.C. § 174A, introduced by Public Law 119-21 (commonly known as the One Big Beautiful Bill Act, or OBBBA, enacted July 4, 2025). Between 2022 and 2024, amendments made by the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act</a> of 2017 forced companies to capitalize domestic research and experimental (R&E) expenditures under IRC § 174 and amortize them over five years, while foreign R&E expenditures required 15-year amortization. Under OBBBA and new IRC § 174A(a), for taxable years beginning after December 31, 2024, taxpayers may once again immediately deduct 100% of domestic R&E expenditures in the year paid or incurred, or alternatively elect under § 174A(c) to <a href=\"/us/glossary/r-and-e-capitalization\">capitalize and amortize</a> them ratably over a period of not less than 60 months (or elect 10-year ratable recovery under IRC § 59(e)). Under OBBBA § 70302(f) and IRS Revenue Procedure 2025-28, eligible small business taxpayers meeting the IRC § 448(c) gross receipts threshold ($31 million in average annual gross receipts over the prior three tax years for tax years starting in 2025) were also granted a one-year transition window (which closed in July 2026) to retroactively amend 2022–2024 returns to expense domestic R&E, while taxpayers with remaining unamortized 2022–2024 domestic R&E balances were permitted to accelerate recovery over a one-year or two-year period beginning after December 31, 2024, via an automatic accounting method change on Form 3115."
+    },
+    {
+      "type": "paragraph",
+      "text": "The restoration of <a href=\"/us/faq/how-section-174-affects-rd-tax-credit\">immediate domestic expensing</a> under IRC § 174A alters the coordination mechanics of IRC § 280C(c) on Form 6765. As clarified in the final Form 6765 Instructions released on February 6, 2026, for taxable years beginning after December 31, 2024, if a taxpayer does not make a timely <a href=\"/us/glossary/section-280c-election\">election for the reduced credit</a> under IRC § 280C(c)(2) on Item A of Form 6765 (an election that must be made on an original timely filed return for 2025 onward), the taxpayer must reduce its domestic R&E deduction (or capitalized § 174A expenditure) by the entire gross research credit amount—unlike the pre-2025 rule where only the excess of the credit over the deductible amount served as the adjustment. Taxpayers not electing § 280C must attach an itemized statement (named Form6765ItemASection280C.pdf for electronic filings) identifying the exact deduction or capitalized expense lines reduced on the return. Furthermore, due to a lingering formulaic discrepancy in the February 2026 final Form 6765 instructions regarding the § 280C line instructions, tax preparers must follow the form instructions as written and manually override the final credit calculation on Line 13 (for the Regular Credit) or Line 26 (for the ASC) to avoid reporting a materially misstated credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprises operating in cryptocurrency, Layer-1 and Layer-2 blockchain protocols, and DeFi incur substantial upfront engineering expenditures to resolve fundamental architectural constraints involving network throughput, block finality latency, cryptographic security, and decentralized consensus. Because these engineering challenges directly mirror the statutory criteria of 26 U.S.C. § 41(d), the research credit—paired with immediate domestic R&E expensing under § 174A—represents a vital capital preservation mechanism to extend development runway. At the same time, heightened IRS examination enforcement, the phased rollout of expanded business-component disclosures in Section G of Form 6765, and stringent refund claim specificity rules under 26 CFR § 301.6402-2(b)(1) and IRS Chief Counsel Advice LAFA 20214101F have transformed R&D credit claiming from a routine tax preparation function into a specialized technical substantiation discipline. Decentralized projects and open-source engineering teams that lack centralized human resources or <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">project-level time tracking</a> face acute disallowance risk unless engineering artifacts are systematically mapped to statutory tax law requirements in real time."
+    },
+    {
+      "type": "heading",
+      "text": "II. Statutory Eligibility: Applying the IRC Section 41 Four-Part Test to Crypto and Blockchain Engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "To constitute \"qualified research\" under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">26 U.S.C. § 41(d)(1)</a>, 26 CFR § 1.41-4(a)(2), and the Instructions for Form 6765 (Rev. December 2025), technical activities must satisfy a mandatory Four-Part Test, which must be applied separately to each discrete \"business component\" of the taxpayer (26 U.S.C. § 41(d)(2)(A)). Under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">26 U.S.C. § 41(d)(2)(B)</a> and the Form 6765 guidance, a business component is defined as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. Under the regulatory \"shrinking-back rule\" of 26 CFR § 1.41-4(b)(2), if an overall blockchain protocol or decentralized application (dApp) does not satisfy the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> as a whole (for example, because its user interface involves routine front-end web design), the test is applied at the next most significant subset of elements—such as the underlying consensus engine, cryptographic circuit, or cross-chain locking smart contract—until either a qualifying subset of elements is identified or the most basic element fails to qualify."
+    },
+    {
+      "type": "subheading",
+      "text": "A. Eliminating Technological Uncertainty Under IRC Section 41(d)(1)(A) and Treasury Regulation Section 1.41-4(a)(3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the first prong of the statutory test (26 U.S.C. § 41(d)(1)(A)), expenditures must be eligible to be treated as domestic research or experimental expenditures under IRC § 174 or IRC § 174A. Pursuant to 26 CFR § 1.174-2(a)(1) and 26 CFR § 1.41-4(a)(3), an activity satisfies this threshold only if it is undertaken for the purpose of discovering information intended to eliminate uncertainty concerning the capability or method for developing or improving a business component, or the appropriate design of that business component. Uncertainty exists for tax purposes if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component, even if the general concept is understood in academic literature. Crucially, under 26 U.S.C. § 174A(d)(3), Congress explicitly codified that any amount paid or incurred in connection with the development of any software is treated as a <a href=\"/us/glossary/research-and-experimental-expenditures\">research or experimental expenditure</a> for Section 174A purposes, though only the narrower slice of domestic software development that satisfies all four prongs of Section 41(d) and avoids the Section 41(d)(4) exclusions generates QREs for the Section 41 tax credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "In distributed ledger development, <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technological uncertainty</a> is structural to the engineering lifecycle. A primary domain of architectural uncertainty involves scalability and performance—determining whether a novel protocol architecture, state-sharding scheme, parallel transaction execution engine (such as optimistic concurrency control in virtual machines), or customized Layer-2 rollup design can process transactions at a target throughput and block finality latency without degrading the integrity of network decentralization, security, or energy efficiency. Because distributed systems are constrained by network propagation delays, state bloat, and Byzantine fault tolerance bounds, the appropriate system design to achieve high throughput under adversarial network conditions is rarely known at the outset of development."
+    },
+    {
+      "type": "paragraph",
+      "text": "A second core domain involves consensus integrity and security, where protocol engineering teams must resolve uncertainties regarding whether a novel consensus algorithm—such as a customized Proof-of-Stake (PoS) liquid staking variant, a Proof-of-History (PoH) cryptographic clock, or a Directed Acyclic Graph (DAG) ordering protocol—can withstand specific Byzantine and game-theoretic attack vectors (including Sybil attacks, long-range nothing-at-stake reorganizations, eclipse attacks, and maximal extractable value (MEV) validator collusion) while achieving target economic finality and computational efficiency."
+    },
+    {
+      "type": "paragraph",
+      "text": "A third domain encompasses advanced cryptographic primitives, including homomorphic encryption (performing computations directly on encrypted ciphertexts without decryption), multi-party computation (MPC) threshold signatures, and Zero-Knowledge Proofs (ZKP) such as zk-SNARKs and zk-STARKs. Implementing these cryptographic structures within resource-constrained virtual machines requires resolving deep capability and design uncertainties regarding arithmetic circuit constraint minimization, prover memory consumption, recursive proof aggregation latency, and verification gas costs."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Systematic Process of Experimentation and the Substantially All Threshold Under IRC Section 41(d)(1)(C)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(5), substantially all of the research activities with respect to a business component must constitute elements of a process of experimentation related to a qualified purpose. Under 26 CFR § 1.41-4(a)(6) and IRS Chief Counsel Advice LAFA 20214101F, the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" requirement</a> mandates that 80% or more of a taxpayer's research activities for a specific business component (measured on a cost or another consistently applied reasonable basis) constitute elements of a process of experimentation. Per 26 CFR § 1.41-4(a)(5), a process of experimentation is a structured process designed to evaluate one or more technical alternatives to achieve a result where the capability or method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities. Specifically, the taxpayer must first identify the specific technological uncertainty related to the development or improvement of the business component, next identify one or more technical alternatives intended to eliminate that uncertainty, and finally conduct a systematic process of evaluating those alternatives—through modeling, simulation, systematic trial and error, prototyping, or testing—to achieve the desired result. Notably, under 26 CFR § 1.41-1(a) and 26 CFR § 1.41-4(a)(5)(i), the research credit is determined regardless of whether the taxpayer ultimately succeeds or fails in achieving the desired technological advance; abandoned protocol iterations and <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">failed smart contract architectures</a> remain fully eligible provided they were evaluated through a systematic process of experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within Web3 engineering, the iterative protocol development lifecycle functions as this <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">systematic process of experimentation</a>. Development teams construct early protocol or application <a href=\"/us/glossary/prototype-development\">prototypes</a>, run multi-node computer simulations of alternative consensus parameters, deploy isolated devnets and public testnets, and utilize synthetic transaction loads or dedicated ledger test platforms to stress-test system behavior under simulated adversarial network partitions and latency spikes. A prominent illustration is pre-deployment smart contract testing, formal verification, and security auditing. Because smart contracts execute deterministically on immutable public ledgers where post-deployment bugs can result in irreversible loss of user funds through reentrancy, flash-loan price oracle manipulation, or integer overflow exploits, engineering teams utilize automated property-based fuzzing frameworks, symbolic execution, mathematical formal verification, assembly-level (Yul/EVM) gas optimization, and iterative testnet deployments prior to mainnet launch specifically to evaluate design alternatives and eliminate uncertainties regarding contract logic vulnerabilities and execution failure modes. The resulting <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous engineering artifacts</a>—architectural decision records, pull request diffs, formal verification proofs, mathematical analyses, fuzzing test logs, and latency benchmarks—provide the exact evidentiary trail required to substantiate systematic experimentation upon IRS examination."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Technological in Nature and Qualified Purpose Under IRC Section 41(d)(1)(B) and Section 41(d)(3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(d)(1)(B)(i), qualified research must be undertaken for the purpose of discovering information which is technological in nature. A critical statutory correction must be made to baseline industry commentary, which frequently states that this criterion requires relying on the principles of \"computer science, engineering, or mathematics\". The governing Treasury Regulation (26 CFR § 1.41-4(a)(4)) and the legislative history in the Tax Reform Act of 1986 Conference Report (H.R. Conf. Rep. No. 99-841), as applied by the Seventh Circuit in <em>United Stationers, Inc. v. United States</em>, 163 F.3d 440 (7th Cir. 1998), <em>aff'g</em> 982 F. Supp. 1279 (N.D. Ill. 1997), and the Tenth Circuit in <em>Tax and Accounting Software Corp. v. United States</em>, 301 F.3d 1254 (10th Cir. 2002), define \"technological in nature\" specifically as relying on the principles of the \"physical or biological sciences, engineering, or computer science\". Pure mathematics is not enumerated as a standalone statutory category; however, in blockchain and cryptographic development, applied mathematical analysis—such as elliptic curve cryptography, polynomial commitments in zero-knowledge circuit construction, and cryptographic hash functions—qualifies because it is applied as an integral foundational discipline of computer science and software engineering. Furthermore, as the Seventh Circuit emphasized in <em>United Stationers</em>, <a href=\"/us/faq/qualifying-rd-activities-software-companies\">qualifying software research</a> must address genuine architectural and design uncertainty using principles of computer science rather than merely executing routine installation, parameter customization, or modification of existing commercially available software packages."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(d)(1)(B)(ii) and § 41(d)(3)(A), the application of the research must be intended to be useful in the development of a new or improved business component of the taxpayer for a \"qualified purpose\"—defined statutorily as relating to a new or improved function, performance, or reliability or quality (<a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">26 U.S.C. § 41(d)(3)(A)(i)–(iii)</a>). Conversely, 26 U.S.C. § 41(d)(3)(B) expressly disqualifies research if its purpose relates to style, taste, cosmetic, or seasonal design factors. In Web3 architecture, engineering higher transaction throughput, reducing block confirmation latency, minimizing virtual machine computational overhead, enhancing cryptographic data security and privacy, and designing fault-tolerant cross-chain bridges directly target function, performance, reliability, and quality."
+    },
+    {
+      "type": "subheading",
+      "text": "D. Statutory Exclusions in Web3 Software Development Under IRC Section 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where a blockchain project involves writing software code, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">26 U.S.C. § 41(d)(4)</a>, 26 CFR § 1.41-4(c), and the Form 6765 Instructions expressly exclude several categories of activity from qualified research. Under 26 U.S.C. § 41(d)(4)(C) and 26 CFR § 1.41-4(c)(4), any activity relating to the <a href=\"/us/glossary/duplication-exclusion\">duplication or reproduction</a> of an existing business component in whole or in part from a physical examination of the business component itself or from plans, blueprints, detailed specifications, or publicly available information is statutorily excluded. In Web3 development, simply \"forking a repository\" (such as cloning an existing open-source automated market maker or EVM codebase) without resolving new architectural uncertainties, performing routine RPC/API integration, executing \"white-label\" exchange deployments, or launching a Non-Fungible Token (NFT) collection by minting 10,000 digital images using an unmodified, standard OpenZeppelin ERC-721 smart contract constitutes ineligible duplication and routine configuration. Similarly, under 26 U.S.C. § 41(d)(4)(B) and 26 CFR § 1.41-4(c)(3), activities conducted to <a href=\"/us/glossary/adaptation-exclusion\">adapt an existing business component</a> to a particular customer's requirement or need as part of a routine commercial deployment do not constitute qualified research. Furthermore, under 26 U.S.C. § 41(d)(4)(A) and 26 CFR § 1.41-4(c)(2), activities conducted <a href=\"/us/glossary/research-after-commercial-production\">after commercial production</a>—once a business component is developed to the point where it meets basic functional and economic requirements and is ready for commercial sale or use, such as operating mainnet validator nodes for general network maintenance, routine bug fixing after mainnet launch, or ongoing DevOps monitoring of production infrastructure—are statutorily barred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Special statutory and regulatory scrutiny also applies to <a href=\"/us/glossary/internal-use-software-ius\">Internal-Use Software (IUS)</a> under 26 U.S.C. § 41(d)(4)(E) and 26 CFR § 1.41-4(c)(6). Research with respect to computer software that is developed by, or for the benefit of, the taxpayer primarily for the taxpayer's internal use (such as internal treasury accounting, human resources, or general and administrative enterprise software) is excluded unless the software meets one of the statutory exceptions or satisfies the additional three-part <a href=\"/us/glossary/high-threshold-of-innovation-test\">High-Threshold-of-Innovation (HTI) test</a>, which requires that the software be innovative in resulting in a substantial and economically significant reduction in cost or improvement in speed, involve significant economic risk where substantial resources are committed and technical risk prevents retrieval within a reasonable period, and be commercially unavailable for use without modifications that satisfy the first two prongs. Under the Form 6765 Instructions (Section G, Column 49(e)) and 26 CFR § 1.41-4(c)(6), software is excepted from <a href=\"/us/faq/internal-use-software-rd-tax-credit\">Internal-Use Software treatment</a> if it is developed to be commercially sold, leased, licensed, or otherwise marketed to third parties; developed for use in an activity that itself constitutes qualified research or a production process meeting § 41(d)(1); or developed to enable the taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system without being used in any general and administrative function. Where software is presumed to be for internal use but also contains a third-party subset, it is classified as <a href=\"/us/glossary/dual-function-software\">Dual Function Software (DFS)</a>, allowing the taxpayer to isolate the third-party subset. Because decentralized protocols, smart contracts, Layer-1/Layer-2 networks, and custodial/non-custodial wallets are built specifically to allow external users and third-party nodes to initiate transactions, execute contract functions, and verify state data on the system, core Web3 protocol software generally qualifies as Non-IUS / Excepted software in Column 49(e). Finally, under 26 U.S.C. § 41(d)(4)(D), (F), (G), and (H), efficiency surveys, management functions, market research, routine data collection, routine quality control testing, research in the social sciences, arts, or humanities (including pure economic or financial tokenomics modeling), <a href=\"/us/glossary/funded-research\">research funded by any grant</a>, contract, or otherwise by another person or governmental entity (where the taxpayer does not retain substantial rights or does not bear financial risk), and any research conducted outside the United States or a U.S. territory are statutorily excluded."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Blockchain / Web3 Engineering Activity",
+        "Technological Uncertainty (26 U.S.C. § 41(d)(1)(A))",
+        "Process of Experimentation (26 U.S.C. § 41(d)(1)(C))",
+        "Qualified Purpose (26 U.S.C. § 41(d)(3)(A)) & Statutory Eligibility Status"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Novel Consensus Mechanism Design (e.g., PoS variant or PoH latency reduction)",
+            "Capability and architectural design uncertainty in achieving target transaction throughput and low finality latency without sacrificing decentralization or Byzantine fault tolerance.",
+            "Multi-node computer simulation, peer-to-peer network partition stress testing, and iterative tuning of cryptographic and slashing parameters across isolated testnets.",
+            "<strong>Eligible:</strong> Improves core distributed ledger performance, throughput, and reliability (Product / Non-IUS Software)."
+          ]
+        },
+        {
+          "cells": [
+            "Advanced Smart Contract Security & Assembly Gas Optimization",
+            "Uncertainty regarding deterministic contract logic vulnerabilities, reentrancy/oracle exploit vectors, state failure modes, and bytecode execution gas efficiency on an immutable ledger.",
+            "Mathematical formal verification, automated property-based fuzzing, assembly-level (Yul/EVM) gas optimization, and iterative testnet deployments.",
+            "<strong>Eligible:</strong> Develops or improves a secure, reliable, high-performance automated dApp or protocol process."
+          ]
+        },
+        {
+          "cells": [
+            "Zero-Knowledge Proof (ZKP) Circuit Implementation",
+            "Uncertainty concerning computational prover efficiency, arithmetic circuit constraint count, memory overhead, and security trade-offs in decentralized execution.",
+            "Applied mathematical/computer science analysis, optimization of polynomial commitment parameters, and performance benchmarking of alternative proof schemes.",
+            "<strong>Eligible:</strong> Enhances cryptographic data privacy, verification speed, and system security."
+          ]
+        },
+        {
+          "cells": [
+            "Trustless Cross-Chain Bridge Engineering (e.g., Solana-to-Ethereum locking mechanism)",
+            "Architectural uncertainty in achieving secure, trustless state verification, atomic finality, and latency reduction across heterogeneous virtual machines and consensus models.",
+            "Prototyping light-client verification relays, multi-chain simulation testing, adversarial security evaluation, and failure-mode analysis.",
+            "<strong>Eligible:</strong> Improves cross-network interconnectivity, security, and functional performance."
+          ]
+        },
+        {
+          "cells": [
+            "Standard NFT Minting (ERC-721) or Unmodified Repo Forking",
+            "None; capability, method, and appropriate design are already established in publicly available token standards and open-source repositories.",
+            "None; relies on routine parameter configuration, aesthetic asset generation, and code duplication rather than evaluating technical alternatives.",
+            "<strong>Ineligible:</strong> Statutorily excluded as duplication (§ 41(d)(4)(C)), cosmetic/artistic design (§ 41(d)(3)(B)), or routine software configuration lacking technological uncertainty."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "III. Identifying and Segregating Qualified Research Expenses in Decentralized Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">26 U.S.C. § 41(b)(1)</a> and the Form 6765 Instructions (Rev. December 2025), total Qualified Research Expenses (QREs) equal the sum of in-house research expenses (§ 41(b)(2)) and contract research expenses (§ 41(b)(3)) paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer. Accurately capturing QREs in blockchain development requires strict adherence to statutory definitions—specifically distinguishing eligible domestic employee wages, non-depreciable tangible supplies, off-premises cloud computer rentals, and 65% third-party domestic contract research from <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">excluded depreciable hardware</a>, intangible data sets, foreign contributors, and routine mainnet operations."
+    },
+    {
+      "type": "subheading",
+      "text": "A. Protocol Engineering and In-House Qualified Wages Under IRC Section 41(b)(2)(A)(i) and Section 41(b)(2)(B)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">26 U.S.C. § 41(b)(2)(A)(i)</a> and § 41(b)(2)(D), in-house research expenses include \"wages\" paid or incurred to an employee for qualified services performed by that employee. The term \"wages\" has the exact meaning given by 26 U.S.C. § 3401(a) (federal income tax withholding wages, which excludes nontaxable fringe benefits and employer 401(k) matching contributions, though taxable employee stock option exercises or taxable token compensation reported as W-2 Box 1 wages are included to the extent attributable to qualified services), or earned income under 26 U.S.C. § 401(c)(2) for self-employed individuals and sole proprietors, while explicitly excluding any wages taken into account in determining the Work Opportunity Credit under 26 U.S.C. § 51(a)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(b)(2)(B) and 26 CFR § 1.41-2(c), <a href=\"/us/glossary/qualified-services\">\"qualified services\"</a> consist strictly of three functional categories that map directly onto Form 6765, Section G (Columns 50 through 52). The first functional category is engaging in qualified research (26 CFR § 1.41-2(c)(1); Form 6765, Section G, Column 50), which covers the actual hands-on conduct of qualified research. In Web3 organizations, this encompasses Blockchain Protocol Engineers, Distributed Systems Researchers, Cryptography Specialists, Smart Contract Developers, and Security/QA Engineers who are actively designing novel consensus protocols, coding ZKP circuits, writing and stress-testing smart contracts, or architecting source code security (including enterprise applications such as private permissioned blockchains securing electronic health records). The second functional category is <a href=\"/us/glossary/direct-supervision\">direct supervision</a> of qualified research (26 CFR § 1.41-2(c)(2); Form 6765, Section G, Column 51), which covers the immediate, first-line technical supervision of persons engaging in the actual conduct of qualified research, such as a Lead Protocol Architect who reviews pull requests, directs experimental test plans, and evaluates consensus simulation results, while excluding higher-level executive management that only approves budgets or sets general corporate strategy. The third functional category is <a href=\"/us/glossary/direct-support\">direct support</a> of qualified research (26 CFR § 1.41-2(c)(3); Form 6765, Section G, Column 52), which covers services in the direct support of persons engaging in the actual conduct of qualified research or persons directly supervising them. In decentralized systems, direct support includes DevOps and Infrastructure Engineers who configure, deploy, and manage dedicated testnet ledger clusters, isolated node networks, or continuous integration fuzzing pipelines used explicitly for testing and research experimentation, while excluding time spent maintaining commercial mainnet validators or general corporate IT."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, under the statutory <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" rule</a> for employee wages (26 U.S.C. § 41(b)(2)(B) flush language; 26 CFR § 1.41-2(d)(2)), if substantially all (80% or more) of the services performed by an individual for the taxpayer during the taxable year consist of qualified services, 100% of the services performed by that individual for the taxpayer during the taxable year are treated as qualified services. If an employee spends less than 80% of their time on qualified services, only the exact pro-rata percentage of their wages attributable to qualified services may be included on Form 6765, Line 42 (and Section G, Column 53)."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Supplies Versus Depreciable Hardware and Cloud Compute Rental Under IRC Section 41(b)(2)(A)(ii)–(iii) and Section 41(b)(2)(C)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Baseline Web3 tax commentary frequently contains two severe statutory misclassifications under the heading \"Qualified Supply and Computing Expenses\" that would trigger automatic adjustment upon an IRS examination if left uncorrected. This assertion directly contradicts the plain text of the Internal Revenue Code. Under 26 U.S.C. § 41(b)(2)(C), the term \"supplies\" is statutorily defined as \"any tangible property other than— (i) land or improvements to land, and (ii) property of a character subject to the allowance for depreciation\". Furthermore, under 26 CFR § 1.41-2(b)(1), expenditures for supplies or for the use of personal property that are indirect research expenditures or general and administrative expenses do not qualify as in-house research expenses. Because computer hardware, custom physical validator nodes, Application-Specific Integrated Circuits (ASICs), and Graphics Processing Units (GPUs) have useful lives extending beyond one year and are capital assets of a character subject to the allowance for depreciation under 26 U.S.C. § 167 and § 168 (regardless of whether the taxpayer elects immediate bonus depreciation under § 168(k) or expensing under § 179), their purchase cost is statutorily barred from qualified supplies under 26 U.S.C. § 41(b)(2)(C)(ii). This rule is mirrored in 26 U.S.C. § 174A(d)(1), which excludes expenditures for the acquisition or improvement of depreciable property from Section 174A domestic R&E treatment. Physical items qualify as supplies on Form 6765, Line 43 (and Section G, Column 54) only if they are non-depreciable tangible property consumed directly in the conduct of qualified research (such as consumable electronic components destroyed during hardware wallet prototype fabrication). Similarly, digital \"data sets for modeling crypto flows\" and software licenses are intangible property and therefore fail the \"tangible property\" threshold of 26 U.S.C. § 41(b)(2)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(b)(2)(A)(iii), 26 CFR § 1.41-2(b)(4), and the Instructions for Form 6765 (Rev. December 2025), cloud computing is not a supply expense; rather, it falls under a separate, third statutory category of in-house research expenses: \"any amount paid or incurred to another person for the right to use computers in the conduct of qualified research\". On the redesigned Form 6765, these costs must be isolated and reported on Line 44 (Total rental or lease cost of computers for all business components) and Section G, Column 55 (Rental or lease cost of computers), completely separate from tangible supplies on Line 43 and Column 54. Per the Form 6765 Instructions and 26 CFR § 1.41-2(b)(4), computer rental or lease costs (such as AWS, Google Cloud, or Azure virtual server instances) qualify only if the computers are owned and operated by someone other than the taxpayer and located off the taxpayer's premises, the taxpayer is not the operator or primary user of the underlying physical host computers (meaning time-sharing or on-demand virtualized cloud compute rather than a dedicated physical server lease where the taxpayer is the sole user), and the eligible amount is reduced by any amount that the taxpayer (or any member of a <a href=\"/us/glossary/controlled-group\">controlled group</a>) receives or accrues from another person for the right to use substantially identical personal property (26 U.S.C. § 41(b)(2)(A) flush language). When properly categorized on Line 44 and Column 55, <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">off-premises cloud compute time</a> used for ledger simulation, multi-node consensus stress testing, ZKP prover benchmarking, or automated smart contract fuzzing frameworks is 100% eligible as an in-house research expense, provided it is meticulously segregated (via cloud environment tagging or separate billing accounts) from routine operational cloud usage such as hosting production mainnet nodes, block explorers, or public-facing marketing websites."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Smart Contract Security Auditing and Third-Party Contract Research Under IRC Section 41(b)(3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Web3 protocol developers routinely engage specialized external cryptography research laboratories and third-party blockchain security auditing firms to conduct formal verification, adversarial penetration testing, and economic exploit simulations prior to mainnet deployment to resolve technical uncertainties regarding smart contract vulnerabilities, wallet-contract interaction flows, and cross-chain bridge relays. Under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">26 U.S.C. § 41(b)(3)(A)</a> and the Form 6765 Instructions (Line 45 and Section G, Column 56), 65% of any amount paid or incurred by the taxpayer to any person (other than an employee of the taxpayer) for qualified research performed on behalf of the taxpayer qualifies as a contract research expense. Higher statutory inclusion percentages apply only in narrow statutory circumstances: 75% for amounts paid or incurred to a qualified research consortium (a tax-exempt organization under § 501(c)(3) or § 501(c)(6) organized and operated primarily to conduct scientific research, per 26 U.S.C. § 41(b)(3)(C)(ii)), or 100% of eligible basic research payments (above a qualified organization base period amount) made by corporations to universities or scientific research organizations under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">26 U.S.C. § 41(e)</a> (Form 6765, Line 46), or 100% for payments to eligible small businesses, universities, or federal laboratories for qualified energy research under § 41(b)(3)(D)."
+    },
+    {
+      "type": "paragraph",
+      "text": "To claim the <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% contract research inclusion</a> for third-party blockchain security testing or external protocol research, taxpayers must satisfy four cumulative legal requirements under 26 U.S.C. § 41(b)(3)(B), 26 CFR § 1.41-2(e), and the Form 6765 Instructions. First, under 26 CFR § 1.41-2(e)(2), the contract research must be performed pursuant to a written or binding agreement entered into prior to the performance of the qualified research. Second, under 26 CFR § 1.41-2(a)(3) and § 1.41-2(e)(1)(ii), the research must be performed on behalf of the taxpayer, meaning the taxpayer must retain <a href=\"/us/glossary/substantial-rights\">\"substantial rights\"</a> in the research results; even if a protocol team subsequently open-sources its smart contract code under a permissive license after development, the contract with the third-party vendor must not vest exclusive ownership of the underlying code or research findings in the vendor. Third, under 26 CFR § 1.41-2(e)(1)(iii) and § 1.41-2(e)(2) (as reinforced by IRS Notice 2023-63 and Notice 2024-12), the taxpayer must bear the <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of the research even if the research fails, because an expense is not paid or incurred for the performance of qualified research to the extent that payment is contingent on the success of the research. Consequently, \"bug bounty\" payouts that are paid only if an external white-hat hacker successfully discovers a vulnerability are contingent on results and fail the economic risk test, whereas fixed-fee or <a href=\"/us/glossary/time-and-materials-contract\">time-and-materials</a> engineering retainers paid to a security research firm to conduct systematic penetration testing and formal verification (payable regardless of whether exploits are found) satisfy the risk requirement. Fourth, under 26 U.S.C. § 41(b)(3)(B) and § 41(d)(4)(F), any prepaid contract research expense paid or incurred during a taxable year that is attributable to qualified research to be conducted after the close of that taxable year is treated as paid or incurred only in the subsequent taxable year during which the qualified research is actually conducted, and the <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">third-party contractor</a> must physically perform the research domestically within the United States or a U.S. territory. Payments to offshore smart contract auditors or foreign development shops are 100% excluded from QREs under 26 U.S.C. § 41(d)(4)(F) and must instead be capitalized and amortized over 15 years under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">26 U.S.C. § 174</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "D. Tokenomics Modeling and Decentralized Autonomous Organizations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Baseline industry commentary suggests that while financial modeling is generally not R&D, the systematic development and testing of a token model—including supply dynamics, utility, and incentive alignment—through simulation platforms to achieve a functional model that improves a business component can qualify when pursuing a technical solution to eliminate uncertainty. Under 26 U.S.C. § 41(d)(4)(D) and (G) and the Form 6765 Instructions, efficiency surveys, management studies, market research, and <a href=\"/us/glossary/social-sciences-exclusion\">research in the social sciences</a>, arts, or humanities (which includes economics, finance, and behavioral game theory in the abstract) are strictly excluded from qualified research. Consequently, pure economic, financial, or monetary modeling of token distribution schedules, treasury valuation, or speculative market liquidity does not qualify. Only the applied computer science and software engineering experimentation—such as architecting, coding, and agent-based computer simulation testing of algorithmic emission smart contracts, automated market maker (AMM) bonding curve invariants, or cryptoeconomic slashing logic embedded directly into protocol software—can qualify under 26 U.S.C. § 41(d)(1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regarding Decentralized Autonomous Organizations (DAOs), baseline commentary cites a peer-reviewed qualitative study published in <em>Frontiers in Blockchain</em> (Volume 8, published September 23, 2025, doi: 10.3389/fbloc.2025.1641294, <em>Challenges of DAOs in decentralized science: a qualitative analysis of expert interviews</em>) to explain why DAOs struggle with labor tracking and tax substantiation. Verification of that study confirms that DAOs replace traditional hierarchical corporate control with community-driven governance mediated by smart contracts, resulting in flexible, fluid, and informal contributor relationships that frequently operate across pseudonymous, globally distributed networks. Because formal W-2 employment contracts, standardized job descriptions, and traditional managerial oversight are frequently absent in DAOs, objectively assessing technical contributions, verifying domestic versus foreign physical location of contributors, tracking labor hours by business component, and managing hybrid crypto-fiat accounting across native token compensation grants are exceptionally complex. Furthermore, because token-weighted governance voting frequently creates tension between technical domain experts and non-expert tokenholders who participate primarily for financial speculation, tax advisors must rigorously segregate qualifying domestic technical R&D labor (such as core protocol engineers writing governance execution smart contracts or testing algorithmic treasury locks) from non-qualifying community moderation, marketing, business development, or general governance voting."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verification of the cited DeFi Education Fund analysis and underlying federal case law reveals the exact opposite legal risk: in the absence of a formal statutory entity wrapper, federal courts have classified unincorporated DAOs not as corporations with limited liability, but as general partnerships (or unincorporated associations) under state law."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, in <em>Samuels v. Lido DAO</em>, 2024 WL 4815022 (N.D. Cal. Nov. 18, 2024), plaintiff Andrew Samuels sued Lido DAO (a decentralized liquid staking protocol created in 2020) and four prominent institutional venture capital investors—Andreessen Horowitz (a16z), Paradigm Operations LP, Dragonfly Digital Management, and Robot Ventures—under Section 12(a)(1) of the Securities Act of 1933 following financial losses on LDO governance tokens purchased on the secondary market via the Gemini exchange. Rejecting the defense argument that Lido DAO was merely autonomous, self-executing software incapable of being sued as a legal entity, the U.S. District Court for the Northern District of California held that the plaintiff adequately alleged that Lido DAO formed a general partnership under California Corporations Code § 16202(a)—which arises by operation of law whenever two or more persons associate to carry on as co-owners a business for profit, regardless of whether the participants intended to form a partnership or executed a formal partnership agreement. Under California partnership law, all general partners are personally, jointly, and severally liable for all obligations and liabilities of the partnership. The court ruled that institutional investors who helped guide protocol development, held themselves out as governance participants, or meaningfully participated in Lido DAO governance (specifically a16z, Paradigm, and Dragonfly) could be held liable as general partners, whereas Robot Ventures was dismissed at the pleading stage only because the complaint failed to allege that it meaningfully participated in governance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <em>Lido DAO</em> ruling builds directly upon two companion Northern District of California decisions: <em>Houghton v. Leshner</em>, 2023 WL 6826814 (N.D. Cal. Sept. 20, 2023) (denying a motion to dismiss and holding that core participants in Compound DAO operated as a general partnership with respect to COMP governance tokens) and the Commodity Futures Trading Commission enforcement action in <em>CFTC v. Ooki DAO</em> (formerly <em>bZx DAO</em>, imposing $634,542 in civil monetary penalties and holding that DAO tokenholders who voted their tokens to govern and operate the protocol functioned as members of an unincorporated association / general partnership). To shield DAO members from catastrophic default general partnership liability, several U.S. states have enacted specialized statutory legal wrappers, including DAO-specific Limited Liability Company (LLC) statutes in Tennessee (House Bill No. 2645), Vermont (Blockchain-Based Limited Liability Companies Statute, 11 V.S.A. § 4173), and Wyoming (enacted in 2021/2022), the Wyoming Decentralized Unincorporated Nonprofit Association (DUNA) Act (enacted March 2024), and the Virginia DAO Act (introduced January 2025)."
+    },
+    {
+      "type": "paragraph",
+      "text": "From a federal R&D tax credit perspective, whether a DAO is classified by default as a general partnership or elects <a href=\"/us/glossary/pass-through-entity-rd-credit\">partnership taxation</a> via an LLC or DUNA wrapper has profound consequences under 26 CFR § 1.41-2(a)(4)(i). For partnerships, in-house research expenses and contract research expenses are qualified research expenses only if paid or incurred by the partnership in carrying on a trade or business of the partnership, determined at the partnership level without regard to the trade or business of any individual partner. A joint venture or loosely affiliated DAO contributor pool that is not actively carrying on a trade or business at the entity level cannot claim QREs (except under the narrow joint-venture exception of 26 CFR § 1.41-2(a)(4)(ii) where all partners are independently entitled to the results and each partner's share would be incurred in its own trade or business). Where a DAO partnership qualifies, it computes the research credit at the entity level on Form 6765 (reporting the credit on Line 30) and <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">allocates the resulting credit among its partners</a> in accordance with 26 CFR § 1.41-6 and § 1.41-7 on Schedule K-1 (Form 1065), Box 15, Code M."
+    },
+    {
+      "type": "subheading",
+      "text": "E. Hypothetical Worked Calculation: Blockchain Protocol QREs and Credit Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "While useful as an initial conceptual illustration, such heuristics ignore statutory exclusions for depreciable hardware and mainnet operations, the 65% haircut on third-party contract research, and the exact <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">base-amount formulas</a> on Form 6765."
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate how verified statutory rules under 26 U.S.C. § 41, 26 U.S.C. § 174A, 26 U.S.C. § 280C, and Form 6765 (Rev. December 2024 / January 2025 revision) operate in practice, consider \"ChainLabs Inc.,\" a hypothetical domestic C corporation developing a novel Layer-1 Proof-of-Stake protocol and Zero-Knowledge Proof privacy bridge (designated Business Component BC-01) during taxable year 2026, which incurs exactly $1,000,000 in total domestic technical expenditures across four accounting ledger categories."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the first category covering in-house qualified wages under 26 U.S.C. § 41(b)(2)(A)(i) and § 41(b)(2)(B) (reported on Form 6765, Line 42 and Section G, Columns 50–53), ChainLabs pays $610,000 in total domestic W-2 Box 1 wages across three technical employees. A Lead Protocol Engineer receives $250,000 in W-2 wages and spends 85% of their time conducting consensus mechanism experimentation and 15% on general corporate strategy; because 85% meets the ≥ 80% \"substantially all\" threshold of 26 U.S.C. § 41(b)(2)(B), 100% of their wages ($250,000) qualify in Column 50. A Cryptography Specialist receives $200,000 in W-2 wages and spends 70% of their time designing and benchmarking ZKP arithmetic circuits (qualifying direct research in Column 50) and 30% on routine third-party wallet API integration (excluded under § 41(d)(4)); because 70% falls below the 80% threshold, only the exact pro-rata share qualifies:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$200,000 × 0.70 = $140,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, a DevOps & Infrastructure Engineer receives $160,000 in W-2 wages and spends 50% of their time configuring and managing isolated testnet simulation node clusters (qualifying direct support under 26 CFR § 1.41-2(c)(3), reported in Column 52) and 50% maintaining commercial production mainnet validator nodes (excluded post-commercial production under § 41(d)(4)(A)). Their qualifying wage allocation is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$160,000 × 0.50 = $80,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Summing these functional categories ($390,000 in Column 50 direct research wages, $0 in Column 51 supervision, and $80,000 in Column 52 direct support) yields Total Qualified Wages of $470,000 on Form 6765, Line 42 and Section G, Column 53."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the second category covering supplies versus depreciable hardware under 26 U.S.C. § 41(b)(2)(C) (Form 6765, Line 43 and Section G, Column 54), ChainLabs spends $100,000 on physical equipment: $90,000 for depreciable GPU server racks and custom ASICs used for ZKP prover testing, and $10,000 for non-depreciable tangible electronic supplies consumed in hardware enclave prototype testing. Under 26 U.S.C. § 41(b)(2)(C)(ii) and § 174A(d)(1), the $90,000 in depreciable hardware is 100% excluded from QREs ($0), leaving Total Qualified Supplies of $10,000 on Line 43 and Column 54."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the third category covering off-premises cloud computer rental under 26 U.S.C. § 41(b)(2)(A)(iii) (Form 6765, Line 44 and Section G, Column 55), ChainLabs spends $140,000 on third-party AWS/GCP cloud infrastructure: $100,000 for off-premises virtualized node clusters used exclusively for Byzantine consensus stress simulations and ZKP circuit benchmarking, and $40,000 for commercial mainnet node hosting and public block explorer servers. Excluding the $40,000 operational expense yields Total Qualified Computer Rental of $100,000 on Line 44 and Column 55."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the fourth category covering contract research expenses under 26 U.S.C. § 41(b)(3)(A) (Form 6765, Line 45 and Section G, Column 56), ChainLabs pays $150,000 to an independent U.S.-based blockchain security firm for pre-deployment smart contract formal verification and adversarial penetration testing under a non-contingent written agreement where ChainLabs retains substantial rights. Applying the statutory 65% inclusion rate yields Total Qualified Contract Research of $97,500 on Line 45 and Column 56:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$150,000 × 0.65 = $97,500"
+    },
+    {
+      "type": "paragraph",
+      "text": "Summing Lines 42, 43, 44, and 45 on Form 6765, Section F, Line 48 yields Total Verified QREs of $677,500:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$470,000 + $10,000 + $100,000 + $97,500 = $677,500"
+    },
+    {
+      "type": "paragraph",
+      "text": "When <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">computing the Alternative Simplified Credit</a> (ASC) in Section B of Form 6765 (Lines 20–26) and coordinating with Section 280C and Section 174A, two distinct scenarios illustrate the statutory mechanics. Under Scenario 1, if ChainLabs is a first-time or startup filer with no QREs in at least one of the prior three tax years, 26 U.S.C. § 41(c)(4)(B) directs the taxpayer to skip Lines 22–23 and multiply Line 20 ($677,500) by 6% (0.06) on Line 24 to yield a Gross ASC of $40,650.00. If ChainLabs does not elect § 280C, it claims the full $40,650.00 credit (or <a href=\"/us/glossary/payroll-tax-credit-election\">applies it against payroll taxes</a> on Form 8974 if a qualified small business) but must reduce its current-year immediate domestic R&E deduction under 26 U.S.C. § 174A by $40,650.00. If ChainLabs elects the reduced credit under § 280C(c)(2) on Line 26, its Net ASC is $32,113.50 ($40,650.00 × 0.79), and it preserves 100% of its immediate § 174A deduction. Under Scenario 2, if ChainLabs is an established filer with $1,200,000 in total QREs across the prior three tax years (entered on Line 21), its <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a> on Line 22 (50% of the three-year average, or Line 21 divided by 6.0) is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$1,200,000 ÷ 6.0 = $200,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Its incremental excess QREs on Line 23 equal:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$677,500 − $200,000 = $477,500"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiplying Line 23 by the 14% (0.14) statutory ASC rate on Line 24 yields a Gross ASC of $66,850.00 (requiring a $66,850.00 reduction to § 174A domestic R&E deductions if § 280C is not elected), whereas electing the 79% (0.79) § 280C reduced credit on Line 26 produces a Net ASC of $52,811.50 ($66,850.00 × 0.79) while retaining 100% of its § 174A deduction."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Expenditure / Credit Line Item",
+        "Form 6765 Reference (Rev. Dec. 2024 / Jan. 2025)",
+        "Gross Budget Spend",
+        "Statutory Adjustment / Exclusion Rule",
+        "Verified QRE / Credit Amount"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Lead Protocol Engineer Wages (85% R&D)",
+            "Line 42 / Sec. G, Col. 50 & 53",
+            "$250,000",
+            "Meets ≥ 80% \"substantially all\" rule (§ 41(b)(2)(B)); 100% included.",
+            "$250,000.00"
+          ]
+        },
+        {
+          "cells": [
+            "Cryptography Specialist Wages (70% R&D)",
+            "Line 42 / Sec. G, Col. 50 & 53",
+            "$200,000",
+            "Below 80% threshold; 30% routine API work excluded (×0.70).",
+            "$140,000.00"
+          ]
+        },
+        {
+          "cells": [
+            "DevOps Engineer Wages (50% Testnet Support)",
+            "Line 42 / Sec. G, Col. 52 & 53",
+            "$160,000",
+            "50% mainnet ops excluded (§ 41(d)(4)(A)); 50% direct support included.",
+            "$80,000.00"
+          ]
+        },
+        {
+          "cells": [
+            "Hardware: GPU Racks, ASICs & Supplies",
+            "Line 43 / Sec. G, Col. 54",
+            "$100,000",
+            "$90,000 depreciable hardware excluded (§ 41(b)(2)(C)(ii)); $10,000 tangible supplies included.",
+            "$10,000.00"
+          ]
+        },
+        {
+          "cells": [
+            "Cloud Infrastructure: Simulation vs. Mainnet",
+            "Line 44 / Sec. G, Col. 55",
+            "$140,000",
+            "$40,000 mainnet hosting excluded; $100,000 off-premises R&D compute included (§ 41(b)(2)(A)(iii)).",
+            "$100,000.00"
+          ]
+        },
+        {
+          "cells": [
+            "External Smart Contract Security Audit",
+            "Line 45 / Sec. G, Col. 56",
+            "$150,000",
+            "Statutory 65% inclusion rate applied to domestic contract research (§ 41(b)(3)(A)).",
+            "$97,500.00"
+          ]
+        },
+        {
+          "cells": [
+            "Total Verified QREs",
+            "<strong>Section F, Line 48</strong>",
+            "$1,000,000",
+            "<strong>Sum of Lines 42, 43, 44, and 45</strong>",
+            "$677,500.00"
+          ]
+        },
+        {
+          "cells": [
+            "Startup ASC (No Prior QREs) — Gross vs. Net",
+            "Sec. B, Line 24 (6%) / Line 26 (×0.79)",
+            "N/A",
+            "6% gross rate (§ 41(c)(4)(B)) with $40,650 § 174A reduction, or 4.74% net under § 280C.",
+            "$40,650.00<strong> Gross / </strong>$32,113.50<strong> Net</strong>"
+          ]
+        },
+        {
+          "cells": [
+            "Established ASC ($1.2M 3-Yr Prior QREs) — Gross vs. Net",
+            "Sec. B, Line 24 (14%) / Line 26 (×0.79)",
+            "N/A",
+            "14% of QREs above $200,000 base with $66,850 § 174A reduction, or 11.06% net under § 280C.",
+            "$66,850.00<strong> Gross / </strong>$52,811.50<strong> Net</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "IV. Substantiation and Audit Defense in a High-Scrutiny Regulatory Environment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because blockchain and cryptocurrency claims frequently involve high software wage concentrations, intangible protocol deliverables, complex multi-entity or DAO token structures, and credits generated during periods of Net Operating Losses (NOLs) or claimed via amended returns, the IRS subjects these filings to <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">intensive examination scrutiny</a> under Internal Revenue Manual (IRM) Part 4, Chapter 30, Section 2 (4.30.2 Research Credit Examination Guidance). Complying with current IRS disclosure standards requires mastering both the phased implementation of Form 6765 Section G and the strict jurisdictional specificity rules governing amended refund claims under Treasury Regulation § 301.6402-2(b)(1) and IRS Chief Counsel Advice LAFA 20214101F."
+    },
+    {
+      "type": "subheading",
+      "text": "A. IRS Form 6765 and Section G Business Component Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Baseline industry commentary asserts that the 2024 redesign of Form 6765 \"now mandates breaking out QREs by project, along with a detailed categorization of wages paid to company officers who participate in qualified research\". Verification against the official <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> (Rev. December 2024 and January 2025 revision) and the final Instructions for Form 6765 (Rev. December 2025, released February 6, 2026) establishes the exact phased regulatory timeline and corrects three substantive misstatements in the baseline commentary."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, regarding effective dates and mandatory applicability, following public feedback collected through June 30, 2025, and an IRS transition announcement on October 1, 2025, the final Form 6765 Instructions specify that for tax years beginning before 2026 (including the 2024 and 2025 tax years), Section G (Business Component Information) is optional for all filers on original returns. However, if a taxpayer claims a research credit on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> or Administrative Adjustment Request (AAR) for a credit that was not reported on the original return or increases the original credit amount, business-component specificity rules apply even for tax years beginning before 2026. For tax years beginning after December 31, 2025 (the 2026 tax year and forward), completing Section G is mandatory for all filers unless they qualify for one of two specific exemptions: first, the Qualified Small Business Payroll Tax Credit Exception, which exempts any <a href=\"/us/glossary/qualified-small-business-qsb\">qualified small business</a> defined under 26 U.S.C. § 41(h)(3) that checks the box in Section D to claim a reduced payroll tax credit; or second, the Small-Filer / Low-QRE Exception, which exempts any taxpayer that reports the research credit on an originally filed return, has total QREs determined at the controlled-group level (Form 6765, Line 48) equal to or less than $1.5 million, and has average annual gross receipts for the three preceding taxable years equal to or less than $50 million (determined under 26 U.S.C. § 448(c)(3) without regard to subparagraph 448(c)(3)(A))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, when Section G is required, filers do not necessarily report every minor project individually if they have dozens of components; instead, they follow the \"80%/Top 50\" business component rule. Under this rule, the taxpayer must report business components in descending order by total QREs per business component, capturing a minimum of 80% of total QREs or a maximum of 50 business components, whichever comes first. Any remaining business components beyond the 80%/Top 50 threshold are combined and reported on a single line labeled \"Aggregate Business Components\" in Column 49(c) along with their aggregated expense amounts in Columns 50 through 56. If the taxpayer utilizes <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling</a> under Rev. Proc. 2011-42, it must still report the 80%/Top 50 business components regardless of which components were selected in the statistical sample, append the word \"sample\" in Column 49(c) for sampled units, and attach its statistical sampling plan as Form6765StatSamplePlan.pdf. For each reported business component, the filer selects the business component type in Column 49(d) (Product, Process, or All Others), and if the component is software, must classify it in Column 49(e) under one of the designated categories (A. Internal-Use Software (IUS), B. Dual Function Software (DFS), or C. Non-IUS / Excepted from IUS treatment, such as software developed to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system without being used in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, regarding corporate officers' wages, Section G (Columns 50 through 53) does not break out officers' wages by individual project. Instead, Section G categorizes total qualified employee wages for each business component by service function: Column 50 (Direct research wages for qualified services), Column 51 (Direct supervision wages for qualified services), Column 52 (Direct support wages for qualified services), and Column 53 (Total qualified wages, summing Columns 50–52, which then flows to Section F, Line 42). <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">Corporate officers' wages</a>—where the definition of a corporate officer is determined under the laws of the state of incorporation—are reported as a single aggregate dollar figure in Section E (Other Information), Line 38 (\"Enter the amount of officers' wages included on line 42\"). In addition to Line 38, Section E requires all claimants (even those exempt from Section G) to disclose the total number of business components generating QREs (Line 37), whether any major trade or business acquisitions or dispositions occurred during the tax year (Line 39), whether any new categories of QREs were claimed compared to prior filings (Line 40), and whether any QREs were calculated using the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> safe harbor for certified audited financial statements (Line 41). Alongside these form disclosures, all taxpayers must maintain contemporaneous records in sufficiently usable form and detail pursuant to 26 CFR § 1.41-4(d) and 26 U.S.C. § 6001 to substantiate the <a href=\"/us/glossary/project-to-expense-nexus\">nexus between claimed expenditures</a> and qualified research activities."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Technical Narrative Construction, Refund Claim Specificity Under LAFA 20214101F, and the Harper Precedent"
+    },
+    {
+      "type": "paragraph",
+      "text": "Baseline industry analysis references <em>Harper v. United States</em> to underscore the severe procedural hazard of filing R&D claims that lack initial project-level specificity, noting that the Ninth Circuit reversed a district court dismissal in <em>Harper</em> only because the IRS waived its procedural specificity objection by auditing the claim on the merits for four years. Verification against the Ninth Circuit's decision in <em>Harper v. United States</em>, No. 19-55933, 847 F. App'x 408, 2021 WL 732970 (9th Cir. Feb. 25, 2021) (reversing <em>Harper v. United States</em>, No. 3:18-cv-02110-DMS-LL, 2019 WL 1877185 (S.D. Cal. Apr. 25, 2019)) and IRS Chief Counsel Advice LAFA 20214101F (issued September 17, 2021) confirms the exact legal posture and establishes why taxpayers cannot rely on IRS waiver to rescue deficient filings."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Harper</em>, Jeffrey and Katherine Harper filed amended tax returns on behalf of their S corporation, Harper Construction Company, claiming IRC § 41 research credit refunds of $437,632 for tax year 2008 and $388,325 for tax year 2010. Following an administrative audit and <a href=\"/us/glossary/notice-of-claim-disallowance\">formal disallowance</a>, the Harpers filed a refund suit in the U.S. District Court for the Southern District of California. The district court dismissed the complaint for lack of subject-matter jurisdiction under 26 U.S.C. § 7422(a), holding that the Harpers' administrative refund claims failed to set forth facts sufficient to apprise the Commissioner of the exact basis of the claim as required by the specificity mandate of 26 CFR § 301.6402-2(b)(1) because the initial filings did not identify specific business components or employee research activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "On February 25, 2021, the U.S. Court of Appeals for the Ninth Circuit reversed and remanded. Relying on the Supreme Court's waiver doctrine in <em>Angelus Milling Co. v. Commissioner</em>, 325 U.S. 293 (1945), the Ninth Circuit majority held that the IRS unmistakably waived strict enforcement of the formal specificity requirements of 26 CFR § 301.6402-2(b)(1) by conducting an intensive, targeted four-year examination—specifically investigating the taxpayer's <a href=\"/us/glossary/project-accounting\">project accounting</a> practices, QRE translation methodology, business component breakdown, satisfaction of the § 41(d)(1)(C) 80% \"substantially all\" rule, and employee salary allocations, during which the taxpayer produced over 100,000 pages of documentation (cited as over 112,000 pages in Judge Hunsaker's concurrence, which would have resolved the appeal under the informal claim doctrine)—and issuing a substantive denial on the merits without ever asserting a procedural specificity defect."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, in <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">LAFA 20214101F</a> (updated September 17, 2021), the IRS Office of Chief Counsel responded directly to the Ninth Circuit's ruling by instructing IRS examination and processing personnel to screen amended research credit refund claims for specificity before initiating any substantive audit—thereby preventing any possibility of <em>Angelus Milling</em> waiver. LAFA 20214101F explicitly states that although <em>Harper</em> was overruled on appeal based on waiver under the facts of that four-year audit, \"the law as stated in the district court opinion remains valid and is the standard by which claims are reviewed for validity\". Under LAFA 20214101F, to satisfy 26 CFR § 301.6402-2(b)(1) and confer federal court jurisdiction under 26 U.S.C. § 7422(a), an administrative refund claim for an IRC § 41 credit must set forth five essential elements of factual information at the time the refund claim is filed, accompanied by a written declaration signed under penalties of perjury: first, the taxpayer must identify all the business components to which the IRC § 41 research credit claim relates for that claim year; second, for each business component, the taxpayer must identify all research activities performed; third, for each business component, the taxpayer must identify all individuals who performed each research activity (by name or title/role as refined in subsequent IRS administrative guidance); fourth, for each business component, the taxpayer must identify all the information each individual sought to discover (which corresponds directly to Form 6765, Section G, Column 49(f) for amended returns and AARs); and fifth, the taxpayer must provide the total qualified employee wage expenses, total qualified supply expenses, and total qualified contract research expenses (including computer rental costs) for the claim year, which may be satisfied by completing Form 6765."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, LAFA 20214101F mandates that these facts be presented in a concise written statement rather than through bulk document dumps; if a <a href=\"/us/faq/documents-needed-for-rd-tax-credit-study\">formal R&D credit study</a> or supporting technical documentation is attached to the amended return, the taxpayer must specify the exact page numbers supporting each of the five required factual elements. While the final updated Instructions for Form 6765 released on February 6, 2026, removed the explicit citation to \"CCM 20214101F\" from the \"Research Credit Claims on Amended Returns\" text—replacing it with a directive that taxpayers \"follow the required information for a valid <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">research credit claim for refund</a> procedures\"—tax practitioners and the IRS continue to apply the five-item framework in practice (with the IRS maintaining a 45-day perfection transition window extended through January 10, 2027, for deficient refund claims). Once the IRS <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">formally rejects a deficient refund claim</a> after the statutory limitation period under 26 U.S.C. § 6511 (generally three years from the date the original return was filed or two years from the time the tax was paid, whichever expires later) has run, the deficient claim cannot be amended, perfected, or litigated in federal court. Consequently, constructing an exhaustive, <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">technically specific narrative</a> upfront—detailing the exact architectural advances sought, the capability or design uncertainties faced (for example, whether a novel consensus algorithm can process 10,000 transactions per second with sub-second finality under specific state-sharding configurations), the systematic experimental methodology, and the uncertainties resolved—is indispensable to survive procedural screening and substantive examination."
+    },
+    {
+      "type": "heading",
+      "text": "V. Advisory Architecture Analysis: Specialist Engineering-Tax Integration Versus Generalist Models"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Structural Limitations of Generalist Accounting Models in Web3 Claims"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the advisory landscape, <a href=\"/us/faq/big-4-vs-boutique-rd-tax-credit-advisors\">large diversified accounting and professional services firms</a> prioritize broad financial statement audit, general corporate tax compliance, and management consulting services, relying predominantly on general Certified Public Accountants (CPAs) and tax attorneys rather than dedicated teams of systems engineers or cryptographers. When evaluating highly specialized Web3 software engineering, generalist preparation models frequently encounter two opposing structural failure modes: conservative under-claiming (false negatives) and <a href=\"/us/faq/signs-of-aggressive-rd-tax-credit-advisor\">aggressive, unsubstantiated over-claiming</a> (false positives). Under the conservative under-claiming failure mode, generalist preparers unfamiliar with distributed systems architecture frequently misclassify novel Zero-Knowledge Proof circuit optimization, assembly-level EVM/SVM gas minimization, or off-premises cloud consensus stress simulations as routine commercial software maintenance or excluded internal-use software, routinely omitting 40% to 50% of statutorily eligible QREs. Conversely, under the aggressive over-claiming failure mode, generalist preparers or contingency-fee <a href=\"/us/faq/irs-dirty-dozen-rd-tax-credit-mills\">\"credit mills\"</a> that apply flat percentage multipliers to entire engineering payrolls or hardware capex budgets without conducting component-level technical interviews frequently include ineligible costs—such as depreciable ASIC/GPU hardware barred under 26 U.S.C. § 41(b)(2)(C)(ii), offshore contractor payments barred under § 41(d)(4)(F) and § 174, or routine ERC-721 token configuration barred under § 41(d)(4)(C)—without mapping activities to the five specificity elements of LAFA 20214101F or Section G of Form 6765, creating severe audit disallowance and penalty exposure under 26 U.S.C. § 6662 and § 6676."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Specialist R&D Advisory Staffing and Domain Focus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operating across eight countries with over 60 employees, the firm reports having processed and secured over US$1.5 billion in R&D tax credits for corporate clients."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regarding multidisciplinary technical and regulatory staffing, corporate leadership disclosures confirm that the firm integrates degreed engineers (such as Principal and Director of Technical Compliance Adam Rogers, a mechanical engineer, and Principal Lyle Norris, a dental metallurgy and medical device specialist), Chartered Accountants and Registered Tax Agents (such as CEO Damian Smyth and Principal Andy Nguyen), and IRS Enrolled Agents (such as Principal Jess Doocey, a mechanical engineer and IRS Enrolled Agent with over 20 years of specialized R&D tax credit examination and audit defense management experience)."
+    },
+    {
+      "type": "subheading",
+      "text": "C. AI-Assisted Substantiation and Audit Readiness: TaxTrex and creditARMOR"
+    },
+    {
+      "type": "paragraph",
+      "text": "Secured <a href=\"/us/faq/ai-rd-tax-credit-platforms\">AI agents</a> parse technical documentation within 90 minutes to draft audit-ready technical narratives aligned with the IRC § 41 Four-Part Test and Form 6765 Section G business-component fields. Crucially, every AI-generated claim undergoes a mandatory human \"six-eye review\" process (involving an engineer, a CPA/tax specialist, and a senior quality reviewer) alongside manual independent rebuilding of all QRE calculations to prevent AI hallucinations and ensure strict statutory accuracy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform and advisory disclosures confirm that creditARMOR mitigates financial audit exposure by covering professional <a href=\"/us/faq/rd-tax-credit-audit-defense-cost\">audit defense expenses</a>, including CPA, tax attorney, and specialist engineering consultant fees, in the event of an IRS examination. In its structured four-step mock audit workflow, a taxpayer uploads its draft or filed Form 6765—where creditARMOR automatically parses the business components disclosed in Section G—alongside supporting project documentation across 11 distinct evidence categories (including W-2 payroll registers, <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous time tracking</a> or Git commit logs, architectural specifications, testnet trial logs, and third-party contractor Statements of Work)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Evaluation Dimension",
+        "Specialist R&D Tax Advisory Model",
+        "Generalist / Traditional Accounting Model (e.g., Diversified CPA / Big 4)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Practice Focus & Statutory Specialization",
+            "Exclusive operational focus on R&D tax credit preparation, Section 174/174A compliance, and IRC § 41 audit defense since October 2008.",
+            "Diversified financial statement audit, general corporate tax compliance, and broad management consulting across hundreds of unrelated tax provisions."
+          ]
+        },
+        {
+          "cells": [
+            "Technical & Regulatory Staffing",
+            "Multidisciplinary teams combining degreed engineers, Chartered Accountants / CPAs, and IRS Enrolled Agents experienced in technical substantiation.",
+            "Primarily <a href=\"/us/faq/cpa-vs-specialist-rd-tax-credit\">general CPAs</a> and corporate tax attorneys; frequently lacks in-house distributed systems engineering or cryptography fluency."
+          ]
+        },
+        {
+          "cells": [
+            "Web3 QRE Identification & Segregation",
+            "Rigorously segregates eligible off-premises cloud simulations (Line 44), 65% domestic smart contract security audits (Line 45), and qualified protocol wages (Line 42) from excluded depreciable hardware (§ 41(b)(2)(C)) and mainnet operations.",
+            "High risk of either conservatively omitting eligible ZKP/consensus/cloud R&D as routine software or aggressively claiming ineligible hardware and routine configuration work."
+          ]
+        },
+        {
+          "cells": [
+            "Compliance & Substantiation Technology",
+            "Deploys <strong>TaxTrex</strong> ($375/mo, prospective real-time documentation, 90-minute AI sorting with mandatory human six-eye review) and <strong>creditARMOR</strong> (free AI mock audit, Section G parser, 11-category evidence check, and draft IDR simulation).",
+            "Relies predominantly on retrospective year-end employee interviews, manual spreadsheet data collection, and generalized tax preparation software."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/rd-tax-credit-audit-defense\">Audit Defense</a> & LAFA 20214101F Readiness",
+            "Proactive <a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">\"defense by construction\"</a> mapping every Section G business component and LAFA 20214101F specificity element to testnet trial logs and code repositories prior to filing, supported by audit fee coverage.",
+            "Frequently reactive only upon receipt of an IRS <a href=\"/us/glossary/information-document-request-idr\">Information Document Request (IDR)</a>, increasing exposure to procedural rejection or substantive examination disallowance."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VI. Statutory and Factual Verification Audit Matrix"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item #",
+        "Baseline Claim",
+        "Audit Status",
+        "Controlling Legal & Administrative Authorities",
+        "Verification Findings & Technical Corrections Applied"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "The R&D Tax Credit is defined under IRC Section 41 (26 U.S.C. § 41) and offers a reduction of tax liability based on qualified domestic expenditures (QREs).",
+            "<strong>VERIFIED</strong>",
+            "26 U.S.C. § 41(a), § 41(c)(4), § 41(h); 26 U.S.C. § 174A & § 280C; Instructions for Form 6765 (Rev. Dec. 2025, issued Feb. 6, 2026).",
+            "Confirmed under 26 U.S.C. § 41(a). Clarified exact statutory credit rates (20% gross / 15.8% net Regular Credit; 14% gross / 11.06% net ASC, or 6% gross / 4.74% net startup ASC), the $500,000 <a href=\"/us/faq/how-to-apply-rd-tax-credit-to-payroll-taxes\">QSB payroll tax offset</a> (§ 41(h)(4)(B)), and post-OBBBA § 174A / § 280C coordination."
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Eligibility requires satisfying the Four-Part Test under IRC § 41(d)(1): (1) eliminating technological uncertainty (§ 174/174A), (2) process of experimentation, (3) technological in nature, and (4) qualified purpose (function, performance, reliability, or quality).",
+            "<strong>VERIFIED</strong>",
+            "26 U.S.C. § 41(d)(1)–(3); 26 U.S.C. § 174A(d)(3); 26 CFR § 1.41-4(a)–(b); IRS Chief Counsel Advice LAFA 20214101F.",
+            "Confirmed under 26 U.S.C. § 41(d)(1)–(3) and 26 CFR § 1.41-4(a). Added the statutory requirement that the test applies separately to each business component (§ 41(d)(2)(A)), the shrinking-back rule (26 CFR § 1.41-4(b)(2)), and the ≥ 80% \"substantially all\" threshold for experimentation."
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "Criterion 3 (\"Technological in Nature\") relies on principles of \"computer science, engineering, or mathematics\".",
+            "<strong>CORRECTED</strong>",
+            "26 U.S.C. § 41(d)(1)(B)(i); 26 CFR § 1.41-4(a)(4); H.R. Conf. Rep. No. 99-841; <em>United Stationers, Inc. v. United States</em>, 163 F.3d 440 (7th Cir. 1998).",
+            "Corrected statutory/regulatory phrasing: 26 CFR § 1.41-4(a)(4) and H.R. Conf. Rep. No. 99-841 specify \"principles of the physical or biological sciences, engineering, or computer science\". Applied mathematical cryptography qualifies as an integral discipline of computer science and engineering."
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "Routine API integration, \"white-label\" work, \"forking a repo,\" or launching an NFT collection using an unmodified standard ERC-721 contract are ineligible.",
+            "<strong>VERIFIED</strong>",
+            "26 U.S.C. § 41(d)(4)(A)–(E); 26 CFR § 1.41-4(c)(2)–(6); Instructions for Form 6765 (Rev. Dec. 2025).",
+            "Confirmed under 26 U.S.C. § 41(d)(4)(A)–(E) and 26 CFR § 1.41-4(c)(2)–(4) (statutory exclusions for duplication, adaptation, cosmetic design, and post-commercial production) alongside Internal-Use Software vs. Non-IUS third-party interaction rules."
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Qualified labor expenses (QREs) include wages for personnel directly engaging in, directly supervising, or directly supporting qualified research (including DevOps/infrastructure engineers supporting testnets).",
+            "<strong>VERIFIED</strong>",
+            "26 U.S.C. § 41(b)(2)(A)(i), § 41(b)(2)(B), § 3401(a); 26 CFR § 1.41-2(c)(1)–(3) & § 1.41-2(d)(2).",
+            "Confirmed under 26 U.S.C. § 41(b)(2)(A)(i), § 41(b)(2)(B), and 26 CFR § 1.41-2(c)(1)–(3) (mapping to Form 6765 Section G, Columns 50–52). Added the ≥ 80% \"substantially all\" rule for employee wages under § 41(b)(2)(B)."
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "Specialized hardware (custom nodes, ASICs, or GPUs) and digital data sets qualify as \"Qualified Supply\" expenses under IRC § 41.",
+            "<strong>CORRECTED</strong>",
+            "26 U.S.C. § 41(b)(2)(C)(i)–(ii); 26 U.S.C. § 174A(d)(1); 26 CFR § 1.41-2(b)(1)–(2).",
+            "Corrected major statutory error: 26 U.S.C. § 41(b)(2)(C) defines supplies strictly as \"any tangible property other than— (i) land or improvements to land, and (ii) property of a character subject to the allowance for depreciation\". Depreciable hardware (ASICs, GPUs, nodes) is statutorily excluded from supplies (and from § 174A(d)(1)), and digital data sets are intangible."
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Cloud compute time used for protocol simulation and testing constitutes a \"qualified supply expense\" when segregated from production operations.",
+            "<strong>CORRECTED</strong>",
+            "26 U.S.C. § 41(b)(2)(A)(iii); 26 CFR § 1.41-2(b)(4); Form 6765 (Rev. Dec. 2024 / Jan. 2025) & Instructions (Rev. Dec. 2025).",
+            "Corrected statutory category: While off-premises cloud compute for R&D is 100% eligible when segregated from production, it is <strong>not</strong> a \"supply\" (§ 41(b)(2)(A)(ii), Line 43 / Col. 54). It is a separate third statutory category under 26 U.S.C. § 41(b)(2)(A)(iii) (\"right to use computers,\" reported on Form 6765 Line 44 / Section G Col. 55)."
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "Payments to third-party research labs or blockchain security firms for smart contract testing/audits qualify as contract research expenses at a 65% inclusion rate.",
+            "<strong>VERIFIED</strong>",
+            "26 U.S.C. § 41(b)(3)(A)–(D); 26 CFR § 1.41-2(a)(3) & § 1.41-2(e); IRS Notice 2023-63 & Notice 2024-12.",
+            "Confirmed under 26 U.S.C. § 41(b)(3)(A) and Form 6765 Instructions (Line 45 / Col. 56) at 65% (75% for qualified research consortia), subject to prior agreement, substantial rights retention (26 CFR § 1.41-2(a)(3)), non-contingent economic risk, prepaid timing rules (§ 41(b)(3)(B)), and domestic performance."
+          ]
+        },
+        {
+          "cells": [
+            "9",
+            "DAOs struggle with accountability and tracking labor due to flexible, informal contributor relationships (<em>Frontiers in Blockchain</em>, 2025).",
+            "<strong>VERIFIED</strong>",
+            "<em>Frontiers in Blockchain</em>, Vol. 8 (published Sept. 23, 2025, doi: 10.3389/fbloc.2025.1641294).",
+            "Confirmed against <em>Frontiers in Blockchain</em>, Vol. 8, which documents informal/pseudonymous contributor networks, absence of formal employment contracts, tension with speculative tokenholders, and hybrid crypto-fiat accounting challenges."
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "The legal status of DAOs remains ambiguous, with some courts attempting to classify them as \"traditional corporate entities\" (citing DeFi Education Fund, 2025).",
+            "<strong>CORRECTED</strong>",
+            "<em>Samuels v. Lido DAO</em>, 2024 WL 4815022 (N.D. Cal. Nov. 18, 2024); <em>Houghton v. Leshner</em>, 2023 WL 6826814 (N.D. Cal. Sept. 20, 2023); <em>CFTC v. Ooki DAO</em>; 26 CFR § 1.41-2(a)(4).",
+            "Corrected legal classification: The cited DeFi Education Fund analysis (Jan. 22, 2025) and federal rulings demonstrate that courts classify unincorporated DAOs as <strong>general partnerships</strong> (imposing joint and several personal liability on active governance participants), whereas states have created statutory wrappers (TN/VT DAO LLCs, WY DUNA Act of March 2024, VA DAO Act of Jan. 2025). Detailed partnership QRE rules under 26 CFR § 1.41-2(a)(4)."
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "The 2024 update to Form 6765 now mandates breaking out QREs by project (Section G) and requires a detailed categorization of wages paid to company officers who participate in qualified research.",
+            "<strong>CORRECTED</strong>",
+            "Form 6765 (Rev. Dec. 2024 / Jan. 2025); Final Instructions for Form 6765 (Rev. Dec. 2025, released Feb. 6, 2026).",
+            "Corrected effective dates, exemptions, and line mapping: Section G is <strong>optional</strong> for all filers for tax years beginning before 2026 (on original returns) and mandatory only for tax years beginning after 2025, with exemptions for QSB payroll credit filers and small filers (≤ $1.5M QREs and ≤ $50M 3-yr avg gross receipts on original returns). Furthermore, officers' wages are reported as a single aggregate number in Section E, Line 38, whereas Section G (Cols. 50–52) categorizes project wages by function for the top 80% of QREs / max 50 business components."
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "In <em>Harper</em>, the Ninth Circuit reversed a district court dismissal of an R&D claim because the IRS waived its procedural specificity objection by auditing the claim for four years.",
+            "<strong>VERIFIED</strong>",
+            "<em>Harper v. United States</em>, 847 F. App'x 408 (9th Cir. Feb. 25, 2021); <em>Angelus Milling Co. v. Commissioner</em>, 325 U.S. 293 (1945); LAFA 20214101F (Sept. 17, 2021); 26 CFR § 301.6402-2(b)(1).",
+            "Confirmed against <em>Harper</em> and LAFA 20214101F. Detailed the five mandatory specificity elements for amended refund claims under 26 CFR § 301.6402-2(b)(1), the pre-audit screening protocol preventing waiver, and the Feb. 6, 2026 Form 6765 Instructions update."
+          ]
+        },
+        {
+          "cells": [
+            "15",
+            "HTML Calculator Heuristic: Estimates R&D tax credit benefit at ~10% of QREs (e.g., $1,000,000 spend × 0.9 complexity = $900,000 QREs × 10% = $90,000 credit).",
+            "<strong>CORRECTED</strong>",
+            "26 U.S.C. § 41(a), § 41(b), § 41(c)(4), § 174A, § 280C; Form 6765 (Rev. Dec. 2024 / Jan. 2025).",
+            "Replaced the simplified 10% marketing heuristic with a step-by-step statutory computation excluding depreciable hardware (§ 41(b)(2)(C)) and mainnet operations (§ 41(d)(4)(A)), applying the 65% contract research rate (§ 41(b)(3)(A)), and computing exact Form 6765 ASC and § 280C / § 174A outputs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VII. Strategic Synthesis and Compliance Recommendations for Web3 Taxpayers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The convergence of heightened IRS examination enforcement on software and cryptocurrency claims, the mandatory phase-in of Form 6765 Section G business-component reporting for taxable years beginning after December 31, 2025, and the enactment of IRC § 174A under Public Law 119-21 requires blockchain engineering organizations and their tax advisors to institutionalize four core compliance protocols."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, Chief Financial Officers and tax directors at Web3 enterprises must enforce granular chart-of-accounts segregation between capital hardware, off-premises cloud compute, and commercial mainnet operations to prevent the commingling of capital or operational costs with R&D expenses. All depreciable physical hardware—including ASICs, GPU clusters, and physical validator servers—must be routed to capital asset depreciation schedules under IRC § 167 and § 168 and excluded from Form 6765 Line 43 and Section 174A deductions. Simultaneously, DevOps teams must tag off-premises virtual cloud instances used for devnet/testnet consensus simulations, ZKP prover benchmarking, and smart contract fuzzing so that those costs can be isolated from commercial mainnet hosting and accurately reported under 26 U.S.C. § 41(b)(2)(A)(iii) on Form 6765, Line 44 and Section G, Column 55."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, protocol engineering teams must transition from <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective year-end wage estimates</a> to real-time prospective documentation aligned with Section G of Form 6765 and LAFA 20214101F. Because Section G is mandatory for taxable years beginning after 2025 (unless the taxpayer qualifies for the <a href=\"/us/faq/startup-rd-payroll-tax-offset\">QSB payroll offset</a> exception or the ≤ $1.5 million QRE and ≤ $50 million gross receipts original-return exception), organizations should map their Git repositories, pull requests, architectural decision records, and sprint tickets directly to discrete business components (BC-01, BC-02, etc.) throughout the year, capturing the exact functional wage split across direct research (Column 50), direct supervision (Column 51), and direct testnet support (Column 52) while documenting the specific information sought to be discovered (Column 49(f))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, unincorporated DAOs conducting protocol R&D should proactively adopt formal statutory limited liability wrappers—such as a Wyoming DAO LLC, Wyoming DUNA, or Tennessee/Vermont DAO LLC—both to eliminate the default general partnership personal liability established in <em>Samuels v. Lido DAO</em> and <em>Houghton v. Leshner</em> and to establish a clear entity-level trade or business capable of claiming QREs under 26 CFR § 1.41-2(a)(4)(i). Furthermore, because foreign R&E expenditures are barred from the Section 41 credit under 26 U.S.C. § 41(d)(4)(F) and remain locked into mandatory <a href=\"/us/glossary/section-174-amortization\">15-year amortization</a> under 26 U.S.C. § 174 without abandonment loss recovery even after the enactment of IRC § 174A, Web3 organizations must verify and document the physical U.S. domestic location of all employees and third-party smart contract security auditors, ensuring all third-party research agreements are executed prior to performance, vest substantial rights in the taxpayer, and operate on a non-contingent fee basis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, for taxable years 2025 and 2026 onward, because the IRC § 280C(c)(2) reduced credit election must be made on an original timely filed return and cannot be made retroactively on an amended return, tax teams must model the Section 174A and Section 280C election trade-off prior to filing. Specifically, advisors must evaluate whether claiming 100% of the gross Section 41 credit (and reducing immediate domestic Section 174A R&E deductions by the full gross credit amount) or electing the 79% <a href=\"/us/glossary/reduced-research-credit\">reduced credit</a> under Section 280C (to preserve 100% of the Section 174A deduction, or electing 60-month amortization under § 174A(c) or 10-year recovery under § 59(e)) yields the superior after-tax cash flow outcome given the company's current federal and state tax bracket, Net Operating Loss posture, and Form 8974 payroll tax offset eligibility, while applying the manual Line 13 or Line 26 override required under the February 2026 Form 6765 instructions."
+    }
+  ]
+}

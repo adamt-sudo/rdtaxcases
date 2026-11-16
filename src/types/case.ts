@@ -35,6 +35,8 @@ export interface CaseRecord {
   /** Language of the report (title/summary/body), as a BCP 47 code. Absent means English. */
   language?: string;
   summary: string;
+  /** Meta description of the case page, at most 155 characters (made from the summary). Absent: the summary is used. */
+  metaDescription?: string;
   body: CaseContentBlock[];
   /**
    * Fields taken from the decision itself (new cases only; the USA cases are

@@ -50,8 +50,9 @@ const text = (label, name, extra = {}) => ({ label, name, widget: "text", ...ext
 
 // Links and emphasis inside paragraphs, list items and table cells (src/lib/inline-core.mjs).
 const MARKUP_HINT =
-  'Links and emphasis: <a href="https://www.swansonreed.com/...">text</a>, <em>text</em>, <strong>text</strong>. ' +
-  "Links only to swansonreed.com and rdtaxcases.com. Write &lt; for a literal < sign. The preview shows the result.";
+  'Links and emphasis: <a href="/us/glossary/funded-research">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. ' +
+  "Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. " +
+  "Write &lt; for a literal < sign. The preview shows the result.";
 
 // The five block types a case body is made of (src/types/case.ts).
 const blockTypes = [
@@ -307,6 +308,8 @@ ${core}
       if (n.t === "text") return n.s;
       if (n.t === "em") return h("em", { key: k }, nodesToEls(n.c, k));
       if (n.t === "strong") return h("strong", { key: k }, nodesToEls(n.c, k));
+      if (n.t === "sub") return h("sub", { key: k }, nodesToEls(n.c, k));
+      if (n.t === "sup") return h("sup", { key: k }, nodesToEls(n.c, k));
       return h("a", { key: k, href: n.href, target: "_blank", rel: "noopener" }, nodesToEls(n.c, k));
     });
   }

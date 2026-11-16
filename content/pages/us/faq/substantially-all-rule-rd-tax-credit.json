@@ -1,0 +1,399 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "How to calculate the ‘substantially all’ rule for R&D",
+  "description": "The “substantially all” rule involves two separate 80% calculations: an employee wage test and a business-component process-of-experimentation test.",
+  "summary": "The “substantially all” rule for U.S. taxpayers claiming the federal R&D tax credit under IRC § 41 involves two separate 80% calculations: an employee-by-employee wage test under Treas. Reg. § 1.41-2(d), where meeting 80% qualifies 100% of wages, and a business-component process-of-experimentation test under Treas. Reg. § 1.41-4(a)(6). Both require contemporaneous documentation to survive IRS examination.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The “substantially all” rule for U.S. taxpayers claiming the federal R&D tax credit under IRC § 41 involves two separate 80% calculations: an employee-by-employee wage test under Treas. Reg. § 1.41-2(d), where meeting 80% qualifies 100% of wages, and a business-component process-of-experimentation test under Treas. Reg. § 1.41-4(a)(6). Both require contemporaneous documentation to survive IRS examination."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Scope: U.S. federal research credit, Internal Revenue Code (IRC) § 41. This report provides technical tax analysis and general information, not formal legal or tax advice.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "1. One phrase, two separate calculations"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the context of the U.S. federal <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Credit for Increasing Research Activities</a> under IRC § 41, the statutory phrase “substantially all” appears in two distinct subsections of the Internal Revenue Code, and each governs a fundamentally different stage and unit of the research credit calculation. The <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Audit Techniques Guide (ATG)</a> for Qualified Research Expenses (QREs) and Qualified Research Activities explicitly emphasizes that the wage-allocation version of the “substantially all” rule is a completely separate legal and mathematical test from the business-component process-of-experimentation version. Conflating the two calculations—or assuming that satisfying the wage threshold automatically satisfies the process-of-experimentation threshold—is a frequent methodology error identified during IRS examinations."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Aspect",
+        "Wage rule (qualified services)",
+        "Business-component rule (process of experimentation)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Legal basis",
+            "IRC § 41(b)(2)(B) (flush language); Treas. Reg. § 1.41-2(d)(1)–(2)",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(6)"
+          ]
+        },
+        {
+          "cells": [
+            "Unit tested",
+            "Each individual employee, evaluated separately for each taxable year",
+            "Each discrete business component, evaluated separately under IRC § 41(d)(2)(A)"
+          ]
+        },
+        {
+          "cells": [
+            "Threshold",
+            "Wages allocated to qualified services equal 80% or more of the employee’s total wages for the taxable year",
+            "80% or more of a taxpayer’s research activities for the component constitute elements of a process of experimentation for a qualified purpose"
+          ]
+        },
+        {
+          "cells": [
+            "Measurement basis",
+            "By default, the ratio of time actually spent performing qualified services to total time worked, unless the taxpayer demonstrates a more appropriate allocation method",
+            "Cost, or another reasonable basis applied consistently by the taxpayer, determined explicitly without regard to Treas. Reg. § 1.41-2(d)(2)"
+          ]
+        },
+        {
+          "cells": [
+            "Result at 80% or more",
+            "100% of the employee’s total annual W-2 wages count as in-house research expenses for qualified services",
+            "The business component as a whole satisfies the process-of-experimentation requirement of IRC § 41(d)(1)(C)"
+          ]
+        },
+        {
+          "cells": [
+            "Result below 80%",
+            "Only the pro-rata share of wages actually allocated to qualified services counts as qualified wage QREs",
+            "The business component as a whole fails to qualify, requiring application of the shrinking-back rule under Treas. Reg. § 1.41-4(b)(2)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. Calculating the wage rule"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 What counts as qualified services (the numerator)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC § 41(b)(2)(A)(i)</a>, in-house research expenses include any “wages paid or incurred to an employee for qualified services performed by such employee.” IRC § 41(b)(2)(B) strictly restricts the definition of “<a href=\"/us/glossary/qualified-services\">qualified services</a>” to services consisting of:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Engaging in qualified research, as defined in IRC § 41(d); or",
+        "Engaging in the direct supervision or direct support of research activities which constitute qualified research."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation § 1.41-2(c) and the IRS Audit Techniques Guide establish precise boundaries for each category in the numerator of the employee wage fraction:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Engaging in qualified research (Treas. Reg. § 1.41-2(c)(1)):</strong> The term “engaging in qualified research” means the actual conduct of qualified research, such as a scientist conducting laboratory experiments, a software engineer writing and testing experimental algorithms to resolve technological uncertainty, or a mechanical engineer running structural simulations on a prototype design.",
+        "<strong>Direct supervision (Treas. Reg. § 1.41-2(c)(2)):</strong> The term “<a href=\"/us/glossary/direct-supervision\">direct supervision</a>” of qualified research means the immediate, first-line supervision and management of qualified research activities (for example, a research scientist or engineering lead who directly supervises laboratory or development experiments performed by subordinate staff). It specifically excludes supervision by a higher-level manager to whom first-line research managers report, even if that higher-level executive or Vice President of Engineering is personally a qualified research scientist or engineer.",
+        "<strong>Direct support (Treas. Reg. § 1.41-2(c)(3)):</strong> The term “<a href=\"/us/glossary/direct-support\">direct support</a>” of qualified research means services in the direct support of either (i) persons engaging in the actual conduct of qualified research, or (ii) persons who are directly supervising persons engaging in the actual conduct of qualified research. The regulation provides four explicit examples of qualifying direct support:",
+        "A secretary typing reports describing laboratory results derived from qualified research;",
+        "A laboratory worker cleaning equipment used in qualified research;",
+        "A clerk compiling research data for an active experimental project; and",
+        "A machinist machining a part of an experimental model used in qualified research.",
+        "<strong>Excluded indirect and administrative services (Treas. Reg. § 1.41-2(c)(3)):</strong> Direct support does not include <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) services</a>, or other services that only indirectly benefit research activities. This exclusion applies regardless of whether the supporting employees are formally assigned to or physically sit inside the research and development department. Regulatory examples of excluded personnel include payroll personnel preparing salary checks for laboratory scientists, an accountant accounting for research expenses, a janitor performing general cleaning of a research laboratory, and corporate officers or human resources staff supervising financial or personnel matters of the research department.",
+        "<strong>Senior staff and upper-level management:</strong> The IRS ATG instructs examiners to closely scrutinize wage claims for <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">senior executives</a> and upper-level managers who do not perform first-line direct supervision. While a higher-level manager may occasionally perform hands-on qualified research (or step in to directly supervise a specific experimental project when no first-line supervisor exists), the ATG notes that such direct involvement usually represents only a minor fraction of a senior manager’s overall duties."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The actual text of the IRS ATG states that while higher-level research managers may perform some qualified research, this work is “usually only a minor fraction” of their overall activities. In legal terms, that language serves as an audit risk indicator directing examiners to request specific substantiation, rather than a formal statutory presumption or rule of law."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 The fraction and the 80% test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation § 1.41-2(d)(1) governs the apportionment of wages when an employee performs both qualified services and non-qualified services during a taxable year. Under this provision, only the amount of wages allocated to the performance of qualified services constitutes an in-house research expense. In the absence of another allocation method that the taxpayer can demonstrate is more appropriate under the facts and circumstances, the amount of in-house research expense is determined by multiplying the total amount of wages paid to or incurred for the employee during the taxable year by the ratio of the total time actually spent by the employee in the performance of qualified services to the total time spent by the employee in the performance of all services for the employer during the taxable year."
+    },
+    {
+      "type": "paragraph",
+      "text": "Expressed mathematically, the default allocation ratio under Treas. Reg. § 1.41-2(d)(1) is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Qualified Wage Allocation Ratio</strong> = Total Time Actually Spent Performing Qualified Services ÷ Total Time Spent Performing All Services for the Employer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the flush language of IRC § 41(b)(2)(B) and Treas. Reg. § 1.41-2(d)(2), if “substantially all” of the services performed by an individual for the employer during the taxable year consist of qualified services, then all of the services of that individual are treated as qualified services. Treas. Reg. § 1.41-2(d)(2) defines the threshold by stating that the “substantially all” requirement is satisfied only if the wages allocated to the performance of qualified services (determined on the basis described in § 1.41-2(d)(1)) constitute at least 80% of the wages paid to or incurred for the employee during the taxable year."
+    },
+    {
+      "type": "paragraph",
+      "text": "The IRS ATG translates this regulatory rule into a practical hours-based working formula for field examinations: total hours spent on qualified services divided by total hours worked on all services actually performed during the year. Crucially, the ATG clarifies that paid time off during which no services are performed—specifically citing sick leave as an example—is excluded from both the numerator and the denominator of the hours fraction. If the resulting ratio is less than 80%, the taxpayer cannot claim 100% of the employee’s wages and must instead include only the actual pro-rata percentage of wages allocated to qualified services. For example, if a software engineer splits their working hours 50/50 between qualified R&D experimentation and routine post-release maintenance, the 50% ratio falls below the 80% threshold, and only 50% of the engineer’s Box 1 W-2 wages may be included in QREs."
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Treatment of leave time in the denominator:</strong> In fact, the text of Treas. Reg. § 1.41-2(d) does not mention sick leave, vacation, or holidays; rather, the regulation speaks of “total time spent by the employee in the performance of all services.” The explicit exclusion of sick leave comes from the IRS ATG, not the Treasury Regulations, and the ATG itself only names sick leave as its illustrative example without explicitly naming vacation or holidays. Excluding vacation, holidays, and paid family leave from the denominator is a standard and logical application of the regulatory phrase “in the performance of all services” (since an employee on vacation is not performing services), but it is an interpretive application of the regulation and ATG rather than verbatim regulatory text.",
+        "<strong>Hours fraction versus allocated wages:</strong> Technically, the regulation states the 80% test in terms of whether the <em>wages allocated</em> to qualified services constitute at least 80% of total annual wages. Because the default allocation mechanism in § 1.41-2(d)(1) is a time ratio, and the IRS ATG operationalizes that time ratio in hours, the two align whenever an employee is salaried or paid at a uniform hourly rate throughout the year."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 The 80% “cliff” (hypothetical example)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Treas. Reg. § 1.41-2(d)(2) operates as a binary threshold at 80%, an employee who meets or exceeds 80% receives a up-to-20% “bonus” inclusion of non-qualified time into <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">QREs</a>, whereas an employee who falls even slightly below 80% drops immediately to pro-rata allocation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypothetical. Consider a senior systems engineer who receives $150,000 in taxable W-2 wages (as defined under IRC § 3401(a)) for the taxable year and works 1,920 net hours after excluding sick leave and paid time off."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Scenario",
+        "Qualified Hours / Total Worked Hours",
+        "Qualified Share",
+        "Regulatory Calculation under Treas. Reg. § 1.41-2(d)",
+        "Resulting Wage QRE"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "As filed on <a href=\"/us/glossary/irs-form-6765\">Form 6765</a>",
+            "1,574.4 hrs / 1,920 hrs",
+            "82.0%",
+            "82.0% is at least 80%, triggering § 1.41-2(d)(2): $150,000 × 100%",
+            "$150,000"
+          ]
+        },
+        {
+          "cells": [
+            "Exactly at the threshold",
+            "1,536.0 hrs / 1,920 hrs",
+            "80.0%",
+            "80.0% is at least 80%, triggering § 1.41-2(d)(2): $150,000 × 100%",
+            "$150,000"
+          ]
+        },
+        {
+          "cells": [
+            "After IRS audit adjustment",
+            "1,516.8 hrs / 1,920 hrs",
+            "79.0%",
+            "Below 80%, defaulting to § 1.41-2(d)(1) pro-rata allocation: $150,000 × 79.0%",
+            "$118,500"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "As shown in the table, reclassifying just 57.6 hours over the course of an entire year (reducing the qualified time share by 3 percentage points, from 82.0% to 79.0%) reduces the employee’s qualifying wage QREs from $150,000 to $118,500—a disallowance of $31,500, or 21.0% of the employee’s total wages. Analysis: Employees claimed in the 80% to 85% band represent the highest-leverage examination targets for IRS engineers and agents, making contemporaneous <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">project time tracking</a> indispensable for personnel near that boundary."
+    },
+    {
+      "type": "heading",
+      "text": "3. Calculating the business-component rule"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 The regulatory test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 41(d)(1), in order for activities with respect to a business component to constitute “qualified research,” the taxpayer must satisfy the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part statutory test</a>:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Section 174 Test (IRC § 41(d)(1)(A)):</strong> Expenditures with respect to the activity may be treated as <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditures</a> under IRC § 174.",
+        "<strong>The Technological in Nature Test (IRC § 41(d)(1)(B)(i)):</strong> The activity is undertaken for the purpose of discovering information that is technological in nature (relying on principles of the physical or biological sciences, engineering, or computer science).",
+        "<strong>The Business Component / Permitted Purpose Test (IRC § 41(d)(1)(B)(ii) & <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)</a>):</strong> The application of that technological information is intended to be useful in the development of a new or improved business component of the taxpayer (specifically relating to a new or improved function, performance, reliability, or quality).",
+        "<strong>The Process of Experimentation “Substantially All” Test (IRC § 41(d)(1)(C)):</strong> Substantially all of the activities of the research constitute elements of a process of experimentation for a qualified purpose described in IRC § 41(d)(3)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation § 1.41-4(a)(6) defines how to calculate the “substantially all” requirement of IRC § 41(d)(1)(C):"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>The 80% threshold:</strong> The “substantially all” requirement of § 41(d)(1)(C) is satisfied only if 80% or more of a taxpayer’s research activities, measured on a cost or other consistently applied reasonable basis (and without regard to Treas. Reg. § 1.41-2(d)(2)), constitute elements of a process of experimentation for a purpose described in IRC § 41(d)(3).",
+        "<strong>Separate application per business component:</strong> Pursuant to <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(A)</a> and Treas. Reg. § 1.41-4(a)(6), this 80% requirement is applied separately to each business component (defined in § 41(d)(2)(B) as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer).",
+        "<strong>Inclusion of the remaining 20% or less:</strong> If 80% or more of the taxpayer’s research activities with respect to a business component constitute elements of a process of experimentation for a qualified purpose, then the “substantially all” requirement is satisfied even if the remaining 20% (or less) of a taxpayer’s research activities with respect to that business component do not constitute elements of a process of experimentation, so long as those remaining research activities satisfy the requirements of IRC § 41(d)(1)(A) (the Section 174 test) and are not excluded under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)</a> (such as post-production activities, adaptation, duplication, surveys, or routine quality control)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Treas. Reg. § 1.41-4(a)(6) explicitly permits the ratio to be “measured on a cost or other consistently applied reasonable basis” (such as research labor hours across the component, provided that basis is reasonable and applied consistently across components). Furthermore, the regulation explicitly mandates that the business-component fraction be computed “without regard to § 1.41-2(d)(2).” This parenthetical rule prevents taxpayers from “double-stacking” the 80% cliff: if an engineer spends 80% of their time on experimental work for Component A and 20% on non-experimental activity, the engineer’s wages are 100% qualified for the wage rule once Component A qualifies, but for purposes of testing whether Component A meets the 80% process-of-experimentation rule under § 1.41-4(a)(6), only the actual 80% experimental portion enters the numerator."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 Numerator and denominator: what Little Sandy Coal settled"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, 62 F.4th 287 (7th Cir. Mar. 7, 2023), affirming T.C. Memo. 2021-15, the United States Court of Appeals for the Seventh Circuit directly analyzed the mathematical and legal structure of the Treas. Reg. § 1.41-4(a)(6) fraction in the context of a shipbuilding taxpayer developing <a href=\"/us/glossary/first-in-class-development\">first-in-class</a> tank barge and dry dock vessels (claimed as pilot models):"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>The Denominator (All Research Activities for the Component):</strong> The Seventh Circuit explained that the denominator of the § 1.41-4(a)(6) fraction consists of all “research activities” conducted with respect to the business component—specifically, activities whose expenditures satisfy IRC § 41(d)(1)(A) (deductible/amortizable under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a>) and that are not excluded from qualified research under IRC § 41(d)(4).",
+        "<strong>The Numerator (Elements of a Process of Experimentation):</strong> The numerator consists of the subset of those denominator research activities that constitute “elements of a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a>” under IRC § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(5) (i.e., identifying uncertainty concerning the development or improvement of a business component, identifying one or more alternatives intended to eliminate that uncertainty, and identifying and conducting a process of evaluating the alternatives through modeling, simulation, or a systematic trial-and-error methodology).",
+        "<strong>Treatment of Direct Support and Direct Supervision in the Fraction:</strong> In the Tax Court below (T.C. Memo. 2021-15), the court had excluded production employees engaged in direct support or supervision from the numerator while keeping them in the denominator. On appeal, the Seventh Circuit rejected that asymmetry and adopted the taxpayer’s structural reading: activities constituting direct support and direct supervision of experimentation belong in <strong>both the numerator and the denominator</strong> of the § 1.41-4(a)(6) fraction, provided those support and supervision activities are part of the § 174 research activities and are directly supporting or supervising the process of experimentation. However, the Seventh Circuit emphasized that merely labeling fabrication or supervision as “pilot model support” does not automatically put 100% of those hours into the numerator; the taxpayer must still substantiate the portion of direct support and supervision actually tied to experimental activities versus routine construction or non-experimental fabrication.",
+        "<strong>Measurement and Rejection of Shortcut Estimates:</strong> The Seventh Circuit confirmed that the fraction may be measured on a cost basis or another consistently applied reasonable basis, but affirmed the disallowance of the credit because the taxpayer relied on arbitrary, unsubstantiated percentage estimates by management rather than <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a> of experimental versus non-experimental activities."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "As tax practitioners (including EY in its April 2023 analysis of the decision) have noted, the taxpayer in <em>Little Sandy Coal</em> waived arguments concerning its independent contractor expenses on appeal, meaning the Seventh Circuit did not formally adjudicate how third-party contract research expenses (which are capped at 65% for QRE calculation purposes under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC § 41(b)(3)</a>) or overhead and non-experimental supplies are weighted when a taxpayer elects a cost-basis fraction under § 1.41-4(a)(6). Furthermore, as a circuit court decision, Little Sandy Coal is binding precedent only within the Seventh Circuit (Illinois, Indiana, and Wisconsin), though it carries substantial persuasive authority nationwide."
+    },
+    {
+      "type": "paragraph",
+      "text": "What the Seventh Circuit actually held (62 F.4th at 302–306) is that direct support and direct supervision of research activities are included in <em>both</em> the numerator and the denominator of the “substantially all” fraction when they satisfy § 174 and are not excluded under § 41(d)(4), rather than being categorically excluded from the numerator as the Tax Court had suggested. The taxpayer lost not because it failed to create a separate accounting ledger for <a href=\"/us/glossary/management-functions-exclusion\">management functions</a>, but because it failed to document how much of its engineering, fabrication, and support work actually constituted elements of a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "3.3 How a denominator error causes failure (hypothetical example)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer elects to measure the Treas. Reg. § 1.41-4(a)(6) fraction on a cost basis, an audit adjustment that either reclassifies costs out of the numerator or adds non-experimental § 174 research costs to the denominator can push the entire business component below the 80% threshold."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypothetical, cost basis. Assume a manufacturer is developing a custom <a href=\"/us/glossary/prototype-development\">industrial prototype</a> (treated as a single business component) and calculates its § 1.41-4(a)(6) ratio on a cost basis:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>As filed by the taxpayer:</strong> The taxpayer identifies $400,000 of research costs that constitute elements of a process of experimentation (the numerator) and $80,000 of auxiliary research costs for the component that satisfy IRC § 174 and are not excluded under § 41(d)(4), but do not involve evaluating technical alternatives (for example, routine baseline drafting and non-experimental sub-assembly fabrication). Total denominator research costs equal $480,000. The resulting ratio is:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "$400,000 ÷ $480,000 = 83.33%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 83.33% is at least 80%, the business component satisfies Treas. Reg. § 1.41-4(a)(6), and 100% of the qualifying QREs associated with the $480,000 of component research activities remain eligible for the credit."
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Upon IRS examination:</strong> An IRS engineer determines that an additional $40,000 of prototype fabrication supplies and technician labor—which the taxpayer had omitted from the denominator—were § 174 research activities on the prototype that did not involve a process of experimentation. Adding this $40,000 to the denominator increases total component research activities to $520,000 while leaving the experimental numerator at $400,000:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "$400,000 ÷ $520,000 = 76.92%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 76.92% is below 80%, the entire business component fails the process-of-experimentation “substantially all” test under IRC § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6). Zero dollars of the $520,000 may be claimed at the whole-component level, and the taxpayer can salvage credit eligibility only if it has sufficient subcomponent documentation to apply the shrinking-back rule described in Section 4."
+    },
+    {
+      "type": "heading",
+      "text": "4. When the component fails: the shrinking-back rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a business component as a whole fails the 80% process-of-experimentation threshold (or any other requirement of the four-part test under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)(1)</a>), the taxpayer cannot simply claim the pro-rata 76.92% of costs. Unlike the wage rule—which gracefully steps down to pro-rata allocation below 80%—the business-component rule is an all-or-nothing test at the component level. To prevent complete disallowance when genuine experimentation occurred on a subsystem or sub-assembly, Treasury Regulation § 1.41-4(b)(2) establishes the “shrinking-back rule.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treas. Reg. § 1.41-4(b)(2), the requirements of IRC § 41(d) and Treas. Reg. § 1.41-4(a) are to be applied first at the level of the discrete business component—that is, the product, process, software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in its trade or business. If the requirements for credit eligibility are not met at that initial whole-component level, then they apply to the “most significant subset of elements” of the product, process, software, technique, formula, or invention to which the requirements are met. This shrinking-back of the applicable business component continues step-by-step down the hierarchy of subsystems and parts until either:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A subset of elements of the product that satisfies the four-part requirements (including the 80% process-of-experimentation rule) is reached; or",
+        "The most basic element of the product is reached and such element still fails to satisfy the requirements."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Critically, Treas. Reg. § 1.41-4(b)(2) specifies that the shrinking-back rule is strictly a mechanism to preserve qualification when a broader component fails; it may not be used by the IRS or the taxpayer as a method to exclude research activities from the credit when the broader business component already satisfies the 80% test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation § 1.41-4(b)(3) (Example) illustrates this mechanic directly: a motorcycle engine manufacturer designs a new carburetor and modifies an existing engine design to accommodate the new carburetor. When testing the entire motorcycle engine as a single business component, the modifications to the existing engine block and assembly do not involve sufficient experimentation, causing the engine as a whole to fall below the 80% threshold of § 1.41-4(a)(6). Under the shrinking-back rule of § 1.41-4(b)(2), the test steps down to the next most significant subset of elements—the new carburetor. Because substantially all (80% or more) of the research activities related specifically to designing and testing the carburetor constituted elements of a process of experimentation for a qualified purpose, the carburetor qualifies as a discrete business component, and the QREs attributable to the carburetor qualify for the research credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 26 CFR § 1.41-4, the shrinking-back rule is codified at Treas. Reg. § 1.41-4(b)(2), and the motorcycle engine / carburetor example appears at <strong>Treas. Reg. § 1.41-4(b)(3)</strong>. By contrast, <strong>Treas. Reg. § 1.41-4(d)</strong> is the recordkeeping requirement (“Recordkeeping for the research credit”), which mandates that a taxpayer claiming the credit must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Documentation and the courts in shrinking-back claims:</strong> In <em>Little Sandy Coal Co. v. Commissioner</em>, 62 F.4th at 308–312, the taxpayer argued in the alternative that even if its vessels as a whole failed the 80% test, the court should apply the shrinking-back rule of Treas. Reg. § 1.41-4(b)(2) to qualifying sub-assemblies (such as the stern notch or bow thruster systems). Both the Tax Court and the Seventh Circuit held that they could not apply the shrinking-back rule because the taxpayer had maintained its <a href=\"/us/glossary/project-accounting\">project accounting</a> and time records only at the whole-vessel level and offered no reliable evidentiary basis to isolate the denominator (total research activities) or numerator (experimental activities) of any specific subcomponent."
+    },
+    {
+      "type": "paragraph",
+      "text": "While this “two-pillar” terminology is practitioner methodology rather than statutory phrasing, it accurately reflects the evidentiary burden imposed by Treas. Reg. §§ 1.41-4(b)(2) and 1.41-4(d) as enforced in <em>Little Sandy Coal</em>."
+    },
+    {
+      "type": "heading",
+      "text": "5. Proof: why the calculation must be documented"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 6001 and Treas. Reg. § 1.41-4(d), the taxpayer bears the burden of substantiating every element of the research credit calculation, including both the employee wage fraction (§ 1.41-2(d)) and the business-component process-of-experimentation fraction (§ 1.41-4(a)(6)). In Little Sandy Coal, 62 F.4th at 308–312, the Seventh Circuit held that satisfying the 80% requirement of IRC § 41(d)(1)(C) requires concrete substantiation—such as contemporaneous time records, project logs, or verifiable cost accounting showing the share of research activities devoted to experimentation—rather than generalized, after-the-fact trial testimony or <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retroactive management ballpark estimates</a>. Similarly, in Betz v. Commissioner, T.C. Memo. 2023-84, the Tax Court disallowed research credits where the taxpayer lacked a <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">time-tracking system</a> and relied on retrospective interviews to estimate wage allocations and pilot-model experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "As highlighted in recent tax practitioner literature (including Grant Thornton’s May 21, 2025 analysis, “Making sense of the research credit ‘substantially all’ rule”), IRS examination teams have increasingly deployed the “<a href=\"/us/glossary/substantially-all-rule\">substantially all” rule</a> of IRC § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6)—particularly on custom manufacturing, software development, and pilot-model claims—to challenge entire business components at once. A prime example of this enforcement posture is Intermountain Electronics, Inc. v. Commissioner, Tax Court Docket No. 11019-19."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Intermountain Electronics, Inc. v. Commissioner, Docket No. 11019-19 (Order dated March 14, 2024), the IRS had issued a notice of deficiency disallowing research credits claimed for tax years 2012 through 2015 for custom-manufactured electrical control and power distribution equipment (which the taxpayer treated as <a href=\"/us/glossary/pilot-model\">pilot models</a> under IRC § 174 and Treas. Reg. § 1.174-2(a)(4)), and the IRS moved for partial summary judgment. The IRS argued that pilot-model production expenses are categorically excluded from the numerator of the Treas. Reg. § 1.41-4(a)(6) “substantially all” fraction, which would have made it mathematically impossible for Intermountain Electronics to reach the 80% threshold. In its March 14, 2024 Order, the Tax Court denied the IRS’s motion for partial summary judgment. Clarifying its earlier opinion in Little Sandy Coal, the Tax Court held that production costs incurred in building a genuine pilot model are <em>not</em> categorically excluded from the numerator of the “substantially all” fraction, and that genuine disputes of material fact remained for trial as to whether the taxpayer’s activities constituted a process of experimentation. Thus, the Tax Court did not uphold a total disallowance in that order; rather, it rejected the government’s per se legal exclusion theory."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Analysis:</em> Regardless of the specific software or advisory structure a taxpayer uses, the compliance practices that directly impact the legal defensibility of the “substantially all” calculation under federal case law (Little Sandy Coal) are (1) capturing employee time and experimentation records contemporaneously at the subcomponent level, and (2) maintaining a clear <a href=\"/us/glossary/project-to-expense-nexus\">nexus</a> between individual employee hours/costs and specific experimental alternatives evaluated."
+    },
+    {
+      "type": "heading",
+      "text": "7. Calculation checklist (step-by-step methodology)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To calculate and substantiate both branches of the “substantially all” rule in compliance with IRC § 41, Treas. Reg. §§ 1.41-2 and 1.41-4, the IRS ATG, and federal judicial precedent, taxpayers and tax professionals should execute the following six-step sequence:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Define the business component hierarchy upfront (IRC § 41(d)(2)(B); Treas. Reg. § 1.41-4(b)(2)):</strong> Before aggregating costs or employee hours, map each discrete product, process, software system, technique, formula, or invention (Level 1 component) and identify its functional subsystems, modules, and sub-assemblies (Level 2 and Level 3 subsets). Assign separate project or sub-task tracking codes to each subsystem so that costs and hours can be isolated if the shrinking-back rule is needed.",
+        "<strong>Track employee hours contemporaneously by activity category (IRC § 41(b)(2)(B); Treas. Reg. § 1.41-2(c)):</strong> For each employee, record hours spent on: Exclude paid non-working leave (such as sick leave, per the IRS ATG) from both the numerator and the denominator of total hours worked.",
+        "Direct conduct of qualified research (§ 1.41-2(c)(1));",
+        "Immediate, first-line direct supervision of qualified research (§ 1.41-2(c)(2));",
+        "Direct support of qualified research (§ 1.41-2(c)(3)); and",
+        "Non-qualified services (routine production, G&A, maintenance, indirect management).",
+        "<strong>Compute the business-component 80% process-of-experimentation fraction FIRST (IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(6)):</strong> For each discrete business component, select a consistent measurement basis (cost or another consistently applied reasonable basis, such as research hours) and compute the fraction <em>without regard to the 80% wage rule of § 1.41-2(d)(2)</em>:",
+        "<strong>Denominator:</strong> All research activities for the business component that satisfy IRC § 174 (§ 41(d)(1)(A)) and are not excluded under IRC § 41(d)(4), including qualifying direct support and direct supervision activities (<em>Little Sandy Coal</em>, 62 F.4th at 302–306).",
+        "<strong>Numerator:</strong> The subset of those denominator activities (including the directly associated portion of direct support and first-line supervision) that constitute elements of a process of experimentation for a qualified purpose under IRC § 41(d)(3).",
+        "<strong>Evaluation:</strong> If the ratio is 80.0% or greater, the entire business component qualifies, and the remaining ≤20% of non-experimental research activities for that component also qualify (provided they meet § 41(d)(1)(A) and are not excluded under § 41(d)(4)).",
+        "<strong>Apply the shrinking-back rule if a business component falls below 80% (Treas. Reg. § 1.41-4(b)(2)):</strong> If a Level 1 business component yields a process-of-experimentation ratio below 80%, exclude the non-qualifying parent wrapper and re-run Step 3 on the next most significant subset of elements (Level 2 subsystem) using the segregated subcomponent records. Repeat until a qualifying subset reaches 80% or the most basic element fails.",
+        "<strong>Compute the employee-by-employee 80% wage test (IRC § 41(b)(2)(B); Treas. Reg. § 1.41-2(d)(1)–(2)):</strong> Once all qualifying business components (and shrunk-back subcomponents) are finalized, aggregate each employee’s hours spent performing qualified services on those qualifying components during the taxable year and divide by the employee’s total hours actually worked for the employer during the year:",
+        "<strong>At 80.0% or above:</strong> Include 100% of the employee’s taxable W-2 wages (IRC § 3401(a)) as in-house wage QREs under Treas. Reg. § 1.41-2(d)(2).",
+        "<strong>Below 80.0%:</strong> Multiply the employee’s taxable W-2 wages by the exact qualified time allocation ratio under Treas. Reg. § 1.41-2(d)(1) and include only that pro-rata dollar amount in wage QREs.",
+        "<strong>Compile and retain <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous documentation</a> (Treas. Reg. § 1.41-4(d)):</strong> Retain project accounting ledgers, time-tracking logs, experimental test protocols, design iterations, and subcomponent breakdowns in usable form and detail as required by Treas. Reg. § 1.41-4(d) to support both fractions upon IRS examination."
+      ]
+    }
+  ]
+}
