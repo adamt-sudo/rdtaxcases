@@ -12,7 +12,7 @@ import c7 from "../../content/cases/fedex-corp-v-united-states.json";
 import c8 from "../../content/cases/fudim-v-commissioner.json";
 import c9 from "../../content/cases/geosyntec-consultants-v-united-states.json";
 import c10 from "../../content/cases/harper-v-commissioner.json";
-import c11 from "../../content/cases/kollsman-instrument-corp-v-commissioner.json";
+import c11 from "../../content/cases/kollsman-instrument-v-commissioner.json";
 import c12 from "../../content/cases/kyocera-avx-components-v-united-states.json";
 import c13 from "../../content/cases/leon-max-v-commissioner.json";
 import c14 from "../../content/cases/lockheed-martin-v-united-states.json";
@@ -105,6 +105,9 @@ import c100 from "../../content/cases/kuria-kfv-v-35196-2013.json";
 import c101 from "../../content/cases/amo-a40-158523-2020.json";
 import c102 from "../../content/cases/moreton-resources-ltd-v-innovation-science-australia.json";
 import c103 from "../../content/cases/coal-of-queensland-pty-ltd-v-innovation-science-australia.json";
+import c104 from "../../content/cases/saykally-v-commissioner.json";
+import c105 from "../../content/cases/tyson-foods-v-commissioner.json";
+import c106 from "../../content/cases/united-states-v-davenport.json";
 
 export const caseRecords = [
   c0,
@@ -211,6 +214,9 @@ export const caseRecords = [
   c101,
   c102,
   c103,
+  c104,
+  c105,
+  c106,
 ] as unknown as CaseRecord[];
 
 export interface TranslationRecord {

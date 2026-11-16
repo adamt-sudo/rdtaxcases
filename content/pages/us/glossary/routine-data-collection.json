@@ -1,0 +1,467 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Routine Data Collection",
+  "description": "Routine data collection is a categorical exclusion from the U.S. federal R&D tax credit under IRC Section 41(d)(4)(D)(iv).",
+  "summary": "Routine data collection is a categorical exclusion from the U.S. federal R&D tax credit under IRC Section 41(d)(4)(D)(iv). It bars taxpayers from treating operational monitoring, standard fact-finding, or non-investigatory measurement as qualified research, so wages, supplies, and contractor costs tied to it must be segregated and excluded from qualified research expenses.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Routine data collection is a categorical exclusion from the U.S. federal R&D tax credit under IRC Section 41(d)(4)(D)(iv). It bars taxpayers from treating operational monitoring, standard fact-finding, or non-investigatory measurement as qualified research, so wages, supplies, and contractor costs tied to it must be segregated and excluded from qualified research expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Routine Data Collection (RDC) is a categorical statutory exclusion from the United States <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Credit for Increasing Research Activities</a> under Internal Revenue Code (IRC) Section 41(d)(4)(D)(iv) (26 U.S.C. § 41(d)(4)(D)(iv)), barring taxpayers from treating operational monitoring, standard fact-finding, or non-investigatory measurement as qualified research. Conflating these two concepts creates severe examination exposure: under federal tax law, classifying an engineering, manufacturing, or software development task as \"routine data collection\" disqualifies its associated wages, supplies, and contractor expenditures from <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a> rather than substantiating them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(a)(3)(i)–(ii) and § 1.41-4(a)(5)(i), experimental data acquisition remains eligible even when capability and method are known, provided the appropriate design of the business component is uncertain as of the beginning of the taxpayer's research activities, and eligibility does not require seeking information that exceeds or refines the common knowledge of skilled professionals in the field. Second, the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em> do not use the phrase \"Extract, Transform, Load (ETL)\" or classify database format conversion as excluded RDC under IRC § 41(d)(4)(D)(iv); instead, IRS software examination guidelines evaluate reading data, converting data formats (such as EBCDIC to ASCII or mm/dd/yy to mm/dd/yyyy), and writing data into new structures under the process-of-experimentation requirement of IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintaining an exact operational boundary between excluded RDC and qualified experimental data acquisition directly governs whether claimed projects survive IRS examination. Under 26 CFR § 1.41-4(a)(6), at least 80% of a taxpayer's research activities for each discrete business component must constitute elements of a process of experimentation for a qualified purpose, and activities excluded under IRC § 41(d)(4)—including RDC—cannot be sheltered even within the remaining 20% non-experimentation margin. At the same time, United States Tax Court precedent in <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113 (decided December 23, 2024), underscores that performing basic engineering calculations on already available historical data is non-investigative under IRC § 174 and fails the process-of-experimentation test under IRC § 41(d)(1)(C). Furthermore, revised IRS Instructions for <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (<em>Credit for Increasing Research Activities</em>, December 2025 revision for use with the January 2025 form, alongside the IRS's June 28, 2026 clarification) make granular business-component QRE reporting in Section G mandatory for tax years beginning after 2025 (and optional for tax years beginning before 2026), subject to Section G guidelines, elevating proactive isolation of routine data collection into a front-end return preparation requirement."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory Architecture and Terminological Clarification of Routine Data Collection"
+    },
+    {
+      "type": "subheading",
+      "text": "The Categorical Exclusion Under IRC Section 41(d)(4)(D)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 41(a) (26 U.S.C. § 41(a)), the general federal research tax credit equals the sum of 20% of the excess (if any) of a taxpayer's qualified research expenses for the taxable year over a statutory base amount, plus 20% of basic research payments determined under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">IRC § 41(e)(1)(A)</a> and 20% of amounts paid or incurred to an energy research consortium for energy research. Alternatively, a taxpayer may elect the Alternative Simplified Credit (ASC)—codified at <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">IRC § 41(c)(4)</a> in current statutory text (and referenced in older regulations and guidance under its pre-redesignation citation of IRC § 41(c)(5))—which provides a credit equal to 14% of so much of the taxpayer's QREs for the taxable year as exceeds 50% of the average QREs for the three preceding taxable years. Under IRC § 41(b)(1)–(3), QREs consist of in-house research expenses and contract research expenses paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer. In-house research expenses comprise employee taxable wages (as defined by IRC § 3401(a)) paid or incurred for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" (engaging in qualified research, or engaging in the direct supervision or direct support of qualified research), amounts paid or incurred for supplies (tangible property other than land, improvements to land, and depreciable property) used in the conduct of qualified research, and limited payments for the right to use off-premises computers in the conduct of qualified research. <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">Contract research expenses</a> generally equal 65% of amounts paid or incurred to any person other than an employee of the taxpayer for qualified research (increasing to 75% for payments to a qualified research consortium under IRC § 41(b)(3)(C) and 100% for eligible energy research payments to eligible small businesses, universities, or federal laboratories under IRC § 41(b)(3)(D))."
+    },
+    {
+      "type": "paragraph",
+      "text": "For any underlying engineering, scientific, or software development activity to generate eligible QREs, the taxpayer must establish separately for each discrete business component under IRC § 41(d)(2)(A) that the activity satisfies all four statutory tests of \"qualified research\" set forth in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)(1)</a> and 26 CFR § 1.41-4(a)(2):"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Section 174 Test (IRC § 41(d)(1)(A) and 26 CFR § 1.41-4(a)(2)(i)):</strong> The research must be activity with respect to which expenditures may be treated as research or experimental expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a> and 26 CFR § 1.174-2. Under 26 CFR § 1.174-2(a)(1), expenditures qualify if they are incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense—meaning activities intended to discover information that would eliminate uncertainty concerning the capability or method for developing or improving a product, or the appropriate design of the product. While the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act</a> of 2017 required capitalization and amortization of specified research or experimental expenditures beginning in 2022, and the One Big Beautiful Bill Act (P.L. 119-21, signed July 4, 2025) enacted IRC § 174A to restore immediate domestic R&E deductibility for tax years beginning after December 31, 2024, the underlying qualitative definition of research and experimental expenditures in 26 CFR § 1.174-2(a) remains the threshold filter for IRC § 41(d)(1)(A).",
+        "<strong>The Discovering Technological Information Test (IRC § 41(d)(1)(B)(i) and 26 CFR § 1.41-4(a)(2)(ii), (a)(3)–(4)):</strong> The research must be undertaken for the purpose of discovering information that is technological in nature. Information is technological in nature if the process of experimentation used to discover such information fundamentally relies on principles of the physical or biological sciences, engineering, or computer science. A taxpayer may employ existing technologies and rely on existing scientific, engineering, or computer science principles to satisfy this requirement.",
+        "<strong>The Business Component Test (IRC § 41(d)(1)(B)(ii), § 41(d)(2)(B), and 26 CFR § 1.41-4(a)(2)(ii)):</strong> The taxpayer must intend that the application of the discovered information be useful in the development of a new or improved business component of the taxpayer—defined as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. Under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(C)</a>, any plant process, machinery, or technique for commercial production of a business component is treated as a separate business component from the product being produced.",
+        "<strong>The Process of Experimentation Test (IRC § 41(d)(1)(C), § 41(d)(3), and 26 CFR § 1.41-4(a)(2)(iii), (a)(5)–(6)):</strong> Substantially all (80% or more) of the research activities with respect to the business component must constitute elements of a process of experimentation that relates to a qualified purpose—namely, a new or improved function, performance, reliability, or quality of the business component, expressly excluding research related to style, taste, cosmetic, or seasonal design factors under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC § 41(d)(3)(B)</a>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where an overarching project involves sophisticated engineering or scientific disciplines, IRC § 41(d)(4) and 26 CFR § 1.41-4(c) categorically exclude eight statutory classes of activities from the definition of qualified research: research after commercial production (§ 41(d)(4)(A)), <a href=\"/us/glossary/adaptation-exclusion\">adaptation of existing business components</a> (§ 41(d)(4)(B)), duplication of existing business components (§ 41(d)(4)(C)), surveys and studies (§ 41(d)(4)(D)), internal-use computer software subject to exceptions (§ 41(d)(4)(E)), foreign research (§ 41(d)(4)(F)), social sciences, arts, or humanities (§ 41(d)(4)(G)), and funded research (§ 41(d)(4)(H)). Within <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)(D)</a> (\"Surveys, studies, etc.\"), Congress grouped five specific categories of non-qualifying data gathering, operational checks, and administrative studies, barring credit eligibility for any efficiency survey under clause (i), any activity relating to management function or technique under clause (ii), any market research, testing, or development (including advertising or promotions) under clause (iii), any routine data collection under clause (iv), or any routine or ordinary testing or inspection for quality control under clause (v)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Implementing this statutory provision, 26 CFR § 1.41-4(c)(5) (\"Surveys, studies, research relating to management functions, etc.\") reiterates that qualified research does not include activities relating to efficiency surveys (§ 1.41-4(c)(5)(i)); <a href=\"/us/glossary/management-functions-exclusion\">management functions or techniques</a>, including preparation of financial data and analysis, development of employee training programs and management organization plans, and management-based changes in production processes such as rearranging work stations on an assembly line (§ 1.41-4(c)(5)(ii)); market research, testing, or development (§ 1.41-4(c)(5)(iii)); routine data collections (§ 1.41-4(c)(5)(iv)); or routine or ordinary testing or inspections for quality control (§ 1.41-4(c)(5)(v))."
+    },
+    {
+      "type": "paragraph",
+      "text": "These Section 41 exclusions operate alongside parallel disallowances under <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">IRC § 174</a> and related Section 41 regulatory provisions. Specifically, in current Treasury Regulations, 26 CFR § 1.174-2(a)(6)(i)–(vii) (which appeared as § 1.174-2(a)(3) in earlier regulatory editions and is cited as § 1.174-2(a)(3) in the June 2005 IRS <em>Qualified Research Activities</em> Audit Techniques Guide) excludes from <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental expenditures</a>: (i) the ordinary testing or inspection of materials or products for quality control (further defined in § 1.174-2(a)(7) as testing or inspection to determine whether particular units of materials or products conform to specified parameters, though quality control testing does not include testing to determine if the design of the product is appropriate); (ii) efficiency surveys; (iii) management studies; (iv) consumer surveys; (v) advertising or promotions; (vi) the acquisition of another's patent, model, production, or process; and (vii) research in connection with literary, historical, or similar projects. Likewise, IRC § 41(d)(4)(G) and 26 CFR § 1.41-4(c)(8) exclude research in the <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a> (including economics, business management, and behavioral sciences), arts, or humanities. Because IRC § 41(d)(4)(D)(iv) and 26 CFR § 1.41-4(c)(5)(iv) establish an express categorical bar, any employee wages, supplies, or third-party contractor costs attributable to routine data collection are legally <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">ineligible to be claimed as QREs</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Excluded Data Collection vs. Credit Recordkeeping"
+    },
+    {
+      "type": "paragraph",
+      "text": "In authoritative federal tax law, that substantiation obligation is never termed \"routine data collection\". Instead, it is codified under the heading <strong>\"Recordkeeping for the research credit\"</strong> in 26 CFR § 1.41-4(d) (promulgated by Treasury Decision 9104, effective January 2, 2004, for taxable years ending on or after December 31, 2003), which provides verbatim: <em>\"A taxpayer claiming a credit under section 41 must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit. For rules governing record retention, see § 1.6001-1.\"</em>. Under 26 CFR § 1.6001-1(a) and (e), taxpayers must keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown in any return, and must retain those records at all times available for inspection by authorized internal revenue officers so long as the contents may become material in the administration of any internal revenue law."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather, T.D. 9666 revised 26 CFR § 1.41-9(b)(2) and added temporary § 1.41-9T(b)(2) strictly to allow a taxpayer to elect the Alternative Simplified Credit on an amended return for a taxable year, provided the taxpayer (and any member of its <a href=\"/us/glossary/controlled-group\">controlled group</a>) had not previously claimed a Section 41 credit on an original or amended return for that tax year. While the preamble to T.D. 9666 observed that taxpayers electing the ASC on amended returns must still maintain sufficient books and records to substantiate their claimed credits, the substantive rules defining qualified research and the 26 CFR § 1.41-4(d) recordkeeping standard were finalized more than a decade earlier in T.D. 9104."
+    },
+    {
+      "type": "subheading",
+      "text": "Activity-Level Evaluation and the Appropriate Design Correction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(a)(3)(i), research is undertaken for the purpose of discovering information if it is intended to eliminate uncertainty concerning the development or improvement of a business component, and <em>\"Uncertainty exists if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component.\"</em>. Directly addressing technical projects where capability and method are already established, 26 CFR § 1.41-4(a)(5)(i) provides verbatim: <em>\"A taxpayer may undertake a process of experimentation if there is no uncertainty concerning the taxpayer's capability or method of achieving the desired result so long as the appropriate design of the desired result is uncertain as of the beginning of the taxpayer's research activities.\"</em>. Consequently, the fact that an engineering team already knows <em>whether</em> it can build a component (capability) and <em>how</em> to construct or code it (method) does not render test-data collection \"routine data collection\" under IRC § 41(d)(4)(D)(iv). In practice, a large proportion of qualifying industrial, hardware, and software R&D involves appropriate design uncertainty: engineers know they have the capability and manufacturing method to fabricate a component or software architecture, but must systematically collect experimental performance data across competing design configurations to resolve uncertainty regarding the appropriate structural or algorithmic design."
+    },
+    {
+      "type": "paragraph",
+      "text": "As confirmed by 26 CFR § 1.41-4(a)(3)(ii) (finalized in T.D. 9104) and the IRS <em>Qualified Research Activities</em> <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guide</a> (June 2005), <em>\"A determination that research is undertaken for the purpose of discovering information that is technological in nature does not require the taxpayer be seeking to obtain information that exceeds, expands or refines the common knowledge of skilled professionals in the particular field of science or engineering in which the taxpayer is performing the research.\"</em>. Moreover, 26 CFR § 1.41-4(a)(4) expressly states that a taxpayer <em>\"may employ existing technologies and may rely on existing principles of the physical or biological sciences, engineering, or computer science\"</em> to satisfy the technological-in-nature requirement. The legal boundary between excluded RDC and qualified experimental data collection therefore turns on whether the <strong>information available to the taxpayer</strong> at the outset already establishes the capability, method, or appropriate design of the business component—and whether the taxpayer conducts a systematic evaluative process to resolve that uncertainty—not on whether skilled professionals elsewhere in the industry could ascertain the answer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Both 26 CFR § 1.174-2(a)(1) and the IRS <em>Qualified Research Activities</em> ATG state verbatim that <em>\"Whether expenditures qualify as research or experimental expenditures depends on the nature of the activity to which the expenditures relate, not the nature of the product or improvement being developed or the level of technological advancement the product or improvement represents.\"</em>. Reinforcing this rule under Section 41, 26 CFR § 1.41-4(a)(5)(i) cautions that <em>\"Uncertainty concerning the development or improvement of the business component (e.g., its appropriate design) does not establish that all activities undertaken to achieve that new or improved business component constitute a process of experimentation.\"</em>. Thus, routine monitoring of existing equipment against established operating parameters, ordinary quality-control inspections, market preference surveys, and internal accounting, financial, or human-resources data gathering remain categorically excluded under IRC § 41(d)(4)(D) and 26 CFR § 1.41-4(c)(5) even when performed alongside a qualifying engineering project."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>26 CFR § 1.41-4(c)(10) Example 9(i) (Facts)</strong>, <em>\"X, a manufacturing corporation, undertakes to restructure its manufacturing organization. X organizes a team to design an organizational structure that will improve X's business operations. The team includes X's employees as well as outside management consultants. The team studies current operations, interviews X's employees, and studies the structure of other manufacturing facilities to determine appropriate modifications to X's current business operations. The team develops a recommendation of proposed modifications which it presents to X's management. X's management approves the team's recommendation and begins to implement the proposed modifications.\"</em>. In <strong>Example 9(ii) (Conclusion)</strong>, the regulation holds that <em>\"X's activities in developing and implementing the new management structure are excluded from the definition of qualified research under section 41(d)(4)(D) and paragraph (c)(5) of this section.\"</em>. As the IRS <em>Qualified Research Activities</em> ATG explains in its commentary on Example 9, <em>\"Note that it is the activity which governs, not the intended end result. For example, the development of a new production process, which met all the tests for qualified research, would not be excluded simply because the activity was preceded by a management efficiency survey.\"</em>. However, the preliminary <a href=\"/us/glossary/efficiency-surveys\">efficiency survey</a>, employee interviews, and operational data collection themselves remain strictly excluded under IRC § 41(d)(4)(D)(i)–(ii) and (iv) and 26 CFR § 1.41-4(c)(5)(i)–(ii) and (iv)."
+    },
+    {
+      "type": "heading",
+      "text": "Quantitative Compliance Mechanics and Software Boundaries"
+    },
+    {
+      "type": "subheading",
+      "text": "The 80 Percent Substantially All Rules and Shrinking-Back Interaction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accurately segregating excluded routine data collection from investigatory experimentation is mathematically decisive because IRC § 41 and the Treasury Regulations enforce two distinct 80% \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" rules—one applied at the <strong>business-component level</strong> to determine whether a project qualifies as research at all, and a second applied at the <strong>individual-employee level</strong> to determine what percentage of an employee's Form W-2 wages enters the QRE calculation."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the business-component level, IRC § 41(d)(1)(C) requires that \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" of the research activities with respect to a discrete business component constitute elements of a process of experimentation for a qualified purpose described in IRC § 41(d)(3). Defining this threshold quantitatively, <strong>26 CFR § 1.41-4(a)(6)</strong> provides verbatim:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>\"The substantially all requirement of section 41(d)(1)(C) and paragraph (a)(2)(iii) of this section is satisfied only if 80 percent or more of a taxpayer's research activities, measured on a cost or other consistently applied reasonable basis (and without regard to section 1.41-2(d)(2)), constitute elements of a process of experimentation for a purpose described in section 41(d)(3). Accordingly, if 80 percent (or more) of a taxpayer's research activities with respect to a business component constitute elements of a process of experimentation for a purpose described in section 41(d)(3), the substantially all requirement is satisfied even if the remaining 20 percent (or less) of a taxpayer's research activities with respect to the business component do not constitute elements of a process of experimentation for a purpose described in section 41(d)(3), so long as these remaining research activities satisfy the requirements of section 41(d)(1)(A) and are not otherwise excluded under section 41(d)(4). The substantially all requirement is applied separately to each business component.\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "This regulatory architecture imposes a strict <strong>double bar</strong> against Routine Data Collection. First, because RDC is not an element of a process of experimentation resolving technological uncertainty, hours or costs spent on RDC cannot be included in the ≥80% experimentation numerator. Second, because the closing clause of 26 CFR § 1.41-4(a)(6) expressly restricts the ≤20% non-experimentation allowance to research activities that <em>\"satisfy the requirements of section 41(d)(1)(A) and are not otherwise excluded under section 41(d)(4),\"</em> RDC excluded under IRC § 41(d)(4)(D)(iv) (as well as efficiency surveys, management studies, market research, and <a href=\"/us/glossary/quality-control-testing\">ordinary quality control</a>) cannot be sheltered inside the 20% residual margin either."
+    },
+    {
+      "type": "paragraph",
+      "text": "While total disallowance is the ultimate audit consequence if subcomponent records are missing, federal regulations prescribe an intermediate legal step before an entire component is disqualified: the <strong>shrinking-back rule</strong> of <strong>26 CFR § 1.41-4(b)(2)</strong> (and its Section 174 counterpart in <strong>26 CFR § 1.174-2(a)(5)</strong>). Under 26 CFR § 1.41-4(b)(2), the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> of IRC § 41(d) is applied first at the level of the discrete business component as a whole; if the requirements are not met at that overall level (for instance, because routine design and unsegregated RDC cause the overall product to fall below the 80% experimentation threshold), then the tests must be applied to <em>\"the most significant subset of elements of the product, process, computer software, technique, formula, or invention to be held for sale, lease, or license.\"</em>. This shrinking back continues recursively until either a qualifying subset of elements (subcomponent or subsystem) is reached, or the most basic element of the product is reached and fails to satisfy the statutory tests. However, as recent Tax Court decisions such as <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113, and <em>Little Sandy Coal Co. v. Commissioner</em>, T.C. Memo. 2021-15, aff'd 62 F.4th 287 (7th Cir. 2023), demonstrate, a taxpayer can successfully invoke the shrinking-back rule only if its accounting and time-tracking records isolate activities, hours, and costs at the specific subcomponent or engineering-discipline level. Where employees log time solely to high-level project numbers using generic descriptors like \"design\" or \"project coordination\" without subcomponent differentiation, neither the IRS nor the courts can verify eligibility under 26 CFR § 1.41-4(b)(2), resulting in disallowance of the claimed business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the individual-employee level, <strong><a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC § 41(b)(2)(B)</a></strong> and <strong>26 CFR § 1.41-2(d)(2)</strong> establish a separate 80% \"substantially all\" rule governing employee wages. As confirmed verbatim by the IRS <em>Audit Techniques Guide: Qualified Research Expenses</em> (updated July 2, 2026), <em>\"Treasury Regulation section 1.41-2(d)(2) provides that if substantially all of the services performed by an employee during the taxable year consist of qualified services, then the term 'qualified services' means all of the services performed by the employee for the taxpayer during the taxable year. The 'substantially all' rule for wages is analyzed on an employee-by-employee basis, and, in general, is determined by multiplying total wages by the following fraction: Hours spent in the conduct of qualified services over total hours spent in the conduct of all services (sick leave, for example, would not be included in the fraction). See Treasury Regulation section 1.41-2(d) for the methodology applicable to this rule. If the ratio is less than 80%, the actual amount of qualified services should be used.\"</em>. Notably, 26 CFR § 1.41-4(a)(6) specifies that the business-component 80% experimentation test is measured <em>\"without regard to section 1.41-2(d)(2)\"</em>—meaning a taxpayer cannot use the employee-level 80% wage round-up to boost the business-component experimentation percentage, and must track excluded RDC hours accurately for both tests."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Step-by-Step Verification of the 80 Percent Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mathematical interaction between excluded RDC, the business-component 80% process-of-experimentation rule (26 CFR § 1.41-4(a)(6)), and the employee-level 80% wage rule (26 CFR § 1.41-2(d)(2)), consider a hypothetical domestic industrial manufacturer developing a high-pressure composite storage vessel (<strong>Business Component A</strong>) during the taxable year across <strong>2,000 total project hours</strong> logged within a single engineering cost center. Suppose the underlying engineering activities break down into three categories: <strong>1,560 hours</strong> are devoted to finite-element structural modeling, hypothesis formulation, and logging hydrostatic burst-pressure test telemetry across five candidate carbon-fiber composite layup geometries to resolve objective uncertainty regarding the vessel's appropriate wall design (qualified process-of-experimentation activities under IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(5)(i)); <strong>140 hours</strong> are devoted to non-experimentation technical setup and ancillary laboratory preparation that satisfy the Section 174 test under IRC § 41(d)(1)(A) and are not excluded under IRC § 41(d)(4); and <strong>300 hours</strong> are devoted to routine daily temperature and pressure chart logging on existing factory production autoclaves to verify conformance with established operating standards (categorical Routine Data Collection excluded under IRC § 41(d)(4)(D)(iv) and 26 CFR § 1.41-4(c)(5)(iv)), yielding a total unsegregated pool of 1,560 + 140 + 300 = 2,000 hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the business-component level under 26 CFR § 1.41-4(a)(6), compare two accounting scenarios. In <strong>Scenario 1 (Unsegregated Accounting Pool — Audit Disallowance)</strong>, suppose the taxpayer fails to isolate the 300 hours of routine autoclave data logging and submits all 2,000 cost-center hours as the research activity pool for Business Component A. Measured on an hour basis under 26 CFR § 1.41-4(a)(6), the process-of-experimentation share is 1,560 ÷ 2,000 = 0.7800 (<strong>78.0%</strong>), the ancillary Section 174(a) non-experimentation share is 140 ÷ 2,000 = 0.0700 (<strong>7.0%</strong>), and the excluded IRC § 41(d)(4)(D)(iv) RDC share is 300 ÷ 2,000 = 0.1500 (<strong>15.0%</strong>). Because 78.0% &lt; 80.0%, Business Component A fails the \"substantially all\" requirement of IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(6)—and the 300 RDC hours cannot be sheltered within the ≤20% residual allowance because 26 CFR § 1.41-4(a)(6) expressly bars any activity excluded under IRC § 41(d)(4) from that residual slice. Unless the taxpayer possesses granular subcomponent records permitting the shrinking-back rule of 26 CFR § 1.41-4(b)(2) to isolate the composite layup subsystem from the general cost center, the Business Component A claim fails. Conversely, in <strong>Scenario 2 (Proactive RDC Segregation — Component Qualifies)</strong>, routing the 300 routine autoclave logging hours to a dedicated non-QRE exclusion code upfront leaves 2,000 − 300 = 1,700 research hours attributable to Business Component A. The process-of-experimentation share rises to 1,560 ÷ 1,700 ≈ 0.9176 (<strong>91.76%</strong> or <strong>91.8%</strong>), exceeding the 80.0% threshold, while the remaining 140 ÷ 1,700 ≈ 0.0824 (<strong>8.24%</strong> or <strong>8.2%</strong>) of ancillary research activities also qualifies because those 140 hours satisfy IRC § 41(d)(1)(A) and are not excluded under IRC § 41(d)(4)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once Business Component A qualifies under Scenario 2, consider the individual employee wage evaluation under IRC § 41(b)(2)(B) and 26 CFR § 1.41-2(d)(2) for a hypothetical Lead Materials Engineer earning <strong>$150,000</strong> in IRC § 3401(a) Form W-2 taxable wages across <strong>2,000 annual working hours</strong> (excluding sick leave and vacation per the IRS <em>Qualified Research Expenses</em> ATG). In <strong>Case A (Employee Meets the ≥80% Threshold)</strong>, the engineer spends <strong>1,640 hours</strong> conducting and directly supervising qualified composite vessel experimentation on Business Component A, and <strong>360 hours</strong> performing excluded routine factory autoclave data collection (1,640 + 360 = 2,000 hours). Because the engineer's qualified-services fraction under 26 CFR § 1.41-2(d)(2) is 1,640 ÷ 2,000 = 0.8200 (<strong>82.0% ≥ 80.0%</strong>), \"substantially all\" of the engineer's services for the taxable year consist of qualified services, allowing <strong>100%</strong> of the engineer's taxable wages ($150,000 × 100% = $150,000) to be claimed as in-house wage QREs. In <strong>Case B (Employee Falls Below the 80% Threshold)</strong>, the engineer spends <strong>1,450 hours</strong> on qualified composite vessel experimentation and <strong>550 hours</strong> on excluded routine data collection (1,450 + 550 = 2,000 hours). Because the qualified-services fraction is 1,450 ÷ 2,000 = 0.7250 (<strong>72.5% &lt; 80.0%</strong>), the 100% round-up of 26 CFR § 1.41-2(d)(2) is unavailable, and only the actual pro-rata fraction of qualified services may be claimed: $150,000 × 0.725 = $108,750 in eligible Form W-2 wage QREs, while $150,000 × 0.275 = $41,250 (27.5% attributable to excluded RDC) must be excluded from QREs."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Quantitative Compliance Scenario",
+        "Total Hours Evaluated",
+        "Qualified Experimentation / Services Hours",
+        "Ancillary Non-Excluded § 174(a) Hours",
+        "Excluded IRC § 41(d)(4)(D)(iv) RDC Hours",
+        "Resulting Ratio (%)",
+        "Governing Regulatory Threshold",
+        "Tax Compliance Outcome"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Component Scenario 1: Unsegregated Pool",
+            "2,000 hrs",
+            "1,560 hrs",
+            "140 hrs",
+            "300 hrs",
+            "78.00% (1,560 ÷ 2,000)",
+            "≥80.0% under 26 CFR § 1.41-4(a)(6)",
+            "<strong>Fails Component Test:</strong> Below 80%; 300 RDC hrs also barred from ≤20% residual slice."
+          ]
+        },
+        {
+          "cells": [
+            "Component Scenario 2: Proactive RDC Segregation",
+            "1,700 hrs (300 RDC hrs removed)",
+            "1,560 hrs",
+            "140 hrs",
+            "0 hrs in research pool (300 hrs isolated)",
+            "91.76% (1,560 ÷ 1,700)",
+            "≥80.0% under 26 CFR § 1.41-4(a)(6)",
+            "<strong>Passes Component Test:</strong> 91.76% experimentation + 8.24% eligible § 174(a) residual."
+          ]
+        },
+        {
+          "cells": [
+            "Employee Wage Case A ($150,000 Form W-2)",
+            "2,000 hrs (excl. leave)",
+            "1,640 hrs",
+            "0 hrs",
+            "360 hrs",
+            "82.00% (1,640 ÷ 2,000)",
+            "≥80.0% under 26 CFR § 1.41-2(d)(2)",
+            "<strong>100% Wage Inclusion:</strong> $150,000 eligible QRE wages ($0 disallowed)."
+          ]
+        },
+        {
+          "cells": [
+            "Employee Wage Case B ($150,000 Form W-2)",
+            "2,000 hrs (excl. leave)",
+            "1,450 hrs",
+            "0 hrs",
+            "550 hrs",
+            "72.50% (1,450 ÷ 2,000)",
+            "&lt;80.0% pro-rata rule under 26 CFR § 1.41-2(d)(2)",
+            "<strong>Pro-Rata Allocation Only:</strong> $108,750 eligible QRE wages; $41,250 excluded RDC wages."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Operational Comparison: Excluded Routine Data Collection vs. Qualified Experimental Data Acquisition"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether a technical data-gathering activity falls into the categorical exclusion of IRC § 41(d)(4)(D)(iv) or qualifies as experimental data acquisition under IRC § 41(d)(1)(C) depends on the objective technological uncertainty present at the outset of the activity and the evaluative methodology employed, rather than the physical sensor, laboratory instrument, or software logging tool used to capture the data. The table below synthesizes the statutory, regulatory, and judicial boundaries across excluded RDC, adjacent survey and quality-control exclusions, and qualified experimental data acquisition."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Compliance Dimension",
+        "Excluded Routine Data Collection (IRC § 41(d)(4)(D)(iv))",
+        "Adjacent Survey, Management & QC Exclusions (IRC § 41(d)(4)(D)(i)–(iii), (v))",
+        "Qualified Experimental Data Acquisition (IRC § 41(d)(1) & § 41(d)(3))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Governing Statutory & Regulatory Authority",
+            "IRC § 41(d)(4)(D)(iv); 26 CFR § 1.41-4(c)(5)(iv).",
+            "IRC § 41(d)(4)(D)(i)–(iii), (v); 26 CFR § 1.41-4(c)(5)(i)–(iii), (v); 26 CFR § 1.41-4(c)(8); 26 CFR § 1.41-4(c)(10) Ex. 9; 26 CFR § 1.174-2(a)(6)–(7).",
+            "IRC § 41(d)(1)(A)–(C), § 41(d)(2)–(3); 26 CFR § 1.41-4(a)(2)–(6); 26 CFR § 1.174-2(a)(1)."
+          ]
+        },
+        {
+          "cells": [
+            "Nature of Uncertainty at Outset",
+            "<strong>None (Objective Technical):</strong> Information available to the taxpayer at the outset already establishes capability, method, and the appropriate design of the business component.",
+            "<strong>Non-Technological / Commercial / Administrative:</strong> Concerns workflow efficiency, management structure, consumer preferences, or post-design unit conformance to fixed parameters.",
+            "<strong>Objective Technological Uncertainty Exists:</strong> Information available to the taxpayer does not establish capability, method, or the appropriate design of the business component."
+          ]
+        },
+        {
+          "cells": [
+            "Core Objective & Methodology",
+            "Operational performance monitoring, regulatory compliance verification, baseline fact-finding, or performing basic engineering calculations on already available historical data.",
+            "Efficiency surveys, organizational restructuring studies, employee workflow interviews, market research/promotions, or ordinary pass/fail quality-control testing.",
+            "Identifying technical uncertainty, formulating hypotheses/alternatives, and conducting a systematic evaluative process via modeling, simulation, or trial and error."
+          ]
+        },
+        {
+          "cells": [
+            "Concrete Domain Examples",
+            "Daily server uptime/health logging; referencing historical load data to calculate standard HVAC duct or MEPF system sizes; routine sensor calibration checks; standard database format conversions.",
+            "Interviewing employees and studying competitor plants to redesign management structure (26 CFR § 1.41-4(c)(10) Ex. 9); customer color-preference surveys (26 CFR § 1.41-4(a)(8) Ex. 1); nozzle spec conformance check (Ex. 2).",
+            "Logging burst-pressure, tensile-strength, or network-latency telemetry across five candidate composite layups or novel load-balancing algorithms where optimal design is uncertain."
+          ]
+        },
+        {
+          "cells": [
+            "Treatment Under 80% Component Test (26 CFR § 1.41-4(a)(6))",
+            "<strong>Doubly Barred:</strong> Excluded from both the ≥80% process-of-experimentation numerator and the ≤20% non-experimentation residual allowance.",
+            "<strong>Doubly Barred:</strong> Excluded from both the ≥80% process-of-experimentation numerator and the ≤20% non-experimentation residual allowance.",
+            "<strong>Fully Qualifying:</strong> Counts directly toward the ≥80% process-of-experimentation numerator for the discrete business component."
+          ]
+        },
+        {
+          "cells": [
+            "Substantiation & Accounting Treatment",
+            "Must be segregated into non-QRE time and cost accounts so routine hours do not dilute business-component research pools or inflate employee wage ratios.",
+            "Must be segregated into general, administrative, commercial, or quality-control overhead accounts outside QRE computations.",
+            "Substantiated via <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous uncertainty records</a>, evaluated alternatives, test data logs, and component-linked time records under 26 CFR § 1.41-4(d) and Form 6765 Section G."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Internal-Use Software and IRS Data-Conversion Guidance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise data engineering projects—including database migrations, data warehousing, legacy system integrations, and data-cleaning pipelines—frequently face compound IRS examination scrutiny. First, under <strong>IRC § 41(d)(4)(E)</strong> and <strong>26 CFR § 1.41-4(c)(6)</strong> (updated through November 9, 2026), computer software developed by (or for the benefit of) the taxpayer primarily for internal use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a> that facilitate or support the conduct of the taxpayer's trade or business (such as financial management, accounting, human resources, or employee benefits administration, as illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 2) is excluded from qualified research unless it satisfies a statutory or regulatory exception. As reflected on <strong>Line 49(e) of Form 6765 (Section G)</strong> and 26 CFR § 1.41-4(c)(6), software is excepted from <a href=\"/us/glossary/internal-use-software-ius\">Internal-Use Software (IUS)</a> treatment if it is: (1) developed for use in an activity that itself constitutes qualified research; (2) developed for internal use in a production process that satisfies the requirements of IRC § 41(d)(1); or (3) developed together with hardware as a new or improved single hardware-software package (26 CFR § 1.41-4(c)(6)(viii) Example 1). Otherwise, internal-use software (or the remaining internal-use subset of Dual Function Software (DFS), unless the 25% DFS safe harbor is applied) must satisfy the three-part <strong><a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation (HTI)</a></strong> test—requiring that the software be innovative, involve significant economic risk (substantial technical uncertainty regarding the recovery of resources within a reasonable period), and be commercially unavailable—while 26 CFR § 1.41-4(c)(6)(vii)(D) emphasizes that merely implementing existing technology by itself is not evidence of innovation."
+    },
+    {
+      "type": "paragraph",
+      "text": "A direct audit of the primary IRS document (<em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em>) establishes two critical corrections: first, the IRS software audit guidelines <strong>never use the term \"Extract, Transform, Load (ETL)\"</strong> and <strong>never classify database format conversion or data migration as \"excluded RDC\" under IRC § 41(d)(4)(D)(iv)</strong>; second, the IRS software guidelines instead evaluate data validation, data cleansing, format conversion, and database migration directly under the <strong>process-of-experimentation test of IRC § 41(d)(1)(C)</strong> (and, where legacy systems are examined, the reverse-engineering <a href=\"/us/glossary/duplication-exclusion\">duplication exclusion</a> of IRC § 41(d)(4)(C))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, in addressing software utilities designed to clean data fields, standardize formats across databases, or migrate customer data to new database structures, the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em> state verbatim in two key passages:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Passage 1 (Data Cleansing, Reading/Writing Data, and Format Translation):</strong> <em>\"These activities include such activities as designing and implementing software to validate and/or clean data fields, and/or make the data fields consistent across databases and applications. For example, an address field could be defined differently in every database, or when transferring data between systems, such as between a mainframe and a UNIX server, the format of the data may need to be translated, such as from EBCDIC to ASCII. There is generally no software development uncertainty, resolved through a process of experimentation, with respect to reading data from a file or database, converting that data to a different format (e.g., mm/dd/yy converted to mm/dd/yyyy), or writing the newly formatted data into a file or database. The decisions related to what format to select for any given piece of data, such as a date or an address, are business uncertainties, not software development uncertainties.\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Passage 2 (Database Migration and Legacy Code Updates):</strong> <em>\"Once these requirements are known, which may require reverse engineering activities, it is a straightforward process to write software to read the old data, convert that data into the new data formats, and then to write that data into new data structures (i.e., files or databases). There is generally no software development uncertainty associated with reading or writing data, or in converting data items from one format to another, that is resolved by identifying and conducting a process, designed to evaluate alternatives, which fundamentally relies on the principles of computer science.\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the IRS software guidelines address three related software data activities that taxpayers frequently misclassify. Reviewing a purchased or legacy software product's source code to find all existing database references and changing them to reference a new database (analogous to Y2K remediation) is directed at locating code references to modify rather than resolving computer-science uncertainty through a process of experimentation. Similarly, examining existing programs, databases, and files to determine how a legacy application or data interface works constitutes <a href=\"/us/glossary/reverse-engineering-exclusion\">reverse engineering</a>, which is excluded from qualified research under IRC § 41(d)(4)(C) and <strong>26 CFR § 1.41-4(c)(10) Example 8</strong>. Finally, evaluating and choosing between commercial database management systems (such as Oracle or DB2) or evaluating vendor warehouse management software (<strong>26 CFR § 1.41-4(a)(8) Example 5</strong>) constitutes a routine due diligence product selection study rather than a process of experimentation under IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Maintaining this exact statutory distinction between IRC § 41(d)(1)(C) and IRC § 41(d)(4)(D)(iv) has significant practical consequences for software engineering teams. Standard data extraction, schema mapping, and database migration utilities fail IRC § 41(d)(1)(C) because translating known data structures involves business or configuration decisions rather than computer-science uncertainty requiring the systematic evaluation of alternatives—whereas operational data gathering itself (such as accumulating production data or routine system telemetry) is excluded under IRC § 41(d)(4)(D)(iv) or IRC § 41(d)(4)(A). Conversely, if software engineers are developing a novel distributed query-processing engine, custom compression algorithm, or cluster load-balancing architecture (<strong>26 CFR § 1.41-4(a)(8) Example 8</strong>) where standard computer-science methods cannot resolve an architectural design or latency uncertainty, that algorithmic experimentation is evaluated on its technical merits under IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(c)(6)—and is not automatically disqualified under IRC § 41(d)(4)(D)(iv) merely because the software processes or moves data."
+    },
+    {
+      "type": "heading",
+      "text": "Judicial Scrutiny, Substantiation Rules, and Form 6765 Reporting"
+    },
+    {
+      "type": "subheading",
+      "text": "Investigatory Activity vs. Basic Calculations: Phoenix Design Group (T.C. Memo. 2024-113)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent United States Tax Court jurisprudence demonstrates how closely federal courts scrutinize routine engineering data handling, preliminary requirements gathering, and standard design calculations against the Section 174 and process-of-experimentation standards. In <strong><em>Phoenix Design Group, Inc. v. Commissioner of Internal Revenue</em></strong>, Docket No. 4759-22, T.C. Memo. 2024-113 (opinion issued December 23, 2024, by Judge Greaves), the Tax Court examined research credit claims filed by Phoenix Design Group, Inc. (PDG), a Tennessee-based multidisciplinary consulting engineering firm (taxed as a C corporation during the relevant years) founded in 1997 by professional engineers Ross T. Malloy, Thomas Fisher, and Clyde Searcy. PDG specialized in designing mechanical, electrical, plumbing, and fire protection (MEPF) systems for complex commercial and institutional buildings, particularly hospitals and university laboratories."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2017, PDG engaged a consulting firm (alliantgroup) to conduct a research credit study covering 2012 through 2016, which identified 419 potential projects. Relying solely on employee wage QREs across more than 200 disputed projects, PDG claimed Section 41 research credits for tax years 2013 ($138,205), 2014 ($158,031), 2015 ($138,334), and 2016 ($128,228)—totaling <strong>$562,798</strong> in claimed credits—and applied <strong>$535,455</strong> of those credits across its 2015 through 2019 corporate income tax returns. Following an examination of the 2015–2019 credit-use years, the IRS issued a Notice of Deficiency on December 14, 2021, disallowing the claimed credits and determining <strong>$461,741</strong> in notice deficiencies alongside <strong>$91,806</strong> in 20% <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> under IRC § 6662(a). As legal analyses of the opinion note, the table of deficiencies and penalties reflects the amounts at stake in the IRS Notice of Deficiency rather than a final adjudicated aggregate liability across all 200+ projects, because the opinion left the remaining non-sampled projects for subsequent resolution."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Credit Carryforward / Audit Tax Year",
+        "Research Credits Applied on Return",
+        "IRS Notice of Deficiency Amount",
+        "IRC § 6662(a) Notice Penalty (20%)",
+        "Notice Deficiency Plus Penalty (Excl. Interest)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "2015",
+            "$110,576",
+            "$55,504",
+            "$11,101",
+            "$66,605"
+          ]
+        },
+        {
+          "cells": [
+            "2016",
+            "$74,488",
+            "$47,811",
+            "$9,021 <em>(per opinion table)</em>",
+            "$56,832"
+          ]
+        },
+        {
+          "cells": [
+            "2017",
+            "$211,142",
+            "$219,177",
+            "$43,835",
+            "$263,012"
+          ]
+        },
+        {
+          "cells": [
+            "2018",
+            "$68,147",
+            "$68,147",
+            "$13,629",
+            "$81,776"
+          ]
+        },
+        {
+          "cells": [
+            "2019",
+            "$71,102",
+            "$71,102",
+            "$14,220",
+            "$85,322"
+          ]
+        },
+        {
+          "cells": [
+            "Total (2015–2019)",
+            "<strong>$535,455</strong>",
+            "<strong>$461,741</strong>",
+            "<strong>$91,806</strong>",
+            "<strong>$553,547</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "To streamline the merits trial, the parties agreed to try a <strong>nonbinding sample of three projects</strong>: (1) the <em>Gerald Champion Military Psychiatric Unit</em> (Gerald Champion); (2) <em>Baptist Memorial Health North Mississippi Oxford</em> (BMHNMO); and (3) the <em>Vanderbilt University Engineering and Science Building</em> (VUESB). The IRS conceded the discovering-technological-information test (IRC § 41(d)(1)(B)(i)) and the business-component test (IRC § 41(d)(1)(B)(ii)), focusing the litigation squarely on whether PDG's activities satisfied the <strong>Section 174 test (IRC § 41(d)(1)(A))</strong> and the <strong>process-of-experimentation test (IRC § 41(d)(1)(C))</strong>. On December 23, 2024, the Tax Court held that <strong>none of the three sampled projects entailed qualified research under IRC § 41</strong>, and sustained the 20% accuracy-related penalties under IRC § 6662(a) pursuant to the parties' stipulation (without separately deciding a reasonable-cause defense based on reliance on alliantgroup)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court's analysis in <em>Phoenix Design Group</em> establishes four critical legal principles governing routine engineering data collection and design calculations:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Basic Calculations on Already Available Data Are Non-Investigative:</strong> To satisfy the Section 174 test under 26 CFR § 1.174-2(a)(1), a taxpayer must show both that objective uncertainty existed because information available to it did not establish capability, method, or appropriate design, and that it undertook <strong>investigative activities</strong> intended to discover information to eliminate that uncertainty. The Tax Court held directly that <strong>\"performing basic calculations on available data is not an investigative activity because the taxpayer already has information necessary to address that unknown.\"</strong>. Specifically, in the <em>Gerald Champion</em> project, PDG's mechanical engineers calculated the approximate size of the needed MEPF systems by referencing historical load data provided at the start of the project and reported those calculations to the architect. Similarly, performing standard calculations to determine HVAC duct size based on airflow or presenting utility-company options to a client did not constitute an investigative or evaluative process reflecting the scientific method. Citing <em>Betz v. Commissioner</em>, T.C. Memo. 2023-84, the court emphasized that a taxpayer cannot carry its burden of proving investigative activity merely by identifying a design constraint and presenting an eventual engineering solution.",
+        "<strong>Preliminary Requirements Gathering (\"Basis of Design\") and Possible Future Revisions Do Not Establish Objective Uncertainty:</strong> All of PDG's projects followed a linear six-stage design process beginning with a <strong>Basis of Design Stage</strong>, in which project requirements were gathered. PDG argued that objective design uncertainty persisted throughout construction because building designs could always be revised prior to completion. The Tax Court rejected that theory, holding that preliminary architectural documents—such as gross-block diagrams, schematic design diagrams, and preliminary master plans—already established the basic footprint and appropriate basic design of the MEPF systems at the outset, and that the mere possibility of future client-driven or construction-driven revisions does not create objective technological uncertainty.",
+        "<strong>Subcomponent Uncertainty Does Not Automatically Infect the Entire System:</strong> In the <em>BMHNMO</em> and <em>VUESB</em> projects, PDG pointed to localized technical questions—such as diffuser and vent placement in a hybrid operating room before final medical equipment was selected, or unknown tenant uses for specific laboratory floors—as proof that the entire building's MEPF system was uncertain. Echoing 26 CFR § 1.174-2(a)(5), the Tax Court ruled that <em>\"uncertainty in a component does not lead to uncertainty for the entire project or business component,\"</em> and found that PDG failed to demonstrate how narrow subcomponent questions created uncertainty across the entire MEPF system.",
+        "<strong>Failure of the Shrinking-Back Rule Due to Undifferentiated Timesheets:</strong> The Tax Court acknowledged that under 26 CFR § 1.41-4(b)(2), if an overall MEPF business component failed the four-part test, the analysis could shrink back to a specific engineering discipline (mechanical, electrical, or plumbing). Crucially, however, the court clarified that the business component <strong>would not shrink back to a specific design phase nor to the activities of specific employees</strong>. Because PDG's employees logged hours on generic <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">timesheets</a> using vague descriptors such as \"design\" or \"project coordination\" without linking hours to specific subcomponents or iterative experimental tests, the record lacked the evidentiary foundation needed to satisfy the 80% process-of-experimentation standard (as enforced in <em>Little Sandy Coal Co. v. Commissioner</em>) even at the narrower discipline level."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, precise legal calibration requires noting the express boundaries of the <em>Phoenix Design Group</em> holding: the Tax Court explicitly stated that its conclusions on the three sample projects were <strong>nonbinding as to the remaining projects</strong>, the trial excluded QRE quantification from its scope, and the decision did not establish a new statutory standard or categorically bar <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">architecture and engineering (A&E) firms</a>, oral testimony, or iterative design from qualifying under IRC § 41 when properly substantiated."
+    },
+    {
+      "type": "subheading",
+      "text": "Document Volume vs. Procedural Specificity: Correcting the Harper Precedent"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong><em>Jeffrey A. Harper; Katherine M. Harper v. United States of America</em></strong>, Docket No. 19-55933, 847 Fed. App'x 408 (9th Cir. February 25, 2021, reversing No. 18cv2110 DMS, S.D. Cal. April 25, 2019), the taxpayers—shareholders of Harper Construction Co. (HCC), a San Diego-based S corporation specializing in military design-build construction projects—filed <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a> claiming Section 41 research tax credit refunds. The IRS conducted a targeted four-year audit of those refund claims, issuing <a href=\"/us/glossary/information-document-request-idr\">Information Document Requests (IDRs)</a> covering project accounting, QRE translation methodologies, business components, the IRC § 41(d)(1)(C) \"substantially all\" requirement, and eligible employee salaries. During that four-year audit, the taxpayers produced <strong>over 100,000 pages of documentation</strong> (exceeding 112,000 pages, as noted in Circuit Judge Hunsaker's concurring opinion) before the IRS issued a formal <a href=\"/us/glossary/notice-of-claim-disallowance\">notice of disallowance</a> stating simply: <em>\"You have not shown you are entitled to the claimed refund.\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the taxpayers filed a refund suit in the U.S. District Court for the Southern District of California under 26 U.S.C. § 7422, the government moved to dismiss the complaint—not because the 100,000+ pages failed on the substantive merits to link experimental data to technological uncertainty, but on the <strong>procedural ground</strong> that the taxpayers' initial administrative refund claims lacked sufficient factual specificity under <strong>26 CFR § 301.6402-2(b)(1)</strong> (which requires a refund claim to set forth in detail each ground upon which a credit or refund is claimed and facts sufficient to apprise the Commissioner of the exact basis thereof). Although the district court granted the government's motion and dismissed the suit, the Ninth Circuit <strong>reversed and remanded in the taxpayers' favor</strong> on February 25, 2021, holding verbatim:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>\"Because the IRS's substantive four-year audit specifically directed to determining Taxpayer's eligibility for an increased research activities credit constituted waiver of the IRS's enforcement of the specificity requirement in 26 C.F.R. § 301.6402-2(b)(1) with respect to Taxpayer's formal claim for increased research tax credit, we reverse.\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, in subsequent Tax Court deficiency litigation involving the same S corporation—<strong><em>Jeffrey A. Harper, et ux. v. Commissioner</em></strong>, T.C. Memo. 2023-57 (involving $46,656 in claimed Section 41 credits for 2012 and $778,610 for 2013 across 53 military housing and training facility design-build projects)—the IRS moved for partial summary judgment arguing that HCC's conceptual and construction designs failed the IRC § 41(d)(2)(B) business-component test. The Tax Court <strong>denied the IRS's motion for partial summary judgment</strong>, ruling that even if HCC did not own the completed military buildings or hold the physical structures for sale, HCC's design efforts could qualify as new or improved <strong>processes, techniques, or inventions</strong> used in its trade or business under IRC § 41(d)(2)(B)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accordingly, <em>Harper</em> was a taxpayer victory at both the Ninth Circuit (on procedural waiver) and the Tax Court summary-judgment stage (on the business-component test), rather than a judicial disallowance of 100,000 pages of records. The true compliance lesson of <em>Harper</em> is administrative and procedural: following the Ninth Circuit's waiver ruling in <em>Harper</em>, the IRS issued <strong>News Release IR-2021-203</strong> in October 2021 (effective for <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">research credit refund claims</a> filed after January 10, 2022) to enforce 26 CFR § 301.6402-2(b)(1) at the initial filing gate before an audit begins. Under IR-2021-203 as originally issued, taxpayers filing amended-return research credit claims had to submit five items upfront: (1) identification of all business components to which the claim relates; (2) description of all research activities performed for each component; (3) names of the individuals who performed each research activity; (4) the information each individual sought to discover; and (5) total qualified employee wage, supply, and contract research expenses for the claim year. On <strong>June 18, 2024</strong>, the IRS streamlined this requirement by waiving upfront submission of items #3 (names of individuals) and #4 (information sought to be discovered) at the time of filing (though both may still be requested during examination), while continuing to require upfront disclosure of items #1, #2, and #5."
+    },
+    {
+      "type": "subheading",
+      "text": "Contemporaneous Substantiation, the Cohan Rule, and Form 6765 Section G"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Actual Employee Activities Control Over Job Titles or Descriptions:</strong> The IRS <em>Audit Techniques Guide: Qualified Research Expenses</em> (updated July 2, 2026) confirms this rule verbatim: <em>\"An important caveat: Determinations as to whether an employee is (or is not) engaged in qualified services, should not be based solely on job descriptions or titles. Credit eligibility is based solely upon what an employee actually does, or does not, do during a specific time period. It is important to note the technical and educational qualification of a researcher, but this is not conclusive evidence that the individual engaged (or did not engage) in the performance of qualified services.\"</em>. While initial audit IDRs routinely request payroll registers, department codes, job titles, and job descriptions so IRS examiners can focus examination resources on personnel whose descriptions suggest general administrative, routine manufacturing, or marketing work, actual activity performed during the specific time period is legally determinative.",
+        "<strong>Proper Citation and Narrow Scope of the <em>Cohan</em> Rule on Estimation:</strong> The correct judicial citation is <strong><em>Cohan v. Commissioner of Internal Revenue</em></strong>, Docket No. 114, 39 F.2d 540, 543–44 (2d Cir. March 3, 1930) (opinion by Circuit Judge Learned Hand, joined by Circuit Judges Swan and Mack), where the Second Circuit held that when a taxpayer proves deductible expenses were incurred but lacks exact records, <em>\"Absolute certainty in such matters is usually impossible and is not necessary; the Board should make as close an approximation as it can, bearing heavily if it chooses upon the taxpayer whose inexactitude is of his own making.\"</em>. In modern Section 41 examinations, the IRS <em>Audit Techniques Guide: Substantiation and Recordkeeping</em> (updated July 2, 2026) establishes strict boundaries on <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">Cohan estimation</a>, stating verbatim: <em>\"The Service does not have to accept estimates of qualified research expenses if documentation exists to verify the actual amount of such expenses. As set forth above, taxpayers are required to keep records substantiating the amount of any reported, claimed, or affirmatively raised deductions or credits. The courts will allow the use of an estimation method only where the taxpayer does not have contemporaneous records, and then only as long as the following two conditions are satisfied. First, the taxpayer must establish that it engaged in qualified research activities as defined in section 41(d). And second, the failure to maintain a proper system to capture relevant information cannot be an 'inexactitude is of their own making'. Estimation methods are permitted only in cases where the sole issue is the exact amount paid or incurred in the qualified research activity. Accordingly, taxpayers must have factual support for every assumption underlying their estimates to meet their burden of proof.\"</em>.",
+        "<strong>Role of Contemporaneous Records and Credible Oral Testimony:</strong> While <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous project records</a> are the primary foundation of an audit—and courts in cases like <em>Little Sandy Coal</em> and <em>Phoenix Design Group</em> have rejected uncorroborated retrospective reconstructions—the IRS <em>Substantiation and Recordkeeping</em> ATG (updated July 2, 2026) explicitly instructs examiners that oral testimony is an accepted supplementary tool: <em>\"Contemporaneous books and records should form the basis of the examination, and should be requested, as needed, in examining the particular issues addressed in this audit techniques guide... Credible oral testimony by individuals with personal knowledge of the issues may be helpful in evaluating and/or supplementing a taxpayer's contemporaneous documentation. Interviews may be necessary to gather new information, or to confirm, clarify or refute other documentary or testimonial evidence. The interviewee will often be a technical or supervisory person with specialized knowledge of the issue in question.\"</em>.",
+        "<strong>Absence of Numeric Audit-Risk Scores vs. Mandatory Form 6765 Section G Reporting:</strong> Instead, actual regulatory urgency centers on the redesigned <strong>Form 6765 (<em>Credit for Increasing Research Activities</em>)</strong> under the <strong>December 2025 <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a></strong> (for use with the January 2025 version of Form 6765) and the IRS's <strong>June 28, 2026 Clarification</strong> (<em>Clarification to the January 2025 version of the Instructions for Form 6765 regarding Qualified Research Expenses and Group Reporting</em>). Under these official IRS instructions, <strong>Section G (Business Component Information)</strong> is <strong>optional for all filers for tax years beginning before 2026</strong>, and <strong>mandatory for tax years beginning after 2025</strong>, subject to the guidelines in Section G (with special rules for amended returns). Taxpayers must complete Section G first (unless excepted) before completing <strong>Section F (Qualified Research Expenses Summary)</strong>, and must indicate in Section F whether they are required to complete Section G. Filers required to complete Section G must report component-by-component QREs for the <strong>\"80%/Top 50\"</strong> business components, and report any remaining business components in aggregate by entering <strong>\"Aggregate Business Components\"</strong> in <strong>Column 49(c)</strong> and entering the applicable aggregate totals across Columns 50 through 56. For each reported component, the taxpayer classifies the business component type in <strong>Column 49(d)</strong> (\"Product,\" \"Process,\" or \"All Others\"), selects the software category on <strong>Line 49(e)</strong> if applicable (Category A: IUS; Category B: <a href=\"/us/glossary/dual-function-software\">DFS</a>; Category C: Excepted from IUS treatment), and breaks down in-house Form W-2 wage QREs into <strong>Column 50</strong> (wages for persons engaged in the <em>actual conduct</em> of qualified research), <strong>Column 51</strong> (wages for <em>direct supervision</em>—immediate first-line management—of qualified research), and <strong>Column 52</strong> (wages for <em>direct support</em> of qualified research, such as laboratory workers cleaning equipment or clerks compiling research test data, while excluding general administrative or payroll services). <strong>Column 53</strong> sums total qualified wages (Columns 50 + 51 + 52, carried to Section F, Line 42), <strong>Column 54</strong> reports qualified supplies (Section F, Line 43), <strong>Column 55</strong> reports qualified off-premises computer rental/lease expenses (Section F, Line 44), and <strong>Column 56</strong> reports applicable <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">contract research expenses</a> at the 65%, 75%, or 100% statutory rates (Section F, Line 45), summing to total QREs on <strong>Section F, Line 48</strong> (which flows to Line 5 for the regular credit or Line 20 for the ASC, with controlled group members filing separate returns reporting only the filing member's own QREs in Sections E, F, and G). Notice the critical compliance distinction in <strong>Column 52</strong>: a clerk compiling <em>experimental research data</em> generated during a qualified test performs eligible \"<a href=\"/us/glossary/direct-support\">direct support</a>\" under IRC § 41(b)(2)(B)(ii), whereas an employee collecting <em>routine operational or administrative data</em> performs excluded Routine Data Collection under IRC § 41(d)(4)(D)(iv)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Compliance Analysis: Institutionalizing Routine Data Collection Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following four governance mechanisms represent operational compliance analysis and best-practice recommendations designed to help engineering, manufacturing, and software organizations isolate excluded Routine Data Collection before filing Form 6765:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Project-Initiation Technical Uncertainty Gate:</strong> Engineering and R&D leaders can embed a structured sign-off block directly into existing project-management workflows (such as Jira epics, GitHub repositories, Asana boards, Product Requirements Documents, or electronic laboratory notebooks) before any data collection or prototype testing begins. To align with <strong>26 CFR § 1.41-4(a)(3)(i)</strong>, <strong>§ 1.41-4(a)(5)(i)</strong>, and the Tax Court's analysis in <strong><em>Phoenix Design Group</em></strong>, this initiation record should capture four contemporaneous elements: (a) the discrete <strong>business component</strong> (or specific engineering discipline/subsystem for 26 CFR § 1.41-4(b)(2) shrinking-back protection) being developed or improved under IRC § 41(d)(2)(B); (b) the specific <strong><a href=\"/us/faq/irs-technical-uncertainty-description-examples\">objective technological uncertainty</a></strong>—explicitly identifying whether the information available to the taxpayer at the outset fails to establish <em>capability</em>, <em>method</em>, or <em>appropriate design</em> (rather than citing general project complexity, building-code compliance, or preliminary \"Basis of Design\" requirements gathering); (c) the competing <strong>technical alternatives or hypotheses</strong> identified to eliminate that uncertainty; and (d) the <strong>experimental evaluation protocol</strong> (modeling, simulation, or systematic trial-and-error testing metrics) that the data collection will measure. If no capability, method, or appropriate design uncertainty exists at the outset, the workflow should classify subsequent data logging as non-qualifying operational activity.",
+        "<strong>Statutorily Aligned Exclusion Time-Tracking and Cost-Center Codes:</strong> Corporate payroll, ERP, and engineering <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">time-tracking systems</a> should establish explicit non-QRE task codes that map directly to the statutory exclusions of <strong>IRC § 41(d)(4)(D)</strong> and <strong>26 CFR § 1.41-4(c)(5)</strong>, while categorizing qualifying research hours by the three wage roles required for <strong>Form 6765 Section G (Columns 50–52)</strong>. Specifically, project accounting structures should separate qualifying experimental research codes mapped to discrete business components (and subcomponents) across <em>Actual Conduct</em> (Column 50, including experimental test-data capture), <em><a href=\"/us/glossary/direct-supervision\">Direct Supervision</a></em> (Column 51), and <em>Direct Support</em> (Column 52, including compiling experimental research data) from three dedicated non-QRE exclusion codes: (a) <strong>IRC § 41(d)(4)(D)(iv) Routine Data Collection</strong> (capturing operational equipment monitoring, baseline environmental or server health logging, referencing historical load tables for basic sizing calculations, and standard database format conversions or data cleansing); (b) <strong>IRC § 41(d)(4)(D)(v) Routine Quality Control</strong> (capturing post-design pass/fail inspection and conformance testing against fixed manufacturing or vendor parameters under 26 CFR § 1.174-2(a)(6)(i) and (a)(7) and 26 CFR § 1.41-4(a)(8) Example 2); and (c) <strong>IRC § 41(d)(4)(D)(i)–(iii) Surveys, Management & Market Studies</strong> (capturing efficiency surveys, organizational restructuring studies under 26 CFR § 1.41-4(c)(10) Example 9, vendor product due diligence under 26 CFR § 1.41-4(a)(8) Example 5, and market research). Segregating these non-qualifying hours at the point of entry prevents excluded RDC from contaminating business-component pools under the 80% experimentation rule of <strong>26 CFR § 1.41-4(a)(6)</strong> and provides accurate denominators for the employee-level 80% wage calculation under <strong>26 CFR § 1.41-2(d)(2)</strong>.",
+        "<strong>Internal Comparative Boundary Library by Technical Discipline:</strong> Tax and engineering leadership can maintain an internal, discipline-specific reference matrix grounded in primary authority. For software and data engineering teams, the library should contrast non-qualifying activities identified in the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em>—such as writing scripts to read, convert (e.g., EBCDIC to ASCII or mm/dd/yy to mm/dd/yyyy), and write data across databases, updating code references to point to a new database, reverse engineering legacy data interfaces (excluded under IRC § 41(d)(4)(C) and 26 CFR § 1.41-4(c)(10) Example 8), and conducting DBMS selection studies (Oracle vs. DB2)—against qualifying computer-science experimentation, such as benchmarking competing distributed load-balancing algorithms under 26 CFR § 1.41-4(a)(8) Example 8 or resolving architectural latency uncertainties under 26 CFR § 1.41-4(c)(6). For hardware, manufacturing, and A&E teams, the library should contrast excluded management efficiency studies (26 CFR § 1.41-4(c)(10) Example 9), post-production data accumulation (IRC § 41(d)(4)(A)), and basic engineering sizing calculations performed on already available historical data (<em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113) against systematic prototype test-data acquisition and computational fluid dynamics (CFD) or finite-element modeling evaluating competing structural designs.",
+        "<strong>Targeted Compliance Training and Quarterly Substantiation Reviews:</strong> Training for technical leads should emphasize three audit rules: (a) under the IRS <em>Qualified Research Expenses</em> ATG, job titles and descriptions are not determinative on their own—eligibility rests solely on what an employee actually does during each specific time period; (b) vague timesheet entries such as \"design\" or \"project coordination\" defeat the shrinking-back rule of 26 CFR § 1.41-4(b)(2) under <em>Phoenix Design Group</em>; and (c) while <a href=\"/us/glossary/credible-oral-testimony\">credible oral testimony</a> from technical supervisors can supplement contemporaneous records under the IRS <em>Substantiation and Recordkeeping</em> ATG, contemporaneous test logs, design comparisons, and component-linked time records must form the foundation of every business component reported in Form 6765 Section G."
+      ]
+    }
+  ]
+}

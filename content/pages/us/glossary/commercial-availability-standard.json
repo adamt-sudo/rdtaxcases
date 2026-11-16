@@ -1,0 +1,367 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Commercial Availability",
+  "description": "The commercial availability standard is the third prong of the high threshold of innovation test for internal use software under IRC § 41.",
+  "summary": "The commercial availability standard is the third prong of the High Threshold of Innovation test for U.S. taxpayers claiming the federal R&D tax credit under IRC § 41 on internal use software. Software fails if it can be purchased, leased, or licensed and used for its intended purpose without modifications meeting the innovation and significant economic risk requirements.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The commercial availability standard is the third prong of the High Threshold of Innovation test for U.S. taxpayers claiming the federal R&D tax credit under IRC § 41 on internal use software. Software fails if it can be purchased, leased, or licensed and used for its intended purpose without modifications meeting the innovation and significant economic risk requirements."
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial Availability operates as a decisive regulatory gatekeeper for taxpayers claiming the federal Research and Development (R&D) tax credit under Internal Revenue Code (IRC) § 41 for <a href=\"/us/glossary/internal-use-software-ius\">Internal Use Software (IUS)</a>. Under final Treasury Regulations promulgated in Treasury Decision (T.D.) 9786—published and effective on October 4, 2016—and codified at 26 CFR § 1.41-4(c)(6)(vii), software developed primarily for internal general and administrative (G&A) functions must satisfy a three-pronged <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation test</a>. Under this conjunctive standard, the taxpayer must establish that the software is innovative, that the software development involves <a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a>, and that the software is not commercially available for use by the taxpayer without modifications that would satisfy the innovation and significant economic risk requirements. Pursuant to the effective and applicability date rules in 26 CFR § 1.41-4(e), while § 1.41-4 generally governs expenditures paid or incurred in taxable years ending on or after December 31, 2003, paragraph (c)(6) is applicable for taxable years beginning on or after October 4, 2016 (with transitional provisions in § 1.41-4(e) addressing taxable years ending before January 20, 2015, and taxable years that both end on or after January 20, 2015, and begin before October 4, 2016, although the full concluding text of those two transition clauses is truncated in the retrieved regulatory excerpts)."
+    },
+    {
+      "type": "heading",
+      "text": "Two Distinct Doctrines: Commercial Availability vs. Commercial Production"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under federal tax law, that temporal lifecycle cutoff is not the IUS \"Commercial Availability\" test; rather, it is the general statutory exclusion for <a href=\"/us/glossary/research-after-commercial-production\">research conducted after the beginning of commercial production</a> codified at 26 U.S.C. § 41(d)(4)(A) and 26 CFR § 1.41-4(c)(2). Both the June 2005 IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guide</a>: Credit for Increasing Research Activities (i.e. Research Tax Credit) IRC § 41 — Qualified Research Activities</em> (ATG) and the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em> explain that a business component reaches the beginning of commercial production when it is developed to the point where it is ready for use or meets the taxpayer's basic functional and economic requirements. Once commercial production begins on a business component, subsequent activities are deemed post-production activities and are categorically excluded from qualified research under IRC § 41(d)(4)(A) and 26 CFR § 1.41-4(c)(2) (illustrated in Treas. Reg. § 1.41-4(c)(10), Examples 1 and 2), including preproduction planning for a finished business component, tooling up for production, trial production runs, troubleshooting involving the detection of faults in production equipment or processes, accumulating data relating to production processes, and debugging flaws in a business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under T.D. 9104 (26 CFR § 1.41-4(c)(2)(iv)) and the 2014 amendments to Treas. Reg. § 1.174-2, activities occurring after initial production begins are not automatically barred if they independently satisfy the process-of-experimentation requirements to eliminate remaining or new technical uncertainty, and secondary case analysis of <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113, December 23, 2024) confirms that a later design revision can introduce a narrower qualifying uncertainty provided the taxpayer substantiates its actual scope and experimental evaluation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "IUS Commercial Availability Prong",
+        "Beginning of Commercial Production Exclusion"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Controlling Authority",
+            "26 U.S.C. § 41(d)(4)(E); 26 CFR § 1.41-4(c)(6)(vii) (T.D. 9786, effective Oct. 4, 2016; applicability under § 1.41-4(e))",
+            "26 U.S.C. § 41(d)(4)(A); 26 CFR § 1.41-4(c)(2) and Treas. Reg. § 1.41-4(c)(10), Examples 1–2"
+          ]
+        },
+        {
+          "cells": [
+            "Covered Components",
+            "Internal-use computer software developed primarily for G&A functions (financial management, HR, support services)",
+            "All business components (products, processes, techniques, formulas, inventions, and commercial or internal software)"
+          ]
+        },
+        {
+          "cells": [
+            "Core Legal Inquiry",
+            "Can functionally equivalent software be purchased, leased, or licensed and used for the intended purpose without modifications satisfying Innovation and Significant Economic Risk?",
+            "Has the business component been developed to the point where it is ready for commercial use or meets basic functional and economic requirements?"
+          ]
+        },
+        {
+          "cells": [
+            "Legal Effect on QREs",
+            "Disqualifies the IUS component at the threshold unless qualifying COTS modifications, the 25% dual-function safe harbor, an IUS exception, or a shrunk-back subset applies",
+            "Terminates credit eligibility for post-release debugging, routine maintenance, preproduction planning, tooling up, and production support"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Foundational Legal Framework: IRC Section 41(d) and Statutory Exclusions"
+    },
+    {
+      "type": "subheading",
+      "text": "The Four-Part Test and Technical Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "All computer software development—whether intended for internal G&A use, dual-function use, or commercial sale, lease, or license—must first satisfy the four foundational statutory tests of <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">26 U.S.C. § 41(d)(1)–(3)</a>. Pursuant to <a href=\"/us/legislation/26-usc-41d2-business-component-test\">26 U.S.C. § 41(d)(2)(A)</a> and (B), these tests are applied separately to each discrete \"business component\" of the taxpayer, defined as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer (with any plant process, machinery, or technique for commercial production treated as a separate business component from the product being produced under § 41(d)(2)(C)). As detailed in 26 U.S.C. § 41(d)(1), 26 CFR § 1.41-4(a)(2)–(6), the June 2005 IRS ATG, and the IRS Software Audit Guidelines, those four requirements operate sequentially:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">Section 174 Test</a> (26 U.S.C. § 41(d)(1)(A) and Treas. Reg. § 1.174-2(a)(1)):</strong> Expenditures must be incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense—that is, expenditures intended to discover information that would eliminate uncertainty concerning the development or improvement of a product or business component. Under Treas. Reg. § 1.174-2(a)(1), uncertainty exists if the information available to the taxpayer does not establish the capability or method for developing or improving the product or the <em>appropriate design</em> of the product.",
+        "<strong>The Discovering Technological Information Test (26 U.S.C. § 41(d)(1)(B)(i) and 26 CFR § 1.41-4(a)(3)–(4)):</strong> The research must be undertaken for the purpose of discovering information that is technological in nature, meaning the process of experimentation must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science. Under the final regulations in T.D. 9104 (effective January 2, 2004), Treasury and the IRS eliminated the former \"discovery test\" imposed by the 2001 final regulations (T.D. 8930), confirming that a taxpayer need not seek or obtain knowledge that exceeds, expands, or refines the common knowledge of skilled professionals in the particular field of science or engineering, and providing a conclusive \"<a href=\"/us/glossary/patent-safe-harbor\">patent safe harbor</a>\" under 26 CFR § 1.41-4(a)(3)(iii) if a U.S. patent is issued.",
+        "<strong>The Business Component / Permitted Purpose Test (26 U.S.C. § 41(d)(1)(B)(ii) and § 41(d)(3)(A)–(B)):</strong> The taxpayer must intend that the discovered technological information be useful in the development of a new or improved business component of the taxpayer, and the research must be conducted for a \"qualified purpose\" under § 41(d)(3)(A)—specifically, a new or improved function, performance, reliability, or quality of the business component. Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)(B)</a>, research fails the permitted purpose test if it relates to style, taste, cosmetic, or seasonal design factors (as illustrated by the widget color-change disallowance in 26 CFR § 1.41-4(a)(8), Example 1 and confirmed in case analyses of <em>Phoenix Design Group</em>).",
+        "<strong>The Process of Experimentation Test (26 U.S.C. § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(5)–(6)):</strong> \"Substantially all\" of the research activities with respect to the business component must constitute elements of a process of experimentation for a qualified purpose. Under 26 CFR § 1.41-4(a)(6), the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" requirement is satisfied only if 80% or more of a taxpayer's research activities (measured on a cost or other consistently applied reasonable basis, and applied to <em>activities</em> rather than to the physical size of elements) constitute elements of a process of experimentation. Under 26 CFR § 1.41-4(a)(5), a qualifying process of experimentation requires a three-step evaluative structure: (i) identifying uncertainty concerning the development or improvement of a business component, (ii) identifying one or more alternatives intended to eliminate that uncertainty, and (iii) conducting a process of evaluating the alternatives (through modeling, simulation, or a systematic trial and error methodology)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treas. Reg. § 1.174-2(a)(1) and 26 CFR § 1.41-4(a)(3), <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> is assessed objectively based on whether the <em>information available to the taxpayer</em> establishes capability, method, or appropriate design—not on whether a competitor holds proprietary, non-public source code inside a commercial product. Furthermore, the IRS Software Audit Guidelines and state tax tribunal rulings note that under Treas. Reg. § 1.41-4(c)(10), Example 8, the <a href=\"/us/glossary/duplication-exclusion\">duplication exclusion</a> does not apply merely because a taxpayer evaluates or benchmarks another party's commercial business component while independently developing its own underlying architecture. Consequently, the mere market existence of a rival commercial software product does not automatically defeat technical uncertainty for independent commercial or non-IUS software development under the general four-part test of IRC § 41(d)(1); rather, commercial non-availability operates as an explicit, independent regulatory bar specifically against Internal Use Software under 26 CFR § 1.41-4(c)(6)(vii)."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Exclusions and \"Commercial vs. Public\" Availability"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when a research activity satisfies all four prongs of IRC § 41(d)(1)–(3), <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">26 U.S.C. § 41(d)(4)(A)–(H)</a> and 26 CFR § 1.41-4(c) statutorily exclude eight enumerated categories of activities from the definition of \"qualified research\": (A) research after commercial production; (B) adaptation of existing business components; (C) duplication of an existing business component; (D) surveys, studies, management functions, market research, routine data collection, and routine quality-control testing; (E) internal-use computer software (unless excepted or satisfying regulatory standards); (F) foreign research conducted outside the United States, the Commonwealth of Puerto Rico, or any U.S. possession; (G) research in the social sciences, arts, or humanities; and (H) funded research to the extent funded by any grant, contract, or otherwise by another person or governmental entity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, 26 U.S.C. § 41(d)(4)(B) excludes \"[a]ny research related to the adaptation of an existing business component to a particular customer's requirement or need,\" and 26 U.S.C. § 41(d)(4)(C) excludes \"[a]ny research related to the reproduction of an existing business component (in whole or in part) from a physical examination of the business component itself or from plans, blueprints, detailed specifications, or publicly available information with respect to such business component.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "These two statutory exclusions operate alongside—but focus on different evidentiary inquiries than—the IUS Commercial Availability test. Under the <a href=\"/us/glossary/adaptation-exclusion\">Adaptation Exclusion</a> (26 U.S.C. § 41(d)(4)(B); 26 CFR § 1.41-4(c)(3); Treas. Reg. § 1.41-4(c)(10), Examples 3 and 7), customizing or adapting an existing program or business component to meet a specific customer's requirement or need is excluded from qualified research (also illustrated in <em>Betz v. Commissioner</em>, T.C. Memo. 2023-84, where engineers adapting custom air pollution control systems already possessed the necessary design details at project inception). While § 41(d)(4)(B) targets external customer adaptation, the IUS Commercial Availability prong under 26 CFR § 1.41-4(c)(6)(vii) imposes a parallel, heightened barrier against internal customization of vendor COTS software. Meanwhile, the Duplication Exclusion (26 U.S.C. § 41(d)(4)(C); 26 CFR § 1.41-4(c)(4); Treas. Reg. § 1.41-4(c)(10), Example 8) focuses on the <em>source of technical knowledge</em> used to reproduce a component—specifically barring <a href=\"/us/glossary/reverse-engineering-exclusion\">reverse engineering</a> from physical inspection, blueprints, detailed specifications, or \"publicly available information.\" By contrast, the IUS Commercial Availability test under 26 CFR § 1.41-4(c)(6)(vii) focuses on <em>market presence</em>—whether a functionally suitable software product is available for purchase, lease, or license, even if its internal source code is proprietary and non-public."
+    },
+    {
+      "type": "heading",
+      "text": "Commercial Availability Under the Internal Use Software Rules (26 CFR Section 1.41-4(c)(6))"
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Scope of IUS, Dual-Function Safe Harbor, and IRS Risk Classification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the binding final regulations promulgated in T.D. 9786 (26 CFR § 1.41-4(c)(6)(iii)(A)–(B), effective October 4, 2016), software is developed by (or for the benefit of) the taxpayer primarily for the taxpayer's internal use (including software developed for a related party treated as a single taxpayer under IRC § 41(f)) if it is developed for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) functions</a> that facilitate or support the conduct of the taxpayer's trade or business. Crucially, 26 CFR § 1.41-4(c)(6)(iii)(B) limits G&A functions to three enumerated categories and their specific regulatory illustrations:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Financial Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(1)):</strong> Functions that involve the financial management of the taxpayer and the supporting recordkeeping, including accounts payable, accounts receivable, inventory management, budgeting, cash management, cost accounting, disbursements, economic analysis and forecasting, financial reporting, finance, fixed asset accounting, general ledger bookkeeping, internal audit, management accounting, risk management, strategic business planning, and tax (as well as administering self-insurance reserves for employee health benefits under 26 CFR § 1.41-4(c)(6)(viii), Example 2).",
+        "<strong>Human Resources Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(2)):</strong> Functions that manage the taxpayer's workforce, including recruiting, hiring, training, assigning personnel, maintaining personnel records, payroll, and benefits.",
+        "<strong>Support Services Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(3)):</strong> Other functions that support the day-to-day operations of the taxpayer, including data processing, facility services (such as grounds keeping, housekeeping, janitorial, and logistics), graphic services, marketing, legal services, government compliance services, printing and publication services, and security services (such as video surveillance and physical asset protection)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under T.D. 9786, whether software is developed primarily for internal use depends on the intent of the taxpayer and the facts and circumstances at the beginning of software development under 26 CFR § 1.41-4(c)(6)(v). Software is <em>not</em> developed primarily for internal use under 26 CFR § 1.41-4(c)(6)(iv) if it is developed to be commercially sold, leased, licensed, or otherwise marketed to third parties (which the T.D. 9786 preamble and 26 CFR § 1.41-4(c)(6)(viii), Example 9 confirm includes hosted software where full functionality is provided to third parties without transferring a physical copy of the software), or if it is developed to enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system (such as vendor inventory-interaction software in Example 6, contrasted with internal website marketing software in Example 4 that does not allow third parties to review data on the taxpayer's system). Furthermore, under 26 CFR § 1.41-4(c)(6)(viii), Example 10, if a taxpayer initially develops facilities services software solely for internal G&A use and years later develops technical enhancements to sell the improved software commercially to third parties, the original software is IUS, but the subsequent improvements are evaluated separately and are not IUS. Additionally, under 26 CFR § 1.41-4(c)(6)(ii), the High Threshold of Innovation test is inapplicable to three regulatory exceptions: (1) software developed for use in an activity that constitutes qualified research; (2) software developed for use in a production process that meets the general credit requirements of IRC § 41(d)(1); and (3) a new or improved package of <a href=\"/us/glossary/hardware-software-integration\">computer software and hardware developed together</a> by the taxpayer as a single product used directly in providing services in its trade or business (illustrated by telecommunications switching hardware and software in 26 CFR § 1.41-4(c)(6)(viii), Example 1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dual function software is software developed both for internal G&A functions and to enable interaction with third parties (or to allow third parties to initiate functions or review data on the taxpayer's system), where \"third party\" excludes any corporation, trade or business, or person treated as a single taxpayer with the taxpayer under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">IRC § 41(f)</a>. Under 26 CFR § 1.41-4(c)(6)(vi)(A), <a href=\"/us/glossary/dual-function-software\">dual function software</a> is presumed to be developed primarily for internal use. However, under paragraph (c)(6)(vi)(B) (illustrated in Example 11), to the extent the taxpayer can identify a discrete \"<a href=\"/us/glossary/third-party-subset\">third party subset</a>\" of elements that enables third-party interaction, that subset is not presumed to be IUS and is tested under the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">general four-part test</a> of IRC § 41(d)(1). For dual function software (or a remaining dual-function subset after isolating a third-party subset, as in the facts of Example 14) where a pure third-party subset cannot be separated, 26 CFR § 1.41-4(c)(6)(vi)(C) provides a <strong>25% Safe Harbor</strong>. Under this safe harbor (illustrated in Example 12), the taxpayer may include 25% of the <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">qualified research expenditures (QREs)</a> allocable to the dual function software (or dual-function subset) in computing its IRC § 41 credit—without having to satisfy the Commercial Availability or High Threshold of Innovation test—provided the taxpayer's research activities constitute qualified research under IRC § 41(d) and the use of the dual function software by third parties is reasonably anticipated at the beginning of software development to constitute at least 10% of total use (whereas in Example 13, an anticipated 5% third-party use fails the 10% threshold and requires compliance with the High Threshold of Innovation test). The ≥10% third-party usage projection must be made at the beginning of development using an objective, reasonable method based on facts and circumstances, such as processing time, data transfer volume, user interface screens, or third-party initiated functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "In reality, the June 2005 IRS ATG explicitly states in its IUS section that \"[t]his exclusion is beyond the scope of this ATG.\" Meanwhile, the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em> explicitly govern software development \"whether developed for internal use or for commercial sale, lease, or license,\" ranking software activities across three risk tiers—<strong>High Risk</strong> (activities that <em>usually</em> fail IRC § 41(d)), <strong>Moderate Risk</strong> (activities that <em>often</em> fail IRC § 41(d)), and <strong>Low Risk</strong> (activities that <em>rarely</em> fail IRC § 41(d))—and assigning the \"High Risk\" designation strictly to four routine functional categories regardless of whether the software is commercial or internal: (1) ongoing maintenance of existing software; (2) interface software development (defining data/transaction requirements between existing applications or adding user interfaces such as browser front ends); (3) Y2K program changes; and (4) vendor product extensions written using vendor-provided application programming interfaces (APIs) or user exits."
+    },
+    {
+      "type": "subheading",
+      "text": "The High Threshold of Innovation Test and Significant Economic Risk"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Innovative (26 CFR § 1.41-4(c)(6)(vii)(A)(1) and (B)):</strong> Software is innovative if the software would result in a reduction in cost or improvement in speed or other measurable improvement, that is substantial and economically significant, if development is or would have been successful. This test is measurable and objective; it does not require that the software be \"unique or novel\" (a stricter hurdle proposed in the December 2001 Proposed Regulations that Treasury rejected in the 2003 and 2016 Final Regulations).",
+        "<strong>Significant Economic Risk (26 CFR § 1.41-4(c)(6)(vii)(A)(2) and (C)):</strong> The software development involves significant economic risk if the taxpayer commits substantial resources to the development and if there is <strong>substantial uncertainty</strong>, because of technical risk, that such resources would be recovered within a reasonable period. As 26 CFR § 1.41-4(c)(6)(vii)(C) and the T.D. 9786 preamble explicitly state, the term \"substantial uncertainty\" requires a higher level of uncertainty than that required for the general business-component Section 174 test, and IUS research activities that involve <em>only</em> uncertainty related to appropriate design—and not capability or methodology—would rarely qualify as having substantial uncertainty for purposes of the High Threshold of Innovation test.",
+        "<strong>Commercial Availability (26 CFR § 1.41-4(c)(6)(vii)(A)(3) and (D)):</strong> The software is not commercially available for use by the taxpayer in that the software cannot be purchased, leased, or licensed and used for the intended purpose without modifications that would satisfy the innovation and significant economic risk requirements of paragraphs (c)(6)(vii)(A)(1) and (2)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, in <strong>Example 18</strong>, taxpayer X, a multinational manufacturer, installs a commercial enterprise resource planning (ERP) system that runs off a single database to track orders more easily, and undertakes software development to keep data synchronized between its legacy G&A systems and the new ERP database. In Example 18, no commercial software application is available to synchronize X's legacy and ERP systems (satisfying <strong>Commercial Availability</strong>), successful integration will yield substantial and economically significant cost reductions and speed improvements (satisfying <strong>Innovative</strong>), and X faces design uncertainty regarding how to keep the data synchronized (satisfying the general <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">§ 174</a> test). Nevertheless, the regulation holds that X <strong>fails the High Threshold of Innovation test</strong> because X only faced appropriate-design uncertainty rather than capability or methodology uncertainty, and X knew that, given a reasonable period of experimentation, an appropriate design would be achieved and its committed resources would be recovered within a reasonable period."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, evaluating the supply-chain routing hypothetical under binding law requires first determining whether the routing engine falls within the enumerated G&A categories of 26 CFR § 1.41-4(c)(6)(iii)(B)—which explicitly classify \"inventory management\" under Financial Management and \"logistics\" (as a facility service) under Support Services—or qualifies for the production-process exception under § 1.41-4(c)(6)(ii). If classified as G&A IUS, merely showing that no commercial routing tool exists would still fail the High Threshold of Innovation test unless the taxpayer also established capability/methodology uncertainty creating substantial uncertainty that committed resources would be recovered within a reasonable period under Example 18."
+    },
+    {
+      "type": "subheading",
+      "text": "Disqualification of Routine Customization, Selection, and Adaptation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Authoritative Treasury Regulations and IRS audit guidelines confirm that routine software configuration, vendor product evaluation and selection, API integration, and standard code-compliance engineering fail to qualify for the IRC § 41 research credit. The IRS Software Audit Guidelines classify writing extensions to vendor software via vendor-provided APIs or user exits, defining inter-application transaction interfaces, and adding browser front ends to existing applications as High Risk activities that usually fail the process-of-experimentation requirement under IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Example 5</strong>, a retail and distribution company (X) evaluates several alternative warehouse management software products available from vendors in the marketplace and selects vendor V's software; the regulation holds that evaluating vendor products to select software is not a process of experimentation under IRC § 41(d)(1) and 26 CFR § 1.41-4(a)(5). In <strong>Example 6</strong>, company X develops a new web application to allow customers to purchase its products online, purchases a commercial software package of object-oriented functions from vendor Z (such as a shopping cart), evaluates the functions in vendor Z's package to select which ones to use, and incorporates the selected functions into its new web application. The regulation concludes that X's vendor selection, function selection, and \"incorporating the selected object-oriented functions into the new web application software being developed by X did not involve conducting a process of evaluating alternatives in order to eliminate uncertainty regarding the development of software,\" and therefore fails the process-of-experimentation test under IRC § 41(d)(1) and 26 CFR § 1.41-4(a)(5) (while Example 8 of § 1.41-4(a)(8) similarly disqualifies <a href=\"/us/glossary/erp-implementation-qualification\">ERP implementation</a> involving merely evaluating available templates or programs)."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, the underlying legal principle is supported by recent federal jurisprudence: in <em>Meyer, Borgman & Johnson, Inc. v. Commissioner</em> (100 F.4th 986, 8th Cir. 2024) and <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113), the courts confirmed that designing structural or mechanical, electrical, plumbing, and fire protection (MEPF) systems to adhere to standard building codes and client specifications by performing iterative engineering calculations on available data constitutes routine professional engineering rather than an investigative process of experimentation under IRC § 41(d)(1)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Shrink-Back Rule (26 CFR Section 1.41-4(b)(2)) and Hypothetical Calculations"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a broader software system or enterprise deployment fails the Commercial Availability prong or the 80% \"substantially all\" threshold at the overall system level—such as when an enterprise purchases and configures a COTS financial or ERP suite—the <strong>Shrink-Back Rule</strong> codified at 26 CFR § 1.41-4(b)(2) allows the taxpayer to test credit eligibility at narrower subcomponent levels. Under 26 CFR § 1.41-4(b)(2) (illustrated by the motorcycle engine and novel carburetor in 26 CFR § 1.41-4(b)(3), Example), if the requirements of IRC § 41(d) and 26 CFR § 1.41-4(a) are not satisfied at the level of the discrete top-level business component, they are applied iteratively to the \"most significant subset of elements\" of the product, process, computer software, technique, formula, or invention until either a subset of elements satisfies the requirements or the most basic element of the business component is reached and fails."
+    },
+    {
+      "type": "paragraph",
+      "text": "As legal commentary quoting 26 CFR § 1.41-4(b)(2) emphasizes, \"[t]he shrinking-back rule is not itself applied as a reason to exclude research activities from credit eligibility.\" However, while the Shrink-Back Rule acts as a protective shield enabling taxpayers to salvage a qualifying subcomponent embedded within a larger non-qualifying COTS deployment, courts and the IRS also wield it as an analytical sword to restrict QREs strictly to the discrete subassembly experiencing genuine technical uncertainty (as in <em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50, where the Tax Court used the shrink-back rule to limit qualification to activities testing a specific technology rather than overall production). Furthermore, as the Tax Court's December 2024 decision in <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113) demonstrates, shrinking back still fails if the taxpayer's time-tracking and project records are too generalized to substantiate technical uncertainty and an 80% process of experimentation at the narrower subsystem level."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying regulatory mechanics to that scenario under <strong>Hypothetical Calculation 1 (Shrink-Back Subcomponent Isolation under 26 CFR § 1.41-4(b)(2) & (c)(6)(vii))</strong>, assume an enterprise incurs $500,000 in total internal software development expenditures to deploy a financial management platform (an enumerated G&A function under 26 CFR § 1.41-4(c)(6)(iii)(B)(1)): $350,000 is spent on COTS licensing setup, general ledger mapping, and standard vendor API interfaces, while $150,000 is spent developing an isolatable, proprietary high-frequency transaction-verification algorithm that cannot be purchased, leased, or licensed in the market. At Level 1 (the $500,000 overall financial platform), the business component fails Commercial Availability under 26 CFR § 1.41-4(c)(6)(vii)(D) and fails the 80% \"substantially all\" experimentation ratio under 26 CFR § 1.41-4(a)(6) because 70% ($350,000 / $500,000) consists of routine High Risk configuration and interface work. Applying 26 CFR § 1.41-4(b)(2), the taxpayer shrinks the business component definition back to Level 2: the discrete $150,000 algorithmic subcomponent ($500,000 − $350,000 = $150,000). Provided at least 80% (≥$120,000) of the research activities within that $150,000 subset constitute elements of a process of experimentation under 26 CFR § 1.41-4(a)(6) and the algorithmic subset independently satisfies all three prongs of the High Threshold of Innovation test—including substantial capability/methodology uncertainty regarding whether committed resources will be recovered within a reasonable period under Example 18—the $150,000 subset qualifies for the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC § 41 credit</a> while the $350,000 COTS deployment is excluded."
+    },
+    {
+      "type": "paragraph",
+      "text": "By comparison, under <strong>Hypothetical Calculation 2 (T.D. 9786 Dual-Function Software Subset and 25% Safe Harbor under 26 CFR § 1.41-4(c)(6)(vi)(B)–(C) & Examples 11–12)</strong>, assume the taxpayer instead incurs $400,000 in otherwise-qualifying four-part-test QREs developing a dual-function internal billing and customer-facing portal system that cannot satisfy the High Threshold of Innovation test (for example, because functionally similar software is commercially available or resource recovery is reasonably assured under Example 18). If the taxpayer cannot isolate a separate third-party subset, but documents at the beginning of software development via an objective, reasonable metric (such as anticipated processing time or data transfer volume) that third-party customer interactions will constitute 15% of total system use (satisfying the ≥10% minimum threshold under 26 CFR § 1.41-4(c)(6)(vi)(C), mirroring the 15% figure in Regulatory Example 12 where 25% of $50,000 = $12,500 is allowed), the taxpayer may claim 25% × $400,000 = $100,000 in eligible QREs, while excluding the remaining $300,000 ($400,000 − $100,000 = $300,000). Conversely, if the taxpayer can identify and allocate 50% of the expenditures to a discrete third-party subset under paragraph (c)(6)(vi)(B) (mirroring Regulatory Example 11, where 50% of $50,000 = $25,000 is allocable to the third-party subset), that 50% third-party subset ($200,000) is not presumed to be IUS and qualifies in full without applying the High Threshold of Innovation test."
+    },
+    {
+      "type": "heading",
+      "text": "Judicial Precedent, Documentation Standards, and Audit Defense"
+    },
+    {
+      "type": "subheading",
+      "text": "Case Law Clarifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Authoritative legal and judicial case summaries establish that neither decision adjudicated the post-production commercial-production cutoff; rather, each case governs a distinct foundational pillar of IRC § 41 software and substantiation law."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong><em>FedEx Corp. v. United States</em>, 103 AFTR 2d 2009-2722, 2009-1 USTC ¶ 50,435 (W.D. Tenn. June 9, 2009)</strong>, FedEx filed suit in June 2008 in the U.S. District Court for the Western District of Tennessee seeking to recover $11.6 million in federal research tax credits related to its development of internal use software, and moved for partial summary judgment on the applicable legal standards. (Note that secondary legal literature contains minor citation variants—one advisory header prints 03 AFTR 2d 2009-2722 while its body text and other tax commentaries cite 103 AFTR 2d 2009-2722 (W.D. Tenn. June 9, 2009), and a law firm presentation cites 2009 WL 2032905 (W.D. Tenn. August 27, 2003).) The dispute centered on IRS Announcement 2004-9 (ANPR 2004-9), issued alongside the December 2003 Final Regulations (T.D. 9104), in which the IRS attempted to create a regulatory \"whipsaw\": taxpayers electing to rely on the favorable three-prong IUS High Threshold of Innovation test from the January 2001 Final Regulations (T.D. 8930) were told they also had to satisfy T.D. 8930's repudiated \"discovery test\" (requiring knowledge that \"exceeds, expands, or refines the common knowledge of skilled professionals\"), or else submit to the December 2001 Proposed Regulations' heightened \"unique or novel\" innovation hurdle. On June 9, 2009, the district court granted partial summary judgment for FedEx, holding that Announcement 2004-9 was not due substantial deference because forcing taxpayers to follow the abandoned discovery test contradicted Treasury's and the IRS's stated intent in adopting the 2003 Final Regulations as well as congressional intent. Consequently, <em>FedEx</em> permitted taxpayers to apply the three-prong IUS High Threshold of Innovation test (innovative, significant economic risk, and not commercially available) without the defunct discovery test—and in August 2013, the Government withdrew its appeal of the district court's ruling."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similarly, in <strong><em>Little Sandy Coal Co., Inc. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), <em>aff'g</em> T.C. Memo. 2021-15</strong>, rather than addressing commercial availability or post-production cutoffs, the Seventh Circuit adjudicated the arithmetic 80% \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" requirement of the process-of-experimentation test under IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(6) and the taxpayer's substantiation burden under 26 CFR § 1.41-4(d). In evaluating the experimentation fraction, the Seventh Circuit rejected the Tax Court's view that direct supervision (defined in <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC § 41(b)(2)(B)</a> and 26 CFR § 1.41-2(c) as immediate, first-line technical supervision of research) and direct support activities (such as pilot-model fabrication support) are categorically excluded from the numerator of the 80% calculation, clarifying that such activities count toward the numerator when evidence establishes that they constitute elements of a process of experimentation. However, the Seventh Circuit affirmed the disallowance of the claimed credits because the taxpayer relied on generalized trial testimony and arbitrary wage allocation estimates without <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous time records</a> or documentation linking employee hours to experimental activities, holding that \"[s]hortcut estimates of experimentation-related activities will not suffice\" under 26 CFR § 1.41-4(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Whereas <em>Smith</em> denied an IRS motion for summary judgment on the IRC § 41(d)(4)(H) <a href=\"/us/glossary/funded-research\">funded-research exclusion</a> because milestone-contingent payment clauses and foreign copyright retention raised genuine factual disputes regarding economic risk and substantial rights, <em>Phoenix Design Group</em> directly addressed technical uncertainty, routine engineering calculations, the Shrink-Back Rule, and documentation. In <em>Phoenix Design Group</em>, the Tax Court evaluated a nonbinding sample of three MEPF engineering projects (selected from over 200 projects across tax years 2015–2019) and disallowed the credits on all three trial projects—resulting in stipulated 20% <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> on deficiencies across 2015–2019—because performing iterative calculations on available data to satisfy client parameters and building codes failed both the Section 174 test and the Process of Experimentation test at the overall business-component and shrunk-back levels."
+    },
+    {
+      "type": "subheading",
+      "text": "Taxpayer Documentation Burden and Form 6765 Section G Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 6001, Treas. Reg. § 1.6001-1(a), and 26 CFR § 1.41-4(d), a taxpayer claiming the IRC § 41 credit \"must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit.\" Both the June 2005 IRS ATG and the IRS Software Audit Guidelines (citing T.D. 9104) place the burden of proof squarely on the taxpayer to demonstrate that each discrete business component satisfies IRC § 41(d)(1) and the process-of-experimentation requirement. During an examination, the IRS ATG directs examiners to issue an <a href=\"/us/glossary/information-document-request-idr\">Information Document Request (IDR)</a> requiring a project-by-project list, complete functional descriptions of research activities, and direct linkage of employee wages, supplies, and contract expenses to specific business components, supplemented by corroborating technical interviews."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent revisions to the <strong>IRS Instructions for <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (<em>Credit for Increasing Research Activities</em>)</strong> have also transformed upfront reporting and compliance for software and IUS claims. For <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">amended return refund claims</a> (and Bipartisan Budget Act [BBA] partnership Administrative Adjustment Requests [AARs]), the January 2024 Form 6765 Instructions under <em>Research Credit Claims on Amended Returns</em> list the five items of information required for a valid claim: (1) identify all business components to which the research credit claim relates for that year; (2) for each business component, identify all research activities performed; (3) for each business component, name the individuals who performed each research activity (or list each individual's title or position); (4) for each business component, describe the information each individual sought to discover; and (5) provide the total qualified employee wage expenses, total qualified supply expenses, and total qualified contract research expenses paid or incurred for the claim (which may be done using Form 6765). Effective June 18, 2024, the IRS waived items (3) and (4) at the time of initial filing for <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a>, while continuing to require items (1), (2), and (5) at filing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Filers required to complete Section G must report discrete business components satisfying the <strong>80%/Top 50 business component rule</strong> (reporting components until reaching 80% of total QREs or 50 business components, with any remaining components reported in aggregate as \"Aggregate Business Components\" in column 49(c); if a taxpayer uses the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> and that single entry is at least 80% of total QREs on line 48, no additional components need be listed, whereas statistical sampling filers under Rev. Proc. 2011-42 must still report the 80%/Top 50 components and attach Form6765StatSamplePlan.pdf). Directly governing Commercial Availability and IUS compliance, <strong>Section G, Column 49(e)</strong> requires taxpayers reporting any software business component (classified as \"All Others\" in Column 49(d)) to select explicitly from four regulatory software classifications:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Category A (IUS — <a href=\"/us/faq/internal-use-software-rd-tax-credit\">Internal Use Software</a>):</strong> Software developed primarily for internal use in G&A functions (financial management, HR management, and support services) under 26 CFR § 1.41-4(c)(6)(iii) that must satisfy the high-threshold-of-innovation (HTI) test.",
+        "<strong>Category B (DFS — Dual Function Software):</strong> Software developed both for G&A functions and to enable interaction with third parties under 26 CFR § 1.41-4(c)(6)(vi), subdivided into <strong>B.1</strong> (where no third-party subset is identified and the DFS safe harbor is not applied), <strong>B.2</strong> (where third-party subset[s] are identified under paragraph (c)(6)(vi)(B), with the remaining dual-function subset subject to the HTI test), and <strong>B.3</strong> (with the 25% safe harbor applied under paragraph (c)(6)(vi)(C)).",
+        "<strong>Category C (Non-IUS):</strong> Software not developed primarily for internal use under 26 CFR § 1.41-4(c)(6)(iv), including software developed to be commercially sold, leased, licensed, or otherwise marketed to third parties, or developed to enable interaction with third parties or allow third parties to initiate functions or review data on the taxpayer's system.",
+        "<strong>Category D (Excepted from IUS Treatment):</strong> Software excepted from the HTI test under 26 CFR § 1.41-4(c)(6)(ii), subdivided into <strong>D.1</strong> (software developed for use in an activity that constitutes qualified research), <strong>D.2</strong> (software developed for internal use in a production process meeting IRC § 41(d)(1)), and <strong>D.3</strong> (a new or improved package of software and hardware developed together)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under binding Treasury Regulations, explicit upfront methodological documentation is specifically required for the 25% dual-function safe harbor under 26 CFR § 1.41-4(c)(6)(vi)(C), which mandates establishing ≥10% anticipated third-party use at the beginning of software development using an objective, reasonable method."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Documentation Category",
+        "Specific Records & Reporting Items",
+        "Legal Status Under IRC § 41 & Regulations",
+        "Relevance to Commercial Availability & IUS"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "IRS Form 6765 Section G & Amended Claim Reporting",
+            "Form 6765 Section G (80%/Top 50 rule; Col. 49(e) Categories A, B.1–B.3, C, D.1–D.3; Col. 49(f) amended return item); <a href=\"/us/faq/irs-form-6765-instructions-2024\">2024 Form 6765</a> amended return items (items 1, 2, 5 required at filing; items 3, 4 waived at filing as of June 18, 2024)",
+            "Mandatory on returns for tax years beginning after 2025 (optional before 2026); mandatory on amended refund claims",
+            "Forces upfront taxpayer election on tax return between Category A (IUS), Category B.1–B.3 (Dual-Function), Category C (Non-IUS), and Category D.1–D.3 (Excepted)"
+          ]
+        },
+        {
+          "cells": [
+            "IRS Examination & Substantiation Records",
+            "Project/activity lists tied to discrete business components (IDRs), <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">employee time tracking</a> (no \"shortcut estimates\" per <em>Little Sandy Coal</em>), W-2s, contracts, and corroborating interviews",
+            "Statutory and regulatory burden of proof under IRC § 6001, Treas. Reg. § 1.6001-1(a), and 26 CFR § 1.41-4(d)",
+            "Prevents commingling routine COTS configuration/interfaces with separable Shrink-Back subcomponents under 26 CFR § 1.41-4(b)(2)"
+          ]
+        },
+        {
+          "cells": [
+            "Market Diligence Records",
+            "Formal RFPs, vendor contact logs, COTS comparison studies, technical gap analyses, and written vendor rejection responses",
+            "",
+            "Evidentiary support showing no equivalent software could be purchased, leased, or licensed without qualifying modifications under 26 CFR § 1.41-4(c)(6)(vii)(D)"
+          ]
+        },
+        {
+          "cells": [
+            "Dual-Function Usage Metrics",
+            "Objective projections at development inception measuring third-party processing time, data transfer volume, UI screens, or third-party initiated functions",
+            "Binding regulatory precondition under 26 CFR § 1.41-4(c)(6)(vi)(C) to claim the 25% Dual-Function Safe Harbor (Category B.3)",
+            "Secures 25% QRE inclusion when anticipated third-party use is ≥10% (Example 12), even if the software fails Commercial Availability or Example 18"
+          ]
+        },
+        {
+          "cells": [
+            "Technical & Economic Risk Logs",
+            "Architecture specs, <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">hypothesis/experimentation logs</a>, test results, version control, and capital-recovery risk analyses",
+            "Practical evidentiary substantiation to satisfy 26 CFR § 1.41-4(a)(5) and (c)(6)(vii)",
+            "Substantiates capability/methodology uncertainty (over mere design uncertainty) and resource-recovery uncertainty under Example 18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Proposals and Revised Compliance Risk Matrix"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Quantitative Modification Benchmarks / \"Functional Output Test\":</strong> (Under current law, the only quantitative percentage rules are the 80% \"substantially all\" experimentation activity threshold in 26 CFR § 1.41-4(a)(6) and the ≥10% third-party usage / 25% QRE safe harbor for dual-function software in 26 CFR § 1.41-4(c)(6)(vi)(C).)",
+        "<strong>Three-Vendor \"IRS Market Diligence Safe Harbor\":</strong> (No such three-vendor safe harbor exists in 26 CFR § 1.41-4(c)(6).)",
+        "<strong>Domestic U.S. Market Geographic Scope Clarification:</strong> (While 26 U.S.C. § 41(d)(4)(F) and 26 CFR § 1.41-4(c)(7) exclude <a href=\"/us/glossary/foreign-research-exclusion\">foreign research</a> conducted outside the United States, Puerto Rico, or U.S. possessions, 26 CFR § 1.41-4(c)(6)(vii)(D) contains no geographic restriction limiting commercial availability to domestic U.S. vendors.)",
+        "<strong>Legislative Replacement with a \"Technological Novelty and Complexity Test\":</strong> (Notably, Treasury previously proposed a \"unique or novel\" standard in the 2001 Proposed Regulations, which was dropped in both T.D. 9104 and T.D. 9786 in favor of the objective measurable improvement and economic risk standards.)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "First, the official IRS <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em> establish three risk tiers—<strong>High Risk</strong> (usually fails § 41(d)), <strong>Moderate Risk</strong> (often fails § 41(d)), and <strong>Low Risk</strong> (rarely fails § 41(d))—rather than intermediate labels such as \"Moderate-High\" or \"Low-Moderate.\" As demonstrated by 26 CFR § 1.41-4(c)(6)(viii), Example 18, T.D. 9786's preamble on design vs. capability/method uncertainty, and <em>Little Sandy Coal</em> / <em>Phoenix Design Group</em>, even a custom-built, non-commercially-available IUS system fails the credit if it involves only appropriate-design uncertainty where committed resources are expected to be recovered within a reasonable period, or if the taxpayer lacks activity-level documentation substantiating the 80% experimentation ratio."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Activity Level",
+        "Market Availability Status",
+        "Statutory & Regulatory Prongs Required",
+        "Audit Risk Profile"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Routine Configuration, Selection & Setup",
+            "Commercially Available (COTS Used)",
+            "Fails Commercial Availability (26 CFR § 1.41-4(c)(6)(vii)), four-part POE test (Examples 5, 6, 8 of § 1.41-4(a)(8)), and routine exclusions",
+            "<strong>High Risk</strong> (Official IRS tier: <em>usually</em> fails § 41(d)—e.g., vendor software selection, shopping-cart object integration, browser UI front ends, routine ERP template setup)"
+          ]
+        },
+        {
+          "cells": [
+            "Customer or Internal Adaptation & API Extensions",
+            "Commercially Available (COTS Modified)",
+            "Fails Commercial Availability and Adaptation / routine engineering exclusions (26 U.S.C. § 41(d)(4)(B); 26 CFR § 1.41-4(c)(3))",
+            "<strong>High Risk</strong> (Official IRS tier: <em>usually</em> fails § 41(d) for vendor API/user-exit extensions and interface coding, unless a separable subset qualifies via Shrink-Back or the 25% Dual-Function Safe Harbor applies)"
+          ]
+        },
+        {
+          "cells": [
+            "Substantial COTS Modification (Qualifying)",
+            "Commercially Available Base (Modified Under § 1.41-4(c)(6)(vii)(D))",
+            "Modifications must independently meet the 4-part test (≥80% POE) <strong>plus</strong> Innovation and Significant Economic Risk (capability/method uncertainty & recovery risk)",
+            "<strong>Fact-Intensive Moderate-to-High Scrutiny</strong> (Governed by 26 CFR § 1.41-4(c)(6)(viii), Example 18 resource-recovery risk, Shrink-Back cost segregation, and IRS vendor-extension rules)"
+          ]
+        },
+        {
+          "cells": [
+            "Proprietary Internal G&A Development",
+            "Not Commercially Available",
+            "Must meet the 4-part test (≥80% POE) <strong>plus</strong> Innovation and Significant Economic Risk (including capability/method uncertainty and resource-recovery risk under Example 18)",
+            "<strong>Substantiation-Dependent Risk</strong> (Even non-commercially-available IUS fails if only design uncertainty exists with assured resource recovery under Example 18, or if 80% POE time logs fail under <em>Little Sandy Coal</em>)"
+          ]
+        }
+      ]
+    }
+  ]
+}

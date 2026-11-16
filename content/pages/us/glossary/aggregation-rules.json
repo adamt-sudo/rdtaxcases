@@ -1,0 +1,633 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Aggregation Rules",
+  "description": "IRC Section 41 aggregation rules treat all members of a controlled group, or businesses under common control, as a single taxpayer for the R&D credit.",
+  "summary": "Under IRC Section 41, U.S. aggregation rules require all members of a controlled group of corporations or trades or businesses under common control to be treated as a single taxpayer for the R&D tax credit. The group computes one Group Credit using a single method, then allocates it to members in proportion to their qualified research expenditures.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41, U.S. aggregation rules require all members of a controlled group of corporations or trades or businesses under common control to be treated as a single taxpayer for the R&D tax credit. The group computes one Group Credit using a single method, then allocates it to members in proportion to their qualified research expenditures."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Mandate and Statutory Architecture of Section 41 Aggregation"
+    },
+    {
+      "type": "subheading",
+      "text": "The Non-Elective Single Taxpayer Mandate"
+    },
+    {
+      "type": "paragraph",
+      "text": "The claim and utilization of the United States Research and Development (R&D) tax credit under Internal Revenue Code (IRC) Section 41 require strict compliance with statutory and regulatory aggregation rules whenever <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a> activities occur across related business entities. Codified primarily under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">IRC § 41(f)(1)</a> and detailed extensively in Treasury Regulation § 1.41-6, these provisions establish a mandatory, non-elective \"single taxpayer\" regime for all entities that form either a \"controlled group of corporations\" or a group of \"trades or businesses under common control\". Because the regime is statutory and non-elective, affiliated taxpayers cannot opt out of aggregation through intercompany agreements, separate federal income tax return filings, or decentralized operational management."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compliance with the aggregation mandate is a foundational prerequisite for determining both the substantive eligibility for, and the allowable computational amount of, the research credit available to any individual member of a controlled group. Rather than permitting related legal entities to compute research credits in isolation, Treasury Regulation § 1.41-6(b) unifies separate juridical persons into a single computational unit solely for the purpose of IRC § 41. Furthermore, the statutory architecture established in IRC § 41(f)(1) extends beyond general research activities to govern parallel federal tax incentives, most notably the credit for Clinical Testing Expenses for Certain Drugs for Rare Diseases or Conditions (commonly referred to as the Orphan Drug Credit) under IRC § 45C(d)(3), as confirmed by Internal Revenue Service (IRS) Notice 2013-20."
+    },
+    {
+      "type": "subheading",
+      "text": "The Two-Step Procedural Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regulatory compliance under IRC § 41(f) and Treasury Regulation § 1.41-6 operates through a sequential, two-part computational and allocative framework applied for each credit year. First, the controlled group must calculate the aggregate research credit—designated under Treasury Regulation § 1.41-6(a)(3)(iv) and § 1.41-6(b) as the \"Group Credit\"—by combining all current-year Qualified Research Expenses (QREs), basic research payments, <a href=\"/us/glossary/energy-research-consortium\">energy research consortium payments</a>, current-year gross receipts, and historical base period data across every member of the group as though the entire economic enterprise were a single corporate taxpayer. Second, once the total Group Credit is established at the enterprise level, that aggregate tax benefit is allocated back to the individual member entities strictly in proportion to each member's respective contribution of qualified expenditures to the group's total aggregate qualified expenditures for that taxable year."
+    },
+    {
+      "type": "paragraph",
+      "text": "This structural bifurcation between enterprise-level credit generation (Step 1) and entity-level credit distribution (Step 2) creates significant second-order consequences for multi-entity tax planning. While an individual subsidiary's current-year research outlays dictate its proportionate share of the credit in Step 2, the actual volume of the Group Credit pool generated in Step 1 is heavily governed by the historical gross receipts and base-period research intensity of sister and parent entities that may perform no current-year research at all. Consequently, an individual member's effective tax benefit cannot be evaluated without complete visibility into the financial and tax histories of every affiliated organization within the common control perimeter."
+    },
+    {
+      "type": "subheading",
+      "text": "Base Amount Integrity and Anti-Abuse Mechanics"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary policy objective underlying the IRC § 41(f) aggregation rules is the preservation of the research credit's incremental design and the prevention of structural tax arbitrage across affiliated legal structures. Because the R&D tax credit is structured to reward only research expenditures that exceed a historical baseline—referred to statutorily as the <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">Base Amount</a>—allowing affiliated entities to compute the credit separately would invite widespread organizational manipulation. Absent mandatory aggregation, a mature corporation burdened by substantial historical gross receipts or a high historical research base could simply incorporate a new research subsidiary with zero historical gross receipts and zero historical QREs. By shifting ongoing research personnel, supply procurement, and third-party vendor contracts into that newly formed subsidiary, the enterprise could artificially classify routine, baseline research expenditures as incremental start-up activity, thereby claiming a vastly inflated tax credit without increasing its aggregate economic commitment to domestic innovation."
+    },
+    {
+      "type": "paragraph",
+      "text": "By compelling the unification of all current and historical QREs and gross receipts across the entire controlled group to establish a single, group-wide Fixed-Base Percentage (FBP) and Base Amount, the regulations neutralize internal restructurings, spin-offs, drop-downs, and selective entity filings. The resulting aggregate Base Amount reflects the combined historical research commitment and revenue scale of the entire economic enterprise. Consequently, aggregation frequently produces a higher, more conservative Base Amount than stand-alone subsidiary calculations would yield, ensuring that the allowable Group Credit subsidizes genuine enterprise-wide increases in research intensity rather than intercompany reorganizations."
+    },
+    {
+      "type": "heading",
+      "text": "Definitional Boundaries of Controlled Groups and Common Control"
+    },
+    {
+      "type": "subheading",
+      "text": "Corporate and Non-Corporate Ownership Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Determining the precise perimeter of the controlled group is the threshold compliance obligation in any IRC § 41 analysis, as every entity falling within that boundary must be included in the single taxpayer computation regardless of whether that specific entity incurs <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">QREs</a>. The aggregation mandate encompasses both a \"<a href=\"/us/glossary/controlled-group\">controlled group of corporations</a>\" as defined under IRC § 41(f)(5) and any group of \"trades or businesses under common control\" as governed by IRC § 41(f)(1)(B) and Treasury Regulation § 1.52-1(b) through (g). Crucially, the regulatory scope extends far beyond domestic C corporations filing consolidated returns to capture S corporations, sole proprietorships, general and limited partnerships, limited liability companies (LLCs), trusts, and estates, provided that such entities actively carry on a trade or business within the meaning of Treasury Regulation § 1.41-6(a)(3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 1563(a) and Treasury Regulation § 1.52-1, common control relationships are categorized into three primary structural classifications: parent-subsidiary groups, brother-sister groups, and combined groups. A parent-subsidiary group consists of one or more chains of organizations connected through ownership of a controlling interest with a common parent organization, where the requisite ownership threshold is held directly or constructively by one or more of the other organizations in the chain, and the common parent owns a controlling interest in at least one of the other organizations after excluding ownership held directly by such other organizations. A brother-sister group comprises two or more organizations in which the same five or fewer persons who are individuals, estates, or trusts own, singly or in combination, both a controlling interest in each organization and an \"effective control\" (more-than-50 percent identical ownership) interest in each organization, taking into account the ownership of each person only to the extent such ownership is identical with respect to each organization. A combined group consists of three or more organizations in which each organization is a member of either a parent-subsidiary group or a brother-sister group under common control, and at least one such organization is the common parent organization of a parent-subsidiary group and is also a member of a brother-sister group pursuant to Treasury Regulation § 1.52-1(e). For non-corporate trades or businesses, such as partnerships and multi-member LLCs taxed as partnerships, ownership is measured by reference to profits interest or capital interest (whichever is greater), while for trusts and estates it is measured by actuarial interest, and for sole proprietorships by legal or beneficial ownership."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Divergence: The 80 Percent Rule Versus the More-Than-50 Percent Modification"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical technical distinction in R&D tax credit compliance involves the exact ownership percentage required to establish a controlled group. Secondary tax commentaries frequently exhibit an internal tension on this point by referencing the standard IRC § 1563(a) corporate consolidated and controlled group threshold of \"80 percent\" stock ownership for parent-subsidiary groups alongside general statements that common control applies at \"more than 50 percent\" (&gt;50%) ownership across parent-subsidiary or brother-sister groups."
+    },
+    {
+      "type": "paragraph",
+      "text": "Resolving this statutory divergence requires examining the explicit hierarchy of authority between IRC § 1563(a), IRC § 41(f)(5), and Treasury Regulation § 1.52-1(b)–(d). Under general corporate tax law in IRC § 1563(a)(1), a parent-subsidiary controlled group requires ownership of stock possessing \"at least 80 percent\" (≥ 80%) of total combined voting power or total value of shares. However, IRC § 41(f)(5)(B) explicitly modifies IRC § 1563(a) for purposes of the Section 41 research credit by substituting \"more than 50 percent\" (&gt; 50%) for \"at least 80 percent\" each place it appears in IRC § 1563(a)(1). Similarly, for non-corporate trades or businesses under common control, Treasury Regulation § 1.52-1(c) defines a \"controlling interest\" in a parent-subsidiary group as more than 50 percent of combined voting power or value for corporations, more than 50 percent of profits or capital interest for partnerships, more than 50 percent of actuarial interest for trusts or estates, and 100 percent ownership for a sole proprietorship."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, for a brother-sister group of trades or businesses under common control governed by Treasury Regulation § 1.52-1(d), the two-pronged regulatory test requires that the same five or fewer individuals, estates, or trusts hold both a controlling interest (defined as at least 80 percent ownership) in each organization and effective control (defined as more than 50 percent identical ownership) across each organization. Because the specific statutory modification in IRC § 41(f)(5)(B) and the directly governing regulations in Treasury Regulation § 1.41-6(a)(3) and § 1.52-1(c)–(d) carry authoritative legal weight over general corporate tax summaries, tax compliance teams must apply the more-than-50 percent (&gt; 50%) threshold when testing parent-subsidiary chains for Section 41 aggregation, while rigorously testing brother-sister structures under the dual 80 percent controlling interest and more-than-50 percent identical ownership standards of Treasury Regulation § 1.52-1(d)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Controlled Group Classification",
+        "Unmodified General Corporate Claim",
+        "IRC § 41 Statutory & Regulatory Standard",
+        "Governing Legal Authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Parent-Subsidiary Controlled Group (Corporations)",
+            "80% stock ownership threshold under general IRC § 1563(a)(1) rules",
+            "More than 50% (&gt; 50%) of total combined voting power or total value of all classes of stock (statutory substitution for 80%)",
+            "IRC § 41(f)(5)(B); IRC § 1563(a)(1); Treas. Reg. § 1.41-6(a)(3)(i)"
+          ]
+        },
+        {
+          "cells": [
+            "Parent-Subsidiary Common Control (Non-Corporate / Mixed)",
+            "Linked via profits or capital interests per Treas. Reg. § 1.52-1(b)–(g)",
+            "More than 50% (&gt; 50%) of profits or capital interest (partnerships), actuarial interest (trusts/estates), or voting power/value (corporations)",
+            "IRC § 41(f)(1)(B); Treas. Reg. § 1.52-1(b) & (c); Treas. Reg. § 1.41-6(a)(3)(ii)"
+          ]
+        },
+        {
+          "cells": [
+            "Brother-Sister Group Under Common Control",
+            "Same 5 or fewer persons meeting 80% and &gt; 50% identical ownership tests",
+            "Same 5 or fewer persons (individuals, estates, trusts) owning at least 80% (≥ 80%) controlling interest AND more than 50% (&gt; 50%) identical ownership",
+            "IRC § 41(f)(1)(B); IRC § 1563(a)(2); Treas. Reg. § 1.52-1(d)"
+          ]
+        },
+        {
+          "cells": [
+            "Combined Group Under Common Control",
+            "Covered generally under Treas. Reg. § 1.52-1(b)–(g)",
+            "3 or more organizations where each is in a parent-subsidiary or brother-sister group and at least one is both a common parent and a brother-sister member",
+            "IRC § 41(f)(1)(B); Treas. Reg. § 1.52-1(e)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Private Equity Portfolio Structures and Common Control Exposure"
+    },
+    {
+      "type": "paragraph",
+      "text": "A prominent area of contemporary regulatory uncertainty involves the application of common control aggregation rules to modern alternative investment vehicles, particularly Private Equity (PE) and Venture Capital (VC) funds. Historically, many PE funds treated separate portfolio companies (PFCs) held underneath an investment fund partnership as independent taxpayers for IRC § 41 purposes, resting on the legal position that a passive investment partnership does not constitute an active \"trade or business\" under Treasury Regulation § 1.52-1(b) capable of linking underlying operating companies into a parent-subsidiary chain. Under that stand-alone filing posture, each portfolio company calculated its own Base Amount and retained its full stand-alone research credit without reference to sister portfolio companies owned by the same fund."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, regulatory expansions and heightened IRS scrutiny of single-employer and common-control aggregation rules create substantial valuation and audit exposure where multiple portfolio companies owned by a single fund, parallel fund structure, or affiliated fund family are deemed to be \"<a href=\"/us/glossary/common-control\">trades or businesses under common control</a>\". When high-growth technology or biotechnology portfolio companies with low, favorable stand-alone base amounts are forcibly aggregated with mature, revenue-heavy industrial or commercial portfolio companies held within the same fund structure, the combined group's historical gross receipts and base period QREs surge dramatically. This mandatory aggregation inflates the group-wide Base Amount and compresses—or entirely eliminates—the incremental Group Credit, directly impairing post-tax cash flows, reducing the realizable value of deferred tax assets, and distorting acquisition return on investment (ROI) models during mergers and acquisitions (M&A) due diligence."
+    },
+    {
+      "type": "subheading",
+      "text": "Year-End Membership Determination and Non-Proration Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Group membership for IRC § 41 aggregation is determined based on the composition of the controlled group at the end of the taxpayer's taxable year—referred to under Treasury Regulation § 1.41-6(a)(3)(iii) as the \"credit year\". Where members of a controlled group operate on different fiscal or calendar tax years, special temporal coordination rules under Treasury Regulation § 1.41-6(g) govern the alignment of QREs, gross receipts, and base period calculations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the regulatory framework explicitly rejects any time-based or day-count proration methodology for allocating the Group Credit based on the portion of the calendar or fiscal year an entity belonged to the controlled group. Instead, credit allocation is strictly tethered to qualified research expenditures incurred. Consequently, if a corporate stock acquisition closes on the final day of the credit year and establishes a more-than-50 percent parent-subsidiary relationship, the newly acquired subsidiary is a member of the controlled group at year-end; its current-year QREs and its entire historical base period QREs and gross receipts must be integrated into the controlled group's aggregate calculation for that credit year, subject only to the statutory short-year rules and the IRC § 41(f)(3) major-portion acquisition coordination provisions."
+    },
+    {
+      "type": "heading",
+      "text": "Step 1: Computation of the Aggregate Group Credit"
+    },
+    {
+      "type": "subheading",
+      "text": "Methodological Consistency Across the Controlled Group"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once the constituent members of the controlled group are identified, Step 1 requires computing the aggregate Group Credit as if all members were a single taxpayer. Treasury Regulation § 1.41-6(b)(1) enforces strict methodological uniformity across the entire controlled group: every member must utilize the exact same computation method for the credit year. The controlled group must compute its Group Credit using either the Regular Credit Method under IRC § 41(a)(1) or the Alternative Simplified Credit (ASC) Method, which is currently codified in <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">IRC § 41(c)(4)</a> following the repeal of the former alternative incremental research credit by Public Law 115-97 (and is still referenced in Treasury Regulation § 1.41-6(b)(1) under its pre-2018 statutory designation, IRC § 41(c)(5)). Individual subsidiaries are strictly prohibited from cherry-picking the Regular Credit Method for one entity and the ASC Method for another to optimize separate entity tax outcomes."
+    },
+    {
+      "type": "subheading",
+      "text": "Regular Credit Mechanics, Fixed-Base Percentage Caps, and Floor Limitations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the Regular Credit Method of IRC § 41(a)(1), the Group Credit equals 20 percent (20%) of the excess of the controlled group's aggregate current-year QREs over the group's unified Base Amount, plus 20 percent of aggregate basic research payments determined under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">IRC § 41(e)(1)(A)</a> and 20 percent of amounts paid or incurred to an energy research consortium under IRC § 41(a)(2) and (3). Computing the Group Credit under the Regular Method proceeds through five sequential group-wide determinations."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, under IRC § 41(a)(1)(A) and Treasury Regulation § 1.41-6(b), the group aggregates all current-year QREs by summing qualified in-house wages, qualified supplies, qualified computer leasing costs, and applicable percentages of <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research expenses</a> across all group members for the credit year while disregarding intercompany transactions among group members pursuant to Treasury Regulation § 1.41-6(i). Second, under <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">IRC § 41(c)(3)(A)</a>, an established group computes its unified Fixed-Base Percentage (FBP) by dividing the group's aggregate QREs incurred during the statutory base period (taxable years beginning after December 31, 1983, and before January 1, 1989, i.e., 1984 through 1988) by the group's aggregate gross receipts during that same 1984–1988 period. By statute under IRC § 41(c)(3)(C) and (D), the resulting FBP is rounded to the nearest one-hundredth of 1 percent (0.01%) and cannot exceed a maximum statutory cap of 16 percent (16.00%)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, under <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">IRC § 41(c)(1)</a> and (2), the group calculates its tentative Base Amount by multiplying the group's unified FBP (capped at 16.00%) by the group's average annual aggregate gross receipts for the 4 taxable years preceding the credit year. Fourth, under the statutory minimum floor rule of <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">IRC § 41(c)(2)</a>, the tentative Base Amount is compared against 50 percent (50%) of the group's aggregate current-year QREs, as the Effective Group Base Amount can never be less than 50% of current-year QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective Group Base Amount = max(Tentative Group Base Amount, 0.50 × QRE<sub>group</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fifth, under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC § 41(a)(1)</a>, the Effective Group Base Amount is subtracted from the aggregate current-year QREs (yielding zero if the difference is negative), and the resulting incremental excess is multiplied by the 20 percent (0.20) statutory rate to establish the QRE component of the Group Credit:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Group Credit = 0.20 × max(0, QRE<sub>group</sub> − Effective Group Base Amount)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Effective Group Base Amount is floored at 50% of aggregate current-year QREs, the maximum effective Regular Credit rate achievable by any controlled group on its current-year QREs is mathematically capped at 10% (20% × (100% − 50%) = 10%)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Computational Step",
+        "Statutory Formula / Rule",
+        "Key Threshold or Cap",
+        "Governing IRC Section"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Step 1: Current QRE Aggregation",
+            "QRE<sub>group</sub> = Σ<sub>i=1</sub><sup>n</sup> QRE<sub>i</sub> across all group members <em>i</em> ∈ {1, …, <em>n</em>}",
+            "Intercompany transactions disregarded under Treas. Reg. § 1.41-6(i)",
+            "IRC § 41(a)(1)(A); Treas. Reg. § 1.41-6(b)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 2: Fixed-Base Percentage (FBP)",
+            "FBP<sub>group</sub> = min(0.16, ΣQRE<sub>1984–1988</sub> / ΣGR<sub>1984–1988</sub>) (or Start-Up FBP schedule)",
+            "16% Maximum Statutory Cap (3% initial start-up rate for first 5 years)",
+            "IRC § 41(c)(3)(A)–(C)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 3: Tentative Base Amount",
+            "Base<sub>tentative</sub> = FBP<sub>group</sub> × GR<sub>4-yr group</sub> (average)",
+            "Uses 4 preceding taxable years of aggregate group gross receipts",
+            "IRC § 41(c)(1)(B)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 4: Minimum Base Floor",
+            "Base<sub>effective</sub> = max(Base<sub>tentative</sub>, 0.50 × QRE<sub>group</sub>)",
+            "50% of Current QREs Floor (caps maximum effective credit rate at 10% of QREs)",
+            "IRC § 41(c)(2)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 5: Aggregate Group Credit",
+            "Group Credit = 0.20 × max(0, QRE<sub>group</sub> − Base<sub>effective</sub>)",
+            "20% Statutory Rate on incremental QREs above Effective Base Amount",
+            "IRC § 41(a)(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Start-Up Group Classification and Base Period Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "To accommodate newer enterprises that lack historical activity in the 1984–1988 window, IRC § 41(c)(3)(B) and Treasury Regulation § 1.41-6(b)(2) establish special <a href=\"/us/glossary/start-up-provision\">start-up rules</a> applied on an aggregate group basis. A controlled group qualifies as a \"start-up company\" under IRC § 41(c)(3)(B)(i) if, looking across the entire group as a single taxpayer, the first taxable year in which any member had both gross receipts and QREs began after December 31, 1983 (meaning that before January 1, 1984, no member of the group had both gross receipts and QREs), or if there were fewer than 3 taxable years between January 1, 1984, and December 31, 1988, in which the group had both gross receipts and QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a controlled group classified as a start-up company, the group's initial Fixed-Base Percentage under IRC § 41(c)(3)(B)(ii) is set at a flat 3 percent (3.00%) for each of its first 5 taxable years beginning after December 31, 1993, for which the group incurs QREs. Beginning in the sixth such year through the tenth year, the FBP transitions gradually through statutory phase-in fractions (1/6, 1/3, 1/2, 2/3, and 5/6) of the group's actual post-1993 QRE-to-gross-receipts ratio during designated lookback years, and from the eleventh year onward, the FBP equals the group's aggregate QRE-to-gross-receipts ratio during the fifth through tenth such years, remaining subject at all times to the overarching 16 percent (16.00%) statutory cap. Critically, if a start-up research company is acquired by an established parent corporation that already incurred QREs and gross receipts in three or more taxable years during the 1984–1988 window, the combined controlled group immediately ceases to qualify as a start-up company because the single taxpayer unit now possesses the parent corporation's 1984–1988 base period history."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Stand-Alone Versus Aggregated Group Credit Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the quantitative mechanics of Step 1 and the non-linear interplay between the gross-receipts tentative base and the 50 percent minimum base floor, consider a two-entity controlled group scenario involving Parent Corp (an established commercial parent with high gross receipts and modest R&D) and Tech Sub (a research-intensive subsidiary with high QREs and low gross receipts, more than 50 percent owned by Parent Corp). In the baseline credit year (Scenario A), Parent Corp has 4-year average annual gross receipts of $5,000k ($5.0M) and current-year QREs of $200k, while Tech Sub has 4-year average annual gross receipts of $100k and current-year QREs of $1,000k. Across the combined controlled group, aggregate 4-year average annual gross receipts equal $5,100k ($5,000k + $100k) and aggregate current-year QREs equal $1,200k ($200k + $1,000k)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Scenario A, assume the group is subject to a 3.0% start-up Fixed-Base Percentage. If the two entities were evaluated under an impermissible stand-alone method, Parent Corp would calculate a tentative base amount of $150k (3.0% × $5,000k) and a 50% minimum floor of $100k (50% × $200k); because $150k exceeds $100k, Parent Corp's effective base amount would be $150k, leaving $50k of incremental QREs ($200k − $150k) and a stand-alone credit of $10k (20% × $50k). Tech Sub, on a stand-alone basis, would compute a tentative base amount of $3k (3.0% × $100k) and a 50% minimum floor of $500k (50% × $1,000k); because $500k exceeds $3k, Tech Sub's effective base amount would be $500k, leaving $500k of incremental QREs and a stand-alone credit of $100k (20% × $500k), for a combined stand-alone credit sum of $110k (and combined effective base amounts of $650k). Under the mandatory Single Taxpayer aggregated calculation, however, the tentative Group Base Amount is $153k (3.0% × $5,100k) while the group's 50% minimum floor is $600k (50% × $1,200k). Because the $600k floor binds, the Effective Group Base Amount is $600k, yielding $600k of aggregate incremental QREs ($1,200k − $600k) and an aggregate Group Credit of $120k (20% × $600k). Counterintuitively, in Scenario A, aggregation actually increases the total research credit by $10k (or +9.1%, from $110k to $120k) because Tech Sub's large QRE volume pulls the combined group into the 50% minimum floor, effectively subjecting Parent Corp's $200k of QREs to a $100k floor offset rather than its stand-alone $150k gross-receipts offset."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Scenario B, consider the classic anti-abuse posture where Parent Corp's historical 1984–1988 research ratio subjects the group to the statutory maximum 16.0% FBP cap under IRC § 41(c)(3)(C). At the baseline $5,100k aggregate gross receipts ($5,000k Parent Corp and $100k Tech Sub), a 16.0% FBP produces a tentative Group Base Amount of $816k (16.0% × $5,100k), which substantially exceeds the $600k group minimum floor and yields an aggregate Group Credit of $76.8k (20% × ($1,200k − $816k)). Similarly, if Parent Corp's 4-year average gross receipts are $4,000k (for aggregate group gross receipts of $4,100k), a separate calculation would give Parent Corp a $640k tentative base (16.0% × $4,000k) exceeding its $200k QREs for a $0k credit, while Tech Sub at its stand-alone 3.0% start-up rate would claim $100k on its $1,000k QREs (or $120k if the group's $1,200k QREs were evaluated under the 3.0% FBP / 50% floor benchmark). Under mandatory aggregation at the 16.0% group FBP with $4,100k of aggregate gross receipts, the tentative Group Base Amount rises to $656k (16.0% × $4,100k), overtaking the $600k minimum floor and reducing aggregate incremental QREs to $544k ($1,200k − $656k). Multiplying $544k by 20% yields an aggregate Group Credit of $108.8k—a reduction of $11.2k (9.3%) compared to the $120.0k floor-capped benchmark, demonstrating how a mature parent's gross receipts and historical FBP dilute a subsidiary's incremental research credit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Metric / Calculation Step",
+        "Scenario A: Separate Sum (3% FBP, $5.1M GR)",
+        "Scenario A: Aggregated Group (3% FBP, $5.1M GR)",
+        "Scenario B: Separate Benchmark ($4.1M GR)",
+        "Scenario B: Aggregated Group (16% FBP, $4.1M GR)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Aggregate Gross Receipts ($k)",
+            "$5,100k ($5,000k + $100k)",
+            "$5,100k",
+            "$4,100k ($4,000k + $100k)",
+            "$4,100k"
+          ]
+        },
+        {
+          "cells": [
+            "Aggregate Current QREs ($k)",
+            "$1,200k ($200k + $1,000k)",
+            "$1,200k",
+            "$1,200k ($200k + $1,000k)",
+            "$1,200k"
+          ]
+        },
+        {
+          "cells": [
+            "Tentative Receipts Base ($k)",
+            "$153k ($150k + $3k)",
+            "$153k (3.0% × $5,100k)",
+            "$643k ($640k + $3k)",
+            "$656k (16.0% × $4,100k)"
+          ]
+        },
+        {
+          "cells": [
+            "50% Minimum Floor Base ($k)",
+            "$600k ($100k + $500k)",
+            "$600k (50% × $1,200k)",
+            "$600k ($100k + $500k)",
+            "$600k (50% × $1,200k)"
+          ]
+        },
+        {
+          "cells": [
+            "Effective Base Amount ($k)",
+            "$650k ($150k + $500k)",
+            "$600k",
+            "$1,140k ($640k + $500k) / $600k floor",
+            "$656k"
+          ]
+        },
+        {
+          "cells": [
+            "Incremental QREs ($k)",
+            "$550k ($50k + $500k)",
+            "$600k ($1,200k − $600k)",
+            "$500k (Sub) / $600k (Floor benchmark)",
+            "$544k ($1,200k − $656k)"
+          ]
+        },
+        {
+          "cells": [
+            "Total R&D Tax Credit ($k)",
+            "$110.0k ($10k + $100k)",
+            "$120.0k (+$10.0k / +9.1%)",
+            "$100.0k (Sub only) / $120.0k (3% Group)",
+            "$108.8k (−$11.2k / −9.3% vs. $120k)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Structural M&A Divergences: Stock Acquisitions Versus Major Trade or Business Asset Transfers"
+    },
+    {
+      "type": "paragraph",
+      "text": "In corporate mergers and acquisitions, the interaction between the controlled group aggregation rules under IRC § 41(f)(1) and the acquisition or disposition adjustment rules under IRC § 41(f)(3) depends directly on whether a transaction is structured as a corporate stock transfer or an asset purchase. As confirmed by the <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Research Credit Audit Techniques Guide</a>, the acquisition or disposition of corporate stock alone does not trigger the viable-unit base adjustment rules of IRC § 41(f)(3). Instead, when a stock acquisition brings a target corporation across the more-than-50 percent ownership threshold into a controlled group, IRC § 41(f)(1) automatically requires the target's entire entity-level historical QREs and gross receipts to be merged into the acquiring controlled group's single taxpayer computation as of year-end; conversely, when a subsidiary's stock is sold so that it exits the controlled group prior to year-end, its historical data leaves with the departing legal entity."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, when a taxpayer acquires or disposes of the assets constituting a \"major portion of a trade or business\" (or a separate unit thereof), IRC § 41(f)(3)(A) and (B) mandate a surgical adjustment to historical base data. In an asset acquisition governed by IRC § 41(f)(3)(A), the acquiring taxpayer must splice and add the historical base period QREs and prior-year gross receipts specifically attributable to the acquired portion of the trade or business into its own historical base computation, while under IRC § 41(f)(3)(B) the disposing taxpayer (provided it furnishes the requisite historical data to the acquirer) correspondingly reduces its base period amounts. Unlike a stock acquisition where historical corporate tax returns provide ready-made entity-level totals, an IRC § 41(f)(3) asset transaction requires granular reconstruction and carving out of division-specific historical QREs and gross receipts, creating a primary focus area during IRS examinations."
+    },
+    {
+      "type": "heading",
+      "text": "Step 2: Proportionate Allocation of the Group Credit"
+    },
+    {
+      "type": "subheading",
+      "text": "Evolution From Stand-Alone Entity Caps to Post-2011 Proportionate Allocation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once Step 1 yields the aggregate Group Credit, Step 2 requires allocating that credit among the constituent members of the controlled group. For taxable years beginning after December 31, 2011, Congress (via the American Taxpayer Relief Act of 2012) and the Treasury Department fundamentally simplified the allocation methodology, implemented initially through IRS Notice 2013-20 and finalized in Treasury Decision 9832 (83 FR 13185, published March 28, 2018), amending Treasury Regulation § 1.41-6(c)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to 2012, former Treasury Regulation § 1.41-6(c) required a convoluted, two-stage allocation regime based on computing a hypothetical \"stand-alone entity credit\" for each member using whichever computational method maximized that individual member's stand-alone credit. Under that pre-2012 regime, if the Group Credit did not exceed the sum of the members' stand-alone entity credits, the Group Credit was allocated strictly in proportion to each member's stand-alone credit—meaning that a subsidiary that incurred substantial current-year QREs could be allocated zero credit if its individual historical base amount prevented it from generating a stand-alone credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under current law governing post-2011 tax years, IRC § 41(f)(1)(A)(ii) and (B)(ii) along with Treasury Regulation § 1.41-6(c) abolish the stand-alone entity credit calculation entirely. Instead, the Group Credit is allocated to each member of the controlled group strictly on a proportionate basis according to that member's share of the group's aggregate qualified expenditures entering into the Group Credit computation—specifically summing each member's QREs, <a href=\"/us/glossary/basic-research-payments\">basic research payments</a> (BRPs, determined under IRC § 41(e)(1)(A)), and amounts paid or incurred to energy research consortiums (ERCs, determined under IRC § 41(f)(6)):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Allocated Member Credit<sub>i</sub> = Group Credit × (QRE<sub>i</sub> + BRP<sub>i</sub> + ERC<sub>i</sub>) / Σ<sub>j=1</sub><sup>n</sup> (QRE<sub>j</sub> + BRP<sub>j</sub> + ERC<sub>j</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "This post-2011 proportionate allocation rule ensures that every group member that incurs qualified research expenditures receives an exact pro-rata share of the Group Credit, regardless of whether that member's individual historical base period data would have precluded a credit on a stand-alone basis."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Multi-Entity Group Credit Allocation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider the three-member controlled group derived from Treasury Regulation § 1.41-6(e) Example 1 (as amended by T.D. 9832), consisting of Corporations A, B, and C for a post-2011 credit year in which the Step 1 computation produces an aggregate Group Credit of $100<em>x</em>. During the credit year, Member A incurs $100<em>x</em> of QREs and $0<em>x</em> of basic research or energy consortium payments for total qualified expenditures of $100<em>x</em>, Member B incurs $300<em>x</em> of QREs and $0<em>x</em> of basic research or energy consortium payments for total qualified expenditures of $300<em>x</em>, and Member C incurs $500<em>x</em> of QREs plus a $100<em>x</em> qualified payment to an energy research consortium for total qualified expenditures of $600<em>x</em>. Summing the qualified expenditures across all three members yields an aggregate controlled group denominator of $1,000<em>x</em> ($100<em>x</em> + $300<em>x</em> + $600<em>x</em>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Step 2, each member's proportionate share of the $1,000<em>x</em> aggregate qualified expenditures dictates its exact share of the $100<em>x</em> Group Credit. Member A's proportionate share is 10% ($100<em>x</em>/$1,000<em>x</em>), resulting in an allocated credit of $10<em>x</em> (10% × $100<em>x</em>). Member B's proportionate share is 30% ($300<em>x</em>/$1,000<em>x</em>), resulting in an allocated credit of $30<em>x</em> (30% × $100<em>x</em>). Member C's proportionate share is 60% ($600<em>x</em>/$1,000<em>x</em>), resulting in an allocated credit of $60<em>x</em> (60% × $100<em>x</em>)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Controlled Group Member",
+        "Current-Year QREs ($x) / Energy Research Consortium Payments ($x)",
+        "Total Qualified Expenditures ($x) / Proportionate Share (%) / Allocated Group Credit ($x)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Corporation A",
+            "$100<em>x</em>",
+            "$0<em>x</em>"
+          ]
+        },
+        {
+          "cells": [
+            "Corporation B",
+            "$300<em>x</em>",
+            "$0<em>x</em>"
+          ]
+        },
+        {
+          "cells": [
+            "Corporation C",
+            "$500<em>x</em>",
+            "$100<em>x</em>"
+          ]
+        },
+        {
+          "cells": [
+            "Controlled Group Total",
+            "$900<em>x</em>",
+            "$100<em>x</em>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Hierarchical Allocation for Consolidated Groups Within Controlled Groups"
+    },
+    {
+      "type": "paragraph",
+      "text": "A specialized two-tier compliance structure applies when an affiliated group of corporations filing a consolidated federal income tax return under IRC § 1502 is simultaneously a subset of a broader IRC § 41(f) controlled group—for example, where a consolidated corporate group is connected through a more-than-50 percent ownership chain to non-consolidated domestic corporations owned between 50.1% and 79.9%, foreign corporations, or partnerships under common control. Under Treasury Regulation § 1.41-6(d), aggregation and allocation proceed hierarchically across two distinct tiers."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Tier 1 (the overarching controlled group level), for purposes of computing the Group Credit and performing the initial allocation under Treasury Regulation § 1.41-6(b) and (c), all members of the IRC § 1502 consolidated group are treated collectively as a single member of the broader controlled group pursuant to Treasury Regulation § 1.41-6(d)(1). The overarching Group Credit is first allocated between the consolidated group (acting as a single unit) and the non-consolidated controlled group members based on the consolidated group's combined qualified expenditures relative to the entire controlled group's aggregate qualified expenditures. At Tier 2 (the intra-consolidated group level), under Treasury Regulation § 1.41-6(d)(3) and § 1.41-6(e) Example 2, once the consolidated group receives its Tier 1 credit allocation—for example, an allocation of $60<em>x</em> to Consolidated Group FGH—that $60<em>x</em> portion is treated as the group credit of the consolidated group itself and is subsequently re-allocated among its individual corporate members (Corporations F, G, and H) strictly in proportion to each consolidated member's share of the consolidated group's aggregate qualified expenditures."
+    },
+    {
+      "type": "heading",
+      "text": "Examination Risk, Documentation Standards, and Administrative Recommendations"
+    },
+    {
+      "type": "subheading",
+      "text": "Substantiation Burdens and Granular Reporting Obligations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failure to properly identify controlled group members or accurately aggregate multi-entity base data represents one of the <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">primary audit exposure points</a> identified in the IRS Audit Techniques Guide: Credit for Increasing Research Activities (IRC § 41) — Research Credit Computation. During an examination, IRS examiners verify that the single taxpayer mandate was applied across all domestic and foreign-parented chains meeting the more-than-50 percent parent-subsidiary or brother-sister ownership thresholds, that intercompany research payments between group members were properly eliminated under Treasury Regulation § 1.41-6(i) so as not to double-count QREs or gross receipts, and that historical base period figures stretching back to 1984–1988 for Regular Credit filers were substantiated with <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous records</a> across every entity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Relying on decentralized spreadsheets or retrospective interview estimates across dozens of operating subsidiaries introduces severe substantiation risk. This administrative burden is compounded by expanded IRS reporting mandates on <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (Credit for Increasing Research Activities), including explicit controlled group reporting disclosures and the granular business component and QRE tracking required under Schedule G. To survive IRS scrutiny, corporate tax departments must maintain centralized, audit-ready ledgers linking entity-level trial balances, payroll registers, intercompany elimination schedules, and M&A transaction histories directly to the unified Group Credit schedule."
+    },
+    {
+      "type": "subheading",
+      "text": "Irrevocability of Method Elections and Administrative Finality"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Treasury Regulation § 1.41-6(b)(1) mandates that every member of a controlled group use the same computational method (Regular or ASC), the designated member's election binds the entire controlled group. Under Treasury Regulation § 1.41-9(b)(2) and § 1.41-6, an election to apply the Alternative Simplified Credit (ASC) method must be made on a timely filed original federal income tax return (including extensions) for the credit year, and once made, an ASC election applies to the current credit year and all subsequent tax years unless revoked with IRS consent or via a timely original return election where permitted for a subsequent year."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, taxpayers generally cannot make a retroactive initial ASC election for a controlled group on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> if the Regular Credit Method was already used on the original return by any member of the controlled group, and administrative relief for late elections under Treasury Regulation § 301.9100-3 is unavailable because the time for making the election is prescribed by statute and binding regulation. Consequently, controlled groups must complete comprehensive enterprise-wide modeling comparing the <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Regular and ASC methods</a> across all group members prior to filing the earliest member's original federal tax return for the credit year."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory and Operational Recommendations for Compliance Optimization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Resolving current friction in the administration of IRC § 41(f) requires coordinated action by both federal tax authorities and corporate tax departments across three priority domains. First, the Department of the Treasury and the IRS should issue formal administrative guidance—such as a Revenue Ruling or updated regulatory examples under Treasury Regulation § 1.52-1 and § 1.41-6—clarifying when multi-tiered Private Equity and Venture Capital investment partnerships, parallel funds, and co-investment vehicles administered by a common fund manager constitute \"trades or businesses under common control,\" providing explicit attribution rules and safe harbors for passive institutional fund structures to eliminate transactional ambiguity for portfolio companies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the IRS should publish standardized protocols or safe-harbor estimation methodologies in its Audit Techniques Guide or a formal Notice to govern base-period splicing following the acquisition or disposition of a major portion of a trade or business under IRC § 41(f)(3). Establishing clear administrative benchmarks that distinguish entity-level stock aggregation under IRC § 41(f)(1) from divisional asset base reconstruction under IRC § 41(f)(3) will substantially reduce audit controversy following complex M&A activity. Third, corporate tax departments should replace manual, spreadsheet-driven aggregation workflows with automated enterprise tax compliance platforms that ingest general ledger, payroll, and entity-ownership data across all controlled group members in real time. Automated aggregation engines ensure uniform application of the chosen credit method, preserve multi-decade historical base trails through M&A lifecycles, and generate the granular business-component traceability required for Form 6765 Schedule G."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory and Regulatory Verification Matrix"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following matrix inventories the core statutory, regulatory, and quantitative parameters governing IRC § 41 aggregation and technical compliance notes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item #",
+        "Statutory or Regulatory Parameter",
+        "Governing Legal Authority",
+        "Technical Verification & Clarification Notes"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "U.S. R&D tax credit is codified under IRC § 41; aggregation rules are in IRC § 41(f) and Treas. Reg. § 1.41-6.",
+            "26 U.S.C. § 41(f); 26 C.F.R. § 1.41-6",
+            "Current law in force. IRC § 41(f)(1) and Treas. Reg. § 1.41-6 govern aggregation of expenditures for controlled groups and common control groups."
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Aggregation imposes a mandatory, non-elective \"single taxpayer\" treatment on controlled groups of corporations and trades or businesses under common control.",
+            "26 U.S.C. § 41(f)(1)(A)(i) & (B)(i); 26 C.F.R. § 1.41-6(b)(1)",
+            "Treas. Reg. § 1.41-6(b)(1) mandates that all members of a controlled group are treated as a single taxpayer for computing the Group Credit."
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "IRC § 41(f)(1) principles apply similarly to Clinical Testing Expenses for Certain Drugs for Rare Diseases or Conditions under IRC § 45C.",
+            "26 U.S.C. § 45C(d)(3); IRS Notice 2013-20",
+            "IRC § 45C(d)(3) explicitly incorporates the aggregation and allocation rules of IRC § 41(f)(1) and (f)(2) for the Orphan Drug Credit."
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "All members of a controlled group must use the same computation method: either the Regular Method (IRC § 41(a)(1)) or the ASC Method (codified at IRC § 41(c)(4), formerly § 41(c)(5)).",
+            "26 U.S.C. § 41(a)(1), § 41(c)(4); 26 C.F.R. § 1.41-6(b)(1)",
+            "Methodological consistency is mandatory under Treas. Reg. § 1.41-6(b)(1). Note statutory renumbering: the ASC method was originally enacted in IRC § 41(c)(5) and is now codified at IRC § 41(c)(4) following <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">P.L. 115-97</a>."
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Parent-Subsidiary controlled group test: IRC § 41(f)(5)(B) substitutes \"more than 50 percent\" (&gt; 50%) for \"at least 80 percent\" in IRC § 1563(a)(1).",
+            "26 U.S.C. § 41(f)(5)(B); 26 C.F.R. § 1.41-6(a)(3)(i); 26 C.F.R. § 1.52-1(c)",
+            "While general IRC § 1563(a)(1) uses 80%, IRC § 41(f)(5)(B) explicitly substitutes \"more than 50 percent\" for \"at least 80 percent\" in § 1563(a)(1), matching Treas. Reg. § 1.52-1(c) (&gt; 50%)."
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "Brother-Sister controlled group requires 5 or fewer persons meeting both an 80% ownership test and a more-than-50% identical ownership test.",
+            "26 C.F.R. § 1.52-1(d); 26 U.S.C. § 1563(a)(2)",
+            "Under Treas. Reg. § 1.52-1(d), a brother-sister group under common control requires the same 5 or fewer persons (individuals, estates, or trusts) to hold ≥ 80% controlling interest and &gt; 50% effective control (identical ownership)."
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Common control rules extend to non-corporate trades or businesses (sole proprietorships, partnerships, LLCs, trusts, estates) under Treas. Reg. § 1.52-1(b)–(g) and § 1.41-6(a)(3).",
+            "26 U.S.C. § 41(f)(1)(B); 26 C.F.R. § 1.41-6(a)(3)(ii)",
+            "Non-corporate organizations carrying on a trade or business are aggregated via &gt; 50% profits/capital interest (parent-sub) or ≥ 80% / &gt; 50% (brother-sister)."
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "Group membership is determined at the end of the credit year; differing tax years are coordinated under Treas. Reg. § 1.41-6(g); day-count proration of credit allocation is rejected.",
+            "26 C.F.R. § 1.41-6(b), (c), & (g)",
+            "Credit allocation is strictly proportional to qualified expenditures incurred, with no time-based day-count proration for mid-year entrants."
+          ]
+        },
+        {
+          "cells": [
+            "9",
+            "Regular Method Group Credit is 20% of current-year aggregate QREs over the Base Amount; Fixed-Base Percentage uses 1984–1988 QREs/gross receipts capped at 16%; Base Amount uses 4 prior years' average gross receipts with a 50% current QRE floor.",
+            "26 U.S.C. § 41(a)(1), § 41(c)(1)–(3)",
+            "20% credit rate (§ 41(a)(1)), 1984–1988 base period (§ 41(c)(3)(A)), 16% FBP cap (§ 41(c)(3)(C)), 4-year prior gross receipts average (§ 41(c)(1)(B)), and 50% minimum base floor (§ 41(c)(2))."
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "Start-up group rules (IRC § 41(c)(3)(B)(i)–(ii) & Treas. Reg. § 1.41-6(b)) apply if before Jan. 1, 1984 no member had both gross receipts and QREs, or if fewer than 3 years between 1984 and 1988 had both; first tax year after Dec. 31, 1993 with QREs sets initial FBP phase-in.",
+            "26 U.S.C. § 41(c)(3)(B)(i)–(ii); 26 C.F.R. § 1.41-6(b)(2)",
+            "Initial start-up FBP is 3% for the first 5 taxable years after 1993 with QREs, followed by a 5-year statutory phase-in."
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "Stock acquisitions trigger controlled group aggregation under IRC § 41(f)(1), whereas asset acquisitions of a major portion of a trade or business trigger historical base adjustments under IRC § 41(f)(3).",
+            "26 U.S.C. § 41(f)(1) & (f)(3); IRS Research Credit Audit Techniques Guide",
+            "Stock transfers alone do not trigger § 41(f)(3) asset splicing, but creating/breaking a controlled group triggers § 41(f)(1) rules."
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "For tax years beginning after Dec. 31, 2011, Treas. Reg. § 1.41-6(c) replaced the \"stand-alone entity credit\" allocation method with strict proportionate allocation based on QREs, basic research payments, and energy research consortium payments.",
+            "26 U.S.C. § 41(f)(1)(A)(ii) & (B)(ii); IRS Notice 2013-20; T.D. 9832 (83 FR 13185)",
+            ""
+          ]
+        },
+        {
+          "cells": [
+            "13",
+            "Worked Allocation Example: Group Credit of $100<em>x</em> across Members A ($100<em>x</em> QREs), B ($300<em>x</em> QREs), and C ($500<em>x</em> QREs + $100<em>x</em> energy consortium payment = $600<em>x</em>), totaling $1,000<em>x</em>, allocates $10<em>x</em> (10%), $30<em>x</em> (30%), and $60<em>x</em> (60%).",
+            "26 C.F.R. § 1.41-6(e) Example 1; T.D. 9832",
+            ""
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "Consolidated groups (IRC § 1502) within a larger controlled group are treated as a single member at Tier 1 and then re-allocate their allocated share (e.g., $60<em>x</em> to FGH) among members F, G, and H by QRE proportion at Tier 2.",
+            "26 C.F.R. § 1.41-6(d)(1)–(3) & § 1.41-6(e) Example 2",
+            ""
+          ]
+        },
+        {
+          "cells": [
+            "15",
+            "ASC election must be made on a timely filed original return; late-election relief under Treas. Reg. § 301.9100-3 is unavailable; Form 6765 Schedule G imposes granular business component reporting.",
+            "26 C.F.R. § 1.41-9(b)(2); <a href=\"/us/faq/irs-form-6765-instructions-2024\">IRS Form 6765 Instructions</a>",
+            "Fixed statutory/regulatory deadline for ASC election on original return precludes § 301.9100-3 relief where Regular Credit was claimed or return period closed; Form 6765 Schedule G captures controlled group and business component data."
+          ]
+        }
+      ]
+    }
+  ]
+}

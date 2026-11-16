@@ -1,0 +1,363 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Hardware-Software Integration",
+  "description": "Hardware-software integration is the engineering of control algorithms, firmware and device drivers that interact directly with physical hardware.",
+  "summary": "Hardware-software integration (HSI) is the engineering of control algorithms, embedded firmware, and device drivers that interact directly with physical hardware. For U.S. taxpayers claiming the federal R&D tax credit under IRC Section 41, qualifying HSI work can avoid the internal use software exclusion and support broader qualified research expenses, including wages, prototype supplies, cloud compute, and contract research.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Hardware-software integration (HSI) is the engineering of control algorithms, embedded firmware, and device drivers that interact directly with physical hardware. For U.S. taxpayers claiming the federal R&D tax credit under IRC Section 41, qualifying HSI work can avoid the internal use software exclusion and support broader qualified research expenses, including wages, prototype supplies, cloud compute, and contract research."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Technical Definition of Hardware-Software Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardware-Software Integration (HSI) encompasses the systematic engineering, iterative refinement, and empirical validation of specialized control algorithms, embedded firmware, device drivers, and application layers designed to achieve novel or improved performance characteristics within a tangible, physical business component. Rather than operating solely within an abstracted operating system environment, HSI software interacts directly with physical hardware subsystems—such as microcontrollers, custom printed circuit boards (PCBs), sensor arrays, and electromechanical actuators. Consequently, HSI activities are intrinsically multidisciplinary and technological in nature, drawing concurrently upon the foundational principles of computer science, electrical engineering, mechanical engineering, and physics."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the statutory architecture of the United States Research and Development (R&D) tax credit under Internal Revenue Code (IRC) Section 41 (<a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. §41</a>), HSI occupies a uniquely advantageous position. Purely software-driven development projects frequently encounter heightened scrutiny from the Internal Revenue Service (IRS) as potentially routine configuration or face statutory disqualification under the restrictive <a href=\"/us/glossary/internal-use-software-ius\">Internal Use Software (IUS)</a> exclusion. Conversely, HSI projects center on resolving technical uncertainties generated at the boundary where algorithmic logic meets physical laws—such as timing latencies, thermal throttling, signal-processing noise, hardware manufacturing variability, sensor data fusion reliability, and kinematic payload-to-speed trade-offs. Because the software is functionally inseparable from the physical hardware product, qualifying HSI initiatives allow taxpayers to capture substantial Qualified Research Expenses (QREs) across cross-functional engineering wages, prototype hardware supplies consumed in testing, high-performance cloud compute simulations, and third-party contract research."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, because physical prototypes must be fabricated, tested to failure, and iteratively recalibrated via software, the recoverable cost base expands beyond software developer salaries to encompass 25% in physical prototype supplies and 15% in simulation compute alongside 50% in specialized engineering labor, leaving only 10% in non-qualifying general facility and administrative overhead. This structural expenditure distribution creates a broader, more tangibly substantiated QRE base than pure software development, provided the taxpayer rigorously segregates depreciable capital equipment and real property leases from eligible in-house research expenditures."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory and Regulatory Foundation of Integrated R&D"
+    },
+    {
+      "type": "subheading",
+      "text": "The Framework of IRC Section 41 and Relationship to Section 174"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal Credit for Increasing Research Activities, codified at IRC §41, is structured to incentivize corporate investment in the discovery and application to production of novel techniques, processes, formulas, inventions, or physical equipment. To qualify under IRC §41(d)(1), research activities must be undertaken with respect to a distinct \"business component\"—defined in <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC §41(d)(2)(B)</a> as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. In an HSI context, the relevant business component is typically the integrated physical product or machine as a whole, where embedded software and hardware subsystems operate as an indivisible functional unit. Under the \"shrinking-back\" rule of Treas. Reg. §1.41-4(b)(2), if the integrated physical system as a whole does not satisfy all four statutory qualification requirements (for example, where the outer mechanical chassis is a standard commercial assembly), the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> is applied at the next most significant subset of elements of the product or process—such as the integrated actuator-firmware subsystem or the sensor-fusion navigation module—until either a qualifying business component is identified or the most basic element of the product fails to qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "For currency and legal precision, while taxpayers could historically elect under former IRC §174(a) to immediately deduct research or experimental expenditures in the year paid or incurred, amendments enacted under the Tax Cuts and Jobs Act of 2017 (Pub. L. 115-97, §13206, effective for taxable years beginning after December 31, 2021) require taxpayers under amended <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC §174(a)(2)</a> to capitalize and amortize domestic SRE expenditures over five years (and foreign SRE expenditures over fifteen years, beginning with the midpoint of the taxable year in which such expenditures are paid or incurred). Furthermore, IRC §174(c)(3) explicitly categorizes any amount paid or incurred in connection with the <a href=\"/us/faq/section-174-software-development-amortization\">development of any software</a> as an SRE expenditure. Consequently, HSI taxpayers must harmonize their IRC §41 credit calculations and <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC §280C(c)</a> reduced-credit elections with their IRC §174 capitalization schedules, recognizing that while all IRC §41 QREs must satisfy IRC §174 eligibility, IRC §174 encompasses a broader scope of indirect and overhead costs than the strictly enumerated direct cost categories permitted under IRC §41(b)."
+    },
+    {
+      "type": "subheading",
+      "text": "Verification and Correction of Statutory Citations for QRE Categories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC §41(b)(1)</a>, total Qualified Research Expenses are divided into two overarching statutory buckets: \"in-house research expenses\" (IRC §41(b)(1)(A)) and \"contract research expenses\" (IRC §41(b)(1)(B)). More precisely, IRC §41(b)(2)(A)(i) authorizes QRE treatment for wages paid or incurred to an employee for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" performed by such employee, while IRC §41(b)(2)(B) defines \"qualified services\" as engaging in qualified research, or engaging in the direct supervision or direct support of research activities which constitute qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the actual statutory text of the Internal Revenue Code, the expenditure allowance for supplies used in the conduct of qualified research is codified at <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC §41(b)(2)(A)(ii)</a>, while the statutory definition of \"supplies\" (any tangible property other than land or improvements to land, and any property of a character subject to the allowance for depreciation) is codified at IRC §41(b)(2)(C). Under the final <a href=\"/us/glossary/pilot-model\">pilot model</a> regulations at Treas. Reg. §1.174-2(a)(4) (T.D. 9680), tangible property produced as a pilot model—defined as any representation or model of a product that is produced to evaluate and resolve uncertainty concerning the product during the development or improvement of the product, including a fully-functional prototype—satisfies IRC §174, and its non-depreciable component materials qualify as supplies under IRC §41(b)(2)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because IRC §41(b)(2)(C) defines tangible supplies, the 65% inclusion rule for amounts paid or incurred by the taxpayer to any person (other than an employee of the taxpayer) for qualified research is actually codified at <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC §41(b)(3)(A)</a>. Under Treas. Reg. §1.41-2(e)(2), third-party engineering or testing payments qualify as contract research expenses only if the agreement is entered into prior to the performance of the qualified research, requires the research to be performed on behalf of the taxpayer (such that the taxpayer retains <a href=\"/us/glossary/substantial-rights\">substantial rights</a> to the research results under the standard articulated in <em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000)), and requires the taxpayer to bear the expense even if the research is not successful (<em>Fairchild Industries, Inc. v. United States</em>, 71 F.3d 868 (Fed. Cir. 1995))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(b)(2)(A)(iii) and Treas. Reg. §1.41-2(b)(4), only amounts paid or incurred to another person for the right to use computers in the conduct of qualified research (which includes <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">off-premises cloud computing</a> and HPC server instances used for simulation and model training) qualify as in-house research expenses. Rental or lease payments for real property—including specialized physical laboratories, anechoic chambers, or testing buildings—as well as leases of non-computer tangible personal property, are <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">statutorily excluded from QREs</a> under IRC §41(b) and Treas. Reg. §1.41-2(b)(1)."
+    },
+    {
+      "type": "subheading",
+      "text": "Mitigating the Internal Use Software (IUS) Exclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC §41(d)(4)(E)</a>, except to the extent provided by Treasury regulations, research with respect to computer software that is developed by (or for the benefit of) the taxpayer primarily for internal use by the taxpayer is excluded from qualified research unless it satisfies an additional, stringent three-part \"high threshold of innovation\" test. Codified at Treas. Reg. §1.41-4(c)(6)(vii), the <a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation test</a> requires that the software be innovative (resulting in a substantial and economically significant reduction in cost or improvement in speed or other measurable metric), that the software development involve significant economic risk (where substantial resources are committed and technical uncertainty prevents recovery within a reasonable period), and that the software not be commercially available for use by the taxpayer without modifications that satisfy the first two requirements."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Treasury Decision 9786 (finalized October 4, 2016, codified at Treas. Reg. §1.41-4(c)(6)), the Treasury Department and the IRS clarified the boundary between Internal Use Software and non-IUS development. Under Treas. Reg. §1.41-4(c)(6)(iii), software is presumed to be developed primarily for internal use if it is developed for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) functions</a> that facilitate or support the conduct of the taxpayer's trade or business—specifically enumerating financial management functions, human resource management functions, and support services functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "HSI projects avoid the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">IUS classification</a> and the heightened three-part threshold because the software is functionally locked to a commercial physical system and qualifies under three critical regulatory exemptions set forth in Treas. Reg. §1.41-4(c)(6)(iv). First, under the commercial sale, lease, or license exception of Treas. Reg. §1.41-4(c)(6)(iv)(A), software is not developed primarily for internal use if it is developed to be commercially sold, leased, licensed, or otherwise marketed to third parties; control loops, firmware, and embedded operating logic developed to operate a physical machine (such as an autonomous robot or automotive subsystem) sold or leased to customers fall squarely within this exemption. Third, under the third-party interaction exception of Treas. Reg. §1.41-4(c)(6)(iv)(C), software is not IUS if it is developed to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, the legal inquiry under Treas. Reg. §1.41-4(c)(6)(v) turns not on where the code is hosted or compiled, but on its primary functional purpose at the beginning of software development. When software performs real-time command, sensor polling, signal conditioning, and physical actuation for a hardware business component marketed to or interacting with external parties, it transcends internal G&A support and qualifies under the standard four-part test of IRC §41(d)(1)."
+    },
+    {
+      "type": "heading",
+      "text": "Application of the IRC Section 41 Four-Part Test to HSI Lifecycles"
+    },
+    {
+      "type": "paragraph",
+      "text": "To substantiate qualified research under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC §41(d)(1)</a> and Treas. Reg. §1.41-4(a)(2), a taxpayer must satisfy four concurrent statutory elements for each discrete business component."
+    },
+    {
+      "type": "subheading",
+      "text": "1. Section 174 Eligibility and Elimination of Technical Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(d)(1)(A) and Treas. Reg. §1.41-4(a)(3), the expenditure must be incurred in connection with the taxpayer's trade or business and represent a research and development cost in the experimental or laboratory sense intended to discover information that would eliminate uncertainty concerning the development or improvement of a business component. Uncertainty exists under Treas. Reg. §1.41-4(a)(3)(i) if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "In HSI engineering, technical uncertainty is rarely confined to abstract code syntax; rather, it arises from the unpredictable physical behavior of hardware when driven by software commands under real-world boundary conditions. Even when a control algorithm is mathematically sound in isolation, physical phenomena—such as electromagnetic interference, actuator heat dissipation, mechanical backlash, structural resonance, or variable ambient lighting—introduce non-linear disturbances that render the appropriate system design uncertain at the outset of development."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Technological in Nature"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(d)(1)(B)(i) and Treas. Reg. §1.41-4(a)(4), the process of discovering information must be technological in nature, meaning it fundamentally relies on the principles of the physical or biological sciences, engineering, or computer science. HSI projects inherently bridge multiple hard sciences: mechanical engineering and physics govern kinematics, thermodynamics, and structural loads; electrical engineering governs circuit design, power delivery, and analog-to-digital signal conversion; and computer science governs real-time operating systems, firmware execution, and machine-learning inference."
+    },
+    {
+      "type": "subheading",
+      "text": "3. Permitted Purpose"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(d)(1)(B)(ii), <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC §41(d)(3)(A)</a>, and Treas. Reg. §1.41-4(a)(3)(ii), the activity must be intended to be useful in the development of a new or improved business component by enhancing its function, performance, reliability, or quality (as opposed to style, taste, cosmetic, or seasonal design factors excluded under IRC §41(d)(3)(B)). In HSI systems, permitted purpose is demonstrated through measurable physical and operational metrics: reducing pathfinding latency in autonomous navigation, maintaining sub-millimeter positional accuracy under thermal load, increasing payload-to-speed ratios in robotic actuators, or improving object-recognition reliability across degraded lighting environments."
+    },
+    {
+      "type": "subheading",
+      "text": "4. Process of Experimentation (PoE) Across Dual Domains"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC §41(d)(1)(C) and Treas. Reg. §1.41-4(a)(5), substantially all of the activities must constitute elements of a Process of Experimentation (PoE)—a systematic process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities. Pursuant to Treas. Reg. §1.41-4(a)(6) and judicial precedent such as <em>Little Sandy Coal Co. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), the \"substantially all\" requirement is satisfied only if 80% or more of a taxpayer's research activities with respect to the business component, measured on a cost or other consistently applied reasonable basis, constitute elements of a process of experimentation for a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "The defining characteristic of an HSI Process of Experimentation is the interdependence of hardware and software iterations across a closed engineering feedback loop. Whereas conventional software experimentation remains purely computational, the evaluation of alternatives in HSI unfolds across three interconnected engineering stages. The process typically commences with modeling and physics simulation, wherein engineering teams construct virtual kinematics models and physics-engine simulations on high-performance computing clusters before committing capital to physical fabrication, testing whether candidate control algorithms can satisfy mechanical load and latency constraints. Following simulation, teams advance to first-article <a href=\"/us/glossary/prototype-development\">prototyping</a> and failure analysis, assembling physical prototypes that integrate custom PCBs, sensors, and actuators. When subjected to operational stress testing, physical laws frequently invalidate the initial software hypothesis. During physical testing, resistive heat generation inside Motor B induced thermal sensor drift, causing positional jitter despite the mathematical validity of the underlying code. Similarly, in mechanical load tests, an initial prototype frame or actuator may fail under physical stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "These physical failures directly trigger the third stage: dual-domain iterative resolution and system integration reviews. Rather than addressing the failure solely through hardware replacement, the engineering team conducts concurrent systems engineering reviews—monitoring hardware and software interfaces, identifying deficient requirements, and evaluating coupled alternatives. In the robotic actuator scenario, engineers resolved the uncertainty by integrating a physical temperature sensor with rewritten control firmware incorporating a real-time thermal compensation lookup table. In structural load scenarios, engineers pair modified hardware materials with refined kinematic control loops that dampen oscillation and compensate for mechanical restrictions. Documenting this simultaneous, cross-domain search for a holistic engineering solution provides robust substantiation against IRS assertions that the software work was routine development."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "HSI Engineering Domain",
+        "Identified Technical Uncertainty",
+        "Systematic Process of Experimentation (PoE)",
+        "Qualified Permitted Purpose (IRC §41(d)(3))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Autonomous Mobile Robot (AMR) Navigation Systems",
+            "Determining how disparate physical sensor inputs can be fused and processed in real time by Simultaneous Localization and Mapping (SLAM) algorithms to prevent collisions in congested, dynamic indoor environments.",
+            "Iterative coding of candidate SLAM control algorithms (Hypotheses A, B, and C), execution of physics-engine simulation runs, and physical prototype testing across variable lighting, payload, and obstacle conditions.",
+            "Enhancing navigational reliability, operational safety, and pathfinding latency/speed in commercial logistics robots marketed to third parties."
+          ]
+        },
+        {
+          "cells": [
+            "Precision Robotic Actuator Thermal Compensation (\"Jittery\" Arm)",
+            "Resolving whether Control Algorithm A can drive Actuator Motor B to a target position within a ±0.01 mm tolerance when motor heat generation induces unpredictable sensor drift under load.",
+            "Formulating initial accuracy hypothesis, conducting physical load testing to failure, performing thermal failure analysis on ruined motor assemblies, and rewriting firmware to integrate a thermal compensation lookup table.",
+            "Improving positional precision (quality/reliability) and continuous duty-cycle stability (performance) of the integrated robotic arm."
+          ]
+        },
+        {
+          "cells": [
+            "Machine-Vision and Sensor Array Integration",
+            "Overcoming signal-processing noise and maintaining micro-level quality control tolerances when integrating novel optical sensor hardware under fluctuating ambient lighting and airborne dust.",
+            "Fabricating trial vision-system fixtures, writing custom device drivers, and executing iterative AI/ML model training loops on cloud GPU clusters to isolate true defects from environmental noise.",
+            "Increasing defect-detection accuracy (quality) and automated inspection throughput (performance)."
+          ]
+        },
+        {
+          "cells": [
+            "Actuator and Kinematic Component Design",
+            "Resolving mechanical-electrical trade-offs between structural rigidity, power consumption, and kinematic oscillation to achieve higher payload-to-speed ratios.",
+            "Conducting finite-element stress simulations and kinematics modeling, followed by building and destructive failure-testing of first-article physical prototypes coupled with updated PID control loops.",
+            "Improving payload capacity, operational speed, and energy efficiency (performance and function) of the physical business component."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "IRS Software Audit Risk Categories and Boundary Segregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To <a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">defend an HSI claim</a> effectively, taxpayers must align their technical documentation with the risk framework established in the IRS <em>Audit Guidelines on the Application of the Process of Experimentation for all Software</em>. The IRS categorizes software development activities into distinct audit risk tiers based on the likelihood that the underlying work resolves genuine technological uncertainty through a computer-science-based process of experimentation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "IRS Audit Risk Category",
+        "Representative HSI Project Activities",
+        "Statutory & Regulatory Rationale for Risk Classification",
+        "Recommended Audit Segregation Protocol"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "High Risk (Usually Fail to Qualify)",
+            "Designing graphical user interfaces (GUIs) for operator dashboards; routine verification and validation (V&V) testing to confirm code executes as written; upgrading existing hardware or software to newer vendor releases.",
+            "These tasks generally rely on established programming practices, aesthetic preferences (IRC §41(d)(3)(B)), or <a href=\"/us/glossary/quality-control-testing\">routine quality assurance</a> (IRC §41(d)(4)(D)) rather than resolving fundamental capability, method, or design uncertainties.",
+            "Exclude or strictly segregate GUI design hours, routine post-development V&V QA logs, and standard OS/library migration tasks from the QRE project pool."
+          ]
+        },
+        {
+          "cells": [
+            "Moderate Risk (Often Fail, Qualify with Specific PoE Evidence)",
+            "Developing embedded software applications (such as firmware in mobile devices, automotive electronic control units, or industrial controllers).",
+            "Embedded development qualifies only when the taxpayer <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">documents specific technical uncertainties</a>—such as failsafe redundancy requirements, severe memory/screen processing constraints, thermal compensation, or novel hardware communication protocols—resolved via systematic experimentation.",
+            "Anchor project narratives on hardware-software boundary failures (e.g., latency bottlenecks, sensor drift, failsafe interrupts) and retain firmware revision logs proving iterative hypothesis testing."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical analytical takeaway from the IRS risk matrix is that embedded software does not qualify automatically merely by residing on a microchip. If an engineer writes standard user-interface menus for a touchscreen mounted on an industrial robot, that activity remains in the \"High Risk\" category and will typically be disallowed upon examination. Conversely, when the same engineering team writes low-level proportional-integral-derivative (PID) control loops, custom PCB firmware, novel inter-chip communication protocols, or failsafe interrupt routines to overcome hardware timing latencies and thermal drift, the activity directly addresses technological uncertainty and satisfies the moderate-risk qualification criteria. Furthermore, strictly segregating high-risk GUI and routine post-development V&V hours into separate cost-accounting codes prevents non-qualifying tasks from diluting the business component's 80% \"substantially all\" Process of Experimentation threshold under Treas. Reg. §1.41-4(a)(6)."
+    },
+    {
+      "type": "heading",
+      "text": "Financial Capture, Statutory Corrections, and Worked QRE Calculation"
+    },
+    {
+      "type": "subheading",
+      "text": "Cost Accounting and Substantiation Across Matrixed Teams"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because HSI projects require collaboration across mechanical engineers, electrical engineers, firmware developers, and test-lab technicians, taxpayers must maintain rigorous <a href=\"/us/glossary/project-accounting\">cost-accounting mechanisms</a> to segregate qualified experimentation from non-qualified production or routine maintenance. Under IRC §41(b)(2)(B), qualified wages encompass three functional tiers: employees directly engaging in qualified research (such as robotics and controls engineers formulating and testing SLAM or PID hypotheses), first-line managers <a href=\"/us/glossary/direct-supervision\">directly supervising</a> those engineers, and technicians directly supporting the experimentation (such as test-lab coordinators assembling prototype fixtures or logging destructive test runs). Under IRC §41(b)(2)(D)(i), eligible \"wages\" means wages as defined in IRC §3401(a) (Box 1 Form W-2 taxable wages, excluding non-taxable fringe benefits and pre-tax retirement deferrals)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" rule of IRC §41(b)(2)(B) and Treas. Reg. §1.41-2(d)(2), if at least 80% of an employee's services during a taxable year constitute qualified services, 100% of that employee's wages may be included as QREs; otherwise, only the exact fractional percentage of time demonstrably dedicated to qualified services is recoverable. For example, if a robotics engineer divides time between systematic prototype experimentation (qualified under IRC §41(d)(1)) and assembling the final commercial production units after design uncertainties have been resolved (excluded under the <a href=\"/us/glossary/research-after-commercial-production\">post-production rule</a> of IRC §41(d)(4)(A)), only the fractional hours tracked to prototype experimentation qualify."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "QRE Statutory Category",
+        "Specific HSI Expenditure Examples",
+        "Mandatory Contemporaneous Substantiation Records (IRC §6001 & Treas. Reg. §1.41-4(d))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "In-House Wages: IRC §41(b)(2)(A)(i) & IRC §41(b)(2)(B)",
+            "Salaries and W-2 taxable wages for controls specialists, firmware engineers, electrical engineers, sensor/vision specialists, and direct test-lab supervisors/support staff.",
+            "Form W-2s, payroll registers, job descriptions, and contemporaneous <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">time-tracking logs</a> allocating fractional hours to specific qualified HSI projects versus commercial production or GUI work."
+          ]
+        },
+        {
+          "cells": [
+            "Supplies: IRC §41(b)(2)(A)(ii) & IRC §41(b)(2)(C)",
+            "Non-depreciable tangible property consumed or destroyed during experimentation: prototype sensors, custom PCBs, actuators/motors ruined in thermal tests, robot frames, and test fixtures.",
+            "Purchase orders, vendor invoices, payment receipts, engineering bills of materials (BOMs), and inventory logs linking consumed components to specific prototype build iterations."
+          ]
+        },
+        {
+          "cells": [
+            "Computer Rental / Cloud Compute: IRC §41(b)(2)(A)(iii) & Treas. Reg. §1.41-2(b)(4)",
+            "Third-party cloud compute (GPU/HPC instances) leased to run physics simulations, kinematics models, or AI/ML navigation training loops. Excludes physical laboratory building rent and standard perpetual software licenses.",
+            "Cloud vendor contracts, server usage logs, GPU cluster telemetry reports, and allocation schedules separating R&D simulation compute from commercial production hosting."
+          ]
+        },
+        {
+          "cells": [
+            "Contract Research: IRC §41(b)(3)(A)",
+            "<a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of payments</a> made to third-party testing laboratories for specialized sensor/EMI testing or external robotics R&D consultants retained to resolve technical uncertainties.",
+            "Executed <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">contractor agreements</a> (establishing prior-to-performance engagement, taxpayer economic risk, and substantial rights under Treas. Reg. §1.41-2(e)), itemized invoices, and proof of payment."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Computing HSI QREs Under Verified Statutory Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "In evaluating in-house engineering wages under IRC §41(b)(2)(A)(i) and IRC §41(b)(2)(B), total project engineering payroll equals $500,000, representing 50% of the internal budget. Contemporaneous <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">time-tracking logs</a> demonstrate that controls, firmware, and electrical engineers dedicated 75% of their hours directly to resolving SLAM sensor-fusion latencies and actuator thermal-compensation lookup tables (qualified research), while 25% was spent on operator GUI layout and post-production V&V (high-risk non-qualifying activities). Because none of the individual engineers met or exceeded the 80% \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" threshold of Treas. Reg. §1.41-2(d)(2), exact fractional allocation is required:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>QRE<sub>Wages</sub> = $500,000 × 75% = $375,000</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Next, in accounting for prototype hardware supplies under IRC §41(b)(2)(A)(ii) and IRC §41(b)(2)(C), total expenditure on physical components equals $250,000, or 25% of the internal budget. Engineering inventory logs verify that $200,000 was expended on non-depreciable custom PCBs, LiDAR sensors, and Motor B actuator assemblies consumed or destroyed during thermal stress testing, whereas the remaining $50,000 was spent on general-purpose, multi-year laboratory oscilloscopes that constitute depreciable capital equipment excluded under IRC §41(b)(2)(C)(ii):"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>QRE<sub>Supplies</sub> = $250,000 − $50,000 = $200,000</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "For cloud compute and HPC simulation rental under IRC §41(b)(2)(A)(iii) and Treas. Reg. §1.41-2(b)(4), total expenditure equals $150,000, or 15% of the internal budget. Automated server telemetry logs confirm that $120,000 was paid to an external cloud vendor for on-demand GPU clusters running physics kinematics simulations and AI/ML obstacle-avoidance training models, while $30,000 was attributable to commercial customer portal web hosting:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>QRE<sub>Computer Rental</sub> = $150,000 − $30,000 = $120,000</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>QRE<sub>Facility</sub> = $0</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, regarding third-party contract research under IRC §41(b)(3)(A), Robotic Systems Corp. paid $100,000 to an independent sensor-testing laboratory to execute environmental dust and thermal-drift experiments on the AMR vision array under a contract executed prior to performance in which Robotic Systems Corp. bore the <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of failure and retained exclusive rights to the research results. Applying the statutory 65% inclusion rate yields the qualified contract research amount:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>QRE<sub>Contract</sub> = $100,000 × 65% = $65,000</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Summing the verified in-house and contract expenditure components produces the total qualified expenditure base eligible for the IRC §41 credit calculation on <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> (<em>Credit for Increasing Research Activities</em>):"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total QREs = $375,000 + $200,000 + $120,000 + $0 + $65,000 = $760,000</strong>"
+    },
+    {
+      "type": "heading",
+      "text": "Audit Defense, Documentation Imperatives, and Policy Outlook"
+    },
+    {
+      "type": "subheading",
+      "text": "Contemporaneous Substantiation Under IRC Section 6001 and Treas. Reg. Section 1.41-4(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "During an IRS examination, the sustainability of an HSI tax credit claim rests on linking technical engineering artifacts directly to financial ledger entries. Under IRC §6001 and Treas. Reg. §1.41-4(d), a taxpayer claiming a credit under IRC §41 must \"retain records in a sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\". Guided by the IRS <em>Research Credit Claims Audit Techniques Guide</em> (RCCATG) and reinforced by Tax Court jurisprudence (such as <em>Suder v. Commissioner</em>, T.C. Memo. 2014-201, and <em>Siemer Milling Co. v. Commissioner</em>, T.C. Memo. 2019-37), examiners evaluate whether documentation was generated contemporaneously as the research occurred rather than <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">reconstructed retroactively through post-hoc estimates</a>, and whether the taxpayer has established a clear nexus between specific expenditure categories and discrete business components. While <a href=\"/us/glossary/credible-oral-testimony\">oral testimony</a> from engineers may supplement the administrative record, the IRS is under no legal obligation to accept unsupported percentage estimates or undocumented extrapolations."
+    },
+    {
+      "type": "paragraph",
+      "text": "In an HSI environment, high-value <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous evidence</a> spans three primary engineering record types that collectively establish the four-part test. First, system architecture and requirement specifications—such as formal engineering design documents—establish baseline physical performance targets (for example, a ±0.01 mm actuator tolerance or target SLAM pathfinding latency) and document why existing off-the-shelf hardware or algorithms cannot achieve them. Second, iterative firmware and hardware revision histories—including code commit logs, firmware flash histories, PCB schematic revisions, and systems engineering integration review minutes—demonstrate the chronological evaluation of technical alternatives. Third, physical failure analysis and test logs—encompassing destructive prototype testing records, thermal imaging reports showing motor heat drift, simulation output logs, and formal requirement waiver or re-evaluation memoranda—prove that technical uncertainty existed at the hardware-software boundary and drove dual-domain experimentation. Organizing these technical records by major project categories (such as autonomous navigation systems, machine-vision integration, or actuator kinematics) and pairing them with W-2 payroll registers, time-tracking logs, supply invoices, and cloud compute usage schedules provides a cohesive <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a> narrative."
+    },
+    {
+      "type": "subheading",
+      "text": "Evaluation of Proposed Regulatory Clarifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "From an analytical standpoint, while Treas. Reg. §1.41-4(c)(6)(iv)(A) and Treas. Reg. §1.41-4(c)(6)(iv)(B) already exempt commercial software and combined hardware-software packages from IUS treatment, audit disputes still arise when embedded firmware performs dual roles—such as executing real-time robotic control while simultaneously transmitting internal fleet-maintenance telemetry back to the manufacturer. Under current Treas. Reg. §1.41-4(c)(6)(vi), <a href=\"/us/glossary/dual-function-software\">dual-function software</a> is presumed to be developed primarily for internal use unless the taxpayer can identify the third-party subset or rely on the 25% safe harbor where third-party interaction is anticipated to constitute at least 10% of the software's usage. A bright-line ICS safe harbor would eliminate examination disputes over ancillary internal monitoring functions in IoT, robotics, and industrial automation systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because existing IRS software audit guidelines focus predominantly on pure software development lifecycles, incorporating explicit dual-domain HSI case studies into the <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">ATG</a>—confirming that a physical constraint identified during a hardware prototype test legitimately triggers qualifying algorithmic experimentation in firmware, and affirming that cloud HPC physics simulation costs are integral to evaluating those combined alternatives—would substantially reduce friction during field examinations."
+    },
+    {
+      "type": "paragraph",
+      "text": "While physical laboratory building leases remain statutorily excluded under IRC §41(b), modern HSI teams frequently share cloud GPU clusters between qualified AI/ML model training and non-qualified commercial production operations. Establishing regulatory safe-harbor allocation rules that recognize automated cloud compute usage logs tied to specific GPU clusters as \"best evidence\" under Treas. Reg. §1.41-4(d)—analogous to detailed time-tracking logs for engineering wages—would provide clear substantiation standards for shared computational resources."
+    },
+    {
+      "type": "heading",
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardware-Software Integration represents one of the most technically robust and financially significant domains within U.S. R&D tax credit law under IRC §41. Because HSI development is anchored in resolving physical-algorithmic conflicts—such as sensor data fusion latencies, actuator thermal drift, and kinematic load trade-offs—it naturally satisfies the four-part statutory test of IRC §41(d)(1) while circumventing the Internal Use Software restrictions of IRC §41(d)(4)(E) and Treas. Reg. §1.41-4(c)(6). By strictly segregating routine GUI and post-production verification tasks from core firmware and hardware experimentation, applying the corrected statutory rules of IRC §41(b)(2) and IRC §41(b)(3) (specifically excluding physical laboratory facility leases while capturing qualified engineering wages, non-depreciable prototype supplies, cloud simulation compute, and 65% of eligible contract research), and preserving contemporaneous dual-domain failure and iteration logs under IRC §6001 and Treas. Reg. §1.41-4(d), engineering organizations can maximize and sustain their R&D tax credit claims upon IRS examination."
+    }
+  ]
+}

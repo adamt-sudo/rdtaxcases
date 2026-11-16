@@ -1,0 +1,422 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Mid-Year Convention",
+  "description": "The mid-year convention treats capitalized research expenditures under IRC Section 174 as incurred at the taxable year's midpoint.",
+  "summary": "The mid-year convention is a U.S. federal tax timing rule for research-driven businesses under IRC Section 174 that treats capitalized research and experimental expenditures as incurred at the taxable year's midpoint. It cut first-year domestic amortization to 10% for 2022–2024 and still limits foreign research to 3.33%, even after Section 174A restored domestic expensing.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The mid-year convention is a U.S. federal tax timing rule for research-driven businesses under IRC Section 174 that treats capitalized research and experimental expenditures as incurred at the taxable year's midpoint. It cut first-year domestic amortization to 10% for 2022–2024 and still limits foreign research to 3.33%, even after Section 174A restored domestic expensing."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Overview: Dual Statutory Mandates and Liquidity Mechanics"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Mid-Year Convention (MYC) operates as a foundational timing mechanism within United States federal income tax compliance for innovation-driven enterprises, governing how and when capital recovery deductions are recognized across distinct statutory regimes. In technical tax practice, midpoint conventions bifurcate along an asset-classification boundary: the mandatory amortization of intangible Specified Research or Experimental (SRE) expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Internal Revenue Code (IRC) Section 174</a>, and the depreciation of tangible research property under IRC Section 168 via the Modified Accelerated Cost Recovery System (MACRS). Although both statutory frameworks employ a midpoint assumption that restricts first-year cost recovery to 50% of a full annual allowance, their underlying statutory triggers, recovery horizons, disposition rules, and susceptibility to fourth-quarter acquisition overrides diverge substantially."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beginning with taxable years starting after December 31, 2021, amendments enacted by Section 13206(a) of the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act (TCJA)</a>, Public Law 115-97, eliminated immediate first-year expensing under IRC Section 174 and replaced it with mandatory capitalization and straight-line amortization over five years (60 months) for domestic research and fifteen years (180 months) for foreign research. Central to this regime is the IRC Section 174(a)(2)(B) Mid-Year Convention, which legally deems all capitalized <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental (R&E) expenditures</a> paid or incurred during a taxable year to have been incurred at the exact midpoint of that year, regardless of the actual calendar date of expenditure. By compressing the Year 1 deduction for domestic research from 100% under prior law to just 10% (the 20% annual straight-line rate multiplied by the 50% midpoint factor), and for foreign research to 3.33% (the 6.67% annual straight-line rate multiplied by the 50% midpoint factor), the convention generates an immediate 87.5% to 90% first-year deduction deferral (and up to 96.67% for foreign research). This timing compression directly inflates current Taxable Income (TI), creating acute cash tax burdens and working-capital constraints while interacting in complex ways with the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC Section 41 Research and Development Tax Credit</a>, the IRC Section 168(d)(3) Mid-Quarter Convention (MQC), the IRC Section 163(j) business interest limitation, and legislative reforms enacted under the One, Big, Beautiful Bill Act (OBBBA), Public Law 119-21, and IRC Section 174A."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory Mechanics of the Mid-Year Convention Under IRC Section 174"
+    },
+    {
+      "type": "subheading",
+      "text": "Capitalization Mandate and the Six-Year and Sixteen-Year Recovery Spans"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the TCJA amendments to IRC Section 174, effective for taxable years beginning after December 31, 2021, taxpayers are statutorily prohibited from deducting <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">SRE expenditures</a> in the year paid or incurred. Instead, all qualifying expenditures must be charged to a capital account and amortized ratably over a statutory five-year (60-month) period if the research activities are conducted within the United States, or over a statutory fifteen-year (180-month) period if the research activities are conducted outside the United States. The statutory vehicle that establishes when this amortization clock begins is the Mid-Year Convention under IRC Section 174(a)(2)(B), which mandates that amortization be computed from the midpoint of the taxable year in which the expenses are paid or incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mathematical consequence of anchoring amortization at the taxable year's midpoint is the bifurcation of one full year's amortization allowance between the initial recovery year (Year 1) and an additional trailing tax year following the nominal statutory period. For a standard twelve-month calendar-year taxpayer, the midpoint is fixed at July 1 (the first day of the seventh month of the taxable year). Whether an enterprise incurs qualified research payroll in early January or contracts for software development in late December, the entire annual expenditure pool is treated identically as placed into the amortization schedule on July 1. This eliminates intra-year timing arbitrage, preventing taxpayers from claiming a full year's amortization on late-December outlays while equally denying full-year recovery for January outlays."
+    },
+    {
+      "type": "paragraph",
+      "text": "Expressed formally, for a total capitalized expenditure pool and a statutory straight-line recovery period of years (where for domestic research and for foreign research), the annual amortization deduction in recovery year is governed by the following piecewise function:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, a five-year domestic <a href=\"/us/glossary/section-174-amortization\">R&E amortization</a> period spans six taxable years, yielding a 10% (1/10) deduction in Year 1, 20% (1/5) per year in Years 2 through 5, and the remaining 10% (1/10) in Year 6. Similarly, a fifteen-year foreign R&E amortization period spans sixteen taxable years, yielding a 3.33% (1/30) deduction in Year 1, 6.67% (1/15) per year in Years 2 through 15, and a final 3.33% (1/30) deduction in Year 16."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Computation: Domestic vs. Foreign R&E Amortization"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the operational impact of the IRC Section 174 Mid-Year Convention, consider a hypothetical United States technology corporation (a calendar-year taxpayer) that incurs $10,000,000 in qualifying SRE expenditures during its 2022 taxable year. Under the domestic five-year recovery rule, the unadjusted annual straight-line amortization equals $2,000,000 per year ($10,000,000 / 5, or 20% annually). Applying the Mid-Year Convention in Year 1 (2022) restricts the deductible allowance to one-half of the annual amount ($1,000,000, or 10% of the total expenditure pool). Relative to pre-2022 law—under which the entire $10,000,000 (100%) was immediately deductible—the company's 2022 deductible expense drops by $9,000,000, increasing its 2022 Taxable Income by $9,000,000 irrespective of whether the business generated positive operating cash flow. If those identical $10,000,000 expenditures were incurred for research conducted outside the United States, the fifteen-year statutory period yields an unadjusted annual rate of 6.67% (1/15, or $666,667 per year), which the Mid-Year Convention halves in Year 1 to 3.33% (1/30, or $333,333), inflating Year 1 Taxable Income by $9,666,667."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Recovery Year",
+        "Calendar Year (Hypothetical)",
+        "Domestic Amortization Period (5-Yr Statutory)",
+        "Domestic Applied Factor",
+        "Domestic Annual Deduction ($)",
+        "Domestic Remaining Basis ($)",
+        "Foreign Applied Factor (15-Yr Statutory)",
+        "Foreign Annual Deduction ($)",
+        "Foreign Remaining Basis ($)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Year 1",
+            "2022",
+            "0.5 Years",
+            "10.00% (1/10)",
+            "$1,000,000",
+            "$9,000,000",
+            "3.33% (1/30)",
+            "$333,333",
+            "$9,666,667"
+          ]
+        },
+        {
+          "cells": [
+            "Year 2",
+            "2023",
+            "1.0 Year",
+            "20.00% (1/5)",
+            "$2,000,000",
+            "$7,000,000",
+            "6.67% (1/15)",
+            "$666,667",
+            "$9,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "Year 3",
+            "2024",
+            "1.0 Year",
+            "20.00% (1/5)",
+            "$2,000,000",
+            "$5,000,000",
+            "6.67% (1/15)",
+            "$666,667",
+            "$8,333,333"
+          ]
+        },
+        {
+          "cells": [
+            "Year 4",
+            "2025",
+            "1.0 Year",
+            "20.00% (1/5)",
+            "$2,000,000",
+            "$3,000,000",
+            "6.67% (1/15)",
+            "$666,667",
+            "$7,666,667"
+          ]
+        },
+        {
+          "cells": [
+            "Year 5",
+            "2026",
+            "1.0 Year",
+            "20.00% (1/5)",
+            "$2,000,000",
+            "$1,000,000",
+            "6.67% (1/15)",
+            "$666,667",
+            "$7,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "Year 6",
+            "2027",
+            "0.5 Years",
+            "10.00% (1/10)",
+            "$1,000,000",
+            "$0",
+            "6.67% (1/15)",
+            "$666,667",
+            "$6,333,333"
+          ]
+        },
+        {
+          "cells": [
+            "Years 7–15",
+            "2028–2036",
+            "—",
+            "0.00%",
+            "$0",
+            "$0",
+            "60.00% (6.67%/yr × 9 yrs)",
+            "$6,000,000 ($666,667/yr)",
+            "$333,333"
+          ]
+        },
+        {
+          "cells": [
+            "Year 16",
+            "2037",
+            "—",
+            "0.00%",
+            "$0",
+            "$0",
+            "3.33% (1/30)",
+            "$333,333",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Total",
+            "2022–2037",
+            "5.0 Years",
+            "100.00%",
+            "$10,000,000",
+            "$0",
+            "100.00%",
+            "$10,000,000",
+            "$0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Short Taxable Years, Covered Cost Pools, and Disposition Rules Under Notice 2023-63"
+    },
+    {
+      "type": "paragraph",
+      "text": "While applying the Mid-Year Convention to a standard twelve-month calendar year requires simply anchoring amortization on July 1, substantial technical complexity arises when a taxpayer operates under a short taxable year—such as during the initial year of corporate formation, a corporate dissolution or merger and acquisition (M&A) transaction, or an approved change in accounting period. Under interim administrative guidance issued by the Internal Revenue Service in Notice 2023-63, 2023-39 I.R.B. 919 (as clarified and modified by Notice 2024-12), the amortization deduction for a short taxable year is based on the number of months in that short taxable year, and the midpoint of a short taxable year is defined under Section 3.06(2) as the first day of the midpoint month. For example, in a hypothetical short taxable year consisting of seven full calendar months, the midpoint falls on the first day of the fourth month, which represents the middle month of the seven-month span. Similarly, in the explicit example provided in Section 3.07 of Notice 2023-63, a calendar-year corporation that incorporates and begins operations on October 17, 2022, and closes its taxable year on December 31, 2022, is treated as having a three-month short taxable year under Section 3.06(1) (comprising October, November, and December). Because the midpoint month is November, November 1, 2022, is designated as the midpoint under Section 3.06(2), allowing the taxpayer to amortize 2 months out of the 60-month domestic recovery period in 2022 (equal to $2,000 on a $60,000 domestic SRE pool), followed by 12 months per year in 2023 through 2026 ($12,000 annually, or $48,000 total), and the remaining 10 months ($10,000) in 2027. If a taxpayer experiences two successive short taxable years and the first short year ends in the same calendar month that the second short year begins, Section 3.06(1) requires the taxpayer to include that month in the first short taxable year and not in the second short taxable year. Although preliminary IRS guidance and subsequent procedural updates—including Notice 2024-12 (which removed the requirement that a taxpayer relying on any rule in Notice 2023-63 must rely on all rules in Sections 3 through 9) and Revenue Procedures 2023-24, 2024-9, 2024-34, and 2025-08—provided administrative flexibility and automatic accounting method change procedures, the absence of finalized Treasury Regulations continues to create compliance uncertainty during corporate restructurings."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the breadth of expenditures swept into the Mid-Year Convention schedule under IRC Section 174 is substantially wider than many taxpayers anticipated prior to 2022. Under IRC Section 174(c)(3) and Section 5 of Notice 2023-63 (which obsoleted Section 5 of Rev. Proc. 2000-50 for expenditures paid or incurred in taxable years beginning after December 31, 2021, as clarified by Notice 2024-12), all <a href=\"/us/faq/section-174-software-development-amortization\">software development costs</a>—whether incurred for internal-use software, commercial software products for sale or licensing, or upgrades and enhancements—are mandatorily classified as SRE expenditures subject to capitalization and the MYC. Only post-placement corrective maintenance (such as debugging, diagnosing, and fixing programming errors without adding upgrades or enhancements), employee training, data conversion activities, installation activities, and post-readiness marketing and promotional activities are excluded from software development under Section 5.05 of Notice 2023-63. Beyond software development, Section 4.03(1) of Notice 2023-63 specifies that the capitalized SRE pool encompasses direct and indirect research labor costs (including basic compensation, stock-based compensation, overtime pay, vacation pay, holiday pay, sick leave pay, payroll taxes, pension costs, employee benefits, and supplemental unemployment benefit plan payments—explicitly excluding severance compensation—for full-time, part-time, and contract employees and independent contractors who perform, supervise, or directly support SRE activities), non-depreciable tangible research materials and supplies (such as costs described in 26 CFR § 1.162-3), <a href=\"/us/glossary/patent-perfection-costs\">patent application legal fees</a>, cloud computing and server hosting expenses dedicated to development environments, and allocable indirect overhead or cost recovery allowances (such as rent, utilities, insurance, taxes, repairs, security, and facility or equipment depreciation under IRC Sections 167 and 168 allocated via cause-and-effect relationships such as labor hours or square footage). Interest on debt incurred to finance SRE activities, website content input costs, periodic website hosting fees paid to Internet service providers, and domain name or trademark registration costs are explicitly excluded under Section 4.03(2)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, under IRC Section 174(d) (added by TCJA Section 13206(a)) and Section 7 of Notice 2023-63, if a research project or underlying property is disposed of, retired, or abandoned prior to the completion of the six-year (domestic) or sixteen-year (foreign) MYC schedule, the taxpayer is statutorily prohibited from accelerating or writing off the remaining unamortized basis upon abandonment. Instead, the taxpayer must continue amortizing the defunct asset over the remainder of the original MYC schedule. In corporate transactions governed by IRC Section 381(a) in which a corporation ceases to exist for federal income tax purposes, Section 7.04 of Notice 2023-63 provides that the acquiring corporation continues to amortize the distributor or transferor corporation's unamortized SRE expenditures over the remainder of the applicable statutory recovery period."
+    },
+    {
+      "type": "subheading",
+      "text": "Structural Interplay Between IRC Section 174 Amortization and the IRC Section 41 R&D Tax Credit"
+    },
+    {
+      "type": "paragraph",
+      "text": "The mandatory <a href=\"/us/glossary/r-and-e-capitalization\">capitalization of R&E expenditures</a> under the Section 174 Mid-Year Convention creates an intricate compliance intersection with the IRC Section 41 Credit for Increasing Research Activities (the R&D Tax Credit). While the expenditure categories captured by Section 174 overlap heavily with Section 41 <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a>—specifically employee wages for qualified services, research supplies, and third-party contract research expenses—their statutory boundaries and treatment of capitalized costs require careful differentiation."
+    },
+    {
+      "type": "paragraph",
+      "text": "A primary technical tension involves the eligibility of supply expenses under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(C)</a>, which defines qualified supplies as tangible property used in the conduct of qualified research other than land or improvements to land and property of a character subject to the allowance for depreciation. When the TCJA forced all Section 174 expenditures to be capitalized starting in 2022, tax practitioners evaluated whether mandatory capitalization under Section 174 would disqualify research supplies from the Section 41 credit base. Because IRC Section 174 subjects capitalized research outlays to amortization (as an intangible deferred expense pool) rather than depreciation under IRC Sections 167 and 168, non-depreciable research supplies capitalized under Section 174 preserve their eligibility as QREs for the Section 41 credit. Additionally, taxpayers claiming both the Section 41 credit and R&E deductions or amortization must account for <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)</a>, which requires reducing domestic R&E deductions or capitalized expenses by the gross research credit (effectively reducing the net benefit of the credit by the 21% corporate tax rate) unless the taxpayer elects under IRC Section 280C(c)(2) to claim a reduced credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nevertheless, this statutory preservation requires dual-track accounting. Section 174 sweeps in indirect facility overhead, <a href=\"/us/faq/patent-legal-fees-rd-tax-credit-deduction\">patent legal fees</a>, and foreign research outlays that are strictly excluded from Section 41 QREs, whereas Section 41 requires rigorous project-level substantiation. With the IRS enforcing heightened reporting standards on the redesigned <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (Credit for Increasing Research Activities)—specifically Section G (Business Component Information), which remained optional through the 2025 tax year (per IRS News Release IR-2025-99) and became mandatory for tax years beginning after December 31, 2025 (starting with the 2026 tax year)—in-scope taxpayers must report granular QRE breakdowns by individual business component (categorizing wages into direct research, direct supervision, and direct support) covering at least 80% of total QREs up to a maximum of 50 business components (\"80%/Top 50\" reporting). Only <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Businesses (QSBs)</a> electing the payroll tax credit or filers with controlled-group QREs of $1.5 million or less and average annual gross receipts of $50 million or less over the prior three tax years are exempt from completing Section G on original returns (though business-component detail remains required on amended returns or refund claims, for which the IRS extended the perfection transition period through January 10, 2027). Consequently, taxpayers must maintain separate, reconcilable ledgers that track multi-year Section 174 MYC amortization cohorts alongside current-year Section 41 business-component credit computations."
+    },
+    {
+      "type": "heading",
+      "text": "Differentiating Conventions: IRC Section 174 Intangible Amortization vs. IRC Section 168 MACRS Depreciation"
+    },
+    {
+      "type": "paragraph",
+      "text": "A persistent source of compliance error in corporate fixed-asset and R&D accounting is the conflation of the IRC Section 174 Mid-Year Convention with the timing conventions governing tangible depreciable R&D assets under IRC Section 168 (MACRS) and Treasury Regulation 26 CFR § 1.168(d)-1. While Section 174 governs intangible SRE expenditures (such as engineering payroll, supplies, and software development), tangible capital equipment utilized in research laboratories—such as spectrometers, environmental test chambers, robotics, and computer hardware—is excluded from direct acquisition capitalization under IRC Section 174(c)(1) and must instead be depreciated under MACRS, typically as 5-year or 7-year property (with the resulting annual depreciation allowance treated as an SRE cost recovery allowance to the extent the property is used in performing or directly supporting SRE activities)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Default Half-Year Convention (HYC) Under IRC Section 168(d)(1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For tangible MACRS personal property used in research and experimentation, the default statutory timing rule is the Half-Year Convention (HYC) under IRC Section 168(d)(1) and 26 CFR § 1.168(d)-1(a). Mechanically, the MACRS Half-Year Convention mirrors the Section 174 Mid-Year Convention: it treats all tangible personal property placed in service (or disposed of) during the taxable year as having been placed in service (or disposed of) on the exact midpoint of that taxable year (July 1 for calendar-year filers). Consequently, under the default HYC, an enterprise acquiring laboratory equipment receives a half-year's worth of depreciation (0.50, or 50% of the full annual depreciation rate) in the year the asset is placed in service and a half-year's worth in the final year of the recovery period (or the year of earlier disposition). A critical structural distinction emerges upon disposition: whereas tangible MACRS property disposed of early generally receives a half-year of depreciation in the disposal year under 26 CFR § 1.168(d)-1(c) and writes off its remaining basis in computing gain or loss (except when property is placed in service and disposed of within the same taxable year, in which case no depreciation deduction is allowed under 26 CFR § 1.168(d)-1(b)(3)), intangible Section 174 SRE expenditures under IRC Section 174(d) cannot be written off upon project abandonment and must remain on the original amortization schedule."
+    },
+    {
+      "type": "subheading",
+      "text": "The Mid-Quarter Convention (MQC) Override Under IRC Section 168(d)(3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike the IRC Section 174 Mid-Year Convention—which is invariant and applies a flat 0.50 (50%) factor unconditionally across all four calendar quarters regardless of when during the year R&E expenses are incurred—the MACRS Half-Year Convention is subject to a mandatory statutory override: the Mid-Quarter Convention (MQC) under IRC Section 168(d)(3) and 26 CFR § 1.168(d)-1(a)–(b). The MQC is triggered whenever the aggregate depreciable basis of MACRS personal property placed in service during the last three months (Fourth Quarter / Q4) of the taxable year exceeds 40% of the aggregate depreciable basis of all such MACRS property placed in service during the entire taxable year (excluding nonresidential real property, residential rental property, any railroad grading or tunnel bore, property described in IRC Section 168(f), property placed in service and disposed of within the same taxable year, and any portion of basis elected to be expensed under IRC Section 179 or adjusted under IRC Section 48(q)):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, under 26 CFR § 1.168(d)-1(a), the Mid-Quarter Convention applies automatically to depreciable property placed in service during a short taxable year that consists of three months or less, and under 26 CFR § 1.168(d)-1(b)(5), all members of a consolidated group included on a consolidated return are treated as one taxpayer for purposes of applying the 40% test."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the 40% fourth-quarter threshold is breached, the Mid-Quarter Convention applies retroactively to all MACRS personal property placed in service during that entire taxable year. Under the MQC, tangible assets are deemed placed in service (or disposed of) at the midpoint of the specific quarter in which they were acquired. In a standard twelve-month year, each quarter contains three months, placing the quarterly midpoint at 1.5 months into the respective quarter. This alters the first-year depreciation fraction from the uniform 0.50 (50%) under the HYC and the Section 174 MYC to a step-down schedule determined by the quarter of acquisition. Specifically, tangible property placed in service during the first quarter (Q1, January through March) is deemed placed in service at the midpoint of Q1, receiving 10.5 months (10.5/12 = 0.875, or 87.5%) of the full annual depreciation allowance. Property placed in service during the second quarter (Q2, April through June) receives 7.5 months (7.5/12 = 0.625, or 62.5%) of the annual allowance, while third-quarter (Q3, July through September) acquisitions receive 4.5 months (4.5/12 = 0.375, or 37.5%). Most punitively, tangible equipment placed in service during the fourth quarter (Q4, October through December) is deemed placed in service at the midpoint of Q4, yielding only 1.5 months (1.5/12 = 0.125, or 12.5%) of the annual depreciation allowance."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Quarter of Expenditure or Acquisition",
+        "IRC §174 Mid-Year Convention (Intangible R&E)",
+        "Default IRC §168 Half-Year Convention (Tangible MACRS, Q4 ≤ 40%)",
+        "IRC §168(d)(3) Mid-Quarter Convention Override (Tangible MACRS, Q4 > 40%)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Q1 (Jan–Mar)",
+            "0.50 (50% of annual rate)",
+            "0.50 (50% of annual rate)",
+            "0.875 (87.5% of annual rate)"
+          ]
+        },
+        {
+          "cells": [
+            "Q2 (Apr–Jun)",
+            "0.50 (50% of annual rate)",
+            "0.50 (50% of annual rate)",
+            "0.625 (62.5% of annual rate)"
+          ]
+        },
+        {
+          "cells": [
+            "Q3 (Jul–Sep)",
+            "0.50 (50% of annual rate)",
+            "0.50 (50% of annual rate)",
+            "0.375 (37.5% of annual rate)"
+          ]
+        },
+        {
+          "cells": [
+            "Q4 (Oct–Dec)",
+            "0.50 (50% of annual rate)",
+            "0.50 (50% of annual rate)",
+            "0.125 (12.5% of annual rate — Q4 Cliff)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For an R&D-intensive enterprise already experiencing severe Taxable Income expansion due to the mandatory 90% Year 1 deduction deferral under the Section 174 MYC, inadvertently triggering the Section 168 MQC creates a compounded liquidity shock. If a biotechnology or hardware engineering firm acquires a single high-value piece of laboratory equipment in Q4 whose cost pushes Q4 tangible additions past the 40% mark, the first-year depreciation allowance on that Q4 equipment collapses from 50% of the annual rate (under HYC) to just 12.5% (1.5/12) of the annual rate (under MQC), while its Section 174 intangible outlays remain fixed at 50% of the first-year straight-line rate."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Structural Dimension",
+        "IRC §174 Mid-Year Convention (MYC)",
+        "IRC §168 Half-Year Convention (HYC)",
+        "IRC §168 Mid-Quarter Convention (MQC)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Governing Authority",
+            "IRC §174(a)(2)(B); IRS Notice 2023-63; IRS Notice 2024-12",
+            "IRC §168(d)(1); 26 CFR § 1.168(d)-1(a)",
+            "IRC §168(d)(3); 26 CFR § 1.168(d)-1(b)"
+          ]
+        },
+        {
+          "cells": [
+            "Covered Asset Class",
+            "Intangible SRE expenditures (research wages, software development, supplies, overhead)",
+            "Tangible depreciable MACRS personal property (e.g., 5-year or 7-year lab equipment, computers)",
+            "Tangible depreciable MACRS personal property when Q4 additions exceed 40% of annual additions"
+          ]
+        },
+        {
+          "cells": [
+            "Deemed Placed-in-Service Date",
+            "Midpoint of the taxable year (July 1 for calendar-year filers)",
+            "Midpoint of the taxable year (July 1 for calendar-year filers)",
+            "Midpoint of the specific quarter placed in service (Q1, Q2, Q3, or Q4)"
+          ]
+        },
+        {
+          "cells": [
+            "Year 1 Fraction of Annual Allowance",
+            "Fixed 0.50 (50%) regardless of expenditure month",
+            "Fixed 0.50 (50%) across all quarters if Q4 basis ≤ 40%",
+            "Q1: 0.875 (87.5%); Q2: 0.625 (62.5%); Q3: 0.375 (37.5%); Q4: 0.125 (12.5%)"
+          ]
+        },
+        {
+          "cells": [
+            "Vulnerability to Q4 Spending Spikes",
+            "Immune: Q4 R&E spending spikes never alter the 0.50 midpoint factor",
+            "Vulnerable: Superseded retroactively if Q4 tangible additions exceed 40% of total annual additions",
+            "Triggered by Q4 Spike: Applies across all quarters' tangible additions once Q4 &gt; 40%"
+          ]
+        },
+        {
+          "cells": [
+            "Treatment Upon Early Disposition / Abandonment",
+            "No Acceleration (IRC §174(d)): Unamortized basis cannot be deducted upon abandonment; amortization continues over 6 or 16 years",
+            "Half-Year Allowed: Receives 50% of annual depreciation in disposal year; remaining basis offsets disposal proceeds",
+            "Mid-Quarter Allowed: Receives quarter-specific fraction up to midpoint of disposal quarter; remaining basis offsets proceeds"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Legislative Reform (IRC Section 174A / OBBBA) and the IRC Section 163(j) Modeling Paradox"
+    },
+    {
+      "type": "subheading",
+      "text": "Restoration of Domestic Expensing Under IRC Section 174A and Foreign Asymmetry"
+    },
+    {
+      "type": "paragraph",
+      "text": "After three consecutive tax years (2022, 2023, and 2024) governed by mandatory Section 174 MYC capitalization, federal tax legislation enacted on July 4, 2025—Section 70302 of Public Law 119-21, 139 Stat. 72, commonly known as the \"One, Big, Beautiful Bill Act\" (OBBBA)—introduced IRC Section 174A and reversed the TCJA amortization mandate for domestic research. Under the IRC Section 174A(a) framework taking effect for amounts paid or incurred in taxable years beginning after December 31, 2024, taxpayers regain the ability to immediately deduct 100% of domestic R&E expenditures in the taxable year paid or incurred, effectively eliminating the mandatory Mid-Year Convention for domestic research on a prospective basis. Alternatively, taxpayers may elect under IRC Section 174A(c) to charge domestic R&E expenditures to a capital account and amortize them ratably over a period of not less than 60 months beginning with the month in which the taxpayer first realizes benefits from the expenditures, or elect 10-year ratable amortization under IRC Section 59(e) (while for individual partners and S-corporation shareholders receiving Schedules K-1 from flow-through entities, 10-year R&E amortization continues to apply for Alternative Minimum Tax (AMT) purposes)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, however, this legislative relief is geographically and jurisdictionally asymmetric. Under amended IRC Section 174, foreign R&E expenditures conducted outside the United States remain locked inside the TCJA capitalization regime, requiring fifteen-year (180-month) straight-line amortization subject to the Mid-Year Convention (3.33% Year 1 recovery over a sixteen-year span). This permanent divergence between 100% Year 1 domestic expensing under Section 174A and 3.33% Year 1 foreign recovery under Section 174 amplifies the tax penalty on offshore engineering centers and cross-border R&D cost-sharing arrangements. Furthermore, municipal and state decoupling can preserve the Mid-Year Convention locally even for domestic research: for example, New York City (under Finance Memorandum 26-2) decoupled from federal Section 174A immediate expensing for tax years beginning after December 31, 2024, continuing to require domestic R&E expenditures to be capitalized and amortized over five years starting at the midpoint of the tax year on pro forma federal Form 4562, Part VI."
+    },
+    {
+      "type": "subheading",
+      "text": "Retroactive Transition Elections and the IRC Section 163(j) Business Interest Trap"
+    },
+    {
+      "type": "paragraph",
+      "text": "For unamortized domestic R&E balances accumulated under the Mid-Year Convention during the 2022, 2023, and 2024 taxable years, statutory transition rules under OBBBA Section 70302(f) and IRS administrative procedures in Revenue Procedure 2025-28 (modifying Revenue Procedure 2025-23, and subsequently expanded by Revenue Procedure 2026-32) present taxpayers with critical modeling elections. Under OBBBA Section 70302(f)(1) and Section 3 of Rev. Proc. 2025-28, eligible small business taxpayers—defined under IRC Section 448(c) as non-tax-shelter taxpayers with average annual gross receipts for the three prior taxable years of $31,000,000 or less for the first taxable year beginning in 2025 (per Rev. Proc. 2024-40)—may elect to apply IRC Section 174A retroactively to taxable years beginning after December 31, 2021, and before January 1, 2025. Eligible small businesses may file amended returns or Administrative Adjustment Requests (AARs) for 2022, 2023, and 2024 (by the earlier of July 6, 2026, or the IRC Section 6511 claim for credit or refund statute of limitations deadline) or execute an accounting method change to claim immediate full expensing, generating cash tax refunds or Net Operating Losses (NOLs) that carry forward. Conversely, under OBBBA Section 70302(f)(2) and Section 7.02 of Rev. Proc. 2025-23 (as modified by Rev. Proc. 2025-28), any taxpayer—including larger businesses exceeding the $31,000,000 gross receipts threshold that cannot amend 2022–2024 returns—may elect on a cut-off basis (via a statement in lieu of Form 3115) to recover its remaining unamortized 2022–2024 domestic Section 174 balance either in full (100%) in the first taxable year beginning after December 31, 2024 (2025), or ratably over a two-taxable-year period spanning 2025 and 2026. Additionally, Rev. Proc. 2026-32 (released September 4, 2026) permits taxpayers that did not fully comply with TCJA Section 174 capitalization in prior years to correct their accounting methods via modified IRC Section 481(a) adjustments while transitioning to Section 174A."
+    },
+    {
+      "type": "paragraph",
+      "text": "While amending 2022–2024 returns (for eligible small businesses) or accelerating unamortized balances to reverse the MYC capitalization appears intuitively advantageous, it introduces a second-order counter-effect via the IRC Section 163(j) business interest expense limitation. Under Section 163(j), a taxpayer's deductible business interest expense is capped at a fixed percentage of its Adjusted Taxable Income (ATI) plus business interest income and floor plan financing interest:"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the 2022, 2023, and 2024 taxable years, ATI was calculated on an EBIT basis (without adding back depreciation and amortization deductions). Because the Section 174 Mid-Year Convention restricted Year 1 domestic R&E deductions to 10% in 2022–2024, it increased historical Taxable Income (TI) and correspondingly expanded ATI. For highly leveraged corporations (such as private-equity-backed software or manufacturing firms), that elevated ATI permitted a substantially larger business interest deduction in 2022–2024. If a leveraged small business retroactively amends its 2022–2024 returns under OBBBA Section 70302(f)(1) to replace 10% MYC amortization with 100% immediate expensing, its historical TI and ATI contract sharply, which can retroactively trigger or tighten the Section 163(j) interest limitation and disallow previously deducted interest expenses—while also requiring retroactive application of IRC Section 280C(c) deduction reductions if research credits were claimed. Furthermore, for taxable years beginning after December 31, 2024, the OBBBA permanently restored the EBITDA-based calculation of ATI under IRC Section 163(j), meaning depreciation and amortization deductions are once again added back when computing ATI. Because R&E amortization deductions (whether from recovering remaining 2022–2024 unamortized balances under OBBBA Section 70302(f)(2) or electing 60-month amortization under IRC Section 174A(c)) are added back to ATI starting in 2025 whereas immediate Section 174A(a) R&E deductions are not added back, electing to amortize domestic R&E expenditures yields a higher ATI and a higher business interest deduction ceiling under Section 163(j) compared to immediate expensing. Consequently, multi-year parallel tax modeling is mandatory before executing retroactive or transitional Section 174 and Section 174A elections."
+    },
+    {
+      "type": "heading",
+      "text": "Institutional Compliance Architecture and Regulatory Recommendations"
+    },
+    {
+      "type": "subheading",
+      "text": "Promulgation of Finalized Treasury Regulations on Short Years and Dispositions"
+    },
+    {
+      "type": "paragraph",
+      "text": "To manage the technical complexities of the Mid-Year Convention across both historical unamortized pools and ongoing foreign and domestic operations, the Treasury Department and the Internal Revenue Service must supersede interim administrative notices—such as Notice 2023-63 and Notice 2024-12—with formal, codified Treasury Regulations. Definitive regulatory safe harbors are specifically required to standardize short-taxable-year midpoint calculations during corporate mergers, acquisitions, and accounting period changes, thereby eliminating the compliance ambiguity surrounding what constitutes a reasonable methodology. Equally urgent is the codification of explicit regulatory rules governing how taxpayers—including partnerships and pass-through entities excluded from Section 7 reliance by Notice 2024-12—must account for remaining unamortized Section 174 R&E balances upon the disposition, sale, contribution, or complete abandonment of an underlying business component or research venture under IRC Section 174(d)."
+    },
+    {
+      "type": "subheading",
+      "text": "Segregated Section 174, Section 41, and Section 168 Ledger Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the enterprise level, corporate tax departments must institute dedicated Section 174 and Section 174A expenditure studies that operate structurally independently from, yet remain fully reconcilable with, IRC Section 41 R&D credit studies. Internal enterprise resource planning (ERP) and fixed-asset accounting systems must strictly partition domestic versus foreign intangible SRE expenditure pools (tracking ongoing 15-year MYC schedules for foreign research under IRC Section 174, transitional 2022–2024 domestic unamortized balances under OBBBA Section 70302(f), and municipal decoupling schedules such as New York City Form 4562 adjustments), project-level and <a href=\"/us/legislation/26-usc-41d2-business-component-test\">business-component</a> QREs reported on Form 6765 Section G under IRC Section 41, and tangible research equipment additions depreciated under IRC Section 168. Maintaining this strict three-way segregation mitigates audit exposure under Rev. Proc. 2025-28 and Rev. Proc. 2026-32 while preventing capitalized intangible software or supply outlays from contaminating tangible fixed-asset ledgers."
+    },
+    {
+      "type": "subheading",
+      "text": "Dynamic Multi-Year Scenario Modeling and Cross-Convention Training"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate financial planning and tax personnel must also engage in continuous parallel modeling and rigorous cross-convention training. Financial modeling teams should evaluate tax liabilities simultaneously under historical Section 174 MYC schedules, OBBBA Section 70302(f) 1-year (2025) versus 2-year (2025–2026) unamortized recovery elections, and prospective Section 174A(a) immediate expensing versus Section 174A(c) 60-month amortization elections—quantifying the exact trade-offs between immediate R&E expensing, NOL generation (subject to the 80% taxable income limitation), <a href=\"/us/glossary/section-280c-election\">IRC Section 280C(c) credit reductions</a>, AMT adjustments for flow-through owners, and IRC Section 163(j) business interest deduction limitations. Simultaneously, mandatory cross-convention training between tax compliance officers and capital procurement teams is essential so that personnel distinguish the invariant 0.50 (50%) Section 174 MYC amortization factor from the variable MACRS Section 168(d)(3) Mid-Quarter Convention fractions, ensuring that fourth-quarter laboratory equipment acquisitions are timed to avoid breaching the 40% threshold and triggering the 0.125 (12.5%) Q4 depreciation cliff."
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Credible Testimony",
+  "description": "Credible oral testimony is sworn firsthand evidence of qualified research, accepted to quantify expenses only when corroborated by contemporaneous records.",
+  "summary": "Credible oral testimony in U.S. taxpayers' federal R&D tax credit claims under IRC § 41 refers to sworn statements from witnesses with firsthand knowledge of qualified research. Courts and the IRS accept it to quantify qualified research expenses when corroborated by contemporaneous records, but it cannot retroactively establish technical uncertainty or experimentation that project documentation fails to show.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Credible oral testimony in U.S. taxpayers' federal R&D tax credit claims under IRC § 41 refers to sworn statements from witnesses with firsthand knowledge of qualified research. Courts and the IRS accept it to quantify qualified research expenses when corroborated by contemporaneous records, but it cannot retroactively establish technical uncertainty or experimentation that project documentation fails to show."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary: Evidentiary Function and Substantiation Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the statutory framework governing United States federal tax substantiation under Internal Revenue Code (IRC) § 6001 and the specific provisions for the Credit for Increasing Research Activities under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC § 41</a>, credible testimony denotes reliable, sworn oral or written statements provided by witnesses who possess direct, firsthand knowledge of Qualified Research Activities (QRAs) and their associated expenditures. Rather than serving as a standalone substitute for statutory recordkeeping, credible testimony operates as a secondary evidentiary bridge. While Treasury Regulation § 1.6001-1(a) establishes the baseline mandate that taxpayers maintain permanent books of account and sufficient records to support claimed tax credits, federal courts routinely admit credible testimony to supplement imperfect records, establish the technical nexus between isolated project artifacts and business components, or reconstruct factual timelines when primary documentation has been inadvertently lost or destroyed through circumstances beyond the taxpayer's control."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, administrative guidance from the Internal Revenue Service (IRS) and settled United States Tax Court jurisprudence impose a strict structural boundary on the use of testimonial evidence in research credit controversies. Under the <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Audit Techniques Guide (ATG)</a> for IRC § 41 (\"Substantiation and Recordkeeping\"), estimation methodologies grounded in oral testimony—derived from the foundational judicial doctrine of <em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930)—are permissible in circumstances where the taxpayer has first established that it engaged in qualified research activities under IRC § 41(d) and the remaining controversy involves quantifying the exact dollar amount paid or incurred for that already-substantiated qualified activity. Testimony cannot be deployed retrospectively to fabricate underlying technical eligibility where contemporaneous project records fail to demonstrate technical uncertainty or a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">structured process of experimentation</a>. Furthermore, the taxpayer must supply concrete factual support for every assumption underlying a testimonial estimate, and estimation is barred where the failure to maintain a proper system to capture relevant information is an \"inexactitude is of their own making\". Judicial scrutiny of witness credibility centers on technical plausibility, internal consistency with contemporaneous design artifacts, nexus to identified business components, and the witness's capacity to recall granular engineering events accurately after multi-year examination lags."
+    },
+    {
+      "type": "paragraph",
+      "text": "The strategic value of credible testimony in R&D tax controversy manifests across two primary dimensions: quantifying Qualified Research Expenses (QREs)—most notably the allocation of employee wages across qualified and non-qualified services under IRC § 41(b)(2)(B)—and providing the narrative cohesion required to link disparate technical records, such as source code commit logs, engineering emails, and test protocols, to the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">statutory four-part test</a> of IRC § 41(d). Because research and development workflows are inherently iterative and fluid, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">real-time administrative time-tracking</a> frequently fails to capture the full scope of technical experimentation. When properly corroborated, testimony from subject-matter experts (SMEs) bridges these documentation gaps and can activate IRC § 7491(a), which shifts the statutory burden of proof on factual issues from the taxpayer (petitioner) to the Commissioner (respondent) upon the introduction of credible evidence, provided the taxpayer has complied with statutory substantiation rules, maintained required records, and cooperated with reasonable IRS requests. This evidentiary dynamic is exemplified in <em>Suder v. Commissioner</em> (T.C. Memo. 2014-201), where the United States Tax Court accepted corroborated testimonial evidence from technical leadership to sustain a 75% allocation of a <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">chief executive's reasonable compensation</a> to qualified research activities. Conversely, decisions such as <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113) demonstrate that uncorroborated or inconsistent testimony offered to establish technical uncertainty post-facto results in complete credit disallowance and potential <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> under IRC § 6662."
+    },
+    {
+      "type": "heading",
+      "text": "Regulatory and Judicial Foundations of R&D Substantiation"
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Burden of Proof and Recordkeeping Mandates"
+    },
+    {
+      "type": "paragraph",
+      "text": "Income tax credits, including the research credit under IRC § 41, constitute matters of legislative grace and are allowed strictly as clearly provided by statute. Consequently, statutory provisions granting tax credits are narrowly construed against the taxpayer, who bears the initial burden of proving entitlement to the claimed benefit under Tax Court Rule 142(a) and <em>Welch v. Helvering</em>, 290 U.S. 111, 115 (1933). In civil tax deficiency litigation before the United States Tax Court, the Commissioner's determinations carry a presumption of correctness, and the governing standard of proof is the preponderance of the evidence, requiring the petitioner to demonstrate that a contested factual proposition is more likely true than not, representing a probability threshold exceeding 50%. By contrast, in civil actions initiated by the United States to recover an allegedly erroneous refund—such as <em>United States v. McFerrin</em>, 570 F.3d 672 (5th Cir. 2009)—the government bears the affirmative burden of proof, though the substantive statutory requirements of IRC § 41 remain narrowly construed."
+    },
+    {
+      "type": "paragraph",
+      "text": "The statutory anchor for all federal tax substantiation is IRC § 6001, which obligates every person liable for any tax imposed by the Internal Revenue Code to keep such records, render such statements, make such returns, and comply with such rules and regulations as the Secretary of the Treasury may prescribe. Treasury Regulation § 1.6001-1(a) operationalizes this mandate by requiring taxpayers to keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown in any return of tax or information. Treasury Regulation § 1.6001-1(e) further provides that such books and records shall be kept available at all times for inspection by authorized internal revenue officers or employees and retained so long as their contents may become material in the administration of any internal revenue law. Within the specific domain of the research credit, Treasury Regulation § 1.41-4(d) (promulgated under T.D. 9104) requires that a taxpayer claiming a credit under IRC § 41 \"must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\". To satisfy the substantive four-part test of IRC § 41(d) and IRC § 174, this evidentiary record must demonstrate that: (1) the expenditures qualify as expenses under IRC § 174 undertaken to eliminate uncertainty concerning the capability, method, or appropriate design of a product or process; (2) the research was undertaken for the purpose of discovering information that is technological in nature, relying on principles of physical or biological sciences, engineering, or computer science under IRC § 41(d)(1)(B)(i); (3) the application of that information was intended to be useful in the development of a new or improved business component of the taxpayer under IRC § 41(d)(1)(B)(ii) and § 41(d)(2)(B); and (4) substantially all—defined by Treasury Regulation § 1.41-4(a)(6) as at least 80%—of the activities constituted elements of a systematic process of experimentation for a qualified purpose relating to new or improved function, performance, reliability, or quality under IRC § 41(d)(1)(C) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)(A)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer fails to maintain or present accurate records, that omission weighs heavily against the taxpayer's evidentiary position and constitutes a basis for disallowing the claimed credit. Although a trial court possesses discretion to accept credible oral testimony when documentary records are incomplete, taxpayers cannot rely upon judicial leniency when statutory or regulatory frameworks mandate specific substantiation. Nevertheless, under IRC § 7491(a)(1), if an eligible taxpayer introduces \"credible evidence\" with respect to any factual issue relevant to ascertaining the taxpayer's tax liability in a court proceeding, the burden of proof shifts to the Secretary with respect to that issue. Under IRC § 7491(a)(2), however, this burden shift applies only if the taxpayer has complied with all statutory requirements to substantiate the item, maintained all records required by the Code, cooperated with reasonable IRS requests for witnesses, information, documents, meetings, and interviews, and satisfied the applicable net worth limitations for partnerships, corporations, or trusts. In this statutory context, as articulated in <em>Higbee v. Commissioner</em>, 116 T.C. 438, 442 (2001), and <em>Griffin v. Commissioner</em>, 315 F.3d 1017, 1021 (8th Cir. 2003), credible evidence is defined as the quality of evidence that, after critical analysis, a court would find sufficient upon which to base a decision on the issue if no contrary evidence were submitted, evaluated without regard to the judicial presumption of IRS correctness."
+    },
+    {
+      "type": "subheading",
+      "text": "Primary Documentation Versus Secondary Testimonial Evidence"
+    },
+    {
+      "type": "paragraph",
+      "text": "In R&D tax examinations and litigation, both the IRS and the federal judiciary enforce a strict hierarchy between primary contemporaneous documentation and secondary testimonial reconstruction. <a href=\"/us/glossary/contemporaneous-documentation\">Contemporaneous documentation</a>—generated in the ordinary course of engineering, software development, or scientific experimentation—serves as the primary proof that a project satisfied the statutory four-part test of IRC § 41(d). Such primary artifacts include design trials, prototype testing notes, laboratory results, source-code revision logs, development tickets, engineering drawings, internal technical emails, and meeting minutes. Secondary oral or written testimony is traditionally admitted to reconstruct facts when primary records have been involuntarily lost or destroyed through circumstances beyond the taxpayer's control, or to explain how existing technical artifacts relate to specific business components and <a href=\"/us/glossary/qualified-services\">qualified services</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, the IRS Audit Techniques Guide for IRC § 41 (\"Substantiation and Recordkeeping\") establishes a decisive constraint on testimonial estimation in research credit claims. Reflecting the judicial principles of <em>Cohan v. Commissioner</em>, 39 F.2d 540, 543–544 (2d Cir. 1930), and appellate precedent such as <em>United States v. McFerrin</em>, 570 F.3d 672, 679 (5th Cir. 2009), the ATG states that the IRS is not required to accept estimates of qualified research expenses if documentation exists to verify the actual amount of such expenses. According to the ATG, courts will allow the use of an estimation method when the taxpayer lacks contemporaneous records only so long as two cumulative conditions are satisfied: first, the taxpayer must establish that it engaged in qualified research activities as defined in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)</a>; and second, the failure to maintain a proper system to capture relevant information cannot be an \"inexactitude is of their own making\". Consequently, estimation methods supported by testimony are permitted in cases where the taxpayer has already demonstrated that qualified research activities occurred, and the remaining issue is quantifying the exact dollar amount paid or incurred in the qualified research activity. Even within this narrow quantification corridor, the taxpayer must provide objective factual support for every assumption underlying the testimonial estimate to meet its burden of proof."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, IRS examination guidelines and Tax Court decisions—such as the Tax Court's disallowance of unsubstantiated executive wage estimates in litigation involving Mr. Shami and Mr. McCall—draw a sharp legal distinction between minor, unavoidable recordkeeping imprecision and a systemic failure to document. Quoting the classic <em>Cohan</em> limitation, the IRS ATG emphasizes that taxpayers cannot benefit from estimation where the \"inexactitude is of their own making\". When an enterprise fails to implement any systematic project-tracking, version-control, or time-allocation mechanism for its technical personnel, the IRS treats the resulting evidentiary vacuum as a self-inflicted deficiency rather than an accidental loss of records. Under this standard, attempting to use retrospective witness testimony to establish fundamental qualification elements—such as asserting that a technical uncertainty existed at the outset of a project or that engineers followed a structured hypothesis-testing methodology—is structurally flawed. Testimony succeeds in R&D controversies when it allocates costs to activities whose technical eligibility is independently corroborated by contemporary project artifacts, not when it attempts to invent qualification post-hoc."
+    },
+    {
+      "type": "heading",
+      "text": "Assessing Credibility: Judicial and Regulatory Scrutiny Standards"
+    },
+    {
+      "type": "subheading",
+      "text": "Personal Knowledge Under Federal Rule of Evidence 602 and Temporal Decay"
+    },
+    {
+      "type": "paragraph",
+      "text": "The threshold admissibility requirement for any fact-witness testimony in federal tax litigation is governed by Federal Rule of Evidence (FRE) 602—applicable to United States Tax Court proceedings pursuant to IRC § 7453 and Tax Court Rule 143(a)—which mandates that a witness may testify to a matter only if sufficient evidence is introduced to support a finding that the witness has personal knowledge of the matter. Applied to IRC § 41 controversies, FRE 602 dictates that a testifying witness must have had direct, firsthand involvement in executing or directly supervising the qualified research activities, confronting the technical uncertainties, or managing the project and time-tracking systems at issue. The IRS explicitly incorporates this evidentiary standard into its IRC § 41 Audit Techniques Guide (\"Substantiation and Recordkeeping\"), instructing examiners that \"[c]redible oral testimony by individuals with personal knowledge of the issues may be helpful in evaluating and/or supplementing a taxpayer's contemporaneous documentation,\" and noting that in an R&D context \"[t]he interviewee will often be a technical or supervisory person with specialized knowledge of the issue in question\" rather than high-level financial or administrative executives who lacked day-to-day technical participation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond threshold admissibility under FRE 602, the IRS Research Credit Claims Audit Techniques Guide (RCCATG, revision May 2008) directs revenue agents and IRS engineers to evaluate the probative weight of oral testimony and employee interviews using two primary diagnostic criteria: first, whether the oral testimony came from employees who actually performed the claimed qualified research activities, and second, how much time elapsed between the performance of the research and the delivery of the testimony. This second criterion exposes a profound structural vulnerability in R&D tax administration. Because IRS examinations—particularly where research credit claims are submitted near the end of an examination cycle or on <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a>—and subsequent Tax Court proceedings routinely occur three to four years, and frequently longer, after the close of the tax year in which the research was conducted, witness recollection is inherently subject to temporal decay. When an engineer or scientist is asked during an examination to recall specific technical obstacles and weekly time allocations from four or more years prior without contemporaneous memory anchors, examiners and trial courts systematically challenge the reliability of the witness's memory under FRE 602, <em>United States v. McFerrin</em>, and RCCATG guidelines. Consequently, converting raw employee recollections into dated, structured interview memoranda shortly after the tax year closes is essential to neutralize temporal scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Judicial Criteria for Witness Reliability and Technical Plausibility"
+    },
+    {
+      "type": "paragraph",
+      "text": "When evaluating testimonial evidence in tax litigation, federal courts apply three foundational credibility criteria: plausibility, consistency, and the absence of defects in perception or bias. Plausibility requires that the witness's account align with established scientific or engineering principles, industry norms, and the undisputed factual record. Consistency demands that oral testimony harmonize with prior statements, internal company records, and contemporaneous project documentation. Finally, the factfinder assesses whether the witness possessed the direct opportunity to observe the technical events and retains the cognitive ability to recall them accurately without distortion from financial self-interest—recognizing, as the Eighth Circuit stated in <em>Marcella v. Commissioner</em>, 222 F.2d 878, 883 (8th Cir. 1955), that the Tax Court is not compelled to believe evidence that seems improbable or to accept as true uncorroborated testimony of interested witnesses even though uncontradicted."
+    },
+    {
+      "type": "paragraph",
+      "text": "In IRC § 41 litigation, the plausibility and consistency requirements carry acute technical weight. As the Tax Court underscored in <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113), general engineering complexity, routine building code compliance, or standard linear design work does not equate to the statutory technical uncertainty required by IRC § 41(d) and <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a>. If a witness testifies that a technical team faced profound uncertainty regarding a design parameter that was readily solvable through publicly available engineering manuals, historical data, vendor specifications, or standard mathematical calculations—such as performing calculations on available airflow data to determine HVAC duct sizing—the court will reject the testimony as failing to establish investigatory experimentation regardless of the witness's demeanor or professional engineering credentials."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moreover, testimonial credibility is tightly bound to procedural consistency with the taxpayer's initial administrative filing. When a taxpayer submits a research credit claim on <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (<em>Credit for Increasing Research Activities</em>) or an accompanying refund statement under Treasury Regulation § 301.6402-2(b)(1), that filing establishes a formal factual narrative identifying specific business components and research activities. To remain credible during subsequent examination or trial, witness testimony must corroborate and align with that administrative narrative. Any material divergence between a witness's oral testimony and either lower-level contemporaneous project notes or the formal description on Form 6765 undermines witness reliability and exposes the claim to summary disallowance."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Credibility Factor",
+        "Legal & Regulatory Basis",
+        "Operational Impact in R&D Tax Controversies"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Personal Knowledge & Expertise",
+            "Federal Rule of Evidence 602; IRC § 7453; Tax Court Rule 143(a); IRS IRC § 41 ATG",
+            "Witness must have directly performed or supervised the research; testimony from non-technical executives or administrative staff regarding technical uncertainty is routinely rejected."
+          ]
+        },
+        {
+          "cells": [
+            "Temporal Proximity (Time Elapsed)",
+            "IRS Research Credit Claims ATG (RCCATG, rev. May 2008); <em>United States v. McFerrin</em>, 570 F.3d 672 (5th Cir. 2009)",
+            "Audits typically occur 3 to 4 years post-filing; unanchored testimony relying on distant memory is heavily discounted due to temporal decay."
+          ]
+        },
+        {
+          "cells": [
+            "Technical Plausibility",
+            "Standard Judicial Credibility Doctrine; <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113)",
+            "Claimed uncertainties must reflect genuine technological unknowns rather than routine engineering calculations, aesthetic design, or standard compliance protocols."
+          ]
+        },
+        {
+          "cells": [
+            "Internal & Procedural Consistency",
+            "Standard Judicial Credibility Doctrine; Treas. Reg. § 301.6402-2(b)(1); Form 6765 / IR-2021-203",
+            "Oral accounts must align with lower-level contemporaneous design documents and the business component narratives submitted on Form 6765."
+          ]
+        },
+        {
+          "cells": [
+            "Objective Corroboration & Nexus",
+            "IRC § 6001; Treas. Reg. § 1.41-4(d); <em>Suder v. Commissioner</em> (T.C. Memo. 2014-201)",
+            "Testimony must anchor time estimates to objective project artifacts (e.g., Git commits, test logs, emails) and establish a direct nexus to specific business components."
+          ]
+        },
+        {
+          "cells": [
+            "Burden-Shifting Sufficiency",
+            "IRC § 7491(a)(1)–(2); Tax Court Rule 142(a); <em>Higbee v. Commissioner</em>, 116 T.C. 438 (2001)",
+            "Introducing meticulous, corroborated credible evidence alongside statutory recordkeeping and audit cooperation satisfies the threshold required to shift the burden of proof to the IRS."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Comparative Evaluation: Vague Managerial Estimates Versus Corroborated Engineering Accounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the first scenario (Scenario A, the \"Vague Approach\"), a department manager testifies during an examination: \"I think the team spent about 40% of their time on R&D this year. We tried a lot of new things, and it was really complicated work.\" IRS examiners and the Tax Court systematically reject this category of testimony under the RCCATG and IRC § 6001. It relies on an unsubstantiated, round-number \"flat estimate\" (40%), fails to establish a direct nexus between specific employees and defined business components under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(B)</a>, conflates general task complexity with statutory technical uncertainty under IRC § 174, and omits any description of a structured process of experimentation under IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the contrasting scenario (Scenario B, the \"Credible Approach\"), a lead software engineer testifies: \"Between March and May, I worked exclusively on the API latency issue (Project X). We hypothesized the database lock was the cause. I recall rewriting the query logic three times. I checked my commit history, and I have 45 commits related to 'latency-fix' during those 12 weeks.\" This testimony satisfies the judicial and regulatory credibility standards. The witness possesses firsthand personal knowledge under FRE 602, isolates a discrete business component (Project X / API subsystem), articulates a <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">specific technical uncertainty</a> (API latency caused by database locking) and a testable hypothesis, describes an iterative process of experimentation (rewriting and testing query logic three times), and anchors the 12-week time allocation (March through May) in objective, contemporaneous electronic records (45 version-control commits tagged latency-fix). By combining high technical specificity, direct business-component nexus, and digital artifact corroboration, this testimony exceeds the 75% composite threshold in the Credibility Analyzer framework required for a highly defensible audit posture."
+    },
+    {
+      "type": "heading",
+      "text": "Case Law Analysis: The Dichotomy of Quantification Versus Qualification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal court decisions adjudicating IRC § 41 controversies establish a clear doctrinal divide: credible testimony is highly effective when deployed to quantify expenses for projects whose technical eligibility is otherwise substantiated by primary records, but consistently fails when offered as a retrospective substitute for missing qualification documentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Successful Testimonial Quantification: Suder v. Commissioner and McFerrin v. United States"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court's memorandum opinion in <em>Suder v. Commissioner</em> (T.C. Memo. 2014-201) represents a premier judicial precedent validating the strategic use of credible testimony to substantiate estimated QRE wage allocations. In <em>Suder</em>, the taxpayer—Estech Systems, Inc. (ESI), a telecommunications technology company founded by Eric Suder in 1987 that designed and manufactured business telephone systems for tax years 2004 through 2007—claimed research credits based on spreadsheet estimates of employee time prepared during a study by a third-party tax advisor in the absence of contemporaneous time-tracking logs. Evaluating 12 representative product development projects selected by the parties, the Tax Court (Judge Vasquez) found that 11 of the 12 projects constituted qualified research activities under IRC § 41(d) and sustained a 75% allocation of CEO Eric Suder's qualified compensation to qualified research services (alongside 25% for the COO, 100% for the Senior Vice President, and 100% for engineers), explicitly resting its holding on \"sufficient and credible documentary and testimonial evidence\". In addition to accepting fact-witness testimony from technical personnel detailing the time devoted to product development phases—including concept formation, hardware and software engineering, alpha and beta testing, and fixing bugs during beta testing—the court evaluated expert witness testimony regarding the reasonableness of Mr. Suder's overall compensation (determining that approximately 20% of the total compensation paid to Mr. Suder, who owned 90% of ESI, represented reasonable compensation for his technical work), to which the 75% qualified research allocation was applied."
+    },
+    {
+      "type": "paragraph",
+      "text": "Equally important, <em>Suder</em> clarified how testimony supports the statutory uncertainty and experimentation inquiries under IRC § 174 and IRC § 41(d). Rejecting the IRS's argument that ESI's products were merely routine repackaging and rearranging of earlier designs using engineering \"know-how,\" the Tax Court confirmed that product development is often evolutionary rather than revolutionary and that a business does not need to \"reinvent the wheel\" for its development efforts to qualify for the research credit. Credible testimony from the technical staff—corroborated by ESI's ISO-9000-influenced systematic development documentation—established that although the overarching functional goal of the telecommunications system was known to be technically achievable, genuine uncertainty existed regarding the specific method and appropriate system design required to achieve that goal. Because contemporaneous project records already confirmed the existence and systematic workflow of the development projects, the witnesses' detailed oral accounts provided the narrative bridge necessary to link payroll records to qualified engineering activities. This outcome aligns with Fifth Circuit precedent in <em>United States v. McFerrin</em>, 570 F.3d 672, 679 (5th Cir. 2009) (as well as <em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50), which held that once a taxpayer establishes that qualified research activities occurred, trial courts should look to testimony and other evidence, including the institutional knowledge of employees, to determine a fair estimate of the resulting credit under the <em>Cohan</em> framework rather than imposing a zero-dollar recovery."
+    },
+    {
+      "type": "subheading",
+      "text": "Failed Post-Hoc Qualification: Phoenix Design Group, Little Sandy Coal, and Trinity Industries"
+    },
+    {
+      "type": "paragraph",
+      "text": "In stark contrast to <em>Suder</em>, the Tax Court's ruling in <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113, decided December 23, 2024, Dkt. No. 4759-22) illustrates the collapse of testimony when used to manufacture technical qualification post-hoc. The taxpayer, a C-corporation mechanical, electrical, plumbing, and fire protection (MEPF) <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">engineering design firm</a>, claimed research credits across multi-year audit periods (reported in practitioner summaries as covering tax years 2013–2016 and 2015–2019) for building system design projects. Evaluating a judgment sample of three major projects—the Gerald Champion Military Psychiatric Unit, Baptist Memorial Health North Mississippi Oxford (BMHNMO), and the Vanderbilt University Engineering and Science Building (VUESB)—the Tax Court <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallowed the credits</a> in full and upheld a 20% accuracy-related penalty under IRC § 6662 per the parties' stipulation, holding that the taxpayer failed to substantiate the presence of objective technical uncertainty under IRC § 174 and a systematic process of experimentation under IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The decisive evidentiary failure in <em>Phoenix Design Group</em> was the taxpayer's reliance on oral trial testimony that conflicted with lower-level contemporaneous design documents and project records. While company witnesses testified broadly that their engineers confronted novel technical uncertainties and performed iterative experimentation across the firm's six-stage design process, the contemporaneous project files revealed a linear workflow consisting of routine engineering calculations on available data (such as performing calculations to determine duct size based on airflow), standard building code compliance, and ordinary design revisions. Giving preference to <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous documentation</a> over retrospective testimony (consistent with the Tax Court's approach in <em>George v. Commissioner</em>, T.C. Memo. 2023-84, and <em>Moore v. Commissioner</em>, T.C. Memo. 2023-20), the court concluded that the taxpayer was attempting to use trial testimony to assert technical uncertainty where primary documentation showed none. Furthermore, because the taxpayer lacked contemporaneous, activity-level time records mapping employee hours to specific subcomponents, the court noted that it could not apply the shrinking-back rule to salvage eligibility at the individual discipline level. <em>Phoenix Design Group</em> reinforces the rule that testimony contradicting contemporaneous engineering records lacks credibility and cannot retroactively transform routine commercial design into qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "Parallel decisions in <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, T.C. Memo. 2021-15, aff'd, 62 F.4th 287 (7th Cir. 2023), and <em>Trinity Industries, Inc. v. United States</em>, 757 F.3d 400 (5th Cir. 2014) (affirming in part and vacating in part the district court's 2010 decision in 691 F. Supp. 2d), further cement the requirement for documented experimental methodology. In <em>Little Sandy Coal</em>, the Tax Court and the Seventh Circuit denied research credits for shipbuilding projects (an Apex tank barge and a dry dock fabricated by the taxpayer's subsidiary, Corn Island Shipyard) because the taxpayer failed to prove that \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\"—defined by Treasury Regulation § 1.41-4(a)(6) as at least 80%—of the research activities constituted elements of a structured process of experimentation under IRC § 41(d)(1)(C). The Tax Court held that the 80% threshold applies to research <em>activities</em> rather than physical subcomponents, that routine production fabrication and direct support or supervision services under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC § 41(b)(2)(B)</a> could not be included in the numerator of the 80% experimentation fraction as activities directly \"engaged in\" experimentation, and that without records documenting the portion of employee time spent on experimentation, the court could not estimate the fraction under <em>Cohan</em> and <em>McFerrin</em>. Similarly, in <em>Trinity Industries</em>, the federal courts disallowed research credits for the <em>Hurley Dredge</em> vessel project after determining that the engineering work consisted primarily of adapting and improving an existing vessel design through minor modifications, failing the statutory 80% process-of-experimentation test. Across both cases, generalized witness testimony asserting that vessel construction was experimental could not cure the absence of contemporaneous documentation proving that at least 80% of the research activities followed a scientific process of evaluating alternatives."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Litigation Dimension",
+        "Permissible Quantification (Suder v. Commissioner)",
+        "Prohibited Post-Hoc Qualification (Phoenix Design Group / Little Sandy Coal / Trinity Industries)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Primary Evidentiary Function",
+            "Quantifying QRE wage allocations (sustaining a 75% CEO wage allocation) for established R&D projects.",
+            "Retrospectively asserting technical uncertainty or the 80% process-of-experimentation threshold."
+          ]
+        },
+        {
+          "cells": [
+            "Contemporaneous Document Status",
+            "Project existence and systematic development nature documented; time-tracking records incomplete without deliberate negligence.",
+            "Project files either absent or affirmatively show routine linear design, code compliance, production fabrication, or minor modifications."
+          ]
+        },
+        {
+          "cells": [
+            "Corroboration & Consistency",
+            "Fact testimony corroborated by ISO-9000 development workflows, expert compensation valuation, financial records, and defined technical roles.",
+            "Oral testimony inconsistent with lower-level contemporaneous design notes, engineering drawings, and routine calculation sheets."
+          ]
+        },
+        {
+          "cells": [
+            "Judicial Disposition",
+            "Testimony accepted as credible; estimated QRE allocations sustained under IRC § 41 and <em>Cohan</em> / <em>McFerrin</em> principles.",
+            "Testimony rejected as implausible or uncorroborated; claimed R&D tax credits disallowed in full (with IRC § 6662 penalties upheld in <em>Phoenix Design Group</em>)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Bottom-Up Wage Quantification Versus Flat Estimation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the operational mechanics of these judicial rules, consider a hypothetical software engineering enterprise, Apex Cloud Systems (Hypothetical), evaluating QRE wage allocations for two employees during a 50-week work year (at 40 hours per week), representing 2,000 total annual hours per employee at an annual salary of $160,000 each. For Employee A, a Lead Systems Architect, the taxpayer constructs a corroborated bottom-up reconstruction aligned with the evidentiary standards of <em>Suder</em> and <em>Little Sandy Coal</em>. Contemporaneous Git repository logs confirm 45 commits tagged latency-fix across a 12-week sprint from March through May (480 hours) on Business Component 1 (Distributed Database Engine), while automated test logs document 26 weeks (1,040 hours) of hypothesis testing on Business Component 2 (Zero-Copy Serialization Protocol), alongside 4 weeks (160 hours) of <a href=\"/us/glossary/direct-supervision\">direct technical supervision</a> of junior engineers' qualified experimentation under IRC § 41(b)(2)(B)(ii). The remaining 8 weeks (320 hours) of Employee A's year were devoted to routine client maintenance and <a href=\"/us/glossary/general-and-administrative-functions\">general administration</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Evaluating the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" (80%)</a> process-of-experimentation threshold established in Treasury Regulation § 1.41-4(a)(6) and <em>Little Sandy Coal</em>, gross documented technical project hours across Business Component 1 (480 hours), Business Component 2 (1,040 hours), and associated direct technical supervision (160 hours) total 1,680 hours out of 2,000 total annual hours. During structured SME interviews, Employee A provides credible testimony clarifying that within the 26-week Component 2 window, 180 hours were devoted to post-production user-interface formatting, which does not qualify under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)</a>. Subtracting those 180 non-qualified hours from the 1,680 gross project hours yields 1,500 net qualified hours. Whether the experimentation ratio is evaluated across the 1,680 hours assigned to the project components (1,500 hours / 1,680 hours = 89.29%), strictly across the 1,520 direct component hours excluding supervision per <em>Little Sandy Coal</em> (1,340 hours / 1,520 hours = 88.16%), or on a gross annual basis (1,680 hours / 2,000 hours = 84.00%), the ratio exceeds the 80% statutory threshold under Treasury Regulation § 1.41-4(a)(6), confirming that both business components satisfy the process-of-experimentation requirement. Dividing the 1,500 net qualified hours by 2,000 total annual hours produces a substantiated QRE wage allocation of 75.00% ($120,000.00 of Employee A's $160,000 annual salary), mirroring the exact 75% benchmark sustained in <em>Suder v. Commissioner</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, for Employee B, an Engineering Manager earning $160,000 across 2,000 annual hours, the claim relies on an uncorroborated flat estimate patterned after Scenario A and <em>Phoenix Design Group</em>. Without referencing specific business components, version-control logs, or design specifications, Employee B offers a generalized assertion that \"about 40% of time (800 hours out of 2,000 annual hours, or $64,000 in claimed wages) was spent on complicated R&D work\". Because this testimony fails to identify a technical uncertainty under IRC § 174, lacks nexus to any defined business component under IRC § 41(d)(2)(B), provides zero factual support for the 40% assumption, and conflicts with contemporaneous project records showing routine compliance tasks, the entire $64,000 wage claim is disallowed ($0.00 allowed QREs) under the IRS ATG and <em>Phoenix Design Group</em>."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Metric / Calculation Step",
+        "Employee A: Lead Systems Architect (Corroborated Bottom-Up Method)",
+        "Employee B: Engineering Manager (Uncorroborated Flat Estimate)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Annual Base Salary & Total Hours",
+            "$160,000 across 2,000 hours (50 weeks at 40 hours/week)",
+            "$160,000 across 2,000 hours (50 weeks at 40 hours/week)"
+          ]
+        },
+        {
+          "cells": [
+            "Documented Component & Supervisory Hours",
+            "480 hrs (BC1) + 1,040 hrs (BC2) + 160 hrs (Supervision) = 1,680 gross project hours",
+            "800 hours claimed via unsubstantiated 40% flat estimate"
+          ]
+        },
+        {
+          "cells": [
+            "Non-Qualifying Adjustment via SME Testimony",
+            "Less 180 hours (<a href=\"/us/glossary/research-after-commercial-production\">post-production UI formatting</a> in BC2) = 1,500 net qualified hours",
+            "No component nexus, artifact corroboration, or uncertainty identification"
+          ]
+        },
+        {
+          "cells": [
+            "Process-of-Experimentation Ratio (≥80% Rule)",
+            "1,500 / 1,680 = 89.29% assigned basis (1,340 / 1,520 = 88.16% direct basis; 1,680 / 2,000 = 84.00% gross)",
+            "0.00% substantiated experimentation (conflicts with routine compliance records)"
+          ]
+        },
+        {
+          "cells": [
+            "Substantiated QRE Wage Allocation %",
+            "1,500 net qualified hours / 2,000 total annual hours = 75.00%",
+            "40.00% claimed ($64,000); 0.00% allowed under IRS ATG and <em>Phoenix Design Group</em>"
+          ]
+        },
+        {
+          "cells": [
+            "Final Allowed QRE Wages",
+            "$120,000.00 (75.00% × $160,000)",
+            "$0.00 ($64,000.00 disallowed in full)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Evolving Compliance Landscape: Proceduralizing Credibility"
+    },
+    {
+      "type": "subheading",
+      "text": "Upfront Substantiation Post-IR-2021-203 and the 2024–2025 Form 6765 Overhaul"
+    },
+    {
+      "type": "paragraph",
+      "text": "The procedural architecture governing R&D tax credit substantiation has shifted decisively from post-filing audit reconstruction toward mandatory upfront disclosure. Initiated by IRS News Release IR-2021-203 (issued October 15, 2021, alongside <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">Office of Chief Counsel Memorandum 20214101F</a> / FAA 20214101F interpreting the specificity mandate of Treasury Regulation § 301.6402-2(b)(1))—which became effective for research credit refund claims filed on or after January 10, 2022—the IRS established five mandatory factual prerequisites that taxpayers had to submit at the time an administrative refund claim was filed. Specifically, the initial mandate required taxpayers to: (1) identify all business components to which the IRC § 41 research credit claim relates for the claim year; (2) describe all research activities performed for each business component; (3) list the names of all individuals who performed each research activity; (4) specify the information each individual sought to discover; and (5) provide the total qualified employee wage expenses, total qualified supply expenses, and total <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">qualified contract research expenses</a> for the claim year on Form 6765 (<em>Credit for Increasing Research Activities</em>)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective June 18, 2024, following extensive practitioner feedback, the IRS modified its <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">administrative refund claim requirements</a> (reflected in Research Credit Refund Claim FAQ 21 and Internal Revenue Manual (IRM) 4.46.3.7.6) by waiving the obligation to submit two of the five elements at the time of initial filing for claims postmarked as of or after June 18, 2024: specifically, taxpayers are no longer required to list the names of the individuals who performed each research activity or the specific information each individual sought to discover when filing the refund claim. (In addition, the IRS extended the 45-day transition window to perfect deficient refund claims notified via Letter 6426C or Letter 6428 through January 10, 2026 on November 25, 2024, and subsequently via IR-2025-99 through January 10, 2027.) Parallel updates to Form 6765 initiated in 2024 and subsequent transition guidance extending through Tax Year 2025—under which the new Section G business component detail (requiring reporting of business components representing at least 80% of total QREs, capped at 50 business components) remains optional for all filers for tax years beginning before 2026 (including Tax Year 2025) before becoming mandatory for tax years beginning after December 31, 2025 per finalized instructions released February 5, 2026, subject to exemptions for qualified small businesses <a href=\"/us/glossary/payroll-tax-credit-election\">electing the payroll tax credit</a> and taxpayers with controlled-group QREs of $1.5 million or less and prior three-year average annual gross receipts of $50 million or less filing on an original return—further refined the reporting mechanics toward a narrative-driven, project-specific compliance standard."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, from an evidentiary standpoint, the June 18, 2024 waiver is strictly a filing-stage procedural relief measure, not a substantive relaxation of IRC § 41 or IRC § 6001 substantiation standards. In FAQ 21 and IRM 4.46.3.7.6, the IRS explicitly retained the rule that both waived elements—the identities of the individuals who performed each research activity and the information each individual sought to discover—may be requested and must be produced if a refund claim involving the research credit is selected for examination. Furthermore, because the upfront filing still requires identifying every business component and describing what the taxpayer did and how they did it by business component, the initial Form 6765 or refund claim submission creates a formal administrative narrative baseline under Treasury Regulation § 301.6402-2(b)(1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Any oral or written testimony presented during a subsequent audit or litigation must align with that initial administrative narrative. As illustrated by federal litigation in <em>Premier Tech, Inc. v. United States</em>, No. 2:20-cv-00501 (D. Utah July 15, 2021) and No. 2:20-cv-890 (D. Utah July 15, 2022), and <em>Harper v. United States</em>, 847 F. App'x 408 (9th Cir. 2021) (reversing No. 18cv2110 DMS (S.D. Cal. Apr. 25, 2019)), the IRS aggressively pursues procedural objections under Treasury Regulation § 301.6402-2(b)(1) when refund claims are perceived to lack requisite project-level specificity. Although the taxpayers in <em>Premier Tech</em> and <em>Harper</em> prevailed on specific procedural motions regarding administrative claim sufficiency and IRS waiver after multi-year examinations, those controversies catalyzed the issuance of FAA 20214101F and IR-2021-203 and underscore the acute litigation risk triggered when a claim narrative and its supporting evidentiary base fail to apprise the Commissioner of the exact factual basis of the credit. In the post-IR-2021-203 compliance era, testimony cannot operate as an improvised defense of last resort; it must be engineered prior to filing so that the upfront administrative narrative and subsequent witness accounts mutually reinforce one another."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Disclosure Element",
+        "Original IR-2021-203 Mandate (Effective Post-Jan 10, 2022)",
+        "June 2024 Administrative Update & Form 6765 Status",
+        "Strategic Implication for Testimonial Evidence"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Identification of Business Components",
+            "Required at initial refund claim filing.",
+            "Required at refund filing; Form 6765 Section G optional for TY 2025 transition (mandatory after 2025 for non-exempt filers).",
+            "Testimony must anchor all time and technical accounts strictly to these named components; deviation risks variance challenges."
+          ]
+        },
+        {
+          "cells": [
+            "2. Description of Research Activities Performed",
+            "Required for each business component at filing.",
+            "Required at filing (describing what the taxpayer did and how they did it by business component).",
+            "Establishes a binding administrative narrative; subsequent witness testimony must corroborate this written account without contradiction."
+          ]
+        },
+        {
+          "cells": [
+            "3. Names of Individuals Performing Research",
+            "Required for each business component at filing.",
+            "Waived at initial refund filing effective June 18, 2024; mandatory upon IRS examination.",
+            "Internal interview memoranda identifying SMEs with FRE 602 personal knowledge must be compiled pre-filing to prepare for audit production."
+          ]
+        },
+        {
+          "cells": [
+            "4. Information Each Individual Sought to Discover",
+            "Required for each individual at filing.",
+            "Waived at initial refund filing effective June 18, 2024; mandatory upon IRS examination.",
+            "Capturing this technical uncertainty narrative contemporaneously prevents memory decay across the 3-to-4-year examination lag."
+          ]
+        },
+        {
+          "cells": [
+            "5. <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Total QREs</a> (Wages, Supplies, Contract Research)",
+            "Required at initial refund claim filing via Form 6765.",
+            "Required at filing via Form 6765.",
+            "Testimonial wage allocations must reconcile mathematically to the exact QRE totals reported on Form 6765."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Practitioner Due Diligence Under Circular No. 230 and Technological Corroboration"
+    },
+    {
+      "type": "paragraph",
+      "text": "The heightened procedural scrutiny surrounding Form 6765 and research credit refund claims directly implicates the professional responsibilities of tax advisors under Treasury Department Circular No. 230 (31 C.F.R. Part 10, Subpart B). Specifically, 31 C.F.R. § 10.22 (\"Diligence as to accuracy\"), as modified by §§ 10.34 and 10.37, imposes an affirmative duty of due diligence on practitioners in preparing or assisting in the preparation of, approving, and filing tax returns, documents, affidavits, and other papers relating to IRS matters, as well as in determining the correctness of oral or written representations made by the practitioner to the Department of the Treasury or to clients. Satisfying this due diligence standard in R&D credit engagements requires practitioners to verify not only that the client possesses primary financial and project documentation, but also that the underlying technical personnel can provide coherent, truthful, and corroborated testimony capable of withstanding examination by IRS engineers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the IRS Research Credit Claims ATG explicitly states that under IRC § 6001 examiners are not required to accept estimates, extrapolations, or oral testimony without adequate supporting documentation, integrating modern workflow and data-collection technologies significantly strengthens testimonial credibility. Automated software development platforms, version-control repositories (such as Git commit histories), issue-tracking systems (such as development tickets), and real-time <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">R&D expense-tracking software</a> generate objective, time-stamped metadata. When a technical witness uses these contemporary digital artifacts to anchor their recollection—transforming subjective memory into verifiable data points—the resulting testimony achieves the corroboration threshold necessary to survive audit scrutiny and shift the burden of proof under IRC § 7491(a)."
+    },
+    {
+      "type": "heading",
+      "text": "Conclusions and Operational Recommendations for Audit-Ready Testimony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credible testimony occupies a tightly circumscribed yet indispensable role in R&D tax credit substantiation. While oral or written witness statements cannot substitute for primary documentation proving that a project met the technical uncertainty and experimentation thresholds of IRC § 41(d) and IRC § 174, corroborated testimony from firsthand technical personnel remains essential for quantifying QRE wage allocations and weaving disparate engineering records into a coherent narrative."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Clarifications: Quantification Safe Harbors and Model Audit Protocol Agreements"
+    },
+    {
+      "type": "paragraph",
+      "text": "From a tax policy perspective, the IRS should promulgate formal administrative guidance—such as a Revenue Procedure—that codifies objective evidentiary standards for evaluating oral and written testimony in IRC § 41 examinations. This guidance should explicitly formalize the doctrinal boundary established between <em>Suder v. Commissioner</em> (T.C. Memo. 2014-201) and <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113), permitting corroborated testimonial estimates to quantify QREs once project qualification is established via primary records while disallowing uncorroborated testimony offered to prove initial technical eligibility. Establishing a structured \"Credible Testimony Safe Harbor\" for QRE quantification, coupled with objective proxy metrics—such as repository commit frequency, project complexity indices, and historical staffing ratios—to evaluate testimony after multi-year examination lags, would replace subjective examiner skepticism under the RCCATG with predictable administrative standards."
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition, building upon the existing framework for Research Credit Recordkeeping Agreements (RCRAs) authorized under IRS Notice 2004-11 (published in the Internal Revenue Bulletin on February 9, 2004) and incorporated into the IRS IRC § 41 ATG (\"Substantiation and Recordkeeping\"), the Service should establish a standardized Model Audit Protocol Agreement (MAPA) governing prospective R&D recordkeeping and testimonial substantiation across business taxpayers. Whereas RCRAs under Notice 2004-11 currently allow Large and Mid-Size Business (LMSB, now LB&I) taxpayers and examiners to agree at the completion of an examination cycle on the specific prospective records required to prevent substantiation disallowances in future years, a standardized MAPA framework would establish a uniform compliance protocol requiring the taxpayer to execute standardized, dated Interview Memoranda or Certified Affidavits from key technical personnel possessing personal knowledge under FRE 602 within a strict 12-month window following the close of the tax year. Capturing and certifying witness testimony while technical recollection is fresh neutralizes the temporal decay vulnerability caused by three-to-four-year audit cycles and demonstrates \"ordinary business care and prudence\" in preserving the evidentiary record against IRC § 6662 accuracy-related penalties."
+    },
+    {
+      "type": "subheading",
+      "text": "Operational Workflow for Practitioners and Taxpayers"
+    },
+    {
+      "type": "paragraph",
+      "text": "To operationalize credible testimony under current law and satisfy Circular No. 230 due diligence standards (31 C.F.R. §§ 10.22, 10.34, and 10.37), tax practitioners should continue advocating during regulatory comment periods for <a href=\"/us/faq/irs-form-6765-instructions-2024\">Form 6765 instructions</a> that explicitly validate dated internal interview memoranda, while guiding taxpayers through a disciplined three-stage annual workflow. First, tax teams must replace generic, high-level percentage surveys with structured, recorded technical interviews conducted annually with hands-on Subject-Matter Experts—such as engineers, software architects, and project leads—who satisfy the personal knowledge requirement of FRE 602. These interviews must systematically document the \"who, what, where, and why\" of the technical uncertainties encountered and the specific information each individual sought to discover, thereby capturing the exact elements waived at initial refund filing on June 18, 2024 before memory erosion occurs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, practitioners must require testifying engineers to establish a direct nexus by tying their oral accounts to specific business components reported on Form 6765 and to objective, time-stamped project artifacts. Even when <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">formal timesheets</a> do not exist, linking an engineer's recollection to Git commit histories, pull requests, automated test logs, engineering change orders, or technical email threads anchors the testimony in verifiable primary records and prevents the fatal inconsistencies exposed in <em>Phoenix Design Group</em>. Third, taxpayers must quantify QRE allocations through bottom-up logic rather than flat, unsubstantiated round-number estimates such as claiming a blanket 40% or 50% R&D allocation across a department or cost center. <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">Reconstructing employee time</a> from the bottom up by mapping discrete project sprints, release cycles, and experimental iterations—for example, documenting a 12-week window on Project A supported by 45 code commits, followed by a multi-week testing phase on Project B—grounds every estimation assumption in granular project facts, satisfies the IRS ATG substantiation mandate, and positions the taxpayer to sustain substantial wage allocations under <em>Suder</em> and <em>McFerrin</em> or shift the burden of proof under IRC § 7491(a) in litigation."
+    }
+  ]
+}

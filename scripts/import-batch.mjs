@@ -26,7 +26,7 @@ import { prepareDoc } from "./lib/doc-clean.mjs";
 import { makeDescription } from "./lib/describe.mjs";
 import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
 import { refreshPending } from "./lib/pending.mjs";
-import { rewriteLegacyLinks } from "./lib/legacy-links.mjs";
+import { dedupeExternalLinks, rewriteLegacyLinks } from "./lib/legacy-links.mjs";
 import { plainText } from "../src/lib/inline-core.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -89,6 +89,8 @@ async function main() {
       continue;
     }
     const { blocks, capsule, report } = convertDoc(text);
+    // each outside address is linked once per page (the first); a repeat is plain text
+    const repeatsUnlinked = dedupeExternalLinks(blocks);
     if (!blocks.length) {
       problem("the document has no content blocks");
       continue;
@@ -98,12 +100,18 @@ async function main() {
     if (desc.text.length > 155) problem(`the description is ${desc.text.length} characters (at most 155)`);
     result.methods[desc.method] = (result.methods[desc.method] ?? 0) + 1;
     const d = describe(blocks);
-    const rec = { type: r.type, title: r.title, address: r.address, words: d.words, blocks: blocks.length, links: d.links.length, internal: d.links.filter((l) => l.href.startsWith("/")).length, external: d.links.filter((l) => !l.href.startsWith("/")).length, description: desc.text, descriptionMethod: desc.method, removedReferences: report.removedReferences, removedFootnoteMarkers: report.removedFootnoteMarkers, removedH1: report.removedH1, mathReplaced: report.mathReplaced, droppedLinks: report.droppedLinks };
+    const rec = { type: r.type, title: r.title, address: r.address, words: d.words, blocks: blocks.length, links: d.links.length, internal: d.links.filter((l) => l.href.startsWith("/")).length, external: d.links.filter((l) => !l.href.startsWith("/")).length, description: desc.text, descriptionMethod: desc.method, removedReferences: report.removedReferences, removedFootnoteMarkers: report.removedFootnoteMarkers, removedH1: report.removedH1, mathReplaced: report.mathReplaced, droppedLinks: report.droppedLinks, repeatedOutsideLinksUnlinked: repeatsUnlinked };
     if (!capsule) problem("no answer capsule: the description and summary are empty");
     result.imported.push(rec);
     if (!write) continue;
 
-    if (r.type === "case") {
+    if (r.type === "case" && r.create) {
+      // a case with no existing record: created from the row's fields (court and date from the sheet's name, number from the document)
+      const body = blocks[0]?.type === "paragraph" && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
+      const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, jurisdictionGroup: "usa-federal", jurisdictionSlug: "federal", summary: capsule, metaDescription: desc.text, body };
+      fs.writeFileSync(path.join(ROOT, "content", "cases", `${a.slug}.json`), JSON.stringify(rec2, null, 2) + "\n");
+      rec.created = true;
+    } else if (r.type === "case") {
       // when the case was already renamed by an earlier run, its file has the new slug
       const curSlug = fs.existsSync(path.join(ROOT, "content", "cases", `${r.oldSlug}.json`)) ? r.oldSlug : (history.renames[r.oldSlug] ?? r.oldSlug);
       const oldFile = path.join(ROOT, "content", "cases", `${curSlug}.json`);
@@ -117,6 +125,7 @@ async function main() {
       // the capsule is the summary: it is not repeated as the first paragraph of the text
       const body = blocks[0]?.type === "paragraph" && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
       const next = { ...c, slug: newSlug, summary: capsule || c.summary, metaDescription: desc.text, body };
+      delete next.articleTitle; // the old headline belonged to the old document: the new content replaces it
       const newFile = path.join(ROOT, "content", "cases", `${newSlug}.json`);
       if (newSlug !== curSlug) {
         fs.rmSync(oldFile);
@@ -127,7 +136,7 @@ async function main() {
       rec.oldSlug = r.oldSlug;
       rec.slugChanged = newSlug !== r.oldSlug;
     } else {
-      const page = { kind: a.kind, country: a.cc, title: cleanTitle(r.type, r.title), ...(desc.text ? { description: desc.text } : {}), ...(capsule ? { summary: capsule } : {}), language: siteMap.countries[a.cc].htmlLang, status: "published", body: blocks };
+      const page = { kind: a.kind, country: a.cc, title: cleanTitle(r.type, r.titleOverride ?? r.title), ...(desc.text ? { description: desc.text } : {}), ...(capsule ? { summary: capsule } : {}), language: siteMap.countries[a.cc].htmlLang, status: "published", body: blocks };
       const file = path.join(ROOT, "content", "pages", `${r.address.slice(1)}.json`);
       fs.mkdirSync(path.dirname(file), { recursive: true });
       fs.writeFileSync(file, JSON.stringify(page, null, 2) + "\n");

@@ -1,0 +1,568 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Four-Part Test",
+  "description": "The Four-Part Test under IRC Section 41(d) determines whether U.S. business activities count as qualified research for the federal R&D tax credit.",
+  "summary": "The Four-Part Test under IRC Section 41(d) determines whether U.S. business activities count as qualified research for the federal R&D tax credit. Each business component must meet all four criteria: permitted purpose, elimination of technical uncertainty, a process of experimentation covering at least 80% of activities, and reliance on hard sciences. Failing any one disallows its QREs.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The Four-Part Test under IRC Section 41(d) determines whether U.S. business activities count as qualified research for the federal R&D tax credit. Each business component must meet all four criteria: permitted purpose, elimination of technical uncertainty, a process of experimentation covering at least 80% of activities, and reliance on hard sciences. Failing any one disallows its QREs."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Statutory Gatekeeper Function"
+    },
+    {
+      "type": "paragraph",
+      "text": "The <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test (FPT)</a>, codified in Internal Revenue Code (IRC) Section 41(d), operates as the foundational statutory filter governing corporate eligibility for the United States Research and Development (R&D) Tax Credit. Under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)</a>, an expenditure associated with the development or improvement of a product or process qualifies as \"Qualified Research\" only if the underlying activity simultaneously satisfies four distinct, mandatory legal requirements. Specifically, the taxpayer must demonstrate that the activity is undertaken for a Permitted Purpose seeking improved functionality, performance, reliability, or quality; that it aims to achieve the Elimination of Technical Uncertainty concerning capability, method, or appropriate design; that it executes a systematic Process of Experimentation (PoE) to resolve that uncertainty; and that the investigative process is Technological in Nature, grounded fundamentally in the principles of the physical or biological sciences, engineering, or computer science."
+    },
+    {
+      "type": "paragraph",
+      "text": "As established in Treasury Regulation Section 1.41-4 and enforced through Internal Revenue Service (IRS) <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Technique Guides (ATGs)</a>, the Four-Part Test is not evaluated as a holistic corporate standard. Instead, under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC Section 41(d)(2)(A)</a> and Treasury Regulation Section 1.41-4(b)(1), it must be applied separately to each discrete \"business component\" under development, and the inability to substantiate compliance with any single prong of the four criteria mandates the complete disallowance of all Qualified Research Expenditures (QREs) tied to that component. Because the four statutory elements operate conjunctively rather than as a balancing test, exceptional performance on one criterion—such as achieving a commercially transformative engineering breakthrough—cannot cure a failure to document another criterion, such as the systematic evaluation of technical alternatives."
+    },
+    {
+      "type": "paragraph",
+      "text": "From an analytical perspective, rigorous adherence to the Four-Part Test serves a dual function within corporate tax governance: it unlocks substantial capital retention by converting eligible wages, supplies, and contract research expenses into a dollar-for-dollar reduction in federal and state tax liabilities, while simultaneously establishing an evidentiary shield against IRS examination. Judicial scrutiny—most notably the 2023 appellate decision by the U.S. Court of Appeals for the Seventh Circuit in <em>Little Sandy Coal v. Commissioner</em>—demonstrates that technological novelty or commercial success cannot substitute for contemporaneous empirical proof of a systematic Process of Experimentation across at least 80% of a business component's research activities. Consequently, engineering governance, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">project-level time tracking</a>, and real-time technical documentation must be structurally aligned with the statutory architecture of IRC Section 41(d) throughout the research lifecycle."
+    },
+    {
+      "type": "heading",
+      "text": "Regulatory Evolution and Structural Scope of IRC Section 41(d)"
+    },
+    {
+      "type": "subheading",
+      "text": "Elimination of the Discovery Test under the 2003 Final Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical interpretive milestone in the regulatory history of the Four-Part Test centers on the abolition of the administrative \"discovery test\". Prior to the promulgation of the 2003 final regulations (applicable to taxable years ending on or after December 31, 2003, under 26 CFR Section 1.41-4), restrictive IRS administrative interpretations required taxpayers to prove that their research sought to \"discover\" information that exceeded or expanded the common knowledge of skilled professionals within the relevant scientific or engineering field. That earlier standard functioned as an external novelty barrier, frequently disqualifying industrial engineering initiatives unless the taxpayer could establish that the resulting knowledge advanced the broader scientific discipline as a whole."
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2003 final regulations under Treasury Regulation Section 1.41-4(a)(3)(ii) eliminated this industry-wide novelty threshold, explicitly establishing that qualified research does not require a taxpayer to seek information that exceeds or expands the broader state of common scientific or engineering knowledge. Analysis of this regulatory shift indicates a clear legislative and administrative mandate to extend the R&D tax credit beyond pure academic or basic scientific breakthroughs to encompass practical, applied industrial research—such as resolving internal manufacturing bottlenecks, integrating complex subsystems, or overcoming company-specific design constraints. However, removing the external \"discovery\" barrier shifted the primary evidentiary burden onto Test 2 (internal technical uncertainty) and Test 3 (the systematic Process of Experimentation), requiring taxpayers to prove that the technical solution was not readily ascertainable from information available to them at the outset and that they employed a rigorous scientific methodology to evaluate alternatives."
+    },
+    {
+      "type": "subheading",
+      "text": "Business Component Granularity and the Shrink-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(d)(2) and Treasury Regulation Section 1.41-4(b)(1), the Four-Part Test must be applied at the granular level of the \"business component\" rather than across an aggregated capital project, department, or corporate initiative. The statute defines a business component as any product, process, computer software, technique, formula, or invention that is to be held for sale, lease, or license, or used by the taxpayer in its trade or business."
+    },
+    {
+      "type": "paragraph",
+      "text": "When an overarching product or system fails to satisfy all four prongs of the statutory test as a whole—most commonly because non-experimental engineering or routine assembly work dilutes the project below the 80% <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" threshold</a> under the Process of Experimentation test—Treasury Regulation Section 1.41-4(b)(2) mandates the application of the \"shrink-back\" rule. Under this regulatory mechanism, the Four-Part Test is reapplied at progressively narrower subsets or subcomponents of the larger project until either a subcomponent that independently satisfies all four statutory requirements is identified, or the most basic element of the product or process fails to qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "If a manufacturer undertakes a comprehensive capital project to construct an automated production facility, the aggregate facility project cannot qualify as a single business component if it incorporates routine construction, standard structural fabrication, and general floor layout work. Applying the shrink-back rule requires disaggregating the overarching project into discrete functional subsystems: engineering activities directed at developing a novel robotic arm to overcome payload-stability uncertainty may satisfy all four tests as a standalone subcomponent, whereas the architectural design of the factory floor—which addresses only aesthetic, spatial, or economic considerations—must be strictly excluded from the QRE base. In practice, this statutory mechanism necessitates <a href=\"/us/glossary/project-accounting\">project accounting</a> systems capable of tracking labor hours and material supplies at the subcomponent level rather than relying on broad general ledger cost centers that commingle routine capital improvements with experimental engineering."
+    },
+    {
+      "type": "subheading",
+      "text": "Administrative Framework: Treasury Regulations and IRS Audit Technique Guides"
+    },
+    {
+      "type": "paragraph",
+      "text": "While IRC Section 41(d) establishes the statutory perimeter of the Four-Part Test, Treasury Regulation Section 1.41-4 supplies the binding operational definitions governing technological principles, experimentation steps, software classifications, and record retention. Complementing these regulations, the IRS publishes specialized Audit Technique Guides (ATGs)—specifically for Qualified Research Activities and Qualified Research Expenses—which function as operational directives for IRS examiners and engineers during field audits."
+    },
+    {
+      "type": "paragraph",
+      "text": "While ATGs represent administrative guidance rather than statutory law, they dictate how the IRS enforces the taxpayer's burden of proof during examination. The ATGs instruct examiners to evaluate each of the four criteria independently for every claimed business component and to reject claims that rely on high-level project summaries, retrospective oral estimates, or unsubstantiated cost allocations. Consequently, sustaining an R&D credit claim requires establishing a direct, <a href=\"/us/glossary/project-to-expense-nexus\">auditable nexus</a> between financial schedules and project-level technical records for each discrete business component."
+    },
+    {
+      "type": "heading",
+      "text": "Deconstruction of the Four-Part Test Criteria"
+    },
+    {
+      "type": "subheading",
+      "text": "Test 1: Permitted Purpose and the Functionality Threshold"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first statutory criterion, set forth in IRC Section 41(d)(1)(B)(ii) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">Section 41(d)(3)</a> and detailed in Treasury Regulation Section 1.41-4(a)(2), requires that the research activity be undertaken for the purpose of discovering information that is to be applied in the development of a new or improved business component for a \"qualified purpose\". Under IRC Section 41(d)(3)(A), a purpose is qualified under the statute only if it relates to a new or improved function, performance, reliability, or quality of the business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, IRC Section 41(d)(3)(B) explicitly disqualifies activities conducted for purposes relating to style, taste, cosmetic appeal, or seasonal design factors. Engineering activities across industrial domains illustrate this statutory boundary: designing a lighter, more durable chassis for an electric vehicle or engineering a novel database architecture to reduce query latency by 50% directly targets measurable functional, reliability, and performance improvements. By contrast, altering the exterior paint color or cosmetic body lines of a vehicle, or redesigning a software user interface (UI) solely to align with contemporary color trends without enhancing underlying system performance, fails Test 1 at the threshold. To substantiate a Permitted Purpose upon examination, taxpayers must retain initial project charters, engineering requirement documents, and design specifications that define the targeted functional or performance metrics prior to execution."
+    },
+    {
+      "type": "subheading",
+      "text": "Test 2: Elimination of Technical Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "The second criterion, derived from IRC Section 41(d)(1)(A) and defined in Treasury Regulation Section 1.41-4(a)(3), requires that the activity be undertaken for the purpose of eliminating <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> concerning the development or improvement of the business component. Under the regulatory framework, technical uncertainty exists when the information available to the taxpayer at the outset of the project does not establish one of three distinct dimensions: capability uncertainty, which concerns whether the taxpayer can physically or technically develop or improve the business component at all; method uncertainty, which concerns how the taxpayer can achieve the development or improvement in practice; or appropriate design uncertainty, which concerns what the exact technical configuration, formulation, or architecture of the business component must be to achieve the required functionality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, even when a taxpayer is certain at the outset that a business component can be developed (capability) and understands the general engineering approach (method), qualifying technical uncertainty still exists if the appropriate design of the component remains unknown at the outset. However, this uncertainty must be genuinely technical rather than commercial, financial, or routine. If the appropriate design can be determined readily through standard engineering calculations, public domain blueprints, or vendor manuals available to the taxpayer, no technical uncertainty exists."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judicial precedent and administrative enforcement reinforce this boundary: courts and examiners have routinely rejected claims where engineers merely applied known mathematical formulas to existing airflow data to calculate optimal HVAC duct sizing, or where software developers debugged standard syntax errors using documented vendor manuals. Because the taxpayer already possessed all the technical information needed to establish the design parameter without investigative research, such activities constitute routine engineering rather than the elimination of technical uncertainty under IRC Section 41(d)(1)(A)."
+    },
+    {
+      "type": "subheading",
+      "text": "Test 3: Process of Experimentation and the 80 Percent Substantially All Mandate"
+    },
+    {
+      "type": "paragraph",
+      "text": "The third criterion, mandated by IRC Section 41(d)(1)(C) and detailed in Treasury Regulation Section 1.41-4(a)(5), requires that \"substantially all\" of the activities of the research constitute elements of a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">Process of Experimentation (PoE)</a> relating to a qualified purpose. In administrative practice and judicial enforcement, Test 3 represents the primary focal point of IRS examinations and the most frequent basis for credit disallowance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation Section 1.41-4(a)(5)(i) defines a Process of Experimentation as a systematic process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities. Satisfying this regulatory standard requires the taxpayer to execute and contemporaneously document a structured three-stage sequence. First, the taxpayer must clearly identify and articulate the specific technical uncertainty regarding capability, method, or appropriate design that impedes the development or improvement of the business component. Second, the taxpayer must identify one or more technical hypotheses or design alternatives intended to eliminate that specific uncertainty. Third, the taxpayer must design and conduct a systematic process of evaluating those alternatives—through methodologies such as computer simulation, iterative modeling, <a href=\"/us/glossary/prototype-development\">physical prototyping</a>, or structured trial-and-error testing—to analyze the empirical results and refine the component's design."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unsystematic trial-and-error—where personnel haphazardly guess at solutions without formulating technical hypotheses or analyzing test outcomes against scientific principles—does not satisfy the regulatory definition of a Process of Experimentation under Treasury Regulation Section 1.41-4(a)(5)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, Treasury Regulation Section 1.41-4(a)(6) quantifies the statutory phrase <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\"</a> as a strict 80% mathematical threshold. For a business component to qualify, at least 80% of the taxpayer's research activities with respect to that component (measured on a cost basis or another consistently applied reasonable basis) must constitute elements of a Process of Experimentation for a qualified purpose. This requirement operates as an all-or-nothing cliff at the component level: if only 75% of the activities on a defined business component involve systematic experimentation and 25% involve non-experimental activities, 0% of the overarching component qualifies unless the taxpayer can isolate a narrower qualifying subcomponent via the shrink-back rule under Treasury Regulation Section 1.41-4(b)(2)."
+    },
+    {
+      "type": "subheading",
+      "text": "Test 4: Technological in Nature and Statutory Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fourth criterion, established in IRC Section 41(d)(1)(B)(i) and Treasury Regulation Section 1.41-4(a)(4), requires that the Process of Experimentation used to discover information must be \"technological in nature\". An activity satisfies this requirement only if the investigative process fundamentally relies on the principles of the physical sciences (such as physics, chemistry, or metallurgy), biological sciences, engineering, or computer science."
+    },
+    {
+      "type": "paragraph",
+      "text": "This requirement anchors the experimental methodology in the hard sciences, automatically excluding research grounded in the soft sciences—such as economics, business management, behavioral psychology, <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a>, consumer preference surveys, or market research. For example, applying computational fluid dynamics and thermodynamic principles to optimize airflow across a mechanical heat exchanger satisfies Test 4, whereas conducting statistical focus groups to evaluate whether consumers prefer Product Configuration A over Product Configuration B fails the test regardless of how systematically the survey data is analyzed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where an activity satisfies all four prongs of the Four-Part Test, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)</a> and Treasury Regulation Section 1.41-4(c) enumerate specific statutory exclusions that automatically disqualify the activity from the research credit. These statutory disqualifications override the Four-Part Test and encompass <a href=\"/us/glossary/foreign-research-exclusion\">foreign research</a> conducted outside the United States, the Commonwealth of Puerto Rico, or any possession of the United States; funded research to the extent funded by any grant, contract, or otherwise by another person or governmental entity; and any activity relating to the adaptation or duplication (reverse engineering) of an existing business component from physical examination, blueprints, or publicly available specifications."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Four-Part Test Criterion",
+        "Statutory & Regulatory Authority",
+        "Core Legal Requirement",
+        "Qualifying Technical Example",
+        "Non-Qualifying Exclusion Example"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Permitted Purpose",
+            "IRC § 41(d)(1)(B)(ii); IRC § 41(d)(3); Treas. Reg. § 1.41-4(a)(2)",
+            "Activity must seek a new or improved function, performance, reliability, or quality of a discrete business component.",
+            "Designing a lighter, higher-strength electric vehicle chassis or a database architecture that cuts query latency by 50%.",
+            "Modifying vehicle exterior paint colors or updating a software UI solely to match modern cosmetic trends."
+          ]
+        },
+        {
+          "cells": [
+            "2. Elimination of Technical Uncertainty",
+            "IRC § 41(d)(1)(A); Treas. Reg. § 1.41-4(a)(3)",
+            "Activity must aim to resolve outset uncertainty regarding capability, method, or appropriate design not ascertainable from available knowledge.",
+            "Investigating whether a specialized alloy can withstand extreme thermal loads inside a new turbine assembly.",
+            "Performing standard HVAC duct sizing calculations from known airflow tables or debugging documented code syntax errors."
+          ]
+        },
+        {
+          "cells": [
+            "3. Process of Experimentation (PoE)",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)–(6)",
+            "At least 80% (\"substantially all\") of activities must follow a systematic process: identify uncertainty, identify alternatives, and evaluate alternatives.",
+            "Formulating and systematically testing three distinct chemical compositions to achieve a target viscosity profile.",
+            "Unstructured trial-and-error without hypotheses, or evaluating product alternatives via competitor pricing surveys."
+          ]
+        },
+        {
+          "cells": [
+            "4. Technological in Nature",
+            "IRC § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(4)",
+            "The experimentation process must fundamentally rely on physical sciences, biological sciences, engineering, or computer science.",
+            "Utilizing fluid dynamics modeling and thermodynamic principles to engineer an industrial cooling system.",
+            "Conducting market research, economic modeling, or psychological consumer preference studies."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Application of the Four-Part Test to Software Development"
+    },
+    {
+      "type": "paragraph",
+      "text": "The regulatory framework under Treasury Regulation Section 1.41-4(c)(6) bifurcates software development into three distinct compliance tiers based on the primary intended functional use of the software: External-Use Software, <a href=\"/us/glossary/internal-use-software-ius\">Internal-Use Software (IUS)</a>, and Dual-Function Software."
+    },
+    {
+      "type": "subheading",
+      "text": "External-Use Software under the Standard Four-Part Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Software developed to be sold, leased, licensed, or otherwise marketed to third parties—or software developed to enable the taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system—is classified under Treasury Regulation Section 1.41-4(c)(6)(iv)(B) as External-Use Software. External-use software is not subject to the statutory exclusion for internal-use software under IRC Section 41(d)(4)(E) and therefore qualifies for the R&D tax credit solely by satisfying the standard Four-Part Test under IRC Section 41(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, a <a href=\"/us/faq/qualifying-rd-activities-software-companies\">software company</a> developing a cloud-based platform powered by proprietary Artificial Intelligence (AI) and Machine Learning (ML) models encounters substantial technical uncertainty regarding neural network architecture, feature engineering, algorithmic latency optimization, and distributed deployment. When software engineers define the target accuracy and throughput thresholds (Permitted Purpose), document why existing off-the-shelf algorithms fail to meet latency constraints (Technical Uncertainty), systematically train, benchmark, and iterate across competing model architectures (Process of Experimentation), and rely fundamentally on computer science principles (Technological in Nature), all associated development wages, cloud computing test environments, and <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">eligible contractor costs</a> qualify under IRC Section 41(d). Complex embedded firmware and commercial document management platforms similarly fall under this standard four-part regime."
+    },
+    {
+      "type": "subheading",
+      "text": "Internal-Use Software and the Heightened Three-Part Innovation Threshold"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(d)(4)(E), computer software developed by (or for the benefit of) the taxpayer <a href=\"/us/faq/internal-use-software-rd-tax-credit\">primarily for internal use</a> is excluded from qualified research unless it satisfies special regulatory exceptions. Under the final internal-use software regulations codified in Treasury Regulation Section 1.41-4(c)(6)(iii)–(iv), software is classified as Internal-Use Software (IUS) only if it is developed for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) functions</a> that facilitate or support the conduct of the taxpayer's trade or business. The regulations strictly confine G&A functions to three enumerated operational categories: financial management (such as accounting, payroll, budgeting, and tax administration), human resource management (such as personnel tracking, recruiting, and benefits administration), and support services (such as routine data processing, facilities services, and general administrative support)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because internal G&A software projects frequently involve routine IT upgrades or standard <a href=\"/us/glossary/erp-implementation-qualification\">enterprise resource planning (ERP)</a> configurations, Treasury Regulation Section 1.41-4(c)(6)(vii) imposes a stringent Heightened Three-Part Test—formally termed the High Threshold of Innovation Test—which must be satisfied in addition to the standard IRC Section 41(d) Four-Part Test. Unlike earlier interpretations that characterized the third prong as an implied requirement derived from legislative history, the final regulations under 26 CFR Section 1.41-4(c)(6)(vii)(A)(1)–(3) codify all three criteria as explicit, mandatory regulatory requirements. First, under the Innovation prong, the software must be intended to be innovative, defined as resulting in a reduction in cost, improvement in speed, or other measurable improvement that is substantial and economically significant if the development is or would have been successful. Second, under the <a href=\"/us/glossary/significant-economic-risk\">Significant Economic Risk</a> prong, the software development must involve significant economic risk, meaning the taxpayer commits substantial resources to the development and there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period. Third, under the <a href=\"/us/glossary/commercial-availability-standard\">Commercial Availability</a> prong (26 CFR Section 1.41-4(c)(6)(vii)(A)(3)), the software cannot be commercially available for use by the taxpayer, meaning it cannot be purchased, leased, or licensed and used for the intended purpose without modifications that would themselves satisfy the Innovation and Significant Economic Risk requirements."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analytically, satisfying the Significant Economic Risk and Commercial Availability requirements necessitates cross-functional collaboration between engineering, finance, and legal teams to document capital budgets, payback-period projections, vendor market evaluations proving the absence of commercial off-the-shelf (COTS) alternatives, and the specific architectural uncertainties that jeopardize financial recovery."
+    },
+    {
+      "type": "subheading",
+      "text": "Dual-Function Software and the 25 Percent Regulatory Safe Harbor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern enterprise software frequently combines internal G&A back-office capabilities with external customer-facing functionality, classified under Treasury Regulation Section 1.41-4(c)(6)(vi) as <a href=\"/us/glossary/dual-function-software\">Dual-Function Software</a>. The regulations establish a presumption that dual-function software is internal-use software, but instruct the taxpayer first to apply the shrink-back rule under Treasury Regulation Section 1.41-4(c)(6)(vi)(B) to isolate the specific subset of software elements that strictly enable third-party interaction; that <a href=\"/us/glossary/third-party-subset\">isolated external subset</a> is evaluated solely under the standard Four-Part Test."
+    },
+    {
+      "type": "paragraph",
+      "text": "To the extent that a dual-function software component (or remaining subset) cannot be cleanly bifurcated between internal G&A use and external third-party use, Treasury Regulation Section 1.41-4(c)(6)(vi)(C) provides an administrative Safe Harbor. Under this safe harbor, a taxpayer may include 25% of the qualified research expenditures of the unallocated dual-function software (or subset) in computing the R&D credit, provided that the dual-function software (or subset) satisfies the standard IRC Section 41(d) Four-Part Test and the third-party functions are reasonably anticipated to account for at least 10% of the software's total use."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Classification",
+        "Primary Functional Purpose",
+        "Applicable Qualification Regime",
+        "Additional Statutory / Regulatory Thresholds"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "External-Use Software",
+            "Sold, leased, licensed, or marketed to third parties, or enabling third-party interaction with the taxpayer's system.",
+            "Standard Four-Part Test (IRC § 41(d)).",
+            "None beyond the four core criteria and the 80% \"substantially all\" PoE threshold."
+          ]
+        },
+        {
+          "cells": [
+            "Internal-Use Software (IUS)",
+            "Used primarily for internal General & Administrative (G&A) functions: financial management, HR management, or support services.",
+            "Standard Four-Part Test PLUS the Heightened Three-Part <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation Test</a> (Treas. Reg. § 1.41-4(c)(6)).",
+            "Must prove: (1) Substantial & economically significant measurable improvement; (2) Significant economic risk due to technical risk; (3) Lack of commercial availability."
+          ]
+        },
+        {
+          "cells": [
+            "Dual-Function Software",
+            "Serves both internal G&A functions and external third-party interaction functions.",
+            "Subsystem isolation (External subset under Standard FPT; Internal subset under IUS test) OR Regulatory Safe Harbor.",
+            "Safe Harbor allows 25% of eligible QREs if standard FPT is met and anticipated third-party use is at least 10% of total use."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Quantitative Mechanics, QRE Eligibility, and Hypothetical Worked Examples"
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory QRE Categories and Credit Rate Parameters"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once a business component satisfies the Four-Part Test (and the High Threshold of Innovation Test, if applicable), <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC Section 41(b)</a> governs which expenditures associated with that component may be aggregated into Qualified Research Expenses (QREs). Eligible expenditures fall into three statutory categories. First, In-House Wages (eligible at 100%) encompass taxable wages paid to employees performing <a href=\"/us/glossary/qualified-services\">\"qualified services\"</a> under IRC Section 41(b)(2)(B), which strictly comprise engaging in qualified research, directly supervising qualified research, and directly supporting qualified research. Second, Supplies and Cloud Computing (eligible at 100%) cover tangible, non-depreciable materials consumed directly in experimental prototyping and testing under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(C)</a>, alongside eligible cloud computing costs used directly in research development and testing environments. Third, Contract Research expenses paid or incurred to third-party contractors for performing qualified research on behalf of the taxpayer under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC Section 41(b)(3)(A)</a> are statutorily capped at 65% of the eligible contract expenditure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Across federal and state calculations (including the Regular Research Credit and the <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Alternative Simplified Credit (ASC)</a>), the effective net tax credit yield typically ranges from 6% to 14% of total eligible QREs, with 10% serving as a standard baseline estimation benchmark for corporate cash-flow modeling."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example 1: Component Shrink-Back and the 80 Percent Substantially All Calculation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following hypothetical worked example illustrates the mathematical operation of the 80% \"substantially all\" Process of Experimentation threshold under Treasury Regulation Section 1.41-4(a)(6), the shrink-back rule under Treasury Regulation Section 1.41-4(b)(2), and the Seventh Circuit's holding in <em>Little Sandy Coal v. Commissioner</em> regarding direct supervision and direct support activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume a hypothetical industrial equipment manufacturer initiates Project Alpha to build an automated assembly cell encompassing two discrete subcomponents: Subcomponent A (a proprietary vision-guided robotic actuator) and Subcomponent B (a standard structural steel safety enclosure and factory floor layout). During the tax year, engineering and fabrication personnel log a total of 1,000 hours across Project Alpha as a whole. Within Subcomponent A (Robotic Actuator), personnel record 600 hours of hands-on systematic experimentation evaluating alternative kinematics and sensor-fusion algorithms, 60 hours of direct supervision of the actuator experimentation by the lead robotics engineer (deductible under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a>), 40 hours of direct support by a lab technician fabricating experimental test jigs (deductible under IRC Section 174), and 100 hours of routine post-validation production tuning, totaling 800 hours for Subcomponent A. Within Subcomponent B (Safety Enclosure and Floor Layout), personnel record 200 hours of standard CAD layout, aesthetic paint selection, and routine structural load verification using published steel tables."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <em>Little Sandy Coal</em> appellate standard, <a href=\"/us/glossary/direct-supervision\">direct supervision</a> (60 hours) and direct support (40 hours) closely tied to systematic experimentation are included in both the numerator and denominator of the 80% test. Evaluating the overarching Project Alpha prior to applying the shrink-back rule yields total experimental hours of:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total Experimental Hours<sub>Project Alpha</sub> = 600 hours + 60 hours + 40 hours = 700 hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "PoE Activity Ratio<sub>Project Alpha</sub> = 700 hours ÷ (800 hours + 200 hours) = 700 hours ÷ 1,000 hours = 70.0%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 70.0% &lt; 80.0%, the overarching Project Alpha fails the \"substantially all\" Process of Experimentation requirement under Test 3. If the taxpayer claims the entire Project Alpha without disaggregation, 100% of the project's QREs are disallowed upon examination."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the regulatory shrink-back rule under Treasury Regulation Section 1.41-4(b)(2), the taxpayer narrows the business component definition to Subcomponent A (Robotic Actuator) and excludes the non-qualifying Subcomponent B (Safety Enclosure) (200 hours). Recomputing the Process of Experimentation ratio solely for Subcomponent A yields:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total Experimental Hours<sub>Subcomponent A</sub> = 600 hours + 60 hours + 40 hours = 700 hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "PoE Activity Ratio<sub>Subcomponent A</sub> = 700 hours ÷ 800 hours = 87.5%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 87.5% ≥ 80.0%, Subcomponent A satisfies the \"substantially all\" requirement of Test 3 (as well as Tests 1, 2, and 4). Note further that had an examiner improperly excluded the 60 hours of direct supervision and 40 hours of <a href=\"/us/glossary/direct-support\">direct support</a> from the numerator while retaining them in the denominator—the position rejected by the Seventh Circuit in <em>Little Sandy Coal</em>—the ratio would have dropped to 600 hours ÷ 800 hours = 75.0% &lt; 80.0%, which would have falsely disqualified Subcomponent A."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example 2: Multi-Category QRE Aggregation and Credit Estimation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following hypothetical worked example demonstrates the <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">step-by-step computation</a> of eligible QREs and estimated federal and state tax credit yields using the statutory inclusion rates and baseline parameters."
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume a hypothetical software and hardware technology company incurs annual expenditures across two projects that satisfy the Four-Part Test. For Business Component 1 (Core External-Use AI Platform), the company incurs $1,000,000 in qualified in-house engineering wages (eligible at 100%), $200,000 in supplies and development cloud computing environments (eligible at 100%), and $400,000 in gross third-party U.S. contract research testing (subject to the <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% statutory cap</a>). For Business Component 2 (Unallocated Dual-Function Enterprise Portal), the company incurs $400,000 in otherwise-eligible internal development wages and cloud supplies, where anticipated third-party customer use equals 15% of total system usage—exceeding the 10% minimum threshold required to elect the 25% Dual-Function Safe Harbor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Computing the eligible QREs for Business Component 1 (Baseline Core Project) applies the statutory multipliers to each cost category:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Wages (BC1)</sub> = $1,000,000 × 100% = $1,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Supplies & Cloud (BC1)</sub> = $200,000 × 100% = $200,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Contract Research (BC1)</sub> = $400,000 × 65% = $260,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subtotal QRE<sub>BC1</sub> = $1,000,000 + $200,000 + $260,000 = $1,460,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "For Business Component 2 (Dual-Function Safe Harbor), because anticipated third-party use (15%) meets or exceeds the 10% regulatory threshold under Treasury Regulation Section 1.41-4(c)(6)(vi)(C), the taxpayer applies the 25% safe harbor multiplier:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Dual-Function Safe Harbor (BC2)</sub> = $400,000 × 25% = $100,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aggregating both components yields a combined QRE base of:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total Portfolio QREs = $1,460,000 + $100,000 = $1,560,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the effective credit rate spectrum of 6%, 10% (benchmark), and 14% to the baseline Component 1 QRE base ($1,460,000) produces an estimated credit of $87,600 at the 6% rate, $146,000 at the 10% benchmark rate, and $204,400 at the 14% rate. Across the combined portfolio including the Dual-Function Safe Harbor ($1,560,000), the net credit realization equals $93,600 at the 6% rate, $156,000 at the 10% benchmark rate, and $218,400 at the 14% rate."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cost Component / Calculation Line",
+        "Gross Expenditure ($ USD)",
+        "Statutory / Regulatory Inclusion Rate",
+        "Eligible QREs (USD) | Credit at 6% Rate (USD)",
+        "Credit at 10% Benchmark (USD) | Credit at 14% Rate (USD)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "BC1: Qualified Wages",
+            "$1,000,000",
+            "100%",
+            "$1,000,000",
+            "$60,000"
+          ]
+        },
+        {
+          "cells": [
+            "BC1: Supplies & Cloud Computing",
+            "$200,000",
+            "100%",
+            "$200,000",
+            "$12,000"
+          ]
+        },
+        {
+          "cells": [
+            "BC1: Contract Research",
+            "$400,000",
+            "65%",
+            "$260,000",
+            "$15,600"
+          ]
+        },
+        {
+          "cells": [
+            "Subtotal: Baseline Component 1",
+            "$1,600,000",
+            "91.25% (effective)",
+            "$1,460,000",
+            "$87,600"
+          ]
+        },
+        {
+          "cells": [
+            "BC2: Dual-Function Software Safe Harbor (15% third-party use)",
+            "$400,000",
+            "25%",
+            "$100,000",
+            "$6,000"
+          ]
+        },
+        {
+          "cells": [
+            "Total Portfolio Aggregation",
+            "$2,000,000",
+            "78.00% (effective)",
+            "$1,560,000",
+            "$93,600"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Audit Substantiation, Contemporaneous Recordkeeping, and Judicial Scrutiny"
+    },
+    {
+      "type": "subheading",
+      "text": "Contemporaneous Documentation under Treasury Regulation Section 1.41-4(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Substantiating compliance with the Four-Part Test is governed by Treasury Regulation Section 1.41-4(d), which mandates that a taxpayer claiming the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC Section 41 credit</a> must retain records in \"sufficiently usable forms and detail\" to substantiate that the expenditures claimed are eligible for the credit. While the current regulation does not prescribe a rigid list of mandatory document templates, this flexibility places the onus on the taxpayer to construct a complete, auditable nexus linking every dollar of claimed labor, supplies, and contractor spending to a specific business component that satisfies all four statutory criteria."
+    },
+    {
+      "type": "paragraph",
+      "text": "Documentation must be generated contemporaneously during the engineering and development cycle rather than reconstructed retrospectively years later during an audit or tax controversy. Essential <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous artifacts</a> include initial feasibility studies, design review meeting minutes, version-controlled source code repositories and commit logs, engineering logbooks, simulation models, test protocols, and—critically—failed test reports documenting alternatives that were evaluated and rejected during the Process of Experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Controlling Judicial Precedent: Little Sandy Coal v. Commissioner"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 2023 opinion of the U.S. Court of Appeals for the Seventh Circuit in <em>Little Sandy Coal v. Commissioner</em> provides a definitive judicial benchmark on the evidentiary rigor required to satisfy the Four-Part Test—specifically Test 3 (Process of Experimentation) and the 80% \"substantially all\" rule."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Little Sandy Coal</em>, the appellate court affirmed the <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">denial of the R&D tax credit</a> because the taxpayer failed to produce an empirical record demonstrating that its personnel engaged in a systematic Process of Experimentation. The ruling confirms that substantive innovation or novel design alone is legally insufficient; taxpayers must substantiate the systematic nature of their investigative activities across at least 80% of the activities applied to the business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, however, the Seventh Circuit issued a taxpayer-favorable legal clarification regarding the treatment of direct supervision and direct support activities within the 80% \"substantially all\" calculation. Rejecting aggressive IRS audit positions that sought to exclude support and supervision costs from the numerator while keeping them in the denominator—which artificially inflated the burden of the 80% threshold—the appellate court ruled that activities constituting direct supervision or direct support of research (if deductible under IRC Section 174) qualify for inclusion in both the numerator and the denominator of the 80% calculation."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, as <em>Little Sandy Coal</em> underscores, a taxpayer can only leverage this rule if it maintains precise, contemporaneous time-tracking data differentiating qualified service roles from non-experimental activities."
+    },
+    {
+      "type": "subheading",
+      "text": "Common Substantiation Pitfalls and Audit Defense Matrix"
+    },
+    {
+      "type": "paragraph",
+      "text": "Examination of disallowed R&D tax credit claims reveals two primary substantiation pitfalls. First, taxpayers frequently exhibit asymmetric narrative weighting in their <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">technical reports</a>, devoting extensive space to describing Test 1 (Permitted Purpose—the functional or performance improvement goal) while providing superficial detail for Test 2 (Technical Uncertainty) and Test 3 (Process of Experimentation). Because all four elements are mandatory, technical documentation must address and substantiate each of the four criteria with equal depth. Second, taxpayers frequently fail to filter out routine engineering or manufacturing activities where no genuine technical uncertainty existed at the outset, such as applying standard industry formulas or known airflow calculations to determine duct sizing. Including such routine engineering hours contaminates the project pool and risks disqualifying the entire business component under the 80% threshold."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Four-Part Test Element / Compliance Dimension",
+        "Essential Contemporaneous Documentation",
+        "Primary IRS Audit Exposure / Judicial Mandate"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Test 1: Permitted Purpose",
+            "Project charters, functional requirement specifications, engineering scope documents, and target performance benchmarks.",
+            "Disallowance under IRC § 41(d)(3)(B) if improvements are primarily aesthetic, cosmetic, seasonal, or market-driven."
+          ]
+        },
+        {
+          "cells": [
+            "Test 2: Technical Uncertainty",
+            "Initial feasibility studies, architecture review minutes, and design review notes detailing technical hurdles encountered at the outset.",
+            "Dismissal as routine engineering if the design was ascertainable from known formulas or existing data (e.g., standard duct-sizing calculations)."
+          ]
+        },
+        {
+          "cells": [
+            "Test 3: Process of Experimentation (PoE)",
+            "Test protocols, simulation logs, failed test reports, iterative design changes, and engineering logbooks detailing alternatives evaluated.",
+            "Complete credit disallowance under <em>Little Sandy Coal</em> if empirical records fail to prove systematic evaluation across ≥ 80% of component activities."
+          ]
+        },
+        {
+          "cells": [
+            "Test 4: Technological in Nature",
+            "Scientific modeling files, physics/chemistry/metallurgy test data, and computer science algorithmic benchmarks.",
+            "Exclusion if testing relies on soft sciences, economic feasibility, or consumer preference surveys."
+          ]
+        },
+        {
+          "cells": [
+            "QREs: Qualified Services (Wages)",
+            "Granular time-tracking records distinguishing hands-on experimentation, direct supervision, direct support, and routine production.",
+            "<em>Little Sandy Coal</em> permits direct supervision and support in both numerator and denominator of the 80% test, but only when substantiated by records."
+          ]
+        },
+        {
+          "cells": [
+            "Internal-Use Software (IUS)",
+            "Economic justification reports, competitive COTS analyses, and risk/reward analyses justifying substantial resource commitment.",
+            "Failure of the High Threshold of Innovation Test (Treas. Reg. § 1.41-4(c)(6)) if substantial economic risk or commercial unavailability is unproven."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Recommendations for Compliance Governance and Cost Capture"
+    },
+    {
+      "type": "subheading",
+      "text": "Real-Time Documentation Protocols and Pre-Credit Qualification Reviews"
+    },
+    {
+      "type": "paragraph",
+      "text": "To insulate R&D tax credit claims against heightened IRS examination standards, corporate taxpayers must transition from retrospective year-end cost reconstructions to compulsory, real-time documentation systems that capture the Four-Part Test elements as engineering work occurs. Engineering logbooks and <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">project tracking platforms</a> should be structured to record the three mandatory regulatory steps of the Process of Experimentation: identifying the specific technical uncertainty, identifying the technical alternatives, and conducting a systematic evaluation of those alternatives. In parallel, organizations should institute a quarterly pre-credit qualification review in which technical project managers and tax specialists formally map costs and activities to the four tests for each discrete business component, applying the shrink-back rule to exclude routine calculations or solutions ascertainable from existing data prior to finalizing the tax return."
+    },
+    {
+      "type": "subheading",
+      "text": "Technical Workforce Education and QRE Time-Tracking Optimization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the legal defensibility of an R&D claim relies on records generated by technical subject-matter experts, corporations should implement mandatory training for engineers, scientists, software developers, direct supervisors, and support staff on the legal definitions of the Four-Part Test. This training must explicitly differentiate genuine technical uncertainty (Test 2) from routine engineering problems, instruct staff on documenting all four tests with equal rigor, and clarify that the elimination of the \"discovery test\" under the 2003 final regulations allows internal, applied process improvements to qualify when resolved through a systematic Process of Experimentation. Finally, internal payroll and project accounting systems should be upgraded to utilize <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">granular time-tracking categories</a> that differentiate the three statutory categories of qualified services—engaging in qualified research, directly supervising qualified research, and directly supporting qualified research—enabling finance teams to leverage the <em>Little Sandy Coal</em> appellate ruling by including documented direct supervision and support activities in both the numerator and denominator of the 80% \"substantially all\" calculation."
+    }
+  ]
+}
