@@ -1,0 +1,509 @@
+{
+  "slug": "united-stationers-v-united-states",
+  "title": "United Stationers, Inc. v. United States",
+  "caseNumber": "982 F. Supp. 1279",
+  "court": "United States District Court for the Northern District of Illinois",
+  "year": 1997,
+  "subject": "Discovery Test and Internal-Use Software",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "United Stationers v. United States (N.D. Ill. 1997, aff'd 7th Cir. 1998) denied a wholesale office-supply distributor's $156,457 federal R&D tax credit under I.R.C. § 41 for eight internal-use software projects. The key takeaway for U.S. taxpayers: business or ROI uncertainty, routine debugging, and building on commercial software do not establish technological uncertainty or qualified research.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary & Case Background"
+    },
+    {
+      "type": "subheading",
+      "text": "Overview of the Dispute and Procedural Posture"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>United Stationers, Inc. v. United States</em>, 982 F. Supp. 1279 (N.D. Ill. 1997), <em>aff'd</em>, 163 F.3d 440 (7th Cir. 1998), <em>cert. denied</em>, 527 U.S. 1023 (1999), the federal judiciary established foundational precedent governing the eligibility of corporate software development for the federal Research and Development (R&D) tax credit under <a href=\"/us/glossary/irc-section-41\">Internal Revenue Code (I.R.C.) § 41</a>. The plaintiff, United Stationers, Inc. (\"USI\" or \"Stationers\"), operated through its subsidiaries as the nation's largest independent wholesale distributor of office supplies. Between 1979 and 1988, USI experienced rapid commercial expansion, with annual sales increasing nearly tenfold from $100 million to approximately $1 billion. Along with this growth, USI began experiencing operating inefficiencies that had an adverse effect on customer service."
+    },
+    {
+      "type": "paragraph",
+      "text": "To remediate these operational deficiencies and modernize its distribution network, USI launched an enterprise-wide computerization and automation initiative during its fiscal year ending August 31, 1988. As the technological foundation for this initiative, USI acquired a software package referred to in the record as \"DCS\" from a business consulting firm for $956,000. Rather than deploying DCS as a turnkey solution, USI extracted only the underlying file structure and data access layers of DCS to use as an architectural \"building block,\" upon which its internal personnel custom-designed and coded eight distinct software application projects tailored to USI's wholesale operations."
+    },
+    {
+      "type": "paragraph",
+      "text": "On its original federal income tax return for the fiscal year ending August 31, 1988, USI deducted the expenditures associated with developing these software applications as <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental expenses</a> under I.R.C. § 174, and the Internal Revenue Service (\"IRS\"), following an examination of the return, agreed to the amounts deducted. Subsequently, USI filed an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> claiming an incremental research tax credit refund of $156,457 under I.R.C. § 41, computing the credit directly from the software development expenditures previously deducted under § 174. After the IRS took no action on the <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">refund claim</a>, USI initiated a tax refund suit in the United States District Court for the Northern District of Illinois."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pursuant to Local General Rule 2.41(B), District Judge Charles R. Norgle referred the matter to a Magistrate Judge, who conducted a hearing on the parties' agreed statement of facts and attached project summaries and issued a Report and Recommendation concluding that USI's software development activities did not constitute \"<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>\" under § 41. USI filed formal objections to the Magistrate Judge's report. In a comprehensive opinion ruling on the merits (<em>United Stationers II</em>, 982 F. Supp. 1279), the District Court overruled all of USI's objections except Objection #4—sustaining USI's position that the software programs were \"innovative\" within the meaning of the legislative history's <a href=\"/us/glossary/internal-use-software-ius\">internal-use software exception</a>—and denied the tax credit in full. Notably, in Footnote 7 of the opinion, the District Court also rejected proposed amicus curiae briefs, invoking Seventh Circuit Chief Judge Richard Posner's admonition against duplicative amicus filings by allies of litigants that merely extend the length of a litigant's brief. On appeal, the United States Court of Appeals for the Seventh Circuit (163 F.3d 440) affirmed the District Court's judgment in its entirety, and the Supreme Court later denied certiorari."
+    },
+    {
+      "type": "subheading",
+      "text": "Summary of the Eight Disputed Software Projects"
+    },
+    {
+      "type": "paragraph",
+      "text": "The litigation centered on an undisputed factual record comprising joint stipulations and attached project summaries describing eight software initiatives (along with integrated subsystems) developed during the 1988 fiscal year."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Project Name",
+        "Core Functional Objective",
+        "Operational Integration & Scope",
+        "Stipulated Commercial Outcome"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Document Retention and Retrieval System (DRRS)</strong>",
+            "Centralized online invoice database maintaining files, customer histories, and purchase records.",
+            "Permitted limited customer access to query data and request invoice or sales history reprints.",
+            "Generated cost savings and improved customer service; never resold to third parties."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Central Invoice Project (CIP)</strong>",
+            "Paperless invoicing and recordkeeping system designed to eliminate hardcopy data inefficiencies.",
+            "Integrated directly with DRRS to print, distribute, and retain all invoices at corporate headquarters.",
+            "Designed to correct inefficiencies of USI's far-flung warehousing and distribution network; summary stated there was no guarantee at the outset of accurate, timely invoices and easy access to invoice data."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. Concept 90</strong>",
+            "Computerized marketing and pricing program to streamline ordering and control price concessions.",
+            "Developed to address increased competition from volume discounters by responding quickly to competitor pricing while carefully controlling USI's own price concessions.",
+            "Summary described \"operational risk\"; the economic benefit was far less than originally anticipated."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Unilink (with Distributed Order Entry)</strong>",
+            "Computer-to-computer electronic order entry and inter-divisional billing system.",
+            "Allowed customers and outside vendors/suppliers to transmit orders directly, review prior orders, receive out-of-stock notices, and route billing across divisions.",
+            "Modernized ordering interface; remained proprietary and not commercially available."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. Facility Database Project (FDP)</strong>",
+            "Hierarchical database replacing legacy inventory software for forecasting and replenishment.",
+            "Structured inventory records into a unified data hierarchy to eliminate data redundancy.",
+            "Carried return-on-investment uncertainty; never licensed externally."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>6. Automated Inbound Shipment Processing Program (SCS)</strong>",
+            "Warehouse shipping automation system replacing manual incoming and outgoing procedures.",
+            "Integrated with the Receiving System project to improve shipping operations.",
+            "Streamlined warehouse logistics; strictly internal operational deployment."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>7. Forecasting/Replenishment Application Software</strong>",
+            "Automated inventory control and demand planning system.",
+            "Replaced manual ordering reliant on individual buyer intuition with algorithmic inventory forecasting.",
+            "Summary assessed that the system \"worked fairly well\"; designed to forecast inventory levels and allow quick replenishment of out-of-stock items."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>8. Receiving System Software</strong>",
+            "Warehouse dock management application integrated with SCS.",
+            "Tracked merchandise at the receiving dock to reduce dwell time, increase turnover, and improve inventory accuracy.",
+            "Designed to improve performance and reliability in warehouse productivity (the opinions do not report a completion assessment for this project)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "The court's legal analysis operated within the statutory architecture of I.R.C. § 41, enacted to provide an incremental tax incentive for private-sector investment in technological research above a historical <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a>. Because tax credits, like deductions, are matters of legislative grace, the taxpayer must clearly demonstrate entitlement to the credit under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41</a>; in a tax refund suit the taxpayer bears the burden of proof, and the Commissioner's deficiency assessments are entitled to a presumption of correctness. Separately (although the opinions do not address these provisions), the taxpayer must maintain substantiating records in sufficiently usable form and detail under I.R.C. § 6001 and Treas. Reg. § 1.41-4(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "To qualify for the credit, an activity must first satisfy the general <a href=\"/us/glossary/four-part-test\">Four-Part Test</a> codified in I.R.C. § 41(d)(1). First, under the Section 174 Test of § 41(d)(1)(A), the expenditures must be eligible for treatment as research or experimental expenses under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">I.R.C. § 174</a>. Second, under the Discovery or Technological in Nature Test of § 41(d)(1)(B)(i), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, meaning the activity fundamentally relies on principles of the physical or biological sciences, engineering, or computer science. Third, under the Business Component Test of § 41(d)(1)(B)(ii) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)(A)</a>, the taxpayer must intend to apply the discovered information to develop a new or improved business component—defined as a product, process, computer software, technique, formula, or invention—for a qualified purpose relating to new or improved function, performance, reliability, or quality. Fourth, under the <a href=\"/us/glossary/process-of-experimentation\">Process of Experimentation</a> Test of § 41(d)(1)(C), substantially all of the research activities must constitute elements of a process of experimentation relating to a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, where the business component is computer software, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)(E)</a> imposes a dedicated statutory exclusion: except to the extent provided in Treasury regulations, any research with respect to computer software developed by or for the benefit of the taxpayer primarily for internal use is excluded from qualified research unless the software is used in an activity that itself constitutes qualified research or a qualifying production process. Drawing upon the Tax Reform Act of 1986 Conference Report (H.R. Conf. Rep. No. 99-841, at II-73) and the 1997 Proposed Treasury Regulations (subsequently finalized in Treas. Reg. § 1.41-4(c)(6)), internal-use software (\"IUS\") can overcome this exclusion only if the taxpayer satisfies the additional Three-Part <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation Test</a>. First, the software must be innovative, defined as resulting in a substantial and economically significant reduction in cost or improvement in speed. Second, the software development must involve <a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a>, defined as the commitment of substantial resources where there is substantial uncertainty, because of technical risk, that such resources will be recovered within a reasonable period. Third, the software must not be <a href=\"/us/glossary/commercial-availability-standard\">commercially available</a> for use by the taxpayer without modifications that themselves satisfy the first two prongs."
+    },
+    {
+      "type": "subheading",
+      "text": "The Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>United Stationers</em>, the government conceded two elements of the general Four-Part Test—stipulating that USI's software expenditures satisfied the § 174 deductibility test (§ 41(d)(1)(A)) and the <a href=\"/us/legislation/26-usc-41d2-business-component-test\">business component test</a> (§ 41(d)(1)(B)(ii))—and also stipulated to the third prong of the IUS exception, acknowledging that the eight customized programs were not commercially available. Despite these concessions, both the District Court and the Seventh Circuit held that USI failed to qualify for the § 41 credit on three independent grounds. First, USI failed the § 41(d)(1)(B)(i) discovery test because it merely applied, modified, and built upon pre-existing computer science principles embedded in the commercial DCS package rather than expanding or refining the state of knowledge in computer science. Second, USI failed the § 41(d)(1)(C) process of experimentation test because there was no technical uncertainty at the outset: the project summaries described only uncertainty about realizing the anticipated operational efficiencies and economic benefits, not technical uncertainty about actually developing the programs, and debugging a computer program does not by itself constitute a process of experimentation. Third, all eight software applications were developed <a href=\"/us/faq/internal-use-software-rd-tax-credit\">primarily for internal use</a> under § 41(d)(4)(E), and while the District Court found the programs \"innovative\" (a finding the Seventh Circuit held was not clearly erroneous), USI failed to overcome the IUS exclusion because the projects lacked \"significant economic risk\" driven by substantial <em>technical</em> risk."
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal & Evidentiary Failures"
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Satisfy the \"Discovery of Technological Information\" Requirement"
+    },
+    {
+      "type": "paragraph",
+      "text": "A primary pillar of USI's disqualification was its inability to demonstrate that its software engineering efforts were undertaken to \"discover information which is technological in nature\" under I.R.C. § 41(d)(1)(B)(i). In the litigation, USI advanced a plain-meaning, dictionary-based interpretation of the statutory verb \"discover,\" arguing that it meant simply \"to make known\" or \"to obtain for the first time sight or knowledge of\" something new to the taxpayer. Under USI's theory, because it had never previously built or deployed enterprise-scale automated invoicing, forecasting, or warehouse control software, the knowledge acquired by its programmers during the DCS customization constituted \"discovered\" technological information."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court, while quoting the same dictionary definition, held that USI had not \"discovered\" any information that was technological in nature; the Seventh Circuit, without necessarily adopting the District Court's view that the issue turned on the breadth of the word \"discover,\" expressly declined USI's invitation to equate statutory \"discovery\" with mere newness to the taxpayer. Relying heavily on the legislative history of the Tax Reform Act of 1986 (specifically H.R. Conf. Rep. No. 99-841 and S. Rep. No. 99-313), the Seventh Circuit observed that Congress intentionally tightened the definition of qualified research because taxpayers had previously claimed the credit for virtually any product development expense, including projects divorced from high technology. Quoting Footnote 3 of the Conference Report, the court emphasized that research does not rely on the principles of computer science merely because a computer is employed; rather, to discover technological information, the research must be intended to \"expand or refine existing principles of computer science\" and go beyond the current state of knowledge in the field."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying this standard to the factual record, the courts found that USI purchased the DCS software package for some of its file structure and data access segments, to serve solely as a building block in the development of its projects. By utilizing DCS's file structures and data access layers to write custom application code for its wholesale operations, USI merely applied, modified, and built upon pre-existing technological information already supplied to it by the vendor. Although the applications were new to USI and helped it eliminate various operational inefficiencies, the Seventh Circuit held that they did not refine or expand the principles of computer science, were not of broad economic effect, and amounted to the more or less routine modification of a commercially available software package, and therefore failed the discovery requirement."
+    },
+    {
+      "type": "paragraph",
+      "text": "From a broader jurisprudential perspective, <em>United Stationers</em>—alongside the Tax Court's contemporaneous decision in <em><a href=\"/us/norwest-corp-v-commissioner\">Norwest Corp. v. Commissioner</a></em>, 110 T.C. 454 (1998)—birthed the controversial \"hard\" discovery test (often referred to as the \"new-to-the-world\" standard). While the Treasury Department initially codified this strict discovery standard in T.D. 8930 (2001) before abandoning it in T.D. 9104 (2003) (now Treas. Reg. § 1.41-4(a)(3)(ii), which clarifies that a taxpayer need not seek information that exceeds, expands, or refines the common knowledge of skilled professionals in the field), the underlying factual failure in <em>United Stationers</em> remains fatal under current law. Even under modern regulations, routine adaptation of an existing commercial software framework—such as configuring ERP tables or building standard application layers atop vendor file structures—fails to establish qualified technological uncertainty under I.R.C. § 41(d)(1) and triggers the <a href=\"/us/glossary/adaptation-exclusion\">adaptation exclusion</a> under I.R.C. § 41(d)(4)(B)."
+    },
+    {
+      "type": "subheading",
+      "text": "Conflation of Business and Operational Risk with Technological Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "A second fatal defect that permeated USI's case—destroying both its \"process of experimentation\" argument under § 41(d)(1)(C) and its \"significant economic risk\" argument under the IUS exception—was the taxpayer's persistent conflation of <em>business and operational uncertainty</em> with <em>technological uncertainty</em>. Throughout its stipulated project summaries, USI emphasized that it invested considerable time and money developing the projects without any guarantee of operational or financial success. In the Central Invoice Project (CIP) summary, for instance, USI documented that there was no guarantee at the outset that the company could provide timely, accurate paperless invoices and easy online access to data across its distribution network. Similarly, in the Concept 90 summary, USI referred to \"operational risk\" and to its uncertainty about whether benefits such as increased sales, dealer acceptance, and ordering efficiencies would materialize, noting that the computerized pricing program ultimately yielded far less economic benefit than originally anticipated. In the Facility Database Project (FDP) summary, USI likewise recorded that there was no guarantee the hierarchical inventory system would perform as expected or generate an adequate return on investment (ROI)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court and the Seventh Circuit dissected these assertions and exposed a fundamental category error: uncertainty regarding whether a software project will achieve its aspired commercial efficiencies, user adoption, or financial ROI is <em>business risk</em>, not <em>technical risk</em>. As the District Court succinctly articulated—in a passage expressly quoted and affirmed by the Seventh Circuit—\"while the aspired benefits of the projects were in doubt, the development of the means that would allow [USI] to potentially achieve those benefits was not\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under both the legislative history (including the 1981 House Report on the predecessor credit, H.R. Rep. No. 97-201, at 114, which limited qualifying software costs to programs whose \"operational feasibility\" was seriously in doubt, and the 1986 Conference Report, which requires that the means of achieving the result be uncertain at the outset) and modern Treasury Regulations (Treas. Reg. § 1.41-4(a)(3)(i), defining <a href=\"/us/glossary/elimination-of-uncertainty\">uncertainty as to capability</a>, method, or appropriate design), the uncertainty must be strictly <em>technological</em>. As the Seventh Circuit observed, there were no doubts about the ability of computers to perform the invoicing, billing, and marketing tasks at issue, and, as the Magistrate Judge noted, computers and computer software had long been used as a device to increase business efficiency. None of USI's project summaries described any <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> about actually developing the programs; the technical risk was minimal, if at all, and the only uncertainty was whether the projects would produce the desired efficiency, not whether they could, in fact, be developed."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of a Structured Process of Experimentation (\"Debugging\" vs. Hypothesis Testing)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under I.R.C. § 41(d)(1)(C), <a href=\"/us/glossary/substantially-all-rule\">substantially all</a> of the claimed research activities must constitute elements of a \"process of experimentation\". USI contended that software engineering inherently satisfies this requirement because writing complex application code necessitates iterative testing and \"debugging\"—locating and correcting syntax, logic, and integration errors until the program runs properly. USI also relied on broad dictionary definitions of \"experiment\" to argue that any trial-and-error effort to build a system whose final configuration is not fully predetermined constitutes experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit rejected this argument, establishing the enduring legal principle that \"a process of experimentation involves something more than simply debugging a computer program\". Citing H.R. Conf. Rep. No. 99-841, at II-72, the court held that a statutory process of experimentation requires a systematic, scientific methodology involving the evaluation of more than one technical alternative designed to achieve a result where the <em>means</em> of achieving that result is uncertain at the outset. As the Conference Report explains, such a process may involve developing one or more hypotheses, testing and analyzing those hypotheses (for example, through modeling or simulation), and refining or discarding them as part of a sequential design process to develop the overall component; the Seventh Circuit emphasized the Report's focus on overcoming design uncertainty through a systematic, almost scientific, methodology."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because none of USI's project summaries described any technical uncertainty about developing the programs, and the Magistrate Judge (whose analysis the District Court adopted) found that it was not even clear what \"hypotheses\" USI was researching, the courts concluded that USI's projects did not involve a process of experimentation. USI's reliance on debugging failed because, as the Seventh Circuit held, debugging programs amounts simply to fine-tuning computer operating instructions. In its later decisions in <em>Eustace v. Commissioner</em>, 312 F.3d 905 (7th Cir. 2002), and <em><a href=\"/us/little-sandy-coal-v-commissioner\">Little Sandy Coal Co. v. Commissioner</a></em>, 62 F.4th 287 (7th Cir. 2023), the Seventh Circuit has continued to apply § 41(d)(1)(C) strictly: Eustace held that the mere industrious development of software through a process of trial and error does not constitute qualified research, and Little Sandy Coal required the taxpayer to prove that substantially all of its research activities for a business component constitute elements of a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Application of the Internal-Use Software (IUS) Exclusion and the \"Totality of the Circumstances\" Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if USI had satisfied the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">general Four-Part Test</a> under § 41(d)(1), its claim faced the formidable statutory barrier of I.R.C. § 41(d)(4)(E), which excludes software developed primarily for the taxpayer's internal use. USI attempted to bypass this exclusion via two distinct legal theories. First, relying on 1981 congressional records, USI advanced an \"exclusively internal\" or indirect economic impact argument, contending that only software intended exclusively for internal use should be excluded because the original purpose of the credit was to stimulate the economy, so that any program with an impact on the economy, however indirect or insubstantial, should escape the exclusion; relatedly, USI argued before the District Court that its projects encompassed substantial external use, since customers and suppliers could access and use them to a certain extent. Second, USI argued that software integral to a wholesaler's core revenue-generating operations (such as inventory forecasting, pricing, and warehouse receiving) is functionally distinct from <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative</a> (\"G&A\") bookkeeping and therefore should not be classified as internal-use software."
+    },
+    {
+      "type": "paragraph",
+      "text": "Both courts rejected these arguments and affirmed the application of a <strong>\"totality of the circumstances\" test</strong> to determine whether software is developed primarily for internal use. Under this analysis, the courts examined the primary purpose of the software rather than attenuated or indirect benefits to customers; the Seventh Circuit added that, to avoid the exclusion, a taxpayer must to an appropriate extent make the program available to the public, and that something more than a speculative or attenuated impact on the economy is required. USI used the projects generally in its business, did not attempt to sell them, and never resold any of the eight programs to third parties. Rather, as the Seventh Circuit found, USI developed all of the software to help it track its huge inventory, and the District Court found the projects' functions sufficiently similar to the Conference Report's examples of internal-use software and developed, at least in part, to improve USI's management accounting system. Even with respect to DRRS and Unilink, the two programs to which customers had limited access, the Seventh Circuit held that they were developed primarily for use by USI in streamlining its operations, and that the services these programs expedite (marketing, ordering, invoicing, shipping, receiving, pricing) do not escape the internal use exclusion merely because they may have a direct impact on customers, suppliers, and other third parties."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, when evaluating the Three-Part High Threshold of Innovation Test to determine whether USI qualified for the exception to the IUS exclusion, the courts drew a sharp doctrinal distinction between <em>innovativeness</em> and <em>significant economic risk</em>. With respect to the first prong (innovativeness), District Judge Norgle overruled the Magistrate Judge and held that all eight projects were \"innovative\" because, on review of the project summaries, they fell within the plain meaning of the legislative history's definition (a reduction in cost, or improvement in speed, that is substantial and economically significant); the Seventh Circuit rejected the government's challenge to this finding (which pointed out that some 65% of the original investment did not produce the anticipated economic returns) and held that the District Court did not clearly err. Despite proving innovativeness and commercial unavailability (the third prong), however, USI failed the second prong (\"significant economic risk\") because that requirement mandates that the risk of not recovering the substantial resources committed to the project stem directly from <strong>substantial technical risk</strong>. Because the technical ability to build the eight systems atop DCS was clear from the outset, the economic risk was purely commercial, disqualifying all eight projects under § 41(d)(4)(E)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Seventh Circuit decision, a concurring opinion took issue with the majority's analysis of the three-part IUS exception in Part II.C, cautioning that it could send the wrong signal to taxpayers and the Treasury Department and that the analysis should have been confined to the statute, because the exception then existed only in legislative history and proposed regulations rather than enacted statutory text or final regulations. Subsequently, Treasury formally codified the High Threshold of Innovation Test in Treas. Reg. § 1.41-4(c)(6) (most recently refined in T.D. 9786, effective October 4, 2016), which also introduced narrower definitions of G&A functions, a third-party interaction exception, and a <a href=\"/us/glossary/dual-function-software\">25% dual-function safe harbor</a>. However, whenever software falls within the IUS rules or the dual-function safe harbor today, the <em>United Stationers</em> requirement of proving substantial <em>technical</em> risk—rather than business ROI risk—remains strictly enforced."
+    },
+    {
+      "type": "subheading",
+      "text": "Evidentiary and Documentation Deficiencies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, <em>United Stationers</em> highlights the fatal consequences of relying on generalized, business-oriented project summaries to substantiate an R&D tax credit claim. Because no facts were in dispute, the evidentiary record consisted of the parties' agreed statement of facts and attached high-level project summaries; the opinions do not reflect any granular, <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous engineering documentation</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "As subsequent audit guidance and case law observe, USI's credit was disallowed because the nonspecific project summaries and statements produced were general in nature and failed to demonstrate the specific technological uncertainties or experimental nature of the underlying activities. The summaries documented <em>business goals</em> (for example, eliminating the inefficiencies of hardcopy data, responding quickly to competitor pricing, and reducing the time merchandise spends on the receiving dock) and <em>commercial anxieties</em> (for example, that there was no guarantee a project would provide an adequate return on USI's investment), but, as the District Court found, contained no adequate account describing any uncertainty about the projects' designs that USI faced at the outset of development, and, as the Magistrate Judge observed, it was not even clear what \"hypotheses\" USI was researching. Furthermore, USI computed its § 41 credit wholly upon the amounts the IRS had previously agreed were properly deducted under § 174, effectively treating its § 174 expenditure pool as coextensive with <a href=\"/us/glossary/qualified-research-expenses-qre\">§ 41 QREs</a>; the opinions do not reflect any segregation of routine coding, DCS data mapping, or debugging from arguably experimental activities, although the courts did not decide the case on a cost-segregation basis."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table: Statutory Requirements vs. Taxpayer Failures and Judicial Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and regulatory requirement evaluated in <em>United Stationers, Inc. v. United States</em> against USI's specific evidentiary and legal failures and the controlling judicial standard of proof established by the District Court and the Seventh Circuit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory / Regulatory Requirement",
+        "Governing Authority",
+        "Taxpayer's Position & Evidentiary Failure (USI)",
+        "Court's Standard of Proof & Holding"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Burden of Proof & Recordkeeping</strong>",
+            "I.R.C. §§ 41, 6001; Treas. Reg. § 1.41-4(d); <em>Interstate Transit Lines</em>.",
+            "Relied on high-level stipulated project summaries emphasizing total time/money spent ($956k DCS purchase plus internal labor) and business goals.",
+            "<strong>Strict Taxpayer Burden:</strong> Tax credits are matters of legislative grace; IRS determinations carry a presumption of correctness. Generalized project summaries cannot substitute for specific technical proof of each statutory element."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/us/glossary/irc-section-174\">Section 174</a> Deductibility Test</strong>",
+            "I.R.C. § 41(d)(1)(A); I.R.C. § 174.",
+            "Deducted software development costs under § 174 on original FY1988 return; assumed § 174 allowance automatically supported § 41 eligibility.",
+            "<strong>Threshold Only (Conceded by IRS):</strong> Eligibility under § 174 is a necessary prerequisite under § 41(d)(1)(A), but is legally insufficient by itself to establish narrower \"qualified research\" under § 41(d)(1)(B)–(C)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Discovery of Technological Information Test</strong>",
+            "I.R.C. § 41(d)(1)(B)(i); H.R. Conf. Rep. No. 99-841, n.3.",
+            "Argued dictionary definition of \"discover\" (obtaining knowledge for the first time); claimed building custom applications atop DCS file structures was new to USI.",
+            "<strong>Failed:</strong> Merely employing a computer or modifying pre-existing vendor software (DCS) as a \"building block\" does not discover technological information. Under the court's reading, research had to expand or refine computer science principles <em>(Note: later modified by T.D. 9104 to require resolving technological uncertainty re: capability, method, or design)</em>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/us/glossary/business-component\">Business Component</a> Test</strong>",
+            "I.R.C. § 41(d)(1)(B)(ii); I.R.C. § 41(d)(3)(A).",
+            "Developed eight discrete software systems intended to improve internal wholesale operations and productivity.",
+            "<strong>Satisfied (Conceded by IRS):</strong> The parties stipulated that the eight software projects were intended to be useful in developing new or improved business components of the taxpayer."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Process of Experimentation Test</strong>",
+            "I.R.C. § 41(d)(1)(C); H.R. Conf. Rep. No. 99-841, at II-72.",
+            "Asserted that iterative software coding and \"debugging\" (testing and correcting code errors) inherently constitute experimentation, and that operational benefits were uncertain.",
+            "<strong>Failed:</strong> Debugging is mere fine-tuning of operating instructions. A qualifying process of experimentation involves a systematic, almost scientific, evaluation of more than one alternative (which may involve hypothesis formulation, testing, analysis, and refinement) to resolve <em>technical</em> design uncertainty present at the outset."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Internal-Use Software (IUS) Exclusion</strong>",
+            "I.R.C. § 41(d)(4)(E).",
+            "Argued that software impacting core revenue operations (inventory/pricing) or allowing limited customer/vendor access (Unilink, DRRS) is not \"exclusively\" internal.",
+            "<strong>Excluded as IUS:</strong> Under the <strong>Totality of the Circumstances Test</strong>, software developed to automate internal accounting, inventory, invoicing, and warehousing—and never sold or licensed to third parties—was held primarily for internal use on this record, notwithstanding indirect customer benefits and limited external access."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Exception Prong 1: Innovativeness</strong>",
+            "H.R. Conf. Rep. No. 99-841, at II-73; Prop. Treas. Reg. § 1.41-4(e)(5) (now § 1.41-4(c)(6)).",
+            "Demonstrated that the eight automated systems substantially accelerated order/warehouse processing and reduced administrative costs compared to prior manual operations.",
+            "<strong>Satisfied (Overruling Magistrate Judge):</strong> The District Court held the projects were innovative because they fell within the plain meaning of the definition (substantial and economically significant reductions in cost or improvements in speed); the Seventh Circuit rejected the government's challenge and held this finding not clearly erroneous."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Exception Prong 2: Significant Economic Risk</strong>",
+            "H.R. Conf. Rep. No. 99-841, at II-73; Prop. Treas. Reg. § 1.41-4(e)(5) (now § 1.41-4(c)(6)).",
+            "Pointed to large financial investment and project summaries stating there was \"no guarantee\" of timely invoicing (CIP), expected ROI (FDP), or pricing gains (Concept 90).",
+            "<strong>Failed:</strong> Significant economic risk requires substantial uncertainty <em>because of technical risk</em> that committed resources will not be recovered. Because the technical capability to build the software was clear from the outset, USI faced only non-qualifying <em>business/commercial</em> risk."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS Exception Prong 3: Not Commercially Available</strong>",
+            "H.R. Conf. Rep. No. 99-841, at II-73; Prop. Treas. Reg. § 1.41-4(e)(5) (now § 1.41-4(c)(6)).",
+            "Purchased DCS ($956k) but had to custom-design all application layers because no off-the-shelf package met USI's wholesale specifications without major modification.",
+            "<strong>Satisfied (Stipulated by IRS):</strong> The parties stipulated that all eight software programs were not commercially available (the Seventh Circuit also noted that USI could not have purchased any other software to meet its needs without modification)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the legal holdings of <em>United Stationers</em> into actionable tax governance, the following two applied case studies examine modern corporate taxpayers confronting the exact statutory and evidentiary pitfalls that defeated USI's claim: customizing a commercial software foundation where business ROI uncertainty is mistakenly documented instead of architectural design uncertainty, developing internal operational and order-management software that triggers the I.R.C. § 41(d)(4)(E) Internal-Use Software exclusion and the High Threshold of Innovation Test, and relying on routine \"debugging\" logs and unsegregated § 174 cost pools rather than hypothesis-driven experimentation records and properly structured third-party consulting contracts."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Enterprise Supply-Chain & Automated Warehouse Control Software Built Atop a Commercial ERP Kernel"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Identified United Stationers Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apex Industrial Supply Corp. (\"Apex\"), a $1.5 billion national wholesale distributor of industrial fasteners and MRO supplies, licenses a commercial Warehouse Management System (\"WMS\") core database engine from an external vendor (\"LogiCore\") for $1.2 million. Apex retains LogiCore under a consulting agreement and deploys 25 internal software engineers to build two custom modules atop LogiCore's database schema. The first module, Automated Dock-to-Stock Receiving & Autonomous Crane Routing (Module A)—analogous to USI's Automated Inbound Shipment Processing (SCS) and Receiving System projects—ingests real-time sensor streams from high-speed optical scanners and coordinates 120 autonomous mobile robots (AMRs) and automated storage and retrieval system (ASRS) cranes. The second module, Multi-Echelon Demand Forecasting & Dynamic Pricing Engine (Module B)—analogous to USI's Facility Database Project (FDP), Forecasting/Replenishment, and Concept 90 projects—replaces individual buyer intuition with automated inventory replenishment and real-time margin adjustments across 40 regional distribution centers."
+    },
+    {
+      "type": "paragraph",
+      "text": "In its initial state, Apex's tax posture mirrors USI's fatal flaws across four dimensions. First, in its documentation, Apex's Capital Expenditure (CapEx) authorization memos state that the project's primary risks are \"achieving a 22% reduction in dock dwell time,\" \"preventing customer churn from stockouts,\" and \"recovering the $6.5 million investment within 24 months\"—the exact type of <em>business and operational uncertainties</em> rejected in <em>United Stationers</em>. Second, regarding experimentation tracking, Apex's Jira tickets record standard user-story completion and QA \"bug fixes\" (debugging syntax errors and user-interface glitches), which the Seventh Circuit held is merely fine-tuning computer operating instructions. Third, regarding IUS classification and component definition, Apex bundles all 25 engineers' wages and 100% of LogiCore's consulting fees into a single project cost center, failing to separate <a href=\"/us/glossary/erp-implementation-qualification\">back-office ERP configuration</a> (excluded IUS under § 41(d)(4)(E)) from hardware-integrated process control software. Fourth, in its contractual structure, Apex's agreement with LogiCore includes fixed-price milestone payments linked to operational go-live guarantees and grants LogiCore ownership of any enhancements to the underlying database kernel, creating a \"<a href=\"/us/glossary/funded-research\">funded research</a>\" / lack of substantial rights disqualification under I.R.C. § 41(d)(4)(H) and Treas. Reg. § 1.41-2(e)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Business Component Segregation (Applying the \"Shrinking-Back\" Rule)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid tainting the entire claim with the § 41(d)(4)(E) Internal-Use Software exclusion and failing the \"substantially all\" (80%) requirement of § 41(d)(1)(C), Apex must restructure its project governance at the outset of development using the \"<a href=\"/us/glossary/shrink-back-rule\">shrinking-back</a>\" methodology under Treas. Reg. § 1.41-4(b)(2). Rather than claiming \"WMS/ERP Modernization\" as a single monolithic business component, Apex must formally partition the engineering charter into three discrete sub-components tracked under separate <a href=\"/us/glossary/project-accounting\">general ledger project codes</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first sub-component, the Hardware-Integrated AMR/ASRS Real-Time Collision & Kinematics Engine (Sub-Component 1A), must be isolated as an <a href=\"/us/glossary/hardware-software-integration\">integrated hardware-software subsystem</a>. Under Treas. Reg. § 1.41-4(c)(6)(ii), a new or improved package of software and hardware developed together as a single product, of which the software is an integral part and which is used by the taxpayer in providing services in its trade or business, is not required to satisfy the High Threshold of Innovation Test, and software not developed for use in G&A functions falls outside the internal-use definition; robotic actuator and real-time sensor control software should therefore be documented and evaluated together with the hardware subsystem. The second sub-component, the Stochastic Multi-Echelon Inventory Optimization Algorithm (Sub-Component 1B), encompasses inventory management and pricing functions that fall within supply-chain and financial G&A categories under Treas. Reg. § 1.41-4(c)(6)(iii) and <em>United Stationers</em>; consequently, Apex must isolate the core mathematical optimization engine as a standalone business component evaluated strictly under the Three-Part High Threshold of Innovation Test. The third sub-component, Routine LogiCore Schema Mapping, UI Forms, and Role-Based Access Control (Sub-Component 1C), must explicitly capture all routine database table configurations, GUI screens, and standard API wrappers in a non-qualifying cost code. While these routine development costs may be capitalized and <a href=\"/us/glossary/section-174-amortization\">amortized under I.R.C. § 174(a)</a>, carving them out as a separate non-claimed component prevents them from diluting the \"substantially all\" (80%) experimentation fraction of Sub-Components 1A and 1B."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation Overhaul (Eliminating Business Risk Language in Favor of Capability and Architectural Uncertainty)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the court's holding that \"while the aspired benefits of the projects were in doubt, the development of the means... was not\", Apex must mandate a <strong>Technical Uncertainty Charter (TUC)</strong> prior to writing any application code. The TUC must strip out financial ROI and operational efficiency metrics and document specific computer science uncertainties under Treas. Reg. § 1.41-4(a)(3)(i) and (c)(6)(vii)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For Sub-Component 1A, the TUC must document why LogiCore's pre-existing commercial file structure <em>cannot</em> achieve deterministic sub-15-millisecond state synchronization across 120 concurrent AMRs due to relational database row-locking contention. The documented technical uncertainty is thus framed strictly as one of <strong>capability and architectural design</strong>: whether an in-memory, lock-free Conflict-Free Replicated Data Type (CRDT) state engine can be architected to interface with legacy relational persistence layers without inducing memory heap exhaustion or message-bus deadlock under peak telemetry loads of 50,000 events per second."
+    },
+    {
+      "type": "paragraph",
+      "text": "For Sub-Component 1B, to satisfy the IUS \"Significant Economic Risk\" requirement under <em>United Stationers</em> and Treas. Reg. § 1.41-4(c)(6)(vii)(C), Apex must prove that substantial uncertainty exists because of <em>technical risk</em> rather than business ROI risk. The TUC must document that standard commercial forecasting algorithms (such as ARIMA or simple exponential smoothing) fail computationally when calculating joint probability distributions across 500,000 intermittent-demand SKUs and 40 interconnected warehouse nodes ( state combinations), causing runtime explosions that exceed the nightly 4-hour batch window. The documented technical uncertainty is whether a novel hybrid Graph Neural Network (GNN) and Monte Carlo tree-search approximation algorithm can converge within a 120-minute compute window while maintaining mathematical stability."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Experimentation Tracking (Replacing \"Debugging\" Logs with Hypothesis-Driven Engineering Protocols)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To defeat the Seventh Circuit's holding that iterative testing and \"debugging\" are merely fine-tuning operating instructions, Apex must configure its Git version-control and Jira workflows to enforce a formal scientific methodology. Every R&D-flagged engineering sprint must open with an Architectural Decision Record (ADR) specifying at least two competing technical alternatives designed to resolve the documented uncertainty. For example, under Sub-Component 1A, the ADR must state Hypothesis (that implementing a spatial-hash grid index with ZeroMQ pub-sub message brokering will reduce AMR path-recalculation latency below 15 ms at 50,000 events/sec) alongside competing Hypothesis (that implementing an actor-model concurrency framework with memory-mapped ring buffers following the LMAX Disruptor pattern will eliminate garbage-collection pauses that cause to fail at 99th-percentile tail latency)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than saving pass/fail QA unit test logs—which courts view as routine debugging—Apex must archive automated load-simulation telemetry logs capturing throughput, p99 latency, CPU thread contention, and memory allocation graphs that demonstrate empirically why failed under stress simulation, how the mathematical parameters were modified, and how was validated. Furthermore, engineers must <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">log hours daily</a> against specific ADR experiment codes, strictly segregating post-validation bug-fixing, user-acceptance testing (UAT), and data migration into non-qualifying accounts so that at least 80% (\"substantially all\") of the hours on Sub-Components 1A and 1B are verifiable elements of a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contractual Restructuring (Preserving \"Substantial Rights\" and Economic Risk on Vendor Spend)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To claim 65% of the payments made to LogiCore's external engineers as qualified contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">I.R.C. § 41(b)(3)</a>, Apex must amend its Statement of Work (SOW) with LogiCore prior to performance. First, Apex must eliminate vendor performance guarantees by replacing <a href=\"/us/glossary/fixed-price-contract\">fixed-price deliverable milestones</a> tied to operational acceptance with a pure Time-and-Materials (T&M) fee structure, ensuring that Apex is legally obligated to pay for LogiCore's engineering hours regardless of whether the experimental CRDT or GNN algorithms succeed or fail, thereby placing financial risk squarely on Apex under Treas. Reg. § 1.41-2(e)(2). Second, Apex must execute an Intellectual Property Addendum specifying that while LogiCore retains background rights to its pre-existing commercial WMS kernel, Apex holds exclusive ownership (or a perpetual, royalty-free, non-fee-bearing right to use and exploit) all custom algorithms, architectural designs, and source code developed under the SOW, satisfying the <a href=\"/us/glossary/substantial-rights\">substantial rights</a> requirement of Treas. Reg. § 1.41-2(e)(3)."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: B2B Customer Order-Entry Portal & Centralized Paperless Invoicing Platform (\"Dual-Function\" Software)"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Identified United Stationers Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "OmniMed Distribution, Inc. (\"OmniMed\"), a national distributor of pharmaceutical and medical supplies, develops a unified cloud platform called <strong>OmniLink</strong>—a modern counterpart to USI's Unilink, Document Retention and Retrieval System (DRRS), and Central Invoice Project (CIP). OmniLink allows hospital purchasing departments and third-party medical suppliers to connect directly to OmniMed's mainframe inventory and billing databases, place automated EDI/API orders, view real-time lot-traceability and drug-pedigree compliance records, and generate centralized paperless invoices."
+    },
+    {
+      "type": "paragraph",
+      "text": "In its un-remediated state, OmniMed walks directly into two central traps established in <em>United Stationers</em>. First, under the \"Totality of the Circumstances\" IUS trap, OmniMed argues that because external hospitals and vendors log into OmniLink to place orders and retrieve invoices, the entire platform is \"customer-facing\" and exempt from the § 41(d)(4)(E) Internal-Use Software exclusion. Under <em>United Stationers</em> (and modern Treas. Reg. § 1.41-4(c)(6)(iii) and (vi)), because OmniLink primarily automates OmniMed's own order entry, inter-divisional billing, and invoice retention—and is not sold or licensed commercially as a standalone software product—the IRS will classify OmniLink as presumptively internal-use or \"dual-function\" software. Second, under the \"Building Block\" discovery failure, OmniMed builds OmniLink using commercial cloud services (AWS RDS, standard REST APIs, and an off-the-shelf EDI translator), merely writing custom business-logic glue code. Under <em>United Stationers</em>, applying and modifying pre-existing commercial software building blocks to automate paperless invoicing and order entry fails to establish technological uncertainty or experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Structural Partitioning Under Treas. Reg. § 1.41-4(c)(6)(iv) (Isolating Third-Party Subsets vs. Dual-Function Safe Harbor)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the Seventh Circuit's holding that limited customer access to an internal order and invoice system does not remove the software from § 41(d)(4)(E), OmniMed must leverage the regulatory framework of T.D. 9786 (Treas. Reg. § 1.41-4(c)(6)(iv)) through strict architectural decoupling at the beginning of the tax year. Rather than building a monolithic application where external hospital portals and internal G&A invoicing share the same codebase, OmniMed must architect two distinct microservices repositories treated as separate business components."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first repository, the External Hospital & Supplier Real-Time Clinical Lot-Matching & EDI Gateway (Component 2A), must be designed <em>exclusively</em> to enable third parties (hospitals and external drug manufacturers) to initiate transactions, verify cryptographic DSCSA (Drug Supply Chain Security Act) serialization pedigrees, and execute automated cross-supplier therapeutic substitutions. Because this discrete software component is developed exclusively to interact with third parties and performs no internal G&A bookkeeping, it escapes the IUS definition entirely under Treas. Reg. § 1.41-4(c)(6)(iv)(A)–(B) and is evaluated solely under the general Four-Part Test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second repository, the Dual-Function Distributed Order Routing & Paperless Ledger Engine (Component 2B), serves both internal G&A accounting/invoicing and external customer order confirmation (analogous to USI's combined DRRS/CIP/Unilink back-end). Under Treas. Reg. § 1.41-4(c)(6)(vi)(A), dual-function software is presumed to be internal-use software; however, OmniMed can first isolate any discrete <a href=\"/us/glossary/third-party-subset\">third-party subset</a>, and for the remaining dual-function subset, invoke the <strong>25% Dual-Function Safe Harbor</strong> under Treas. Reg. § 1.41-4(c)(6)(vi)(C) to claim 25% of the qualified research expenditures—provided that third-party use is reasonably anticipated to constitute at least 10% of the subset's total use and the dual-function subset satisfies the Three-Part High Threshold of Innovation Test."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Establishing True Technological Uncertainty and the High Threshold of Innovation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To survive judicial scrutiny under <em>United Stationers</em>, OmniMed must exclude all routine web portal design, PDF invoice generation, and commercial EDI mapping, and focus its claim strictly on hard computer science bottlenecks where existing vendor \"building blocks\" fail."
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy Prong 2 of the IUS Exception (\"Significant Economic Risk\" driven by technical risk), OmniMed's contemporaneous design specifications for Component 2B must document why commercial distributed databases cannot simultaneously guarantee strict ACID (Atomicity, Consistency, Isolation, Durability) serializability for financial invoicing <em>and</em> sub-50-millisecond global read-write availability across 15 regional divisions during network partitions (the fundamental CAP Theorem constraint). The documented technical risk is that attempting real-time inter-divisional inventory reservation and invoice generation across legacy mainframes and cloud nodes causes distributed deadlocks and split-brain inventory corruption under high concurrency."
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy Prong 1 of the IUS Exception (\"Innovativeness\"), in accordance with <em>United Stationers</em> (in which the Seventh Circuit upheld, as not clearly erroneous, the finding that substantial and economically significant speed improvements or cost reductions satisfied innovativeness) and Treas. Reg. § 1.41-4(c)(6)(vii)(B), OmniMed must establish baseline quantitative benchmarks at project inception—specifically documenting that the project is designed to reduce distributed transaction commit latency from 4,200 ms to under 40 ms (a 99% speed improvement) and reduce compute and bandwidth overhead by 60% through a novel deterministic consensus protocol. To satisfy Prong 3 (\"Not Commercially Available\"), OmniMed must preserve formal vendor technical evaluations (RFPs and benchmark failure reports of commercial off-the-shelf ERP and EDI connectors) proving that no commercially available software could be purchased, leased, or licensed to resolve the hybrid mainframe-to-cloud cryptographic serialization and distributed lock contention without fundamental architectural engineering."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Substantiating the Process of Experimentation and Objective Usage Telemetry"
+    },
+    {
+      "type": "paragraph",
+      "text": "To substantiate a rigorous <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> under I.R.C. § 41(d)(1)(C), OmniMed's engineering repository must preserve design branches, simulation harness code, and comparative performance logs testing competing distributed consensus and caching architectures—such as comparing Two-Phase Commit (2PC) against a Saga pattern with compensating transactions and a custom deterministic Calvin-style transaction scheduling layer—under simulated network-partition injection (Chaos Engineering tests). Finally, to substantiate the third-party interaction ratio for Component 2B under the Treas. Reg. § 1.41-4(c)(6)(vi)(C) safe harbor, OmniMed must instrument its API gateway to log objective, contemporaneous telemetry (recording API call volume, compute cycles, and database I/O operations initiated by external hospital and vendor IP addresses versus internal employee terminals), thereby replacing subjective estimates with verifiable audit evidence."
+    },
+    {
+      "type": "subheading",
+      "text": "Summary Comparison of Remedial Transformations"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Deficient Practice in United Stationers",
+        "Remedial Governance in Case Study 1 (Apex WMS/Robotics)",
+        "Remedial Governance in Case Study 2 (OmniMed Order/Invoice Portal)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Building upon commercial software (\"DCS\") without isolating novel computer science uncertainty</strong>",
+            "Isolate LogiCore schema configuration into non-qualifying codes; restrict QREs to custom CRDT lock-free concurrency and GNN optimization engines.",
+            "Exclude standard cloud/EDI setup; restrict QREs to custom deterministic distributed transaction scheduling and cryptographic serialization engines."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Documenting business/ROI risk (\"no guarantee of timely invoices or adequate ROI\") instead of technical risk</strong>",
+            "Replace ROI memos with Technical Uncertainty Charters documenting relational row-locking contention at 50k events/sec and runtime explosions.",
+            "Document CAP-theorem distributed deadlock and split-brain state corruption between legacy mainframes and cloud nodes under peak concurrency."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Equating routine code \"debugging\" with a process of experimentation</strong>",
+            "Require Architectural Decision Records (ADRs) with competing hypotheses ( vs. ) and automated stress-test telemetry logs; exclude routine QA bug fixes.",
+            "Preserve multi-branch simulation harnesses comparing 2PC, Saga, and deterministic transaction scheduling under network-partition injection."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Failing the \"Totality of the Circumstances\" IUS test despite external customer access</strong>",
+            "Segregate hardware-integrated AMR/crane control software (§ 1.41-4(c)(6)(ii)) from internal G&A forecasting software; satisfy all 3 High Threshold of Innovation prongs.",
+            "Architecturally decouple the purely external third-party gateway from internal G&A billing (§ 1.41-4(c)(6)(iv)); deploy API telemetry to support the 25% dual-function safe harbor."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Relying on generalized project summaries and unsegregated § 174 cost pools</strong>",
+            "Implement daily phase-and-component time-tracking (&gt;80% experimentation verification) and restructure vendor SOWs to <a href=\"/us/glossary/time-and-materials-contract\">T&M</a> with exclusive IP ownership.",
+            "Link W-2 engineer hours directly to experimental Git commits/ADRs and maintain contemporaneous vendor RFP failure analyses for commercial unavailability."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Strategic Synthesis for U.S. Tax Practitioners"
+    },
+    {
+      "type": "paragraph",
+      "text": "While subsequent regulatory revisions in T.D. 9104 (2003) and T.D. 9786 (2016) moderated the Seventh Circuit's historical \"new-to-the-world\" discovery formulation, <em>United Stationers, Inc. v. United States</em> remains one of the government's most potent authorities in federal R&D tax credit litigation. Its core analytical pillars—that <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">§ 174 deductibility</a> does not automatically confer § 41 credit eligibility, that economic or operational uncertainty cannot substitute for technological uncertainty, that routine software debugging is not a scientific process of experimentation, and that internal enterprise software must surmount a rigorous technical-risk threshold regardless of indirect customer benefits—continue to govern IRS examinations and appellate review. By proactively restructuring project governance around the shrinking-back rule, enforcing hypothesis-driven engineering documentation, decoupling third-party interfaces from internal G&A architectures, and aligning vendor contracts with economic risk and IP retention rules, corporate taxpayers can insulate their software development claims from the evidentiary failures that proved fatal in <em>United Stationers</em>."
+    }
+  ],
+  "metaDescription": "United Stationers v. United States (N.D. Ill. 1997): business uncertainty, routine debugging and building on commercial software are not research."
+}

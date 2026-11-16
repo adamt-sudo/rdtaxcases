@@ -1,0 +1,708 @@
+{
+  "kind": "legislation-page",
+  "country": "us",
+  "title": "26 U.S. Code Section 41(c)(4) Alternative Simplified Credit",
+  "description": "Under 26 U.S.C. § 41(c)(4), the Alternative Simplified Credit is 14% of research expenses above 50% of the prior three-year average.",
+  "summary": "Under 26 U.S.C. § 41(c)(4), the Alternative Simplified Credit lets U.S. taxpayers compute the federal R&D credit as 14 percent of current-year qualified research expenses exceeding 50 percent of the prior three-year average, or 6 percent of current QREs if any prior year had none. The election, which avoids 1984–1988 base-period records, binds later years absent IRS consent.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(c)(4), the Alternative Simplified Credit lets U.S. taxpayers compute the federal R&D credit as 14 percent of current-year qualified research expenses exceeding 50 percent of the prior three-year average, or 6 percent of current QREs if any prior year had none. The election, which avoids 1984–1988 base-period records, binds later years absent IRS consent."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Statutory Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Internal Revenue Code (IRC) Section 41(c)(4), which codifies the Alternative Simplified Credit (ASC), establishes a rolling-average calculation methodology for the federal research and development (R&D) tax credit. Under 26 U.S.C. § 41(c)(4)(A), a taxpayer computes its federal research credit at a flat rate of 14 percent of the amount by which current-year qualified research expenses (QREs) exceed 50 percent of the average QREs incurred over the three preceding taxable years. Where a taxpayer was not in existence or incurred zero QREs in any one of those three preceding taxable years, 26 U.S.C. § 41(c)(4)(B) substitutes a flat rate of 6 percent applied directly to current-year QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Congress originally enacted the ASC under the Tax Relief and Health Care Act of 2006 (Pub. L. 109-432) as IRC Section 41(c)(5), before the provision was subsequently redesignated and renumbered to IRC Section 41(c)(4). The legislative design of the ASC directly addresses the structural and administrative friction of the Regular Research Credit (RRC) under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC Section 41(a)(1)</a> and Section 41(c)(1)–(3), which requires taxpayers to substantiate historical QREs and gross receipts dating back to the 1984–1988 base period. Because the RRC anchors its base amount to a <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">fixed-base percentage</a> multiplied by average annual gross receipts over the four preceding years, enterprises experiencing rapid revenue expansion suffer mathematical compression of their credit even when absolute research spending increases, while modern startups, acquisitive corporate groups, and mid-market companies frequently lack <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous archival records</a> from the 1980s."
+    },
+    {
+      "type": "paragraph",
+      "text": "By decoupling the credit base entirely from gross receipts and substituting a three-year rolling QRE window, Section 41(c)(4) stabilizes credit predictability across business cycles and broadens access to the research incentive for enterprises whose top-line revenue growth outpaces incremental R&D expenditure growth. At the same time, the rolling three-year base introduces a dynamic self-adjusting mechanism whereby each dollar of current-year QREs increases the taxpayer's current credit at a 14 percent marginal rate before IRC Section 280C adjustments, but subsequently enters the three-year lookback denominator for the following three taxable years, raising the future base threshold by $0.1667 per dollar in each of those three years. Under IRC Section 41(c)(4)(C) and Treasury Regulation § 1.41-9(b)(2), an election to apply the ASC is irrevocable for the taxable year in which it is made and remains binding for all subsequent taxable years unless the taxpayer obtains the affirmative consent of the Commissioner of the Internal Revenue Service (IRS) to revoke the election."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory Mechanics of the Alternative Simplified Credit"
+    },
+    {
+      "type": "subheading",
+      "text": "Mathematical Framework and Two-Tier Rate Structure"
+    },
+    {
+      "type": "paragraph",
+      "text": "The quantitative operation of IRC Section 41(c)(4) bifurcates claimants into two statutory tiers depending on the continuity of their research expenditures over the three preceding taxable years (<em>t</em> − 1, <em>t</em> − 2, and <em>t</em> − 3). For established claimants that have incurred positive QREs in each of the three prior tax years (QRE<sub><em>t</em>−1</sub> &gt; 0, QRE<sub><em>t</em>−2</sub> &gt; 0, and QRE<sub><em>t</em>−3</sub> &gt; 0), the statutory base amount equals 50 percent of the three-year arithmetic mean:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Base Amount<sub>ASC</sub> = 0.50 × ((QRE<sub><em>t</em>−1</sub> + QRE<sub><em>t</em>−2</sub> + QRE<sub><em>t</em>−3</sub>) ÷ 3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting gross credit under IRC Section 41(c)(4)(A) is 14 percent of incremental current-year QREs (QRE<sub><em>t</em></sub>) above that base threshold:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ASC<sub>Standard</sub> = 0.14 × max(0, QRE<sub><em>t</em></sub> − Base Amount<sub>ASC</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, if QRE<sub><em>t</em>−1</sub> = 0, QRE<sub><em>t</em>−2</sub> = 0, or QRE<sub><em>t</em>−3</sub> = 0—including instances where the taxpayer was not in existence during one or more of the three lookback years—IRC Section 41(c)(4)(B) bypasses the base subtraction entirely and applies a flat 6 percent rate directly to current-year QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ASC<sub>Startup / Zero-Prior</sub> = 0.06 × QRE<sub><em>t</em></sub>"
+    },
+    {
+      "type": "paragraph",
+      "text": "From an analytical standpoint, the structural transition between the 6 percent gross credit rate under Section 41(c)(4)(B) and the 14 percent incremental rate under Section 41(c)(4)(A) creates a mathematical inflection point when current-year QREs equal 87.5 percent of the prior three-year average (QRE<sub><em>t</em>−1..<em>t</em>−3</sub>):"
+    },
+    {
+      "type": "paragraph",
+      "text": "0.14 × (QRE<sub><em>t</em></sub> − 0.50 × QRE<sub><em>t</em>−1..<em>t</em>−3</sub>) = 0.06 × QRE<sub><em>t</em></sub> ⟹ 0.08 × QRE<sub><em>t</em></sub> = 0.07 × QRE<sub><em>t</em>−1..<em>t</em>−3</sub> ⟹ QRE<sub><em>t</em></sub> = 0.875 × QRE<sub><em>t</em>−1..<em>t</em>−3</sub>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Above that 87.5 percent ratio, the 14 percent incremental formula under Section 41(c)(4)(A) generates a higher effective credit yield on total current-year QREs than the 6 percent flat tier; when current-year QREs remain exactly static relative to the prior three-year average (QRE<sub><em>t</em></sub> = QRE<sub><em>t</em>−1..<em>t</em>−3</sub>), the standard ASC produces an effective gross credit rate of 7.0 percent of total current-year QREs (0.14 × 0.50 × QRE<sub><em>t</em></sub>). Conversely, if a taxpayer's current-year QREs contract to lie between 50 percent and 87.5 percent of the three-year lookback average, the taxpayer remains locked into Section 41(c)(4)(A) if it had positive QREs in all three prior years, yielding an effective credit rate below 6 percent, and if current-year QREs fall to or below 50 percent of the prior three-year average, the standard ASC yields zero credit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Parameter",
+        "Standard ASC Tier",
+        "Startup / Zero-Prior-QRE Tier",
+        "Regular Research Credit (RRC) Benchmark"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Governing Statutory Provision",
+            "26 U.S.C. § 41(c)(4)(A)",
+            "26 U.S.C. § 41(c)(4)(B)",
+            "26 U.S.C. § 41(a)(1), <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">§ 41(c)(1)</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Qualifying History Condition",
+            "Positive QREs in all 3 preceding tax years",
+            "Zero QREs or non-existence in any 1 of 3 preceding tax years",
+            "Substantiation of 1984–1988 base period or <a href=\"/us/glossary/start-up-provision\">startup rules</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Base Amount Formula",
+            "50% of average QREs for the 3 preceding tax years",
+            "$0 (no base reduction)",
+            "Fixed-base percentage × 4-year average gross receipts (<a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">min. 50% of current QREs</a>)"
+          ]
+        },
+        {
+          "cells": [
+            "Statutory Credit Rate",
+            "14% of excess QREs",
+            "6% of total current-year QREs",
+            "20% of excess QREs"
+          ]
+        },
+        {
+          "cells": [
+            "Net Rate Under IRC § 280C(c) (21% Corp. Tax)",
+            "11.06% of excess QREs (79% of 14%)",
+            "4.74% of current-year QREs (79% of 6%)",
+            "15.80% of excess QREs (79% of 20%)"
+          ]
+        },
+        {
+          "cells": [
+            "Dependence on Gross Receipts",
+            "None",
+            "None",
+            "High (4-year prior gross receipts and historical base ratio)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Qualified Research Expenses and the Four-Part Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eligibility to include expenditures in either the current-year QRE numerator or the three-year prior base denominator under Section 41(c)(4) requires strict compliance with the expenditure definitions in IRC Section 41(b) and the qualitative activity standards in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)</a>. Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Section 41(b)</a>, QREs are statutorily restricted to three exhaustive expenditure categories: in-house research wages, research supplies, and third-party contract research expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "In-house research wages under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(A)(i)</a> encompass compensation paid or incurred for employees performing direct qualified research, direct supervision of qualified research, or direct support of qualified research activities, measured by taxable wages under IRC Section 3401(a) while explicitly excluding non-taxable fringe benefits such as employer 401(k) matching contributions and health insurance premiums. Research supplies under IRC Section 41(b)(2)(A)(ii) and Section 41(b)(2)(C) consist of tangible property used or consumed directly in the research process, expressly excluding land, improvements to land, and property of a character subject to the allowance for depreciation. Contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC Section 41(b)(3)(A)</a> generally enter the QRE calculation at 65 percent of amounts paid or incurred to unrelated third parties performing qualified research on the taxpayer's behalf, rising to a 75 percent inclusion rate under IRC Section 41(b)(3)(C) when payments are made to a qualified research consortium operating as a tax-exempt organization primarily conducting scientific research."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "QRE Expenditure Category",
+        "Statutory Authority",
+        "Inclusion Rate & Measure",
+        "Explicit Statutory Exclusions"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "In-House Research Wages",
+            "IRC § 41(b)(2)(A)(i); § 3401(a)",
+            "100% of taxable wages paid for direct research, <a href=\"/us/glossary/direct-supervision\">direct supervision</a>, or direct support",
+            "<a href=\"/us/faq/excluded-expenses-rd-tax-credit\">Non-taxable fringe benefits</a>, including 401(k) matching contributions and health insurance"
+          ]
+        },
+        {
+          "cells": [
+            "Research Supplies",
+            "IRC § 41(b)(2)(A)(ii); § 41(b)(2)(C)",
+            "100% of tangible property used or consumed in qualified research",
+            "Land, improvements to land, and property subject to an allowance for depreciation"
+          ]
+        },
+        {
+          "cells": [
+            "Standard Contract Research",
+            "IRC § 41(b)(3)(A)",
+            "<a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of payments</a> to unrelated third parties performing qualified research",
+            "Payments to employees or related controlled group affiliates"
+          ]
+        },
+        {
+          "cells": [
+            "Consortium Contract Research",
+            "IRC § 41(b)(3)(C)",
+            "75% of payments to a tax-exempt qualified research consortium",
+            "Payments to organizations not operating primarily to conduct scientific research"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For any wage, supply, or contract expenditure to enter the Section 41(c)(4) computation, the underlying technical activity must satisfy the cumulative \"Four-Part Test\" of IRC Section 41(d) applied separately to each \"business component\"—defined under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">Section 41(d)(2)(B)</a> as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Element",
+        "IRC & Regulatory Authority",
+        "Substantive Legal Threshold",
+        "Explicit Statutory & Judicial Exclusions"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Permitted Purpose",
+            "IRC § 41(d)(1)(B)(ii); <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">§ 41(d)(3)</a>",
+            "Activity must be intended to develop a new or improved function, performance, reliability, or quality of a business component",
+            "Research relating to style, taste, cosmetic, or seasonal design factors (IRC § 41(d)(3)(B))"
+          ]
+        },
+        {
+          "cells": [
+            "Technological in Nature",
+            "IRC § 41(d)(1)(B)(i)",
+            "Process of experimentation must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science",
+            "Research in the social sciences, arts, or humanities (<a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)(G)</a>)"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/faq/irs-technical-uncertainty-description-examples\">Elimination of Technical Uncertainty</a>",
+            "IRC § 41(d)(1)(A); Treas. Reg. § 1.41-4(a)(3)",
+            "Information available to the taxpayer at project inception does not establish the capability, method, or appropriate design of the business component",
+            "Commercial, financial, or market uncertainty regarding whether a product will sell; standard engineering know-how"
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)–(6)",
+            "<a href=\"/us/glossary/substantially-all-rule\">Substantially all (at least 80%)</a> of research activities must constitute elements of a systematic process of evaluating alternatives via hypothesis, modeling, simulation, or systematic trial and error",
+            "<a href=\"/us/glossary/routine-data-collection\">Routine data collection</a>, unguided trial-and-error fixing, or post-production quality control"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Where an overall business component fails the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> at the macro project level—most commonly because less than 80 percent of the total activities constitute a systematic process of experimentation under Treasury Regulation § 1.41-4(a)(6)—the \"shrinking-back rule\" of Treasury Regulation § 1.41-4(b)(2) directs that the Section 41(d) tests be reapplied iteratively to the next most significant subset of elements of the product, process, software, technique, formula, or invention until either a qualifying sub-component is isolated or the entire effort is disqualified. Conversely, the <a href=\"/us/glossary/patent-safe-harbor\">Patent Safe Harbor</a> codified in Treasury Regulation § 1.41-4(a)(3)(iii) provides that the issuance of a U.S. patent is conclusive evidence that a taxpayer has discovered technological information intended to eliminate uncertainty, thereby satisfying a core evidentiary component of the Four-Part Test."
+    },
+    {
+      "type": "subheading",
+      "text": "Interaction with IRC Section 280C(c) and Section 174 / 174A Capitalization"
+    },
+    {
+      "type": "paragraph",
+      "text": "The net cash-tax benefit of a Section 41(c)(4) ASC claim is governed by its interaction with <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)</a> and the capitalization directives of IRC Sections 174 and 174A. Historically, taxpayers claiming the full gross research credit were required under Section 280C(c) to reduce their current-year Section 174 <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental (R&E)</a> deduction by the amount of the credit claimed, unless they made a timely election under Section 280C(c) to claim a reduced credit in order to avoid a double tax benefit and preserve their full deduction. Because the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act of 2017 (TCJA)</a> lowered the top federal corporate income tax rate from 35 percent to a flat 21 percent, the Section 280C(c) reduced credit increased from 65 percent (100% − 35%) of the gross credit under the prior rate structure to 79 percent (100% − 21%) of the gross credit. Consequently, a 14 percent gross ASC rate converts to an 11.06 percent net incremental credit rate (0.79 × 14%), while the 6 percent startup ASC tier converts to a 4.74 percent net credit rate (0.79 × 6%)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxable years beginning after December 31, 2021, the TCJA amendments to <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a> eliminated immediate expensing and mandated that all domestic R&E expenditures be capitalized and amortized ratably over a five-year period (beginning with the midpoint of the taxable year in which such expenditures are paid or incurred), and over a 15-year period for foreign research expenditures. Under current administrative guidance, including Revenue Procedures 2025-23 and 2025-28 (published in Internal Revenue Bulletin 2025-38) governing the interplay between <a href=\"/us/glossary/section-174-amortization\">Section 174A amortization</a> and Section 41(c)(4) ASC claims, taxpayers must carefully map and reconcile their capitalized R&E cost pools with their QRE schedules. Where a taxpayer does not elect the reduced credit under Section 280C(c), the excess of the gross research credit over the allowable amortization deduction for the current year reduces the amount chargeable to the <a href=\"/us/faq/does-rd-tax-credit-reduce-tax-basis-section-280c\">capital account</a>. Crucially, the <a href=\"/us/glossary/section-280c-election\">Section 280C(c) election</a> remains legally independent of the Section 41(c)(4) ASC election, affording taxpayers strategic flexibility when filing protective claims or modeling multi-year federal and state tax liabilities."
+    },
+    {
+      "type": "subheading",
+      "text": "Controlled Group Aggregation Rules Under IRC Section 41(f)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent related entities from artificially restructuring their operations or shifting R&D personnel and contracts across subsidiaries to inflate incremental R&D credits, <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">IRC Section 41(f)</a> and Treasury Regulation § 1.41-6 enforce strict aggregation rules. Entities operating under <a href=\"/us/glossary/common-control\">common control</a>—defined under IRC Section 41(f)(1) and Section 41(f)(5) as parent-subsidiary chains with more than 50 percent common ownership, or brother-sister structures where five or fewer persons own at least 80 percent of the entities with more than 50 percent identical ownership—must compute their research credit as a single unified taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation § 1.41-6, the <a href=\"/us/glossary/controlled-group\">controlled group</a> combines all QREs and gross receipts across all constituent members to compute a unified \"Group Credit.\" Furthermore, intercompany transactions, service fees, and cost-sharing transfers between controlled group members are generally disregarded under Treasury Regulation § 1.41-6(i)(1) for purposes of the federal calculation, ensuring that intra-group markups neither inflate current-year QREs nor distort the three-year lookback base. Once the aggregate Group Credit is calculated at the consolidated group level, it is allocated pro-rata back to the individual constituent members based on the proportion of total group QREs that each member independently generated during the credit year."
+    },
+    {
+      "type": "paragraph",
+      "text": "Procedurally, the election to apply the ASC under Section 41(c)(4) must be made by the \"designated member\" of the controlled group—defined as the entity allocated the greatest amount of the group credit—and this election legally binds all affiliates for the credit year. Controlled group members cannot cherry-pick methodologies to optimize their combined claim by having certain legacy subsidiaries apply the Regular Credit while high-growth subsidiaries apply the ASC. Moreover, a member of a controlled group is strictly prohibited from filing an amended return to elect the ASC if any other member of the group has previously claimed the research credit using a different method on an original or amended return for that same taxable year."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Branch Interpretations and IRS Compliance Architecture"
+    },
+    {
+      "type": "subheading",
+      "text": "Transformation of Form 6765 and Mandatory Section G Disclosures"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Internal Revenue Service administers IRC Section 41(c)(4) through <a href=\"/us/glossary/irs-form-6765\">Form 6765</a>, <em>Credit for Increasing Research Activities</em>. Culminating in <a href=\"/us/faq/irs-form-6765-instructions-2024\">final updated instructions</a> released in early 2026, the IRS restructured Form 6765 to transition the research credit from an aggregated quantitative computation to a granular, project-level qualitative and quantitative disclosure directly on the face of the tax return. Historically, taxpayers electing the ASC reported only aggregated multi-year and current-year QRE figures in Section B of Form 6765 without detailing the underlying engineering projects or business components at the time of filing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the updated Form 6765 compliance architecture, taxpayers must complete Section E (reporting qualitative metrics including the total number of business components generating QREs, the amount of corporate officer wages claimed as QREs, whether any QREs were determined under the <a href=\"/us/glossary/asc-730-directive\">ASC 730 financial statement directive</a>, and whether any business components were acquired or disposed of during the year) and Section F (providing a granular summary of total wage, supply, and contract QREs) for tax years beginning in 2025 and subsequent years. The centerpiece of the executive branch overhaul is Section G (<em>Business Component Information</em>), which remained optional for tax years beginning in 2024 and 2025 but became strictly mandatory for tax years beginning after December 31, 2025 (applying to the 2026 tax year and onward)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form 6765 Section",
+        "Substantive Reporting Requirement",
+        "Implementation & Mandatory Timeline"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section A",
+            "Regular Research Credit (RRC) calculation requiring 1984–1988 base period data",
+            "Mandatory if the Regular Credit is elected"
+          ]
+        },
+        {
+          "cells": [
+            "Section B",
+            "Alternative Simplified Credit (ASC) calculation under IRC § 41(c)(4) (14% or 6% rate)",
+            "Mandatory if the ASC is elected"
+          ]
+        },
+        {
+          "cells": [
+            "Section D",
+            "<a href=\"/us/glossary/payroll-tax-credit-election\">Payroll Tax Credit Election</a> for Qualified Small Businesses (QSBs)",
+            "Mandatory for QSBs electing the payroll tax offset"
+          ]
+        },
+        {
+          "cells": [
+            "Section E",
+            "Qualitative disclosures: total business components, officer wages, and ASC 730 usage",
+            "Mandatory for tax years beginning in 2025 and subsequent years"
+          ]
+        },
+        {
+          "cells": [
+            "Section F",
+            "Granular summary of total qualified research expenses across wages, supplies, and contract QREs",
+            "Mandatory for tax years beginning in 2025 and subsequent years"
+          ]
+        },
+        {
+          "cells": [
+            "Section G",
+            "Business component tracking for top components comprising at least 80% of total QREs (capped at 50 business components)",
+            "Optional for 2024–2025; strictly mandatory for tax years beginning after December 31, 2025 (2026+) unless exempt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Section G operationalizes the shrinking-back rule of Treasury Regulation § 1.41-4(b)(2) directly on the return by requiring taxpayers to identify each business component by name or alphanumeric identifier, classify the component type (product, process, computer software, technique, formula, or invention, including specific classifications for <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> and dual-function software), disaggregate direct research, direct supervision, and direct support wages alongside supply and contract costs per component, and state the specific technical information sought to be discovered for the top business components comprising at least 80 percent of total QREs in descending order of expenditure, capped at a maximum of 50 business components."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exceptions to mandatory Section G reporting exist only for Qualified Small Businesses (QSBs) electing the payroll tax offset under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC Section 41(h)</a> and for taxpayers with equal to or less than $1.5 million in total QREs (determined at the controlled group level) and equal to or less than $50 million in gross receipts claiming the credit on an originally filed return. Taxpayers utilizing <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling methodologies</a> under Revenue Procedure 2011-42 are not exempt from Section G and must fulfill Section G reporting requirements for their sampled units while attaching their complete statistical sampling plan to the return."
+    },
+    {
+      "type": "subheading",
+      "text": "Chief Counsel Memorandum 20214101F and Refund Claim Specificity"
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxpayers seeking to claim the ASC retroactively on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> (such as Form 1120-X or Form 1040-X), the IRS issued Chief Counsel Memorandum (CCM) 20214101F, establishing an exhaustive administrative threshold for refund claim validity under the legal specificity standards of Treasury Regulation § 301.6402-2(b)(1). Prompted by a shortage of specialized IRS examination engineers and an agency perception that claimants were routinely filing late amended returns categorizing standard engineering, commercial production, or routine quality control as qualified research, <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">CCM 20214101F</a> mandates that a taxpayer filing an amended return for a Section 41 refund contemporaneously provide five mandatory informational elements at the exact moment of filing, accompanied by a formal declaration signed under penalties of perjury."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "CCM 20214101F Mandate",
+        "Required Contemporaneous Documentation Element",
+        "Procedural Consequence of Omission"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Requirement 1",
+            "Identify all business components to which the IRC Section 41 claim relates for the claim year",
+            "<a href=\"/us/glossary/notice-of-claim-disallowance\">Summary disallowance</a> of the refund claim without audit cure"
+          ]
+        },
+        {
+          "cells": [
+            "Requirement 2",
+            "Identify all research activities performed for each specified business component",
+            "Summary disallowance of the refund claim without audit cure"
+          ]
+        },
+        {
+          "cells": [
+            "Requirement 3",
+            "Identify all specific individuals (by name or distinct title) who performed each research activity",
+            "Summary disallowance of the refund claim without audit cure"
+          ]
+        },
+        {
+          "cells": [
+            "Requirement 4",
+            "Identify the precise technical information each individual sought to discover",
+            "Summary disallowance of the refund claim without audit cure"
+          ]
+        },
+        {
+          "cells": [
+            "Requirement 5",
+            "Provide total QREs broken down by employee wages, supplies, and contract research expenses",
+            "Summary disallowance of the refund claim without audit cure"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Failure to submit all five granular data points upon initial submission of the amended return results in a summary determination that the <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">refund claim</a> is procedurally deficient, triggering administrative rejection without affording the taxpayer an opportunity to cure the evidentiary defect during a subsequent examination. If the statutory period of limitations for filing a refund claim under IRC Section 6511 expires before a perfected claim containing all five elements is submitted, the taxpayer permanently forfeits the judicial jurisdiction required to litigate the refund in federal district court or the U.S. Court of Federal Claims. This procedural gatekeeping effectively compels taxpayers to conduct a comprehensive forensic pre-audit of their engineering activities prior to submitting an amended return."
+    },
+    {
+      "type": "heading",
+      "text": "Federal Judicial Precedents Governing ASC Substantiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal courts have consistently emphasized that while IRC Section 41(c)(4) simplifies the mathematical base-period calculation by eliminating the 1984–1988 historical records requirement, the judiciary enforces rigorous evidentiary standards regarding QRE substantiation, the reasonableness of executive compensation under IRC Section 174(e), and strict adherence to the scientific method under IRC Section 41(d)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Citation",
+        "Central Legal Issue",
+        "Judicial Holding & Impact on ASC Claims"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<em>Suder v. Commissioner</em>, T.C. Memo. 2014-201",
+            "Wage QRE estimation under the <em>Cohan</em> rule and IRC § 174(e) reasonableness of executive compensation",
+            "Permitted general employee wage estimates supported by credible, corroborated testimony and structured spreadsheets, but capped CEO Eric Suder's $8.6M+ average annual compensation under § 174(e) because it was disconnected from his day-to-day R&D contributions"
+          ]
+        },
+        {
+          "cells": [
+            "<em>Shami v. Commissioner</em>, T.C. Memo. 2012-78",
+            "Uncorroborated executive wage allocations",
+            "Disallowed executive wage QRE allocations because the supporting testimony was vague, self-serving, and uncorroborated by reliable objective documentation"
+          ]
+        },
+        {
+          "cells": [
+            "<em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50",
+            "Definition of \"process of experimentation\" under IRC § 41(d)(1)(C)",
+            "Held that a true process of experimentation requires systematic application of the scientific method—formulating a hypothesis, conducting structured trials, analyzing resulting data, refining the hypothesis, and retesting"
+          ]
+        },
+        {
+          "cells": [
+            "<em>Siemer Milling Co. v. Commissioner</em>, T.C. Memo. 2019-37",
+            "Routine production data collection vs. qualified research",
+            "Ruled that routine data collection or tweaking existing production lines without a structured hypothesis or technical uncertainty fails the Section 41 threshold"
+          ]
+        },
+        {
+          "cells": [
+            "<em>Max v. Commissioner</em>, T.C. Memo. 2021-37",
+            "Standard engineering know-how vs. technical uncertainty under IRC § 41(d)(1)(A)",
+            "Held that uncertainty exists only if available information does not already establish capability or appropriate design, filtering out projects requiring only standard engineering know-how"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Suder v. Commissioner</em> (T.C. Memo. 2014-201), the U.S. Tax Court evaluated <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">flow-through R&D credits</a> claimed by Eric Suder, CEO and 90 percent shareholder of Estech Systems, Inc. (ESI), an S corporation developing proprietary telecommunications hardware and software systems. Although the IRS challenged ESI's <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">non-timesheet wage QRE calculations</a> as unsubstantiated management estimates, the Tax Court distinguished <em>Shami v. Commissioner</em> (T.C. Memo. 2012-78)—where vague, self-serving, and uncorroborated testimony by corporate principals led to complete disallowance—and permitted ESI's general employee wage estimates under the judicial <em>Cohan</em> rule (<em>Cohan v. Commissioner</em>, 39 F.2d 540). The Court accepted those estimates because ESI's Senior Vice President of Product Development provided <a href=\"/us/glossary/credible-oral-testimony\">credible, deeply corroborated testimony</a> detailing ESI's structured multi-phase product development lifecycle alongside visual spreadsheets modeled after an earlier professional tax study."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, in an issue of first impression, the Tax Court scrutinized <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">CEO Eric Suder's personal compensation</a>, which averaged over $8.6 million annually during the years at issue (of which 75 percent had been allocated to QREs), under the reasonableness requirement of IRC Section 174(e). While acknowledging that the compensation could be reasonable from a general corporate profitability or executive leadership standpoint, the Court held that it was legally unreasonable as an R&D expenditure under Section 174(e) and Section 41(b) because the multi-million-dollar payouts were driven by S corporation profit distributions rather than the fair market replacement cost of his day-to-day technical R&D services. The Tax Court thereby established a critical judicial cap on inflated owner-executive salaries claimed under the ASC, while declining to impose <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> under IRC Section 6662(a) due to the taxpayer's good-faith reliance on a longtime CPA and specialized tax advisors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Concurrently, the Tax Court's memorandum opinions in <em>Union Carbide Corp. v. Commissioner</em> (T.C. Memo. 2009-50), <em>Siemer Milling Co. v. Commissioner</em> (T.C. Memo. 2019-37), and <em>Max v. Commissioner</em> (T.C. Memo. 2021-37) delineate the qualitative boundary of Section 41(d). In <em>Union Carbide</em>, the Court held that a qualifying <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> under Section 41(d)(1)(C) requires the systematic application of the scientific method: formulating a hypothesis, designing and conducting structured tests, analyzing the resulting performance data, refining the hypothesis, and retesting. Building on that foundation, <em>Siemer Milling</em> established that merely collecting large volumes of production data or making incremental adjustments to wheat-milling production lines without a structured hypothesis fails the experimentation standard, while <em>Max</em> confirmed that technical uncertainty under Section 41(d)(1)(A) is absent when the methodology and appropriate design are readily ascertainable by skilled professionals applying standard engineering know-how. Together, these precedents demonstrate that the simplified base arithmetic of Section 41(c)(4) offers zero insulation against qualitative disallowance if underlying project records lack <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous proof</a> of scientific experimentation."
+    },
+    {
+      "type": "heading",
+      "text": "State-Level R&D Tax Credit Frameworks and ASC Conformity"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the federal ASC provides a uniform national baseline, more than 35 states administer <a href=\"/us/faq/state-vs-federal-rd-tax-credits\">independent R&D tax credit regimes</a> whose statutory conformity to IRC Section 41(c)(4) is highly fragmented. Some state jurisdictions decouple from the federal ASC methodology or intercompany aggregation rules, whereas others adopt modified simplified rates or create specialized monetization pathways such as payroll withholding offsets, conditional economic development grants, or secondary-market transferability."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "State Jurisdiction",
+        "Governing Authority & Form",
+        "Credit Rate & Base Structure",
+        "ASC Conformity & Liquidity Features"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "California",
+            "R&TC §§ 17052.12, 23609; SB 711; Form FTB 3523",
+            "15% Regular Credit; 3% Standard ASC (excess over 50% of 3-yr CA average); 1.3% Startup ASC",
+            "Conforms to ASC for tax years beginning on or after Jan. 1, 2025 via SB 711 (repealing the prior AIC); non-refundable with indefinite carryforward; excludes R&TC § 6378 property"
+          ]
+        },
+        {
+          "cells": [
+            "Texas",
+            "Texas Comptroller Rules; Form 05-915",
+            "5% of excess Texas QREs (or optional sales and use tax exemption)",
+            "Decouples from federal intra-group disregard rules (Treas. Reg. § 1.41-6(i)(1)) due to Texas combined group rules; excludes § 174 depreciable property from supply QREs"
+          ]
+        },
+        {
+          "cells": [
+            "Georgia",
+            "O.C.G.A. § 48-7-40.12; Form IT-RD",
+            "10% of Georgia QREs exceeding a state base amount",
+            "Quasi-refundable via offset against Georgia payroll withholding taxes; subject to strict physical nexus desk audits verifying all QREs were incurred in Georgia"
+          ]
+        },
+        {
+          "cells": [
+            "Pennsylvania",
+            "Pennsylvania R&D Tax Credit Statute",
+            "10% Standard Rate; 20% for <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Businesses (QSBs)</a>",
+            "Credits are transferable and salable on secondary markets, providing non-dilutive liquidity for loss-stage ASC claimants; <a href=\"/us/faq/rd-tax-credit-carryforward-rules\">15-year carryforward</a>"
+          ]
+        },
+        {
+          "cells": [
+            "Arizona",
+            "Arizona R&D Tax Credit Statute",
+            "24% on first $2.5M of excess QREs; 15% on excess QREs above $2.5M",
+            "Up to 75% refundable for qualifying small businesses"
+          ]
+        },
+        {
+          "cells": [
+            "Delaware",
+            "Delaware R&D Tax Credit Statute",
+            "50% of Delaware's apportioned share of the federal ASC",
+            "Direct mechanical linkage to the federal Section 41(c)(4) ASC computation"
+          ]
+        },
+        {
+          "cells": [
+            "New York",
+            "Excelsior Jobs Program / Life Sciences Credit",
+            "15% for Life Sciences; up to 50% of federal credit under Excelsior",
+            "Application-based conditional refundability tied to pre-approved job creation milestones and Empire State Development certification"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "California SB 711 Conformity and the 3 Percent ASC"
+    },
+    {
+      "type": "paragraph",
+      "text": "California's R&D tax credit, codified in Revenue and Taxation Code (R&TC) Sections 17052.12 (Personal Income Tax Law) and 23609 (Corporation Tax Law), historically lacked an ASC election because California conformed to the Internal Revenue Code as of an earlier static conformity date, forcing taxpayers to rely on complex historical base amounts or the outdated three-tiered Alternative Incremental Credit (AIC) that penalized high-growth technology enterprises. Through the enactment of Senate Bill (SB) 711, California advanced its IRC conformity date and officially introduced a state-level Alternative Simplified Credit for taxable years beginning on or after January 1, 2025, while simultaneously repealing the legacy AIC."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Franchise Tax Board (FTB) Form 3523 instructions, California's ASC mirrors the federal three-year rolling base structure under IRC Section 41(c)(4) restricted strictly to research conducted within California, but applies substantially compressed statutory rates: 3 percent of California-specific QREs exceeding 50 percent of the average California QREs incurred over the three preceding taxable years, or 1.3 percent of current-year California QREs for startups and claimants with zero California QREs in any one of the three preceding taxable years. Unlike the federal <a href=\"/us/faq/startup-rd-payroll-tax-offset\">payroll tax offset</a> for qualified small businesses, California research credits remain strictly non-refundable, though <a href=\"/us/glossary/research-credit-carryforward\">unused credits carry forward</a> indefinitely until exhausted. In addition, FTB administrative guidance specifies that tangible personal property eligible for partial sales and use tax exemptions under R&TC Section 6378 (such as teleproduction or post-production equipment) is explicitly excluded from entering the California supply QRE calculation."
+    },
+    {
+      "type": "subheading",
+      "text": "Texas Aggregation Divergence and Supply Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Texas provides a state R&D incentive reported on Form 05-915 that permits taxpayers to elect either a 5 percent franchise tax credit on excess Texas QREs above 50 percent of the average Texas QREs for the three preceding periods or a state sales and use tax exemption on depreciable R&D equipment. Despite modeling its general base computation and qualitative definitions on IRC Section 41, the Texas Comptroller of Public Accounts has issued executive policy guidance establishing strict divergence from federal ASC <a href=\"/us/glossary/aggregation-rules\">aggregation rules</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Whereas federal law under Treasury Regulation § 1.41-6(i)(1) disregards intercompany transactions within a controlled group because the group is treated as a single taxpayer, the Texas Comptroller ruled that federal intra-group transaction regulations do not apply when determining the Texas franchise tax R&D credit. Because the statutory criteria for a Texas \"combined group\" (which requires both common ownership and a unitary business relationship) differ fundamentally from federal \"controlled group\" definitions under IRC Section 41(f) (which rely strictly on ownership thresholds without unitary business considerations), intercompany research payments and contract transactions between members of a Texas combined group cannot automatically be disregarded. This divergence forces multi-entity enterprises operating in Texas to maintain dual accounting ledgers to reconcile intercompany eliminations for federal Form 6765 against standalone entity transactions for Texas Form 05-915. Furthermore, the Texas Comptroller clarified that depreciable property allowable as an expense under IRC Section 174 cannot be classified as an eligible \"supply\" QRE under IRC Section 41(b)(2)(C) for purposes of the Texas credit."
+    },
+    {
+      "type": "subheading",
+      "text": "Georgia Physical Nexus Scrutiny and Alternative State Models"
+    },
+    {
+      "type": "paragraph",
+      "text": "Georgia provides a 10 percent tax credit on qualified research expenses exceeding a state-specific base amount under O.C.G.A. § 48-7-40.12, claimed via Form IT-RD. A defining structural feature of the Georgia R&D credit is its quasi-refundability: excess credits remaining after offsetting 50 percent of the taxpayer's net Georgia corporate income tax liability can be applied directly against state payroll withholding taxes (via Form IT-WH), generating immediate non-dilutive cash liquidity for pre-revenue and loss-stage technology enterprises. However, administrative oversight by the Georgia Department of Revenue (DOR) has intensified substantially following critical performance audits conducted by the Georgia Department of Audits and Accounts (DOAA) of parallel state tax incentives—specifically the Georgia film tax credit under O.C.G.A. § 48-7-40.26, where state auditors uncovered widespread non-compliance, missing IT-FC forms, and improperly claimed out-of-state expenditures. In response, the Georgia DOR instituted strict desk audits for R&D claimants filing Form IT-RD to verify W-2 wage sourcing and physical nexus, mandating that all claimed employee wages, contractor costs, and research supplies be physically incurred within Georgia's geographic borders and disallowing multi-state remote engineering allocations that might otherwise qualify on federal Form 6765."
+    },
+    {
+      "type": "paragraph",
+      "text": "Other jurisdictions employ distinct statutory mechanisms to link with or supplement the federal ASC. Pennsylvania offers a 10 percent credit (rising to 20 percent for qualified small businesses) with a 15-year carryforward that can be <a href=\"/us/faq/can-you-sell-transfer-rd-tax-credits\">sold or assigned</a> to unrelated buyers on secondary markets, providing immediate capital liquidity for pre-profit ASC claimants. Arizona provides an aggressive two-tiered credit of 24 percent on the first $2.5 million in excess QREs and 15 percent on excess QREs above that threshold, paired with up to 75 percent partial refundability for qualifying small businesses. Delaware links mechanically to the federal ASC by setting its state credit option at 50 percent of Delaware's apportioned share of the taxpayer's federally computed ASC, insulating high-growth Delaware claimants from state-level gross receipts penalties. Conversely, New York treats its premier R&D incentives as conditional, application-based economic development benefits—offering a 15 percent refundable Life Sciences R&D credit or up to 50 percent of the federal credit attributable to New York expenditures through the Excelsior Jobs Program, strictly contingent upon achieving pre-approved job creation milestones and obtaining annual certification from Empire State Development."
+    },
+    {
+      "type": "heading",
+      "text": "Hypothetical Multi-Jurisdictional Worked Example and Compliance Workflow"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the operational mechanics of IRC Section 41(c)(4) alongside controlled group aggregation under IRC Section 41(f), reduced credit elections under IRC Section 280C(c), and state conformity under California SB 711, consider the comprehensive hypothetical scenario of Apex BioTech Group for the 2026 taxable year."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Fact Pattern and Step-by-Step Recomputation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apex BioTech Group is a controlled group of corporations operating exclusively within California, consisting of a parent holding company and a wholly owned R&D subsidiary. Rapid commercial revenue expansion over the prior decade has rendered the <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Regular Research Credit</a> mathematically disadvantageous due to an inflated fixed-base percentage and surging four-year average gross receipts. For the 2026 tax year, the designated member of the Apex controlled group elects the Alternative Simplified Credit on its originally filed federal Form 6765 and California Form FTB 3523. Under IRC Section 41(f) and Treasury Regulation § 1.41-6(i)(1), Apex aggregates QREs across both the parent and the subsidiary while disregarding intercompany contract research payments, yielding aggregated prior three-year average QREs (2023–2025) of $4,000,000 and aggregated current-year (2026) QREs of $6,000,000, all physically incurred within California."
+    },
+    {
+      "type": "paragraph",
+      "text": "To compute the federal ASC under IRC Section 41(c)(4)(A), Apex first establishes its <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">statutory base amount</a> at 50 percent of the prior three-year average aggregated QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Base Amount<sub>Federal ASC</sub> = 0.50 × $4,000,000 = $2,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subtracting this $2,000,000 base amount from the $6,000,000 in current-year QREs yields $4,000,000 in incremental (excess) current-year QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess QREs<sub>2026</sub> = $6,000,000 − $2,000,000 = $4,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the statutory 14 percent rate under IRC Section 41(c)(4)(A) to the $4,000,000 excess produces a <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">gross federal ASC</a> of $560,000:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gross Federal ASC = 0.14 × $4,000,000 = $560,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Apex makes a timely election to claim the <a href=\"/us/glossary/reduced-research-credit\">reduced credit</a> under IRC Section 280C(c) at the 21 percent federal corporate income tax rate, it retains 79 percent of the gross credit while preserving its full R&E capitalization and amortization pool, resulting in a net federal research credit of $442,400:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Net Federal ASC<sub>§ 280C(c)</sub> = 0.79 × $560,000 = $442,400"
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, on California Form FTB 3523 under R&TC Section 23609 (as amended by SB 711 for tax years beginning on or after January 1, 2025), Apex calculates a California ASC base amount of $2,000,000 (0.50 × $4,000,000) and excess California QREs of $4,000,000 ($6,000,000 − $2,000,000). Applying California's 3 percent standard ASC rate yields a state R&D tax credit of $120,000 (0.03 × $4,000,000). Combining the federal and California computations produces a gross multi-jurisdictional R&D credit of $680,000 ($560,000 + $120,000) prior to federal Section 280C adjustments, or a net combined tax credit benefit of $562,400 ($442,400 + $120,000) after the federal Section 280C(c) reduction."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Calculation Step",
+        "Federal ASC Regime (Form 6765)",
+        "California SB 711 ASC Regime (Form FTB 3523)",
+        "Combined Multi-Jurisdictional Total"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Prior 3-Year Average Aggregated QREs",
+            "$4,000,000",
+            "$4,000,000",
+            "—"
+          ]
+        },
+        {
+          "cells": [
+            "Statutory Base Amount (50% of 3-Yr Average)",
+            "$2,000,000 (IRC § 41(c)(4)(A))",
+            "$2,000,000 (R&TC § 23609)",
+            "—"
+          ]
+        },
+        {
+          "cells": [
+            "Current-Year (2026) Aggregated QREs",
+            "$6,000,000",
+            "$6,000,000",
+            "—"
+          ]
+        },
+        {
+          "cells": [
+            "Incremental / Excess Current QREs",
+            "$4,000,000",
+            "$4,000,000",
+            "—"
+          ]
+        },
+        {
+          "cells": [
+            "Gross Statutory Credit",
+            "$560,000 (14% of Excess)",
+            "$120,000 (3% of Excess)",
+            "$680,000"
+          ]
+        },
+        {
+          "cells": [
+            "Net Credit After Federal § 280C(c) Election",
+            "$442,400 (79% of Gross)",
+            "$120,000 (No § 280C reduction on state credit)",
+            "$562,400"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Substantiation and Technological Compliance Implications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Apex BioTech Group's 2026 aggregated QREs of $6,000,000 exceed the $1,500,000 QRE small-taxpayer exception threshold and the group is not claiming a <a href=\"/us/faq/how-to-apply-rd-tax-credit-to-payroll-taxes\">QSB payroll tax offset</a> under Section 41(h), Apex is legally required to complete Section E, Section F, and Section G of Form 6765 for the 2026 tax year. Apex must map at least 80 percent of its $6,000,000 in QREs (at least $4,800,000) to its top business components—such as proprietary biologic formulations and assay processes—up to a maximum of 50 components, detailing the technical information sought to be discovered and disaggregating direct research, supervision, and <a href=\"/us/glossary/direct-support\">support wages</a> alongside supplies and contract expenses for each component. Furthermore, under IRC Section 174 and Section 174A, the $6,000,000 in research expenditures must be <a href=\"/us/glossary/r-and-e-capitalization\">capitalized and amortized</a> ratably over five years, with the unamortized capital account balance adjusted depending on whether the Section 280C(c) reduced credit election is made."
+    },
+    {
+      "type": "paragraph",
+      "text": "The convergence of mandatory Form 6765 Section G component reporting, Section 174A capitalization directives under Revenue Procedures 2025-23 and 2025-28, and the five-point specificity threshold of CCM 20214101F has rendered manual, <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective interview-and-spreadsheet methodologies</a> highly vulnerable to audit disallowance."
+    },
+    {
+      "type": "heading",
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Internal Revenue Code Section 41(c)(4) resolves the historical base-period distortions and gross-receipts compression of the Regular Research Credit by anchoring the federal R&D credit to a rolling three-year QRE average at a 14 percent incremental rate, or a flat 6 percent rate for claimants without QREs in all three lookback years. However, the mathematical simplicity of the Section 41(c)(4) formula is counterbalanced by stringent qualitative and quantitative substantiation mandates. Taxpayers claiming the ASC for tax years beginning after December 31, 2025 must align their internal accounting and engineering records to satisfy mandatory business-component reporting on Form 6765 Section G, the five-part refund claim specificity standard of CCM 20214101F, <a href=\"/us/faq/how-section-174-affects-rd-tax-credit\">IRC Section 174 and 174A capitalization rules</a>, and the Tax Court's evidentiary thresholds under <em>Suder</em>, <em>Union Carbide</em>, <em>Siemer Milling</em>, and <em>Max</em>. Furthermore, multi-state enterprises must navigate pronounced state-level divergences—spanning California's 3 percent ASC enacted under SB 711, Texas's combined-group intercompany rules, and Georgia's physical nexus desk audits—through integrated, contemporaneous <a href=\"/us/glossary/project-accounting\">project-level tracking</a>."
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "First-in-Class",
+  "description": "First-in-class development refers to designing or building a product, process, vessel, or software system a U.S. taxpayer has never produced before.",
+  "summary": "First-in-class development refers to designing or building a product, process, vessel, or software system a U.S. taxpayer has never produced before. Under IRC Section 41, this novelty only shows a new business component; to claim the federal R&D tax credit, at least 80 percent of research activities must form a documented process of experimentation.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "First-in-class development refers to designing or building a product, process, vessel, or software system a U.S. taxpayer has never produced before. Under IRC Section 41, this novelty only shows a new business component; to claim the federal R&D tax credit, at least 80 percent of research activities must form a documented process of experimentation."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary: The Novelty Trap in Research Credit Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "In federal tax administration, projects designated as \"First-in-Class\" (FiC)—representing the initial design, engineering, or fabrication of a product, process, vessel, or software system that a taxpayer has never previously produced—occupy a contentious fault line between commercial innovation and statutory qualification under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Internal Revenue Code (IRC) Section 41</a>. While creating a business component that is new to the taxpayer intuitively aligns with the legislative objective of incentivizing domestic research and development, treating organizational novelty as sufficient proof of eligibility constitutes a severe compliance and litigation hazard. Federal appellate precedent, exemplified by the Seventh Circuit's decision in <em>Little Sandy Coal Company, Inc. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023), aff'g T.C. Memo. 2021-15, establishes that First-in-Class status satisfies only the threshold inquiry that a taxpayer seeks to develop a new or improved business component. It does not satisfy, nor does it substitute for, the rigorous statutory mandate under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)(C)</a> that \"substantially all\"—defined by Treasury Regulation Section 1.41-4(a)(6) as at least 80 percent—of the research activities constitute elements of a systematic Process of Experimentation (POE) designed to resolve genuine technological uncertainty."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act (TCJA)</a> of 2017 (Pub. L. 115-97, § 13206) eliminated the corporate AMT and enacted the mandatory capitalization and amortization regime for Specified Research or Experimental (SRE) expenditures under IRC Section 174(a)(2)(B) for taxable years beginning after December 31, 2021. Under the TCJA amendments to Section 174, domestic SRE expenditures incurred in post-2021 taxable years had to be capitalized and amortized ratably over a 60-month (5-year) period beginning with the midpoint of the taxable year in which such expenditures were paid or incurred, while foreign SRE expenditures had to be amortized over a 15-year (180-month) period."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">interaction between IRC Section 41 and IRC Section 174</a> creates an acute financial asymmetry when a First-in-Class claim is disallowed upon examination. A precise technical distinction governs this interaction: <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a> capitalization applies by operation of law to all expenditures that meet the broad definition of research or experimental expenditures under Treasury Regulation Section 1.174-2, regardless of whether the taxpayer claims or qualifies for the Section 41 credit. When a taxpayer characterizes a First-in-Class project as research under Section 174—reducing Year 1 domestic deductions to 10 percent of the expenditure due to the statutory mid-year convention—but subsequently fails the narrower Section 41(d)(1)(C) 80 percent Process of Experimentation test on audit, the taxpayer forfeits the offsetting Section 41 tax credit while remaining locked into multi-year <a href=\"/us/glossary/section-174-amortization\">Section 174 amortization</a> for costs that met the threshold uncertainty test of Section 174(a). Furthermore, while subsequent legislative changes enacted in 2025 under the budget reconciliation legislation known as the One Big Beautiful Bill Act (OBBBA) added IRC Section 174A (implemented via IRS Revenue Procedure 2025-28, issued August 28, 2025) to restore immediate domestic research expensing for taxable years beginning after December 31, 2024, open examination cycles for 2022 through 2024 taxable years (absent a valid small-business retroactive election or two-year transition recovery) and all foreign research expenditures remain exposed to the dual burden of credit disallowance and <a href=\"/us/glossary/r-and-e-capitalization\">mandatory capitalization</a>."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory and Regulatory Architecture of First-in-Class Projects"
+    },
+    {
+      "type": "subheading",
+      "text": "The Business Component Framework and Permitted Purpose"
+    },
+    {
+      "type": "paragraph",
+      "text": "The phrase \"First-in-Class\" is an industrial and judicial term of art—originating prominently in custom shipbuilding, aerospace, and heavy manufacturing—rather than a defined statutory term within the Internal Revenue Code. Within the architecture of IRC Section 41, a First-in-Class project maps directly onto the statutory concept of a \"business component,\" which <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC Section 41(d)(2)(B)</a> defines as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. Under IRC Section 41(d)(2)(A), the qualification tests of Section 41(d) must be applied separately to each discrete business component of the taxpayer. Because the taxpayer has never previously engineered, constructed, or deployed the specific component, a First-in-Class undertaking inherently seeks to develop a new business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "To qualify under IRC Section 41(d)(1)(B)(ii) and <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">Section 41(d)(3)(A)</a>, the research activities conducted on the First-in-Class component must be undertaken for a \"qualified purpose\" (commonly referred to as the Permitted Purpose or Functional Purpose Test). Specifically, the research must be intended to create a new or improved function, performance, reliability, or quality of the business component. Conversely, IRC Section 41(d)(3)(B) explicitly disqualifies any research conducted for the purpose of style, taste, cosmetic modification, or seasonal design factors. Historically, taxpayers in heavy manufacturing, custom engineering, and shipbuilding have frequently adopted an \"all-or-nothing\" compliance posture by treating an entire First-in-Class asset—such as a complete marine vessel, a commercial building subsystem, or an integrated production line—as the single business component for which Qualified Research Expenses (QREs) are claimed. While that holistic designation satisfies the Permitted Purpose requirement at a macro level, it creates severe downstream vulnerability when the project is evaluated against the quantitative experimentation thresholds of the statute."
+    },
+    {
+      "type": "subheading",
+      "text": "The Discovery Rule: First-in-Class Versus First-to-Market"
+    },
+    {
+      "type": "paragraph",
+      "text": "A central point of confusion in research credit administration is whether a First-in-Class component must represent a global technological breakthrough (\"First-to-Market\") or merely resolve technical unknowns that are novel to the specific enterprise (\"New to Taxpayer\"). Under Treasury Regulation Section 1.41-4(a)(3)(i) (promulgated following the elimination of the former regulatory \"discovery test\" that had required obtaining knowledge exceeding common knowledge in the field), qualified research does not require a taxpayer to invent technology that is entirely unique to the world, nor does the research need to be <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">commercially or technically successful</a> to qualify. Instead, technological uncertainty exists under Treasury Regulation Section 1.41-4(a)(3)(i) and Section 1.174-2(a)(1) if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, even if a competitor has previously engineered a comparable product using proprietary methods not publicly available, a taxpayer developing its own First-in-Class version faces qualifying technological uncertainty at the outset of the project. However, regulatory leniency regarding global novelty is counterbalanced by strict scrutiny of how the taxpayer resolves that uncertainty. Under these controlling United States regulations, organizational novelty (\"new to the taxpayer\") merely establishes the potential presence of uncertainty; it does not demonstrate that the taxpayer's personnel engaged in qualified experimentation rather than the routine application of publicly available engineering tables, vendor manuals, or standard industry configurations."
+    },
+    {
+      "type": "heading",
+      "text": "The Four-Part Statutory Test and the Process of Experimentation Hurdle"
+    },
+    {
+      "type": "subheading",
+      "text": "Integration of the Four Statutory Criteria"
+    },
+    {
+      "type": "paragraph",
+      "text": "For expenditures associated with a First-in-Class project to qualify as Qualified Research Expenses (QREs), the underlying activities must constitute Qualified Research Activities (QRAs) by satisfying each element of the conjunctive <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> codified in IRC Section 41(d)(1) and (3). While practitioner guides and interactive frameworks occasionally list \"Elimination of Uncertainty\" as a standalone requirement alongside Permitted Purpose, Process of Experimentation, and Technological in Nature, the statutory text of IRC Section 41(d)(1)(A) incorporates the elimination-of-uncertainty requirement directly through the Section 174 Test (and, for taxable years beginning after December 31, 2024, through eligibility as domestic research or experimental expenditures under IRC Section 174A as enacted by the OBBBA). Specifically, an expenditure satisfies Section 41(d)(1)(A) only if it may be treated as a specified research or experimental expenditure under IRC Section 174 (or Section 174A for post-2024 domestic expenditures), which Treasury Regulation Section 1.174-2(a)(1) and Treasury Regulation Section 1.41-4(a)(3) define as costs incurred in the experimental or laboratory sense to eliminate uncertainty concerning the capability, method, or appropriate design of a product or process."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Criterion",
+        "Controlling Authority",
+        "Core Legal Standard",
+        "Application and Vulnerability in First-in-Class (FiC) Projects"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Section 174 / 174A & Elimination of Uncertainty Test",
+            "IRC § 41(d)(1)(A); IRC § 174 / § 174A; Treas. Reg. § 1.174-2(a)(1); Treas. Reg. § 1.41-4(a)(3)",
+            "Expenditures must be incurred in the experimental or laboratory sense to eliminate uncertainty regarding capability, method, or appropriate design.",
+            "FiC projects generally establish initial design uncertainty because the taxpayer has never built the component before, provided existing vendor manuals or standard engineering tables do not already supply the design."
+          ]
+        },
+        {
+          "cells": [
+            "2. Technological in Nature Test",
+            "IRC § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(4)",
+            "Activities must be undertaken to discover information that fundamentally relies on principles of the physical or biological sciences, engineering, or computer science.",
+            "Qualifying FiC engineering relies on hard sciences (e.g., fluid dynamics, metallurgy, computer science), whereas commercial scheduling, aesthetic layout, or market research fails this requirement."
+          ]
+        },
+        {
+          "cells": [
+            "3. Functional (Permitted) Purpose Test",
+            "IRC § 41(d)(1)(B)(ii); IRC § 41(d)(3)(A)–(B)",
+            "Research must be intended to be useful in developing a new or improved business component relating to function, performance, reliability, or quality.",
+            "The FiC designation readily satisfies the \"new business component\" element when linked to measurable functional or performance specifications rather than cosmetic or seasonal changes."
+          ]
+        },
+        {
+          "cells": [
+            "4. Process of Experimentation (POE) Test",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)–(6)",
+            "Substantially all (at least 80%) of the research activities, measured on a cost or another consistently applied reasonable basis, must constitute elements of a systematic process of experimentation.",
+            "Primary litigation failure point. Novelty of the FiC product does not prove systematic evaluation of alternatives; aggregating routine drafting, fabrication, and quality control into a whole-product claim causes failure of the 80% threshold."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Mechanics of the Process of Experimentation and the 80 Percent Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whereas a First-in-Class project frequently clears the first three statutory tests with relative ease, the fourth requirement—the Process of Experimentation (POE) test under IRC Section 41(d)(1)(C) and Treasury Regulation Section 1.41-4(a)(5)—acts as the decisive filter in Internal Revenue Service (IRS) Large Business and International (LB&I) examinations and federal litigation. Under Treasury Regulation Section 1.41-4(a)(5)(i), a process of experimentation is a process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities. To satisfy this standard, the taxpayer must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science to identify the specific technical uncertainty concerning capability, method, or design, identify one or more technical alternatives intended to eliminate that uncertainty, and conduct a systematic process of evaluating those alternatives through modeling, computational simulation, hypothesis formulation, systematic trial and error, or <a href=\"/us/glossary/prototype-development\">prototype testing</a>. Crucially, Treasury Regulation Section 1.41-4(a)(5)(i) distinguishes a systematic process of experimentation from simple trial-and-error adjustments or routine engineering validation where the taxpayer merely tweaks known parameters to meet a commercial deadline or budget target."
+    },
+    {
+      "type": "paragraph",
+      "text": "This qualitative rigor is compounded by the quantitative mandate of the <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" rule</a>. Under IRC Section 41(d)(1)(C) and Treasury Regulation Section 1.41-4(a)(6), the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" requirement</a> is satisfied only if 80 percent or more of a taxpayer's research activities for a given business component, measured on a cost or other consistently applied reasonable basis (and without regard to IRC Section 41(b)(2)(B) direct supervision or direct support rules when computing the threshold fraction), constitute elements of a process of experimentation for a qualified purpose. As the Seventh Circuit clarified in <em>Little Sandy Coal</em>, the exact mathematical fraction required by Treasury Regulation Section 1.41-4(a)(6) places \"research activities that constitute elements of a process of experimentation\" in the numerator, and \"research activities not excluded under [IRC] section 41(d)(4) and whose expenses are deductible under Section 174\" in the denominator. Furthermore, Treasury Regulation Section 1.41-4(a)(6) mandates that this 80 percent test be applied in reference to <em>research activities</em>—not physical elements or novel parts of the business component being developed or improved."
+    },
+    {
+      "type": "paragraph",
+      "text": "Practitioners and tax auditors must also distinguish the activity-level 80 percent Process of Experimentation threshold under IRC Section 41(d)(1)(C) and Treasury Regulation Section 1.41-4(a)(6) from the separate employee-level 80 percent wage rule under the flush language of IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(d)(2). Under Treasury Regulation Section 1.41-4(a)(6), if at least 80 percent of the research activities with respect to a business component constitute elements of a process of experimentation, then the remaining 20 percent (or less) of research activities on that component also satisfy the POE requirement, provided they meet the remaining requirements of IRC Section 41(d)(1). Once a business component satisfies Section 41(d), the flush language of IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(d)(2) separately provides that if at least 80 percent of an individual employee's total services during the taxable year consist of \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" (engaging in qualified research, direct supervision, or direct support), then 100 percent of that employee's wages may be included in QREs. Conversely, if the proportion of qualifying experimental activities on the business component falls even slightly below 80 percent under Treasury Regulation Section 1.41-4(a)(6)—for instance, to 79 percent—then 0 percent of the expenditures attributable to that specific business component qualify for the credit unless the claim can be salvaged at a subcomponent level. When a taxpayer claims a large, complex First-in-Class asset as a single integrated business component, the aggregation of routine project management, administrative oversight, standard computer-aided drafting, fabrication, and quality control inevitably dilutes the proportion of genuine experimental activity below the 80 percent mark, triggering full disallowance under the IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guide</a>: Credit for Increasing Research Activities (i.e. Research Tax Credit) IRC Section 41</em>."
+    },
+    {
+      "type": "heading",
+      "text": "Judicial Precedent: The Disconnect Between First-in-Class Status and Credit Eligibility"
+    },
+    {
+      "type": "subheading",
+      "text": "Little Sandy Coal Company, Inc. v. Commissioner (7th Cir. 2023)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The leading modern judicial authority addressing First-in-Class projects is <em>Little Sandy Coal Company, Inc. v. Commissioner of Internal Revenue</em>, 62 F.4th 287 (7th Cir. 2023) (Case No. 21-3145, decided March 7, 2023, opinion by Circuit Judge Brennan, affirming Judge James S. Halpern's decision in T.C. Memo. 2021-15, 121 T.C.M. (CCH) 1113). In <em>Little Sandy Coal</em>, the taxpayer—through its wholly owned southern Indiana shipbuilding subsidiary, Corn Island Shipyard, Inc. (CIS)—claimed IRC Section 41 research credits for the tax year ended June 2014 for employee wages, <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research expenses</a>, and supply costs incurred in designing and constructing 11 custom \"first-in-class\" marine vessels that the shipyard had never built before. To streamline the five-day bench trial, the parties and the court examined two representative sample projects from the 11 vessels: the Apex 720 Tanker (Project 720, a custom tank barge incorporating a redesigned stern notch and towing bridle, for which CIS claimed $2,505,491 in production wages and $3,892,142 in supply costs, plus $17,504 in contract weld testing by Hayes Testing Labs that was disallowed and waived on appeal) and the Detyens Dry Dock (Project 730, the first floating dry dock CIS had ever constructed, for which CIS claimed $146,109 in production wages and $1,943,265 in supply costs), alongside $609,276 in unallocated nonproduction estimated wages across all 11 vessels."
+    },
+    {
+      "type": "paragraph",
+      "text": "The taxpayer argued that because each vessel was First-in-Class—custom-engineered to unique customer specifications through an iterative \"design spiral\" in which interdependent vessel elements required recalculated designs—virtually the entire design and construction effort was suffused with design uncertainty and therefore constituted a process of experimentation. Both the United States Tax Court and the Seventh Circuit rejected this \"novelty approach,\" affirming the complete disallowance of the claimed credits as well as the assessment of an <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalty</a>. The Seventh Circuit held that the novelty of a First-in-Class vessel does not relieve the taxpayer of its statutory burden under Treasury Regulation Section 1.41-4(a)(6) to prove that at least 80 percent of the research activities—not physical elements—with respect to the business component constituted elements of a process of experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In reaching this conclusion, the appellate court identified three fatal analytical flaws in the taxpayer's methodology. First, the taxpayer improperly included non-experimental labor in the numerator of the 80 percent calculation. Under Treasury Regulation Section 1.41-4(a)(6), the denominator of the 80 percent fraction includes all research activities performed on the business component (not excluded under Section 41(d)(4) and deductible under Section 174), encompassing employees directly engaged in research as well as those in direct supervision or direct support. The court found that substantial nonproduction hours allocated by the taxpayer—including $56,895 in estimated wages for draftsmen (Dennis Gass, Kyle Harpenau, and Robert Kellems) who were \"simply drawing a design provided by an engineer\" (routine computer-aided drafting), $126,734 for management and purchasing personnel (Don Foertsch, David Foertsch, and purchasing agent Alan Fleischmann procuring vendor materials), and substantial portions of the $173,996 claimed for Lead Engineer and Naval Architect Bud Johnson (who spent extensive time on client interfacing, payroll management, personnel issues, bid preparations, and supply chain management)—were not elements of a process of experimentation. Regardless of an employee's job title, labor hours fall into the numerator of the 80 percent POE fraction only if the individual was actively engaged in evaluating technical alternatives to resolve design uncertainty."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the taxpayer conflated post-fabrication <a href=\"/us/glossary/quality-control-testing\">quality control</a> with scientific experimentation. The taxpayer treated post-fabrication vessel testing as part of its process of experimentation, pointing specifically to the deadweight survey performed on the Apex Tank Barge (measuring water displacement to verify contractual cargo-carrying capacity) and the partial raise-and-lower test performed on the Detyens Dry Dock. Furthermore, trial evidence indicated that design uncertainty for the dry dock had been resolved prior to physical assembly rather than through post-assembly experimental hypothesis testing. The Seventh Circuit ruled that both post-construction tests were non-qualifying quality control and contractual acceptance procedures under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)(D)</a> and Treasury Regulation Section 1.41-4(c)(5). Their purpose was to verify that the completed vessel conformed to customer specifications and contract terms, not to test competing engineering hypotheses or resolve fundamental design uncertainty."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, the taxpayer relied on arbitrary, retrospective percentage estimates by management and <a href=\"/us/glossary/credible-oral-testimony\">oral trial testimony</a> (such as testimony from engineering technician Brian Varner) regarding how much time employees spent on \"new\" vessels rather than maintaining contemporaneous time records tied to specific experimental activities. Declaring that <em>\"Taxpayer asks us to take on faith that the percentage allocations of each nonproduction employee's wages were only for research activities that involved a process of experimentation. But Section 41(d) requires us to walk by sight, not by faith\"</em> (62 F.4th at 308), the Seventh Circuit held that shortcut estimates do not satisfy Treasury Regulation Section 1.41-4(a)(6). Furthermore, the court clarified the statutory boundary of the <em>Cohan</em> estimation rule (<em>Cohan v. Commissioner</em>, 39 F.2d 540): while courts may estimate the amount of deductible or creditable expenses under IRC Section 41(b) once eligibility is established, a taxpayer must first establish through credible documentation that qualified research occurred under Section 41(d) before any estimation under Section 41(b) is permissible. Echoing earlier appellate precedent in <em>Shami v. Commissioner</em>, 741 F.3d 560 (5th Cir. 2014), aff'g T.C. Memo. 2012-78—where the Fifth Circuit disallowed research credits claimed by Farouk Systems, Inc. based on uncorroborated, contradictory testimony attributing executive wages to R&D and refused to apply the <em>Cohan</em> rule—the Seventh Circuit concluded that arbitrary estimates tied to overall vessel novelty provided no principled evidentiary basis to verify compliance with the 80 percent requirement."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Substantiate the Shrinking-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most consequential strategic lesson of <em>Little Sandy Coal</em> lies in the taxpayer's adoption of an \"all-or-nothing\" business component definition, claiming each entire vessel as a single business component. Treasury Regulation Section 1.41-4(b)(2) establishes a mandatory remedial mechanism known as the \"shrinking-back rule\". Under this regulation, if the requirements of IRC Section 41(d)(1) and Treasury Regulation Section 1.41-4(a) (including the 80 percent POE test) are not met at the level of the overall product or process (the largest discrete business component), then the four-part test must be applied to the most significant subset of elements of that product, process, computer software, technique, formula, or invention. This shrinking-back process continues recursively downward through successively smaller subcomponents until either a subcomponent satisfies all four tests or the most basic element of the product is reached and fails to qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Little Sandy Coal</em>, both the Tax Court and the Seventh Circuit explicitly recognized that discrete subcomponents of the First-in-Class vessels—specifically, the redesigned stern notch on the Apex Tank Barge (which CIS engineered using three-dimensional modeling to attach the barge to a pusher tug, along with anchor wind-sail and vapor barrier calculations) and the outboard side plate assembly on the Detyens Dry Dock (which underwent five engineering design revisions alongside an 18-inch safety deck elevation adjustment)—likely involved genuine engineering uncertainty and systematic experimentation. However, because the taxpayer tracked its engineering hours, production wages, and material supply costs only at the whole-vessel level and failed to comply with Treasury Regulation Section 1.41-4(d) by introducing a \"principled way\" to isolate the hours or costs attributable to the stern notch or the outboard side plate, neither the IRS nor the courts could apply the shrinking-back rule. Warning future claimants that taxpayers <em>\"would be well-advised to document research activities for subcomponents if they cannot demonstrate a process of experimentation at the business component level\"</em> (62 F.4th at 303), the Seventh Circuit affirmed complete disallowance because the dilution caused by aggregating whole-vessel fabrication, routine drafting, and contractual quality control destroyed the entire claim, including the genuinely experimental subcomponents."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Whole-Vessel Aggregation Versus Subcomponent Shrinking-Back"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mathematical operation of Treasury Regulation Section 1.41-4(a)(6) and Section 1.41-4(b)(2) in a First-in-Class manufacturing context, consider the following hypothetical scenario. Suppose a specialized industrial shipbuilder undertakes the design and construction of a hypothetical First-in-Class offshore service vessel. Across the project, technical, engineering, drafting, supervisory, and testing personnel log 10,000 total research-related hours at a blended wage rate of $80 per hour ($800,000 total technical wage pool)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Strategy 1 (the \"All-or-Nothing\" Whole-Vessel Approach), the taxpayer defines the entire vessel as a single business component. An examination of the 10,000 hours across the whole vessel reveals that 2,400 hours ($192,000) were spent on systematic Process of Experimentation (POE) activities consisting of computational fluid dynamics modeling, finite element stress analysis, and iterative redesign of two novel subsystems. By contrast, 3,600 hours ($288,000) were spent on routine CAD drafting by draftspersons converting finalized engineering calculations into standard production blueprints, 2,500 hours ($200,000) were spent on general project supervision, scheduling, and vendor procurement coordination, and 1,500 hours ($120,000) were spent on post-fabrication acceptance and quality control trials including a deadweight displacement survey."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the 80 percent test of Treasury Regulation Section 1.41-4(a)(6) to the whole vessel yields:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whole Vessel POE Ratio = 2,400 POE Hours ÷ 10,000 Total Hours = 24.0%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 24.0% is less than the statutory 80% threshold, the whole vessel fails the \"substantially all\" requirement. If the taxpayer lacks granular subcomponent time records, the shrinking-back rule cannot be applied, and the qualified wage QREs equal $0."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, under Strategy 2 (the Proactive \"Shrinking-Back\" Subcomponent Approach under Treasury Regulation Section 1.41-4(b)(2)), the taxpayer segments the vessel prior to work commencement into discrete engineering subcomponents and records labor hours by subcomponent work order. For Subcomponent A (Custom Stern Notch Hydro-Structural Assembly), personnel record 1,500 total hours ($120,000), comprising 1,350 hours of iterative hypothesis testing and hydro-structural simulation (POE) and 150 hours of routine support drafting. The resulting POE ratio for Subcomponent A is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subcomponent A POE Ratio = 1,350 POE Hours ÷ 1,500 Total Hours = 90.0%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Subcomponent A exceeds the 80 percent threshold (90.0% ≥ 80%), the business component qualifies. The 1,350 hours of direct experimental engineering ($108,000)—and any portion of the remaining 150 hours ($12,000) that satisfies the direct support or direct supervision definition of IRC Section 41(b)(2)(B)—are preserved as valid QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similarly, for Subcomponent B (Outboard Side Plate Load-Distribution System), personnel log 1,100 total hours ($88,000), comprising 935 hours of finite element modeling and structural load experimentation (POE), 100 hours of routine drafting, and 65 hours of <a href=\"/us/glossary/general-and-administrative-functions\">administrative oversight</a>. The resulting POE ratio for Subcomponent B is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subcomponent B POE Ratio = 935 POE Hours ÷ 1,100 Total Hours = 85.0%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subcomponent B likewise satisfies the 80 percent threshold (85.0% ≥ 80%), qualifying at least the 935 direct POE hours ($74,800) plus eligible direct supervision and support wages up to $88,000. Finally, the Remaining Vessel Systems (Standard Hull, Piping, Deckhouse, and Acceptance Surveys) account for the remaining 7,400 total hours ($592,000), comprising 115 isolated experimental hours and 7,285 routine drafting, supervisory, and quality control hours. Its POE ratio is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Remaining Systems POE Ratio = 115 POE Hours ÷ 7,400 Total Hours = 1.55%"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the remaining standard vessel systems are appropriately excluded from the claim (1.55% &lt; 80%), proactive subcomponent segmentation successfully preserves between $182,800 and $208,000 of defensible QREs that are completely lost under an unsegmented whole-vessel claim."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Business Component Definition Strategy",
+        "Total Hours in Component Denominator",
+        "Qualifying POE Hours in Numerator",
+        "Non-Qualifying / Non-POE Hours",
+        "Calculated POE Percentage",
+        "Statutory 80% Threshold Outcome",
+        "Substantiated Direct POE Wage QREs ($80/hr)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Strategy 1: Whole Vessel (All-or-Nothing)",
+            "10,000 hrs",
+            "2,400 hrs",
+            "7,600 hrs",
+            "24.0%",
+            "Fails (&lt; 80%)",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Strategy 2A: Subcomponent A (Stern Notch)",
+            "1,500 hrs",
+            "1,350 hrs",
+            "150 hrs",
+            "90.0%",
+            "Passes (≥ 80%)",
+            "$108,000 (up to $120,000 with direct support)"
+          ]
+        },
+        {
+          "cells": [
+            "Strategy 2B: Subcomponent B (Outboard Side Plate)",
+            "1,100 hrs",
+            "935 hrs",
+            "165 hrs",
+            "85.0%",
+            "Passes (≥ 80%)",
+            "$74,800 (up to $88,000 with direct support)"
+          ]
+        },
+        {
+          "cells": [
+            "Strategy 2C: Remaining Standard Systems",
+            "7,400 hrs",
+            "115 hrs",
+            "7,285 hrs",
+            "1.55%",
+            "Fails (&lt; 80%)",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Net Result of Shrinking-Back Segmentation",
+            "10,000 hrs",
+            "2,400 hrs",
+            "7,600 hrs",
+            "Segmented",
+            "2 Subcomponents Pass",
+            "$182,800 to $208,000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Cross-Sector Application of First-in-Class Principles and IRC Section 174 Exposure"
+    },
+    {
+      "type": "subheading",
+      "text": "Distinguishing Routine Engineering from First-in-Class Experimentation Across Industries"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal boundary between non-qualifying <a href=\"/us/glossary/adaptation-exclusion\">routine adaptation</a> of existing knowledge and qualifying First-in-Class experimentation applies uniformly across industrial sectors under Treasury Regulation Section 1.41-4. Whether a taxpayer operates in heavy manufacturing, software engineering, architectural construction, or food science, eligibility hinges on whether the technical solution was ascertainable from existing manuals, code libraries, engineering tables, or commercial formulas prior to conducting systematic experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the manufacturing sector, purchasing and installing a commercially available computer numerical control (CNC) machine according to the vendor's manual involves zero design uncertainty and constitutes routine capital deployment, whereas designing a novel custom CNC feed mechanism to handle a fragile, proprietary material whose feed method is unknown requires prototype testing and failure analysis that qualify as First-in-Class research. Similarly, in software development, configuring standard customer relationship management (CRM) fields, dropdowns, or colors in commercial platforms such as Salesforce or HubSpot relies on known methodologies, whereas engineering a custom data integration engine to bridge a legacy 1990s mainframe with a modern cloud application programming interface (API) where no standard connector exists requires resolving architectural uncertainty in schema mapping and latency handling (and, where software is developed primarily for internal use rather than commercial sale, lease, or license, or third-party interaction, additionally satisfying the <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> requirements involving significant economic risk and substantial technical uncertainty). In <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">construction and architecture</a>, erecting a structure to standard building codes using established engineering tables is routine—and claiming an entire mechanical, electrical, plumbing, and fire protection (MEPF) system without subcomponent substantiation fails just as whole-vessel claims fail—whereas designing a custom LEED Platinum geothermal heat exchange retrofit for a historic structure whose load-bearing limitations prohibit standard ductwork necessitates computational fluid dynamics modeling and thermal simulation. Likewise, in food science, following an established commercial baking recipe fails the threshold test, whereas developing a novel packaging process and pH-balanced formulation to extend shelf life by 30 days without synthetic preservatives requires microbial challenge studies and iterative batch experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "The IRC Section 174 Capitalization and Amortization Penalty"
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxable years beginning after December 31, 2021, the <a href=\"/us/faq/tcja-impact-on-rd-tax-credit\">TCJA amendment to IRC Section 174</a> fundamentally altered the risk calculus of claiming First-in-Class projects. Prior to 2022, taxpayers could currently deduct research and experimental expenditures in the year paid or incurred under former IRC Section 174(a) (or elect to amortize them over at least 60 months), meaning that if an IRC Section 41 credit claim was disallowed on audit, the taxpayer lost the tax credit but retained its immediate ordinary deduction for the underlying wages, supplies, and contractor costs. Under the post-2021 TCJA regime codified in IRC Section 174(a)(2)(B), <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">Specified Research or Experimental (SRE) expenditures</a> incurred in taxable years beginning after December 31, 2021 (and before January 1, 2025 for domestic research, following the enactment of IRC Section 174A under the 2025 OBBBA) must be capitalized and amortized over 60 months (5 years) for domestic research and 15 years (180 months) for foreign research, beginning at the midpoint of the taxable year in which the expenses are paid or incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the cash-flow mechanics of this statutory regime, consider a hypothetical domestic manufacturer that incurs $1,200,000 in domestic SRE expenditures and $600,000 in foreign SRE expenditures during a post-2021 calendar tax year subject to Section 174 capitalization on a First-in-Class machinery project. For the $1,200,000 in domestic SRE expenditures subject to a 60-month amortization period with a <a href=\"/us/glossary/mid-year-convention\">statutory mid-year convention</a>, the monthly amortization rate and annual deductions are computed as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Monthly Amortization Rate = $1,200,000 ÷ 60 Months = $20,000.00 / month"
+    },
+    {
+      "type": "paragraph",
+      "text": "Year 1 Deduction = 6 × $20,000.00 = $120,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Annual Deduction (Yrs 2–5) = 12 × $20,000.00 = $240,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Year 6 Deduction = 6 × $20,000.00 = $120,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because amortization begins at the midpoint of Year 1 (July 1 for a calendar-year taxpayer), the taxpayer may deduct only 6 months of amortization in Year 1 ($120,000, or 10.0% of the expenditure), followed by 12 months ($240,000, or 20.0%) in each of Years 2 through 5, and the final 6 months ($120,000, or 10.0%) in Year 6, deferring $1,080,000 (90.0%) of the Year 1 domestic expenditure into subsequent tax years. For the $600,000 in foreign SRE expenditures subject to a 15-year (180-month) amortization period with a mid-year convention, the monthly amortization rate and annual deductions are computed as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Monthly Amortization Rate = $600,000 ÷ 180 Months = $3,333.33 / month"
+    },
+    {
+      "type": "paragraph",
+      "text": "Year 1 Deduction = 6 × $3,333.33 = $20,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Annual Deduction (Yrs 2–15) = 12 × $3,333.33 = $40,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Year 16 Deduction = 6 × $3,333.33 = $20,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Year 1, the mid-year convention limits the foreign SRE deduction to 6 months ($20,000, or 3.33% of the expenditure), followed by 12 months ($40,000, or 6.67%) in each of Years 2 through 15, and the final 6 months ($20,000, or 3.33%) in Year 16, deferring $580,000 (96.67%) of the Year 1 foreign expenditure. Moreover, under IRC Section 174(d), if any property with respect to which foreign SRE expenditures are paid or incurred is disposed of, retired, or abandoned during the 15-year amortization period, no immediate deduction is allowed for the unamortized basis (and for dispositions after May 12, 2025, reducing the amount realized upon disposition is likewise prohibited), forcing the taxpayer to continue amortizing the abandoned project over the full 180-month schedule."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "SRE Expenditure Category",
+        "Total Year 1 Expenditure",
+        "Statutory Amortization Period",
+        "Monthly Amortization Rate",
+        "Year 1 Deduction (Mid-Year: 6 Mos.)",
+        "Annual Deduction in Full Years",
+        "Final Year Deduction (6 Mos.)",
+        "Year 1 Deferred Deduction Balance"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Domestic SRE Expenditures",
+            "$1,200,000",
+            "60 Months (5 Years)",
+            "$20,000.00 / mo",
+            "$120,000 (10.0%)",
+            "$240,000 / yr (Yrs 2–5)",
+            "$120,000 (Yr 6)",
+            "$1,080,000 (90.0%)"
+          ]
+        },
+        {
+          "cells": [
+            "Foreign SRE Expenditures",
+            "$600,000",
+            "180 Months (15 Years)",
+            "$3,333.33 / mo",
+            "$20,000 (3.33%)",
+            "$40,000 / yr (Yrs 2–15)",
+            "$20,000 (Yr 16)",
+            "$580,000 (96.67%)"
+          ]
+        },
+        {
+          "cells": [
+            "Combined SRE Total",
+            "$1,800,000",
+            "Blended (60 / 180 Mos.)",
+            "$23,333.33 / mo",
+            "$140,000 (7.78%)",
+            "$280,000 / yr (Yrs 2–5)",
+            "Varies (Yr 6 & Yr 16)",
+            "$1,660,000 (92.22%)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer classifies First-in-Class project costs as Section 174 SRE expenditures—absorbing a Year 1 taxable income increase of $1,660,000 in the hypothetical example above—in anticipation of offsetting the resulting tax liability with an IRC Section 41 research credit (calculated either at 20 percent of QREs exceeding a base amount under the traditional credit of Section 41(a)(1) or at 14 percent under the <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Alternative Simplified Credit</a>), a subsequent disallowance of the Section 41 credit under the 80 percent Process of Experimentation rule inflicts severe liquidity damage. Because IRC Section 174 encompasses a broader scope of research and development costs than IRC Section 41 (including <a href=\"/us/glossary/foreign-research-exclusion\">foreign research</a> and indirect research overhead that are statutorily excluded from Section 41 QREs, as well as domestic research activities that meet the threshold uncertainty test of Section 174 but fail the 80 percent POE aggregation test of Section 41(d)(1)(C)), losing the Section 41 credit does not automatically reclassify genuine R&E expenditures back into immediately deductible IRC Section 162 ordinary business expenses. Conversely, if the IRS determines that the First-in-Class costs were not <a href=\"/us/glossary/research-and-experimental-expenditures\">Section 174 R&E expenditures</a> at all, but rather routine production costs of a tangible capital asset or inventory item, those costs remain subject to capitalization under IRC Section 263 or Section 263A rather than immediate deduction as ordinary expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxable years beginning after December 31, 2024, the enactment of IRC Section 174A under the OBBBA and procedural guidance in Revenue Procedure 2025-28 significantly alters domestic cost recovery while preserving strict statutory coordination with Section 41. Under IRC Section 174A(a), taxpayers may immediately deduct domestic research or experimental expenditures paid or incurred in post-2024 taxable years, or alternatively elect to capitalize and amortize them over at least 60 months under Section 174A(c) (starting in the month benefits are first realized) or over 10 years annually under Section 59(e). In addition, taxpayers holding unamortized domestic SRE balances from 2022–2024 may elect under the OBBBA transition rules to deduct the remaining unamortized balance either entirely in their first taxable year beginning after December 31, 2024, or ratably over two taxable years (2025 and 2026), while non-tax-shelter small businesses meeting the $31 million gross receipts test were granted until July 6, 2026 to elect retroactive application of Section 174A to 2022–2024 taxable years. However, for post-2024 taxable years, amended IRC Section 41(d) requires that QREs must be treated as domestic R&E expenditures under Section 174A, and <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)</a> requires taxpayers claiming the gross Section 41 credit to reduce their domestic R&E expenditures by the gross credit amount unless they make a timely reduced credit election under Section 280C(c)(2) on Item A of Form 6765."
+    },
+    {
+      "type": "heading",
+      "text": "Advanced Substantiation Protocols and Form 6765 Compliance"
+    },
+    {
+      "type": "subheading",
+      "text": "Substantiating Qualified Research Expenses: Wages, Supplies, and Pilot Models"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(b)(1)–(3), <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a> consist exclusively of in-house research expenses—comprising employee wages paid or incurred for qualified services under Section 41(b)(2)(A)(i), costs of supplies used in the conduct of qualified research under Section 41(b)(2)(A)(ii), and certain computer rental or cloud costs—and 65 percent (or applicable statutory percentage) of contract research expenses paid or incurred to third parties under Section 41(b)(3). Each of these expenditure categories presents distinct substantiation pitfalls in First-in-Class projects that must be managed through rigorous accounting protocols."
+    },
+    {
+      "type": "paragraph",
+      "text": "With respect to employee wages under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(A)(i)</a> and (B), qualified services encompass engaging directly in qualified research (defined in Treasury Regulation Section 1.41-2(c) as the actual conduct of qualified research), or engaging in the direct supervision or direct support of research activities. Crucially, under Treasury Regulation Section 1.41-2(c) and judicial precedent such as <em>Moore</em>, \"<a href=\"/us/glossary/direct-supervision\">direct supervision</a>\" refers to immediate, first-line supervision of research personnel and explicitly excludes supervision by higher-level managers to whom first-line managers report, even if the higher-level manager is a qualified research scientist. Similarly, \"<a href=\"/us/glossary/direct-support\">direct support</a>\" covers services directly supporting actual qualified research or its immediate supervision, whereas general administrative tasks or services providing only indirect benefits to research (such as payroll management, personnel issues, client interfacing, bid preparations, or vendor purchasing) do not qualify as direct support. Furthermore, IRS guidance on research expenses emphasizes that compensation claimed as QREs must be reasonable in amount for the research services actually performed. For First-in-Class manufacturing and engineering projects, <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">time-tracking systems</a> must segregate direct experimental engineering (which populates both the numerator and denominator of the 80 percent POE test under Treasury Regulation Section 1.41-4(a)(6)) from routine production, quality control, higher-level management, and routine drafting (which dilute the denominator without increasing the numerator). Where contemporaneous timecards by subcomponent are unavailable, judicial precedent in <em>Fudim</em> and <em>Suder v. Commissioner</em>, T.C. Memo. 2014-201, as contrasted with <em>Shami</em>, <em>Betz</em>, and <em>Little Sandy Coal</em>, permits technical time estimates only if offered by credible witnesses with direct knowledge of employee roles and corroborated by <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous project records</a> such as engineering change orders, CAD revision histories, emails, specification documents, and test logs."
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical statutory clarification refines this rule: IRC Section 41(b)(2)(C) defines \"supplies\" as any tangible property other than land (or improvements to land) and property of a character subject to the allowance for depreciation. Under Treasury Regulation Section 1.174-2(a)(4), the costs of producing a \"<a href=\"/us/glossary/pilot-model\">pilot model</a>\"—defined as any representation or model of a product that is produced to evaluate and resolve uncertainty concerning the product during the development or improvement of the product, including a fully-scaled model—can qualify under Section 174 even if the pilot model is eventually sold to a customer, provided it is not property of a character subject to depreciation in the taxpayer's hands. However, as <em>Little Sandy Coal</em> demonstrated when disallowing $3,892,142 in supply costs on the Apex Tank Barge and $1,943,265 in supply costs on the Detyens Dry Dock, claiming the raw material costs of an entire custom-built commercial vessel as \"supplies\" fails under IRC Section 41 unless the taxpayer proves that the vessel (or a discrete shrunk-back subcomponent thereof) satisfied the 80 percent Process of Experimentation test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, with respect to contract research expenses under IRC Section 41(b)(3), payments to outside engineering firms or testing laboratories for First-in-Class development qualify (at the 65 percent inclusion rate) only if paid or incurred pursuant to an agreement entered into prior to the performance of the qualified research, where the research is performed on behalf of the taxpayer and the taxpayer bears the <a href=\"/us/glossary/financial-risk-test\">primary financial risk</a> of failure regardless of outcome."
+    },
+    {
+      "type": "subheading",
+      "text": "Mandatory Five-Element Disclosure and Revised Form 6765 Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Since October 15, 2021—formalized in IRS Office of Chief Counsel Field Attorney Advice Memorandum FAA 20214101F citing Treasury Regulation Section 301.6402-2(b)(1) for research credit refund claims, and subsequently integrated into the redesigned Form 6765 (<em>Credit for Increasing Research Activities</em>, Rev. December 2024 and Instructions Rev. December 2025)—the IRS has shifted research credit compliance from retrospective <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a> to mandatory upfront disclosure. For research credit claims on <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a> or claims for refund (where the IRS extended the 45-day perfection transition period through January 10, 2027 via IRS News Release IR-2025-99), a taxpayer must substantiate and report five foundational data elements linked directly at the business component level. First, the taxpayer must identify all business components—every discrete product, process, software system, technique, formula, or invention under IRC Section 41(d)(2)(B) (appropriately segmented via the shrinking-back rule rather than aggregated into a single plant-wide or vessel-wide item) to which the IRC Section 41 claim relates for the claim year. Second, for each identified business component, the taxpayer must identify all research activities performed during the tax year, detailing what the taxpayer did and how it did it through a systematic Process of Experimentation. Third, the disclosure must identify all individuals who performed each research activity by business component (or by specific title/position on revised Form 6765), distinguishing those who engaged directly in research from those who directly supervised or directly supported the activity. Fourth, for each business component, the taxpayer must identify all the technological information each individual sought to discover to eliminate capability, method, or design uncertainty. Fifth, the taxpayer must provide the exact dollar amounts of total qualified employee wage expenses, total qualified supply expenses, and total qualified contract research expenses for the claim year."
+    },
+    {
+      "type": "paragraph",
+      "text": "On original federal income tax returns, the finalized revision of <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> operationalizes this component-level scrutiny through two new reporting sections: <strong>Section E</strong> and <strong>Section G (Business Component Information)</strong>. Section E requires claimants to report business component counts, <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">officer wages</a> included in QREs, acquisitions or dispositions of a major portion of a business, and certain election details such as the ASC 730 Directive. Section G (spanning columns 49 through 56 on pages 3 and 4 of Form 6765) requires taxpayers to itemize each business component by name/identifier and component type (\"Product,\" \"Process,\" or \"All Others\" in column 49(d), alongside specific internal-use or commercial software classifications), and to break down qualified wages into direct research, direct supervision, and direct support alongside supply and contract research expenses for each component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <a href=\"/us/faq/irs-form-6765-instructions-2024\">IRS Instructions for Form 6765</a>, Section G reporting is governed by the <strong>\"80%/Top 50\" business component rule</strong>. Taxpayers required to complete Section G must list their business components in descending order of QRE amount until they have reported a minimum of 80 percent of total QREs, up to a maximum of 50 business components. Any remaining business components after identifying the 80%/Top 50 business components are reported in aggregate by entering \"Aggregate Business Components\" in column 49(c) and the applicable aggregate amounts in columns 50 through 56. Following stakeholder feedback and IRS News Release IR-2025-99, Section G was made optional for all filers for taxable years beginning before 2026 (covering 2024 and 2025 tax returns) and became <strong>mandatory for taxable years beginning after 2025 (2026 tax year and forward)</strong>, subject to two exceptions on original returns: (1) qualified small businesses that check the box to elect the <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC Section 41(h) payroll tax credit</a> (which increased to $500,000 beginning in 2023), and (2) taxpayers whose total QREs (measured at the controlled-group level) are $1.5 million or less and whose average annual gross receipts for the prior three tax years (at the controlled-group level) are $50 million or less. Additionally, taxpayers with assets equal to or greater than $10 million that prepare certified audited U.S. GAAP financial statements and follow the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> are permitted to report their adjusted ASC 730 financial statement R&D QRE amounts as a single business component."
+    },
+    {
+      "type": "heading",
+      "text": "Actionable Compliance Reforms and Regulatory Policy Recommendations"
+    },
+    {
+      "type": "subheading",
+      "text": "Immediate Compliance Protocols for Taxpayers"
+    },
+    {
+      "type": "paragraph",
+      "text": "To insulate First-in-Class research credit claims against disallowance under the <em>Little Sandy Coal</em> standard, satisfy mandatory Section G reporting on Form 6765 for 2026 and subsequent tax years, and avoid uncompensated IRC Section 174 / Section 174A audit adjustments, corporate tax departments and engineering leadership must execute four structural reforms."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, enterprises must mandate pre-emptive implementation of the shrinking-back rule under Treasury Regulation Section 1.41-4(b)(2) at the project kick-off stage. Rather than assigning a single job-cost or work-order code to an entire First-in-Class vessel, production line, building MEPF system, or enterprise software suite, engineering managers must decompose the project into discrete functional subcomponents where technical uncertainty actually resides (for example, scoping an \"Adaptive Brake Sensor Algorithm\" or \"Stern Notch Hydro-Structural Assembly\" rather than a \"Vehicle Software Suite\" or whole vessel). Each subcomponent must be assigned a dedicated General Ledger project identifier and independently evaluated against the Four-Part Test so that routine fabrication, standard CAD drafting, and post-production acceptance testing on non-experimental assemblies do not contaminate the 80 percent POE denominator of genuinely experimental subcomponents."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, organizations must establish a contemporaneous <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">Technical Narrative</a> protocol authored by lead engineers during active development rather than retrospective tax consultants at filing time. Each narrative must document the baseline industry and internal knowledge prior to commencement, articulate the exact <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">capability, method, or design uncertainty</a>, chronicle the competing engineering alternatives evaluated (preserving failed prototypes, finite element simulation files, collaboration logs in tools such as Jira or Teams, and intermediate design revisions), and record the technical resolution achieved."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, financial controllers must overhaul internal wage and supply allocation methodologies. Time-tracking systems must require technical personnel to <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">log hours monthly or weekly by business component</a> and activity category, explicitly distinguishing hours spent on experimental hypothesis testing from hours spent on first-line direct supervision, direct support, routine drafting, higher-level executive oversight, and quality assurance. Officer participation in research must be separately documented to support Form 6765 reporting, and raw material invoices must be tagged to distinguish experimental pilot model supplies under Treasury Regulation Section 1.174-2(a)(4) from routine commercial inventory or depreciable property. Where percentage allocations are used to supplement <a href=\"/us/glossary/project-accounting\">project accounting</a> records, those allocations must be validated by credentialed technical personnel with direct personal knowledge of each subcomponent and cross-referenced against contemporaneous engineering artifacts to satisfy the evidentiary threshold of <em>Little Sandy Coal</em> and <em>Suder</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth, tax compliance teams must integrate continuous data-capture workflows mapped directly to the five mandatory refund disclosure elements of <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">FAA 20214101F</a> and the \"80%/Top 50\" business component ranking tables of Form 6765 Section G. Running pre-filing mock Form 6765 Section G schedules ensures that the top business components accounting for at least 80 percent of QREs (up to 50 components) are backed by complete wage splits and audit-ready engineering records."
+    },
+    {
+      "type": "subheading",
+      "text": "Policy Recommendations for the IRS and Treasury Department"
+    },
+    {
+      "type": "paragraph",
+      "text": "While judicial enforcement of the 80 percent Process of Experimentation threshold has curbed abusive \"all-or-nothing\" claims, persistent regulatory ambiguity surrounding custom tangible property continues to generate costly audit disputes. Three targeted administrative actions by the Treasury Department and the IRS would substantially improve certainty for taxpayers developing First-in-Class tangible property."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, the IRS should modernize its <em>Audit Techniques Guide: Credit for Increasing Research Activities (i.e. Research Tax Credit) IRC Section 41</em>—specifically the chapters governing the Section 174 Test, the Business Component Test, the Process of Experimentation Test, and Shrink Back—to incorporate detailed, quantitative examples applying the Four-Part Test to large-scale, one-off First-in-Class tangible assets, such as custom industrial machinery, specialized marine vessels, and commercial structural retrofits. Incorporating the concrete analytical boundaries established in <em>Little Sandy Coal</em>—specifically contrasting qualifying three-dimensional hydro-structural modeling or multi-revision structural plate engineering against non-qualifying routine CAD drafting, deadweight displacement surveys, and contractual acceptance tests—would establish transparent examination benchmarks for both LB&I field examiners and corporate taxpayers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the Treasury Department and the IRS should publish a formal Revenue Ruling under Treasury Regulation Section 1.41-4(a)(3) and (5) establishing objective criteria and safe-harbor examples that separate a First-in-Class component built by combining known, publicly available engineering methods in a configuration new only to the taxpayer (which fails the POE requirement) from a First-in-Class component whose functional integration creates genuine capability, method, or design uncertainty requiring systematic experimentation. Formalizing this distinction would eliminate the recurring misconception that organizational novelty automatically equates to qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, Treasury should issue administrative guidance under Treasury Regulation Section 1.41-4(b)(2) and Section 1.41-4(d) defining objective engineering and cost-accounting standards for decomposing a complex, multi-disciplinary First-in-Class asset into valid subcomponents for Form 6765 Section G reporting. Providing clear rules on how taxpayers may utilize bill-of-materials hierarchies, work-breakdown structures, and engineering change orders to establish shrunk-back business components will encourage voluntary subcomponent compliance and reduce \"all-or-nothing\" litigation in the federal courts."
+    }
+  ]
+}

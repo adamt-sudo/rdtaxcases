@@ -1,510 +1,482 @@
 {
   "slug": "united-states-v-mcferrin",
   "title": "United States v. McFerrin",
-  "articleTitle": "The Jurisprudential Evolution of Research and Development Tax Credits: A Comprehensive Analysis of United States v. McFerrin and its Contemporary Implications",
   "caseNumber": "570 F.3d 672",
   "court": "United States Court of Appeals for the Fifth Circuit",
   "year": 2009,
   "subject": "Cohan Rule Estimation",
   "jurisdictionGroup": "usa-federal",
   "jurisdictionSlug": "federal",
-  "summary": "Established that taxpayers can use reasonable estimates (the Cohan rule) to calculate R&D credits if they can prove qualified research activities actually occurred.",
+  "summary": "United States v. McFerrin, 570 F.3d 672 (5th Cir. 2009), is a Fifth Circuit R&D credit ruling for U.S. taxpayers claiming credits under I.R.C. § 41. The court held taxpayers may rely on Treas. Reg. § 1.41-4 definitions of qualified research and that courts should estimate QREs under Cohan once qualified research is shown, but need not credit after-the-fact reconstructions.",
   "body": [
     {
       "type": "heading",
-      "text": "The Historical and Legislative Landscape of Section 41"
+      "text": "Executive Summary and Case Background"
     },
     {
       "type": "paragraph",
-      "text": "The federal tax credit for increasing research activities, established under Section 41 of the Internal Revenue Code, represents a critical intersection of economic policy, scientific innovation, and administrative law. Originally introduced as a temporary incentive in 1981, the credit has undergone numerous extensions and modifications, ultimately becoming a permanent fixture of the United States tax code through the Protecting Americans from Tax Hikes (PATH) Act of 2015. The overarching objective of the credit is to stimulate domestic investment in research and development by reducing the after-tax cost of innovation, thereby fostering long-term economic growth and competitiveness. However, the administration of the credit has historically been a source of significant friction between taxpayers and the Internal Revenue Service (IRS). This friction arises primarily from the complexity of the statutory requirements and the often-exacting documentation standards imposed by the Service during examinations."
+      "text": "The United States Court of Appeals for the Fifth Circuit’s landmark decision in <em>United States v. McFerrin</em>, 570 F.3d 672 (5th Cir. 2009), stands as one of the most consequential appellate rulings in federal research and development (R&D) tax credit jurisprudence. Situated at the intersection of administrative law, federal civil procedure, and tax substantiation doctrine, <em>McFerrin</em> resolved critical disputes regarding the retroactive reliance on Treasury regulations, the rejection of judicially imposed \"high innovation\" thresholds, and the application of the <em>Cohan</em> estimation rule to <a href=\"/us/glossary/qualified-research-expenses-qre\">qualified research expenses (QREs)</a> under Internal Revenue Code (I.R.C.) § 41. Simultaneously, the litigation exposed severe operational and evidentiary vulnerabilities inherent in retrospective, consultant-driven R&D tax credit studies—specifically regarding uncorroborated oral time reconstructions and the aggressive inclusion of pass-through executive profit-sharing bonuses in the credit base."
+    },
+    {
+      "type": "subheading",
+      "text": "The Taxpayer's Claim and Corporate Structure"
     },
     {
       "type": "paragraph",
-      "text": "At the heart of this complexity is the \"four-part test\" mandated by Section 41(d), which defines what constitutes \"qualified research.\" To qualify for the credit, an activity must meet four distinct criteria: it must involve expenses deductible under Section 174, be undertaken to discover information that is technological in nature, intend for that information to be useful in developing a new or improved business component, and involve a process of experimentation. The interpretation of these requirements, particularly the \"discovery\" of information and the nature of \"experimentation,\" has been the subject of intense litigation for decades. The case of United States v. McFerrin stands as a watershed moment in this history, challenging the government’s restrictive interpretations and re-establishing the role of reasonable estimation in tax substantiation."
+      "text": "Arthur R. McFerrin, a prominent chemical engineer, co-founded KMCO, Inc. (\"KMCO\") in 1975. Operating as a Subchapter S corporation under I.R.C. §§ 1361–1363, KMCO manufactured commodity and specialty chemicals primarily for the petrochemical sector. During the relevant 1999 tax year, McFerrin also owned three other related Subchapter S corporations: KMCO Port Arthur, Inc., doing business as KMTEX (\"KMTEX\"), South Coast Acquisition, Inc. (\"SC Acquisition\"), and South Coast Delaware, Inc. (\"SC Delaware\"). SC Acquisition and SC Delaware served as the sole partners in a separate entity, South Coast Terminals (\"SC Terminals\")."
+    },
+    {
+      "type": "paragraph",
+      "text": "For the 1999 taxable year, McFerrin and all of the corporate entities originally filed their federal income tax returns in 2000 (Forms 1120S and Form 1040) without claiming any tax credits for increasing research activities under I.R.C. § 41. In May 2003, more than three years after the close of the 1999 tax year, KMCO contracted with a third-party specialty tax consulting firm, alliantgroup, L.P., to conduct a study to determine whether it was eligible for an increasing research tax credit. Relying on the findings of that look-back study, McFerrin and all of the corporations filed <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended 1999 tax returns</a> in September 2003. Because Subchapter S corporations and partnerships function as <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">pass-through entities</a> for federal income tax purposes, the claimed research credits flowed directly to the joint individual income tax return (Form 1040X) of Arthur R. McFerrin and his spouse, Dorothy McFerrin, generating an aggregate claimed credit of $472,092.00. The government later contended that part of the refund was attributable to a $6.4 million bonus paid to McFerrin in 1999, which it argued was not a qualified research expense."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge and Procedural Posture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Less than a month after the September 2003 amended returns were filed, as a result of a clerical error, the Internal Revenue Service (IRS) issued the refund to McFerrin, which, including interest, totaled $601,228.40—comprising the $472,092.00 claimed tax credit plus $129,136.40 in interest—although, according to the government’s complaint, the amended return included no supporting documents to substantiate the claimed credits. Thereafter, the United States Department of Justice, acting on behalf of the IRS, filed a civil action on October 31, 2005, in the United States District Court for the Southern District of Texas pursuant to I.R.C. § 7405 to recover the erroneous refund plus statutory interest."
+    },
+    {
+      "type": "paragraph",
+      "text": "This procedural posture altered the conventional allocation of the burden of proof in federal tax litigation. In a standard tax deficiency proceeding before the United States Tax Court or a taxpayer-initiated refund suit under 28 U.S.C. § 1346(a)(1), the Commissioner’s determination enjoys a presumption of correctness, and the taxpayer bears the burden of proving entitlement to the credit. Conversely, in an action brought by the United States under I.R.C. § 7405 to recover an improperly paid refund, the government acts as the plaintiff and bears the ultimate burden of proof to establish both that an amount was erroneously refunded and the exact quantum of that erroneous refund, as established in <em>Soltermann v. United States</em>, 272 F.2d 387 (9th Cir. 1959), and <em>United States v. Commercial National Bank of Peoria</em>, 874 F.2d 1165 (7th Cir. 1989)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to trial, the district court resolved two threshold procedural issues. First, McFerrin moved to dismiss the government's complaint under Federal Rule of Civil Procedure 9(b), arguing that the government’s assertion that he \"misrepresented facts\" constituted an allegation of fraud or mistake requiring heightened pleading particularity. The district court denied the motion and allowed the case to proceed to trial; on appeal, the Fifth Circuit confirmed that no fraud or mistake had been alleged and that the government had merely alleged a failure to substantiate tax claims with sufficient documentation, which is governed by the liberal notice pleading standard of Federal Rule of Civil Procedure 8(a)(2). Second, on summary judgment, the district court held that SC Terminals’ amended return was untimely filed outside the statutory limitations period, ordering McFerrin to repay the portion of the refund attributable to SC Terminals."
+    },
+    {
+      "type": "paragraph",
+      "text": "The substantiation claims concerning KMCO and KMTEX proceeded to a six-day bench trial. In 2008, the district court (<em>United States v. McFerrin</em>, 102 A.F.T.R.2d 2008-6269 (S.D. Tex. 2008)) entered judgment in favor of the United States, holding that the government had proven by a preponderance of the evidence that the tax credit was not properly supported—finding that, while a few projects \"may have involved some research,\" they were not \"qualified research,\" and that there were no records of the hours worked or supplies used that involved research—and ordering McFerrin to repay the refund with interest."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory and Regulatory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "The substantive dispute in <em>McFerrin</em> centered on the statutory interpretation of <a href=\"/us/glossary/irc-section-41\">I.R.C. § 41</a>, whose predecessor was first enacted in 1981 to incentivize incremental corporate investment in research and development. Under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41(a)(1)</a>, a taxpayer is allowed a credit equal to 20 percent of the excess of qualified research expenses (QREs) for the taxable year over a prescribed base amount. Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">I.R.C. § 41(b)(1)–(2)</a>, in-house QREs consist of wages paid or incurred to an employee for performing \"qualified services\" (engaging in, directly supervising, or directly supporting qualified research) and amounts paid or incurred for \"supplies\" used in the conduct of qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "To constitute \"qualified research,\" an activity must satisfy four separate and independent requirements codified in the conjunctive Four-Part Test of <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">I.R.C. § 41(d)(1)</a>. First, under the <a href=\"/us/glossary/irc-section-174\">Section 174</a> Test of I.R.C. § 41(d)(1)(A), the expenditures connected with the research must be eligible for treatment as research or experimental expenses under I.R.C. § 174, which additionally mandates under I.R.C. § 174(e) that the expenditure be reasonable under the circumstances. Second, under the Technological Information or Discovery Test of I.R.C. § 41(d)(1)(B)(i), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, relying on principles of the physical or biological sciences, engineering, or computer science. Third, under the Business Component Test of I.R.C. § 41(d)(1)(B)(ii), the taxpayer must intend that the information discovered be useful in the development of a new or improved business component, which <a href=\"/us/legislation/26-usc-41d2-business-component-test\">I.R.C. § 41(d)(2)(B)</a> defines as any product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in its trade or business. Fourth, under the Process of Experimentation Test of I.R.C. § 41(d)(1)(C), substantially all—defined in Treas. Reg. § 1.41-4(a)(6) as 80 percent or more—of the research activities must constitute elements of a process of experimentation for a qualified purpose, namely a new or improved function, performance, reliability, or quality under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">I.R.C. § 41(d)(3)(A)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, I.R.C. § 41 refers ten separate times to regulations to be promulgated by the Secretary of the Treasury. During the late 1990s and early 2000s, federal courts—including the Tenth Circuit in <em><a href=\"/us/tax-accounting-software-v-united-states\">Tax & Accounting Software Corp. v. United States</a></em>, 301 F.3d 1254 (10th Cir. 2002), the Seventh Circuit in <em>Eustace v. Commissioner</em>, 312 F.3d 905 (7th Cir. 2002), and the Tax Court in <em>Norwest Corp. v. Commissioner</em>, 110 T.C. 454 (1998)—interpreted \"discovering information\" and \"process of experimentation\" restrictively, requiring taxpayers to discover information new to the world or industry and to conduct formal scientific hypothesis testing."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, on December 26, 2001, the Treasury Department issued Proposed Regulations (Prop. Treas. Reg. § 1.41-4, 66 Fed. Reg. 66362) in which the IRS specifically recognized that its own earlier interpretation of \"discovering information\" did \"not fully address Congress' concerns regarding the importance of research activities to the U.S. economy\". These were followed by Final Regulations issued in December 2003 (T.D. 9104, 2004-1 C.B. 406, codified at Treas. Reg. § 1.41-4), formally effective for taxable years ending on or after December 31, 2003. The 2001 Proposed Regulations stated that the IRS generally would not challenge return positions consistent with them and that taxpayers could rely on them until final regulations were published, and the preamble to T.D. 9104 stated that, for taxable years ending before December 31, 2003, the IRS would not challenge return positions consistent with the final regulations."
+    },
+    {
+      "type": "subheading",
+      "text": "The Fifth Circuit's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "On June 9, 2009, the Fifth Circuit vacated the district court’s judgment and remanded the case for further proceedings. Writing for the panel, Circuit Judge Edith Brown Clement established four core holdings that reshaped federal R&D tax credit litigation. First, the appellate court affirmed the district court's denial of McFerrin’s Rule 9(b) motion to dismiss, holding that an erroneous refund suit predicated on a lack of substantiating documentation does not allege fraud or mistake and requires only Rule 8(a)(2) notice pleading. Second, the Fifth Circuit held that the trial court erred on the legal definitions of \"qualified research,\" concluding that the district court erred by applying the superseded judicial definitions from <em>Tax & Accounting Software</em>, <em>Eustace</em>, and <em><a href=\"/us/norwest-corp-v-commissioner\">Norwest</a></em> rather than the definitions set forth in the 2001 Proposed Regulations and 2003 Final Regulations (Treas. Reg. § 1.41-4). Because the IRS stated in the 2001 Proposed Regulations and in T.D. 9104 that it would not challenge return positions consistent with those regulatory definitions for prior years—and because the government conceded at oral argument that McFerrin could rely on the definitions from the 2003 Regulations in defending the suit—the district court’s factual findings were tainted by an erroneous legal lens and were stripped of appellate deference."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, rejecting the government’s harmless-error defense, the Fifth Circuit held that under <em>Cohan v. Commissioner</em>, 39 F.2d 540, 544 (2d Cir. 1930), if McFerrin proves on remand that qualified research activities occurred under the proper regulatory standards, the trial court <strong>should estimate</strong> the allowable QREs associated with those activities—evaluating employee testimony and institutional knowledge—even if the taxpayer lacks exact contemporaneous time-tracking records. Fourth, the Fifth Circuit declined to rule as a matter of law on the government's demand to claw back the refund portion tied to McFerrin’s $6.4 million 1999 bonus, instructing the district court on remand to determine factually under I.R.C. §§ 41(b) and 174(e) what portion, if any, constituted reasonable compensation for qualified services actually performed by McFerrin."
     },
     {
       "type": "heading",
-      "text": "The Factual Genesis of the McFerrin Dispute"
+      "text": "Core Legal and Evidentiary Failures"
     },
     {
       "type": "paragraph",
-      "text": "The litigation concerning Arthur R. McFerrin and his affiliated corporations began with a series of amended tax returns for the 1999 tax year. Arthur McFerrin was a prominent chemical engineer who founded KMCO, Inc., a Subchapter-S corporation that manufactured specialty and commodity chemicals for the petrochemical industry. McFerrin’s contributions to the field were so significant that Texas A&M University renamed its chemical engineering department in his honor in 2005. In addition to KMCO, McFerrin owned several related entities, including KMCO Port Arthur, Inc., and KMTEX, Inc., all of which operated as pass-through entities whose income and credits flowed directly to his personal tax returns."
+      "text": "While <em>McFerrin</em> yielded a procedural appellate victory for the taxpayer by vacating the trial court's overly restrictive legal standard, a granular dissection of the record reveals acute operational, technical, and evidentiary deficiencies in the taxpayer’s claim. These deficiencies not only triggered the Department of Justice’s erroneous refund lawsuit and caused a total loss at the six-day bench trial, but also established the precise battlegrounds upon which the IRS and federal courts have subsequently invalidated R&D tax credit claims across the United States."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Contemporaneously Define Technological Uncertainty and Business Components"
     },
     {
       "type": "paragraph",
-      "text": "In 2000, McFerrin and his corporations filed their original 1999 tax returns without claiming any research tax credits. However, in May 2003, KMCO engaged alliantgroup, L.P., a specialized tax consulting firm, to conduct a comprehensive study evaluating whether the company’s chemical manufacturing activities met the criteria for the research credit. Based on the results of this study, McFerrin and his corporations filed amended 1999 returns in September 2003, claiming an aggregate credit of $472,092. Due to a clerical error, the IRS issued a refund check for the full amount plus interest, totaling $601,228.40, within less than a month of the filing."
+      "text": "Under I.R.C. § 41(d)(1)(B) and Treas. Reg. § 1.41-4(a)(3)(i), research is undertaken for the purpose of discovering information only if it is intended to <a href=\"/us/glossary/elimination-of-uncertainty\">eliminate uncertainty</a> concerning the development or improvement of a business component. Uncertainty exists if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component."
     },
     {
       "type": "paragraph",
-      "text": "The government eventually realized the error and initiated a lawsuit in October 2005 under Section 7405 to recover the refund. The United States’ complaint alleged that the amended returns included no supporting documents and that the taxpayer had failed to substantiate the claimed credits with sufficient evidence. This initiated a legal battle that would eventually reach the United States Court of Appeals for the Fifth Circuit and reshape the standards for research credit substantiation across the country."
+      "text": "At the district court level, the trial judge erroneously required McFerrin to prove that KMCO and KMTEX’s projects expanded or refined existing scientific principles in the chemical engineering field, met a \"<a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation</a>,\" and had a \"broad effect\". While the Fifth Circuit held that the district court erred by applying this heightened discovery standard instead of the regulatory \"uncertainty\" standard (Treas. Reg. § 1.41-4(a)(3)(i)–(ii)), it did not itself decide whether KMCO’s and KMTEX’s projects qualified; the district court had found that only a \"few\" projects \"may have involved some research,\" and the government argued that most of the taxpayers’ activities did not constitute research at all, leaving for remand the distinction between routine chemical manufacturing adjustments and true design or method uncertainty."
+    },
+    {
+      "type": "paragraph",
+      "text": "In specialty and toll chemical manufacturing, engineers routinely adjust reaction temperatures, catalyst feed rates, distillation reflux ratios, and batch cycle times to meet customer purity specifications or adapt existing processes to available reactor vessels. The Fifth Circuit’s opinion does not describe the individual 1999 projects and makes no finding that KMCO’s and KMTEX’s retrospective study lumped together routine commercial production runs, quality control troubleshooting, and post-production debugging—which are explicitly excluded from qualified research under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)(A)–(D)</a>—with genuine process development; it records only the district court’s findings that there were no records of the hours worked on any given project, or of the hours worked or supplies used that involved research. When a taxpayer fails to isolate the specific business component (such as a discrete reaction synthesis pathway or distillation column configuration) and fails to record <em>ex ante</em> why known chemical engineering calculations could not establish the appropriate process design, trial courts inevitably view the activity as routine engineering rather than research aimed at eliminating technological uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of a Structured Process of Experimentation vs. Unstructured Trial and Error"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy I.R.C. § 41(d)(1)(C), substantially all of the research activities with respect to a business component must constitute elements of a process of experimentation. In the 2003 Final Regulations (Treas. Reg. § 1.41-4(a)(5)(i)), the Treasury defined a <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a> as a structured three-step methodology requiring first, the identification of uncertainty concerning the development or improvement of a business component; second, the identification of one or more alternatives intended to eliminate that uncertainty; and third, the identification and conduct of a process of evaluating those alternatives through modeling, simulation, or a systematic trial and error methodology."
+    },
+    {
+      "type": "paragraph",
+      "text": "As noted in Footnote 5 of the Fifth Circuit’s opinion, the 2001 Proposed Regulations (which were in effect when McFerrin filed his amended returns in 2003) did not contain the three-step \"process of experimentation\" test of the 2003 Final Regulations and instead required a \"facts and circumstances\" test, and the government conceded at oral argument that McFerrin could rely on the definitions from the 2003 Regulations in defending the suit. The district court had relied on <em><a href=\"/us/eustace-v-commissioner\">Eustace</a></em> (312 F.3d at 907) and <em>Norwest</em> to hold that experimentation required formal scientific hypothesis formulation and testing, completely disqualifying engineering \"trial and error\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the Fifth Circuit corrected the district court by affirming that <strong>systematic trial and error</strong> is a valid experimental evaluation method under Treas. Reg. § 1.41-4(a)(5)(i), this legal clarification highlights a critical evidentiary distinction—one the Fifth Circuit did not itself apply to KMCO’s and KMTEX’s projects but left for the district court on remand: the difference between <em>systematic</em> trial and error and <em>haphazard</em> or <em>ad hoc</em> trial and error. In chemical plant operations, simply changing a parameter when a batch fails specification—without a structured protocol identifying competing technical alternatives, holding confounding variables constant, and systematically evaluating the causal relationship between the altered parameter and the reaction outcome—does not satisfy Treas. Reg. § 1.41-4(a)(5)(i). Furthermore, under the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all\" rule</a> of I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), at least 80 percent of a business component's research activities (measured on a cost or other consistently applied reasonable basis) must constitute elements of this structured process of experimentation. The opinion makes no finding that KMCO and KMTEX lacked experimental test plans, pilot-plant comparison logs, or failure-analysis records; it remanded so that the district court could apply the correct definitions and determine whether their plant-floor adjustments constituted a systematic evaluation of alternatives rather than routine operational tweaking."
+    },
+    {
+      "type": "subheading",
+      "text": "Insufficient Contemporaneous Documentation and Over-Reliance on Post-Hoc Oral Estimates"
+    },
+    {
+      "type": "paragraph",
+      "text": "The government’s erroneous refund lawsuit was premised on a failure to substantiate: its complaint alleged that the amended return included no supporting documents, and the district court found no records substantiating the hours worked or supplies used that involved research in 1999. Under I.R.C. § 6001 and Treas. Reg. § 1.6001-1(a), every taxpayer is required to keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown on a tax return. Specifically, Treas. Reg. § 1.41-4(d) mandates that a taxpayer claiming a credit under I.R.C. § 41 \"must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\". Although the preamble to T.D. 9104 noted that the 2001 Proposed Regulations and 2003 Final Regulations do not impose a specific rigid recordkeeping system beyond the general requirements of I.R.C. § 6001, the taxpayer must nonetheless produce reliable evidentiary proof linking claimed expenditures to qualified activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "The district court determined that there were no records of the hours worked on any given project or of the hours worked or supplies used that involved research. Following the study KMCO commissioned from alliantgroup in May 2003, the claim rested on rough estimates given by employees years after the fact, which the district court was unwilling to credit; the opinion does not describe the consultants’ interview methodology."
+    },
+    {
+      "type": "paragraph",
+      "text": "While the Fifth Circuit rejected the government’s argument that the lack of documentation alone defeated the credit, holding that the district court should apply the <em>Cohan</em> rule (<em>Cohan v. Commissioner</em>, 39 F.2d 540, 544 (2d Cir. 1930)) to estimate allowable QREs once qualified research activities are shown to have occurred, the appellate panel issued a sharp warning regarding McFerrin’s documentation failure. The Fifth Circuit reiterated the bedrock principle from <em>Stinson Estate v. United States</em>, 214 F.3d 846 (7th Cir. 2000), that tax credits are a matter of legislative grace, are only allowed as clearly provided for by statute, and are narrowly construed. Consequently, when a court makes an approximation under <em>Cohan</em>, it is expressly authorized to <strong>\"bear heavily if it chooses upon the taxpayer whose inexactitude is of his own making\"</strong>. Crucially, the Fifth Circuit held that <strong>\"the district court need not credit McFerrin’s reconstruction of expenses from years after the fact\"</strong> (citing <em>Eustace v. Commissioner</em>, 81 T.C.M. (CCH) 1370, *5 (2001)), instructing instead that the trial court should look to <a href=\"/us/glossary/credible-oral-testimony\">credible witness testimony</a>, institutional knowledge of employees, and corroborating evidence in the record to determine a fair estimate."
+    },
+    {
+      "type": "paragraph",
+      "text": "The broader legal implications of this evidentiary deficiency became unmistakable in subsequent Fifth Circuit and Seventh Circuit decisions interpreting <em>McFerrin</em>. In <em><a href=\"/us/shami-v-commissioner\">Shami v. Commissioner</a></em>, T.C. Memo. 2012-78, <em>aff'd in part, vacated in part</em>, 741 F.3d 560 (5th Cir. 2014)—a case involving another outside consultant’s R&D credit study—the taxpayers cited <em>McFerrin</em> to argue that the Tax Court was legally required to estimate R&D wage allocations under <em>Cohan</em>. The Tax Court rejected this contention, and the Fifth Circuit affirmed in part and vacated in part, with the reasoning indicating that <em>McFerrin</em> only triggers a <em>Cohan</em> estimate if the taxpayer first establishes a credible evidentiary baseline (citing <em>Williams v. United States</em>, 245 F.2d 559, 560 (5th Cir. 1957)) proving that the specific employees performed qualified services and providing a rational, non-speculative factual basis upon which to base an estimate. Similarly, in <em><a href=\"/us/little-sandy-coal-v-commissioner\">Little Sandy Coal Co. v. Commissioner</a></em>, 62 F.4th 287 (7th Cir. 2023), the Seventh Circuit cited <em>McFerrin</em> for the availability of <em>Cohan</em> estimation, but affirmed complete disallowance of the credit because the taxpayer relied on arbitrary, unprincipled employee time estimates that could not prove the 80 percent \"substantially all\" threshold of I.R.C. § 41(d)(1)(C). Thus, <em>McFerrin</em> and its progeny demonstrate that relying on retrospective oral percentages without objective documentary anchors exposes the taxpayer either to total disallowance for lack of a reasonable basis or a punitive <em>Cohan</em> reduction on remand."
+    },
+    {
+      "type": "subheading",
+      "text": "Executive Compensation, Direct Supervision, and the I.R.C. § 174(e) Reasonableness Limitation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most glaring financial vulnerability in McFerrin’s 1999 R&D credit claim was the inclusion of a $6.4 million bonus paid by KMCO to McFerrin in 1999 as a <a href=\"/us/glossary/qualified-wages\">qualified wage</a> expense. In Subchapter S corporations, shareholder-executives frequently extract corporate earnings through year-end bonuses rather than dividend distributions to manage tax and cash-flow objectives. The opinion does not state what portion of McFerrin’s $6.4 million bonus the amended return treated as a qualified research expense; the government contended that the bonus was not attributable to McFerrin’s research work and was not a \"qualified research expense\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "This strategy implicated three distinct statutory and regulatory barriers, the first and third of which were examined in <em>McFerrin</em>. The first barrier involves the distinction between compensation for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" under I.R.C. § 41(b)(2)(A)(i) and a disguised return on equity. Under I.R.C. § 41(b)(2)(A)(i), \"<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">in-house research expenses</a>\" include \"any wages paid or incurred to an employee for qualified services performed by such employee\". While I.R.C. § 41(b)(2)(D)(i) cross-references I.R.C. § 3401(a), and Treas. Reg. § 31.3401(a)-1 provides that wages include salaries, fees, and bonuses even when paid as a \"percentage of profits\", the district court determined only that McFerrin’s $6.4 million bonus was calculated based on the \"profits and cash flow of KMCO in 1999\" and not on the research performed that year, and made no findings on whether any portion constituted wages for qualified services that were reasonable under the circumstances."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second barrier is the first-line \"direct supervision\" restriction codified in I.R.C. § 41(b)(2)(B) and Treas. Reg. § 1.41-2(c)(2). Under I.R.C. § 41(b)(2)(B), qualified services consist strictly of engaging in qualified research, directly supervising qualified research, or <a href=\"/us/glossary/direct-support\">directly supporting</a> qualified research. Crucially, Treas. Reg. § 1.41-2(c)(2) defines \"<a href=\"/us/glossary/direct-supervision\">direct supervision</a>\" as the immediate, first-line management of qualified research, explicitly stipulating that <strong>\"direct supervision does not include supervision by a higher-level manager to whom first-line managers report, even if that manager is a qualified research scientist\"</strong>. Although McFerrin was a prominent chemical engineer, as the co-founder of KMCO and owner of all of the related corporations, any managerial oversight by him of plant managers, lab directors, and commercial operations would constitute excluded upper-level management (an issue the Fifth Circuit did not address) unless he could prove specific hours spent personally conducting bench or plant experiments or acting as the immediate first-line supervisor of the experimenting engineers."
+    },
+    {
+      "type": "paragraph",
+      "text": "The third barrier is the statutory reasonableness limitation of I.R.C. § 174(e). Under I.R.C. § 41(d)(1)(A), QREs must qualify as deductible <a href=\"/us/glossary/research-and-experimental-expenditures\">research or experimental expenditures</a> under I.R.C. § 174. Pursuant to <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">I.R.C. § 174(e)</a>, research expenditures are deductible under § 174 <em>only to the extent that the amount thereof is reasonable under the circumstances</em>. In remanding the bonus issue, the Fifth Circuit declined to usurp the district court’s fact-finding role and left it to that court to determine under I.R.C. §§ 41(b) and 174(e) whether any portion of the $6.4 million bonus was part of McFerrin’s wages for qualified services he performed at KMCO and was \"reasonable under the circumstances,\" as opposed to compensating him for his executive leadership and ownership of a profitable petrochemical enterprise."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Timing and Procedural Pleading Missteps"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, the <em>McFerrin</em> litigation highlighted two significant procedural failures. First, on summary judgment prior to the bench trial, McFerrin lost the entire R&D tax credit claim attributable to South Coast Terminals because SC Terminals’ amended 1999 return was filed outside the statutory limitations period under I.R.C. § 6511. In complex multi-entity pass-through structures involving tiered Subchapter S corporations and partnerships (where SC Acquisition and SC Delaware were partners in SC Terminals), failing to track entity-level return filing dates and extensions prior to executing a look-back study results in immediate statutory forfeiture of the refund claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, McFerrin’s first argument on appeal was that the substantiation claims should have been dismissed—challenging the government’s erroneous refund complaint under Fed. R. Civ. P. 9(b) by seizing on phrasing in the complaint that McFerrin had \"misrepresented facts\" on his amended returns. The Fifth Circuit swiftly rejected this argument, clarifying that when the United States sues under I.R.C. § 7405 based on a taxpayer’s failure to substantiate claimed tax credits with adequate documentation, the claim sounds in statutory non-compliance rather than common-law fraud or mistake, rendering general notice pleading under Fed. R. Civ. P. 8(a)(2) fully sufficient."
+    },
+    {
+      "type": "heading",
+      "text": "Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory, regulatory, and procedural requirement addressed in <em>United States v. McFerrin</em> against the taxpayer's operational or evidentiary failure, the district court's ruling, and the Fifth Circuit's controlling standard of proof."
     },
     {
       "type": "table",
       "headers": [
-        "Event",
-        "Date",
-        "Significance"
+        "Legal Requirement & Issue",
+        "Governing Statutory & Regulatory Authority",
+        "Taxpayer's Operational or Evidentiary Failure",
+        "District Court's Applied Standard & Ruling",
+        "Fifth Circuit's Controlling Standard of Proof & Holding"
       ],
       "rows": [
         {
           "cells": [
-            "Original 1999 Return Filing",
-            "2000",
-            "Taxpayer claimed zero R&D tax credits."
+            "Erroneous Refund Recovery & Pleading Standard",
+            "I.R.C. § 7405; Fed. R. Civ. P. 8(a)(2) & 9(b)",
+            "Filed <a href=\"/us/faq/amending-past-tax-returns-for-missed-rd-credits\">amended 1999 returns</a> with no attached substantiating documentation; sought dismissal of DOJ complaint under Rule 9(b) particularity.",
+            "Denied Rule 9(b) motion to dismiss; tried the case under Rule 8(a)(2) notice pleading; held government met preponderance burden.",
+            "<strong>Affirmed on pleading:</strong> Lack of substantiation is not \"fraud or mistake\" under Rule 9(b); Rule 8(a)(2) governs. Under § 7405, the U.S. bears the ultimate burden of proving an erroneous refund occurred and its exact amount (<em>Soltermann</em>)."
           ]
         },
         {
           "cells": [
-            "Engagement of alliantgroup",
-            "May 2003",
-            "Conducted a retrospective study of 1999 research activities."
+            "Timeliness of Pass-Through Refund Claims",
+            "I.R.C. § 6511; I.R.C. §§ 1361–1363",
+            "Filed South Coast Terminals' amended 1999 return in September 2003 after the statutory limitations period had expired.",
+            "Granted partial summary judgment to the United States, ordering repayment of the refund portion relating to SC Terminals and its owners, SC Delaware and SC Acquisition.",
+            "<strong>Uncontested on appeal:</strong> Strict statutory filing deadlines apply to <a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through entity</a> refund claims; untimely claims are barred as a matter of law."
           ]
         },
         {
           "cells": [
-            "Amended 1999 Return Filing",
-            "September 2003",
-            "Claimed $472,092 in research tax credits based on the study."
+            "Discovering Technological Information (Uncertainty Test)",
+            "I.R.C. § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(3)(i)–(ii); Prop. Treas. Reg. § 1.41-4 (66 Fed. Reg. 66362); T.D. 9104",
+            "The opinion identifies no specific documentation failure on this point; the district court found that only a few projects \"may have involved some research\".",
+            "Applied superseded case law (<em>Tax & Accounting Software</em>, <em>Eustace</em>, <em>Norwest</em>) requiring research to expand industry knowledge, meet a high threshold of innovation, and have a broad effect.",
+            "<strong>Vacated & Remanded:</strong> Taxpayers may rely on the 2001 Proposed and 2003 Final Regulations for prior years per T.D. 9104. \"Discovering information\" requires only intent to <strong>eliminate uncertainty</strong> concerning the capability, method, or design of a business component."
           ]
         },
         {
           "cells": [
-            "IRS Refund Issued",
-            "October 2003",
-            "Refund of $601,228.40 issued due to a clerical error."
+            "Process of Experimentation Test",
+            "I.R.C. § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)(i) & (a)(6)",
+            "The opinion makes no finding on how the taxpayer’s experimentation was structured; the district court rejected \"trial and error\" testing as a matter of law.",
+            "Held that a \"process of experimentation\" requires formal scientific hypothesis formulation and testing, explicitly excluding engineering \"trial and error\" (<em>Eustace</em>).",
+            "<strong>Vacated & Remanded:</strong> Under Treas. Reg. § 1.41-4(a)(5)(i), a process of experimentation requires a 3-step process: (1) identify uncertainty, (2) identify alternatives, and (3) evaluate alternatives via modeling, simulation, or <strong>systematic trial and error</strong>."
           ]
         },
         {
           "cells": [
-            "Government Lawsuit",
-            "October 2005",
-            "Suit filed under Sec. 7405 to recover erroneous refund."
+            "Substantiation & Judicial Estimation of QREs",
+            "I.R.C. § 6001; Treas. Reg. § 1.6001-1; Treas. Reg. § 1.41-4(d); <em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930)",
+            "Had no records of the hours worked on any given project or of the hours worked or supplies used that involved research; relied on rough estimates given by employees years after the fact.",
+            "Was unwilling to credit rough estimates given by employees years after the fact; did not estimate allowable expenses under the <em>Cohan</em> rule because it found no qualified research occurred.",
+            "<strong>Vacated & Remanded:</strong> While the court need not credit post-hoc reconstructions (<em>Eustace</em>), if qualified research activities are shown, the court <strong>should estimate</strong> allowable QREs under <em>Cohan</em> using testimony and institutional knowledge, and may bear heavily, if it chooses, on the taxpayer for inexactitude of its own making."
           ]
         },
         {
           "cells": [
-            "District Court Trial",
-            "Pre-2008",
-            "Six-day bench trial resulting in a pro-government ruling."
-          ]
-        },
-        {
-          "cells": [
-            "Fifth Circuit Decision",
-            "June 9, 2009",
-            "Judgment vacated and remanded based on legal errors."
+            "Executive Bonus & Qualified Services Allocation",
+            "I.R.C. § 41(b)(2)(A)–(B); I.R.C. § 174(e); I.R.C. § 3401(a); Treas. Reg. § 1.41-2(c)(2); Treas. Reg. § 31.3401(a)-1",
+            "Included a $6.4 million 1999 bonus paid to co-founder McFerrin in QREs; the district court found the bonus was calculated on KMCO’s 1999 profits and cash flow, not on research performed that year.",
+            "Found the $6.4 million bonus was determined based on KMCO's corporate profits and cash flow rather than research work performed in 1999, but made no findings on whether any portion was wages for qualified services that were reasonable under the circumstances.",
+            "<strong>Remanded for Factual Findings:</strong> Wages under § 3401(a) can include profit-percentage bonuses, but the trial court must determine under §§ 41(b) and 174(e) what portion represents <strong>reasonable compensation</strong> for qualified services actually performed by McFerrin."
           ]
         }
       ]
     },
     {
       "type": "heading",
-      "text": "Procedural Nuances and Burdens of Proof"
+      "text": "Two Applied Remedial Case Studies"
     },
     {
       "type": "paragraph",
-      "text": "A critical element of the McFerrin litigation was the procedural posture of the case. Because the government was suing to recover a refund it had already paid, it bore the ultimate burden of proof to show that the refund was erroneous. This differs from a standard tax deficiency case where the taxpayer bears the burden of proving they are entitled to a deduction or credit. The Ninth Circuit in Soltermann v. United States and the Seventh Circuit in United States v. Commercial Nat'l Bank of Peoria established that in erroneous refund suits, the government must prove not only that an amount was erroneously refunded but also the exact amount of that error."
-    },
-    {
-      "type": "paragraph",
-      "text": "McFerrin also challenged the government's pleading standards, arguing that because the IRS claimed he \"misrepresented facts,\" it was required to meet the heightened particularity requirements of Federal Rule of Civil Procedure 9(b), which applies to allegations of fraud or mistake. The Fifth Circuit rejected this argument, noting that the government's complaint only alleged a failure to document, which falls under the more liberal notice standards of Rule 8(a)(2). This ruling clarified that the IRS does not need to allege fraud to seek the recovery of a refund; a simple lack of substantiation is a sufficient legal basis for the claim."
-    },
-    {
-      "type": "heading",
-      "text": "The District Court and the Resurgence of the Discovery Test"
-    },
-    {
-      "type": "paragraph",
-      "text": "The initial bench trial lasted six days and culminated in a victory for the United States. The district court ordered McFerrin to repay the refund with interest, concluding that the taxpayer had failed to properly support the credits. The court's decision was rooted in a highly restrictive interpretation of the four-part test for qualified research. Specifically, the district court relied on the \"Discovery Test,\" which posits that research is only qualified if it expands or refines existing principles in the field, has a high threshold of innovation, and possesses a broad effect on the industry or economy."
-    },
-    {
-      "type": "paragraph",
-      "text": "Furthermore, the district court held that a \"process of experimentation\" required the formal forming and testing of hypotheses. It explicitly rejected \"trial and error\" testing as a qualifying activity, arguing that such systematic evaluation did not meet the rigorous scientific standards intended by the statute. Applying these definitions, the court found that while some of the KMCO chemical projects may have involved research, they did not constitute \"qualified research\". Additionally, the court refused to accept the rough estimates provided by KMCO employees years after the research occurred, effectively demanding contemporaneous, project-specific records."
-    },
-    {
-      "type": "heading",
-      "text": "The Fifth Circuit Appeal: Correcting Legal Misinterpretations"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Fifth Circuit's reversal of the district court’s decision was predicated on the finding that the lower court had applied the wrong legal standards. This reversal touched upon three foundational aspects of Section 41: the meaning of \"discovering information,\" the scope of the \"process of experimentation,\" and the evidentiary standards for substantiation."
+      "text": "To translate the appellate holdings of <em>United States v. McFerrin</em>—and the subsequent judicial guardrails established in <em>Shami v. Commissioner</em>, <em>Trinity Industries v. United States</em>, and <em>Little Sandy Coal Co. v. Commissioner</em>—into actionable compliance architecture, the following two applied industry case studies demonstrate step-by-step how U.S. taxpayers can remediate the exact technical, contractual, compensation, and documentation failures exposed in the ruling."
     },
     {
       "type": "subheading",
-      "text": "The Shift from Discovery to Uncertainty"
+      "text": "Case Study 1: Specialty Petrochemical and Toll Manufacturing Scale-Up"
+    },
+    {
+      "type": "subheading",
+      "text": "Operational Scenario and Identified McFerrin Pitfalls"
     },
     {
       "type": "paragraph",
-      "text": "The Fifth Circuit clarified that the \"Discovery Test\" relied upon by the district court—the idea that research must result in information that is new to the industry—was no longer the law. While the IRS had initially introduced a discovery requirement in proposed regulations in 2001 (T.D. 8930), these were superseded by final regulations in 2004 (T.D. 9104). These newer regulations established that research is undertaken for the purpose of discovering information if it is intended to eliminate \"technical uncertainty\" concerning the development or improvement of a business component."
+      "text": "ChemSynth Holdings, Inc. (\"ChemSynth\") is a Texas-based Subchapter S corporation specializing in custom toll manufacturing and specialty chemical synthesis for the Gulf Coast petrochemical sector, broadly resembling KMCO’s manufacture of commodity and specialty chemicals for the petrochemical industry. During the current tax year, ChemSynth undertook \"Project Alkylate-X,\" an initiative to scale up a high-purity polyalphaolefin (PAO) synthetic lubricant additive from a 5-liter laboratory glass reactor to a 10,000-gallon continuous-stirred tank reactor (CSTR) paired with a multi-stage fractional distillation column."
     },
     {
       "type": "paragraph",
-      "text": "Crucially, the 2004 regulations clarified that the information discovered does not need to be new to the world or the industry; it only needs to be \"new to the taxpayer\". The Fifth Circuit noted that even the Treasury Department had acknowledged that the older discovery standard did not reflect Congressional intent. This shift significantly broadened the eligibility for the credit, particularly for manufacturers and engineers whose work involves solving technical problems that may have been addressed elsewhere but remain uncertain within the context of their specific production environments."
+      "text": "ChemSynth’s current tax posture exhibits four critical <em>McFerrin</em> vulnerabilities. First, during commercial scale-up, batches suffered from exothermic runaway risks and isomerization side-reactions, prompting plant engineers to adjust Friedel-Crafts catalyst dosing rates and distillation reboiler temperatures across 18 production runs without written test protocols; this creates an acute risk that an IRS examining engineer will classify the runs as routine commercial production and quality control under I.R.C. § 41(d)(4)(A) and (D) rather than a structured process of experimentation under Treas. Reg. § 1.41-4(a)(5)(i). Second, ChemSynth’s <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">founder and CEO</a>, Dr. Vance (a Ph.D. chemical engineer owning 100 percent of the Subchapter S corporation), received a base salary of $350,000 and a year-end bonus of $4.8 million tied to corporate EBITDA; a third-party consultant proposed claiming 50 percent of Dr. Vance’s total compensation ( ($2,575,000) as QREs based on an oral interview stating he \"oversaw all plant engineering,\" directly inviting challenge under I.R.C. § 174(e), Treas. Reg. § 1.41-2(c)(2), and <em>McFerrin</em> / <em>Shami</em>. Third, ChemSynth’s 24 process engineers and lab technicians do not track time by project, booking all labor to a single plant overhead cost center and forcing reliance on <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective oral percentage estimates</a>. Fourth, raw petrochemical feedstocks used in experimental scale-up batches are billed to the general commercial inventory ledger, obscuring which supplies qualify under I.R.C. § 41(b)(2)(A)(ii)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Business Component Segregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent routine commercial production from contaminating the R&D claim and causing Project Alkylate-X to fail the 80 percent \"substantially all\" threshold of I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), ChemSynth must restructure its internal project governance around the <strong><a href=\"/us/glossary/business-component\">Business Component</a></strong> and <strong>Shrinking-Back</strong> rules of Treas. Reg. § 1.41-4(b)(2). Rather than defining the business component broadly as \"PAO Manufacturing,\" ChemSynth’s R&D Governance Committee must charter Project Alkylate-X as a distinct process business component under I.R.C. § 41(d)(2)(B) and pre-emptively subdivide the project into three discrete sub-process components: Sub-Process 101 (Catalyst Injection and Exothermic Heat Transfer Control), Sub-Process 102 (Continuous Oligomerization Residence Time Distribution), and Sub-Process 103 (Vacuum Fractional Distillation Stripping). If the overall scale-up fails the 80 percent process-of-experimentation test due to commercial production runs, this sub-component architecture allows ChemSynth to legally invoke the \"shrinking-back\" rule of Treas. Reg. § 1.41-4(b)(2) to preserve QREs for the specific sub-processes that independently satisfy the <a href=\"/us/glossary/four-part-test\">Four-Part Test</a>. Furthermore, governance protocols must establish a hard \"Commercial Release Gate\" to comply with the <a href=\"/us/glossary/research-after-commercial-production\">post-production exclusion</a> of I.R.C. § 41(d)(4)(A). Once the CSTR operating parameters achieve target isomer purity (99.4 percent) and thermal stability across three consecutive validation batches, the R&D project code is locked, and all subsequent reactor runs are automatically routed to commercial cost-of-goods-sold (COGS) accounts."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation of Uncertainty and Three-Step Experimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Fifth Circuit’s interpretation of Treas. Reg. § 1.41-4(a)(3) and (a)(5)(i) in <em>McFerrin</em>, ChemSynth must replace informal plant adjustments with a standardized <strong>Technical Uncertainty and Systematic Trial-and-Error Dossier</strong>. Prior to the first CSTR trial, the Lead Process Engineer must execute a Project Initiation Memo documenting under Treas. Reg. § 1.41-4(a)(3)(i) why existing literature, kinetic models, and 5-liter bench data cannot establish the <em>appropriate design</em> or <em>method</em> for the 10,000-gallon vessel, specifically detailing how the non-linear reduction in surface-area-to-volume ratio from bench to commercial scale creates heat-transfer and micromixing uncertainties that standard Reynolds number scaling correlations cannot resolve."
+    },
+    {
+      "type": "paragraph",
+      "text": "For each of the 18 scale-up runs, engineers must log data into a digital Batch Experimentation Matrix that maps directly to the three regulatory elements mandated by <em>McFerrin</em> under Treas. Reg. § 1.41-4(a)(5)(i). The matrix must first state the specific uncertainty targeted (for example, the inability to prevent localized thermal hotspots exceeding 145°C during boron trifluoride co-catalyst addition), then identify the competing technical alternatives conceptualized to eliminate that uncertainty (such as multi-port subsurface sparger ring injection versus a pre-mixed static inline mixer feed upstream of the CSTR versus pulsed stoichiometric dosing with chilled heptane diluent), and finally record the systematic evaluation and analytical results. By documenting the chemometric simulation outputs, gas chromatography-mass spectrometry (GC-MS) isomer profiles, and exothermic temperature curves for each run—explicitly recording why one alternative failed due to nozzle fouling and how another alternative was systematically modified across Runs 7 through 12 to eliminate the uncertainty—ChemSynth transforms informal plant tweaking into an audit-proof <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Executive Compensation Restructuring and I.R.C. § 174(e) Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "To insulate Dr. Vance’s compensation from the government’s clawback challenge in <em>McFerrin</em> and the complete disallowance in <em>Shami</em>, ChemSynth must overhaul its corporate compensation agreements and supervisory documentation prior to the close of the taxable year. ChemSynth’s Board of Directors must adopt a formal Corporate Resolution and amended Executive Employment Agreement bifurcating Dr. Vance’s compensation into three distinct streams: a Base Salary of $350,000 compensating general executive and technical director duties; a Technical Milestone Incentive Bonus capped at $250,000 that is explicitly contingent upon Dr. Vance’s personal engineering execution and first-line supervision of chartered R&D scale-up projects (measured by patent filings, resolution of scale-up design uncertainties, and completion of pilot validation gates, rather than corporate EBITDA or cash flow); and a Shareholder S-Corporation Profit-Sharing Distribution of $4,550,000 explicitly designated as non-qualified return on equity that is completely excluded from the I.R.C. § 41 QRE calculation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Concurrently, ChemSynth must retain an independent compensation valuation study benchmarking the total cash compensation of Chief Technology Officers and Principal Chemical Engineers in comparable Gulf Coast specialty chemical firms (establishing a reasonable market range of $400,000 to $600,000 annually). By capping Dr. Vance’s maximum eligible wage pool at $600,000 (comprising his Base Salary plus Technical Milestone Bonus) and applying his substantiated R&D time percentage solely to that reasonable compensation pool, ChemSynth satisfies I.R.C. § 174(e) and eliminates the distortion of applying R&D percentages to a multi-million-dollar profit bonus. Furthermore, to overcome the upper-level manager exclusion of Treas. Reg. § 1.41-2(c)(2), Dr. Vance must not claim time spent supervising the Vice President of Manufacturing or Plant Manager. Instead, the organizational chart for Project Alkylate-X must designate Dr. Vance as the direct, first-line Project Leader to whom the experimenting process engineers report directly for technical sign-off, and Dr. Vance must personally sign and annotate the weekly Batch Experimentation Matrices to create contemporaneous documentary proof of engaging in and directly supervising qualified research."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Cost and Time Tracking to Fortify the Cohan Baseline"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy I.R.C. § 6001 and Treas. Reg. § 1.41-4(d)—and ensure that if judicial estimation is ever required, the taxpayer possesses an unassailable evidentiary foundation under <em>McFerrin</em> and <em>Williams</em>—ChemSynth must configure its Enterprise Resource Planning (ERP) system with specific work-order codes for Sub-Processes 101, 102, and 103. Process engineers and lab technicians must complete <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">bi-weekly electronic timecards</a> allocating hours across R&D sub-process codes and non-qualified commercial operations, approved by their immediate supervisor. Raw chemical feedstocks drawn for experimental trial batches must be requisitioned using a dedicated R&D Material Issue Code tied to the specific sub-process work order, segregating <a href=\"/us/glossary/qualified-supplies\">qualified supplies</a> under I.R.C. § 41(b)(2)(A)(ii) from commercial inventory. Where exact hourly logs are incomplete for salaried chemical engineers, ChemSynth must compile contemporaneous objective metadata—including Distributed Control System (DCS) operator login timestamps during experimental batch runs, laboratory notebook sign-offs, Laboratory Information Management System (LIMS) sample test timestamps, and engineering change order (ECO) authorship logs. Under <em>McFerrin</em>, presenting a trial court or IRS examiner with timestamped DCS batch logs and LIMS test records anchored to specific engineers provides the concrete institutional evidence necessary to compel a favorable <em>Cohan</em> estimate without suffering a punitive judicial reduction."
     },
     {
       "type": "table",
       "headers": [
-        "Legal Standard",
-        "Definition under Discovery Test (Old)",
-        "Definition under Uncertainty Test (New)"
+        "Remediation Dimension",
+        "Pre-Remediation Vulnerability (McFerrin Pitfall)",
+        "Restructured Compliance Architecture",
+        "Statutory & Regulatory Nexus"
       ],
       "rows": [
         {
           "cells": [
-            "Discovering Information",
-            "Must expand or refine principles in the field; new to the world.",
-            "Must eliminate technical uncertainty; only needs to be new to the taxpayer."
+            "Project Scope & Governance",
+            "Monolithic project encompassing commercial production runs and post-production debugging.",
+            "Charter discrete Sub-Processes (101, 102, 103) with a hard Commercial Release Gate cutoff.",
+            "I.R.C. § 41(d)(2)(B); I.R.C. § 41(d)(4)(A); Treas. Reg. § 1.41-4(b)(2)."
           ]
         },
         {
           "cells": [
-            "Innovation Threshold",
-            "High threshold of innovation required.",
-            "Focus on technical capability, method, or design."
+            "Technical Documentation",
+            "Informal plant adjustments with no record of baseline uncertainty or systematic evaluation.",
+            "Ex Ante Baseline Uncertainty Memo + 3-Step Digital Batch Experimentation Matrix.",
+            "I.R.C. § 41(d)(1)(B)–(C); Treas. Reg. § 1.41-4(a)(3) & (a)(5)(i)."
           ]
         },
         {
           "cells": [
-            "Industry Knowledge",
-            "Must exceed common knowledge of skilled professionals.",
-            "Information must be obtained through a process of experimentation."
+            "Executive Compensation",
+            "Applying oral R&D time estimates to a $4.8M EBITDA profit-sharing bonus for an S-Corp CEO.",
+            "Board resolution bifurcating Base + Milestone Bonus ($600k cap) from excluded S-Corp profit distributions; first-line sign-off logs.",
+            "I.R.C. § 41(b)(2)(B); I.R.C. § 174(e); Treas. Reg. § 1.41-2(c)(2)."
+          ]
+        },
+        {
+          "cells": [
+            "Time & Supply Substantiation",
+            "Retrospective oral interviews conducted years after the tax year with zero <a href=\"/us/glossary/project-accounting\">project accounting</a>.",
+            "Bi-weekly ERP sub-process timecards, R&D material requisition codes, and DCS/LIMS timestamp metadata.",
+            "I.R.C. § 6001; Treas. Reg. § 1.41-4(d); <em>Cohan v. Commissioner</em>."
           ]
         }
       ]
     },
     {
       "type": "subheading",
-      "text": "Redefining the Process of Experimentation"
-    },
-    {
-      "type": "paragraph",
-      "text": "The appellate court also addressed the definition of the \"process of experimentation.\" It ruled that the district court's requirement for a formal hypothesis-testing framework was overly rigid. The Fifth Circuit held that a process of experimentation can involve systematic trial and error or other approaches aimed at evaluating alternatives to achieve a desired result. This recognition is vital in industrial settings like McFerrin’s chemical manufacturing plants, where the development of a more efficient chemical reaction or a more stable specialty compound often requires iterative testing of variables rather than the rigid scientific method used in academic laboratories."
-    },
-    {
-      "type": "heading",
-      "text": "The Cohan Rule and the Mandate of Reasonable Estimation"
-    },
-    {
-      "type": "paragraph",
-      "text": "The most enduring legacy of the McFerrin decision is its instruction to apply the \"Cohan Rule\" to research credit substantiation. The Cohan Rule, derived from the 1930 case Cohan v. Commissioner, establishes that if a taxpayer can prove they incurred a deductible expense but cannot establish the exact amount due to a lack of contemporaneous records, the court must make \"as close an approximation as it can\"."
+      "text": "Case Study 2: Industrial Process Equipment and Custom Vessel Fabrication"
     },
     {
       "type": "subheading",
-      "text": "\"Allowing Something Rather Than Nothing\""
+      "text": "Operational Scenario and Identified McFerrin Pitfalls"
     },
     {
       "type": "paragraph",
-      "text": "The Fifth Circuit explicitly criticized the district court for refusing to consider employee estimates simply because they were provided years after the fact. The appellate court stated that if the taxpayer demonstrates that \"qualified research\" activities actually occurred, the court is obligated to estimate the related expenses rather than granting no credit at all. While the court should \"bear heavily\" against the taxpayer whose records are inexact, it is legally inconsistent to allow nothing when the evidence confirms that research took place."
+      "text": "Apex Process Systems LLC (\"Apex\"), an Indiana-based corporation taxed under Subchapter S, designs and fabricates custom modular chemical processing skids and high-pressure reactor vessels for industrial clients—an operational setting directly implicating the doctrinal intersection of <em>United States v. McFerrin</em>, <em><a href=\"/us/trinity-industries-v-united-states\">Trinity Industries, Inc. v. United States</a></em>, 757 F.3d 400 (5th Cir. 2014), and <em>Little Sandy Coal Co. v. Commissioner</em>, 62 F.4th 287 (7th Cir. 2023)."
     },
     {
       "type": "paragraph",
-      "text": "This mandate for estimation directly contradicts the IRS's long-standing preference for perfect, project-based contemporaneous records. It acknowledges that many innovative companies—especially small to mid-sized firms—may not have the administrative infrastructure to track every employee hour to a specific business component in real-time. By allowing for \"fair estimates\" based on testimony and \"institutional knowledge,\" McFerrin created a more equitable environment for domestic innovators."
+      "text": "Apex entered into a contract with a commercial chemical producer (\"Client\") to design and build a <a href=\"/us/glossary/first-in-class-development\">first-of-its-kind</a> Supercritical Extraction Vessel Skid (\"Skid-7\"). Because Apex had never built a supercritical extraction system operating at 5,000 psi with corrosive co-solvents, its mechanical and chemical engineers performed Finite Element Analysis (FEA) and computational fluid dynamics (CFD) modeling to design the custom pressure vessel closure mechanism and internal acoustic cavitation nozzles, while using standard off-the-shelf ASME code calculations to fabricate the structural steel frame, piping manifolds, and electrical control panels."
+    },
+    {
+      "type": "paragraph",
+      "text": "Apex’s claim faces four severe legal pitfalls identified in <em>McFerrin</em> and its appellate progeny. First, Apex claimed the entire Skid-7 fabrication cost ($4.2 million in wages and supplies) as a single business component on the theory that the skid was \"new to Apex\"; because 65 percent of the total labor hours on Skid-7 involved routine ASME welding, structural frame assembly, and standard piping layout—which do not involve a process of experimentation—the entire Skid-7 project fails the 80 percent \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" numerator/denominator test of I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6). Second, Apex did not segregate engineering design hours from shop-floor fabrication and testing hours, relying instead on management's arbitrary estimate that 85 percent of all engineering and shop labor was experimental—a methodology rejected in <em>Little Sandy Coal</em> and <em>McFerrin</em>. Third, Apex’s contract with Client provides for progress payments and contains ambiguous warranty and acceptance clauses, raising an immediate IRS challenge that the research is excluded as \"<a href=\"/us/glossary/funded-research\">funded research</a>\" under I.R.C. § 41(d)(4)(H). Fourth, when weld cracks appeared during hydrostatic testing of the vessel nozzle, Apex paid a third-party lab to X-ray the welds and claimed the cost as <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research</a>, despite lacking any experimental protocol, an expenditure vulnerable to classification as routine quality-control testing, consistent with the substantiation failures in <em>Little Sandy Coal</em>."
     },
     {
       "type": "subheading",
-      "text": "The Role of Employee Testimony as Evidence"
+      "text": "Step 1: Project Governance and Sub-Component \"Shrinking-Back\" Architecture"
     },
     {
       "type": "paragraph",
-      "text": "The Fifth Circuit emphasized that the \"institutional knowledge of employees\" is a valid form of evidence in determining a fair estimate of research time and expenses. This was further supported by the Tax Court’s decision in Union Carbide Corp. v. Commissioner, which allowed employee testimony to substantiate qualified wages even without detailed time logs. These cases collectively establish that while documents are preferable, oral evidence from the individuals who performed the research is both credible and legally sufficient to support a claim."
-    },
-    {
-      "type": "heading",
-      "text": "The Bonus Dispute: McFerrin's $6.4 Million Performance Incentive"
-    },
-    {
-      "type": "paragraph",
-      "text": "A specific factual dispute in McFerrin involved a $6.4 million bonus paid to McFerrin in 2004, which he sought to include as a qualified research expense (QRE) on the grounds that it compensated him for his technical work. The district court had disqualified the bonus, finding that it was based on KMCO’s overall profits and cash flow rather than on specific research performed during the year."
-    },
-    {
-      "type": "paragraph",
-      "text": "The Fifth Circuit did not make a final determination on the eligibility of the bonus but sent the issue back to the lower court for further examination. The appellate court noted that if any portion of the bonus was reasonable compensation for research services performed, it could potentially count as a QRE. This suggests that executive compensation in innovation-heavy firms can be included in the credit calculation, provided the taxpayer can document a nexus between the payment and specific research activities."
-    },
-    {
-      "type": "heading",
-      "text": "IRS Reaction: Strategic Entrenchment and Tier I Classification"
-    },
-    {
-      "type": "paragraph",
-      "text": "The IRS reaction to the McFerrin decision was characterized by a push for higher administrative standards to counteract the judicial flexibility granted to taxpayers. Shortly after the ruling, the IRS’s Large and Mid-Size Business (LMSB) Division designated research tax credit refunds as a \"Tier I\" examination issue. This designation signaled that the IRS would treat these claims with the highest level of scrutiny, often requiring centralized audit management and a proactive approach toward asserting penalties."
+      "text": "To prevent the non-experimental fabrication of standard skid components from disqualifying the entire Skid-7 project under the 80 percent \"substantially all\" rule of I.R.C. § 41(d)(1)(C), Apex must restructure its work breakdown structure (WBS) at project inception. Instead of treating the entire Skid-7 unit as a single monolithic business component, Apex’s engineering governance must decompose Skid-7 into discrete, functionally independent sub-components in its WBS and computer-aided design (CAD) bill of materials (BOM): Sub-Component A (WBS-701: High-Pressure Quick-Actuating Breach-Lock Closure Assembly), Sub-Component B (WBS-702: Supercritical Co-Solvent Ultrasonic Cavitation Mixing Nozzle), and Sub-Component C (WBS-703: Structural Steel Skid Frame, Standard ASME Piping Manifolds, and PLC Control Cabinet). By isolating WBS-701 and WBS-702 as separate business components under the <a href=\"/us/glossary/shrink-back-rule\">shrinking-back rule</a> of Treas. Reg. § 1.41-4(b)(2) and completely excluding WBS-703 from the R&D tax credit claim, Apex removes all routine structural welding and standard piping hours from the denominator of the \"substantially all\" fraction. Within WBS-701 and WBS-702, over 90 percent of the engineering, FEA/CFD simulation, and prototype machining hours constitute elements of a process of experimentation, easily surpassing the 80 percent statutory threshold."
     },
     {
       "type": "subheading",
-      "text": "The Conflict over Documentation Standards"
+      "text": "Step 2: Technical Documentation of Design Uncertainty and Iterative Modeling Logs"
     },
     {
       "type": "paragraph",
-      "text": "IRS examiners have routinely applied \"exacting documentation standards\" that are not explicitly found in the Section 41 regulations. The Service argues that without project-level records that tie specific expenses to defined business components, it cannot properly audit a claim. Taxpayers, however, argue that these standards are an attempt to circumvent the McFerrin and Cohan precedents, which allow for reasonable substantiation through broader evidence."
+      "text": "To establish under <em>McFerrin</em> that WBS-701 and WBS-702 were undertaken to \"discover information\" by eliminating capability or design uncertainty rather than merely applying known engineering calculations, Apex must implement a rigorous engineering documentation protocol. In <em>Little Sandy Coal</em>, the Seventh Circuit emphasized that merely using engineering calculations and modeling to design a first-time vessel does not automatically constitute a process of experimentation if the engineers knew at the outset that standard calculations would achieve the design goal. Therefore, Apex’s Lead Mechanical Engineer must author a <strong>Design Uncertainty Brief</strong> for WBS-701 and WBS-702 proving why standard ASME Boiler and Pressure Vessel Code (BPVC) Section VIII Division 1 formulas could not establish an appropriate seal geometry or nozzle configuration under rapid supercritical decompression cycles, specifically documenting explosive decompression elastomer failure and non-linear thermal stress gradients."
     },
     {
       "type": "paragraph",
-      "text": "The IRS Audit Techniques Guide (ATG) remains critical of the use of retrospective studies prepared by outside consultants, which it labels \"prepackaged submissions\". The ATG emphasizes that estimation is only a \"fallback\" and should not be used if the taxpayer's failure to maintain records was an \"inexactitude of their own making\". This creates a high hurdle for taxpayers who engage consultants years after the research has concluded."
+      "text": "Apex must then maintain a version-controlled <strong>Iterative Evaluation Ledger</strong> linking every CAD revision (Rev 1.0 through Rev 6.4) of the breach-lock closure and cavitation nozzle to specific FEA and CFD simulation runs. Each ledger entry must record the specific geometric or metallurgical alternative evaluated (such as Inconel 718 versus Nitronic 60 sealing rings, or 15-degree versus 22-degree converging nozzle angles), the simulated stress-intensity or cavitation-index output, the physical hydrostatic or flow-loop prototype test results, and the technical rationale explaining why the iteration succeeded or failed. Furthermore, to reduce the substantiation risk illustrated by <em>Little Sandy Coal</em>, routine non-destructive examination (NDE) X-ray testing of standard production welds to verify ASME code compliance must be booked to WBS-703 as non-qualified <a href=\"/us/glossary/quality-control-testing\">quality control</a> under I.R.C. § 41(d)(4)(D). Conversely, destructive metallurgical testing and scanning electron microscopy (SEM) performed to evaluate experimental laser-cladding alternatives on the WBS-702 cavitation nozzle must be contracted under a specific Test Protocol Memo tied directly to WBS-702’s design uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contractual Restructuring to Defeat the Funded Research Exclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if Apex satisfies all four prongs of I.R.C. § 41(d)(1) under <em>McFerrin</em>, its credit claim will be disqualified under I.R.C. § 41(d)(4)(H) if the research is \"funded\" by any grant, contract, or otherwise by another person. Under Treas. Reg. § 1.41-4A(d), to prevent research performed under a customer contract from being excluded as funded research, the taxpayer must both bear the <strong><a href=\"/us/glossary/financial-risk-test\">financial risk of failure</a></strong> (meaning payment is contingent on the technical success of the research) and retain <strong>substantial rights</strong> in the research results."
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the financial risk prong, Apex must replace time-and-materials or unconditional progress billing in its Master Engineering and Fabrication Agreement with a <a href=\"/us/glossary/fixed-price-contract\">firm fixed-price</a> structure where all milestone advances are legally refundable if Skid-7 fails to achieve the specified supercritical extraction performance metrics during Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT). Specifically, the contract must stipulate that payment of the contract price is strictly contingent upon Apex successfully designing and delivering a system that meets the quantitative performance guarantees, and that if Apex fails to overcome the technical design uncertainties to achieve those guarantees, the client may reject the system, receive a full refund of all prior milestone payments, and leave Apex bearing 100 percent of all engineering, material, and rework costs. To satisfy the <a href=\"/us/glossary/substantial-rights\">substantial rights</a> prong, the contract’s intellectual property clause must explicitly vest in Apex unrestricted ownership and usage rights to all foreground process engineering, sub-component designs (specifically WBS-701 and WBS-702 architectures), and technical know-how developed during the contract, granting Apex the right to utilize such designs and discoveries in the manufacture of equipment for other commercial customers without paying royalties or fees to the client."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Granular Experimentation Tracking to Satisfy the \"Substantially All\" Numerator and Cohan Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure that Apex can mathematically prove the 80 percent \"substantially all\" fraction under Treas. Reg. § 1.41-4(a)(6) and satisfy the substantiation mandates of <em>McFerrin</em> and <em>Little Sandy Coal</em>, Apex must require all engineers, CAD designers, and prototype machinists to log time daily against both a Sub-Component Code (WBS-701, WBS-702, WBS-703) and a four-tier Activity Phase Code. Under this structure, Code E-1 captures uncertainty identification and alternative conceptualization under Treas. Reg. § 1.41-4(a)(5)(i); Code E-2 captures iterative CAD modeling, FEA/CFD simulation, and systematic prototype fabrication and testing; Code R-1 captures post-uncertainty final production shop drawings and routine tolerance checks on WBS-701 and WBS-702 (which constitute non-experimental research or engineering activities included in the denominator under Treas. Reg. § 1.41-4(a)(6)); and Code C-1 captures all routine commercial fabrication, assembly, and ASME code testing on WBS-703."
     },
     {
       "type": "table",
       "headers": [
-        "IRS Administrative Mechanism",
-        "Post-McFerrin Application"
+        "WBS Sub-Component & Activity Code",
+        "Technical Activity Description",
+        "Treatment in 80% \"Substantially All\" Fraction (Treas. Reg. § 1.41-4(a)(6))",
+        "QRE Qualification Status under I.R.C. § 41"
       ],
       "rows": [
         {
           "cells": [
-            "Tier I Examination Issue",
-            "Refund claims are subject to mandatory review and centralized oversight."
+            "WBS-701 / 702 — Code E-1",
+            "Defining supercritical seal/nozzle uncertainties & conceptualizing design alternatives.",
+            "Included in <strong>Numerator</strong> and <strong>Denominator</strong>.",
+            "<strong>Qualified</strong> (assuming threshold met)."
           ]
         },
         {
           "cells": [
-            "Audit Techniques Guide (ATG)",
-            "Emphasizes consistency requirements and rigorous \"nexus\" proof."
+            "WBS-701 / 702 — Code E-2",
+            "Iterative CAD modeling, FEA/CFD simulations, and <a href=\"/us/glossary/prototype-development\">prototype flow-loop testing</a>.",
+            "Included in <strong>Numerator</strong> and <strong>Denominator</strong>.",
+            "<strong>Qualified</strong> (assuming threshold met)."
           ]
         },
         {
           "cells": [
-            "Information Document Requests (IDR)",
-            "Often used to demand contemporaneous records that the agent knows may not exist."
+            "WBS-701 / 702 — Code R-1",
+            "Final release shop drawings and routine dimensional checks on closure/nozzle.",
+            "Excluded from Numerator; Included in <strong>Denominator</strong>.",
+            "<strong>Qualified</strong> only if."
           ]
         },
         {
           "cells": [
-            "FAA 20214101F",
-            "Mandates five items of specificity for all research credit refund claims."
+            "WBS-703 — Code C-1",
+            "Structural skid frame welding, standard ASME piping, and routine weld X-rays.",
+            "<strong>Excluded</strong> from WBS-701/702 fraction via Shrinking-Back Rule.",
+            "<strong>Non-Qualified</strong> (Excluded routine production/QC)."
           ]
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "The Nexus Requirement and Project-Based Accounting"
+      "type": "paragraph",
+      "text": "At the close of the taxable year, Apex verifies compliance with the 80 percent \"substantially all\" threshold for WBS-701 and WBS-702 individually using the governing regulatory ratio:"
     },
     {
       "type": "paragraph",
-      "text": "In the wake of McFerrin, the concept of \"nexus\" has become the primary battleground in R&D audits. The IRS uses the term to describe the evidentiary link between individual qualified research expenses (QREs) and specific business components. While McFerrin allows for the estimation of the amount of expense, the taxpayer still bears the burden of establishing that the activity itself qualified under the four-part test."
-    },
-    {
-      "type": "subheading",
-      "text": "Evaluating Methods of Allocation"
-    },
-    {
-      "type": "paragraph",
-      "text": "Taxpayers traditionally use one of three methods to capture QREs: project-based, cost-center, or hybrid. The IRS strongly prefers the project-based approach, which requires contemporaneous accounting records tracking every hour of every engineer to a specific business component. However, the McFerrin decision provided institutional support for the \"hybrid\" approach, where costs are initially captured by department (cost center) and then allocated to projects through employee testimony and subject matter expert interviews."
-    },
-    {
-      "type": "paragraph",
-      "text": "This hybrid approach effectively uses employee interviews to approximate the \"qualified percentage\" of an employee’s time. As the McFerrin court noted, if it is clear that an engineer spent a significant portion of their time solving technical problems, it is unreasonable for the government to deny the credit entirely simply because they did not use a stopwatch to record their minutes."
+      "text": "By maintaining <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous daily time logs</a> segregated by sub-component and experimental activity phase, supported by CAD and FEA file-save timestamps and prototype shop traveler sign-offs, Apex eliminates any reliance on post-hoc oral estimates. Should an IRS examination or judicial proceeding ever challenge a subset of hours, Apex possesses the exact, principled evidentiary foundation required by the Fifth Circuit in <em>United States v. McFerrin</em> to compel allowance of the credit."
     },
     {
       "type": "heading",
-      "text": "State-Level Conformity and the Impact on Local Research Credits"
+      "text": "Conclusion and Strategic Practice Takeaways"
     },
     {
       "type": "paragraph",
-      "text": "The legal principles established in United States v. McFerrin have direct implications for state-level research credits, as many states conform their credit calculations to the federal standards set forth in Section 41."
-    },
-    {
-      "type": "subheading",
-      "text": "Indiana: A Focus on Contemporaneous Verification"
+      "text": "<em>United States v. McFerrin</em> remains a foundational pillar of U.S. R&D tax credit jurisprudence because it simultaneously rescued taxpayers from an impossibly high judicial standard of scientific discovery while exposing the fatal evidentiary flaws of retrospective, interview-based tax credit studies. On the doctrinal side, the Fifth Circuit cemented the principle that qualifying research under I.R.C. § 41 does not require pioneering breakthroughs that expand the common knowledge of skilled professionals in the field, nor does it require formal laboratory hypothesis testing; rather, activities aimed at eliminating capability, method, or design uncertainty regarding a business component through modeling, simulation, or systematic trial and error fully satisfy the statute under Treas. Reg. § 1.41-4. Furthermore, the Fifth Circuit confirmed that the <em>Cohan</em> rule applies to I.R.C. § 41, directing that trial courts should estimate allowable QREs when a taxpayer proves that qualified research activities occurred."
     },
     {
       "type": "paragraph",
-      "text": "The Indiana Department of Revenue (IDOR) frequently cites McFerrin in its Letters of Findings, particularly regarding the \"legislative grace\" doctrine. Indiana requires that taxpayers maintain and produce \"contemporaneous records sufficient to verify\" the credit. In cases where Indiana manufacturers have relied solely on retrospective studies without supporting technical documents, the IDOR has used the narrow construction principle of McFerrin to deny the state REC."
-    },
-    {
-      "type": "paragraph",
-      "text": "However, Indiana also follows the federal shift from the Discovery Test to the Uncertainty Test. Taxpayers in Indiana have successfully challenged audits that attempted to apply the older \"innovation\" threshold by pointing to the Fifth Circuit’s clarification that research only needs to resolve uncertainty for the taxpayer's own business."
-    },
-    {
-      "type": "subheading",
-      "text": "Arizona: Applying Cohan in State Disputes"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Arizona Department of Revenue (ADOR) has also integrated the McFerrin interpretation of the Cohan Rule. Arizona law allows for research credits as determined under Section 41, and ADOR acknowledges that estimates can be used to establish a credit once it has been proved that qualified research activities occurred. Arizona’s judicial bodies have noted that while the absence of records may lead the court to \"bear heavily\" on the taxpayer, a complete denial of the credit is inappropriate if a reasonable basis for estimation exists."
-    },
-    {
-      "type": "heading",
-      "text": "Comparative Jurisprudence: Little Sandy Coal and the 80% Threshold"
-    },
-    {
-      "type": "paragraph",
-      "text": "The flexibility established in McFerrin has been refined and, in some jurisdictions, restricted by subsequent decisions. The most significant modern counter-balance is Little Sandy Coal Co., Inc. v. Commissioner, decided by the Seventh Circuit in 2023."
-    },
-    {
-      "type": "subheading",
-      "text": "The Limits of the Cohan Rule"
-    },
-    {
-      "type": "paragraph",
-      "text": "In Little Sandy Coal, a shipbuilding company claimed research credits for the design and construction of \"first-in-class\" vessels. Similar to the taxpayer in McFerrin, Little Sandy Coal relied on employee interviews and \"arbitrary estimates\" to allocate time to experimentation. However, the Seventh Circuit affirmed the disallowance of the credit, finding that the taxpayer had failed to meet the \"substantially all\" threshold."
-    },
-    {
-      "type": "paragraph",
-      "text": "The \"substantially all\" test, codified in Treas. Reg. § 1.41-4(a)(6), requires that at least 80% of the activities for each business component constitute a \"process of experimentation\". The Seventh Circuit held that the taxpayer did not offer a \"principled way\" to determine what portion of activities met this threshold. Unlike the Fifth Circuit in McFerrin, the Seventh Circuit was unwilling to use the Cohan Rule to estimate a credit when the taxpayer could not prove that the primary nature of the activity was experimental."
-    },
-    {
-      "type": "subheading",
-      "text": "Implications for Pilot Models and Production Wages"
-    },
-    {
-      "type": "paragraph",
-      "text": "Little Sandy Coal also provided critical guidance on \"pilot models\"—representations of products built to resolve technical uncertainty. The court ruled that pilot model production expenses must be included in the denominator of the \"substantially all\" calculation. If the models are built to resolve uncertainty regarding the product's method or design, they may be included in the numerator. This case underscores that even under a more flexible substantiation regime, the taxpayer must still satisfy the rigorous statutory percentages required by Section 41."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Comparative Factor",
-        "McFerrin (5th Cir. 2009)",
-        "Little Sandy Coal (7th Cir. 2023)"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Judicial Philosophy",
-            "Permissive toward estimates.",
-            "Strict interpretation of \"substantially all\"."
-          ]
-        },
-        {
-          "cells": [
-            "Evidence Standard",
-            "Favors institutional knowledge.",
-            "Demands a \"principled way\" to allocate time."
-          ]
-        },
-        {
-          "cells": [
-            "Cohan Application",
-            "Mandatory estimation once R&D is proven.",
-            "Secondary to meeting statutory thresholds."
-          ]
-        },
-        {
-          "cells": [
-            "Core Issue",
-            "Definition of R&D and estimation.",
-            "The 80% threshold and pilot model wages."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Modern Administrative Evolution: Form 6765 and FAA 20214101F"
-    },
-    {
-      "type": "paragraph",
-      "text": "The legacy of McFerrin continues to shape the IRS’s regulatory output, as the agency seeks to standardize the substantiation requirements that were at the heart of the litigation. The most significant recent development is the release of Field Attorney Advice (FAA) 20214101F, which established strict \"specificity requirements\" for all research credit refund claims postmarked after January 10, 2022."
-    },
-    {
-      "type": "subheading",
-      "text": "The Five Items of Substantiation"
-    },
-    {
-      "type": "paragraph",
-      "text": "Under the FAA 20214101F standards, a taxpayer filing an amended return for a research credit must provide five specific items of information:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Identify all business components to which the Section 41 research credit claim relates for the year.",
-        "For each business component, identify all research activities performed.",
-        "Identify all individuals who performed each research activity.",
-        "Identify all the information each individual sought to discover.",
-        "Provide the total qualified employee wages, supply expenses, and contract research expenses."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "This requirement effectively institutionalizes the project-based accounting that the IRS has long sought. While taxpayers initially have a 45-day \"grace period\" to perfect deficient claims, the failure to provide this data upfront can result in the summary rejection of the refund claim. This is a direct administrative counter-measure to the McFerrin decision, aimed at forcing taxpayers to do the work of documentation before filing, rather than relying on retrospective studies and the Cohan Rule during an audit."
-    },
-    {
-      "type": "subheading",
-      "text": "Revisions to Form 6765 (2024-2025)"
-    },
-    {
-      "type": "paragraph",
-      "text": "The IRS has also significantly revised Form 6765, Credit for Increasing Research Activities, to include \"Section G,\" which mirrors the specificity requirements of FAA 20214101F. Following advocacy from the AICPA, the IRS adopted several simplification measures in the final 2024/2025 version of the form, including:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "The 80/50 Rule: Taxpayers are only required to report business components that account for at least 80% of total QREs, and this is capped at a maximum of 50 business components.",
-        "Topic 730 Alignment: Taxpayers who expense R&D costs on their financial statements under FASB ASC Topic 730 can align their tax reporting with their financial statement amounts, simplifying the reconciliation process for large corporations.",
-        "Simplified Terminology: Replacing complex descriptive requirements with a more straightforward \"business component name\" field."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "These changes represent a modernization of the substantiation process, moving away from the \"all-or-nothing\" litigation of the McFerrin era toward a more structured, risk-based reporting system."
-    },
-    {
-      "type": "heading",
-      "text": "Mathematical Context: Incremental Incentives and the Base Amount"
-    },
-    {
-      "type": "paragraph",
-      "text": "The financial benefit of the research credit is calculated as an incremental incentive, meaning it only rewards spending above a certain historical threshold or \"base amount.\" The traditional credit calculation is as follows:"
-    },
-    {
-      "type": "paragraph",
-      "text": "The \"Base Amount\" is generally calculated as the product of the taxpayer’s \"fixed-base percentage\" and the average annual gross receipts for the four preceding years. However, the base amount cannot be less than 50% of the current year’s QREs."
-    },
-    {
-      "type": "paragraph",
-      "text": "A major design concern cited by the GAO and other policy experts is that many taxpayers calculate their base amount using research spending data dating back to the 1984–1988 period. For companies like McFerrin’s, which may have changed ownership or production methods significantly since the 1980s, documenting this historical spending is an immense burden. The McFerrin instruction to use reasonable estimates is particularly vital here; if a taxpayer cannot reasonably estimate their base period spending, they may be unable to calculate a valid credit, even if their current research is perfectly documented."
-    },
-    {
-      "type": "heading",
-      "text": "Strategic Implications for Future R&D Tax Credit Claims"
-    },
-    {
-      "type": "paragraph",
-      "text": "The synthesis of McFerrin, Union Carbide, and Little Sandy Coal provides a clear roadmap for tax professionals and businesses seeking to claim the research credit. The following strategies represent the modern best practices for substantiation in the current regulatory environment."
-    },
-    {
-      "type": "subheading",
-      "text": "Leveraging the Hierarchy of Evidence"
-    },
-    {
-      "type": "paragraph",
-      "text": "While oral testimony is legally sufficient under McFerrin, the hierarchy of evidence in an R&D audit clearly favors a multi-layered approach. Taxpayers should aim to provide:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Contemporaneous Technical Documentation: Lab notebooks, schematics, test results, and emails that prove a process of experimentation occurred.",
-        "Narrative Reports: Summaries for each business component that explicitly articulate the technical uncertainty being resolved.",
-        "Corroborating Testimony: Structured interviews with subject matter experts that align with the provided documents.",
-        "Principled Estimations: Allocation methodologies that are transparent, consistent, and grounded in the institutional knowledge of the researchers."
-      ]
-    },
-    {
-      "type": "subheading",
-      "text": "Navigating the \"Shrinking-Back\" Rule"
-    },
-    {
-      "type": "paragraph",
-      "text": "If an entire project (business component) fails to meet the four-part test—perhaps because a large portion of the work was routine manufacturing—taxpayers should apply the \"shrinking-back\" rule under Treas. Reg. § 1.41-4(b)(2). This allows the taxpayer to apply the tests to a discrete sub-component or process within the larger project. McFerrin’s flexible approach to estimation is critical here, as it allows for the allocation of wages to just those specific experimental phases of a larger production run."
-    },
-    {
-      "type": "subheading",
-      "text": "Management of External Consultants"
-    },
-    {
-      "type": "paragraph",
-      "text": "The IRS remains highly critical of \"study-driven\" claims that lack direct taxpayer involvement. To avoid the pitfalls seen in the early stages of McFerrin, businesses should ensure that any outside consultants work closely with internal technical teams to capture contemporaneous data rather than relying solely on retrospective interviews. The value of the consultant lies in their ability to translate the company's technical work into the language of Section 41, not in manufacturing a credit where no technical uncertainty existed."
-    },
-    {
-      "type": "heading",
-      "text": "Conclusion: The Enduring Impact of United States v. McFerrin"
-    },
-    {
-      "type": "paragraph",
-      "text": "The case of United States v. McFerrin remains one of the most important judicial checks on the IRS's administration of the research tax credit. By correcting the lower court’s reliance on the outdated \"Discovery Test,\" the Fifth Circuit ensured that the credit remains accessible to the broad spectrum of American manufacturers and engineers who engage in incremental, practical innovation. Furthermore, by mandating the application of the Cohan Rule, the court established that tax administration must reflect the reality of business operations, where perfect recordkeeping is often a secondary concern to the work of discovery itself."
-    },
-    {
-      "type": "paragraph",
-      "text": "However, the subsequent decade of IRS administrative updates, including FAA 20214101F and the expansion of Form 6765, demonstrates that the government has not abandoned its desire for rigid documentation. The modern taxpayer must navigate a landscape where judicial flexibility (via McFerrin) exists alongside heightened administrative specificity requirements. The primary lesson for future R&D tax credit applications is that while \"fair estimates\" can save a legitimate claim from disallowance, the most defensible positions are those that provide a clear, principled, and documented \"nexus\" between innovation and expense. As domestic research and development remains a cornerstone of U.S. economic strategy, the legal framework established by McFerrin will continue to serve as the foundational standard for balancing the goals of tax compliance and technological progress."
+      "text": "However, practitioners and corporate tax directors must read <em>McFerrin</em> alongside its subsequent judicial interpretation in <em>Shami v. Commissioner</em>, <em>Trinity Industries v. United States</em>, and <em>Little Sandy Coal Co. v. Commissioner</em>. Those decisions demonstrate that <em>McFerrin</em>’s endorsement of the <em>Cohan</em> rule is not a license to dispense with <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous recordkeeping</a> under I.R.C. § 6001 and Treas. Reg. § 1.41-4(d). Trial courts are under no obligation to credit post-hoc oral time reconstructions fabricated years after the tax year, and they will refuse to apply <em>Cohan</em> altogether if the taxpayer fails to establish a rational, non-speculative evidentiary foundation proving both the performance of qualified services and compliance with the 80 percent \"substantially all\" process-of-experimentation threshold. By proactively structuring R&D projects into granular sub-components under the shrinking-back rule, documenting baseline uncertainties and three-step experimental evaluations in real time, insulating executive compensation from profit-sharing distortions under I.R.C. § 174(e) and Treas. Reg. § 1.41-2(c)(2), and capturing objective time and metadata logs, U.S. taxpayers can satisfy the strict scrutiny of the IRS and federal courts."
     }
-  ]
+  ],
+  "metaDescription": "United States v. McFerrin, 570 F.3d 672 (5th Cir. 2009), is a Fifth Circuit R&D credit ruling for U.S. taxpayers claiming credits under I.R.C. § 41."
 }

@@ -1,0 +1,623 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Third-Party Subset",
+  "description": "The third-party subset of dual-function software, used only to interact with third parties, is exempt from the high threshold of innovation test.",
+  "summary": "The third-party subset is the part of dual-function software that only lets a taxpayer interact with third parties or lets third parties initiate functions or review data. Under 26 CFR § 1.41-4(c)(6)(vi)(B), this subset overcomes the internal use software presumption and qualifies for the R&D tax credit under the four-part test, exempt from the High Threshold of Innovation test.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The third-party subset is the part of dual-function software that only lets a taxpayer interact with third parties or lets third parties initiate functions or review data. Under 26 CFR § 1.41-4(c)(6)(vi)(B), this subset overcomes the internal use software presumption and qualifies for the R&D tax credit under the four-part test, exempt from the High Threshold of Innovation test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Third-Party Subset is a specialized regulatory carve-out codified under Treasury Regulation 26 CFR § 1.41-4(c)(6)(vi)(B) (promulgated in Treasury Decision 9786, 81 FR 68299, effective October 4, 2016, and applicable for taxable years beginning on or after October 4, 2016) that governs how taxpayers claim the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Internal Revenue Code Section 41</a> (IRC § 41) Research and Development (R&D) tax credit for Dual-Function Software (DFS). Under IRC § 41(d)(4)(E) and 26 CFR § 1.41-4(c)(6)(iii), software developed by (or for the benefit of) the taxpayer primarily for internal use in general and administrative (G&A) functions—<a href=\"/us/glossary/internal-use-software-ius\">Internal Use Software (IUS)</a>—is excluded from qualified research unless it satisfies a stringent three-prong High Threshold of Innovation (HTI) test in addition to the standard four-part test of IRC § 41(d)(1). Because modern enterprise software architectures frequently integrate internal back-office G&A modules with external customer, supplier, or vendor interfaces, 26 CFR § 1.41-4(c)(6)(vi)(A) establishes a default regulatory presumption that all such Dual-Function Software is developed primarily for the taxpayer's internal use. However, to the extent a taxpayer can isolate a Third-Party Subset—defined strictly as the subset of software elements of dual-function software that only enables the taxpayer to interact with third parties or allows third parties to initiate functions or review data on the taxpayer's system—that subset overcomes the IUS presumption, is treated as non-IUS under 26 CFR § 1.41-4(c)(6)(iv)(B), and qualifies for the R&D tax credit under the standard IRC § 41(d)(1) <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> without having to satisfy the HTI test."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Terminological Conflation with Outsourced \"Funded Research\" (26 CFR § 1.41-4A(d)):</strong> In federal tax law, \"third party subset\" is exclusively a term of art under 26 CFR § 1.41-4(c)(6)(vi)(B) for external-facing elements of dual-function software; research performed by or for outside contractors is governed separately by the <a href=\"/us/glossary/funded-research\">Funded Research exclusion</a> (IRC § 41(d)(4)(H), 26 CFR § 1.41-4(c)(9), and 26 CFR § 1.41-4A(d)) and the Contract Research Expense rules (IRC § 41(b)(3) and 26 CFR § 1.41-2(e)).",
+        "<strong>Omission of the Mandatory 10% Third-Party Use Threshold for the 25% Safe Harbor:</strong> To claim the 25% safe harbor, the taxpayer must determine at the beginning of software development, using an objective, reasonable method within the taxpayer's industry (such as processing time, amount of data transfer, or number of software user interface screens), that third-party use of the dual-function software or dual-function subset (or use by the taxpayer to interact with third parties) is reasonably anticipated to constitute at least 10 percent of total use.",
+        "<strong>Misstatement of the Interdependence Between TPS Identification and the 25% Safe Harbor:</strong> In fact, 26 CFR § 1.41-4(c)(6)(vi)(C), 26 CFR § 1.41-4(c)(6)(viii) Example 12, and the IRS Instructions for Form 6765 explicitly establish that a taxpayer who attempts to identify a Third-Party Subset but is unable to identify one may still claim the 25% safe harbor on the entire Dual-Function Software, provided the research activities satisfy IRC § 41(d) (without regard to IRC § 41(d)(4)(E)) and anticipated third-party use is at least 10%.",
+        "<strong>Relationship Between the HTI Test and the Four-Part Test:</strong> Under 26 CFR § 1.41-4(c)(6)(i) and (vii), internal use software must satisfy the three-prong High Threshold of Innovation (HTI) test (Innovative, Significant Economic Risk, and Not Commercially Available) in addition to—not in place of—the four general requirements of IRC § 41(d)(1).",
+        "<strong>In-House QREs for Personal Property Leasing:</strong> Under IRC § 41(b)(2)(A)(iii) and 26 CFR § 1.41-2(b)(4), general rental or lease costs of personal property have been excluded from QREs for taxable years beginning after December 31, 1985; only amounts paid or incurred to another person for the right to use off-premises, non-primary-user (time-sharing) computers in the conduct of qualified research qualify."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "I. Legislative Mandate and Statutory Architecture of IRC Section 41 for Software and Third-Party Subset Claims"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Enactment, Incremental Structure, and Permanence"
+    },
+    {
+      "type": "paragraph",
+      "text": "Congress first enacted the federal Research and Development (R&D) tax credit in Section 221 of the Economic Recovery Tax Act of 1981 (ERTA, Pub. L. 97-34), codifying it as Section 44F of the Internal Revenue Code of 1954 to counter declining domestic research expenditures and overcome corporate reluctance to absorb the substantial upfront staffing, engineering, and supply costs required for experimental research programs. Section 471(c) of the Tax Reform Act of 1984 redesignated Section 44F as Section 30, and Section 231 of the Tax Reform Act of 1986 (Pub. L. 99-514) redesignated the provision as IRC Section 41, integrated it into the General Business Credit under IRC § 38 (subject to the carryback and <a href=\"/us/glossary/research-credit-carryforward\">carryforward rules</a> of IRC § 39(a)), and narrowed the statutory definition of \"qualified research\" to ensure the credit targeted genuine technological innovation. After operating for more than three decades as a temporary tax incentive subject to periodic congressional extensions and a statutory lapse between July 1, 1995, and June 30, 1996, Section 41 was permanently extended by Section 121 of the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes Act of 2015</a> (PATH Act, Pub. L. 114-113, Div. Q)."
+    },
+    {
+      "type": "paragraph",
+      "text": "By statutory design, the Section 41 credit is a nonrefundable, incremental <a href=\"/us/glossary/general-business-credit\">general business tax credit</a> structured to incentivize businesses already conducting technical research to expand their investment above historical baselines. Under 26 U.S.C. § 41(a), the regular research credit determined for the taxable year equals the sum of three statutory components: first, under IRC § 41(a)(1), 20 percent of the excess (if any) of the taxpayer's Qualified Research Expenses (QREs) for the taxable year over the statutory base amount; second, under IRC § 41(a)(2), 20 percent of the <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">basic research payments</a> determined under IRC § 41(e)(1)(A) paid to qualified educational institutions or scientific research organizations; and third, under IRC § 41(a)(3), 20 percent of the amounts paid or incurred by the taxpayer in carrying on any trade or business of the taxpayer during the taxable year (including as contributions) to an energy research consortium for energy research. In addition, under <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC § 280C(c)(1)</a>, a taxpayer claiming the Section 41 credit must reduce any otherwise allowable deduction for domestic research and experimental expenditures under IRC § 174A (or reduce the amount chargeable to capital account under IRC § 280C(c)(2)) by the full amount of the research credit determined for the taxable year, unless the taxpayer makes a timely annual election on an original return (including extensions) to claim the reduced research credit under IRC § 280C(c)(3)."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Qualified Research Expenses (QREs): In-House vs. Contract Research"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(b)(1) and 26 CFR § 1.41-2(a)(1), a taxpayer's Qualified Research Expenses equal the sum of \"in-house research expenses\" (IRC § 41(b)(1)(A)) and \"contract research expenses\" (IRC § 41(b)(1)(B)) paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer (with a special startup venture exception for in-house research expenses under <a href=\"/us/legislation/26-usc-41b4-startup-ventures-research-expenses\">IRC § 41(b)(4)</a> where the principal purpose is to use the research results in the active conduct of a future trade or business). Any expenditure not explicitly enumerated in <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC § 41(b)</a> cannot be claimed as a QRE. Consequently, when a taxpayer isolates a Third-Party Subset under 26 CFR § 1.41-4(c)(6)(vi)(B) or applies the 25% safe harbor under 26 CFR § 1.41-4(c)(6)(vi)(C), only expenditures fitting these exact statutory QRE categories may be included in the credit computation."
+    },
+    {
+      "type": "subheading",
+      "text": "1. In-House Research Expenses and the Post-1985 Personal Property Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">26 U.S.C. § 41(b)(2)(A)</a>, in-house research expenses consist strictly of three statutory categories: qualified wages, supplies, and payments for the right to use computers. The first category, <strong>Qualified Wages (IRC § 41(b)(2)(A)(i) & (D))</strong>, encompasses taxable wages as defined in IRC § 3401(a) (reported on Form W-2, including taxable bonuses and stock option spreads if the work performed in the grant year constituted qualified services, or earned income under IRC § 401(c)(2) for self-employed individuals, but excluding non-taxable fringe benefits and any wages taken into account in determining the IRC § 51(a) work opportunity credit) paid or incurred to an employee for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" performed by that employee. Under IRC § 41(b)(2)(B) and 26 CFR § 1.41-2(c), qualified services comprise three specific activities: (1) engaging in the actual conduct of qualified research; (2) engaging in the immediate, first-line <a href=\"/us/glossary/direct-supervision\">direct supervision</a> of qualified research (excluding higher-level executives or managers to whom first-line supervisors report); or (3) engaging in the direct support of qualified research (such as compiling research data, cleaning laboratory equipment, or typing laboratory reports, as illustrated in 26 CFR § 1.41-2(e)(5) Example 6, but excluding general and administrative services such as payroll, financial accounting, human resources, or general janitorial work, as illustrated in Example 7). Under the statutory <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" rule</a> in IRC § 41(b)(2)(B) (flush language) and 26 CFR § 1.41-2(d)(2), if at least 80 percent of the total services performed by an individual for the taxpayer during the taxable year consist of qualified services, 100 percent of that individual's annual wages for the taxpayer qualify as QREs. If less than 80 percent of the employee's time is spent on qualified services, only the pro-rata ratio of total time actually spent on qualified services to total time worked may be included."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second category, <strong>Supplies (IRC § 41(b)(2)(A)(ii) & (C))</strong>, consists of amounts paid or incurred for supplies used in the conduct of qualified research. Under IRC § 41(b)(2)(C), \"supplies\" mean any tangible property other than (i) land or improvements to land, and (ii) property of a character subject to the allowance for depreciation. Intangible costs, general and administrative overhead, software license fees, travel, meals, telephone expenses, professional dues, royalties, and asset leasing costs do not qualify as supply expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "While pre-1986 law under former IRC § 44F/§ 30 permitted certain personal property rental costs, the Tax Reform Act of 1986 amended IRC § 41(b)(2)(A)(iii) to restrict this category exclusively to \"under regulations prescribed by the Secretary, any amount paid or incurred to another person for the right to use computers in the conduct of qualified research\" (provided the taxpayer or an <a href=\"/us/glossary/aggregation-rules\">aggregated group member</a> under IRC § 41(f)(1) does not receive or accrue any amount from another person for the right to use substantially identical personal property). Treasury Regulation 26 CFR § 1.41-2(b)(4) explicitly mandates that for taxable years beginning after December 31, 1985, amounts paid or incurred for the use of personal property are not qualified research expenses, except for any amount paid or incurred to another person for the right to use (time-sharing) computers in the conduct of qualified research—where the computer is owned and operated by someone other than the taxpayer, located off the taxpayer's premises, and the taxpayer is not the primary user of the computer."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Contract Research Expenses and the 65% Statutory Limitation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">26 U.S.C. § 41(b)(3)(A)</a> and 26 CFR § 1.41-2(e)(1), \"contract research expenses\" are generally limited to 65 percent of any amount paid or incurred by the taxpayer in carrying on a trade or business to any person (other than an employee of the taxpayer) for the performance on behalf of the taxpayer of (i) qualified research as defined in § 1.41-4 or § 1.41-4A, or (ii) services which, if performed by employees of the taxpayer, would constitute qualified services within the meaning of IRC § 41(b)(2)(B). Where a contract calls for both qualified research/services and non-qualified services, only <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65 percent</a> of the portion attributable to qualified research or qualified services is eligible as a contract research expense. By statute, the 65 percent inclusion rate increases to 75 percent for amounts paid or incurred to a qualified research consortium (a tax-exempt IRC § 501(c)(3) or § 501(c)(6) organization organized and operated primarily to conduct scientific research that is not a private foundation, conducting research on behalf of the taxpayer and one or more unrelated taxpayers under IRC § 41(b)(3)(C)), and to 100 percent for amounts paid to an eligible small business (500 or fewer employees), institution of higher education (as defined in IRC § 3304(f)), or federal laboratory for qualified energy research under IRC § 41(b)(3)(D). Under IRC § 41(b)(3)(B) and 26 CFR § 1.41-2(e)(4), if any contract research expense paid or incurred during a taxable year is attributable to qualified research to be conducted after the close of that taxable year (prepaid amounts), the expense is treated as paid or incurred only during the period in which the qualified research is actually conducted (as illustrated in 26 CFR § 1.41-2(e)(5) Example 2)."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Prior Agreement (26 CFR § 1.41-2(e)(2)(i)):</strong> The agreement is entered into prior to the performance of the qualified research;",
+        "<strong>Performed on Behalf of the Taxpayer (26 CFR § 1.41-2(e)(2)(ii) and (e)(3)):</strong> The agreement provides that the research be performed on behalf of the taxpayer, meaning the taxpayer has a right to the research results (notwithstanding the fact that the taxpayer does not have exclusive rights to the results); and",
+        "<strong>Taxpayer Bears the <a href=\"/us/glossary/financial-risk-test\">Economic Risk of Failure</a> (26 CFR § 1.41-2(e)(2)(iii)):</strong> The agreement requires the taxpayer to bear the expense even if the research is not successful. Under the flush language of 26 CFR § 1.41-2(e)(2), if an expense is paid or incurred pursuant to an agreement under which payment is contingent on the success of the research, that expense is considered paid for the product or result rather than for the performance of the research, and the contingent payment (or contingent portion of the payment) is disqualified from the hiring taxpayer's contract research expenses."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "II. The Internal Use Software (IUS) Framework Governing the Third-Party Subset"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Statutory Exclusion and Regulatory Definition of Internal Use Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "While IRC § 41 broadly incentivizes technological experimentation across manufacturing, engineering, and commercial software development, Congress enacted an explicit statutory restriction for internal software in <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)(E)</a>: except to the extent provided by Treasury regulations, any research with respect to computer software that is developed by (or for the benefit of) the taxpayer primarily for internal use by the taxpayer is excluded from the definition of qualified research. Defining the exact legal boundary between routine corporate IT implementation or back-office maintenance and genuine technological innovation in enterprise software has historically been one of the most contentious areas of R&D tax credit administration, prompting rulemaking efforts beginning with the 1997 proposed regulations (REG-209494-90), T.D. 8930 in 2001, the 2015 proposed regulations (REG-153656-03, 80 FR 2624, January 20, 2015), and culminating in the 2016 final regulations."
+    },
+    {
+      "type": "paragraph",
+      "text": "On October 4, 2016, the Department of the Treasury and the Internal Revenue Service published final regulations in Treasury Decision 9786 (81 FR 68299, codified at 26 CFR § 1.41-4(c)(6)), effective October 4, 2016, and applicable for taxable years beginning on or after October 4, 2016. Under 26 CFR § 1.41-4(c)(6)(iii)(A) and the IRS <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a> (Rev. January 2025 / Rev. December 2025), except as otherwise provided in paragraph (c)(6)(vi) for dual-function software, software is developed by (or for the benefit of) the taxpayer primarily for the taxpayer's internal use if the software is developed for use in general and administrative (G&A) functions that facilitate or support the conduct of the taxpayer's trade or business. Furthermore, software that the taxpayer develops primarily for a related party's internal use—where a related party is any corporation, trade or business, or other person treated as a single taxpayer with the taxpayer pursuant to <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">IRC § 41(f)</a>—is also considered internal use software."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(c)(6)(iii)(B)(1)–(3), <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative functions</a> are strictly limited to three specific back-office categories:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Financial Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(1)):</strong> Functions that involve the financial management of the taxpayer and the supporting recordkeeping, including, but not limited to, accounts payable, accounts receivable, inventory management, budgeting, cash management, cost accounting, disbursements, economic analysis and forecasting, financial reporting, finance, fixed asset accounting, general ledger bookkeeping, internal audit, management accounting, risk management, strategic business planning, and tax.",
+        "<strong>Human Resources Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(2)):</strong> Functions that manage the taxpayer's workforce, including, but not limited to, recruiting, hiring, training, assigning personnel, and maintaining personnel records, payroll, and benefits.",
+        "<strong>Support Services Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(3)):</strong> Other back-office functions that support the day-to-day operations of the taxpayer regardless of industry, including, but not limited to, data processing, facility services (for example, grounds keeping, housekeeping, janitorial, and logistics), graphic services, marketing, legal services, government compliance services, printing and publication services, and security services (for example, video surveillance and physical asset protection from fire and theft)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, under 26 CFR § 1.41-4(c)(6)(v) (Time and manner of determination), whether software is developed primarily for internal use depends on the intent of the taxpayer and the totality of the facts and circumstances at the beginning of the software development. If a taxpayer originally develops software primarily for internal G&A use (such as internal facilities services software to coordinate office moves and track maintenance requests across branch locations) and several years later develops technical and functional improvements with the intent to hold the improved software to be commercially sold, leased, licensed, or otherwise marketed to third parties—or to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system—those subsequent improvements are considered separate from the existing software and are not considered developed primarily for internal use (26 CFR § 1.41-4(c)(6)(v) and 26 CFR § 1.41-4(c)(6)(viii) Example 10). Conversely, if software was originally developed to be sold, leased, licensed, or marketed to third parties (or for third-party interaction) and is later improved by the taxpayer with the intent to use those improvements in G&A functions, the subsequent G&A improvements are evaluated separately and are considered developed primarily for internal use."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Software Exempt from IUS Treatment (Non-IUS and Excepted Categories)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Software that avoids classification as <a href=\"/us/faq/internal-use-software-rd-tax-credit\">Internal Use Software</a> (or is statutorily or regulatorily excepted from IUS treatment) is exempt from the High Threshold of Innovation (HTI) test and is evaluated solely under the standard four-part test of IRC § 41(d)(1). Under IRC § 41(d)(4)(E), 26 CFR § 1.41-4(c)(6)(ii)–(iv), and Section G (Line 49(e)) of the IRS Form 6765 Instructions, software is not subject to the HTI test if it falls into either the Non-IUS categories of 26 CFR § 1.41-4(c)(6)(iv) or the Excepted categories of 26 CFR § 1.41-4(c)(6)(ii)."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, under <strong>26 CFR § 1.41-4(c)(6)(iv)(A) (Form 6765 Category Non-IUS)</strong>, software is not developed primarily for internal use if it is developed to be commercially sold, leased, licensed, or otherwise marketed to third parties. In the T.D. 9786 Preamble (81 FR 68299) and 26 CFR § 1.41-4(c)(6)(viii) Example 8 and Example 9, the Treasury Department and the IRS confirmed that this category encompasses hosted software (Software-as-a-Service [SaaS]) and web or mobile applications where third-party users access functionality on the taxpayer's system (such as online banking, web-based insurance quoting, or free photo-editing software monetized through advertising) even without transferring a physical or downloaded copy of the software to the customer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, under <strong>26 CFR § 1.41-4(c)(6)(iv)(B) (Form 6765 Category Non-IUS)</strong>, software is not developed primarily for internal use if it is developed to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system, provided it is not also developed for use in G&A functions. This category forms the direct conceptual and legal foundation for the Third-Party Subset carve-out within Dual-Function Software under 26 CFR § 1.41-4(c)(6)(vi)(B)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, under <strong>26 CFR § 1.41-4(c)(6)(iii)–(iv) (Form 6765 Category Non-IUS)</strong>, software developed to be used internally by the taxpayer in core operational functions that are not general and administrative (G&A) functions under 26 CFR § 1.41-4(c)(6)(iii)(B) is treated as Non-IUS."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth, under <strong>IRC § 41(d)(4)(E) and 26 CFR § 1.41-4(c)(6)(ii)(A)–(C) (Form 6765 Category Excepted from IUS Treatment)</strong>, even if software is developed primarily for internal use, 26 CFR § 1.41-4(c)(6)(ii) explicitly renders the HTI test inapplicable to three classes of software: (A) software developed by (or for the benefit of) the taxpayer primarily for internal use for use in an activity that constitutes qualified research (other than the development of the internal use software itself); (B) software developed primarily for internal use in a production process to which the requirements of IRC § 41(d)(1) are met; and (C) a new or improved <a href=\"/us/glossary/hardware-software-integration\">package of software and hardware</a> developed together by the taxpayer as a single product (or costs to modify an acquired software and hardware package), of which the software is an integral part, that is used directly by the taxpayer in providing services in its trade or business (in which case credit eligibility is determined by examining the combined hardware-software product as a single product, as illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 1 for telecommunications switching hardware and software)."
+    },
+    {
+      "type": "subheading",
+      "text": "C. The Standard Four-Part Test vs. The High Threshold of Innovation (HTI) Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 26 CFR § 1.41-4(c)(6)(vii) and the IRS Instructions for Form 6765, the official regulatory name is the <strong><a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation (HTI) test</a></strong>, and its second prong is <strong>Significant Economic Risk</strong> (which specifically requires substantial uncertainty arising from technical risk). That is legally erroneous: under 26 CFR § 1.41-4(c)(6)(i) and T.D. 9786, Internal Use Software must satisfy <strong>both</strong> the general four-part test of IRC § 41(d)(1) <strong>and</strong> the three-prong High Threshold of Innovation test of 26 CFR § 1.41-4(c)(6)(vii)."
+    },
+    {
+      "type": "subheading",
+      "text": "1. The Standard Four-Part Test (IRC § 41(d)(1) and 26 CFR § 1.41-4(a))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 41(d)(2)(A) and IRS Chief Counsel Field Attorney Advice 20212501F, the four tests of <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)(1)</a> must be applied separately to each discrete business component of the taxpayer. If the overall business component fails to meet all requirements, 26 CFR § 1.41-4(b)(2) mandates applying the \"shrinking-back\" rule iteratively to the most significant subset of elements of the product, process, computer software, technique, formula, or invention until either a subset of elements satisfying the requirements is reached or the most basic element is reached and fails the test. The four tests require:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Section 174 / Section 174A Test (IRC § 41(d)(1)(A) & 26 CFR § 1.41-4(a)(2)(i) & (a)(3)):</strong> The expenditures must be eligible to be treated as domestic research or experimental expenditures under IRC § 174 / § 174A (following the enactment of the One Big Beautiful Bill Act on July 4, 2025, which enacted IRC § 174A to permanently restore immediate expensing for domestic R&E expenditures while retaining 15-year amortization for foreign R&E under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a>). This requires that the claimed expenditures are incurred in connection with the taxpayer's trade or business, are reasonable in amount under the circumstances, and represent R&D costs in the experimental or laboratory sense intended to discover information that would eliminate uncertainty concerning the capability or method for developing or improving a business component, or the appropriate design of that business component (26 CFR § 1.174-2(a)(1) and 26 CFR § 1.41-4(a)(3)).",
+        "<strong>Technological in Nature Test (IRC § 41(d)(1)(B)(i) & 26 CFR § 1.41-4(a)(4)):</strong> The research must be undertaken for the purpose of discovering information that is technological in nature—meaning the process of experimentation used to discover such information fundamentally relies on principles of the physical or biological sciences, engineering, or computer science. Under Treasury Decision 9104 (69 FR 22, effective January 2, 2004) and 26 CFR § 1.41-4(a)(3)(ii), a taxpayer may employ existing technologies and rely on existing scientific or computer science principles, and need not seek information that exceeds, expands, or refines the common knowledge of skilled professionals in the field, nor must the research actually succeed.",
+        "<strong>Business Component Test (IRC § 41(d)(1)(B)(ii) & <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(B)</a>):</strong> The application of the discovered information must be intended to be useful in the development of a new or improved business component of the taxpayer—defined in IRC § 41(d)(2)(B) as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer.",
+        "<strong>Process of Experimentation Test (IRC § 41(d)(1)(C) & 26 CFR § 1.41-4(a)(5)–(6)):</strong> Substantially all of the research activities with respect to the business component must constitute elements of a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> for a qualified purpose. Under 26 CFR § 1.41-4(a)(6), the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" requirement</a> is satisfied only if 80 percent or more of a taxpayer's research activities for that business component—measured on a cost or other consistently applied reasonable basis (without regard to the 80% employee wage rule of § 1.41-2(d)(2))—constitute elements of a process of experimentation for a qualified purpose (with the remaining 20 percent or less also qualifying if they satisfy IRC § 41(d)(1)(A) and are not excluded under IRC § 41(d)(4)). A process of experimentation requires three core operational steps: (i) identifying the <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> regarding capability, method, or appropriate design; (ii) identifying one or more alternatives intended to eliminate that uncertainty; and (iii) identifying and conducting a process of evaluating those alternatives (through modeling, simulation, or a systematic trial-and-error methodology). Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC § 41(d)(3)(A)–(B)</a>, a qualified purpose relates to a new or improved function, performance, reliability, or quality of the business component, and explicitly excludes any research relating to style, taste, cosmetic, or seasonal design factors. Standard <a href=\"/us/glossary/erp-implementation-qualification\">ERP implementations</a> involving evaluating business needs to configure off-the-shelf software, reengineering business processes, or transferring data via routine one-to-one mapping fail the process of experimentation test (26 CFR § 1.41-4(a)(8) Examples 9 and 10 and 26 CFR § 1.41-4(c)(6)(viii))."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2. The Three-Prong High Threshold of Innovation (HTI) Test (26 CFR § 1.41-4(c)(6)(vii))"
+    },
+    {
+      "type": "paragraph",
+      "text": "When software is classified as Internal Use Software (and is neither carved out as a Third-Party Subset nor covered by the 25% safe harbor), the taxpayer must establish all three of the following requirements under 26 CFR § 1.41-4(c)(6)(vii)(A)–(C) in addition to satisfying the standard Four-Part Test:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Innovative (26 CFR § 1.41-4(c)(6)(vii)(A)(1) & (B)):</strong> The software is innovative in that the software would result in a reduction in cost or improvement in speed or other measurable improvement, that is substantial and economically significant, if the development is or would have been successful. This is a measurable, objective standard and does not require a determination of the unique or novel nature of the software across the industry, nor does it require ultimate developmental success, provided the intended measurable improvement can be substantiated at the outset. The implementation of existing technology by itself is not evidence of innovation, though using existing technology in new ways can be evidence of innovation if it resolves substantial uncertainty under paragraph (c)(6)(vii)(C).",
+        "<strong>Significant Economic Risk (26 CFR § 1.41-4(c)(6)(vii)(A)(2) & (C)):</strong> The software development involves <a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a> in that the taxpayer commits substantial resources to the development and there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period. Crucially, 26 CFR § 1.41-4(c)(6)(vii)(C) specifies that the term \"substantial uncertainty\" for purposes of the HTI test requires a <strong>higher level of uncertainty and technical risk</strong> than the standard capability, method, or design uncertainty required for business components that are not internal use software. While the T.D. 9786 Preamble (81 FR at 68304) and 26 CFR § 1.41-4(c)(6)(vii)(C) recognize that design uncertainty can theoretically rise to substantial uncertainty in rare cases, the Treasury Department and the IRS expressly noted that IUS research activities involving only uncertainty related to appropriate design—and not fundamental capability or methodology—will rarely qualify as having substantial uncertainty for purposes of the HTI test. As illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 18 (where a multinational manufacturer integrates a new ERP system with a legacy G&A system), mere uncertainty regarding the appropriate design of interface software—when the taxpayer knows at the outset that given a reasonable period of experimentation it will determine the appropriate design and recover its committed resources—fails the Significant Economic Risk prong and disqualifies the entire IUS project.",
+        "<strong><a href=\"/us/glossary/commercial-availability-standard\">Not Commercially Available</a> (26 CFR § 1.41-4(c)(6)(vii)(A)(3)):</strong> The software is not commercially available for use by the taxpayer, in that the software cannot be purchased, leased, or licensed and used for the intended purpose without modifications that would satisfy the innovation requirement of paragraph (c)(6)(vii)(A)(1) and the significant economic risk requirement of paragraph (c)(6)(vii)(A)(2)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "III. Dual-Function Software and the Third-Party Subset Exception"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Dual-Function Software (DFS) and the Presumption of Internal Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern enterprise systems rarely operate in isolated architectural silos; a single integrated cloud or on-premises platform frequently supports internal back-office G&A operations (such as inventory accounting, billing, or human resources) while simultaneously powering external customer, vendor, or supplier portals. Treasury Regulation 26 CFR § 1.41-4(c)(6)(vi)(A) defines <a href=\"/us/glossary/dual-function-software\">Dual-Function Software (DFS)</a> as software developed by (or for the benefit of) the taxpayer <strong>both</strong> for use in general and administrative functions that facilitate or support the conduct of the taxpayer's trade or business <strong>and</strong> to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system. Software developed to be commercially sold, leased, licensed, or otherwise marketed to third parties is governed by 26 CFR § 1.41-4(c)(6)(iv)(A) and is non-IUS from the outset rather than DFS."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(c)(6)(vi)(A), dual-function software is <strong>presumed to be developed primarily for a taxpayer's internal use</strong>. Consequently, unless the taxpayer overcomes this presumption under paragraph (c)(6)(vi)(B) (by identifying and segregating a Third-Party Subset) or utilizes the 25% safe harbor under paragraph (c)(6)(vi)(C), the entire DFS project is treated as IUS and must satisfy the demanding three-prong High Threshold of Innovation test in addition to the Four-Part Test."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Definition and Legal Mechanics of the Third-Party Subset (26 CFR § 1.41-4(c)(6)(vi)(B))"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the default IUS presumption for Dual-Function Software, 26 CFR § 1.41-4(c)(6)(vi)(B) establishes the Third-Party Subset exception:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"To the extent that a taxpayer can identify a subset of elements of dual function software that only enables a taxpayer to interact with third parties or allows third parties to initiate functions or review data (third party subset), the presumption under paragraph (c)(6)(vi)(A) of this section does not apply to such third party subset, and such third party subset is not developed primarily for internal use as described under paragraph (c)(6)(iv)(B) of this section.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "The regulatory mechanics of 26 CFR § 1.41-4(c)(6)(vi)(B), (D), and (E) hinge on three strict legal requirements: functional exclusivity, the regulatory definition of a \"third party,\" and beginning-of-development timing. Under the <strong>Functional Exclusivity (\"Only\") Standard</strong> of 26 CFR § 1.41-4(c)(6)(vi)(B), the segregated software elements must <em>only</em> enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system. Any software element, shared database routine, business logic module, or middleware layer that simultaneously serves an internal G&A function and an external third-party function cannot be placed in the Third-Party Subset; instead, it remains part of the residual \"dual function subset\" governed by 26 CFR § 1.41-4(c)(6)(vi)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, under the <strong>Strict Definition of \"Third Party\"</strong> in 26 CFR § 1.41-4(c)(6)(vi)(E), for purposes of paragraphs (c)(6)(iv), (v), and (vi), the term <em>third party</em> means any corporation, trade or business, or other person that is <strong>not</strong> treated as a single taxpayer with the taxpayer pursuant to IRC § 41(f) (the <a href=\"/us/glossary/controlled-group\">controlled group</a> of corporations and trades or businesses under common control aggregation rules). Additionally, 26 CFR § 1.41-4(c)(6)(vi)(E) and the T.D. 9786 Preamble (81 FR 68299) explicitly exclude from the definition of \"third parties\" <strong>any persons that use the software to support the general and administrative functions of the taxpayer</strong>. For example, if an outside payroll vendor, external accounting contractor, or outsourced human resources provider logs into a portal on the taxpayer's system to perform G&A support services for the taxpayer, any benefit to that vendor is collateral and secondary to the taxpayer's internal G&A use, and that vendor is not a \"third party\" for purposes of creating a Third-Party Subset. Conversely, unrelated commercial vendors, suppliers, or customers interacting with the system to conduct supply-chain transactions, initiate orders, or review account data (where the vendors are not performing the taxpayer's G&A support services) qualify as third parties. Finally, under the <strong>Timing of Determination</strong> rule in 26 CFR § 1.41-4(c)(6)(vi)(D), a taxpayer must apply all of paragraph (c)(6)(vi)—including dual-function software identification, third-party subset segregation, and safe harbor estimation—based on the intent of the taxpayer and the facts and circumstances <strong>at the beginning of the software development</strong>."
+    },
+    {
+      "type": "subheading",
+      "text": "C. The Critical Regulatory Consequence: HTI Test Avoidance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Third-Party Subset overcomes the IUS presumption and is deemed not developed primarily for internal use under 26 CFR § 1.41-4(c)(6)(vi)(B) and (iv)(B), 100 percent of the qualified employee wages, supplies, and off-premises time-sharing computer expenses (and 65 percent of eligible contract research expenses) allocable to the Third-Party Subset are evaluated solely under the standard IRC § 41(d)(1) Four-Part Test."
+    },
+    {
+      "type": "paragraph",
+      "text": "This mechanic is directly illustrated in <strong>26 CFR § 1.41-4(c)(6)(viii) Example 11 (Dual function software; identification of a third party subset)</strong>. In Example 11, Taxpayer X develops software for use in general and administrative functions that facilitate or support the conduct of X's trade or business and to allow third parties to initiate functions. X is able to identify a third-party subset, and incurs $50,000 of research expenditures for the software, 50% of which ($25,000) is allocable to the third-party subset. The regulation concludes that the software developed by X is dual-function software, and because X is able to identify a third-party subset, that subset is not presumed to be internal use software under 26 CFR § 1.41-4(c)(6)(vi)(A). Consequently, if X's research activities related to the third-party subset constitute qualified research under IRC § 41(d) (the standard Four-Part Test), and the allocable expenditures are qualified research expenditures under IRC § 41(b), the full $25,000 of software research expenditures allocable to the third-party subset may be included in computing the amount of X's research credit pursuant to 26 CFR § 1.41-4(c)(6)(vi)(B)—without regard to the HTI test. If, after the application of paragraph (c)(6)(vi)(B), there remains a dual-function subset (the remaining $25,000), X may determine whether the 25% safe harbor of paragraph (c)(6)(vi)(C) applies."
+    },
+    {
+      "type": "heading",
+      "text": "IV. The 25% Safe Harbor for Residual Dual-Function Software After Third-Party Subset Segregation"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Statutory and Regulatory Requirements for the 25% Safe Harbor (26 CFR § 1.41-4(c)(6)(vi)(C))"
+    },
+    {
+      "type": "paragraph",
+      "text": "After a taxpayer applies 26 CFR § 1.41-4(c)(6)(vi)(B) to carve out any identifiable Third-Party Subset, there frequently remains either unsegregated dual-function software (where no purely external subset could be isolated) or a residual subset of software elements that simultaneously serve both internal G&A functions and external third-party interaction—defined in 26 CFR § 1.41-4(c)(6)(vi)(C) as the <strong>dual function subset</strong>. Because this remaining dual-function software or dual-function subset retains internal G&A functionality, it continues to be treated as internal use software under the default presumption of 26 CFR § 1.41-4(c)(6)(vi)(A)."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, recognizing the practical engineering difficulty of satisfying the three-prong HTI test for shared enterprise code and integrated databases, 26 CFR § 1.41-4(c)(6)(vi)(C) provides an elective <strong>25% Safe Harbor</strong>: a taxpayer may include 25 percent of the qualified research expenditures of such remaining dual-function software or dual-function subset in computing the amount of the taxpayer's research credit."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Standard Four-Part Test Compliance (26 CFR § 1.41-4(c)(6)(vi)(C)(1)):</strong> The taxpayer's research activities related to the development or improvement of the dual-function software or dual-function subset must constitute qualified research under IRC § 41(d), without regard to IRC § 41(d)(4)(E) (meaning the residual software must pass the standard Four-Part Test, and the allocable expenditures must be QREs under IRC § 41(b)).",
+        "<strong>The Mandatory 10% Third-Party Use Threshold (26 CFR § 1.41-4(c)(6)(vi)(C)(2)):</strong> The dual-function software's or dual-function subset's use by third parties (or by the taxpayer to interact with third parties) must be reasonably anticipated to constitute <strong>at least 10 percent</strong> of the dual-function software's or dual-function subset's total use.",
+        "<strong>Objective, Reasonable Estimation at the Beginning of Development (26 CFR § 1.41-4(c)(6)(vi)(C)(3) & (D)):</strong> The taxpayer must estimate the anticipated third-party use percentage <strong>at the beginning of the software development</strong> (rather than retroactively upon software deployment or during an IRS examination) using an <strong>objective, reasonable method within the taxpayer's industry</strong>. Under 26 CFR § 1.41-4(c)(6)(vi)(C)(3), an objective, reasonable method may include, but is not limited to, processing time (as used in Example 14), amount of data transfer, and number of software user interface screens."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If the anticipated third-party use of the dual-function software or dual-function subset is less than 10 percent, the 25% safe harbor is completely unavailable. This is demonstrated in <strong>26 CFR § 1.41-4(c)(6)(viii) Example 13 (Dual function software; safe harbor inapplicable)</strong>, where Taxpayer X incurs $50,000 on dual-function software, is unable to identify a third-party subset, and uses an objective, reasonable method at the beginning of development to determine that third-party use is reasonably anticipated to constitute only 5% of total use. Because 5% is less than the mandatory 10% floor, the safe harbor is inapplicable, and X may include the software research expenditures only if the software satisfies both the three-prong High Threshold of Innovation test of 26 CFR § 1.41-4(c)(6)(vii) and the standard Four-Part Test of IRC § 41(d)."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Correcting the Misconception on the Interdependence of Subset Identification and Safe Harbor Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Legal Correction Based on 26 CFR § 1.41-4(c)(6)(vi)(C), Example 12, and Form 6765 Instructions:</strong> Authoritative primary regulatory text directly refutes the claim that successfully isolating a Third-Party Subset is a prerequisite to claiming the 25% safe harbor. Specifically, the plain language of 26 CFR § 1.41-4(c)(6)(vi)(C) states: <em>\"If, after the application of paragraph (c)(6)(vi)(B) of this section, there remains dual function software or a subset of elements of dual function software (dual function subset), a taxpayer may include 25 percent of the qualified research expenditures of such dual function software or dual function subset in computing the amount of the taxpayer's credit\"</em>. The regulation includes both \"dual function software\" (the entire unsegregated software) and \"dual function subset\" (the remaining subset after carving out a Third-Party Subset) because if applying paragraph (c)(6)(vi)(B) yields zero identifiable Third-Party Subset, what \"remains\" is the entire \"dual function software\". Similarly, the IRS Instructions for Form 6765 (Rev. January 2025 / Rev. December 2025) state that <em>\"As a safe harbor, a taxpayer may, after attempting to identify the third-party subset, include 25% of the remaining QREs of DFS or a subset of DFS elements (also known as dual function subset) in computing the amount of the taxpayer's credit\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "This legal rule is confirmed directly by <strong>26 CFR § 1.41-4(c)(6)(viii) Example 12 (Dual function software; application of the safe harbor)</strong>. In Example 12, the facts are the same as in Example 11 ($50,000 of research expenditures on dual-function software), <strong>except that X is unable to identify a third party subset</strong>, and X uses an objective, reasonable method at the beginning of the software development to determine that the dual-function software's use by third parties to initiate functions is reasonably anticipated to constitute 15% of the dual-function software's use. The regulation holds verbatim: <em>\"The software developed by X is dual function software. The software is presumed to be developed primarily for internal use under paragraph (c)(6)(vi)(A) of this section. Although X is unable to identify a third party subset, X reasonably anticipates that the dual function software's use by third parties will be at least 10% of the dual function software's use. If X's research activities related to the development or improvement of the dual function software constitute qualified research under section 41(d), without regard to section 41(d)(4)(E), and the allocable expenditures are qualified research expenditures under section 41(b), X may include $12,500 (25% of $50,000) of the software research expenditures of the dual function software in computing the amount of X's credit pursuant to paragraph (c)(6)(vi)(C) of this section.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, <strong>26 CFR § 1.41-4(c)(6)(viii) Example 14 (Dual function software; identification of a third party subset and the safe harbor)</strong> illustrates the combined application of both paragraph (c)(6)(vi)(B) and paragraph (c)(6)(vi)(C) when a Third-Party Subset is successfully isolated. In Example 14, Taxpayer X develops dual-function software incurring $50,000 of research expenditures, and is able to identify a third-party subset (Subset A) to which 50% ($25,000) is allocable. The remaining dual-function subset of the software (Subset B), to which the remaining 50% ($25,000) is allocable, allows third parties to review data and provides X with data used in its G&A functions, and X is unable to identify a third-party subset of Subset B. X determines, at the beginning of the software development, that the processing time of the third-party use of Subset B is reasonably anticipated to account for 15% of the total processing time of Subset B. Assuming the research activities constitute qualified research under IRC § 41(d) (without regard to § 41(d)(4)(E)) and the allocable costs are QREs under IRC § 41(b), X includes 100% of Subset A's QREs ($25,000) under 26 CFR § 1.41-4(c)(6)(vi)(B) plus 25% of Subset B's QREs ($6,250, which is 25% of $25,000) under the safe harbor of 26 CFR § 1.41-4(c)(6)(vi)(C), for a total QRE inclusion of $31,250 (62.5% of total project QREs) without having to satisfy the HTI test."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, if a taxpayer aggressively classifies 100% of a software module's costs as a Third-Party Subset (or as pure Non-IUS under § 1.41-4(c)(6)(iv)(B)) and consequently never prepares or preserves an objective, reasonable estimate <strong>at the beginning of software development</strong> demonstrating that anticipated third-party use is at least 10% under 26 CFR § 1.41-4(c)(6)(vi)(C)(2)–(3) and (D), an IRS audit determination that the module also performs internal G&A functions will reclassify the module as DFS while leaving the taxpayer unable to substantiate the contemporaneous beginning-of-development ≥10% safe harbor prerequisite. Second, even if the taxpayer did document at the outset of development that anticipated third-party use exceeded 10%, losing the Third-Party Subset classification on audit collapses the QRE inclusion rate for those reclassified elements from 100% down to 25%—imposing an immediate 75% disallowance on those QREs unless the taxpayer can satisfy the three-prong HTI test."
+    },
+    {
+      "type": "heading",
+      "text": "V. Third-Party Subset Classification Matrix and Worked Numerical Examples"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Software Classification and Testing Matrix"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Category",
+        "Regulatory Citation & Form 6765 Section G Code",
+        "Definition / Functional Scope",
+        "Applicable R&D Qualification Test(s)",
+        "Eligible QRE Inclusion Rate"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Non-IUS (Commercial / SaaS)</strong>",
+            "26 CFR § 1.41-4(c)(6)(iv)(A); Form 6765 Line 49(e): Non-IUS",
+            "Software developed to be commercially sold, leased, licensed, or otherwise marketed (including hosted SaaS software) to third parties (Examples 8, 9 & 10).",
+            "Standard IRC § 41(d)(1) Four-Part Test only (exempt from HTI test).",
+            "100% of allocable QREs (100% in-house; 65% general contract research)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Non-IUS (Pure External Interaction)</strong>",
+            "26 CFR § 1.41-4(c)(6)(iv)(B); Form 6765 Line 49(e): Non-IUS",
+            "Software developed solely to enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system (no G&A use).",
+            "Standard IRC § 41(d)(1) Four-Part Test only (exempt from HTI test).",
+            "100% of allocable QREs."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Non-IUS (Internal Non-G&A Operational)</strong>",
+            "26 CFR § 1.41-4(c)(6)(iii)–(iv); Form 6765 Line 49(e): Non-IUS",
+            "Software developed to be used internally by the taxpayer in core operational functions, but not in any G&A function (financial management, HR, or support services).",
+            "Standard IRC § 41(d)(1) Four-Part Test only (exempt from HTI test).",
+            "100% of allocable QREs."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Excepted from IUS Treatment (R&D / Production / Hardware-Software Package)</strong>",
+            "IRC § 41(d)(4)(E) & 26 CFR § 1.41-4(c)(6)(ii)(A)–(C); Form 6765 Line 49(e): Excepted from IUS",
+            "Software developed for use in an activity constituting qualified research, for internal use in a qualified production process meeting § 41(d)(1), or as an integral part of a single hardware-software product used directly in providing services (Example 1).",
+            "Standard IRC § 41(d)(1) Four-Part Test only (HTI test inapplicable under § 1.41-4(c)(6)(ii)).",
+            "100% of allocable QREs."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Pure Internal Use Software (Pure IUS)</strong>",
+            "26 CFR § 1.41-4(c)(6)(iii); Form 6765 Line 49(e): A. IUS",
+            "Software developed primarily for internal use in G&A functions (financial management, HR management, or support services) with no external third-party interaction.",
+            "Standard IRC § 41(d)(1) Four-Part Test <strong>PLUS</strong> three-prong High Threshold of Innovation (HTI) test (26 CFR § 1.41-4(c)(6)(vii)).",
+            "100% if both Four-Part and HTI tests are met; 0% if HTI test fails (Example 18)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Dual-Function Software (DFS — Unsegregated)</strong>",
+            "26 CFR § 1.41-4(c)(6)(vi)(A) & (C); Form 6765 Line 49(e): B. DFS",
+            "Software developed both for internal G&A functions and for third-party interaction, where no Third-Party Subset can be isolated (Example 12 & Example 13).",
+            "Presumed IUS. Must pass Four-Part Test + HTI Test, <strong>OR</strong> elect 25% Safe Harbor if pass Four-Part Test and anticipated third-party use is ≥10% at start of development.",
+            "100% if Four-Part + HTI met; 25% of QREs under Safe Harbor (if third-party use ≥10%, Example 12); 0% if &lt;10% and HTI fails (Example 13)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Third-Party Subset (TPS — Subset A of DFS)</strong>",
+            "26 CFR § 1.41-4(c)(6)(vi)(B); Form 6765 Line 49(e): B. DFS / Non-IUS",
+            "Segregated subset of elements of DFS that <strong>only</strong> enables interaction with third parties or allows third parties to initiate functions or review data (Example 11 & Example 14).",
+            "Overcomes IUS presumption; treated as Non-IUS under § 1.41-4(c)(6)(iv)(B). Subject to Standard IRC § 41(d)(1) Four-Part Test only (exempt from HTI test).",
+            "100% of QREs allocable to the Third-Party Subset (Example 11 & Example 14)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Residual Dual-Function Subset (Subset B of DFS)</strong>",
+            "26 CFR § 1.41-4(c)(6)(vi)(C); Form 6765 Line 49(e): B. DFS",
+            "Remaining elements of DFS after carving out the Third-Party Subset that still serve both G&A and third-party functions (Example 14).",
+            "Treated as IUS. Subject to Four-Part Test + HTI Test, <strong>OR</strong> 25% Safe Harbor if Subset B passes Four-Part Test and Subset B's anticipated third-party use is ≥10% at start of development.",
+            "100% if Four-Part + HTI met; 25% of Subset B QREs under Safe Harbor (if Subset B third-party use ≥10%, Example 14); 0% if &lt;10% and HTI fails."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "B. Hypothetical Case Study and Step-by-Step Worked Calculations"
+    },
+    {
+      "type": "subheading",
+      "text": "1. Hypothetical Fact Pattern: Logistics Corp ERP & B2B Vendor Portal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume Logistics Corp (a calendar-year U.S. C-corporation) undertakes a custom software engineering project to build a proprietary Enterprise Resource Planning (ERP) and supply-chain platform, incurring <strong>$100,000</strong> in otherwise eligible Qualified Research Expenses (consisting of W-2 employee software engineering wages under IRC § 41(b)(2)(A)(i) and off-premises, non-primary-user <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">cloud test-environment computer time-sharing expenses</a> under IRC § 41(b)(2)(A)(iii) and 26 CFR § 1.41-2(b)(4) that satisfy the standard IRC § 41(d)(1) Four-Part Test, including the 80% process-of-experimentation threshold under 26 CFR § 1.41-4(a)(6)). Assume further that, as in 26 CFR § 1.41-4(c)(6)(viii) Example 18, while the software development faces technical design uncertainty, Logistics Corp anticipates resolving those design uncertainties within a normal engineering cycle and recovering its committed resources, and therefore <strong>cannot</strong> satisfy the heightened \"Significant Economic Risk\" prong of the High Threshold of Innovation (HTI) test under 26 CFR § 1.41-4(c)(6)(vii)(C)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the integrated platform serves both internal G&A functions (payroll, human resources, general ledger financial accounting, and internal inventory management under 26 CFR § 1.41-4(c)(6)(iii)(B)(1)–(3)) and external third-party interaction functions, the platform is classified as Dual-Function Software (DFS) and is presumed to be IUS under 26 CFR § 1.41-4(c)(6)(vi)(A). However, through contemporaneous architectural specifications and <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">Agile sprint time-tracking</a> established at the beginning of development (26 CFR § 1.41-4(c)(6)(vi)(D)), Logistics Corp divides the $100,000 of DFS expenditures into two distinct subsets. <strong>Subset A — The Third-Party Subset ($40,000 / 40% of total QREs)</strong> consists of a discrete B2B vendor portal and dedicated external API gateway that <em>only</em> enables unrelated external suppliers and freight carriers (qualifying as third parties under 26 CFR § 1.41-4(c)(6)(vi)(E)) to log in, initiate real-time shipment tracking functions, review invoice payment status, and schedule warehouse dock appointments. <strong>Subset B — The Residual Dual-Function Subset ($60,000 / 60% of total QREs)</strong> consists of the shared middleware, database orchestration layer, and core order-processing engine that simultaneously supports internal G&A inventory accounting and financial reporting while processing external vendor data feeds."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Step-by-Step Arithmetic Across Four Compliance Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "text": "Using the regulatory rules in 26 CFR § 1.41-4(c)(6)(vi)(B)–(C) and Examples 11–14, the eligible QREs for Logistics Corp across four distinct compliance scenarios are computed as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Scenario A — TPS Successfully Segregated AND Residual Subset B Anticipates ≥10% Third-Party Use (26 CFR § 1.41-4(c)(6)(viii) Example 14)</strong>, Logistics Corp uses an objective, reasonable method (projected processing time or API data transfer volume) at the beginning of software development to estimate that third-party use of Subset B will be 15%, satisfying the ≥10% threshold of 26 CFR § 1.41-4(c)(6)(vi)(C)(2). Under 26 CFR § 1.41-4(c)(6)(vi)(B), Subset A (Third-Party Subset) yields 100% × $40,000 = <strong>$40,000</strong> in eligible QREs (exempt from the HTI test). Under 26 CFR § 1.41-4(c)(6)(vi)(C), Subset B (Residual Dual-Function Subset) yields 25% × $60,000 = <strong>$15,000</strong> in eligible Safe Harbor QREs, with the remaining 75% ($45,000) disallowed because Subset B fails the HTI test. Thus, Total Eligible QREs equal $40,000 + $15,000 = <strong>$55,000</strong> (55% of total project QREs, with $45,000 disallowed)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Scenario B — TPS Successfully Segregated, But Residual Subset B Anticipates &lt;10% Third-Party Use or Lacks Beginning-of-Development Estimation (26 CFR § 1.41-4(c)(6)(viii) Example 11 & Example 13 logic)</strong>, third-party use of residual Subset B is anticipated at the start of development to be only 5% (below the mandatory 10% floor), or Logistics Corp failed to estimate Subset B's third-party use at the beginning of development. Subset A (Third-Party Subset) still yields 100% × $40,000 = <strong>$40,000</strong> in eligible QREs (Example 11), whereas Subset B (Residual Dual-Function Subset) yields 0% × $60,000 = <strong>$0</strong> because the 25% safe harbor is inapplicable (&lt;10% third-party use per Example 13) and Subset B fails the HTI test. Thus, Total Eligible QREs equal $40,000 + $0 = <strong>$40,000</strong> (40% of total project QREs, with $60,000 disallowed)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Scenario C — TPS Segregation Fails (or Cannot Be Identified), But Total DFS Anticipates ≥10% Third-Party Use (26 CFR § 1.41-4(c)(6)(viii) Example 12)</strong>, Logistics Corp is unable to isolate Subset A (or an IRS examiner disallows the functional segregation because the B2B portal shares unsegregated code modules with G&A accounting), leaving $100,000 of unsegregated Dual-Function Software, <strong>but</strong> Logistics Corp documented at the beginning of development via an objective, reasonable method that third-party use of the overall DFS is anticipated to be 15% (≥10%). Here, Third-Party Subset QREs equal <strong>$0</strong>, but under 26 CFR § 1.41-4(c)(6)(vi)(C) and Example 12, the 25% Safe Harbor applies to the entire $100,000 of unsegregated DFS: 25% × $100,000 = <strong>$25,000</strong>. Thus, Total Eligible QREs equal <strong>$25,000</strong> (25% of total project QREs, with $75,000 disallowed—representing a $30,000 QRE reduction compared to Scenario A, but avoiding a complete $0 disallowance)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Scenario D — TPS Segregation Fails AND Total DFS Anticipates &lt;10% Third-Party Use or Lacks Beginning-of-Development Estimation (26 CFR § 1.41-4(c)(6)(viii) Example 13)</strong>, the Third-Party Subset segregation is disallowed on audit and Logistics Corp either anticipated &lt;10% third-party use (e.g., 5%) or failed to document an objective, reasonable estimate of third-party use at the beginning of software development, rendering both the TPS exception and the 25% safe harbor inapplicable. Because the software is presumed 100% IUS under 26 CFR § 1.41-4(c)(6)(vi)(A) and fails the HTI test, Total Eligible QREs equal <strong>$0</strong> ($100,000 disallowed—a 100% claim loss)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Compliance Scenario",
+        "Regulatory Illustration",
+        "Subset A (TPS: $40,000) Eligible QREs",
+        "Subset B / Unsegregated DFS Eligible QREs",
+        "Total Eligible QREs",
+        "Total Disallowed QREs"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Scenario A:</strong> TPS Segregated + Subset B ≥10% Third-Party Use (15%)",
+            "26 CFR § 1.41-4(c)(6)(viii) Example 14",
+            "$40,000 (100% of $40,000)",
+            "$15,000 (25% of $60,000)",
+            "<strong>$55,000</strong> (55%)",
+            "$45,000 (45%)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario B:</strong> TPS Segregated + Subset B &lt;10% Third-Party Use (5%)",
+            "26 CFR § 1.41-4(c)(6)(viii) Examples 11 & 13",
+            "$40,000 (100% of $40,000)",
+            "$0 (Safe Harbor inapplicable; HTI failed)",
+            "<strong>$40,000</strong> (40%)",
+            "$60,000 (60%)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario C:</strong> No TPS Isolated + Total DFS ≥10% Third-Party Use (15%)",
+            "26 CFR § 1.41-4(c)(6)(viii) Example 12",
+            "$0 (TPS not isolated)",
+            "$25,000 (25% of $100,000 total DFS)",
+            "<strong>$25,000</strong> (25%)",
+            "$75,000 (75%)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario D:</strong> No TPS Isolated + Total DFS &lt;10% Third-Party Use (5%)",
+            "26 CFR § 1.41-4(c)(6)(viii) Example 13",
+            "$0 (TPS not isolated)",
+            "$0 (Safe Harbor inapplicable; HTI failed)",
+            "<strong>$0</strong> (0%)",
+            "$100,000 (100%)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VI. Outsourced Third-Party Subset Development and Funded Research (26 CFR § 1.41-4A(d))"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Two Distinct Legal Regimes"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first inquiry is <strong>Functional Software Classification (26 CFR § 1.41-4(c)(6)(vi)(B))</strong>, which asks: <em>What does the software do?</em> Specifically, does a discrete subset of elements of Dual-Function Software <em>only</em> enable interaction with third parties or allow third parties to initiate functions or review data (the <strong>Third-Party Subset</strong>), thereby overcoming the IUS presumption and avoiding the High Threshold of Innovation test? The second inquiry is <strong>Outsourced Research Ownership & Funding (IRC § 41(d)(4)(H), 26 CFR § 1.41-4(c)(9), 26 CFR § 1.41-4A(d), and 26 CFR § 1.41-2(e))</strong>, which asks: <em>Who paid for the research, who bears the financial risk of technical failure, and who holds substantial rights to the research results?</em> When software development (including the engineering of a Third-Party Subset or Dual-Function Software) is outsourced by a client to an <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">external software development contractor</a>, these rules govern whether the research is excluded as \"funded research\" as to the contractor under IRC § 41(d)(4)(H) and 26 CFR § 1.41-4A(d), or whether the client may claim 65% of the payments as \"contract research expenses\" under IRC § 41(b)(3) and 26 CFR § 1.41-2(e)."
+    },
+    {
+      "type": "subheading",
+      "text": "B. The Two Pillars of the Funded Research Exclusion (IRC § 41(d)(4)(H) & 26 CFR § 1.41-4A(d))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 41(d)(4)(H) and 26 CFR § 1.41-4(c)(9), \"qualified research\" does not include any research to the extent that it is <a href=\"/us/faq/grant-funding-rd-tax-credit-eligibility\">funded by any grant</a>, contract, or otherwise by another person (or governmental entity). To determine the extent to which research is funded for post-1985 taxable years, 26 CFR § 1.41-4(c)(9) expressly incorporates 26 CFR § 1.41-4A(d) by reference. Under 26 CFR § 1.41-4A(d)(1), all agreements (not only formal research contracts) entered into between the taxpayer performing the research (the contractor) and other persons (the client) are examined in determining the extent of funding. In <em>Smith v. Commissioner</em>, T.C. Memo. 2026-50, the U.S. Tax Court rejected a post-<em>Loper Bright Enterprises v. Raimondo</em>, 603 U.S. 369 (2024) regulatory challenge to 26 CFR § 1.41-4A(d), upholding the regulation's validity based on Federal Circuit precedent and <em>Skidmore</em> respect."
+    },
+    {
+      "type": "subheading",
+      "text": "1. Pillar 1: Economic Risk / Payment Contingent on Success (26 CFR § 1.41-4A(d)(1))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4A(d)(1), amounts payable under any agreement that are contingent on the success of the research and thus considered to be paid for the product or result of the research (cross-referencing 26 CFR § 1.41-2(e)(2)) are <strong>not</strong> treated as funding. In the seminal decision <em>Fairchild Industries, Inc. v. United States</em>, 71 F.3d 868 (Fed. Cir. 1995), the U.S. Court of Appeals for the Federal Circuit established that whether research under a contract is funded turns on <em>\"who bears the research costs upon failure, not on whether the researcher is likely to succeed in performing the project\"</em>. In <em>Fairchild</em>, because the U.S. Air Force was liable for payment under a <a href=\"/us/glossary/fixed-price-contract\">fixed-price incentive contract</a> only if Fairchild produced results meeting detailed contract specifications and passing technical inspection and acceptance (and bi-monthly progress payments were refundable advances until milestone acceptance), the contractor bore the financial risk of failure and the research was unfunded."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, if a contractor is paid on a <a href=\"/us/glossary/cost-plus-contract\">cost-plus</a>, cost-reimbursement, or guaranteed hourly time-and-materials (T&M) basis regardless of technical success, the client bears the financial risk, the research is funded as to the contractor, and the contractor is barred from claiming the credit. Furthermore, as IRS Chief Counsel Field Attorney Advice 20223401F and the Eleventh Circuit in <em>Geosyntec Consultants, Inc. v. United States</em>, 776 F.3d 1330 (11th Cir. 2015) explain, while fixed-price contracts containing explicit milestone inspection and acceptance clauses allowing the client to withhold payment until technical acceptance can be unfunded, <a href=\"/us/glossary/capped-contract\">\"capped\" time-and-materials</a> or fixed-fee service agreements that lack detailed technical acceptance criteria or explicit rejection mechanisms prior to payment are generally <strong>not</strong> contingent on research success (because budget overrun risk does not equal technical failure risk), rendering them funded. Similarly, in <em>Perficient Inc. v. Commissioner</em> (T.C. July 11, 2022), both the taxpayer and the IRS agreed that general commercial warranties (such as standard of care or freedom from negligence) do not make payment contingent on the success of research. Under 26 CFR § 1.41-2(e)(2) and (e)(5), this contingent-payment evaluation is applied to each individual expenditure rather than to the agreement as a whole."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Pillar 2: Retaining Substantial Rights (26 CFR § 1.41-4A(d)(2)–(3))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if a contractor bears full economic risk under a contingent-payment contract, it cannot claim the research credit unless it also retains <strong><a href=\"/us/glossary/substantial-rights\">substantial rights</a></strong> in the research results. Under 26 CFR § 1.41-4A(d)(2) and 26 CFR § 1.41-2(a)(3)(i), if a taxpayer performing research for another person retains no substantial rights in the research under the agreement providing for the research—for example, if the agreement confers on the client the <strong>exclusive right</strong> to exploit the results of the research, or requires the contractor to pay a royalty or license fee to the client for the right to use the results of the research (26 CFR § 1.41-4A(d)(3)(i))—the research is treated as fully funded for purposes of IRC § 41(d)(4)(H), and zero expenses paid or incurred by the contractor are qualified research expenses. Furthermore, 26 CFR § 1.41-4A(d)(2) explicitly dictates that <em>\"Incidental benefits to the taxpayer from performance of the research (for example, increased experience in a field of research) do not constitute substantial rights in the research\"</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000), the Federal Circuit rejected the government's argument that substantial rights require the exclusive right to exclude others, holding instead that <em>\"the right to use the research results, even without the exclusive right, is a substantial right\"</em> so long as the contractor does not have to pay the client to use those results in its own business. Similarly, in <em>Populous Holdings, Inc. v. Commissioner</em>, Docket No. 405-17 (T.C. Order Dec. 9, 2019 / Jan. 16, 2020), the U.S. Tax Court held that representative architectural contracts were unfunded where payments were contingent on research success and the researcher retained substantial rights (such as architectural copyrights or the right to use the research results without paying the client). Conversely, in <em>Dynetics, Inc. & Subsidiaries v. United States</em>, 121 Fed. Cl. 492 (2015) and <em>Grigsby v. United States</em> (M.D. La. Oct. 19, 2022), the courts held that broad \"work for hire\" or IP assignment clauses vesting \"all rights, title, and interest in and to inventions or other intellectual property rights\" or work product in the client strip the contractor of substantial rights, leaving the contractor with only uncreditable general \"know-how\" and skill."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4A(d)(3)(i)–(iii) and 26 CFR § 1.41-2(a)(3)(ii), if a contractor performs research for a client under a <strong>non-contingent</strong> payment arrangement (so the research is funded) <strong>but retains substantial rights</strong>, the research is funded only to the extent of the payments (plus the fair market value of any property) to which the contractor is entitled. Under the default stacking rule of 26 CFR § 1.41-4A(d)(3)(i), the funding payments reduce the contractor's otherwise qualified research expenses dollar-for-dollar first (unless the contractor establishes to the satisfaction of the district director under § 1.41-4A(d)(3)(ii) that total research expenses exceed funding and applies a pro-rata allocation), and only the excess unfunded QREs may be claimed by the contractor. Under 26 CFR § 1.41-4A(d)(3)(iii), substantial rights and funding allocations are evaluated separately on a <strong>project-by-project basis</strong>. Furthermore, under 26 CFR § 1.41-4A(d)(5), if at the time the contractor files its tax return it is impossible to determine the precise extent to which the research is funded, the taxpayer must initially treat the research as 100% funded and subsequently file an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> once the funding amount is finally determined."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Complete Contract Allocation Matrix (Including the \"Neither Party Qualifies\" Trap)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Contract Scenario",
+        "Payment Structure (Economic Risk)",
+        "IP / Research Rights (Substantial Rights)",
+        "Contractor Eligibility (26 CFR § 1.41-4A(d))",
+        "Client Eligibility (26 CFR § 1.41-2(e))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Scenario 1: Unfunded Contractor R&D</strong>",
+            "<strong>Contingent on Success</strong> (Fixed-price / milestone acceptance; Contractor paid only if research succeeds; Contractor bears risk).",
+            "<strong>Contractor Retains Substantial Rights</strong> (Contractor can use research results without paying client; Client has non-exclusive or product-only rights).",
+            "<strong>ELIGIBLE (100% of Contractor's In-House QREs):</strong> Research is not funded under § 1.41-4A(d)(1) because payment is contingent on success (<em>Fairchild</em>) and contractor retains substantial rights (<em>Lockheed Martin</em>; <em>Populous</em>).",
+            "<strong>INELIGIBLE (0%):</strong> Client payment is contingent on success and thus considered paid for a product or result rather than for the performance of research (26 CFR § 1.41-2(e)(2)(iii) & flush language)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario 2: Standard Contract Research (Shared Rights)</strong>",
+            "<strong>Non-Contingent / Guaranteed</strong> (e.g., <a href=\"/us/glossary/time-and-materials-contract\">Time & Materials</a>, cost-plus, or fixed fee without technical acceptance contingency; Client bears risk).",
+            "<strong>Both Parties Hold Rights</strong> (Contractor retains non-exclusive right to use results; Client also has right to research results).",
+            "<strong>FUNDED (§ 1.41-4A(d)(3)):</strong> Funded to the extent of client payments; Contractor must reduce its QREs by the funded amount under the stacking/pro-rata rules of § 1.41-4A(d)(3)(i)–(ii) (only excess cost overruns may qualify).",
+            "<strong>ELIGIBLE (65% of Eligible Payment as Contract QRE):</strong> Agreement entered prior to research (§ 1.41-2(e)(2)(i)), performed on behalf of client (non-exclusive right suffices under § 1.41-2(e)(3)), and client bears risk (§ 1.41-2(e)(2)(iii))."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario 3: The Regulatory Trap (\"Orphaned Credit\")</strong>",
+            "<strong>Contingent on Success</strong> (Contractor paid only if research succeeds; Contractor bears risk).",
+            "<strong>Client Gets Exclusive Rights</strong> (\"Work for hire\" or exclusive IP assignment; Contractor retains no substantial rights).",
+            "<strong>INELIGIBLE (0%):</strong> Treated as fully funded under 26 CFR § 1.41-4A(d)(2) because the contractor retains no substantial rights.",
+            "<strong>INELIGIBLE (0%):</strong> Disqualified under 26 CFR § 1.41-2(e)(2) (flush language) and § 1.41-4A(d)(2) because payment is contingent on success (<strong>Neither party can claim the credit!</strong>)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario 4: Pure Client-Funded Exclusive R&D</strong>",
+            "<strong>Non-Contingent / Guaranteed</strong> (e.g., Time & Materials or cost reimbursement; Client bears risk).",
+            "<strong>Client Gets Exclusive Rights</strong> (Contractor retains no substantial rights).",
+            "<strong>INELIGIBLE (0%):</strong> Fully funded under both § 1.41-4A(d)(1) (guaranteed payment) and § 1.41-4A(d)(2) (no substantial rights; <em>Dynetics</em>; <em>Grigsby</em>).",
+            "<strong>ELIGIBLE (65% of Eligible Payment as Contract QRE):</strong> Satisfies all three prongs of 26 CFR § 1.41-2(e)(2)(i)–(iii) (assuming prior agreement)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "As 26 CFR § 1.41-2(e)(2) (flush language) and 26 CFR § 1.41-2(e)(5) Examples 1, 3, and 4 demonstrate, when a client hires a contractor to develop software (such as a Third-Party Subset) under a <strong>hybrid payment contract</strong>—for example, agreeing to reimburse $200x of research expenses regardless of outcome plus a $100x success bonus payable only if the research succeeds—the contingent-payment rule applies separately to each portion of the payment: only the non-contingent $200x portion qualifies for the client's 65% contract research computation (0.65 × $200x = $130x), whereas the contingent $100x bonus is excluded from the client's contract research expenses under 26 CFR § 1.41-2(e)(2)(iii)."
+    },
+    {
+      "type": "heading",
+      "text": "VII. Substantiation, Recordkeeping, and Needed Administrative Clarifications for the Third-Party Subset"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Statutory Recordkeeping and Audit Defense Requirements (IRC § 6001, 26 CFR § 1.41-4(d), and Form 6765 Section G)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 6001, 26 CFR § 1.6001-1(a) and (e), and 26 CFR § 1.41-4(d), a taxpayer claiming a research credit under Section 41 must maintain permanent books of account and records in <em>\"sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\"</em>, and must keep those records available at all times for inspection by authorized internal revenue officers. Furthermore, IRS Chief Counsel Field Attorney Advice 20212501F confirms that because IRC § 41(d)(2)(A) requires the four tests of IRC § 41(d)(1) (including the 80% \"substantially all\" process-of-experimentation threshold under 26 CFR § 1.41-4(a)(6)) to be applied separately to each business component, a taxpayer's substantiation must tie qualified research activities and QREs directly to each discrete software business component or subset—and this business-component substantiation mandate is not altered or eliminated when a taxpayer or the IRS uses a <a href=\"/us/glossary/irs-statistical-sampling\">statistical sample</a> under Rev. Proc. 2011-42."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moreover, under the revised <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> (Rev. January 2025) and its Instructions (Rev. December 2025, updated April 30, 2026), Section G (Business Component Information) requires taxpayers (optional for tax years beginning before 2026 unless filing an amended return claiming or increasing a research credit, and mandatory for tax years beginning after 2025) to report by business component a minimum of 80% of total QREs or a maximum of the Top 50 business components (\"80%/Top 50\" business components) in descending order by QRE amount, with any remaining components reported on a single \"Aggregate Business Components\" line. For each reported software business component, Column 49(c) requires the unique alphanumeric identifier or business component name matching the taxpayer's books and records, Column 49(d) requires the business component type (\"All Others\" for computer software), and Column 49(e) requires explicit classification among A. IUS—internal use software, B. DFS—dual function software (specifying whether a third-party subset is identified and/or whether the 25% safe harbor is applied), C. Non-IUS, or D. Excepted from IUS treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "To defend a Third-Party Subset claim (26 CFR § 1.41-4(c)(6)(vi)(B)) and any accompanying 25% Safe Harbor claim (26 CFR § 1.41-4(c)(6)(vi)(C)) during an IRS examination, taxpayers should assemble a four-part <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a> package:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Architectural & Functional Segregation Specifications (Beginning of Development):</strong> Contemporaneous system architecture diagrams, functional requirements specifications, network topology charts, API documentation, and code-repository directory mappings created <strong>at the beginning of software development</strong> (26 CFR § 1.41-4(c)(6)(vi)(D)) that prove the Third-Party Subset elements <strong>only</strong> enable third-party interaction, function initiation, or data review with unrelated third parties (26 CFR § 1.41-4(c)(6)(vi)(E)) and have zero functional overlap with internal G&A modules.",
+        "<strong>Granular Labor and Expense Allocation Records:</strong> <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">Contemporaneous time-tracking</a>, Agile Jira/sprint ticket logs, git commit histories, Form W-2 payroll registers, and non-depreciable supply or off-premises time-sharing computer invoices (26 CFR § 1.41-2(b)(4)) that isolate employee hours and expenses spent on Subset A (the Third-Party Subset) from Subset B (the residual Dual-Function Subset) and from pure G&A modules. As the <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Audit Techniques Guide</a> emphasizes, employee wage eligibility under IRC § 41(b)(2)(B) is determined strictly by what an employee actually does during a specific time period, not by job titles, generic job descriptions, or academic degrees.",
+        "<strong>Beginning-of-Development Safe Harbor Estimation Memorandum (26 CFR § 1.41-4(c)(6)(vi)(C)(2)–(3) & (D)):</strong> A dated technical memorandum prepared at the outset of the software project documenting an objective, reasonable industry methodology (such as projected server processing time, expected API data transfer volume, or number of software user interface screens) establishing that anticipated third-party use of the Dual-Function Software or residual Dual-Function Subset is at least 10 percent. Even when a taxpayer believes 100% of an external module qualifies as a Third-Party Subset, preparing this ≥10% safe harbor projection at the beginning of development provides essential <a href=\"/us/faq/is-rd-tax-credit-audit-protection-worth-it\">audit insurance</a> in case an IRS examiner reclassifies the module as Dual-Function Software.",
+        "<strong>Master Services Agreements (MSAs) and Statements of Work (SOWs) for Outsourced Code:</strong> Where third-party software contractors are involved, complete copies of all contracts, SOWs, and change orders executed <strong>prior</strong> to the performance of the research (26 CFR § 1.41-2(e)(2)(i)), accompanied by a legal matrix mapping payment contingency, milestone inspection, and technical acceptance clauses (Economic Risk under 26 CFR § 1.41-4A(d)(1) and § 1.41-2(e)(2)(iii)) and IP ownership, work-for-hire, and licensing provisions (Substantial Rights under 26 CFR § 1.41-4A(d)(2)–(3) and § 1.41-2(e)(3)) to prevent \"double dipping\" and avoid the Scenario 3 \"orphaned credit\" trap."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "B. Four Areas Requiring Further IRS Administrative Guidance"
+    },
+    {
+      "type": "paragraph",
+      "text": "First, regarding <strong>Segmentation and Cost Allocation Methodologies in Agile/DevOps Environments</strong>, while 26 CFR § 1.41-4(c)(6)(vi)(B) defines the functional boundary of the Third-Party Subset, the regulation does not prescribe specific cost-accounting methodologies for allocating shared developer wages when a single engineering sprint modifies microservices, GraphQL layers, or APIs that span both the Third-Party Subset and the residual Dual-Function Subset. In the T.D. 9786 Preamble (81 FR 68299), Treasury and the IRS declined to include a comprehensive multi-layered allocation example in the final regulations, noting that such an example would be \"better suited for a different type of published guidance than these final regulations\". Administrative guidance (such as a Revenue Procedure) establishing safe-harbor cost allocation methodologies—such as proportional allocation based on story points, functional complexity, or code repository commit metrics—would standardize audit expectations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, regarding the <strong>Operational Scope of \"Interact,\" \"Initiate Functions,\" and \"Review Data,\"</strong> under 26 CFR § 1.41-4(c)(6)(iv)(B) and (vi)(B), the Third-Party Subset encompasses software elements that enable the taxpayer to \"interact with third parties\" or allow third parties to \"initiate functions or review data on the taxpayer's system\". Concrete administrative rulings or published examples clarifying the exact technical boundary between passive informational webpages and active third-party data review, automated webhook triggers, or transactional B2B API initiation would minimize examination disputes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, regarding the <strong>Boundary Between Operational Non-G&A Software and G&A \"Financial Management\" / \"Support Services,\"</strong> because 26 CFR § 1.41-4(c)(6)(iii)(A)–(B) defines IUS strictly by reference to G&A functions (financial management, HR management, and support services), software used internally in core non-G&A operations or qualified production processes is Non-IUS or Excepted from the outset (26 CFR § 1.41-4(c)(6)(ii)–(iv)). However, because 26 CFR § 1.41-4(c)(6)(iii)(B)(1) lists \"inventory management\" under financial management functions and 26 CFR § 1.41-4(c)(6)(iii)(B)(3) lists \"data processing,\" \"facility services (for example, ... logistics),\" and \"marketing\" under support services functions, examination disputes frequently arise over whether specialized real-time supply-chain routing, automated warehouse fulfillment control systems, or algorithmic pricing engines constitute G&A functions (triggering the DFS and TPS rules) or non-G&A operational software."
+    },
+    {
+      "type": "paragraph",
+      "text": "Incorporating explicit examination guidelines, engineering interview protocols, and documentation checklists for 26 CFR § 1.41-4(c)(6)(vi) into the ATG would align field examination practices with T.D. 9786 and the Form 6765 Section G reporting requirements."
+    }
+  ]
+}

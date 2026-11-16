@@ -1,0 +1,482 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Audit Techniques Guide (ATG)",
+  "description": "The IRS Audit Techniques Guide (ATG) is the internal field manual IRS examiners use to audit federal research tax credit claims under IRC Section 41.",
+  "summary": "The IRS Audit Techniques Guide (ATG) is the internal field manual IRS examiners use to audit federal research tax credit claims under IRC Section 41. Although non-binding, its substantiation standards drive examinations and court outcomes, so U.S. taxpayers must keep contemporaneous, subcomponent-level records or risk full credit disallowance and a 20% accuracy-related penalty.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The IRS Audit Techniques Guide (ATG) is the internal field manual IRS examiners use to audit federal research tax credit claims under IRC Section 41. Although non-binding, its substantiation standards drive examinations and court outcomes, so U.S. taxpayers must keep contemporaneous, subcomponent-level records or risk full credit disallowance and a 20% accuracy-related penalty."
+    },
+    {
+      "type": "heading",
+      "text": "Administrative Status and Operational Function of the R&D Audit Techniques Guide"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Internal Revenue Service (IRS) Audit Techniques Guide (ATG) for the Credit for Increasing Research Activities under Internal Revenue Code (IRC) Section 41—operating in tandem with the specialized Research Credit Claims Audit Techniques Guide (RCCATG)—serves as the foundational operational manual for IRS field examiners evaluating corporate research tax credit claims. Designed to translate abstract statutory mandates and regulatory language into standardized field-level examination protocols, the ATG equips IRS revenue agents, engineers, and technical specialists with structured investigative workflows, explanations of industry-specific engineering and accounting practices, and analytical frameworks for resolving recurring technical controversies. Although promulgated primarily as an internal enforcement manual for agency personnel, the public availability of the ATG transforms the document into an essential compliance blueprint for corporate taxpayers and tax practitioners seeking to align internal cost-accounting architectures and engineering documentation with administrative audit expectations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the federal tax hierarchy of authority, the formal legal standing of the ATG is strictly circumscribed. Primary legal authority originates in IRC Section 41, which statutorily establishes the research tax credit, defines eligible qualified research expenses (QREs) under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC Section 41(b)</a>, and mandates the cumulative four-part qualification test under IRC Section 41(d). Directly beneath the statute sit the Treasury Regulations—most notably Treas. Reg. § 1.41-4—which constitute official, binding legal interpretations promulgated by the Department of the Treasury carrying the force of law. By contrast, the ATG carries an explicit administrative disclaimer establishing that the guide is not an official pronouncement of law, does not constitute substantial authority for penalty protection purposes, and cannot be cited, used, or relied upon by either taxpayers or the IRS as binding legal precedent in judicial proceedings."
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite lacking formal precedential weight in federal court, the ATG exerts decisive practical authority throughout the lifecycle of an IRS examination. Because the IRS relies upon the ATG to enforce national uniformity across examinations of a complex, high-value tax expenditure, the evidentiary standards and verification techniques detailed in the manual operate as the de facto administrative standard of care. This structural divergence between formal legal status and operational enforcement creates a critical compliance dynamic for corporate tax governance: when taxpayers treat the ATG merely as non-binding administrative commentary and fail to maintain records that satisfy its analytical protocols, field examiners routinely disallow the underlying QREs in full. Furthermore, when those administrative disallowances are challenged in litigation, federal courts consistently apply the underlying statutory and regulatory provisions of IRC Section 41 and IRC Section 6001 in a manner that mirrors the exact verification standards of the ATG, sustaining both the credit disallowances and the imposition of a <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">20% accuracy-related penalty</a> under IRC Section 6662. Effective risk mitigation therefore requires treating ATG substantiation standards not as optional audit guidelines, but as mandatory design specifications for contemporaneous project management and cost-accounting workflows."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Authority Tier",
+        "Governing Instrument",
+        "Legal Binding Status",
+        "Operational Function in IRC Section 41 Examinations"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Tier 1: Statute",
+            "Internal Revenue Code (IRC) § 41 (including §§ 41(b) and 41(d)) and IRC § 6001",
+            "Binding Statutory Law",
+            "Establishes the research credit, defines eligible QRE categories, mandates the Four-Part Test, enumerates statutory exclusions, and requires permanent recordkeeping."
+          ]
+        },
+        {
+          "cells": [
+            "Tier 2: Regulations",
+            "Treasury Regulations (e.g., Treas. Reg. § 1.41-4)",
+            "Binding Official Interpretation",
+            "Carries the force of law; operationalizes regulatory constructs including the Process of Experimentation, the substantially all fraction, and the shrinking-back rule."
+          ]
+        },
+        {
+          "cells": [
+            "Tier 3: Administrative Manual",
+            "IRS Audit Techniques Guide (ATG) and Research Credit Claims ATG (RCCATG)",
+            "Non-Binding Field Guidance",
+            "Directs examiner Information Document Requests (IDRs), employee interview protocols, QRE nexus verification, and challenges to estimation-based methodologies."
+          ]
+        },
+        {
+          "cells": [
+            "Tier 4: Supplementary Guidance",
+            "IRS Software Audit Guidelines",
+            "Non-Binding Risk Classification",
+            "Categorizes software development activities into Low, Moderate, and High Risk of failing IRC § 41(d) qualification criteria during field examination."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Substantiation of Qualified Research Expenses and the Hybrid/Nexus Problem"
+    },
+    {
+      "type": "paragraph",
+      "text": "A central analytical objective of the ATG is ensuring that field examiners verify a direct, auditable link—referred to throughout administrative practice as \"<a href=\"/us/glossary/project-to-expense-nexus\">nexus</a>\"—between financial expenditures claimed under IRC Section 41(b) and qualified research activities performed under IRC Section 41(d). Under the general recordkeeping mandate of IRC Section 6001 and the substantiation principles emphasized in the ATG, a taxpayer bears the affirmative burden of demonstrating that claimed wages, supplies, and <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research costs</a> were actually incurred in the conduct of qualified research on specific business components. Without granular accounting records that bridge financial ledger entries to discrete engineering activities at the business component or subcomponent level, a taxpayer cannot establish the requisite nexus regardless of the technical sophistication of its commercial products."
+    },
+    {
+      "type": "subheading",
+      "text": "The Hybrid/Nexus Substantiation Defect"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both the general R&D ATG and the Research Credit Claims Audit Techniques Guide (RCCATG) instruct examiners to apply heightened scrutiny to estimation-based cost allocation techniques, specifically targeting the pervasive \"hybrid/nexus problem\" in the computation of qualified employee wage QREs. In a typical hybrid/nexus computation, a taxpayer extracts aggregate W-2 wage figures organized by accounting cost center or department and multiplies those cost-center wage pools by an estimated \"qualified percentage\" to compute claimed wage QREs on <a href=\"/us/faq/irs-form-6765-instructions-2024\">Form 6765</a>. Rather than deriving this allocation percentage from <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">contemporaneous time-tracking logs</a> attached to discrete research projects, taxpayers employing this defective methodology rely on retrospective interviews or surveys in which a department manager estimates or recalls the proportion of time subordinate employees devoted to qualified research activities during prior tax years."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ATG explicitly flags this hybrid cost-center multiplication technique as substantively inadequate. From an evidentiary perspective, retrospective managerial recollection is inherently subjective, vulnerable to hindsight bias, and structurally disconnected from the specific technical uncertainties of individual business components. More fundamentally, the hybrid/nexus approach creates an irreconcilable conflict with the statutory mechanics of IRC Section 41(d): because the Process of Experimentation test requires proving that substantially all activities on a specific business component were systematically conducted to resolve a defined capability, method, or design uncertainty, aggregate cost-center estimates fail to establish what portion of an employee's compensation was expended on a given business component while technological uncertainty remained unresolved. When cost-center wages are blended with oral estimates, examiners cannot verify whether the underlying hours met the 80% \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" threshold for any single business component, prompting the ATG to direct field agents to reject retrospective percentage allocations and demand real-time, project-specific labor accounting."
+    },
+    {
+      "type": "subheading",
+      "text": "Procedural Gateway: Form 6765 and Refund Claim Articulation Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under ATG examination protocols, every research credit audit begins with a structured preliminary review of <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> (Credit for Increasing Research Activities) alongside any supporting tax credit studies or administrative refund claim disclosures. This initial screening phase dictates both the breadth of <a href=\"/us/glossary/information-document-request-idr\">Information Document Requests (IDRs)</a> and the intensity of technical specialist involvement. In recent administrative guidance governing the procedural validity of <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">research credit claims for refund</a>, the IRS refined its initial filing specificity rules to streamline intake evaluation. Specifically, the agency waived the requirement that taxpayers submit the names of the specific individuals who performed each research activity and the exact information each individual sought to discover at the time the refund claim is initially filed."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, a critical operational distinction exists between procedural admissibility at the filing threshold and substantive proof during an examination. The waiver of individual employee names and individual discovery objectives at the initial refund filing stage does not relax the taxpayer's underlying evidentiary burden once an audit is initiated. Taxpayers remain obligated to articulate their claim compliance on Form 6765 and accompanying refund filings in a structured format that permits immediate IRS risk assessment—explicitly identifying all relevant business components, the research activities performed for each component, and the categorized QREs allocated to those components. Once a return or refund claim is selected for examination, the ATG governs the substantive verification phase, during which examiners immediately request the underlying personnel identities, employee job descriptions, technical discovery objectives, and contemporaneous project records that were waived at the initial filing gateway."
+    },
+    {
+      "type": "heading",
+      "text": "Statutory Alignment: Operationalizing the IRC Section 41(d) Four-Part Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "The analytical core of the R&D ATG is organized around the cumulative <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> mandated by IRC Section 41(d), which requires that a taxpayer's activities independently satisfy four statutory criteria for each business component: Permitted Purpose, Technological in Nature, Technological Uncertainty, and Process of Experimentation. By anchoring field agents on these four statutory pillars, the ATG constrains subjective examiner discretion while establishing rigorous, objective evidentiary benchmarks that taxpayers must satisfy through <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous technical documentation</a>."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "IRC § 41(d) Statutory Pillar",
+        "Substantive Legal Requirement",
+        "ATG Examination Focus",
+        "Contemporaneous Documentation Required"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">Permitted Purpose</a>",
+            "Activity must be intended to develop a new or improved function, performance, reliability, or quality of a business component.",
+            "Confirming a direct link between the research objective and functional or performance improvements rather than style, taste, cosmetic, or seasonal design changes.",
+            "Project charters, business requirement documents, engineering statements of objective, and functional design specifications."
+          ]
+        },
+        {
+          "cells": [
+            "Technological in Nature",
+            "Activity must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science.",
+            "Verifying that technical personnel applied hard scientific or engineering principles rather than management, economic, or <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a>.",
+            "Technical specifications, scientific modeling reports, architectural schematics, and resumes or credentials of key personnel."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Uncertainty",
+            "Activity must seek to discover information to eliminate uncertainty regarding capability, method, or appropriate design.",
+            "Confirming that uncertainty was strictly technical (not economic or financial) and existed at the outset of the project beyond standard industry knowledge.",
+            "Initial hypotheses, pre-project feasibility studies, technical risk assessment logs, and dated engineering journals."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation",
+            "Substantially all activities must constitute elements of a systematic, iterative process evaluating one or more alternatives.",
+            "Distinguishing systematic, iterative testing of competing alternatives from disqualifying linear design workflows using known calculations.",
+            "Testing protocols, logs of failed alternatives, design iteration records, simulation outputs, and comparative test results."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Auditing Technological Uncertainty and Temporal Constraints"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the Permitted Purpose and Technological in Nature criteria are frequently satisfied through baseline engineering specifications and personnel qualifications, the ATG trains examiners to concentrate intensive audit scrutiny on Technological Uncertainty and the Process of Experimentation. Under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)(B)(i)</a> and Treas. Reg. § 1.41-4(a)(3), Technological Uncertainty exists only when the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of that business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "In evaluating <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">Technological Uncertainty</a>, the ATG instructs examiners to enforce two strict substantive conditions. First, the uncertainty must be genuinely scientific or technological in nature, rather than relating to financial viability, market acceptance, supply chain constraints, project scheduling, or economic cost. Second, the technical uncertainty must exist at the very outset of the research activities. This outset requirement imposes a decisive temporal constraint on taxpayer recordkeeping. Because technological uncertainty must be present at project inception and actively drive the subsequent investigative effort, <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">retrospective narratives</a> reconstructed years later by external tax consultants during a study lack probative value. Instead, contemporaneous project records must demonstrate that hypothesis formulation, testing failures, and design iterations occurred sequentially while the technical uncertainty remained unresolved. Furthermore, the ATG explicitly cautions examiners to disallow claims where engineers relied on standard engineering calculations, established industry building codes, historical company design data, or readily available technical knowledge. Where standard calculations, textbooks, or historical company parameters suffice to determine an appropriate design, the necessary technical information is already available to the taxpayer at the outset, legally negating the existence of Technological Uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Auditing the Process of Experimentation: Iterative vs. Linear Design"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where genuine technological uncertainty exists at project inception, IRC Section 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(5) mandate that the taxpayer demonstrate that substantially all (at least 80%) of the research activities constituted elements of a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">Process of Experimentation (POE)</a> related to a new or improved function, performance, reliability, or quality. The ATG defines a valid POE as a systematic process designed to evaluate one or more alternatives to achieve a result where the capability or method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "In applying this regulatory standard, the ATG draws a bright-line operational distinction between qualified iterative experimentation and non-qualified linear design processes. A defensible POE requires an empirically documented cycle in which technical personnel formulate a specific scientific or engineering hypothesis, design and model or test one or more distinct technical alternatives, analyze test failures or performance shortfalls, and iterate the design across multiple cycles based on empirical findings. Conversely, linear design workflows—in which engineers progress sequentially through standard schematic and development phases, apply known thermodynamic or structural formulas, verify compliance with regulatory codes, or perform routine debugging without systematically evaluating competing technical alternatives—are explicitly identified by the ATG as failing the Process of Experimentation test. This distinction explains why routine professional engineering and commercial software configuration frequently fail IRS examination despite employing highly credentialed technical personnel: the application of professional expertise along a linear path resolves commercial deliverables without engaging in systematic scientific experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Exclusions and Supplementary Software Risk Guidelines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the affirmative requirements of the Four-Part Test, the ATG directs examiners to screen claimed expenses against the categorical statutory exclusions enumerated in <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)</a>. Activities statutorily excluded from qualified research regardless of their technical complexity include routine maintenance and quality control testing, adaptation of an existing business component to a particular customer's requirement or need, <a href=\"/us/glossary/duplication-exclusion\">duplication of an existing business component</a> or reverse engineering, efficiency surveys, management studies, and any research conducted after the beginning of commercial production."
+    },
+    {
+      "type": "paragraph",
+      "text": "The general Research Credit ATG also establishes explicit boundaries regarding its own administrative coverage, noting that specialized statutory domains—specifically the <a href=\"/us/glossary/internal-use-software-ius\">internal-use software (IUS)</a> exclusion under IRC Section 41(d)(4)(E) and international research issues—are not addressed within the general manual and are governed by specialized supplementary IRS publications. For software development claims broadly, the IRS issued the <em>Audit Guidelines on the Application of the Process of Experimentation for All Software</em>, which establishes a three-tier administrative risk classification matrix rating <a href=\"/us/faq/qualifying-rd-activities-software-companies\">software development activities</a> as Low Risk, Moderate Risk, or High Risk of failing the statutory definition of qualified research. Under these supplementary software guidelines, High-Risk activities include routine software maintenance, application configuration of off-the-shelf software packages, standard debugging, system integration using established interfaces, and <a href=\"/us/glossary/reverse-engineering-exclusion\">reverse engineering</a>. Sophisticated corporate tax departments utilize this supplementary IRS risk classification matrix as a pre-filing compliance filter, proactively excluding High-Risk software activities from QRE computations prior to submitting Form 6765 in order to insulate the broader research credit claim from summary audit adjustments and examiner skepticism."
+    },
+    {
+      "type": "heading",
+      "text": "Judicial Enforcement of ATG Standards and the Shrinking-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the ATG itself is not binding statutory or regulatory law, federal courts adjudicating IRC Section 41 controversies consistently enforce the exact evidentiary, accounting, and methodological standards emphasized in the guide. Judicial opinions confirm that failing to satisfy ATG-aligned documentation principles results not only in 100% <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallowance of claimed research credits</a>, but also in acute exposure to statutory accuracy-related penalties."
+    },
+    {
+      "type": "subheading",
+      "text": "Precedential Validation in Phoenix Design Group, Inc. v. Commissioner"
+    },
+    {
+      "type": "paragraph",
+      "text": "The U.S. Tax Court decision in <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113 (decided December 2024), provides a definitive judicial validation of the ATG's warnings regarding linear design processes, reliance on known engineering calculations, and the absence of <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous subcomponent documentation</a>. In <em>Phoenix Design Group</em>, a <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">consulting engineering firm</a> claimed IRC Section 41 research tax credits across multiple mechanical, electrical, plumbing, and fire protection (MEPF) building system design projects. Following an examination conducted in accordance with ATG protocols, the IRS disallowed the claimed research credits in their entirety and determined a 20% accuracy-related penalty under IRC Section 6662."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court sustained both the complete disallowance of the research credits and the 20% accuracy-related penalty through legal holdings that directly reinforced the core examination principles set forth in the ATG. Specifically, the court determined that the taxpayer's six-stage engineering design workflow followed a sequential, linear trajectory rather than an iterative process of evaluating competing technical alternatives. Furthermore, because the firm's engineers relied on standard engineering calculations, established building codes, and historical design data, the necessary technical information was already available to the taxpayer at the outset of the projects, legally demonstrating an absence of both Technological Uncertainty and a Process of Experimentation. By sustaining the 20% accuracy-related penalty under IRC Section 6662, the Tax Court underscored a vital compliance reality: claiming research credits based on routine, linear engineering workflows supported only by retrospective study estimates fails to meet the professional standard of care required to establish \"reasonable cause\" and \"good faith\" under IRC Section 6664(c)."
+    },
+    {
+      "type": "subheading",
+      "text": "Granularity Demands Under the Shrinking-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "The <em>Phoenix Design Group</em> ruling also illustrates the stringent accounting granularity required to invoke the regulatory \"shrinking-back rule\" under Treas. Reg. § 1.41-4(b)(2). Under the business component rule of <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC Section 41(d)(2)</a> and the shrinking-back regulation, the Four-Part Test is applied first at the level of the discrete product, process, software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in a trade or business. If the overall business component (such as an entire MEPF building system, commercial vessel, or enterprise software platform) fails to satisfy the Four-Part Test—typically because less than 80% of the total activities on the overall project constituted elements of a Process of Experimentation—the shrinking-back rule directs that the Four-Part Test be applied to the most significant subset of elements (subcomponent) of that business component. This shrinking-back analysis continues progressively down to smaller subcomponents until either a qualifying subcomponent is identified or the most basic element of the product fails to satisfy the Four-Part Test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, the Tax Court in <em>Phoenix Design Group</em> held that it could not apply the shrinking-back rule to salvage any portion of the taxpayer's claimed QREs because the evidentiary record lacked granular accounting documentation tracking employee activities and expenses at the specific subcomponent level. This judicial holding directly reinforces the ATG's nexus mandate: when a taxpayer aggregates labor costs by accounting cost center or even at the broad project level without tracking employee time and expenses down to discrete subcomponents, the shrinking-back rule becomes legally unavailable during an IRS examination or Tax Court litigation."
+    },
+    {
+      "type": "paragraph",
+      "text": "This strict evidentiary standard aligns with the landmark precedents established in <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, T.C. Memo. 2021-15, <em>aff'd</em>, 62 F.4th 287 (7th Cir. 2023), and <em>Suder v. Commissioner</em>, T.C. Memo. 2014-201. In <em>Little Sandy Coal</em>, both the Tax Court and the U.S. Court of Appeals for the Seventh Circuit emphasized that taxpayers bear the strict quantitative burden of proving that \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" (at least 80%) of the research activities measured on a business component (or a properly documented subcomponent) constituted elements of a Process of Experimentation. Where a taxpayer relies on arbitrary percentage estimates, unallocated project hours, or retrospective managerial recollections (as examined in <em>Suder</em> and rejected in <em>Little Sandy Coal</em> and <em>Phoenix Design Group</em>), the taxpayer cannot mathematically substantiate the numerator and denominator of the 80% \"substantially all\" fraction for either the overall project or any shrunk-back subcomponent, resulting in complete disallowance of the component's QREs."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "ATG-Identified High-Risk Practice",
+        "Statutory / Regulatory Provision Violated",
+        "Administrative & Judicial Consequence"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Hybrid/Nexus Manager Estimates: Multiplying cost-center W-2 wages by retrospective manager percentage recollections.",
+            "IRC § 41(b) QRE Substantiation & IRC § 6001 Permanent Recordkeeping.",
+            "Disallowance of claimed wage QREs due to lack of auditable nexus between employee hours and qualified research on specific business components."
+          ]
+        },
+        {
+          "cells": [
+            "Linear Design Workflows: Sequential design stages relying on standard formulas, building codes, or historical company data.",
+            "IRC § 41(d)(1)(A)–(C) Technological Uncertainty & Process of Experimentation.",
+            "Full project credit disallowance and imposition of a 20% accuracy-related penalty under IRC § 6662 (<em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113)."
+          ]
+        },
+        {
+          "cells": [
+            "Aggregate <a href=\"/us/glossary/project-accounting\">Project Accounting</a>: Failing to track employee hours and research costs at the specific subcomponent level.",
+            "Treas. Reg. § 1.41-4(b)(2) Shrinking-Back Rule & IRC § 41(d)(2) Business Component Rule.",
+            "Inability to apply the shrinking-back rule when the overall project fails the 80% substantially all test, causing 100% disallowance of subcomponent costs (<em>Little Sandy Coal</em>; <em>Phoenix Design Group</em>)."
+          ]
+        },
+        {
+          "cells": [
+            "Inclusion of High-Risk Software Tasks: Claiming routine maintenance, off-the-shelf application configuration, or reverse engineering.",
+            "IRC § 41(d)(4) Excluded Activities & IRS Software Audit Guidelines.",
+            "Immediate classification as High-Risk non-qualified activity and summary audit adjustment disallowing associated software wage and contractor QREs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Hypothetical Worked Example: Audit Disallowance and Penalty Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact financial mechanics of an ATG-guided examination and the fiscal impact of subcomponent accounting granularity, the following worked example compares two substantiation methodologies for a hypothetical engineering firm (\"Apex Design Corp.\") claiming the IRC Section 41 regular research credit—computed at the statutory rate of 20% of QREs exceeding a fixed base amount under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC Section 41(a)(1)</a>—and facing potential exposure to a 20% accuracy-related penalty under IRC Section 6662."
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Hypothetical Parameters"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume that for the tax year under examination, hypothetical taxpayer Apex Design Corp. incurs $1,000,000 in total W-2 wages within its central engineering cost center for the development of an integrated commercial HVAC control system (\"Project Alpha\") alongside other routine commercial engineering engagements. Assume further that Apex Design Corp. has a verified statutory base amount of $200,000 computed under <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">IRC Section 41(c)</a> and elects to calculate its regular research credit at the statutory rate of 20% of excess QREs pursuant to IRC Section 41(a)(1)."
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario A: The Hybrid/Nexus Estimation Approach (Disallowed under ATG and Phoenix Design Group)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Scenario A, Apex Design Corp. employs the hybrid/nexus estimation methodology by interviewing its engineering director ten months after the close of the tax year. Relying on <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective managerial recollection</a> rather than contemporaneous time logs, the engineering director estimates that 60% of the central cost center's engineering hours were devoted to qualified research activities on Project Alpha. Multiplying the $1,000,000 cost-center W-2 wage pool by the 60% managerial estimate yields initially claimed wage QREs of $600,000:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Claimed Wage QREs<sub>Scenario A</sub> = $1,000,000 × 0.60 = $600,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subtracting the $200,000 <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">statutory base amount</a> from the $600,000 in claimed QREs produces excess QREs of $400,000, which at the 20% statutory regular credit rate results in an initially claimed IRC Section 41 tax credit of $80,000 reported on Form 6765:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess QREs<sub>Scenario A</sub> = $600,000 − $200,000 = $400,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Initially Claimed Regular Credit<sub>Scenario A</sub> = $400,000 × 0.20 = $80,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the subsequent IRS examination, the field examiner applies the analytical framework of the ATG and determines that overall Project Alpha followed a sequential, linear six-stage engineering workflow relying on standard thermodynamic formulas and established mechanical codes, thereby failing the Process of Experimentation test under IRC Section 41(d)(1)(C). Although one specialized subcomponent within the project (\"Subcomponent X: Variable-Refrigerant Acoustic Damper\") involved genuine technological uncertainty at the outset and underwent iterative prototype failures and redesigns, Apex Design Corp. maintained only aggregate cost-center W-2 wage totals and retrospective manager percentage estimates, with zero subcomponent-level time logs. Following the binding judicial precedent established in <em>Phoenix Design Group, Inc. v. Commissioner</em> and <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, neither the IRS examiner nor a reviewing court can apply the shrinking-back rule under Treas. Reg. § 1.41-4(b)(2) because the evidentiary record lacks subcomponent-level cost and time documentation, reducing allowed QREs and the allowed tax credit to $0:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Allowed QREs Post-Audit<sub>Scenario A</sub> = $0 ⟹ Allowed Credit Post-Audit<sub>Scenario A</sub> = $0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, the full $80,000 claimed research credit is disallowed, creating an $80,000 federal income tax underpayment. Because reliance on retrospective manager estimates without contemporaneous subcomponent documentation fails to establish reasonable cause and good faith, the IRS assesses the 20% accuracy-related penalty under IRC Section 6662(a), adding a $16,000 statutory penalty for a total post-audit liability of $96,000 (excluding statutory interest):"
+    },
+    {
+      "type": "paragraph",
+      "text": "IRC § 6662 Penalty<sub>Scenario A</sub> = $80,000 × 0.20 = $16,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total Post-Audit Liability<sub>Scenario A</sub> = $80,000 + $16,000 = $96,000"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario B: ATG-Compliant Contemporaneous Subcomponent Tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Scenario B, rather than relying on retrospective managerial estimates, Apex Design Corp. mandates that all engineering personnel record hours daily in an <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">electronic time-tracking system</a> mapped directly to discrete subcomponent codes and supported by a contemporaneous, dated \"R&D Log\" documenting initial technical uncertainties, hypotheses formulated, alternative designs evaluated, and empirical failure analyses. Prior to filing Form 6765, an internal compliance screening removes routine linear engineering tasks on Project Alpha, leaving $350,000 in contemporaneously documented wage QREs specifically tied to iterative experimentation on Subcomponent X and two additional qualifying subcomponents. Subtracting the $200,000 statutory base amount from the $350,000 in substantiated subcomponent QREs yields $150,000 in excess QREs and a claimed <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">regular research tax credit</a> of $30,000:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess QREs<sub>Scenario B</sub> = $350,000 − $200,000 = $150,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Claimed and Sustained Regular Credit<sub>Scenario B</sub> = $150,000 × 0.20 = $30,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon IRS examination, even though overall Project Alpha does not qualify as a single business component, Apex Design Corp.'s granular subcomponent time logs and contemporaneous R&D Logs satisfy the nexus and shrinking-back rule requirements under Treas. Reg. § 1.41-4(b)(2) validated in <em>Phoenix Design Group</em>. The $30,000 research credit is sustained in full, resulting in $0 tax deficiency and $0 accuracy-related penalty under IRC Section 6662."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Hypothetical Computation Step",
+        "Scenario A: Hybrid/Nexus Estimation",
+        "Scenario B: ATG Subcomponent Tracking"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Total Engineering Cost-Center W-2 Wages",
+            "$1,000,000",
+            "$1,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "QRE Allocation Methodology",
+            "60% retrospective manager estimate",
+            "Contemporaneous subcomponent time logs"
+          ]
+        },
+        {
+          "cells": [
+            "Initially Claimed Wage QREs on Form 6765",
+            "$600,000",
+            "$350,000"
+          ]
+        },
+        {
+          "cells": [
+            "Statutory Base Amount (IRC § 41(c))",
+            "$200,000",
+            "$200,000"
+          ]
+        },
+        {
+          "cells": [
+            "Excess QREs Claimed",
+            "$400,000",
+            "$150,000"
+          ]
+        },
+        {
+          "cells": [
+            "Initially Claimed Regular Credit (20% Rate)",
+            "$80,000",
+            "$30,000"
+          ]
+        },
+        {
+          "cells": [
+            "Substantiated Subcomponent QREs Post-Audit",
+            "$0 (Shrinking-back unavailable)",
+            "$350,000 (Shrinking-back satisfied)"
+          ]
+        },
+        {
+          "cells": [
+            "Allowed IRC § 41 Credit Post-Audit",
+            "$0",
+            "$30,000"
+          ]
+        },
+        {
+          "cells": [
+            "Disallowed Credit / Tax Deficiency",
+            "$80,000",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "IRC § 6662 Accuracy-Related Penalty (20%)",
+            "$16,000",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Total Post-Audit Liability (Deficiency + Penalty)",
+            "$96,000",
+            "$0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Implementation of ATG-Aligned Compliance Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "Transforming the administrative guidance of the R&D ATG into durable <a href=\"/us/faq/how-to-defend-rd-tax-credit-audit\">examination defense</a> requires replacing retrospective, interview-driven tax studies with forward-looking internal accounting and engineering controls. Corporate tax departments and engineering leadership can operationalize the verification standards of the ATG across four integrated governance mechanisms."
+    },
+    {
+      "type": "subheading",
+      "text": "Standardized Contemporaneous R&D Logs and Subcomponent Time Tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizations claiming research credits under IRC Section 41 must institute a standardized, contemporaneous \"R&D Log\" for every candidate development project at project inception. Directly mirroring the ATG's examination criteria for Technological Uncertainty and the Process of Experimentation, this structured technical log must be continuously updated in real time to record four essential evidentiary elements: the specific capability, method, or design uncertainty existing at the outset of the project that could not be resolved through standard engineering calculations or historical data; the scientific or engineering hypotheses formulated to resolve that technical uncertainty; the distinct technical alternatives evaluated through modeling, simulation, or systematic trial; and the empirical test results, failure analyses, and subsequent design iterations. Concurrently, corporate accounting policies must formally prohibit the hybrid/nexus methodology based on retrospective managerial recollection. Labor cost accounting must transition to <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">contemporaneous electronic time-tracking systems</a> that allocate employee hours directly to specific activities at the subcomponent level, ensuring immediate evidentiary readiness to invoke the shrinking-back rule under Treas. Reg. § 1.41-4(b)(2) if an overarching project is challenged during examination."
+    },
+    {
+      "type": "subheading",
+      "text": "Pre-Filing Exclusion Filters and Internal Mock Audits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to filing Form 6765, corporate tax teams should execute a formal pre-filing exclusion filter that screens all candidate QREs against both the statutory exclusions of IRC Section 41(d)(4) and the IRS Software Audit Guidelines' three-tier risk matrix. By systematically stripping out High-Risk activities—such as routine software maintenance, off-the-shelf application configuration, standard debugging, reverse engineering, and <a href=\"/us/glossary/adaptation-exclusion\">customer-specific adaptation of existing components</a>—taxpayers eliminate easily identifiable audit adjustments that otherwise erode examiner trust and trigger comprehensive IDR expansion. In addition, organizations should conduct internal \"mock audits\" prior to return submission. In a structured mock audit, a tax controversy specialist independent of the original study preparation team evaluates the claim strictly through the analytical lens of the ATG—auditing Technological Uncertainty at project outset, iterative Process of Experimentation records, and subcomponent nexus documentation—to identify and remediate evidentiary gaps before an IRS examination notice is ever issued."
+    },
+    {
+      "type": "subheading",
+      "text": "Proactive IRS Engagement: Pre-Filing Agreements (PFAs) and Technical Advice Memoranda (TAMs)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxpayers with substantial QRE claims, novel technological domains, or complex cost-accounting architectures, direct procedural engagement with the IRS can resolve methodological disputes before they escalate into litigation. Taxpayers within the jurisdiction of the IRS Large Business & International (LB&I) division may apply for a Pre-Filing Agreement (PFA). A PFA enables the taxpayer and the IRS to collaboratively examine and resolve the acceptability of the taxpayer's QRE cost-allocation methodology and application of the Four-Part Test before the tax return is filed, delivering binding administrative certainty aligned with ATG standards. Conversely, when an active field examination generates an intractable dispute over an ambiguous interpretation of the ATG or complex statutory provisions—such as the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">internal-use software exclusion</a> omitted from the general ATG—taxpayers should utilize the Request for Technical Advice (TAM) procedure. A TAM refers the disputed legal or technical question to the IRS National Office for a definitive interpretation, ensuring that the controversy is adjudicated according to uniform national tax policy rather than localized field examiner discretion."
+    },
+    {
+      "type": "subheading",
+      "text": "Continuous Judicial Intelligence and Annual ATG Compliance Reviews"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate R&D tax compliance architectures must evolve dynamically alongside emerging U.S. Tax Court and federal appellate jurisprudence as well as updated IRS administrative notices. Tax leadership should establish a formal governance protocol to integrate holdings from recent decisions—such as the subcomponent documentation requirements and IRC Section 6662 penalty holdings in <em>Phoenix Design Group</em> and the strict 80% \"substantially all\" experimentation standards in <em>Little Sandy Coal</em>—directly into annual engineering and project-management training. Conducting an Annual ATG Compliance Review through an independent external specialist ensures that internal time-tracking systems, Form 6765 disclosures, and contemporaneous technical project logs do not suffer from methodological drift over time, preserving both full credit sustainability and a documented \"reasonable cause\" defense against statutory accuracy-related penalties."
+    },
+    {
+      "type": "heading",
+      "text": "Conclusion: Synthesizing Administrative Guidance and Evidentiary Governance"
+    },
+    {
+      "type": "paragraph",
+      "text": "The operational reality of IRC Section 41 enforcement demonstrates that while the IRS Audit Techniques Guide (ATG) and the Research Credit Claims Audit Techniques Guide (RCCATG) lack the formal legal force of statutes or Treasury Regulations, they function as the definitive administrative yardstick against which every corporate research tax credit claim is measured. When taxpayers rely on retrospective cost-center estimates, conflate linear engineering design with iterative scientific experimentation, or fail to capture employee time and technical uncertainties at the discrete subcomponent level, the convergence of ATG examination protocols and federal judicial precedent—exemplified by <em>Phoenix Design Group, Inc. v. Commissioner</em> and <em>Little Sandy Coal Co., Inc. v. Commissioner</em>—renders the claimed credits indefensible and exposes the enterprise to 20% accuracy-related penalties under IRC Section 6662. By embedding ATG verification standards directly into real-time subcomponent time tracking, contemporaneous R&D experimentation logs, pre-filing software risk filters, and proactive administrative procedures such as Pre-Filing Agreements, corporate taxpayers can bridge the divide between engineering execution and tax substantiation, transforming the ATG from an examination vulnerability into a durable framework for <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a>."
+    }
+  ]
+}

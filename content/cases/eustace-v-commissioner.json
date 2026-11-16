@@ -1,504 +1,467 @@
 {
   "slug": "eustace-v-commissioner",
   "title": "Eustace v. Commissioner",
-  "articleTitle": "The Jurisprudential Legacy of Eustace v. Commissioner: Navigating Documentation and Innovation in the Research and Development Tax Credit",
   "caseNumber": "T.C. Memo. 2001-66",
   "court": "United States Tax Court",
   "year": 2001,
   "subject": "Substantiation and the Cohan Doctrine",
   "jurisdictionGroup": "usa-federal",
   "jurisdictionSlug": "federal",
-  "summary": "Ruled that off-the-shelf software modified for internal use did not meet the high threshold of innovation required for the credit.",
+  "summary": "Eustace v. Commissioner (7th Cir. 2002, aff'g T.C. Memo. 2001-66) is a key U.S. federal R&D tax credit case for commercial software developers and their shareholders. The courts disallowed 100 percent of Applied Systems' I.R.C. § 41 credits, holding that routine coding, debugging, and performance tuning are not a process of experimentation, and that wage claims need subcomponent-level substantiation.",
   "body": [
     {
-      "type": "paragraph",
-      "text": "The evolution of the Research and Development (R&D) tax credit under Section 41 of the Internal Revenue Code has been a turbulent journey, marked by shifting regulatory definitions and increasingly stringent judicial scrutiny. At the epicenter of this evolution lies the landmark case of Eustace v. Commissioner, a 2002 decision by the United States Court of Appeals for the Seventh Circuit that affirmed a prior Tax Court memorandum. This case remains a foundational pillar in R&D tax controversy, not only for its restrictive interpretation of \"qualified research\" within the software industry but also for establishing a rigorous standard for documentation and the categorical rejection of retrospective estimates. As the Internal Revenue Service (IRS) implements transformative reporting requirements through the 2024 and 2025 revisions of Form 6765, the principles established in Eustace regarding project-level nexus and contemporaneous evidence have ascended to renewed significance."
-    },
-    {
       "type": "heading",
-      "text": "The Statutory Architecture and Historical Context of Section 41"
+      "text": "1. Executive Summary and Case Background"
     },
     {
       "type": "paragraph",
-      "text": "The R&D tax credit was originally conceived in 1981 as a temporary measure to stimulate a flagging American economy by incentivizing the technical advancements necessary for national growth. Through Section 41, Congress sought to lower the cost of domestic innovation, particularly in fields where technical uncertainty presented a significant barrier to entry. Over the decades, however, the credit matured from a simple incentive into one of the most litigated and scrutinized areas of tax law. To navigate this complexity, a taxpayer’s activities must satisfy a rigorous four-part test. First, the expenditures must be eligible for treatment as specified research or experimental expenditures under Section 174, the \"Section 174 Test\". Second, the research must be undertaken for the purpose of discovering information that is technological in nature, known as the \"Technological Information Test\". Third, the application of that research must be intended to be useful in the development of a new or improved business component, the \"Business Component Test\". Finally, substantially all of the research activities must constitute elements of a process of experimentation, the \"Process of Experimentation Test\"."
+      "text": "The decision in <em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66, 81 T.C.M. (CCH) 1370 (2001), <em>aff'd</em>, 312 F.3d 905 (7th Cir. 2002), <em>cert. denied</em>, 539 U.S. 915 (2003), stands as one of the most consequential federal tax authorities in the United States governing the eligibility of commercial software development for the Research and Development (R&D) tax credit under <a href=\"/us/glossary/irc-section-41\">Internal Revenue Code (I.R.C.) § 41</a> (26 U.S.C. § 41). Litigated initially before Judge Maurice B. Foley in the United States Tax Court and affirmed by a unanimous panel of the United States Court of Appeals for the Seventh Circuit in an opinion authored by Judge Frank H. Easterbrook, <em>Eustace</em> established two enduring pillars of U.S. R&D tax jurisprudence. On a substantive technical level, the ruling confirmed that routine, industrious commercial software engineering—characterized by incremental feature additions, memory optimization, multi-user concurrency updates, module replacements, and iterative trial-and-error debugging—does not constitute a qualified \"process of experimentation\" under I.R.C. § 41(d)(1)(C). On an evidentiary and procedural level, the Tax Court's opinion dismantled the practice of submitting retrospective, prepackaged R&D tax credit studies that aggregate departmental wages wholesale without establishing a verifiable nexus between employee compensation and qualified research activities at the business subcomponent level."
+    },
+    {
+      "type": "subheading",
+      "text": "Factual Context and the Taxpayers' Claim"
     },
     {
       "type": "paragraph",
-      "text": "The following table delineates the primary requirements of the Section 41 four-part test as interpreted through the lens of modern jurisprudence and the Eustace decision:"
+      "text": "During the taxable years at issue—1990, 1991, and 1992—Applied Systems, Inc. operated as a Subchapter S corporation based in Illinois that developed, marketed, and sold commercial software packages to independent insurance agencies across the United States to manage their day-to-day agency operations and perform insurance risk-rating calculations. Because Applied Systems elected Subchapter S status under the Internal Revenue Code, its items of income, loss, deduction, and tax credit flowed through directly to its shareholders, Nicholas E. Eustace and fellow investors, who reported those <a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through items</a> on their individual federal income tax returns. Throughout the 1990–1992 period, Applied Systems was a substantial enterprise comprising five operational departments and approximately 450 employees, including a large staff of skilled computer programmers and software developers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied Systems did not claim any R&D tax credits under I.R.C. § 41 on its originally filed federal tax returns for the 1990, 1991, or 1992 tax years. Following the close of those tax years, on December 30, 1993, Applied Systems hired a new tax manager, who determined that Applied Systems should claim research credits for the years at issue, interviewed employees, and delineated the employees and activities that he believed qualified (a claim the IRS later described as a typical accounting firm study and prepackaged submission). Relying on this retroactive determination, Applied Systems submitted amended returns on June 24, 1994, and August 30, 1995, claiming research credits under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41(a)</a> of $235,536, $127,426, and $289,449 for 1990, 1991, and 1992, respectively, which flowed through to its shareholders, who later added the wages of 21 additional employees ($635,371) to their claim through amended pleadings filed in April 1997 and argued that § 41(d) requires \"only that there be significant programming changes to software\". To construct the quantitative claim, the tax manager conducted retrospective interviews with select personnel and compiled a pro-forma spreadsheet designed to \"list the salaries\" of 227 of the company's 450 employees whom the tax manager deemed to have performed qualified research services."
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical software activities underlying the refund claims spanned Applied Systems' agency-management software (The Agency Manager (TAM) module and the Forms/Interface Module (FIM)), its \"First Rate\" rating module, and other projects (data conversion, Independence, WinTAM, Diamond, and evaluations/R&D); the Seventh Circuit illustrated the character of this early-1990s work with five representative enhancements, while noting that these were not the only changes. First, developers enhanced the software package so that it could handle additional ratings computations (in the Tax Court record, employees converted State regulations and carrier rating formulas into approximately 3,000 rating programs from 1990 through 1992). Second, programmers created electronic communication capabilities to facilitate transactions and data exchange between insurance carriers and independent agencies. Third, the engineering staff modified the file-handling architecture so that multiple agency employees could access and work on the same customer file simultaneously without corrupting data or overwriting each other's changes. Fourth, developers enhanced the software so that more functions could be handled in a given amount of random access memory (RAM). Fifth, the company replaced a licensed third-party word processing module with an internally coded, simpler text editor designed to reduce system memory demands while providing integrated form-letter generation capabilities."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon examination of the amended returns, the Commissioner of Internal Revenue disallowed the claimed research credits in full and issued statutory notices of deficiency to the shareholders. While the Commissioner conceded that this work met many of the requirements of I.R.C. § 41, the Internal Revenue Service (IRS) contested several others, of which the Seventh Circuit found only two required attention: the technological information (discovery) test and the process of experimentation test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Substantively, the Commissioner contended that Applied Systems' employees did not undertake research to discover information that is technological in nature and that substantially all of their research activities did not constitute elements of a process of experimentation; the trial record showed that Applied Systems merely updated mature products using techniques commonly known in the computer science field, including third-party vendor software purchased to facilitate memory management, multitasking, and indexing. Consequently, the IRS argued that the activities failed both the technological information discovery test of I.R.C. § 41(d)(1)(B)(i) and the process of experimentation test of I.R.C. § 41(d)(1)(C). Evidentiarily, although the Tax Court framed the Commissioner's contentions around those two statutory tests, the Tax Court itself found at the outset of its analysis that petitioners' reconstruction of <a href=\"/us/glossary/qualified-research-expenses-qre\">Qualified Research Expenses (QREs)</a> for the 227 employees was unreliable, inaccurate, incomplete, and wholly insufficient to establish what various workers did, and petitioners acknowledged that they lacked the substantiation necessary to tie salaries to activities at the subcomponent level."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the United States Internal Revenue Code, I.R.C. § 41(a)(1) allows a general business credit (governed by the limitations of I.R.C. § 38) equal to 20 percent of the excess of the taxpayer's Qualified Research Expenses (QREs) for the taxable year over a statutory <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a>. Enacted originally in 1981 to stimulate private-sector investment in technological innovation and tightened by Congress in 1986 to prevent taxpayers from claiming the credit for virtually any product development expense, the statute measures the credit strictly by inputs into the experimental process. Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">I.R.C. § 41(b)(1)</a> and (b)(2), in-house QREs are strictly limited to supply expenses, payments for the right to use computers in the conduct of qualified research, and \"wages paid or incurred to an employee for qualified services performed by such employee\". Pursuant to I.R.C. § 41(b)(2)(B), \"qualified services\" encompass only engaging in qualified research, directly supervising qualified research, or <a href=\"/us/glossary/direct-support\">directly supporting qualified research</a>. Furthermore, under the <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" rule</a> of I.R.C. § 41(b)(2)(B) and Treas. Reg. § 1.41-2(d)(2), if at least 80 percent of an employee's services during a taxable year constitute qualified services, 100 percent of that employee's I.R.C. § 3401(a) wages may be included as QREs; otherwise, only the rigorously substantiated fraction of time dedicated to qualified services is eligible."
+    },
+    {
+      "type": "paragraph",
+      "text": "For underlying activities to qualify as \"qualified research,\" <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">I.R.C. § 41(d)(1)</a> mandates that the taxpayer satisfy a conjunctive four-part statutory test applied separately to each discrete \"business component,\" which I.R.C. § 41(d)(2)(B) defines as any product, process, computer software, technique, formula, or invention held for sale, lease, or license, or used by the taxpayer in a trade or business. Under the Section 174 Test of I.R.C. § 41(d)(1)(A), the expenditures connected with the research activity must be eligible for treatment as expenses under I.R.C. § 174, meaning they must be <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental expenditures</a> incurred in the experimental or laboratory sense to eliminate technical uncertainty concerning the capability, method, or appropriate design for developing or improving a product. While domestic research and software development expenditures for taxable years beginning after December 31, 2024, are governed by I.R.C. § 174A for current deductibility versus capitalization under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">I.R.C. § 174</a>, the substantive threshold requiring technical uncertainty remains identical. Under the Technological Information Test of I.R.C. § 41(d)(1)(B)(i), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, relying fundamentally on principles of the physical or biological sciences, engineering, or computer science. Under the <a href=\"/us/glossary/permitted-purpose\">Permitted Purpose</a> or Business Component Test of I.R.C. § 41(d)(1)(B)(ii) and (d)(3)(A), the application of that information must be intended to be useful in developing a new or improved business component's function, performance, reliability, or quality. Finally, under the <a href=\"/us/glossary/process-of-experimentation\">Process of Experimentation</a> Test of I.R.C. § 41(d)(1)(C), substantially all of the research activities must constitute elements of a process of experimentation for a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, <a href=\"/us/legislation/26-usc-41d2-business-component-test\">I.R.C. § 41(d)(2)(A)</a> and Treas. Reg. § 1.41-4(b)(2) establish the \"shrinking-back\" rule: if an overall business component (such as an entire commercial software release) fails the four-part test because substantially all of the development activities do not constitute a process of experimentation, the four-part test is applied iteratively to progressively smaller subsets or subcomponents until either a qualifying subcomponent is isolated or the most basic level of the component is reached and fails. In addition, activities must fall outside the statutory exclusions of I.R.C. § 41(d)(4), including <a href=\"/us/glossary/research-after-commercial-production\">research after commercial production</a> (§ 41(d)(4)(A)), adaptation of an existing business component to a particular customer's requirement or need (§ 41(d)(4)(B)), duplication of an existing business component (§ 41(d)(4)(C)), internal-use software unless meeting heightened innovation tests (§ 41(d)(4)(E)), and funded research (§ 41(d)(4)(H))."
+    },
+    {
+      "type": "subheading",
+      "text": "Final Holding of the Courts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both the United States Tax Court and the United States Court of Appeals for the Seventh Circuit ruled decisively in favor of the Commissioner, disallowing 100 percent of the claimed R&D tax credits. At the trial level, the Tax Court held that the petitioners fell \"woefully short\" of establishing entitlement to the credit under I.R.C. § 41. Judge Foley ruled that Applied Systems neither undertook research to discover technological information producing an \"innovation in underlying principle\" under § 41(d)(1)(B)(i) nor conducted a \"process of experimentation\" aimed at dispelling uncertainty regarding the technical capability to develop the software under § 41(d)(1)(C). Furthermore, the Tax Court rejected the taxpayers' retrospective wage compilation as <em>\"unreliable, inaccurate, incomplete, and wholly insufficient,\"</em> holding that the taxpayers failed to tie employee salaries to qualified research activities at the subcomponent level and that the judicial estimation rule of <em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930), did not require the court, in that case, to make an allocation of salaries to functionality, which it declined to do."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the Seventh Circuit affirmed the Tax Court's judgment in its entirety. Writing for the panel, Judge Easterbrook held that Applied Systems engaged in ordinary, non-pioneering commercial software development that relied on variations of themes long utilized across the software industry. Reaffirming Seventh Circuit precedent in <em><a href=\"/us/united-stationers-v-united-states\">United Stationers, Inc. v. United States</a></em>, 163 F.3d 440 (7th Cir. 1998), and <em>Wicor, Inc. v. United States</em>, 263 F.3d 659 (7th Cir. 2001), the court held that industrious trial-and-error coding, performance fine-tuning, and program debugging do not constitute a scientific process of experimentation. The Seventh Circuit further held that Applied Systems failed even under the Tenth Circuit's standard in <em>Tax & Accounting Software Corp. v. United States</em>, 301 F.3d 1254 (10th Cir. 2002), declined to apply the non-binding December 2001 Proposed Treasury Regulations (66 Fed. Reg. 66,362) retroactively, and ruled that the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">core four-part test</a> of I.R.C. § 41(d)(1) applies with full force to commercial software held for sale, independent of the internal-use software provisions of I.R.C. § 41(d)(4)(E)."
     },
     {
       "type": "table",
       "headers": [
-        "Test Component",
-        "Legal Standard and Requirement",
-        "Impact of Eustace Interpretation"
+        "Case Attribute",
+        "Legal and Procedural Detail"
       ],
       "rows": [
         {
           "cells": [
-            "Section 174 Test",
-            "Expenditures must be connected to the taxpayer's trade or business and intended to eliminate uncertainty.",
-            "Reinforced that uncertainty must be technical, not merely business or design-related."
+            "Case Citation",
+            "<em>Eustace v. Commissioner</em>, T.C. Memo. 2001-66, 81 T.C.M. (CCH) 1370 (2001), <em>aff'd</em>, 312 F.3d 905 (7th Cir. 2002), <em>cert. denied</em>, 539 U.S. 915 (2003)"
           ]
         },
         {
           "cells": [
-            "Technological Information Test",
-            "Research must fundamentally rely on principles of physical or biological sciences, engineering, or computer science.",
-            "Established that \"simple industrious development\" does not equate to discovering technological information."
+            "Jurisdiction & Courts",
+            "United States Federal Tax Law; U.S. Tax Court (Judge Maurice B. Foley) and U.S. Court of Appeals for the Seventh Circuit (Judges Bauer, Easterbrook, and Manion)"
           ]
         },
         {
           "cells": [
-            "Business Component Test",
-            "Research must be intended for the development of a new or improved product, process, software, technique, formula, or invention.",
-            "Emphasized that the business component must be held for sale, lease, license, or used in the trade or business."
+            "Taxpayer Entity & Structure",
+            "Applied Systems, Inc. (Subchapter S Corporation with 5 departments and 450 employees); Petitioners were <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">pass-through S-Corp shareholders</a>"
           ]
         },
         {
           "cells": [
-            "Process of Experimentation Test",
-            "80% or more of activities must involve evaluating alternatives through a scientific method (modeling, simulation, trial and error).",
-            "Differentiated the \"scientific sense\" of experimentation from the layperson’s \"trial and error\"."
+            "Taxable Years at Issue",
+            "1990, 1991, and 1992 (claimed retroactively via <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a> filed in 1994 and 1995 after a newly hired tax manager determined that research credits should be claimed)"
+          ]
+        },
+        {
+          "cells": [
+            "Claimed QRE Base",
+            "Retroactively compiled pro-forma worksheet listing salaries of 227 out of 450 employees whom the tax manager believed qualified (wages of 21 additional employees were added via amended pleadings in April 1997)"
+          ]
+        },
+        {
+          "cells": [
+            "Primary Statutory Provisions",
+            "I.R.C. §§ 41(a), 41(b)(2), 41(d)(1)(B)(i), 41(d)(1)(C), <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">41(d)(3)(A)</a>, and 41(d)(4)(E); H. Conf. Rept. 99-841 (most significant set of elements); Cohan v. Commissioner, 39 F.2d 540 (2d Cir. 1930)"
+          ]
+        },
+        {
+          "cells": [
+            "Dispositive Holdings",
+            "100% disallowance of claimed credits; routine commercial software development and debugging fail § 41(d)(1)(B)(i) and § 41(d)(1)(C); wholesale wage claims lacking subcomponent nexus fail substantiation and cannot be rescued via the <em>Cohan</em> doctrine"
           ]
         }
       ]
     },
     {
       "type": "heading",
-      "text": "The Facts of Applied Systems and the Eustace Petition"
+      "text": "2. Core Legal and Evidentiary Failures"
     },
     {
       "type": "paragraph",
-      "text": "The petitioners in Eustace v. Commissioner were the shareholders of Applied Systems, a Subchapter S corporation that developed and sold sophisticated software used by independent insurance agencies to manage their multifaceted business operations. During the early 1990s, Applied Systems embarked on a massive effort to enhance its existing software packages. These enhancements included the development of additional ratings computations to handle complex transaction modules, the implementation of concurrency management to allow multiple users to access files simultaneously without data corruption, and the creation of a memory-efficient proprietary text editor to replace a third-party word processing module."
+      "text": "A granular examination of both the Tax Court memorandum opinion and the Seventh Circuit appellate decision reveals that the disallowance in <em>Eustace</em> resulted from a compounding series of substantive, methodological, and evidentiary failures. Rather than presenting a surgical, project-by-project technical analysis supported by <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous engineering records</a>, the taxpayers advanced an overbroad, department-wide claim resting on routine software maintenance and post-hoc salary reconstructions."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Prove Technological Uncertainty and the Discovery Standard"
     },
     {
       "type": "paragraph",
-      "text": "Applied Systems did not initially claim the research credit on its originally filed income tax returns for 1990 through 1992. However, the corporation eventually hired a new tax manager who embarked on a retrospective study to identify qualifying expenses. This manager interviewed five departments and approximately 450 employees, ultimately filing amended returns claiming substantial R&D credits. The IRS disallowed these credits, asserting that the software development activities did not rise to the level of \"qualified research\" and that the taxpayer had failed to adequately substantiate its expenses. This disagreement led the petitioners to challenge the Commissioner’s determination in the Tax Court, which ultimately agreed with the IRS that the credit was not available on the facts of the case."
+      "text": "Under I.R.C. § 41(d)(1)(A) (incorporating <a href=\"/us/glossary/irc-section-174\">I.R.C. § 174</a>) and § 41(d)(1)(B)(i), a taxpayer must demonstrate that its development activities were undertaken to eliminate fundamental technological uncertainty and discover information that is technological in nature. During the era in which <em>Eustace</em> was litigated—prior to the December 2003 promulgation of Final Treasury Regulations in T.D. 9104—the Seventh Circuit adhered to a strict judicial \"discovery test\" established in <em>United Stationers</em> and <em><a href=\"/us/wicor-v-united-states\">Wicor</a></em>. Under that test, research satisfied § 41(d)(1)(B)(i) only if it was undertaken to \"expand or refine existing principles of computer science\" and yielded technological information \"of broad effect\" that exceeded the current state of knowledge of skilled professionals in the field."
+    },
+    {
+      "type": "paragraph",
+      "text": "At trial before the Tax Court, Applied Systems failed to demonstrate any technological uncertainty under the Seventh Circuit's discovery standard, and on appeal the Seventh Circuit held that it could not meet the Tenth Circuit's broader technological feasibility standard either. In fact, on appeal to the Seventh Circuit, the taxpayers explicitly conceded that if I.R.C. § 41 required what the Tax Court held, their claim could not succeed, and the court observed that <em>\"Applied Systems has not tried to show that its software embodies any leap in information technology or that there was any doubt about the technological ability to produce software of this kind\"</em>. Trial testimony from Applied Systems' own executives directly undermined the existence of technical uncertainty; most damagingly, the company's Vice President in charge of the \"First Rate\" insurance risk-rating software package testified that from 1990 to 1992 there were only \"minor\" enhancements and updates to the system."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when evaluated under the slightly less stringent standard articulated by the Tenth Circuit in <em><a href=\"/us/tax-accounting-software-v-united-states\">Tax & Accounting Software Corp. v. United States</a></em>, 301 F.3d 1254 (10th Cir. 2002)—which rejected the \"expand the field of computer science\" mandate in favor of requiring that the taxpayer seek to discover information separate from the product itself to overcome uncertainty regarding technological feasibility—Applied Systems still failed. Furthermore, while Treasury subsequently eliminated the judicial \"discovery test\" in T.D. 9104 (codified at Treas. Reg. § 1.41-4(a)(3)(i)–(ii)), clarifying that \"discovering information\" does not require obtaining knowledge that exceeds the common knowledge of skilled professionals globally, the modern regulatory standard still strictly requires that information available to the taxpayer does not establish the <em>capability or method</em> for developing or improving the business component, or the <em>appropriate design</em> of that business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Eustace</em>, Applied Systems' developers faced commercial complexity, tight delivery schedules, and coding effort, but they never faced genuine technological uncertainty regarding capability, method, or architectural design. Implementing multi-user file locking to prevent concurrent write corruption, writing a lightweight text editor with mail-merge capabilities to replace a third-party word processor, and encoding insurance rating formulas into software routines were standard software engineering tasks: the Tax Court found that solutions to problems such as locking transactions were commonly known in the computer science field, and the Seventh Circuit found that none of the work was pioneering and all of it entailed variations on themes long used by other developers. As the Seventh Circuit emphasized, experimentation is only a subset of all steps taken to resolve uncertainty; otherwise even searching for a place to park a car would qualify as a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of a Structured Process of Experimentation Versus Industrious Trial-and-Error"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most enduring substantive holding of <em>Eustace</em> lies in its rigorous construction of the \"process of experimentation\" requirement under I.R.C. § 41(d)(1)(C). The statute mandates that \"substantially all of the activities of which constitute elements of a process of experimentation\" for a qualified purpose. Both the Tax Court and the Seventh Circuit drew a sharp doctrinal line between a scientific process of experimentation and the ordinary iterative workflow of commercial software coding."
+    },
+    {
+      "type": "paragraph",
+      "text": "Writing for the Seventh Circuit, Judge Easterbrook explained that while the word \"experiment\" possesses loose conversational shadings in everyday speech, Congress employed the phrase \"process of experimentation\" in I.R.C. § 41(d)(1)(C) in its formal scientific sense: the systematic formulation and testing of hypotheses designed to dissipate technological uncertainty regarding the possibility of success. To illustrate why iterative coding and performance tuning fail this statutory mandate, Judge Easterbrook articulated a foundational analogy in federal tax law: authors and movie makers playing with sentences and scenes to find what most impresses the public are not doing scientific research using \"experimentation\", and developers are authors too, since writing lines of code readable by machines rather than lines of words readable by people does not fundamentally change the nature of the task. By the exact same logic, a computer programmer writing lines of machine-readable code who tries different coding methods to implement a feature with maximum execution speed and minimum demand on system resources (such as RAM), or who engages in iterative \"debugging\" and \"fine-tuning\" through trial-and-error tinkering, is not engaged in a statutory process of experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied Systems' evidentiary record lacked any proof of a structured experimental methodology, suffering from three interrelated technical omissions. First, the developers never formulated testable scientific or computer science hypotheses linking specific algorithmic or architectural variables to unresolved technical uncertainties; as commentary on the ruling aptly summarizes, a commercial project deadline is not a hypothesis. Second, although petitioners contended that employees considered alternatives when adding additional functionality, the record showed no structured evaluation of uncertain technological alternatives; petitioners' own programmer testified that he could immediately know whether something could be made to work or whether it just would not work. Third, the taxpayers conflated routine debugging with experimentation, even though the Tax Court, quoting United Stationers, stated that a process of experimentation \"involves something more than simply debugging a computer program,\" and the Seventh Circuit reaffirmed that fine-tuning (or debugging) of computer programs and industrious trial-and-error software development do not satisfy the statutory standard."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers' attempt to rescue their claim on appeal by invoking the December 26, 2001 Proposed Treasury Regulations (66 Fed. Reg. 66,362) failed precisely on this point. Beyond the black-letter administrative law rule that proposed regulations carry no legal force and the fact that the 2001 draft stated that, when made final, the regulations would apply only to taxable years ending on or after December 21, 2001, Judge Easterbrook added that he doubted the draft would favor Applied Systems in any event, because the proposed regulations essentially track United Stationers' definition of \"experimentation\" as use of the scientific method; the final regulations later adopted in Treas. Reg. § 1.41-4(a)(5) describe a process of experimentation as identifying the uncertainty, identifying one or more alternatives intended to eliminate that uncertainty, and identifying and conducting a process of evaluating those alternatives (for example, through modeling, simulation, or a systematic trial-and-error methodology). Unstructured trial-and-error tinkering without upfront hypothesis formulation and systematic evaluation of alternatives fails under both Seventh Circuit case law and modern Treasury Regulations."
+    },
+    {
+      "type": "subheading",
+      "text": "Wholesale Departmental Aggregation, Subcomponent Nexus Failure, and the Shrinking-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if isolated pockets of genuine technological experimentation had occurred somewhere within Applied Systems' engineering organization between 1990 and 1992, the taxpayers' methodological approach to claiming the credit guaranteed a complete disallowance. Under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" requirement</a> dictates that at least 80 percent of the research activities with respect to a specific business component, measured on a cost or other consistently applied reasonable basis, must constitute elements of a process of experimentation. When an overarching product release (such as an annual version update of an insurance agency management suite) consists predominantly of routine feature additions, user-interface updates, maintenance, and bug fixes, the overall product release fails the 80 percent \"substantially all\" threshold."
+    },
+    {
+      "type": "paragraph",
+      "text": "In such circumstances, a taxpayer's sole statutory avenue for salvaging qualified research expenses is the <a href=\"/us/glossary/shrink-back-rule\">\"shrinking-back\" rule</a> of Treas. Reg. § 1.41-4(b)(2) (derived from the business component hierarchy of I.R.C. § 41(d)(2)). The shrinking-back rule permits the taxpayer to step down from the disqualifying parent product to a discrete, smaller subcomponent (such as a specific concurrency control engine or a specific algorithmic sub-module) and apply the <a href=\"/us/glossary/four-part-test\">four-part test</a> independently to that subcomponent."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, invoking the shrinking-back rule requires an accounting and documentation system capable of isolating both the technical activities and the corresponding employee wage expenses at that exact subcomponent level. In <em>Eustace</em>, the taxpayers did the exact opposite: they claimed the salaries of 227 employees (later supplemented by 21 more) across multiple products and projects—TAM, FIM, First Rate, data conversion, Independence, WinTAM, and Diamond—including routine updates, without the records needed to tie salaries to activities at the subcomponent level. The taxpayers expressly acknowledged that they did not have the substantiation necessary to tie salaries to activities at the subcomponent level. Because the claim was presented as an indivisible, department-wide monolith dominated by routine software development, the Tax Court had no evidentiary mechanism to shrink back the business components or separate any hypothetical experimental subset from the overwhelming volume of routine commercial coding. As <em>Eustace</em> demonstrates, an indivisible claim dominated by routine work fails in its entirety."
+    },
+    {
+      "type": "subheading",
+      "text": "Insufficient Contemporaneous Documentation, Prepackaged Study Flaws, and Rejection of the Cohan Doctrine"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court's scathing dismantling of Applied Systems' substantiation methodology in <em>Eustace</em> became so foundational that the IRS incorporated a dedicated section titled <em>\"Substantiation - The Eustace Case\"</em> directly into Chapter I of the official IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Research Credit Claims Audit Techniques Guide (RCCATG)</a></em>. Under I.R.C. § 6001 and Treas. Reg. § 1.6001-1, every taxpayer is legally required to keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown on any tax return. Under Tax Court Rule 142(a) and <em>Welch v. Helvering</em>, 290 U.S. 111, 115 (1933), the Commissioner's deficiency determinations are presumed correct, and tax credits—being matters of legislative grace—place the strict burden of proof squarely on the taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied Systems' <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">retrospective refund claim</a> suffered from four compounding evidentiary defects that are emblematic of flawed, prepackaged accounting firm studies. First, the credit was never claimed on the original 1990–1992 tax returns; instead, a newly hired tax manager attempted to <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">reconstruct technical activities and employee time allocations</a> years after the tax periods had closed. Second, rather than relying on <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">contemporaneous project timecards</a>, engineering logs, or cost-accounting ledgers, the tax manager interviewed select personnel and generated a pro-forma summary worksheet that simply listed the salaries of 227 out of 450 employees, which the Tax Court found wholly insufficient to establish what various workers did. Third, to bolster the pro-forma salary worksheet at trial, the petitioners presented the <a href=\"/us/glossary/credible-oral-testimony\">oral testimony</a> of only six employees out of the 227 claimed individuals, and, far from helping, the Tax Court found that the testimony of petitioners' witnesses further supported its conclusion that the work did not qualify, while petitioners' computer expert failed to address the technical issues relevant to the case. Fourth, acknowledging that they did not have the substantiation necessary to tie salaries to activities at the subcomponent level, the taxpayers invoked <em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930), arguing that the Tax Court was legally obligated to make a \"reasonable allocation of salaries to functionality\" and estimate the allowable QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judge Foley categorically rejected the application of the <em>Cohan</em> doctrine, characterizing the taxpayers' expense reconstruction as <em>\"unreliable, inaccurate, incomplete, and wholly insufficient\"</em>. The Tax Court did not repudiate the Cohan doctrine itself; rather, having already found that petitioners failed to prove that Applied Systems' activities met the requirements of § 41(d)(1), and given petitioners' acknowledgment that they could not tie salaries to activities at the subcomponent level, the court held that the Cohan rule did not require it, in this case, to make the requested allocation, and it declined to do so. The Tax Court explicitly held that <em>Cohan</em> did not require the Court, in this case, to make an allocation of salaries to functionality across software subcomponents that the taxpayer itself failed to track or substantiate."
+    },
+    {
+      "type": "subheading",
+      "text": "Commercial Software Versus Internal-Use Software and Customer Adaptation Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical legal argument advanced by the taxpayers in <em>Eustace</em> centered on the statutory distinction between <a href=\"/us/glossary/internal-use-software-ius\">internal-use software (IUS)</a> under I.R.C. § 41(d)(4)(E) and commercial software developed for external sale, lease, or license. Because the Seventh Circuit's prior R&D credit decisions in <em>United Stationers</em> and <em>Wicor</em> involved taxpayers that contracted with consulting firms to develop software for their own internal business operations, the <em>Eustace</em> petitioners argued that those precedents were governed by the strict IUS exclusion of § 41(d)(4)(E) (which, during the years at issue, disqualified the costs of internal-use software except to the extent allowed by regulations that had not yet been issued; the separate three-part \"<a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation</a>\" test involving innovativeness, significant economic risk, and commercial unavailability was finalized only later, in Treas. Reg. § 1.41-4(c)(6)) and therefore should not apply to Applied Systems' commercial vendor software."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Seventh Circuit flatly rejected this statutory interpretation, holding that I.R.C. § 41(d)(1) and I.R.C. § 41(d)(4)(E) are independent statutory provisions that require independent legal construction. Every software development project—whether commercial vendor software, SaaS, embedded firmware, or <a href=\"/us/faq/internal-use-software-rd-tax-credit\">internal-use software</a>—must first pass through the threshold gate of the general four-part test under § 41(d)(1). Because the failure to satisfy § 41(d)(1)(B)(i) and § 41(d)(1)(C) in <em>United Stationers</em> constituted an independent and binding ground of decision, commercial software vendors enjoy no exemption from proving technological uncertainty and a scientific process of experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, the factual record in <em>Eustace</em> highlights the constant danger of the statutory exclusions under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)</a>, particularly the Adaptation Exclusion under I.R.C. § 41(d)(4)(B), the Duplication Exclusion under I.R.C. § 41(d)(4)(C), and the Funded Research Exclusion under I.R.C. § 41(d)(4)(H). Although neither court reached the § 41(d)(4) exclusions, the record shows that Applied Systems fixed rounding errors identified by clients, created and annually updated approximately 3,000 carrier-specific rating programs, offered data conversion services to agencies switching from other systems, and integrated acquired COBOL-based systems with FIM. Under I.R.C. § 41(d)(4)(B) and Treas. Reg. § 1.41-4(c)(3), any activity relating to adapting an existing business component to a particular customer's requirement or need is excluded from qualified research. As Tax Court jurisprudence confirms, the <a href=\"/us/glossary/adaptation-exclusion\">adaptation exclusion</a> and the § 174 uncertainty test are deeply intertwined: when a vendor modifies existing software to meet customer specifications using known engineering methodologies without resolving underlying technological uncertainty, the work fails both § 41(d)(1)(A) and § 41(d)(4)(B). Similarly, Applied Systems replaced a licensed third-party word processor with its own simplified text editor capable of generating form letters. Under <a href=\"/us/glossary/duplication-exclusion\">I.R.C. § 41(d)(4)(C)</a> and Treas. Reg. § 1.41-4(c)(4), reproducing an existing business component or functional capability from examination, specifications, or publicly available information does not qualify unless the taxpayer must overcome independent technological uncertainty regarding the capability, method, or design of its own implementation. Finally, where software vendors develop custom rating routines or electronic transaction interfaces in collaboration with insurance carriers or enterprise clients, failure to structure contracts to preserve substantial rights in the resulting technology (Treas. Reg. § 1.41-4A(d)(2)) and ensure payment is contingent upon technical success rather than guaranteed time-and-materials reimbursement (Treas. Reg. § 1.41-2(e)(2)) triggers complete disqualification as <a href=\"/us/glossary/funded-research\">funded research</a> under I.R.C. § 41(d)(4)(H)."
     },
     {
       "type": "heading",
-      "text": "The Judicial Doctrine of the \"Discovery Test\""
+      "text": "3. Comparative Summary Table: Statutory Mandates, Taxpayer Failures, and Judicial Standards of Proof"
     },
     {
       "type": "paragraph",
-      "text": "A central point of contention in the Eustace case was the definition of what it meant to \"discover information\" under Section 41(d)(1)(B)(i). At the time of the Applied Systems projects, the prevailing judicial and administrative interpretation was governed by the \"Discovery Test\". The Tax Court, following precedents like United Stationers, Inc. v. United States, concluded that \"qualified research\" must be research undertaken to discover information that \"goes beyond the current state of knowledge in the computer science field\". The court found that Applied Systems fell \"woefully short\" of this standard. Its activities were described as \"normal software development\" that was neither pioneering nor groundbreaking; rather, it entailed \"variations on themes long used by other developers\"."
-    },
-    {
-      "type": "paragraph",
-      "text": "The Seventh Circuit affirmed this restrictive view, noting that the taxpayer failed to show that its software embodied any leap in information technology or that there was any doubt about the technological ability to produce such software. This high bar required that research must seek to \"expand or refine existing principles of computer science\" and result in information of \"broad effect\". The following comparison table highlights the features developed by Applied Systems and why the court deemed them ineligible under the Discovery Test:"
+      "text": "The following table maps each statutory and regulatory requirement implicated in <em>Eustace v. Commissioner</em> against the specific legal and evidentiary failures committed by Applied Systems and the governing standards of proof enforced by the U.S. Tax Court, the Seventh Circuit, and current Treasury Regulations."
     },
     {
       "type": "table",
       "headers": [
-        "Software Feature",
-        "Taxpayer Argument for Qualification",
-        "Court Reason for Disallowance"
+        "Statutory / Regulatory Requirement",
+        "Statutory & Regulatory Authority",
+        "Taxpayer's Specific Failure in Eustace",
+        "Judicial & Regulatory Standard of Proof"
       ],
       "rows": [
         {
           "cells": [
-            "Ratings Module Expansion",
-            "Required complex new code to handle insurer-to-agency transactions.",
-            "Routine adaptation of existing principles; not an \"innovation in underlying principle\"."
+            "<a href=\"/us/glossary/elimination-of-uncertainty\">Elimination of Technical Uncertainty</a> (The Section 174 Test)",
+            "I.R.C. §§ 41(d)(1)(A), 174 (and modern § 174A); Treas. Reg. §§ 1.174-2(a), 1.41-4(a)(3)",
+            "Treated ordinary software development difficulty, commercial time pressures, and feature extensions (e.g., adding insurance rating computations and insurer-agency transaction scripts) as technical uncertainty. Company's VP admitted updates from 1990–1992 were \"minor\".",
+            "Taxpayer must prove through objective technical evidence that information available at the outset of the project did not establish the <em>capability</em> or <em>method</em> for developing/improving the component, or its <em>appropriate design</em>. Commercial complexity or effort does not establish technical uncertainty."
           ]
         },
         {
           "cells": [
-            "Concurrency Management",
-            "Solved the technical problem of multiple people editing the same file.",
-            "Variations on themes used by other developers; no doubt about technological feasibility."
+            "Discovering Technological Information",
+            "I.R.C. § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(3)–(4)",
+            "Conceded on appeal that it loses if § 41 means what the Tax Court held, and did not try to show any leap in information technology; the Tax Court found no \"innovation in underlying principle\". Relied on standard, long-used programming themes and known computer science methods.",
+            "<strong>Historical <em>Eustace</em> Rule:</strong> Required expanding or refining existing principles of computer science with \"broad effect\" (or, in the 10th Cir., discovering feasibility information separate from the product). <strong>Modern T.D. 9104 Rule:</strong> Discarded the \"expand the field\" discovery rule, but strictly requires proving the resolution of taxpayer-specific capability, method, or design uncertainty via hard sciences (computer science/engineering)."
           ]
         },
         {
           "cells": [
-            "Proprietary Text Editor",
-            "Created a custom module with reduced memory demands and improved form generation.",
-            "Characterized as \"industrious development\" and \"fine-tuning,\" not scientific experimentation."
+            "Process of Experimentation",
+            "I.R.C. § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)",
+            "Equated iterative coding, trial-and-error tinkering, debugging, and RAM/speed optimization with experimentation. Failed to formulate hypotheses, identify competing technological alternatives, or conduct structured scientific evaluations.",
+            "Taxpayer must substantiate a systematic process modeled on the scientific method: (1) identify the specific technical uncertainty; (2) identify one or more technological alternatives intended to eliminate that uncertainty; and (3) conduct a structured evaluation (modeling, simulation, systematic testing) of those alternatives. Simple debugging or ad hoc trial-and-error fails."
           ]
         },
         {
           "cells": [
-            "Third-Party Integration",
-            "Improved module performance for interfacing with insurance carriers.",
-            "Deemed to be \"simple software development\" focused on commercial utility rather than research."
+            "<a href=\"/us/glossary/business-component\">Business Component Definition</a> & Shrinking-Back Rule",
+            "I.R.C. §§ 41(d)(1)(B)(ii), 41(d)(2)(A)–(B); Treas. Reg. § 1.41-4(b)(2)",
+            "Claimed the wages of 227 employees across mature commercial software products and projects wholesale without isolating specific experimental subcomponents. Acknowledged lacking the substantiation necessary to tie salaries to activities at the subcomponent level.",
+            "Each business component must independently satisfy the four-part test and the 80% \"substantially all\" threshold (§ 41(d)(1)(C), Treas. Reg. § 1.41-4(a)(6)). If the overall software release fails, the taxpayer must provide granular technical and accounting evidence to \"shrink back\" the claim to the specific discrete subcomponent where experimentation occurred."
+          ]
+        },
+        {
+          "cells": [
+            "Substantiation, Recordkeeping, & <a href=\"/us/glossary/project-to-expense-nexus\">Cost Nexus</a>",
+            "I.R.C. § 6001; Treas. Reg. §§ 1.6001-1, 1.41-4(d); Tax Court Rule 142(a)",
+            "Filed <a href=\"/us/faq/amending-past-tax-returns-for-missed-rd-credits\">retroactive amended returns</a> for 1990–1992 based on a new tax manager's post-hoc interviews, a pro-forma worksheet listing salaries of 227 out of 450 employees, and general trial testimony of 6 employees without project or subcomponent time logs.",
+            "Taxpayer bears the strict burden of proof to maintain usable records establishing a direct nexus between W-2 wages (§ 41(b)(2)) and <a href=\"/us/glossary/qualified-services\">qualified services</a> performed on specific qualified subcomponents. Retrospective estimates, prepackaged study binders lacking corroborative project records, and uncorroborated oral testimony are rejected as unreliable."
+          ]
+        },
+        {
+          "cells": [
+            "Judicial Estimation Under the <em>Cohan</em> Doctrine",
+            "<em>Cohan v. Commissioner</em>, 39 F.2d 540 (2d Cir. 1930)",
+            "Requested the Tax Court to apply <em>Cohan</em> to estimate QREs by making a \"reasonable allocation of salaries to functionality\" across the 227 listed employees.",
+            "A court will refuse to apply <em>Cohan</em> unless the taxpayer first proves that qualified research activities actually occurred <em>and</em> provides a credible, objective evidentiary foundation upon which a reasonable estimate can be anchored. <em>Cohan</em> never compels a court to fabricate subcomponent salary allocations from an indivisible, department-wide claim."
+          ]
+        },
+        {
+          "cells": [
+            "Commercial vs. Internal-Use Software (IUS) & Exclusions",
+            "I.R.C. §§ 41(d)(4)(B) (Adaptation), 41(d)(4)(C) (Duplication), 41(d)(4)(E) (IUS), 41(d)(4)(H) (Funded)",
+            "Argued that commercial software sold to external customers should be exempt from the strict § 41(d)(1) standards applied in IUS cases (<em>United Stationers</em>, <em>Wicor</em>). Claim encompassed carrier-specific rating programs, data conversion services, and a third-party module replacement (neither court reached the § 41(d)(4)(B)–(C) exclusions).",
+            "I.R.C. § 41(d)(1) and § 41(d)(4)(E) are independent statutory tests; commercial software must fully satisfy all four prongs of § 41(d)(1). Furthermore, taxpayers must affirmatively prove that customer-requested features and module replacements are not excluded adaptations (§ 41(d)(4)(B)), duplications (§ 41(d)(4)(C)), or funded research (§ 41(d)(4)(H))."
           ]
         }
       ]
     },
     {
       "type": "heading",
-      "text": "The Seventh Circuit and the Scientific Method of Experimentation"
+      "text": "4. Two Applied Remedial Case Studies"
     },
     {
       "type": "paragraph",
-      "text": "Beyond the Discovery Test, the Seventh Circuit’s opinion in Eustace provided a profound exploration of the \"Process of Experimentation\" requirement. The court famously distinguished between the lay or engineering sense of \"trial and error\" and the \"scientific sense\" of forming and testing hypotheses. In the view of Judge Easterbrook, Section 41 is about research, which necessitates the use of the scientific method. The court observed that \"Galileo engaged in experiments about acceleration when he rolled balls down an inclined plane,\" but an auto manufacturer trying different paint nozzles or a software developer trying different methods to implement a feature with maximum execution speed is merely \"tinkering\"."
-    },
-    {
-      "type": "paragraph",
-      "text": "This distinction between tinkering and experimentation has become a cornerstone of IRS audit techniques. The court emphasized that experimentation is a \"subset of all steps taken to resolve uncertainty\". Searching for a place to park a car involves resolving uncertainty, but it is not a \"process of experimentation.\" Similarly, the iterative calculations and \"design spirals\" often found in software engineering and shipbuilding are only qualified if they are designed to dispel uncertainty about the \"technological possibility\" of success, rather than merely refining a design for aesthetic or commercial reasons."
-    },
-    {
-      "type": "heading",
-      "text": "Documentation Failures and the Rejection of Retrospective Reconstructions"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Eustace decision is perhaps most frequently cited by the IRS for its findings on documentation and the burden of proof. The taxpayer in Eustace relied on what the court described as a \"typical prepackaged research credit claim study\". This study involved a reconstruction of qualifying expenses by a tax manager after the fact, which the Tax Court found to be \"unreliable, inaccurate, incomplete, and wholly insufficient\"."
+      "text": "To translate the judicial holdings of <em>Eustace v. Commissioner</em> and the audit standards of the IRS <em>Research Credit Claims Audit Techniques Guide (RCCATG)</em> into actionable <a href=\"/us/glossary/rd-tax-credit-audit-defense\">tax controversy defense</a>, the following two industry case studies demonstrate how taxpayers facing the exact technical and evidentiary pitfalls of <em>Eustace</em> can restructure their project governance, technical documentation, commercial contracts, and time-tracking architectures to achieve full compliance under I.R.C. §§ 41, 174, 174A, and 6001."
     },
     {
       "type": "subheading",
-      "text": "The Requirement for Project-Level Nexus"
-    },
-    {
-      "type": "paragraph",
-      "text": "A critical failure in the Eustace case was the taxpayer’s inability to tie employee salaries to qualified activities at the subcomponent level. The taxpayer provided a \"list of salaries\" and testimony from six employees, but the court ruled this was insufficient for the taxpayer to meet its burden of proof. The IRS Research Credit Claims Audit Techniques Guide (RCCATG) explicitly cites Eustace to support the requirement that taxpayers must establish a clear \"nexus\" between the accounting records and the specific research activities."
-    },
-    {
-      "type": "paragraph",
-      "text": "The following table summarizes the documentation shortcomings in the Eustace case as identified by the IRS and the court:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Documentation Component",
-        "Taxpayer’s Provided Evidence",
-        "Court's Determination of Deficiency"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Employee Time Allocation",
-            "Retrospective worksheet listing 227 employees and estimated salary portions.",
-            "Rejected as \"unreliable\" and \"incomplete\"; failed to show nexus to specific research."
-          ]
-        },
-        {
-          "cells": [
-            "Activity Verification",
-            "Oral testimony from six employees regarding the nature of their general tasks.",
-            "Insufficient to prove that specific salaries were paid for \"qualified research activities\"."
-          ]
-        },
-        {
-          "cells": [
-            "Project Specificity",
-            "Broad claims covering the enhancement of the entire software package.",
-            "Failed to tie expenses to specific business components or sub-elements."
-          ]
-        },
-        {
-          "cells": [
-            "Contemporaneous Records",
-            "Virtually non-existent; relied on after-the-fact interviews by the tax manager.",
-            "Highlighted that retrospective estimates cannot replace real-time tracking of research."
-          ]
-        }
-      ]
+      "text": "Case Study 1: Enterprise Insurance SaaS Platform — High-Concurrency Database Synchronization and Actuarial Rating Engine Optimization"
     },
     {
       "type": "subheading",
-      "text": "The Limitation of the Cohan Rule"
+      "text": "Scenario and Inherent Eustace Pitfalls"
     },
     {
       "type": "paragraph",
-      "text": "Taxpayers often attempt to invoke the Cohan rule—a legal principle derived from Cohan v. Commissioner that allows a court to estimate expenses when there is evidence that some expenses were incurred but the exact amount is unknown. However, the Eustace court specifically declined to apply the Cohan rule to make an allocation of salaries. The court reasoned that it was not required to make an allocation where the taxpayer’s evidence was \"insufficient\" and the primary witnesses’ testimony was inconsistent with a finding of research. This established a high bar: the Cohan rule only applies if the taxpayer first proves that qualified research occurred; it cannot be used to bridge a fundamental gap in proving the existence of the research itself."
-    },
-    {
-      "type": "heading",
-      "text": "The Regulatory Shift: T.D. 9104 and the Abandonment of the Discovery Test"
+      "text": "InsureCore Cloud, Inc., a United States Subchapter S corporation employing 420 personnel across five operational departments (including 210 software engineers, QA analysts, and DevOps personnel), develops and licenses a cloud-native agency-management and actuarial risk-rating Software-as-a-Service (SaaS) platform for independent property and casualty insurance brokerages. During the current taxable year, InsureCore Cloud's engineering division executed a major platform release (\"Release 8.0\") encompassing hundreds of routine user-interface updates, state-mandated insurance table updates, bug fixes, and customer-requested reporting dashboards. Embedded within Release 8.0, however, were two complex architectural initiatives mirroring the exact technical domains in <em>Eustace</em>. First, engineers re-architected the platform's distributed database engine to allow hundreds of concurrent agency underwriters and carrier APIs to read, lock, and mutate complex multi-policy commercial customer files simultaneously without data corruption, deadlocks, or write-overwrites, while maintaining sub-50-millisecond latency. Second, the systems team designed a new vectorized in-memory calculation engine to execute stochastic catastrophe risk-rating computations within strict container RAM limits of under 512 MB per worker node."
     },
     {
       "type": "paragraph",
-      "text": "The backlash to the restrictive \"Discovery Test\" applied in Eustace and United Stationers eventually led to a major shift in Treasury regulations. In 2004, the Treasury Department issued T.D. 9104, which formally abandoned the Discovery Test in favor of a more flexible \"Uncertainty Test\". Under these modern regulations, research does not require the taxpayer to obtain information that \"exceeds, expands, or refines the common knowledge of a skilled professional\". Instead, research is qualified if it is intended to \"eliminate uncertainty\" concerning the capability, method, or appropriate design for developing or improving a business component."
+      "text": "InsureCore Cloud's Controller proposes hiring a <a href=\"/us/faq/standard-rd-tax-credit-contingency-fee\">contingency-fee provider</a> to interview five engineering VPs at year-end and claim 85 percent of the W-2 wages of all 210 engineering department employees under the \"Release 8.0\" umbrella. If executed in this manner, the claim replicates every fatal flaw in <em>Eustace</em>: wholesale departmental aggregation, inclusion of routine rating table updates and UI bug fixes, conflation of RAM tuning with experimentation, and lack of subcomponent wage nexus."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Plan"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Subcomponent Hierarchy (Satisfying I.R.C. § 41(d)(2) and the Shrinking-Back Rule)"
     },
     {
       "type": "paragraph",
-      "text": "Despite this regulatory shift, the Eustace case remains relevant for its analysis of the process of experimentation. Even under the new Uncertainty Test, a taxpayer must still demonstrate a systematic evaluation of alternatives. Recent cases like Phoenix Design Group, Inc. v. Commissioner (2024) have reaffirmed the Eustace line of thinking, denying credits where engineers performed routine calculations that did not constitute a true \"evaluative process\"."
+      "text": "To prevent an indivisible claim from collapsing under the weight of routine Release 8.0 maintenance, InsureCore Cloud must establish a formal R&D Tax Governance Charter prior to or during the development cycle that disaggregates Release 8.0 into discrete \"business components\" at the functional subcomponent level pursuant to I.R.C. § 41(d)(2)(B) and Treas. Reg. § 1.41-4(b)(2). The governance committee immediately classifies standard state insurance rate-table updates, UI/UX enhancements, routine API integrations, post-release bug fixes, and general maintenance into non-qualifying cost centers (CC-100: Routine Product Maintenance & Feature Extensions), explicitly excluding 100 percent of those activities from the I.R.C. § 41 claim. Simultaneously, the committee charters two discrete, standalone subcomponent business components: Subcomponent BC-201 (Conflict-Free Replicated Data Type [CRDT] Concurrency Engine) and Subcomponent BC-202 (Columnar Vectorized In-Memory Actuarial Kernel). By isolating BC-201 and BC-202 as the relevant business components from inception, InsureCore Cloud ensures that substantially all (at least 80 percent) of the activities within BC-201 and BC-202 constitute elements of a process of experimentation under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and Uncertainty Articulation (Overcoming § 41(d)(1)(A)–(B) Objections)"
     },
     {
       "type": "paragraph",
-      "text": "The following table compares the pre-2004 \"Discovery\" standard (Applied in Eustace) with the post-2004 \"Uncertainty\" standard (Current law):"
+      "text": "To defeat an IRS assertion that BC-201 and BC-202 represent mere industrious coding or standard RAM optimization under <em>Eustace</em>, the Lead Systems Architects must author contemporaneous Technical Architecture & Uncertainty Design Documents (TAUDDs) before writing production code. Rather than stating that engineers needed to \"prevent users from overwriting files\" or \"make the program use less RAM\"—descriptions that failed in <em>Eustace</em>—the TAUDD for BC-201 documents why standard pessimistic two-phase locking (2PL) and standard optimistic concurrency control (OCC) fail in InsureCore's multi-region active-active cloud topology, proving that network partition latency causes lock-contention cascading failures above 150 concurrent mutations per policy graph. Thus, the TAUDD establishes objective design and method uncertainty under Treas. Reg. § 1.41-4(a)(3): whether a custom state-based versus operation-based CRDT algorithm can guarantee strong eventual consistency for nested hierarchical insurance policy schemas without exceeding network bandwidth ceilings. Similarly, for BC-202, the TAUDD documents why standard garbage-collected object graphs in the existing runtime exhaust 512 MB container heaps during 100,000-trial Monte Carlo catastrophe simulations, framing the technical uncertainty around designing a custom off-heap, zero-copy memory allocation layout and SIMD-vectorized bytecode compiler that relies fundamentally on computer science principles (§ 41(d)(1)(B)(i)) rather than routine code refactoring."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contract Terms and Commercial Structuring (Preventing Adaptation and Funded Research Disqualification)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because InsureCore Cloud licenses its SaaS platform to large insurance brokerages and integrates with major insurance carriers, its legal counsel must audit and restructure all commercial agreements to eliminate exclusions under I.R.C. § 41(d)(4)(B) (adaptation) and § 41(d)(4)(H) (funded research). Standard Master Subscription Agreements (MSAs) are drafted to specify that customers purchase non-exclusive subscriptions to the core multi-tenant platform. Any professional services Statement of Work (SOW) for configuring a specific brokerage's workflows, custom form letters, or carrier-specific EDI feeds is segregated into a separate contract billed under a non-qualifying service code, while BC-201 and BC-202 are documented in internal Product Roadmap charters as core multi-tenant infrastructure deployed across all subscribers, proving they are not adaptations to a particular customer's requirement. Furthermore, where an enterprise carrier requests early access to the BC-202 catastrophe rating kernel, the agreement explicitly states that InsureCore Cloud retains 100 percent exclusive intellectual property ownership and \"<a href=\"/us/glossary/substantial-rights\">substantial rights</a>\" in all underlying algorithms and source code without paying royalties to the customer (Treas. Reg. § 1.41-4A(d)), and that no development fees are reimbursed on a time-and-materials basis, making subscription payments strictly contingent upon the software meeting objective functional acceptance testing (Treas. Reg. § 1.41-2(e))."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Tracking and Subcomponent Cost Nexus (Satisfying § 41(d)(1)(C) and § 6001)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Seventh Circuit's scientific method mandate in <em>Eustace</em> and the Tax Court's subcomponent wage nexus rule, InsureCore Cloud integrates its Agile engineering workflow (Jira and GitHub) directly with its time-tracking and payroll accounting systems. Within Jira, engineering tickets under Epics BC-201 and BC-202 require mandatory custom fields before a sprint begins: the specific technical uncertainty addressed, the competing architectural hypothesis or alternative being evaluated (for example, evaluating a delta-state CRDT with causal tree indexing against operational transformation with a central sequencer), the experimental test protocol or simulation benchmark, and the quantitative test results and failure analysis. Automated load-test telemetry logs showing failed memory and latency runs and iterative architectural pivots are archived directly to the ticket. Rather than relying on a tax manager's retrospective salary worksheet of 227 employees or invoking the <em>Cohan</em> doctrine, only the 38 specific systems engineers, database architects, and direct technical supervisors working on BC-201 and BC-202 <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">log their hours contemporaneously</a> each week against subcomponent charge codes (RND-BC201-EXP, RND-BC202-EXP, and MGT-ROUTINE). Once the architectural uncertainty of BC-201 is resolved in Sprint 9 and the CRDT algorithm passes concurrency stress benchmarks, the project gate transitions to PROD-QA-DEBUG, and all subsequent integration bug fixing, UI hookups, and regression testing are tracked under non-qualifying codes, strictly honoring <em>Eustace</em>'s mandate that routine debugging is not experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Embedded Industrial Automation Firmware — Proprietary Module Replacement and Hardware-Constrained Control Systems"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Inherent Eustace Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "AeroDrive Controls Corp., a U.S. C corporation manufacturer of industrial robotics controllers with 350 employees, embarks on an engineering initiative to replace a licensed third-party real-time communications and text-parsing middleware module inside its flagship microcontroller unit (MCU) with an internally developed firmware subsystem (\"Project Nova\"). Simultaneously, AeroDrive modifies the controller's firmware for three major automotive assembly customers to accommodate their factory-floor communication protocols and fit within an older 256 KB SRAM hardware footprint."
+    },
+    {
+      "type": "paragraph",
+      "text": "This scenario directly triggers three lethal traps from <em>Eustace</em> and related Tax Court precedent. First, it implicates the third-party module replacement and duplication trap: in <em>Eustace</em>, Applied Systems discarded a word processing module licensed from another vendor and replaced it with a simple text editor with reduced memory demands but good form-letter-generation features, which the Seventh Circuit cited as illustrative of normal, non-pioneering software development, and under I.R.C. § 41(d)(4)(C), reproducing existing functionality is excluded unless independent technical uncertainty is proven. Second, modifying firmware to handle transactions or protocols for specific customers triggers the Adaptation Exclusion under I.R.C. § 41(d)(4)(B) and potentially the Funded Research Exclusion under I.R.C. § 41(d)(4)(H) if paid for under customer engineering change orders. Third, AeroDrive's tax director plans to apply a flat 50 percent allocation to the entire Firmware Engineering Cost Center and claim 40 percent of the W-2 wages of the VP of Engineering and Chief Technology Officer based on year-end oral estimates—a methodology that fails under <em>Eustace</em> and <em><a href=\"/us/shami-v-commissioner\">Shami v. Commissioner</a></em>, T.C. Memo. 2012-78."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Plan"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Subcomponent Segregation (Separating Core R&D from Duplication and Adaptation)"
+    },
+    {
+      "type": "paragraph",
+      "text": "AeroDrive's Tax and Engineering Steering Committee establishes a strict stage-gate governance protocol that separates commercial cost-reduction and customer integration tasks from true hardware-firmware experimentation. The committee divides the replacement of the third-party text-parsing interface into distinct workstreams. Workstream A (WS-A: Command Parser & Protocol Mapping), which simply replicates documented communication commands using standard C++ libraries, is classified as non-qualified routine development and duplication under I.R.C. § 41(d)(4)(C) and <em>Eustace</em>. Conversely, Workstream B is chartered as a discrete business subcomponent under I.R.C. § 41(d)(2): Subcomponent BC-305 (Deterministic Hard-Real-Time Zero-Jitter Interrupt Scheduler & Static Memory Allocator). Similarly, customer-specific protocol translators for the three automotive clients are segregated into WS-C: Customer Factory Adaptation and excluded under I.R.C. § 41(d)(4)(B), leaving only BC-305 in the R&D credit study."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and Uncertainty Articulation (Proving Independent Technical Uncertainty)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prove that BC-305 is not a mere commercial replacement of a third-party module or routine memory fine-tuning as rejected in <em>Eustace</em>, AeroDrive documents the objective physical and computer science constraints in a formal System Requirements & Technical Uncertainty Specification (SRTUS). The SRTUS documents that the legacy third-party module relied on dynamic heap allocation (malloc/free), which caused non-deterministic memory fragmentation and microsecond interrupt jitter during high-frequency closed-loop servo control, leading to mechanical resonance failures. Furthermore, because the third-party vendor's source code was proprietary and encrypted, AeroDrive could not examine or duplicate its internal design (§ 41(d)(4)(C)). The SRTUS establishes that available engineering knowledge did not establish whether a lock-free, static ring-buffer memory architecture combined with a rate-monotonic hardware interrupt scheduler could achieve deterministic sub-2-microsecond worst-case execution time (WCET) within 256 KB of non-cached SRAM while simultaneously processing high-baud telemetry. This transforms the narrative from \"saving memory by replacing a third-party module\" (<em>Eustace</em>) to resolving fundamental capability and design uncertainty in hard-real-time embedded computer science."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contract Terms and Commercial Structuring (Eliminating Funded Research and Retaining Substantial Rights)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the three automotive customers issued purchase orders requesting upgraded controller performance, AeroDrive's legal department restructures the commercial contracts before engineering begins to avoid disqualification under I.R.C. § 41(d)(4)(H) and § 41(d)(4)(B). AeroDrive refuses any separate Non-Recurring Engineering (NRE) or time-and-materials payments tied to the development of BC-305; instead, the contracts are structured strictly as <a href=\"/us/glossary/fixed-price-contract\">fixed-price supply agreements</a> for finished hardware-firmware robotic controller units, where payment is contingent upon delivery of physical units passing stringent customer acceptance and safety tests (satisfying Treas. Reg. § 1.41-2(e)(1)–(2)). Additionally, every supply contract includes an explicit intellectual property provision confirming that AeroDrive retains exclusive ownership and substantial rights (Treas. Reg. § 1.41-4A(d)) to all base firmware, real-time scheduling algorithms, and source code developed under BC-305, with the freedom to embed BC-305 across its entire commercial product catalog for any global customer without restriction or royalty obligation."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Tracking and Direct Supervision Nexus (Satisfying § 41(b)(2)(B) and RCCATG Audit Standards)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the IRS <em>RCCATG</em> <a href=\"/us/faq/what-triggers-irs-rd-tax-credit-audit\">audit triggers</a> derived from <em>Eustace</em> and <em>Shami</em>, AeroDrive implements a two-tier substantiation protocol covering both bench-level experimentation and direct supervision. For BC-305, firmware engineers document three distinct architectural alternatives in their engineering notebooks and version-control commit logs: a static arena allocator with priority ceiling protocol, a compile-time fixed block pool with earliest deadline first (EDF) scheduling, and a hybrid DMA-offloaded ring buffer with hardware timer preemption. For each alternative, engineers record the specific mathematical hypothesis regarding interrupt latency, execute Hardware-in-the-Loop (HIL) oscilloscope timing benchmarks across 10 million cycles, and archive the comparative failure and jitter logs showing why the first two alternatives failed WCET thresholds before the third alternative succeeded. On the wage substantiation side, AeroDrive completely excludes the <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">Chief Technology Officer's wages</a>, recognizing that upper-level executive management fails under I.R.C. § 41(b)(2)(B) and Treas. Reg. § 1.41-2(c)(2). For the Firmware Engineering Manager who <a href=\"/us/glossary/direct-supervision\">directly supervised</a> the BC-305 engineers, AeroDrive rejects arbitrary percentage estimates; instead, the manager logs contemporaneous hours specifically when conducting technical code reviews of BC-305 experimental branches, reviewing HIL oscilloscope test failures, and directing hypothesis adjustments, corroborated by signed design-review minutes and Git pull-request approvals."
     },
     {
       "type": "table",
       "headers": [
-        "Attribute",
-        "The \"Discovery\" Standard (Eustace)",
-        "The \"Uncertainty\" Standard (T.D. 9104)"
+        "Remedial Compliance Pillar",
+        "Deficient Practice in Eustace",
+        "Restructured Best Practice (Case Studies 1 & 2)",
+        "Statutory & Regulatory Authority Satisfied"
       ],
       "rows": [
         {
           "cells": [
-            "Goal of Research",
-            "Discover information \"new to the world\" or groundbreaking.",
-            "Eliminate uncertainty within the taxpayer's own projects."
+            "1. Project Governance & Business Component Scope",
+            "Claimed the wages of 227 employees across mature commercial products and projects, commingling bug fixes, platform ports, and minor updates.",
+            "Charter discrete, granular subcomponents (BC-201, BC-202, BC-305) upfront; segregate routine maintenance, UI updates, and customer adaptations into non-qualifying cost centers.",
+            "I.R.C. §§ 41(d)(1)(B)(ii), 41(d)(2)(A)–(B); Treas. Reg. §§ 1.41-4(a)(6), 1.41-4(b)(2) (Shrinking-Back Rule)"
           ]
         },
         {
           "cells": [
-            "State of Knowledge",
-            "Must expand or refine principles in the entire field.",
-            "Must expand the taxpayer's specific knowledge for a component."
+            "2. Technical Documentation & Uncertainty Articulation",
+            "Relied on witness testimony that, per the Tax Court, further supported disqualification (e.g., the First Rate vice president's \"minor enhancements\" testimony) and on a computer expert who failed to address the relevant technical issues, without proving any doubt regarding technical capability or design.",
+            "Author contemporaneous Technical Architecture & Uncertainty Design Documents (TAUDDs / SRTUS) proving why existing computer science methods fail and defining specific capability, method, or design uncertainties.",
+            "I.R.C. §§ 41(d)(1)(A), 41(d)(1)(B)(i), 174, 174A; Treas. Reg. §§ 1.174-2(a), 1.41-4(a)(3)–(4)"
           ]
         },
         {
           "cells": [
-            "Uncertainty Focus",
-            "Technical/Technological Feasibility (Can it be done?).",
-            "Capability, Method, or Appropriate Design (How should it be done?)."
+            "3. Commercial & Contractual Structuring",
+            "Included carrier-specific rating programs, data conversion services, and a third-party module replacement in the claim (the adaptation and duplication exclusions were not reached by either court); argued unsuccessfully that commercial software should escape the § 41(d)(1) standards applied in internal-use software cases.",
+            "Separate custom client configuration SOWs from core platform R&D; eliminate NRE <a href=\"/us/glossary/time-and-materials-contract\">time-and-materials</a> funding in favor of contingent fixed-price unit deliverables; retain 100% exclusive IP and substantial rights.",
+            "I.R.C. §§ 41(d)(4)(B) (Adaptation), 41(d)(4)(C) (Duplication), 41(d)(4)(E) (IUS), 41(d)(4)(H) (Funded); Treas. Reg. §§ 1.41-2(e), 1.41-4A(d)"
           ]
         },
         {
           "cells": [
-            "Process Required",
-            "Scientific method to prove a new principle.",
-            "Systematic evaluation of alternatives to find a solution."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Software for Sale vs. Internal Use Software (IUS)"
-    },
-    {
-      "type": "paragraph",
-      "text": "A critical distinction discussed in Eustace is the treatment of software developed for sale versus software developed for internal use. Applied Systems developed software to be \"sold, leased, licensed, or otherwise marketed to third parties,\" meaning it did not fall under the restrictive Section 41(d)(4)(E) internal-use software (IUS) exclusion. IUS is generally defined as software developed for \"general and administrative functions\" like financial management, human resources, or support services."
-    },
-    {
-      "type": "paragraph",
-      "text": "To qualify for the research credit, IUS must meet an additional \"High Threshold of Innovation\" test, which requires the software to be innovative, involve significant economic risk, and not be commercially available. In Eustace, the taxpayer attempted to argue that because their software was for commercial sale, the standards for \"discovery\" and \"experimentation\" should be more relaxed than those applied in IUS cases like United Stationers. The Seventh Circuit flatly rejected this, stating that the fundamental definitions of \"technological information\" and \"experimentation\" in Section 41(d)(1) apply regardless of whether the software is for sale or internal use."
-    },
-    {
-      "type": "paragraph",
-      "text": "The following table outlines the different hurdles for software qualification based on its intended use:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Software Category",
-        "Statutory Inclusion",
-        "Additional Requirements"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Commercial/External Use",
-            "Software held for sale, lease, or license to third parties.",
-            "Must pass the standard four-part test (Eustace)."
-          ]
-        },
-        {
-          "cells": [
-            "Third-Party Interaction",
-            "Software allowing customers to initiate functions or review data.",
-            "Exception to IUS; must pass the standard four-part test."
-          ]
-        },
-        {
-          "cells": [
-            "Internal Use (G&A)",
-            "Software for payroll, bookkeeping, or general HR functions.",
-            "Must pass the 4-part test plus High Threshold of Innovation test."
-          ]
-        },
-        {
-          "cells": [
-            "Dual-Function Software",
-            "Software that performs both G&A and third-party functions.",
-            "Presumed IUS unless a \"third-party subset\" is identified."
+            "4. Experimentation Tracking & Subcomponent Cost Nexus",
+            "Compiled a retroactive pro-forma worksheet listing salaries of 227 out of 450 employees based on post-hoc interviews; asked the court to estimate allocations under <em>Cohan</em>.",
+            "Require mandatory hypothesis, alternative, and test-result fields in Jira/Git commits; enforce contemporaneous weekly employee time-tracking tied directly to qualifying subcomponent codes; cut off tracking once uncertainty is resolved.",
+            "I.R.C. §§ <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">41(b)(2)(B)</a>, 41(d)(1)(C), 6001; Treas. Reg. §§ 1.41-2(c)–(d), 1.41-4(a)(5), 1.41-4(d), 1.6001-1"
           ]
         }
       ]
     },
     {
       "type": "heading",
-      "text": "Implications for Future R&D Tax Credit Applications"
+      "text": "5. Strategic Synthesis for U.S. Tax Practitioners"
     },
     {
       "type": "paragraph",
-      "text": "The Eustace decision has reverberated through decades of IRS audit guidelines and tax litigation, shaping the future of how businesses apply for and defend their R&D credits. The case’s emphasis on contemporaneous documentation and project-level costing has become the modern standard for \"defensible\" claims."
-    },
-    {
-      "type": "subheading",
-      "text": "The Rise of Project-Level Costing and the \"Substantially All\" Rule"
+      "text": "Although the regulatory landscape evolved following the promulgation of T.D. 9104—which replaced the Seventh Circuit's rigid judicial \"discovery test\" with the taxpayer-centric capability, method, and design uncertainty standard under Treas. Reg. § 1.41-4(a)(3)—<em>Eustace v. Commissioner</em> remains an active cornerstone of IRS examination policy and federal tax litigation in the United States. The decision establishes that the substantive four-part test of I.R.C. § 41(d)(1) and the recordkeeping mandate of I.R.C. § 6001 operate as an integrated, unforgiving filter."
     },
     {
       "type": "paragraph",
-      "text": "In the wake of Eustace, the IRS has shifted its focus to the \"substantially all\" requirement of Section 41(d)(1)(C). This rule dictates that 80% or more of the research activities for a business component must constitute a process of experimentation. Recent cases like Little Sandy Coal v. Commissioner have applied this rule with mathematical precision, forcing taxpayers to provide \"principled ways\" to determine what portion of employee activities constituted experimentation."
-    },
-    {
-      "type": "paragraph",
-      "text": "The Seven Circuit’s opinion in Little Sandy Coal (2023) explicitly cites the lack of documentation in the Eustace line of reasoning, ruling that \"shortcut estimates\" and \"arbitrary allocations\" will not suffice. If a taxpayer cannot prove that 80% of its activities relate to experimentation at the project level, the entire credit for that project may be disallowed under an \"all or nothing\" approach, unless the taxpayer can successfully invoke the \"shrinking-back\" rule to a smaller subcomponent."
-    },
-    {
-      "type": "subheading",
-      "text": "The Evolution of Form 6765 (2024-2025)"
-    },
-    {
-      "type": "paragraph",
-      "text": "The most tangible modern implication of the Eustace legacy is the massive overhaul of IRS Form 6765, Credit for Increasing Research Activities. Starting with the 2024 tax year and becoming mandatory for many in 2025, the new form requires \"qualitative and quantitative information\" that previously was only requested during an audit."
-    },
-    {
-      "type": "paragraph",
-      "text": "The new Section G of Form 6765 requires:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Identification of each business component by name and type.",
-        "A breakdown of wages for \"conducting,\" \"supervising,\" and \"supporting\" research.",
-        "For amended returns, a specific description of the information the taxpayer \"sought to discover\"."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "This shift toward \"upfront transparency\" is designed to eliminate the retrospective, \"prepackaged\" studies seen in Eustace. By requiring this level of detail at the time of filing, the IRS is effectively mandating the contemporaneous tracking of research that the Eustace court found to be missing."
-    },
-    {
-      "type": "paragraph",
-      "text": "The following table summarizes the new reporting requirements for 2025 research credit claims:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Requirement Area",
-        "Information to be Disclosed",
-        "Implication for Taxpayers"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Section E",
-            "Amount of officer wages and number of business components.",
-            "Higher scrutiny on executive involvement and project quantity."
-          ]
-        },
-        {
-          "cells": [
-            "Section G (Mandatory)",
-            "Qualitative data for components making up 80% of total QREs.",
-            "Requires projects to be defined and documented before filing."
-          ]
-        },
-        {
-          "cells": [
-            "Activity Categories",
-            "Wages must be split into direct performance, supervision, and support.",
-            "Aligns with Little Sandy Coal’s demand for activity-level cost data."
-          ]
-        },
-        {
-          "cells": [
-            "Software Detail",
-            "Classification as IUS, DFS, or Non-IUS for each module.",
-            "Forces early analysis of software eligibility categories."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "The Interplay with Section 174 Amortization and the OBBB"
-    },
-    {
-      "type": "paragraph",
-      "text": "The future of R&D tax credit applications is further complicated by changes to Section 174 research and experimentation (R&E) expenditures. Historically, taxpayers could immediately deduct R&E costs in the year incurred. However, the Tax Cuts and Jobs Act (TCJA) of 2017 mandated that, starting in 2022, these costs must be capitalized and amortized over five years for domestic research and fifteen years for foreign research."
-    },
-    {
-      "type": "paragraph",
-      "text": "While the \"One, Big, Beautiful Bill\" (OBBB) enacted in July 2025 restored the option to expense domestic Section 174 costs, the requirement to track and report these expenses remains critical. The IRS has clarified that Section 174 and Section 41 are separate; a company may have Section 174 expenses that must be amortized even if it does not qualify for the Section 41 research credit. This \"decoupling\" means that the nexus between costs and research activities—the very thing missing in Eustace—is now a mandatory accounting requirement for all innovative firms, regardless of their credit-claiming status."
-    },
-    {
-      "type": "paragraph",
-      "text": "The following table highlights the differences between Section 174 and Section 41 in the post-TCJA landscape:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Attribute",
-        "Section 174 (R&E Expenditures)",
-        "Section 41 (R&D Tax Credit)"
-      ],
-      "rows": [
-        {
-          "cells": [
-            "Scope of Costs",
-            "Direct and indirect (overhead, rent, utilities, software).",
-            "Only direct costs (wages, supplies, 65% of contract)."
-          ]
-        },
-        {
-          "cells": [
-            "Core Requirement",
-            "Intended to eliminate uncertainty.",
-            "Must pass the full four-part test (Scientific method)."
-          ]
-        },
-        {
-          "cells": [
-            "Accounting Treatment",
-            "Amortize (5/15 yrs) or Expense (per OBBB).",
-            "20% credit on incremental increases."
-          ]
-        },
-        {
-          "cells": [
-            "Reporting",
-            "Mandatory for all R&D activities.",
-            "Optional tax credit requiring high substantiation."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Contemporary Case Law: From Harper to Phoenix Design Group"
-    },
-    {
-      "type": "paragraph",
-      "text": "Recent court decisions continue to reflect the \"Eustace Standard.\" In Harper v. Commissioner (2021) and Premier Tech, Inc. v. Commissioner (2022), the IRS aggressively used procedural objections to dismiss refund claims that lacked the specificity required under Treasury Regulation Section 301.6402-2(b)(1). These cases underscore that taxpayers cannot rely on the IRS audit process to validate procedurally weak filings; they must provide detailed grounds for the refund at the time of the claim."
-    },
-    {
-      "type": "paragraph",
-      "text": "In Phoenix Design Group, Inc. v. Commissioner (2024), the Tax Court disallowed credits across multiple engineering projects and imposed a 20% accuracy-related penalty under IRC Section 6662. The court found that while the firm conducted \"complex engineering,\" there was \"insufficient evidence of a true experimental process\". The court noted that routine design and adaptation were not tied to new or improved business components, and the taxpayer failed to identify the specific information that was not available at the start of the project. This ruling reinforces that poor documentation not only disallows credits but also creates significant additional tax exposure through penalties."
-    },
-    {
-      "type": "heading",
-      "text": "Synthesis and Strategic Outlook"
-    },
-    {
-      "type": "paragraph",
-      "text": "The legacy of Eustace v. Commissioner is a permanent shift in the burden of proof for R&D tax credits. The case serves as a cautionary tale of \"what not to do\": rely on retrospective estimates, lack project-level costing, and use inconsistent or minimized testimony. For future applications, the implications are profound."
-    },
-    {
-      "type": "subheading",
-      "text": "Elevation of Documentation Standards"
-    },
-    {
-      "type": "paragraph",
-      "text": "Taxpayers must move beyond after-the-fact interviews. Defensible claims now require \"robust tracking systems\" that clearly link employee activities and expenses to specific technical uncertainties. Records such as time-tracking systems, technical design logs, correspondence, and testing protocols are no longer \"best practices\"; they are the baseline for survival under audit."
-    },
-    {
-      "type": "subheading",
-      "text": "The \"Substantially All\" Trap"
-    },
-    {
-      "type": "paragraph",
-      "text": "The rigorous 80% test means that every business component must be evaluated as a separate \"unit of measure.\" Companies must define their business components granularly enough that they can prove 80% of the activities for each are experimental. As seen in Little Sandy Coal, claiming the entire product is a \"prototype\" is a failing strategy if a significant portion of the work involves routine fabrication or support tasks."
-    },
-    {
-      "type": "subheading",
-      "text": "Proactive Compliance and Disclosure"
-    },
-    {
-      "type": "paragraph",
-      "text": "With the redesign of Form 6765, the R&D credit has entered a \"new era of disclosure\". Taxpayers must be prepared to narrate their R&D journey—the technical unknowns, the alternatives considered, and the experiments conducted—at the very moment they file their return. This requires a multidisciplinary commitment across engineering, finance, and tax functions to ensure that the technical reality of the work is accurately captured in the tax records."
-    },
-    {
-      "type": "paragraph",
-      "text": "In conclusion, Eustace v. Commissioner transformed the R&D tax credit from a relatively straightforward financial incentive into a complex, documentation-driven legal challenge. While regulatory changes have eased the \"Discovery\" requirement, the court’s demand for a scientific process of experimentation and a direct nexus between wages and research remains the defining standard. In the modern landscape of Section 174 amortization and enhanced IRS reporting, the lessons of Applied Systems are more relevant than ever. For the American innovator, success is no longer just about the leap in technology; it is about the meticulous record of the steps taken to achieve it."
+      "text": "When advising corporate taxpayers developing commercial software, SaaS platforms, or embedded systems, tax counsel must treat three principles from <em>Eustace</em> as axiomatic. First, commercial software vendors enjoy no statutory immunity from I.R.C. § 41(d)(1); industrious coding, iterative debugging, performance tuning, and adding features through known computer science techniques will never satisfy the scientific process of experimentation required by I.R.C. § 41(d)(1)(C). Second, claiming engineering departments or product releases wholesale is fatal whenever routine development is commingled with experimental work, because the absence of subcomponent-level documentation prevents the application of the Treas. Reg. § 1.41-4(b)(2) shrinking-back rule and renders the entire claim indivisible. Third, courts will not deploy the <em>Cohan</em> doctrine to rescue prepackaged, retrospective R&D studies that rely on pro-forma salary lists and generalized oral testimony rather than verifiable nexus between W-2 wages and specific experimental subcomponents. By embedding subcomponent-level governance, hypothesis-driven engineering documentation, and contemporaneous cost-accounting nexus directly into the software development lifecycle, taxpayers can insulate their R&D tax credit claims from disallowance and withstand the most rigorous IRS examination."
     }
-  ]
+  ],
+  "metaDescription": "Eustace v. Commissioner (7th Cir. 2002): routine coding, debugging and performance tuning are not a process of experimentation; all § 41 credits denied."
 }

@@ -1,0 +1,673 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Specified Research or Experimental Expenditures (SRE)",
+  "description": "Specified research or experimental expenditures are R&D costs, including software development, governed by IRC Section 174 and 174A.",
+  "summary": "Specified research or experimental expenditures (SRE) are U.S. research and development costs, including all software development, governed by IRC Section 174. For tax years 2022–2024, businesses had to capitalize them over 5 years (domestic) or 15 years (foreign); after 2024, Section 174A restores immediate deduction for domestic research, while foreign research remains amortized over 15 years.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Specified research or experimental expenditures (SRE) are U.S. research and development costs, including all software development, governed by IRC Section 174. For tax years 2022–2024, businesses had to capitalize them over 5 years (domestic) or 15 years (foreign); after 2024, Section 174A restores immediate deduction for domestic research, while foreign research remains amortized over 15 years."
+    },
+    {
+      "type": "heading",
+      "text": "I. Executive Summary: The Evolution of SRE Capitalization and Amortization"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1 Foundational Role of IRC Section 174 and the Section 41 Gateway"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specified Research or Experimental Expenditures (SRE) constitute the foundational category of research and development (R&D) outlays governed by <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Internal Revenue Code (IRC) Section 174</a>. Within the United States federal income tax regime, research or experimental expenditures encompass costs paid or incurred in connection with a taxpayer's trade or business that represent research and development costs in the experimental or laboratory sense. This expansive statutory and regulatory classification captures both direct and indirect costs <a href=\"/us/glossary/incident-to-development\">incident to the development</a> or improvement of a product—encompassing any pilot model, process, formula, invention, technique, patent, or similar property—as well as all amounts paid or incurred in connection with the development of computer software. Conversely, the regulatory architecture explicitly excludes routine commercial and operational outlays, including ordinary quality-control testing or inspection, <a href=\"/us/glossary/efficiency-surveys\">efficiency surveys</a>, management studies, consumer surveys, market research, advertising or sales promotions, and the acquisition of another party's patent, model, production, or process."
+    },
+    {
+      "type": "paragraph",
+      "text": "While IRC Section 174 (alongside post-2024 IRC Section 174A for domestic activities) dictates the timing and deductibility of research cost recovery, it simultaneously operates as the mandatory threshold gateway for the <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Credit for Increasing Research Activities</a> under IRC Section 41, commonly referred to as the R&D Tax Credit. Whereas Section 174 governs when research expenditures reduce taxable income, Section 41 provides a dollar-for-dollar reduction in federal income tax liability calculated from a substantially narrower subset of expenses designated as <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenditures (QREs)</a>. Under IRC Section 41(b), QREs are restricted exclusively to <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">qualified in-house wages</a>, tangible non-depreciable supplies used in qualified research, specific off-premises computer time-sharing payments, and 65% (or 75% and 100% for specialized consortia and energy research) of eligible domestic contract research expenses. Because every QRE under Section 41 must first qualify as an eligible expenditure under Section 174 (or Section 174A for post-2024 domestic research), any statutory modification to the Section 174 base reverberates across a corporate taxpayer's entire R&D tax posture."
+    },
+    {
+      "type": "subheading",
+      "text": "1.2 The TCJA Capitalization Mandate and the Midpoint Convention Distortion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The compliance, cash-flow, and financial accounting landscape for SRE expenditures experienced a structural transformation under Section 13206(a) of the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act (TCJA)</a> of 2017 (Pub. L. 115-97, 131 Stat. 2054, 2111, enacted December 22, 2017), which took effect on a delayed basis for taxable years beginning after December 31, 2021. For nearly seven decades prior to the 2022 taxable year, former IRC Section 174 permitted taxpayers to immediately deduct <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental (R&E) expenditures</a> in the taxable year paid or incurred, or alternatively to elect to capitalize and amortize those expenditures ratably over a period of not less than 60 months beginning with the month in which the taxpayer first realized benefits from the expenditures."
+    },
+    {
+      "type": "paragraph",
+      "text": "The TCJA eliminated immediate expensing for taxable years beginning after December 31, 2021, mandating instead that taxpayers charge all SRE expenditures to a capital account and amortize them ratably over a 5-year (60-month) period for domestic research and a 15-year (180-month) period for foreign research (within the meaning of IRC Section 41(d)(4)(F)), beginning at the midpoint of the taxable year in which the expenditures are paid or incurred. Because the <a href=\"/us/glossary/mid-year-convention\">statutory midpoint convention</a> permits only six months of amortization in the initial taxable year—restricting Year 1 cost recovery to 10% for domestic SREs and 3.33% (1/30) for foreign SREs—this mandate generated an acute near-term surge in federal taxable income and cash tax liability. From a corporate finance perspective, this timing distortion severely compressed operating cash flows for innovation-intensive enterprises, altered Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) Topic 740 income tax provisions by creating substantial new deferred tax assets (DTAs), and altered the after-tax internal rate of return on domestic and cross-border R&D investments."
+    },
+    {
+      "type": "subheading",
+      "text": "1.3 Post-2024 Statutory Bifurcation Under the One, Big, Beautiful Bill Act (OBBBA)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although baseline analyses of the TCJA regime frequently treat mandatory 5-year domestic and 15-year foreign amortization as a monolithic rule across all post-2021 taxable years, Section 70302 of the One, Big, Beautiful Bill Act (OBBBA), Pub. L. 119-21, 139 Stat. 72, 191 (enacted July 4, 2025), fundamentally bifurcated the statutory regime effective for amounts paid or incurred in taxable years beginning after December 31, 2024. Consequently, tax auditors and corporate tax planners must evaluate SRE compliance across three distinct statutory rules depending on the tax year in which the costs were paid or incurred and the geographic location of performance."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, for taxable years beginning after December 31, 2021, and before January 1, 2025 (generally the 2022, 2023, and 2024 calendar tax years), the TCJA IRC Section 174 regime remains the governing statutory law. All domestic and foreign SRE expenditures paid or incurred during this three-year window were subject to mandatory capitalization and ratable midpoint amortization over 5 years (60 months) for domestic research and 15 years (180 months) for foreign research."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, for taxable years beginning after December 31, 2024, OBBBA Section 70302(a) enacted IRC Section 174A to govern domestic research or experimental expenditures. IRC Section 174A(a) restores immediate current-year deductibility for domestic research or experimental expenditures paid or incurred in taxable years beginning after December 31, 2024, while IRC Section 174A(c) permits taxpayers to elect to capitalize and ratably amortize domestic R&E expenditures over a period of not less than 60 months beginning with the month in which the taxpayer first realizes benefits from such expenditures. Furthermore, the transition rules in OBBBA Section 70302(f), implemented administratively through IRS Revenue Procedure 2025-28 and Revenue Procedure 2026-32, permit all taxpayers to elect to accelerate the recovery of remaining unamortized domestic SRE balances previously capitalized under TCJA Section 174 during the 2022–2024 window either in full in the first taxable year beginning after December 31, 2024, or ratably over a two-taxable-year period. In addition, OBBBA Section 70302(f) permits eligible small business taxpayers to elect retroactive application of IRC Section 174A back to taxable years beginning after December 31, 2021."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, for foreign research or experimental expenditures paid or incurred in taxable years beginning after December 31, 2024, OBBBA Section 70302(b)(1) amended IRC Section 174 by replacing the term \"specified research or experimental expenditures\" with \"foreign research or experimental expenditures\". As a result, for taxable years beginning after December 31, 2024, IRC Section 174 applies exclusively to foreign R&E expenditures, which remain permanently subject to mandatory capitalization and 15-year (180-month) midpoint amortization. This statutory bifurcation magnifies the economic penalty associated with offshore research: whereas TCJA Section 174 merely imposed a longer amortization schedule on foreign research (15 years) relative to domestic research (5 years), the post-2024 IRC Section 174 and Section 174A structure contrasts a 100% immediate Year 1 deduction for domestic research against a 3.33% Year 1 deduction for foreign research."
+    },
+    {
+      "type": "heading",
+      "text": "II. Detailed Regulatory Framework and Definition of Specified Research or Experimental Expenditures"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 Statutory Basis and Definitional Scope Under IRC Sections 174 and 174A and 26 CFR Section 1.174-2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation 26 CFR Section 1.174-2(a)(1) and IRS Notice 2023-63 (2023-39 I.R.B. 919, issued September 8, 2023), the defining legal hallmark of a research or experimental expenditure is the presence of uncertainty in the development or improvement process. Expenditures qualify as research and development costs in the experimental or laboratory sense if they are paid or incurred in connection with the taxpayer's trade or business for activities intended to discover information that would eliminate uncertainty concerning the development or improvement of a product. Pursuant to 26 CFR Section 1.174-2(a)(1), uncertainty exists whenever the information available to the taxpayer does not establish either the capability or method for developing or improving the product, or the appropriate design of the product."
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether expenditures qualify under Section 174 (or post-2024 Section 174A) depends strictly on the nature of the activity to which the expenditures relate, rather than the nature of the product or the degree of technological advancement achieved. Consequently, the ultimate commercial or technical success, failure, sale, or internal use of the resulting product is legally irrelevant to whether the underlying outlays must be classified as Section 174 or Section 174A expenditures. As an overarching limitation, 26 CFR Section 1.174-2(a)(9) stipulates that Section 174 applies only to the extent that an expenditure is reasonable under the circumstances—defined as the amount that would ordinarily be paid for like activities by like enterprises under like circumstances."
+    },
+    {
+      "type": "paragraph",
+      "text": "A pivotal statutory expansion enacted by the TCJA—and retained verbatim across both IRC Section 174(c)(3) for foreign R&E and IRC Section 174A(d)(3) for domestic R&E under the OBBBA—is the categorical mandate that any amount paid or incurred in connection with the development of any software shall be treated as a research or experimental expenditure. As clarified in Section 4.02(2) and Section 5 of IRS Notice 2023-63, <a href=\"/us/faq/section-174-software-development-amortization\">software development expenditures</a> paid or incurred in taxable years beginning after December 31, 2021, must be treated as SRE expenditures regardless of whether those software development activities satisfy the general uncertainty requirements of 26 CFR Section 1.174-2. Prior to the 2022 taxable year, corporate taxpayers frequently relied on <a href=\"/us/faq/section-174-rd-expense-safe-harbor\">administrative safe harbors</a> in Section 5 of Revenue Procedure 2000-50 (2000-2 C.B. 601), which allowed costs of developing computer software that did not otherwise satisfy former Section 174 to be either currently deducted or capitalized and amortized over 60 months or 36 months. Section 12 of Notice 2023-63, as modified and clarified by Section 5 of IRS Notice 2024-12 (2024-5 I.R.B. 616, released December 22, 2023), declared Section 5 of Revenue Procedure 2000-50 obsolete for expenditures paid or incurred in taxable years beginning after December 31, 2021, while confirming that it continues to govern software development expenditures paid or incurred in taxable years beginning on or before December 31, 2021, and that the remaining sections of Revenue Procedure 2000-50 continue to govern acquired, leased, or licensed third-party software."
+    },
+    {
+      "type": "paragraph",
+      "text": "Precision is also required when defining the term \"SRE product\" under administrative guidance. While compliance summaries frequently define an SRE product across all contexts as \"any pilot model, process, formula, invention, technique, patent, computer software, or similar property subject to protection under applicable domestic or foreign law,\" IRS Notice 2023-63 establishes a critical structural distinction between general in-house research and research performed under contract. For general in-house SRE activities, Section 4.02(1) of Notice 2023-63 adopts the expansive definition of \"product\" from 26 CFR Section 1.174-2(a)(3)—encompassing any <a href=\"/us/glossary/pilot-model\">pilot model</a>, process, formula, invention, technique, patent, or similar property, including products to be used by the taxpayer in its trade or business as well as products to be held for sale, lease, or license (augmented by computer software under Section 5)—without requiring that the property be subject to formal legal protection. By contrast, the narrower definition of \"SRE product\" requiring that the property (or a component thereof) be \"subject to protection under applicable domestic or foreign law\" is promulgated specifically in Section 6.02(4) of Notice 2023-63 for the targeted purpose of determining whether a research provider performing research under contract for a third-party recipient has acquired a capitalizable SRE product right."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Exclusions, Boundary Setting, and the Geographic Split"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent Section 174 and Section 174A from encroaching upon routine commercial operating deductions under IRC Section 162, the statutory text and Treasury Regulations establish nine explicit exclusions. Pursuant to IRC Section 174(c)(1)–(2), parallel provisions in IRC Section 174A(d)(1)–(2), 26 CFR Section 1.174-2(a)(6), and Section 4.02 of IRS Notice 2023-63, research or experimental expenditures do not include outlays for ordinary testing or inspection of materials or products for <a href=\"/us/glossary/quality-control-testing\">quality control</a>, defined in 26 CFR Section 1.174-2(a)(7) as testing or inspection to determine whether particular units of materials or products conform to specified parameters, whereas validation testing conducted to determine whether the design of the product itself is appropriate remains within Section 174. The regulatory framework likewise excludes efficiency surveys, management studies, consumer surveys (including market research), advertising or promotions (including sales promotions), the acquisition of another party's patent, model, production, or process, and research in connection with <a href=\"/us/glossary/humanities-exclusion\">literary, historical, or similar projects</a>. Additionally, the statute excludes expenditures for the acquisition or improvement of land or of property that is subject to an allowance for depreciation under IRC Section 167 or depletion under IRC Section 611 used in connection with research or experimentation (although the annual depreciation and depletion allowances themselves on such property used in SRE activities are treated as SRE expenditures), as well as exploration expenditures paid or incurred for the purpose of ascertaining the existence, location, extent, or quality of any deposit of ore, oil, gas, or other mineral."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rigorous legal auditing requires distinguishing true Section 174 regulatory boundaries from narrower statutory exclusions that apply solely to the Section 41 R&D Tax Credit. Specifically, two exclusions commonly misattributed to Section 174—\"research conducted after the commencement of commercial production of the product\" and \"research funded by another party where the taxpayer retains no substantial rights\"—actually derive from <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)(A)</a> and IRC Section 41(d)(4)(H) rather than Section 174. First, under 26 CFR Section 1.174-2(a)(1) and (a)(2), the <a href=\"/us/glossary/research-after-commercial-production\">commencement of commercial production</a> does not automatically terminate Section 174 eligibility. Instead, 26 CFR Section 1.174-2(a)(2) excludes costs paid or incurred in the actual production of a product after the elimination of uncertainty concerning its development or improvement, whereas 26 CFR Section 1.174-2(a)(1) explicitly provides that expenditures may still qualify under Section 174 if paid or incurred after commercial production begins, provided that uncertainty concerning the development or improvement of the product has not yet been eliminated. Second, the \"<a href=\"/us/glossary/funded-research\">funded research</a> / substantial rights\" standard is codified in IRC Section 41(d)(4)(H) and 26 CFR Section 1.41-2(a)(3)(i) for credit purposes. Under Section 174—as governed by Section 6.04 of Notice 2023-63 and modified by Section 3 of Notice 2024-12—a research provider performing work under contract is relieved from treating its fulfillment costs as SRE expenditures only if the provider neither bears financial risk under the terms of the contract nor retains a non-excluded right to use or exploit the resulting SRE product."
+    },
+    {
+      "type": "paragraph",
+      "text": "Equally critical is the exact statutory boundary between domestic and foreign research. Foreign research is not excluded from Section 174; rather, it is subjected to a mandatory 15-year (180-month) amortization period designed to disincentivize offshore R&D migration and encourage domestic R&E investment. However, defining foreign research merely as \"research conducted outside of the United States\" omits crucial statutory territories. Both TCJA IRC Section 174(a)(2)(B) and post-OBBBA IRC Section 174(b), by explicit statutory cross-reference to IRC Section 41(d)(4)(F), as well as Section 3.03 of IRS Notice 2023-63, define \"foreign research\" as any research conducted outside the United States, the Commonwealth of Puerto Rico, or any territory or other possession of the United States. Consequently, R&E activities performed in Puerto Rico or any U.S. territory or possession (such as Guam, the U.S. Virgin Islands, American Samoa, or the Northern Mariana Islands) are legally classified as domestic research—qualifying for 5-year amortization during 2022–2024 under TCJA Section 174 and immediate expensing after 2024 under IRC Section 174A—rather than foreign research. Under Section 3.04 of Notice 2023-63, taxpayers must determine whether expenditures are attributable to foreign research by looking strictly to the physical geographic location where the underlying SRE activities are performed."
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Comprehensive Cost Identification and Allocation Under IRS Notice 2023-63"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identifying the complete pool of expenditures subject to IRC Section 174 (and Section 174A) requires looking far beyond the direct W-2 wages and supplies traditionally captured in Section 41 tax credit studies. Section 4.03(1) of IRS Notice 2023-63 establishes a detailed, non-exhaustive catalog of cost categories that are considered incident to SRE activities (or paid or incurred in connection with software development) and therefore must be treated as SRE expenditures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Section 4.03(1)(a) of Notice 2023-63, includible labor costs encompass all compensation paid or incurred for full-time, part-time, and contract employees, as well as independent contractors, to the extent those individuals perform, <a href=\"/us/glossary/direct-supervision\">directly supervise</a>, or directly support SRE activities. Unlike IRC Section 41(b), which limits in-house labor to taxable wages as defined in IRC Section 3401(a), Section 4.03(1)(a) of Notice 2023-63 captures all elements of compensation other than severance compensation, including basic salary and wages, stock-based compensation, overtime pay, vacation pay, holiday pay, sick leave pay, payroll taxes, pension and retirement plan costs, employee fringe benefits, and payments to supplemental unemployment benefit plans."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond labor, Section 4.03(1)(b)–(f) of Notice 2023-63 mandates the inclusion of five additional cost categories to the extent incurred for the performance or <a href=\"/us/glossary/direct-support\">direct support</a> of SRE activities. First, taxpayers must include materials and supplies, including tools and equipment that are not depreciable under IRC Section 168 (such as supplies described in 26 CFR Section 1.162-3) used or consumed in SRE activities. Second, taxpayers must include cost recovery allowances, comprising annual depreciation, amortization, or depletion allowances with respect to property used in the performance or direct support of SRE activities, including property placed in service in a taxable year beginning on or before December 31, 2021. Third, patent costs, such as attorneys' fees and filing fees expended in making and perfecting a patent application under 26 CFR Section 1.174-2(a)(1), must be included. Fourth, operation and management occupancy and overhead costs—including rent, utilities, insurance, property taxes, repairs and maintenance costs, security costs, and similar overhead outlays with respect to facilities, equipment, and other assets used in the performance or direct support of SRE activities—must be captured. Fifth, travel costs incurred for the performance or direct support of SRE activities are likewise included."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, Section 4.03(2) of IRS Notice 2023-63 delineates a bright-line list of costs that are neither permitted nor required to be treated as SRE expenditures, regardless of whether they may be incident to SRE activities or software development. Foremost among these exclusions, Section 4.03(2)(a) excludes costs paid or incurred by <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) service departments</a> or functions that only indirectly support or benefit SRE activities. Notice 2023-63 explicitly enumerates three prime examples of excluded G&A functions: the services of payroll personnel in preparing salary checks for research personnel, the services of human resources (HR) personnel who recruit and hire research personnel, and the services of accounting personnel who account for and track research expenses. Furthermore, Notice 2023-63 excludes interest on debt used to finance company operations and SRE activities (§ 4.03(2)(b)), costs to input content into a website, website hosting fees paid to an internet service provider, and costs to register an internet domain name or trademark (§ 4.03(2)(c)–(e)), alongside the severance compensation exclusion in Section 4.03(1)(a)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cost Category",
+        "Governing Authority",
+        "Treatment Under IRC §§ 174 / 174A",
+        "Scope & Allocation Rules"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Direct & Support Labor Compensation",
+            "Notice 2023-63 § 4.03(1)(a)",
+            "Included as R&E / SRE",
+            "Includes base pay, stock-based compensation, overtime, vacation/sick/holiday pay, payroll taxes, pensions, and benefits for employees and independent contractors performing, supervising, or directly supporting R&E."
+          ]
+        },
+        {
+          "cells": [
+            "Severance Compensation",
+            "Notice 2023-63 § 4.03(1)(a)",
+            "Excluded from R&E / SRE",
+            "Explicitly carved out from includible labor compensation even when paid to terminated research personnel."
+          ]
+        },
+        {
+          "cells": [
+            "Materials & Non-Depreciable Supplies",
+            "Notice 2023-63 § 4.03(1)(b); 26 CFR § 1.162-3",
+            "Included as R&E / SRE",
+            "Tangible materials, tools, and equipment not depreciable under IRC § 168 used or consumed in performing or directly supporting R&E."
+          ]
+        },
+        {
+          "cells": [
+            "Cost Recovery Allowances (Depreciation)",
+            "IRC § 174(c)(1); Notice 2023-63 § 4.03(1)(c)",
+            "Included as R&E / SRE",
+            "Annual depreciation (§ 167), amortization, or depletion (§ 611) allowances on facilities and equipment used in R&E, whereas capital acquisition cost of the asset itself is excluded."
+          ]
+        },
+        {
+          "cells": [
+            "Patent Application & Procurement Costs",
+            "26 CFR § 1.174-2(a)(1); Notice 2023-63 § 4.03(1)(d)",
+            "Included as R&E / SRE",
+            "<a href=\"/us/faq/patent-legal-fees-rd-tax-credit-deduction\">Attorneys' fees</a> and regulatory expenses expended in making and perfecting a patent application."
+          ]
+        },
+        {
+          "cells": [
+            "Facility Occupancy & Operational Overhead",
+            "Notice 2023-63 § 4.03(1)(e)",
+            "Included as R&E / SRE",
+            "Rent, utilities, insurance, taxes, repairs/maintenance, and security costs allocated to facilities and equipment used in R&E."
+          ]
+        },
+        {
+          "cells": [
+            "R&E Travel Expenses",
+            "Notice 2023-63 § 4.03(1)(f)",
+            "Included as R&E / SRE",
+            "Travel outlays incurred directly for the performance or direct support of R&E activities."
+          ]
+        },
+        {
+          "cells": [
+            "G&A Service Departments (HR, Payroll, Accounting)",
+            "Notice 2023-63 § 4.03(2)(a)",
+            "Excluded from R&E / SRE",
+            "Indirectly supporting functions—specifically payroll check preparation, HR hiring of researchers, and accounting for research expenses—are strictly excluded."
+          ]
+        },
+        {
+          "cells": [
+            "Debt Financing Interest & Website/Domain Fees",
+            "Notice 2023-63 § 4.03(2)(b)–(e)",
+            "Excluded from R&E / SRE",
+            "Interest on debt financing SRE activities, website content input costs, ISP website hosting fees, and domain/trademark registration costs are excluded."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Section 4.03(3) of Notice 2023-63, taxpayers must allocate indirect and shared costs—such as facility depreciation, rent, utilities, and dual-use laboratory or computing equipment—to SRE activities on the basis of a cause-and-effect relationship, or another relationship that reasonably relates the costs to the benefits provided to the SRE activities, applied consistently across cost categories. Section 4.03(4) of Notice 2023-63 illustrates this functional allocation methodology using a taxpayer that incurs $200,000 of total building depreciation across a 10,000-square-foot facility, alongside $150,000 of equipment depreciation in its Research Department and $100,000 of equipment depreciation in its Engineering Department."
+    },
+    {
+      "type": "paragraph",
+      "text": "In that regulatory illustration, the Research Department occupies 1,000 sq. ft. (10% of total floor space) and devotes 100% of its activities to SRE, resulting in an allocable building depreciation charge of $200,000 × 1,000/10,000 × 100% = $20,000 and an allocable equipment depreciation charge of $150,000 × 100% = $150,000. The Engineering Department occupies 1,000 sq. ft. (10% of total floor space) and devotes 20% of its time to SRE activities, yielding an allocable building depreciation charge of $200,000 × 1,000/10,000 × 20% = $4,000 and an allocable equipment depreciation charge of $100,000 × 20% = $20,000. Finally, the Legal Department occupies 1,000 sq. ft. (10% of total floor space) and devotes 10% of its time to making and perfecting patent applications (an eligible SRE activity), generating an allocable building depreciation charge of $200,000 × 1,000/10,000 × 10% = $2,000, which produces a combined SRE depreciation allocation of $196,000 ($26,000 of facility depreciation plus $170,000 of equipment depreciation)."
+    },
+    {
+      "type": "paragraph",
+      "text": "This granular differentiation between includible direct support/occupancy overhead and excludible G&A service departments imposes a rigorous standard of functional cost accounting. Corporate tax departments cannot rely on high-level general ledger cost centers; instead, they must maintain <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">contemporaneous time-tracking</a>, headcount, and facility-utilization records capable of substantiating both the capture of direct support overhead and the exclusion of general administrative functions during IRS examinations."
+    },
+    {
+      "type": "heading",
+      "text": "III. Mandatory Capitalization, Amortization, and the Post-2024 Statutory Bifurcation"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 Amortization Mechanics, the Midpoint Convention, and the OBBBA Amendment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 174(a)(2), as amended by TCJA Section 13206(a) for taxable years beginning after December 31, 2021, and before January 1, 2025, taxpayers were required to charge all SRE expenditures to a separate specified research or experimental capital account (as noted in Revenue Procedure 2023-8 § 2.01 n.2) and amortize them ratably over the statutory recovery period—5 years (60 months) for domestic research and 15 years (180 months) for foreign research—beginning with the midpoint of the taxable year in which the expenditures were paid or incurred. Under Section 3.05 of IRS Notice 2023-63, except in the case of short taxable years (which are governed by specialized month-counting conventions in Section 3.06), the \"midpoint\" of a standard 12-month taxable year is defined as the first day of the seventh month of the taxable year in which the SRE expenditures are paid or incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because amortization commences on the first day of the seventh month, a 5-year (60-month) domestic SRE expenditure cohort is recovered across six separate taxable years: 6 months (10%) in Year 1, 12 months (20%) per year in Years 2 through 5, and the remaining 6 months (10%) in Year 6. Correspondingly, a 15-year (180-month) foreign SRE expenditure cohort is recovered across sixteen separate taxable years: 6 months (3.33% or 1/30) in Year 1, 12 months (6.67% or 1/15) per year in Years 2 through 15, and the final 6 months (3.33% or 1/30) in Year 16."
+    },
+    {
+      "type": "paragraph",
+      "text": "Following the enactment of Section 70302 of the OBBBA (Pub. L. 119-21) on July 4, 2025, effective for amounts paid or incurred in taxable years beginning after December 31, 2024, the statutory recovery architecture is bifurcated between IRC Section 174A for domestic research and amended IRC Section 174 for foreign research. The table below summarizes the statutory recovery schedules across both the TCJA transition period (2022–2024) and the post-2024 OBBBA regime."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Research Location & Statutory Period",
+        "Governing IRC Section",
+        "Cost Recovery / Amortization Period",
+        "Start Date Convention",
+        "Policy & Compliance Mechanism"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Domestic Research (TY 2022–2024: Paid/incurred in TY beginning after Dec. 31, 2021, and before Jan. 1, 2025)",
+            "TCJA IRC § 174(a)(2)(B)",
+            "Mandatory 5 Years (60 Months) ratable amortization (unless retroactively expensed by eligible small businesses or accelerated in 2025/2026 under OBBBA § 70302(f))",
+            "Midpoint of the taxable year paid or incurred (first day of 7th month: 10% in Y1, 20% in Y2–Y5, 10% in Y6)",
+            "Shorter 5-year recovery relative to 15-year foreign period designed to favor U.S., Puerto Rico, and U.S. territory R&E."
+          ]
+        },
+        {
+          "cells": [
+            "Domestic Research (Post-2024: Paid/incurred in TY beginning after Dec. 31, 2024)",
+            "OBBBA IRC § 174A(a) & § 174A(c)",
+            "100% Immediate Deduction in year paid/incurred (§ 174A(a)), OR elective amortization over ≥ 60 Months (§ 174A(c))",
+            "Immediate deduction in current taxable year (§ 174A(a)), or beginning with the month in which benefits are first realized (§ 174A(c)(1))",
+            "Restores full immediate expensing for domestic R&E (including U.S. software development under § 174A(d)(3))."
+          ]
+        },
+        {
+          "cells": [
+            "Foreign Research (All Post-2021 Years: Paid/incurred in TY beginning after Dec. 31, 2021, including post-2024)",
+            "TCJA IRC § 174(a)(2)(B) (2022–2024) & OBBBA Amended IRC § 174(a)–(b) (Post-2024)",
+            "Mandatory 15 Years (180 Months) ratable amortization",
+            "Midpoint of the taxable year paid or incurred (first day of 7th month: 3.33% in Y1, 6.67% in Y2–Y15, 3.33% in Y16)",
+            "Maintains a permanent statutory disincentive against conducting R&E outside the U.S., Puerto Rico, and U.S. possessions."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 Accounting Method Changes and Procedural Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Section 13206(b) of the TCJA (Pub. L. 115-97, 131 Stat. 2112), the transition to mandatory SRE capitalization and amortization was statutorily designated as a change in method of accounting for purposes of IRC Section 481 initiated by the taxpayer, made with the automatic consent of the Secretary of the Treasury, and applied strictly on a cut-off basis for any research or experimental expenditures paid or incurred in taxable years beginning after December 31, 2021. Under this statutory cut-off rule, no adjustments under IRC Section 481(a) were permitted or required for research or experimental expenditures paid or incurred in taxable years beginning before January 1, 2022."
+    },
+    {
+      "type": "paragraph",
+      "text": "To administer these accounting method changes under IRC Section 446(e), the IRS issued a progression of automatic method change revenue procedures: Revenue Procedure 2023-8, superseded by Revenue Procedure 2023-11 (2023-3 I.R.B. 417), followed by Revenue Procedure 2024-9 (2024-5 I.R.B. 628), Revenue Procedure 2025-8, Revenue Procedure 2025-28 (2025-38 I.R.B. 394), and Revenue Procedure 2026-32. For a taxpayer executing the method change to comply with TCJA Section 174 for its first taxable year beginning after December 31, 2021 (assigned Designated Automatic Accounting Method Change Number DCN 265), the IRS waived the standard requirement under 26 CFR Section 1.446-1(e)(3)(i) to file Form 3115 (Application for Change in Accounting Method) as well as the duplicate copy filing requirement under Revenue Procedure 2015-13. Instead, taxpayers were permitted to attach a simplified statement in lieu of Form 3115 to their original federal income tax return specifying the applicant's name and taxpayer identification number, the beginning and ending dates of the year of change, DCN 265, a general description and total dollar amount of the SRE expenditures, and a declaration that the change was made on a cut-off basis. Moreover, taxpayers who filed a 2022 federal return on or before January 17, 2023 (or January 9, 2023, under Revenue Procedure 2023-8), were granted deemed compliance even without attaching the simplified statement if they properly reported SRE amortization on Part VI of Form 4562 (Depreciation and Amortization) and properly capitalized and amortized those expenditures."
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical procedural refinement applies when a taxpayer changes its method of accounting to comply with TCJA Section 174 (or to adopt the interim rules of Notice 2023-63 and Notice 2024-12) in a taxable year subsequent to its first taxable year beginning after December 31, 2021. While general summaries often state categorically that no Section 481(a) adjustments are permitted under Section 174, Section 3 of Revenue Procedure 2023-11 and Section 3 of Revenue Procedure 2024-9 (modifying Section 7.02 of Revenue Procedure 2023-24) mandate that a method change made in a year after the first post-2021 taxable year requires filing a formal Form 3115 with a modified IRC Section 481(a) adjustment that takes into account only SRE expenditures paid or incurred in taxable years beginning after December 31, 2021. This modified Section 481(a) adjustment preserves the statutory cut-off protection for pre-2022 outlays while correcting post-2021 misclassifications; additionally, under Section 7.02(3)(b)(i)(B) of Revenue Procedure 2024-9, if the resulting modified Section 481(a) adjustment is negative (taxpayer-favorable), the taxpayer may optionally choose to implement the change on a cut-off basis. Taxpayers making a belated change in the taxable year immediately following the first effective year also forfeit audit protection with respect to post-2021 expenditures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under OBBBA Section 70302, Revenue Procedure 2025-28, and Revenue Procedure 2026-32, transitioning to the new IRC Section 174A immediate-expensing method for domestic R&E expenditures paid or incurred in taxable years beginning after December 31, 2024, similarly functions as an automatic change in method of accounting applied on a cut-off basis with no Section 481(a) adjustment. With respect to unamortized domestic SRE balances remaining from the 2022–2024 TCJA capitalization period, Section 7.02(2)(f) of Revenue Procedure 2025-23 (as modified by Revenue Procedure 2025-28 and Revenue Procedure 2026-32) provides an automatic accounting method change—designated as the \"recovery of unamortized amount method\"—under OBBBA Section 70302(f)(2). This procedure enables taxpayers to deduct their remaining unamortized 2022–2024 domestic SRE capital account balances either in full in the first taxable year beginning after December 31, 2024, or ratably over a two-taxable-year period."
+    },
+    {
+      "type": "subheading",
+      "text": "3.3 State Tax Conformity Divergences in California and Texas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal amendments to IRC Sections 174 and 174A have generated pronounced state tax conformity divergences across the United States, compelling multistate businesses to maintain parallel federal and state R&E capitalization and amortization ledgers. Auditing state revenue statutes and administrative pronouncements in major R&D jurisdictions such as California and Texas confirms that neither state conformed to the TCJA Section 174 capitalization regime, though the legal mechanism of nonconformity differs fundamentally between the two states."
+    },
+    {
+      "type": "paragraph",
+      "text": "In California, according to official guidance from the California Franchise Tax Board (FTB)—specifically the January 2024 Tax News announcement (\"Deduction of Section 174 Research Expenses – Nonconformity with IRC\") and the FTB Summary of Federal Income Tax Changes—California operates as a static-conformity jurisdiction that generally conforms to the Internal Revenue Code as of January 1, 2015. Consequently, California explicitly does not conform to either the TCJA mandatory capitalization and amortization amendments under IRC Section 174 or the OBBBA enactment of IRC Section 174A. On California corporate franchise and personal income tax returns, taxpayers may continue to immediately deduct Section 174 research expenses in the taxable year paid or incurred, or elect to amortize them over 60 months under pre-TCJA law. For the 2022 through 2024 taxable years, this created a substantial subtraction modification on California Schedule M-1/M-2 relative to federal taxable income (and subsequent addition modifications in later years to reverse federal amortization), while for post-2024 taxable years, California continues to permit immediate deduction of both domestic and foreign R&E expenses, diverging sharply from the federal 15-year amortization mandate for foreign R&E."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Texas, while tax summaries occasionally group Texas alongside California as a state that permits an immediate corporate income tax deduction under pre-TCJA Section 174, primary statutory verification against Texas Tax Code Chapter 171, Texas Comptroller STAR Memo 202512012M, and 34 Texas Administrative Code Section 3.599 clarifies the precise legal architecture. Texas does not impose a traditional corporate net income tax; rather, it levies a Franchise Tax based on a taxable entity's \"taxable margin,\" which is computed as Total Revenue minus the greatest of four statutory deductions: Cost of Goods Sold (COGS), compensation, 30% of Total Revenue, or $1,000,000. Wherever the Texas Franchise Tax statute cross-references the federal Internal Revenue Code—such as for computing eligible Cost of Goods Sold under Texas Tax Code Section 171.1012—Texas is statutorily tied to the 2007 Internal Revenue Code (as confirmed in Comptroller STAR Memo 202512012M). Furthermore, for purposes of the <a href=\"/us/faq/state-vs-federal-rd-tax-credits\">Texas Franchise Tax Research and Development Activities Credit</a> under 34 Texas Administrative Code Section 3.599 (which remains in effect through December 31, 2026), Texas conforms specifically to the Internal Revenue Code of 1986 in effect on December 31, 2011, including pre-TCJA IRC Section 174 and 26 CFR Section 1.174-2. Thus, Texas does not conform to TCJA Section 174 capitalization, but the compliance divergence manifests in Franchise Tax COGS computations and Texas R&D credit eligibility rather than a conventional state net income tax deduction."
+    },
+    {
+      "type": "subheading",
+      "text": "3.4 The Disposition, Retirement, and Abandonment Rule Under IRC Section 174(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most economically punitive provisions of the amended Section 174 regime is IRC Section 174(d), which governs the disposition, retirement, or abandonment of property connected to capitalized research expenditures. Under TCJA IRC Section 174(d) and Section 7.02 of IRS Notice 2023-63, if any property with respect to which SRE expenditures were paid or incurred is disposed of, retired, or abandoned during the applicable 5-year or 15-year amortization period, no deduction or loss recovery is allowed on account of such disposition, retirement, or abandonment; instead, such amortization must continue with respect to such expenditures over the remainder of the original statutory period. Under Section 7.03 of Notice 2023-63, this prohibition applies even when the underlying property is disposed of, retired, or abandoned prior to the midpoint of the taxable year in which the SRE expenditures were initially paid or incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Section 7.05(1) of Notice 2023-63, the Treasury Department and the IRS further clarified that when property associated with capitalized SRE expenditures is sold in a taxable transaction, transferred in an IRC Section 351 corporate formation, or sold in an applicable asset acquisition under IRC Section 1060(c), the seller or transferor may not include unamortized SRE expenditures in the asset's adjusted basis to reduce realized gain or increase realized loss under IRC Section 1001. Simultaneously, the buyer or transferee does not inherit any portion of the seller's unamortized SRE capital account; instead, the seller must retain the stranded capital account and continue amortizing it ratably over the remaining years of the original statutory schedule."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective for property disposed of, retired, or abandoned after May 12, 2025, OBBBA Section 70302(b)(1)(C) amended IRC Section 174(d) in two critical respects. First, it aligned the scope of Section 174(d) with amended Section 174 so that, for post-2024 expenditures, the rule applies to foreign research or experimental expenditures (as well as to any domestic R&E from 2022–2024 not yet accelerated). Second, Congress explicitly inserted the statutory phrase \"or reduction to amount realized\" immediately following \"no deduction\" in the text of IRC Section 174(d), codifying directly into the Internal Revenue Code the administrative position of Notice 2023-63 that unamortized Section 174 expenditures cannot offset the amount realized upon a sale or exchange of the underlying property."
+    },
+    {
+      "type": "paragraph",
+      "text": "This statutory severance between the commercial life of an R&D project and its tax recovery schedule creates a substantial hazard of stranded tax basis. Under traditional tax accounting principles (such as IRC Section 165), abandoning a <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">failed development project</a> yields an immediate abandonment loss deduction in the year of termination. Under IRC Section 174(d), however, a multinational enterprise that terminates an unsuccessful offshore software or pharmaceutical development project in Year 2 must continue amortizing the remaining unamortized balance through Year 16. From an ASC 740 financial reporting perspective, corporate tax auditors must rigorously evaluate whether the entity will generate sufficient future taxable income over that 16-year horizon—and within the appropriate tax character and jurisdiction—to realize the deferred tax asset, or whether a valuation allowance must be recorded against the stranded SRE balance."
+    },
+    {
+      "type": "heading",
+      "text": "IV. Interplay with the R&D Tax Credit Under IRC Section 41 and Contractual Research"
+    },
+    {
+      "type": "subheading",
+      "text": "4.1 Statutory and Cost-Pool Divergence Between IRC Sections 174 and 174A and IRC Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although IRC Section 174 (alongside post-2024 IRC Section 174A) and IRC Section 41 both regulate research activities, they operate through fundamentally distinct statutory mechanisms and encompass markedly asymmetric cost pools. Under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)</a> and 26 CFR Section 1.41-4(a)(2), qualifying as an eligible expenditure under Section 174 (or Section 174A for post-2024 domestic research, per the conforming amendment in OBBBA) is merely the first of four cumulative tests required for an activity to constitute \"qualified research\" for the R&D Tax Credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the remaining three prongs of the IRC Section 41(d) \"<a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a>,\" the research activity must first be undertaken for the purpose of discovering information that is technological in nature—meaning the process of experimentation must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science (26 CFR § 1.41-4(a)(4)). Second, the activity must be intended to be useful in the development of a new or improved <a href=\"/us/legislation/26-usc-41d2-business-component-test\">business component</a> of the taxpayer, where the research relates to function, performance, reliability, or quality rather than style, taste, cosmetic, or seasonal design factors (IRC § 41(d)(1)(B)(ii) and § 41(d)(3)). Third, <a href=\"/us/glossary/substantially-all-rule\">substantially all</a>—defined in 26 CFR Section 1.41-4(a)(6) as 80% or more—of the research activities must constitute elements of a process of experimentation. Additionally, internal-use software development must surmount the heightened three-part \"<a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation</a>\" test under 26 CFR Section 1.41-4(c)(6) to qualify for the Section 41 credit, whereas all software development is automatically captured under IRC Section 174(c)(3) and Section 174A(d)(3) regardless of whether it meets the Section 41 threshold or even the general Section 174 uncertainty test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when an R&D project satisfies all four prongs of the Section 41(d) test, IRC Section 41(b) restricts the credit base—which yields a regular credit equal to 20% of the excess of current-year QREs over a statutory base amount under IRC Section 41(a)(1), or an <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">Alternative Simplified Credit (ASC)</a> equal to 14% of QREs exceeding 50% of the prior three-year average under IRC Section 41(c)(4)—to three narrow cost categories. Those QRE categories are in-house W-2 wages (or self-employed earned income) paid for qualified services (engaging in, directly supervising, or directly supporting qualified research, with a 100% wage inclusion rule under 26 CFR Section 1.41-2(d)(2) if at least 80% of an employee's services during the year are qualified services), tangible non-depreciable supplies used in the conduct of qualified research alongside eligible off-premises computer time-sharing payments under IRC Section 41(b)(2)(A)(iii) and 26 CFR Section 1.41-2(b)(4), and 65% of <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research expenses</a> paid or incurred to non-employees for qualified research (increased to 75% for payments to qualified research consortia under IRC Section 41(b)(3)(C) and 100% for payments to eligible small businesses, universities, or federal laboratories for energy research under IRC Section 41(b)(3)(D))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)(1)</a> (as amended by the TCJA and updated by OBBBA Section 70302(b)(2)(B)) coordinates the two regimes to prevent a double tax benefit. Under amended Section 280C(c)(1), a taxpayer's deductible or capitalizable domestic R&E expenditures must be reduced by the full amount of the Section 41 research credit claimed for the taxable year, unless the taxpayer makes a timely, irrevocable election on its original federal income tax return under IRC Section 280C(c)(2) to claim a <a href=\"/us/glossary/reduced-research-credit\">reduced Section 41 credit</a> (reducing the gross credit by the maximum corporate tax rate of 21%). The comparative table below contrasts the statutory attributes of IRC Sections 174 and 174A against IRC Section 41."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "IRC Section 174 (SRE / Foreign R&E) & IRC Section 174A (Post-2024 Domestic R&E)",
+        "IRC Section 41 (Qualified Research Expenditures / QRE)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Primary Tax Mechanism",
+            "Governs timing of cost recovery: Mandatory capitalization over 5 years (domestic, 2022–2024) or 15 years (foreign, all post-2021 years) under § 174; immediate deduction or elective ≥ 60-month amortization for post-2024 domestic R&E under § 174A.",
+            "Provides a dollar-for-dollar reduction in tax liability (Tax Credit under § 41(a), subject to § 280C(c) deduction/basis reduction or <a href=\"/us/glossary/section-280c-election\">reduced credit election</a>)."
+          ]
+        },
+        {
+          "cells": [
+            "Definitional Threshold",
+            "Activities in the \"experimental or laboratory sense\" intended to eliminate uncertainty regarding capability, method, or design (26 CFR § 1.174-2), plus all software development (§ 174(c)(3) / § 174A(d)(3)) regardless of uncertainty.",
+            "Must pass the 4-Part Test (§ 41(d)): (1) § 174/174A eligibility, (2) technological in nature, (3) new/improved business component, and (4) ≥ 80% process of experimentation (plus heightened <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> tests under 26 CFR § 1.41-4(c)(6))."
+          ]
+        },
+        {
+          "cells": [
+            "Scope of Eligible Costs",
+            "Broad: Direct/support labor (including fringe benefits and stock compensation, excluding severance), non-depreciable supplies, 100% of qualifying contract research, depreciation/amortization allowances, facility overhead (rent, utilities, insurance, taxes, repairs, security), travel, and patent legal fees (Notice 2023-63 § 4.03(1)).",
+            "Narrow: Limited strictly to (1) W-2 wages / self-employed earned income for <a href=\"/us/glossary/qualified-services\">qualified services</a>, (2) tangible non-depreciable supplies, (3) eligible off-premises computer lease/time-sharing costs, and (4) 65% (or 75%/100%) of eligible domestic contract research (§ 41(b)). Excludes overhead, travel, fringe benefits, and depreciation."
+          ]
+        },
+        {
+          "cells": [
+            "Treatment of Patent Procurement Costs",
+            "Included: Attorneys' fees and legal costs expended in making and <a href=\"/us/glossary/patent-perfection-costs\">perfecting a patent application</a> are explicitly included (26 CFR § 1.174-2(a)(1); Notice 2023-63 § 4.03(1)(d)).",
+            "Excluded from QREs: Patent procurement legal expenses do not qualify as QREs (IRS § 41 Audit Techniques Guide), though issuance of a utility patent under 35 U.S.C. § 151 triggers the \"<a href=\"/us/glossary/patent-safe-harbor\">patent safe harbor</a>\" (26 CFR § 1.41-4(a)(3)(iii)) for technological discovery."
+          ]
+        },
+        {
+          "cells": [
+            "Geographic Scope",
+            "Applies worldwide: U.S., Puerto Rico, and U.S. territories are domestic (5-year in 2022–2024; immediate expensing post-2024 under § 174A); all other locations are foreign (15-year amortization under § 174).",
+            "Strictly Domestic (§ 41(d)(4)(F)): <a href=\"/us/glossary/foreign-research-exclusion\">Foreign research</a> conducted outside the U.S., Puerto Rico, or U.S. possessions is completely excluded from the Section 41 credit."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "4.2 Research Providers and Contractual Arrangements Under IRS Notice 2023-63 and Notice 2024-12"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">third-party contractual R&D arrangements</a>, determining whether the research recipient (the customer commissioning and funding the work), the research provider (the contractor or engineering firm performing the work), or both parties simultaneously must treat their respective outlays as Section 174 or Section 174A expenditures depends on the contractual allocation of financial risk and intellectual property rights. A precise legal audit of IRS Notice 2023-63 (Section 6) and IRS Notice 2024-12 (Sections 2, 3, and 4) reveals how the Treasury Department and the IRS structured—and subsequently refined—these contract research rules to prevent unintended double capitalization by service providers."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, Section 6 of Notice 2023-63 established the foundational framework for both counterparties to a research contract. For the research recipient (Notice 2023-63 § 6.03), the tax treatment of amounts paid to a contractor is governed by the longstanding regulatory rules of 26 CFR Section 1.174-2(a)(10) (governing research carried on in the taxpayer's behalf by another person or organization) and 26 CFR Section 1.174-2(b)(3) (governing depreciable property manufactured or constructed by another person under a contract at the taxpayer's order and risk). In the regulatory illustration set forth in Section 6.05 of Notice 2023-63, where Company C pays a U.S. research contractor, Company D, $150,000 (comprising $125,000 of actual development costs plus a $25,000 fixed fee) to develop an SRE product without a performance guarantee and Company D retains no right to use or exploit the resulting product, Company C (the recipient) must treat the entire $150,000 payment as an SRE expenditure."
+    },
+    {
+      "type": "paragraph",
+      "text": "For the research provider, Section 6.04 of Notice 2023-63 established a two-prong inclusion rule: costs paid or incurred by the research provider incident to contract SRE activities must be treated as SRE expenditures of the provider if the provider either bears <a href=\"/us/glossary/financial-risk-test\">financial risk</a> under the terms of the contract—defined in Section 6.02(3) as the risk that the research provider may suffer a financial loss related to the failure of the research to produce the desired SRE product—or has an \"SRE product right,\" defined in Section 6.02(5) as a right to use any resulting SRE product in the trade or business of the research provider or otherwise exploit an SRE product through sale, lease, or license, unless that right is available only upon obtaining prior approval from an unrelated party to the research arrangement. Crucially, Section 6.02(4) of Notice 2023-63 stipulates that mere know-how gained by a research provider through the performance of research services for a research recipient that is not subject to protection under applicable domestic or foreign law does not give rise to an SRE product in the hands of the research provider."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, following the publication of Notice 2023-63, the Treasury Department and the IRS recognized that the literal phrasing of Section 6.04 in Notice 2023-63 could force a pure fee-for-service contractor who bears zero financial risk (such as a <a href=\"/us/glossary/cost-plus-contract\">cost-plus</a> or time-and-materials engineering firm) to capitalize its contract fulfillment costs under Section 174 merely because the customer granted the provider a narrow license to use the customer's background or foreground IP to perform that contract, or because the provider paid separately for a commercial license. To eliminate this anomaly, Section 3 of IRS Notice 2024-12 modified Section 6.04 of Notice 2023-63 to establish that if a research provider does not bear financial risk under the contract and obtains only an \"excluded SRE product right\" (and no other SRE product right), the provider's contract fulfillment costs are not SRE expenditures and remain deductible as ordinary business expenses under IRC Section 162 (or inventoriable/contract costs)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Section 3 of Notice 2024-12 defines an \"excluded SRE product right\" as an SRE product right that either was separately bargained for—meaning a right that arose from consideration other than the cost paid or incurred by the research provider to perform SRE activities under that contract—or was acquired for the limited purpose of performing SRE activities under that contract or another contract with the research recipient. Furthermore, Section 4 of Notice 2024-12 modified Section 10.01 of Notice 2023-63 to eliminate the \"all-or-nothing\" reliance rule, confirming that taxpayers may rely on any individual rule in Sections 3 through 9 of Notice 2023-63 (other than the partnership disposition rules in Section 7) without being obligated to implement every provision of the notice, provided the selected rules are applied consistently."
+    },
+    {
+      "type": "heading",
+      "text": "V. Practical Application, Financial Modeling, and Ancillary Tax Effects"
+    },
+    {
+      "type": "subheading",
+      "text": "5.1 Quantitative Modeling of Domestic Versus Foreign R&E Capitalization and Amortization"
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate the exact cash-flow and taxable-income dynamics of Section 174 capitalization, this analysis models and audits a multi-year scenario involving a calendar-year, United States-based technology enterprise (\"TechCo\") that incurs $2,000,000 in domestic SRE expenditures (comprising qualified engineering wages, non-depreciable laboratory supplies, and allocable direct facility and equipment overhead) in Tax Year 1 (TY1, beginning January 1, 2022)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under pre-2022 federal tax law (former IRC Section 174(a)), TechCo would have deducted the entire $2,000,000 in TY1. Under TCJA IRC Section 174(a)(2)(B), however, TechCo was required to charge the $2,000,000 to a specified R&E capital account and amortize it ratably over 5 years (60 months) beginning at the midpoint (July 1) of TY1. In TY1 (2022), TechCo claims an amortization deduction of:"
+    },
+    {
+      "type": "paragraph",
+      "text": "TY1 Deduction = ($2,000,000 ÷ 5) × 0.5 = $200,000 (10%, or 6 of 60 months)"
+    },
+    {
+      "type": "paragraph",
+      "text": "leaving an unamortized capital account balance of $1,800,000 at year-end. In TY2 through TY5 (2023–2026), under the standard 60-month schedule, TechCo claims an annual amortization deduction of:"
+    },
+    {
+      "type": "paragraph",
+      "text": "TY2–TY5 Annual Deduction = $2,000,000 ÷ 5 = $400,000 per year (20%, or 12 of 60 months)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, in TY6 (2027), TechCo claims the remaining 6 months of amortization:"
+    },
+    {
+      "type": "paragraph",
+      "text": "TY6 Deduction = ($2,000,000 ÷ 5) × 0.5 = $200,000 (10%, or final 6 of 60 months)"
+    },
+    {
+      "type": "paragraph",
+      "text": "reducing the unamortized capital account balance to $0."
+    },
+    {
+      "type": "paragraph",
+      "text": "When modeling the effect of this amortization schedule on annual taxable income relative to prior law, a frequent analytical error in baseline tax schedules involves subtracting each year's amortization deduction (−$400,000 in TY2–TY5 and −$200,000 in TY6) from $2,000,000 in every single year—erroneously reporting a taxable income increase of +$1,800,000 in TY1, +$1,600,000 in TY2 through TY5, and +$1,800,000 in TY6. Subtracting each year's amortization from $2,000,000 across all six years while only tracking the amortization of a single TY1 cohort double-counts the $2,000,000 prior-law baseline six times, falsely implying a cumulative +$10,000,000 taxable income increase from a single $2,000,000 expenditure. Rigorous tax modeling requires distinguishing between a single one-time expenditure cohort, a recurring constant annual expenditure stream, and the actual post-2024 OBBBA transition election."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, for a single one-time cohort where TechCo incurs $2,000,000 in TY1 only and $0 in TY2 through TY6, prior law would have produced a $2,000,000 deduction in TY1 and a $0 deduction in TY2 through TY6. Relative to prior law, TCJA Section 174 increases TechCo's taxable income in TY1 by +$1,800,000 ($2,000,000 − $200,000), and then decreases TechCo's taxable income by −$400,000 per year in TY2 through TY5 ($0 − $400,000) and by −$200,000 in TY6 ($0 − $200,000). Across the complete six-year recovery cycle, the net cumulative difference in taxable income equals exactly $0:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+$1,800,000 − 4($400,000) − $200,000 = $0"
+    },
+    {
+      "type": "paragraph",
+      "text": "confirming that <a href=\"/us/glossary/r-and-e-capitalization\">Section 174 capitalization</a> is purely a timing deferral rather than a permanent disallowance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, if TechCo instead incurs a recurring annual expenditure of $2,000,000 every year from TY1 through TY6 under a continuous 60-month midpoint amortization regime, overlapping amortization layers stack upon one another each year: $200,000 in TY1; $200,000 + $400,000 = $600,000 in TY2; $1,000,000 in TY3; $1,400,000 in TY4; $1,800,000 in TY5; and $2,000,000 in TY6. Under this recurring-spend trajectory, the annual increase in taxable income relative to immediate expensing steps down linearly each year—from +$1,800,000 in TY1 to +$1,400,000 in TY2, +$1,000,000 in TY3, +$600,000 in TY4, +$200,000 in TY5, and $0 once the 6-year steady state is reached in TY6—leaving a permanent steady-state unamortized DTA balance of $5,000,000 on the tax balance sheet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, under actual post-2024 federal law enacted by OBBBA Section 70302(f), at the conclusion of TY3 (2024), TechCo holds $1,000,000 of remaining unamortized domestic SRE basis from its TY1 (2022) cohort ($2,000,000 − $200,000 − $400,000 − $400,000). Pursuant to Revenue Procedure 2025-28 and Revenue Procedure 2026-32, TechCo may either continue amortizing that remaining $1,000,000 on its original schedule ($400,000 in 2025, $400,000 in 2026, and $200,000 in 2027) or elect under OBBBA Section 70302(f)(2) to accelerate and deduct the entire remaining $1,000,000 in TY4 (2025) (or ratably as $500,000 in 2025 and $500,000 in 2026), while simultaneously deducting 100% of all new domestic R&E incurred in 2025 and subsequent years under IRC Section 174A(a). The table below presents the complete multi-year schedules."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tax Year",
+        "Domestic 5-Yr Calculation ($2M Cohort)",
+        "Single Cohort Amortization Deduction",
+        "Single Cohort Year-End Unamortized Balance",
+        "Single Cohort Effect on Annual Taxable Income vs. Prior Law",
+        "Recurring $2M/Yr Stacked Amortization Deduction",
+        "Recurring $2M/Yr Effect on Annual Taxable Income vs. Prior Law"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "TY1 (2022)",
+            "($2,000,000/5) × 0.5 (6 mos.)",
+            "$200,000 (10%)",
+            "$1,800,000",
+            "+$1,800,000 (Increase in Income)",
+            "$200,000",
+            "+$1,800,000 (Increase in Income)"
+          ]
+        },
+        {
+          "cells": [
+            "TY2 (2023)",
+            "$2,000,000/5 (12 mos.)",
+            "$400,000 (20%)",
+            "$1,400,000",
+            "−$400,000 (Decrease in Income)",
+            "$600,000",
+            "+$1,400,000 (Increase in Income)"
+          ]
+        },
+        {
+          "cells": [
+            "TY3 (2024)",
+            "$2,000,000/5 (12 mos.)",
+            "$400,000 (20%)",
+            "$1,000,000",
+            "−$400,000 (Decrease in Income)",
+            "$1,000,000",
+            "+$1,000,000 (Increase in Income)"
+          ]
+        },
+        {
+          "cells": [
+            "TY4 (2025)",
+            "$2,000,000/5 (12 mos.) (or $1M/$500k OBBBA election)",
+            "$400,000 (20%)",
+            "$600,000",
+            "−$400,000 (Decrease in Income)",
+            "$1,400,000 (under TCJA 5-yr schedule)",
+            "+$600,000 (Increase in Income)"
+          ]
+        },
+        {
+          "cells": [
+            "TY5 (2026)",
+            "$2,000,000/5 (12 mos.)",
+            "$400,000 (20%)",
+            "$200,000",
+            "−$400,000 (Decrease in Income)",
+            "$1,800,000 (under TCJA 5-yr schedule)",
+            "+$200,000 (Increase in Income)"
+          ]
+        },
+        {
+          "cells": [
+            "TY6 (2027)",
+            "($2,000,000/5) × 0.5 (6 mos.)",
+            "$200,000 (10%)",
+            "$0",
+            "−$200,000 (Decrease in Income)",
+            "$2,000,000 (Steady state reached)",
+            "$0 (Neutral vs. Prior Law)"
+          ]
+        },
+        {
+          "cells": [
+            "Total (TY1–TY6)",
+            "60 Months (100%)",
+            "$2,000,000",
+            "$0",
+            "$0 Net Timing Difference",
+            "$7,000,000 (with $5M unamortized)",
+            "+$5,000,000 Cumulative Deferred Deduction"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the same statutory mechanics to a standardized $1,000,000 annual expenditure benchmark highlights the stark divergence between domestic and foreign research. Under the 5-year domestic amortization rule (2022–2024), a $1,000,000 domestic SRE outlay yields a Year 1 deduction of $100,000 (10%), sacrificing 90% ($900,000) of the Year 1 tax shield, followed by $200,000 per year in Years 2 through 5 and $100,000 in Year 6. Conversely, a $1,000,000 foreign R&E outlay—which remains locked into mandatory 15-year (180-month) midpoint amortization under IRC Section 174 both before and after the OBBBA—yields a Year 1 deduction of only $33,333.33 ($1,000,000 × 1/15 × 0.5 = 3.33%), sacrificing 96.67% ($966,666.67) of the Year 1 tax shield, followed by $66,666.67 (6.67%) per year in Years 2 through 15 and $33,333.33 (3.33%) in Year 16."
+    },
+    {
+      "type": "subheading",
+      "text": "5.2 Ancillary International Tax Effects on the Foreign Tax Credit Limitation and FDII"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the primary consequence of Section 174 capitalization is an adverse acceleration of domestic cash tax liability, deferring R&E deductions produces countervailing secondary benefits under specific international tax provisions of the Internal Revenue Code—most notably the Foreign Tax Credit (FTC) limitation under IRC Section 904 and the Foreign-Derived Intangible Income (FDII) deduction under IRC Section 250."
+    },
+    {
+      "type": "paragraph",
+      "text": "With respect to the Foreign Tax Credit limitation under IRC Section 904 and Treasury Regulation 26 CFR Section 1.861-17, the rules governing the allocation and apportionment of research and experimental expenditures between U.S.-source and foreign-source gross income apply strictly to R&E expenditures that a taxpayer deducts or amortizes under IRC Section 174 (or Section 174A / Section 59(e)) in the current taxable year (26 CFR § 1.861-17(a)). Under 26 CFR Section 1.861-17(b)–(d), currently deductible or amortizable R&E expenditures are allocated to gross intangible income within the taxpayer's three-digit Standard Industrial Classification (SIC) code product category. Solely for purposes of computing the IRC Section 904 FTC limitation, 50% of the current taxable year's R&E deduction is apportioned exclusively to the geographic source where more than 50% of the R&E was performed (typically U.S.-source gross intangible income for U.S.-headquartered multinationals), and the remaining 50% is apportioned ratably between U.S.-source and foreign-source statutory groupings based on relative gross receipts from intangible property. Because only the currently amortizable fraction of capitalized SRE expenditures (10% in Year 1 for 2022–2024 domestic SREs, or 3.33% in Year 1 for foreign R&E) enters the 26 CFR Section 1.861-17 apportionment pool in the initial years of capitalization, the total R&E expense apportioned against foreign-source gross income is sharply compressed. This reduction elevates the taxpayer's net foreign-source taxable income—the numerator of the IRC Section 904 FTC limitation fraction—thereby expanding the FTC limitation and enabling corporations in excess-credit positions to absorb higher volumes of foreign income taxes. Conversely, when a taxpayer elects to immediately expense post-2024 domestic R&E under IRC Section 174A(a) and accelerate unamortized 2022–2024 balances under OBBBA Section 70302(f), the resulting surge in current-year R&E deductions apportioned under 26 CFR Section 1.861-17 can severely constrict the Section 904 FTC limitation, potentially prompting FTC-constrained multinationals to evaluate elective 60-month capitalization under IRC Section 174A(c)."
+    },
+    {
+      "type": "paragraph",
+      "text": "With respect to the Foreign-Derived Intangible Income (FDII) deduction under 26 U.S.C. Section 250, the interaction between R&E cost recovery and Section 250 operates through two distinct statutory channels—one governing Deduction Eligible Income (DEI) and one governing the overall taxable income limitation—and reflects a major post-2025 amendment under the OBBBA. For taxable years prior to the OBBBA's Section 250 amendments, under 26 CFR Section 1.250(b)-1(d)(2)(ii), current-year R&E amortization deductions were allocated and apportioned directly against gross DEI to compute net DEI (from which Foreign-Derived Deduction Eligible Income [FDDEI] and FDII are derived). Consequently, during the 2022–2024 TCJA capitalization period, deferring 90% of Year 1 domestic R&E deductions (and 96.67% of Year 1 foreign R&E deductions) simultaneously inflated both net DEI/FDDEI under IRC Section 250(b) and the corporation's overall U.S. taxable income limitation under IRC Section 250(a)(2) (which proportionally scales back a corporation's Section 250 deduction for FDII and Global Intangible Low-Taxed Income [GILTI] / net CFC tested income whenever their combined sum exceeds overall U.S. taxable income determined without regard to Section 250)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the amended text of 26 U.S.C. Section 250(b)(3)(A)(ii) enacted by the OBBBA (alongside the adjusted Section 250(a)(1)(A) deduction rate of 33.34% of foreign-derived deduction eligible income), DEI is statutorily defined as the excess of a domestic corporation's eligible gross income over the deductions (including taxes) properly allocable to such gross income \"other than interest expense and research or experimental expenditures\". Because amended IRC Section 250(b)(3)(A)(ii) excludes R&E expenditures from the deductions that reduce DEI, immediately deducting domestic R&E under IRC Section 174A(a) no longer erodes the taxpayer's gross-to-net DEI/FDDEI base. Nevertheless, whether R&E expenditures are immediately expensed under IRC Section 174A(a) (or accelerated under OBBBA Section 70302(f)) versus amortized under IRC Section 174 or Section 174A(c) continues to directly govern the corporation's overall U.S. taxable income cap under 26 U.S.C. Section 250(a)(2)."
+    },
+    {
+      "type": "heading",
+      "text": "VI. Areas of Persistent Regulatory Ambiguity and Strategic Compliance Recommendations"
+    },
+    {
+      "type": "subheading",
+      "text": "6.1 Allocation of Costs for Remote and Hybrid Cross-Border Workforces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the Treasury Department and the IRS issued extensive interim substantive guidance in Notice 2023-63 and Notice 2024-12—complemented by procedural method change rules in Revenue Procedures 2023-11, 2024-9, 2025-28, and 2026-32—comprehensive final Treasury Regulations under IRC Sections 174 and 174A remain pending. Foremost among the areas of operational ambiguity is the allocation of compensation and overhead for remote and hybrid cross-border workforces."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because foreign research remains subject to mandatory 15-year (180-month) midpoint amortization under amended IRC Section 174 even after the OBBBA restored 100% immediate expensing for domestic research under IRC Section 174A, the geographic boundary between domestic performance (United States, Puerto Rico, and U.S. territories) and foreign performance carries an unprecedented tax differential. While Section 3.04 of Notice 2023-63 instructs taxpayers to classify expenditures as domestic or foreign based on where the underlying SRE activities are physically performed, current administrative guidance provides no quantitative <a href=\"/us/glossary/de-minimis-rule\">de minimis</a> thresholds, day-count safe harbors, or standardized apportionment protocols for mobile software engineers or researchers who split workdays across international borders during a single taxable year. Until final regulations establish bright-line safe harbors, multinational employers must rely on geolocation logs, travel records, and contemporaneous payroll location tracking to substantiate domestic versus foreign performance splits."
+    },
+    {
+      "type": "subheading",
+      "text": "6.2 Standardized Safe Harbors for Overhead and General and Administrative Allocation"
+    },
+    {
+      "type": "paragraph",
+      "text": "A second area of persistent controversy involves the boundary between includible direct support/occupancy overhead and excludible G&A service departments. While Sections 4.03(1) and 4.03(2) of Notice 2023-63 distinguish includible facility and equipment overhead (such as rent, utilities, security, and depreciation) from excluded G&A service departments (such as HR, payroll, and accounting), Section 4.03(3) requires only that taxpayers allocate shared indirect costs using a \"cause-and-effect relationship, or another relationship that reasonably relates the costs to the benefits provided to the SRE activities\". Because Notice 2023-63 does not promulgate mechanical safe-harbor ratios—such as standardized direct-labor multipliers or simplified headcount percentages that the IRS will not challenge upon examination—taxpayers face potential audit disputes over customized square-footage and functional time-allocation methodologies, particularly for C-suite executives, IT infrastructure teams, and shared cloud computing environments."
+    },
+    {
+      "type": "subheading",
+      "text": "6.3 Application of the IRC Section 174(d) Disposition Rule to Partnerships"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Sections 7.04 and 7.05 of Notice 2023-63, the IRS established concrete operational rules and examples governing how unamortized SRE capital accounts are treated when a corporation ceases to exist in a tax-free reorganization or liquidation described in IRC Section 381(a) (where the acquiring corporation steps into the transferor corporation's tax shoes and continues amortizing the remaining SRE balance ratably over the original recovery period, prorated by months in the year of transfer) versus corporate transactions not described in Section 381(a) (where the transferor retains and continues to amortize the unamortized balance)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For pass-through entities taxed as partnerships under Subchapter K, however, Section 10.01 of Notice 2023-63, as modified by Section 4 of Notice 2024-12 and reiterated in Revenue Procedure 2024-9, explicitly prohibits taxpayer reliance: \"Taxpayers may not rely on the rules described in section 7 of Notice 2023-63 for SRE expenditures paid or incurred with respect to property that is contributed to, distributed from, or transferred from a partnership\". Consequently, definitive Treasury Regulations are still required to resolve how IRC Section 174(d) interacts with nonrecognition contributions to partnerships under IRC Section 721, current and liquidating partnership distributions under IRC Section 731, transfers of partnership interests triggering inside basis adjustments under IRC Section 743(b), and technical partnership terminations or abandonments."
+    },
+    {
+      "type": "subheading",
+      "text": "6.4 Interaction with Long-Term Contract Accounting Under IRC Section 460"
+    },
+    {
+      "type": "paragraph",
+      "text": "A fourth technical intersection involves the coordination between <a href=\"/us/glossary/section-174-amortization\">Section 174 amortization</a> schedules and long-term contract revenue recognition under IRC Section 460. While final regulations remain pending, Section 8 of IRS Notice 2023-63 and Section 19.02 of Revenue Procedure 2023-24 (added by Revenue Procedure 2024-9) established a critical interim operational framework for defense, aerospace, and engineering contractors utilizing the Percentage-of-Completion Method (PCM) under IRC Section 460."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under legacy PCM regulations (26 CFR § 1.460-5(b)(2)(vi)), total incurred research and experimental costs were included immediately in the numerator of the PCM completion factor (Cumulative Allocable Contract Costs Incurred ÷ Total Estimated Allocable Contract Costs), which artificially accelerated contract revenue recognition in Year 1 even though TCJA Section 174(a) disallowed 90% (or 96.67%) of the corresponding Year 1 cost deduction. To cure this severe income-versus-deduction mismatch, Section 8 of Notice 2023-63 and Revenue Procedure 2024-9 authorize PCM taxpayers to include only the annual Section 174(a)(2)(B) amortization deductions in the PCM numerator as those amortization deductions are incurred. Furthermore, the interim guidance permits taxpayers to compute the PCM denominator (total estimated allocable contract costs) using one of two elective methods: including all projected amortization of SRE expenditures that directly benefit or are incurred by reason of the long-term contract (with any remaining unreported portion of the total contract price recognized no later than the taxable year immediately following the year of contract completion), or including in the denominator only that portion of SRE amortization expected to be incurred and deducted during the term of the contract."
+    },
+    {
+      "type": "subheading",
+      "text": "6.5 Strategic Compliance and Financial Management Recommendations"
+    },
+    {
+      "type": "paragraph",
+      "text": "To navigate the bifurcated post-2024 statutory landscape under IRC Sections 174 and 174A, corporate tax executives, legal counsel, and R&D auditors should execute three integrated compliance strategies."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, enterprises must institutionalize contemporaneous, granular cost and geographic tracking within their Enterprise Resource Planning (ERP), payroll, and <a href=\"/us/glossary/project-accounting\">project-accounting</a> architectures. Retrospective year-end sampling designed solely for Section 41 tax credit studies is insufficient to substantiate the functional separation between includible direct support/occupancy overhead and excluded HR, payroll, and accounting G&A required under Section 4.03(2) of Notice 2023-63. Even more critically, accounting systems must capture the exact physical jurisdiction of performance under Section 3.04 of Notice 2023-63 so that post-2024 domestic R&E (performed in the United States, Puerto Rico, or U.S. territories) can be cleanly segregated for 100% immediate expensing under IRC Section 174A(a), while isolating offshore R&E subject to mandatory 15-year amortization under amended IRC Section 174(a)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, corporate legal and tax teams must conduct systematic due diligence across all inbound and outbound R&D service, engineering, and software development agreements against the standards of Section 6 of Notice 2023-63 and Section 3 of Notice 2024-12. Research providers seeking to preserve immediate IRC Section 162 deductibility for contract fulfillment costs—particularly when performing services abroad or utilizing foreign engineering subsidiaries—must draft master services agreements and statements of work so that the provider neither bears financial risk of research failure nor acquires any right to use or exploit the resulting SRE product beyond an \"excluded SRE product right\" (that is, a license acquired solely for the limited purpose of performing SRE activities under the contract or separately bargained for with independent consideration)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, tax departments should perform holistic multi-year cash-flow, international tax, and state conformity modeling prior to executing OBBBA transition elections under Revenue Procedure 2025-28 and Revenue Procedure 2026-32. Specifically, corporate taxpayers must quantitatively evaluate whether to elect 1-year (2025) or 2-year (2025–2026) accelerated recovery for unamortized 2022–2024 domestic SRE capital accounts under OBBBA Section 70302(f)(2) (or retroactive post-2021 expensing if qualifying as an eligible small business), whether the resulting surge in current-year R&E deductions will compress the IRC Section 904 Foreign Tax Credit limitation via 26 CFR Section 1.861-17 apportionment or trigger the overall U.S. taxable income limitation on Section 250 FDII deductions under 26 U.S.C. Section 250(a)(2) (in which case elective 60-month amortization under IRC Section 174A(c) may prove superior), and how federal acceleration and ongoing 15-year foreign R&E amortization reconcile with nonconforming state tax regimes in jurisdictions such as California and Texas."
+    }
+  ]
+}

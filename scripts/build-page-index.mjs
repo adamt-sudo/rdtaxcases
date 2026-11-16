@@ -46,6 +46,8 @@ for (const file of walk(DIR)) {
   if (typeof p.title !== "string" || !p.title.trim()) bad(`"title" is missing`);
   if (typeof p.language !== "string" || !p.language) bad(`"language" is missing`);
   if (p.description !== undefined && typeof p.description !== "string") bad(`"description" must be text`);
+  if (typeof p.description === "string" && p.description.length > 155) bad(`"description" is ${p.description.length} characters: at most 155`);
+  if (p.summary !== undefined && typeof p.summary !== "string") bad(`"summary" must be text`);
   for (const k of ["published", "updated"]) if (p[k] !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(p[k])) bad(`"${k}" must be YYYY-MM-DD`);
   if (p.status !== undefined && !STATUSES.has(p.status)) bad(`unknown status "${p.status}"`);
   if (!Array.isArray(p.body) || !p.body.length) bad(`"body" is empty`);

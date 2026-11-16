@@ -1,0 +1,620 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Alternative Simplified Credit (ASC)",
+  "description": "The Alternative Simplified Credit (ASC) is an elective method for computing the federal R&D tax credit under 26 U.S.C. § 41(c)(4).",
+  "summary": "The Alternative Simplified Credit (ASC) is an elective method for computing the federal R&D tax credit under 26 U.S.C. § 41(c)(4). U.S. businesses electing it claim 14% of current-year qualified research expenses above 50% of the prior three-year average (or 6% if any of those years had no QREs), with no gross receipts or 1984–1988 records required.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The Alternative Simplified Credit (ASC) is an elective method for computing the federal R&D tax credit under 26 U.S.C. § 41(c)(4). U.S. businesses electing it claim 14% of current-year qualified research expenses above 50% of the prior three-year average (or 6% if any of those years had no QREs), with no gross receipts or 1984–1988 records required."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Alternative Simplified Credit (ASC) is an elective statutory methodology for computing the federal Research and Development (R&D) tax credit—formally titled the \"Credit for increasing research activities\"—under Internal Revenue Code (IRC) Section 41. While the traditional Regular Credit Method (RCM) under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41(a)(1)</a> and § 41(c)(1)–(3) provides a 20% statutory credit rate on current-year Qualified Research Expenses (QREs) exceeding a base amount, computing that base amount requires historical fixed-base percentages (frequently rooted in 1984–1988 financial records or multi-year startup phase-in schedules) and prior four-year average annual gross receipts. To alleviate this substantial recordkeeping and computational burden, Congress enacted the ASC in Section 104(b) of the Tax Relief and Health Care Act of 2006 (Pub. L. 109-432, Div. A, Title I, § 104(b), 120 Stat. 2922), eliminating gross receipts and 1984–1988 base-period data from the credit formula. Under current federal law in force (<a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">26 U.S.C. § 41(c)(4)</a>), the ASC equals 14% of current-year QREs that exceed a base amount defined as 50% of the average QREs for the three immediately preceding taxable years—or 6% of current-year QREs if the taxpayer incurred no QREs in any one of those three preceding taxable years."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Statutory Redesignation (IRC § 41(c)(5) to § 41(c)(4)):</strong> Although originally enacted as IRC Section 41(c)(5) in December 2006—and still referenced as section 41(c)(5) in Treasury Regulation 26 CFR § 1.41-9, which was last amended by Treasury Decision (T.D.) 9712 in February 2015—the ASC was formally redesignated as IRC Section 41(c)(4) by the Consolidated Appropriations Act, 2018 (Pub. L. 115-141, Div. U, Title I, § 101(c)(1)–(2), 132 Stat. 1160), which struck the expired Alternative Incremental Research Credit (AIRC).",
+        "<strong>Exact Statutory Effective Dates (\"Ending After\" vs. \"Beginning After\"):</strong> In fact, under Pub. L. 109-432, § 104(b)(3) and 26 CFR § 1.41-9(b)(1), the ASC became effective for taxable years <em>ending after</em> December 31, 2006 (with special transitional rules under § 104(b)(4) for fiscal years straddling January 1, 2007). Similarly, under the Emergency Economic Stabilization Act of 2008 (Pub. L. 110-343, Div. C, Title III, § 301(c), 122 Stat. 3866), the statutory rate increase from 12% to 14% took effect for taxable years <em>ending after</em> December 31, 2008.",
+        "<strong>Distinction Between the Consistency Rule and Controlled Group Aggregation:</strong> In federal tax law, the <a href=\"/us/glossary/consistency-rule\">Consistency Rule</a> under IRC Section 41(c)(5)(A) (formerly § 41(c)(6)(A)) and 26 CFR § 1.41-9(c)(2) governs temporal definitional consistency, requiring QREs for the three preceding taxable years to be determined on a basis consistent with the definition of QREs in the credit year. By contrast, the mandate that all members of a controlled group be treated as a single taxpayer and use the same calculation method (either RCM or ASC) is the <a href=\"/us/glossary/aggregation-rules\">Controlled Group Aggregation</a> and Uniform Computation Rule under IRC Section 41(f)(1), 26 CFR § 1.41-6(b)(1), and 26 CFR § 1.41-9(b)(4).",
+        "<strong>Enactment of IRC Section 174A Restoring Immediate Domestic R&E Expensing (July 4, 2025) and Subsequent IRS Guidance:</strong> On July 4, 2025, Congress enacted the One Big Beautiful Bill Act (OBBBA, Pub. L. 119-21, Title VII, § 70302, 139 Stat. 72, 191), which added IRC Section 174A to permanently restore immediate expensing for domestic R&E expenditures paid or incurred in taxable years beginning after December 31, 2024 (with an optional election under § 174A(c) to capitalize and amortize over at least 60 months, and transition rules under OBBBA § 70302(f), Rev. Proc. 2025-28, and Rev. Proc. 2026-32 for 2022–2024 unamortized domestic balances). <a href=\"/us/glossary/r-and-e-capitalization\">Mandatory capitalization</a> under amended IRC Section 174 now applies solely to foreign R&E expenditures over a 15-year period, while IRC Section 41(d)(1)(A) and Section 280C(c)(1) have been updated to cross-reference domestic R&E expenditures under Section 174A.",
+        "<strong>Simulator Rounding Correction:</strong> Exact recomputation yields $193,666.67, which rounds to $193,667 to the nearest whole dollar."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Regulatory Architecture of IRC Section 41 and Qualified Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Electing the ASC simplifies the base-period arithmetic by removing gross receipts and 1980s financial records, but it does not alter the statutory definition of qualified research or expand the eligible expenditure categories."
+    },
+    {
+      "type": "subheading",
+      "text": "The Four-Part Test and Business Component Mandate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">26 U.S.C. § 41(d)(1)</a> and Treasury Regulation 26 CFR § 1.41-4(a)(1)–(2), research activities qualify for the credit only if they satisfy a cumulative four-part statutory test applied separately to each \"business component.\" Pursuant to <a href=\"/us/legislation/26-usc-41d2-business-component-test\">26 U.S.C. § 41(d)(2)(B)</a>, a business component is defined as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer. Under the special <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">production-process rule</a> of 26 U.S.C. § 41(d)(2)(C), any plant process, machinery, or technique for commercial production of a business component is treated as a separate business component and must be evaluated independently from the product being produced. Under the regulatory \"shrink-back\" rule of 26 CFR § 1.41-4(b)(2), if the requirements of the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> are not met at the level of the overall product or process, they are applied to the most significant subset of elements of the product or process until either a qualifying subset of elements is reached or the most basic element fails to qualify."
+    },
+    {
+      "type": "paragraph",
+      "text": "To constitute \"qualified research\" under current law in force (reflecting the conforming amendment enacted by Pub. L. 119-21, Title VII, § 70302(b)(2)(A) on July 4, 2025), an activity must satisfy all four components of the statutory test under 26 U.S.C. § 41(d)(1) and avoid the statutory exclusions of § 41(d)(4):"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Section 174A / Section 174 Expenditure Test (26 U.S.C. § 41(d)(1)(A)):</strong> The research must be an activity with respect to which expenditures are treated as \"domestic research or experimental expenditures under section 174A\" for taxable years beginning after December 31, 2024 (for taxable years beginning after December 31, 2021, and before January 1, 2025, the statute cross-referenced \"<a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditures</a> under section 174\" as amended by Pub. L. 115-97, § 13206(d)(1); and for pre-2022 taxable years, \"expenses under section 174\"). Under 26 CFR § 1.174-2(a)(1), these are expenditures incurred in connection with the taxpayer's trade or business which represent research and development costs in the experimental or laboratory sense—meaning activities intended to discover information that would eliminate uncertainty concerning the development or improvement of a product.",
+        "<strong>The Discovering Technological Information Test (26 U.S.C. § 41(d)(1)(B)(i); 26 CFR § 1.41-4(a)(3)–(4)):</strong> The research must be undertaken for the purpose of discovering information which is technological in nature. Under 26 CFR § 1.41-4(a)(3)(i), research is undertaken for the purpose of discovering information if it is intended to eliminate uncertainty concerning the development or improvement of a business component. Uncertainty exists if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component. Pursuant to 26 CFR § 1.41-4(a)(3)(ii), the taxpayer is not required to seek information that exceeds, expands, or refines the common knowledge of skilled professionals in the particular field of science or engineering, nor must the taxpayer <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">succeed in developing</a> the new or improved business component. Under the \"<a href=\"/us/glossary/patent-safe-harbor\">patent safe harbor</a>\" of 26 CFR § 1.41-4(a)(3)(iii), the issuance of a utility patent by the U.S. Patent and Trademark Office under 35 U.S.C. § 151 (other than a design patent under 35 U.S.C. § 171) is conclusive evidence that the taxpayer has discovered technological information intended to eliminate uncertainty, though obtaining a patent is not a precondition for credit eligibility. Under 26 CFR § 1.41-4(a)(4), information is technological in nature if the process of experimentation used to discover such information fundamentally relies on principles of the physical or biological sciences, engineering, or computer science; the taxpayer may employ existing technologies and principles to satisfy this requirement.",
+        "<strong>The Business Component and Permitted Purpose Test (26 U.S.C. § 41(d)(1)(B)(ii) and § 41(d)(3); 26 CFR § 1.41-4(a)(5)(ii)):</strong> The application of the discovered technological information must be intended to be useful in the development of a new or improved business component of the taxpayer. Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">26 U.S.C. § 41(d)(3)(A)</a> and 26 CFR § 1.41-4(a)(5)(ii), research is conducted for a qualified purpose only if it relates to a new or improved function, performance, reliability, or quality of the business component. Under 26 U.S.C. § 41(d)(3)(B) and 26 CFR § 1.41-4(a)(5)(ii), research relating to style, taste, cosmetic, or seasonal design factors is expressly disqualified from constituting a qualified purpose.",
+        "<strong>The Process of Experimentation (\"Substantially All\") Test (26 U.S.C. § 41(d)(1)(C); 26 CFR § 1.41-4(a)(5)–(6)):</strong> Substantially all of the research activities must constitute elements of a process of experimentation for a qualified purpose described in § 41(d)(3). Under 26 CFR § 1.41-4(a)(5)(i), a process of experimentation is a process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain as of the beginning of the taxpayer's research activities. It must fundamentally rely on principles of the physical or biological sciences, engineering, or computer science, and involves (i) identifying uncertainty concerning the development or improvement of a business component, (ii) identifying one or more alternatives intended to eliminate that uncertainty, and (iii) identifying and conducting a process of evaluating the alternatives (through, for example, modeling, simulation, or a systematic trial-and-error methodology). A taxpayer may undertake a process of experimentation even if there is no uncertainty regarding the capability or method of achieving the desired result, so long as the appropriate design of the desired result is uncertain at the outset. Under 26 CFR § 1.41-4(a)(6), the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" requirement is satisfied only if 80% or more of a taxpayer's research activities with respect to the business component—measured on a cost or other consistently applied reasonable basis (and without regard to the 80% employee wage rule of 26 CFR § 1.41-2(d)(2))—constitute elements of a process of experimentation for a qualified purpose. If this 80% threshold is met, the remaining 20% (or less) of research activities with respect to that business component also qualify so long as they satisfy § 41(d)(1)(A) and are not excluded under § 41(d)(4)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where elements of the four-part test are present, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">26 U.S.C. § 41(d)(4)(A)–(H)</a> expressly excludes eight categories of activities from qualified research. First, under § 41(d)(4)(A), any research conducted <a href=\"/us/glossary/research-after-commercial-production\">after the beginning of commercial production</a> of the business component is excluded. Second, under § 41(d)(4)(B), any research related to the <a href=\"/us/glossary/adaptation-exclusion\">adaptation of an existing business component</a> to a particular customer's requirement or need is ineligible. Third, under § 41(d)(4)(C), any research related to the <a href=\"/us/glossary/duplication-exclusion\">reproduction (duplication)</a> of an existing business component in whole or in part from a physical examination of the business component itself or from plans, blueprints, detailed specifications, or publicly available information is disqualified. Fourth, under § 41(d)(4)(D), any <a href=\"/us/glossary/efficiency-surveys\">efficiency survey</a>, activity relating to management function or technique, market research, testing, or development (including advertising or promotions), routine data collection, or routine or ordinary testing or inspection for quality control is excluded. Fifth, under § 41(d)(4)(E), except to the extent provided in Treasury regulations, any research with respect to computer software developed by (or for the benefit of) the taxpayer primarily for <a href=\"/us/glossary/internal-use-software-ius\">internal use</a> by the taxpayer (such as general and administrative functions covering financial management, human resources management, and support services under 26 CFR § 1.41-4(c)(6)(iii)) is excluded unless the software is developed for use in an activity that constitutes qualified research, is developed for use in a production process meeting § 41(d)(1), is part of a combined hardware-software package under 26 CFR § 1.41-4(c)(6)(ii)(C), or satisfies the stringent three-part \"high threshold of innovation\" test under 26 CFR § 1.41-4(c)(6)(vii) (or qualifies under the Dual Function Software third-party subset or 25% safe harbor rules). Sixth, under § 41(d)(4)(F), any <a href=\"/us/glossary/foreign-research-exclusion\">foreign research</a> conducted outside the United States, the Commonwealth of Puerto Rico, or any possession of the United States is excluded. Seventh, under § 41(d)(4)(G), any research in the <a href=\"/us/glossary/social-sciences-exclusion\">social sciences</a>, arts, or humanities is disqualified. Eighth, under § 41(d)(4)(H), any research to the extent funded by any grant, contract, or otherwise by another person (or governmental entity) is excluded where the taxpayer does not retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> in the research results or does not bear the financial risk of failure."
+    },
+    {
+      "type": "subheading",
+      "text": "Qualified Research Expense Categories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once qualified research activities are established at the business-component level, <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">26 U.S.C. § 41(b)(1)</a> defines QREs as the sum of \"in-house research expenses\" and \"contract research expenses\" paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer. Under the special startup venture rule of <a href=\"/us/legislation/26-usc-41b4-startup-ventures-research-expenses\">26 U.S.C. § 41(b)(4)</a>, in the case of in-house research expenses, a taxpayer is treated as meeting the \"carrying on any trade or business\" requirement of § 41(b)(1) if, at the time such in-house research expenses are paid or incurred, the principal purpose of the taxpayer in making such expenditures is to use the results of the research in the active conduct of a future trade or business of the taxpayer or of one or more other persons who with the taxpayer are treated as a single taxpayer under § 41(f)(1)."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>In-House Wages for Qualified Services (<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">26 U.S.C. § 41(b)(2)(A)(i)</a>, (B), (D); Form 6765, Line 42):</strong> Any wages paid or incurred to an employee for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" performed by such employee. Under § 41(b)(2)(D)(i)–(iii), \"wages\" has the meaning given by 26 U.S.C. § 3401(a) (federal income tax withholding wages, before pre-tax deferrals only to the extent included in Box 1 taxable wages), or earned income as defined in 26 U.S.C. § 401(c)(2) for self-employed individuals and owner-employees, but expressly excludes any amount taken into account in determining the work opportunity credit under 26 U.S.C. § 51(a). Under § 41(b)(2)(B), \"qualified services\" consist of (i) engaging in qualified research, or (ii) engaging in the <a href=\"/us/glossary/direct-supervision\">direct supervision</a> or direct support of research activities which constitute qualified research. Pursuant to the employee-level \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" rule of 26 U.S.C. § 41(b)(2)(B) and 26 CFR § 1.41-2(d)(2), if at least 80% of the services performed by an individual for the taxpayer during the taxable year consist of qualified services, then 100% of the services performed by that individual for the taxpayer during the taxable year qualify as qualified services. Indirect research costs, fringe benefits not included in § 3401(a) wages, overhead, and general or administrative (G&A) wages are strictly excluded.",
+        "<strong>Supplies Used in Qualified Research (26 U.S.C. § 41(b)(2)(A)(ii), (C); Form 6765, Line 43):</strong> Any amount paid or incurred for supplies used in the conduct of qualified research. Under § 41(b)(2)(C), the term \"supplies\" means any tangible property other than (i) land or improvements to land, and (ii) property of a character subject to the allowance for depreciation. Depreciation allowances themselves and capital equipment purchases are <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">excluded from § 41 QREs</a> even when the equipment is used exclusively in R&D.",
+        "<strong>Right to Use Computers (26 U.S.C. § 41(b)(2)(A)(iii); Form 6765, Line 44):</strong> Under regulations prescribed by the Secretary, any amount paid or incurred to another person for the right to use (<a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">rental or lease of off-premises or cloud</a>) computers in the conduct of qualified research. Under the flush language of § 41(b)(2)(A), this clause does not apply to any amount to the extent that the taxpayer (or any person with whom the taxpayer must aggregate expenditures under § 41(f)(1)) receives or accrues any amount from any other person for the right to use substantially identical personal property.",
+        "<strong>Contract Research Expenses (<a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">26 U.S.C. § 41(b)(3)</a>; Form 6765, Lines 45–47):</strong> Generally, under § 41(b)(3)(A), <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of any amount paid or incurred</a> by the taxpayer to any person (other than an employee of the taxpayer) for qualified research. The statutory inclusion rate increases to 75% under § 41(b)(3)(C) for amounts paid or incurred to a \"qualified research consortium\"—defined as any organization described in IRC § 501(c)(3) or § 501(c)(6) that is exempt from tax under § 501(a), is organized and operated primarily to conduct scientific research, and is not a private foundation—for qualified research conducted on behalf of the taxpayer and one or more unrelated taxpayers (treating all persons aggregated under IRC § 52(a) or (b) as related). Furthermore, the statutory inclusion rate increases to 100% under § 41(b)(3)(D) for amounts paid by the taxpayer to (I) an eligible small business (a business with 500 or fewer average annual employees during either of the 2 preceding calendar years in which the taxpayer owns less than 50% of the voting/value stock or capital/profits interests under IRC § 318), (II) an institution of higher education (as defined in 26 U.S.C. § 3304(f)), or (III) a Federal laboratory (as defined in § 4(6) of the Stevenson-Wydler Technology Innovation Act of 1980, 15 U.S.C. § 3703(6)), for qualified research which is energy research. Under § 41(b)(3)(B), if any contract research expenses paid or incurred during any taxable year are attributable to qualified research to be conducted after the close of such taxable year, such prepaid amounts are treated as paid or incurred only during the subsequent period in which the qualified research is actually conducted."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Distinguishing the Consistency Rule from Controlled Group Aggregation"
+    },
+    {
+      "type": "paragraph",
+      "text": "In federal tax law, these are two distinct statutory and regulatory doctrines codified in separate subsections of IRC Section 41 that operate independently."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, the <strong>Statutory Consistency Rule</strong> under 26 U.S.C. § 41(c)(5)(A) and 26 CFR § 1.41-9(c)(2)—originally enacted as IRC § 41(c)(4) by the Omnibus Budget Reconciliation Act of 1989 (Pub. L. 101-239), redesignated as § 41(c)(6) in 2006 when the ASC was added by Pub. L. 109-432, and redesignated as IRC § 41(c)(5) in 2018 by Pub. L. 115-141, § 101(c)(2)—governs temporal definitional symmetry across base-period and credit-year tax returns. For RCM claimants, 26 U.S.C. § 41(c)(5)(A) and 26 CFR § 1.41-3(d)(1) mandate that QREs and gross receipts taken into account in computing the fixed-base percentage must be determined on a basis consistent with the determination of QREs and gross receipts for the credit year, notwithstanding whether the period for filing a claim for credit or refund has expired for any base-period taxable year. For ASC claimants, 26 CFR § 1.41-9(c)(2) (\"Section 41(c)(6) applicability\") explicitly mandates that QREs for the three taxable years preceding the credit year \"must be determined on a basis consistent with the definition of QREs for the credit year, without regard to the law in effect for the three taxable years preceding the credit year,\" and confirms that this consistency requirement applies even if the statute of limitations for filing a claim for credit or refund has expired for any of those three preceding taxable years."
+    },
+    {
+      "type": "paragraph",
+      "text": "Judicial precedent and IRS National Office rulings underscore the strict enforcement of this temporal consistency mandate. In <em>Trinity Industries, Inc. v. United States</em>, 757 F.3d 400, 411 (5th Cir. 2014), the U.S. Court of Appeals for the Fifth Circuit held that the consistency rule \"aims to ensure that the research tax credit due is not overstated or understated because the taxpayer inconsistently compares QREs in the base period years and the claim year.\" In IRS Technical Advice Memorandum (TAM) 201740018 (Oct. 6, 2017), the IRS National Office applied <em>Trinity Industries</em> and 26 CFR § 1.41-9(c)(2) specifically to the ASC computation. In that ruling, a pharmaceutical taxpayer argued that it could exclude prior-year <a href=\"/us/glossary/clinical-trials-rd-credit\">qualified clinical testing expenses</a> (QCTEs) that met the definition of QREs from its three-year ASC base period under IRC § 45C(c)(2) and the consistency rule because it had elected the larger IRC § 45C orphan drug credit for QCTEs in the credit year rather than including them in credit-year QREs. Rejecting the taxpayer's argument, the IRS held that \"base period research expenses\" in § 45C(c)(2) applies to the three-year rolling QRE base of the ASC just as it does to the RCM, and that including prior-year QCTEs in the three-year ASC base period is required by—and fully consistent with—the Consistency Rule and <em>Trinity Industries</em> because those expenses satisfied the statutory definition of QREs under § 41(b) and (d) in both periods; excluding them from the three-year ASC average would distort the incremental structure of Section 41 and artificially inflate the current-year ASC. Similarly, in <em>Research, Inc. v. United States</em>, 95-2 USTC ¶ 50,407 (D. Minn. 1995) (highlighted in the IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Research Credit Claims Audit Techniques Guide</a></em> (RCCATG)), the taxpayer included QREs from its \"special system projects\" in the claim year and admitted incurring the same category of project expenses during the base period, but had destroyed the base-period documentation and therefore could not quantify the base-period QREs. The district court <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallowed the research credit claim</a> in its entirety because the relative increase in QREs could not be measured consistently without quantifying the base-period expenses for the same types of projects. As the IRS RCCATG notes, although <em>Research, Inc.</em> involved the former three-year rolling average base period under former IRC § 30(c), its rationale applies directly to current base-period computations under IRC § 41(c)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, by contrast, the <strong>Controlled Group Aggregation and Uniform Computation Method Rule</strong> under 26 U.S.C. § 41(f)(1), 26 CFR § 1.41-6(b)(1), and 26 CFR § 1.41-9(b)(4) governs multi-entity corporate structures and common-control enterprises within a given credit year. Under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">26 U.S.C. § 41(f)(1)(A)–(B)</a> and 26 CFR § 1.41-6(b)(1), all members of the same controlled group of corporations (as defined in § 41(f)(5), applying IRC § 1563(a) with a \"more than 50 percent\" common ownership threshold in lieu of \"at least 80 percent\") and all trades or businesses (whether or not incorporated) which are under common control (under 26 CFR § 1.52-1(b)–(g)) are treated as a single taxpayer for purposes of computing the research credit. Pursuant to 26 CFR § 1.41-6(b)(1), the group credit is computed by applying all of the Section 41 computational rules on an aggregate basis, and \"All members of a controlled group must use the same method of computation\"—either the regular credit method under § 41(a)(1) or the ASC method under § 41(c)(4) (referenced in the regulation as § 41(c)(5))—in computing the group credit for a credit year. Under 26 CFR § 1.41-6(c), the aggregate group credit is then allocated to each member of the controlled group on a proportionate basis according to its stand-alone share of the controlled group's aggregate QREs, basic research payments, and <a href=\"/us/glossary/energy-research-consortium\">energy research consortium</a> amounts taken into account for the taxable year."
+    },
+    {
+      "type": "heading",
+      "text": "Alternative Simplified Credit Mechanics, Rates, and Nuances"
+    },
+    {
+      "type": "paragraph",
+      "text": "Codified at 26 U.S.C. § 41(c)(4) (formerly § 41(c)(5)) and implemented through 26 CFR § 1.41-9 and Section B of <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a>, the ASC replaces the multi-decade historical lookback and gross-receipts sensitivity of the RCM with a rolling three-year QRE window."
+    },
+    {
+      "type": "subheading",
+      "text": "The Standard 14% ASC Formula and Base Amount"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(c)(4)(A), at the election of the taxpayer, the research credit determined under § 41(a)(1) equals 14% of so much of the QREs for the taxable year as exceeds 50% of the average QREs for the 3 taxable years preceding the taxable year for which the credit is being determined. Stated as an algebraic equation, the standard QRE component of the ASC is:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ASC = 0.14 × [QRE<sub>CY</sub> − 0.50 × ((QRE<sub>PY1</sub> + QRE<sub>PY2</sub> + QRE<sub>PY3</sub>) ÷ 3)]"
+    },
+    {
+      "type": "paragraph",
+      "text": "where QRE<sub>CY</sub> denotes current-year QREs, QRE<sub>PY1</sub>, QRE<sub>PY2</sub>, and QRE<sub>PY3</sub> denote the QREs in each of the three immediately preceding taxable years, and the bracketed subtrahend represents the ASC Base Amount. Unlike the RCM under 26 U.S.C. § 41(c)(2), which imposes a mandatory minimum base amount floor equal to 50% of current-year QREs, the ASC statute contains no minimum base floor tied to current-year QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "On IRS Form 6765 (Rev. December 2024), Section B executes the complete ASC calculation across Lines 14 through 26. First, Lines 14 through 19 compute the non-QRE components of the research credit that remain eligible for a 20% statutory rate under 26 U.S.C. § 41(a)(2) and (a)(3): Line 14 captures certain amounts paid or incurred to energy consortia for energy research; Line 15 captures basic research payments to <a href=\"/us/glossary/qualified-organization\">qualified organizations</a>; Line 16 enters the qualified organization base period amount; Line 17 subtracts Line 16 from Line 15 (entering -0- if zero or less); Line 18 sums Lines 14 and 17; and Line 19 multiplies Line 18 by 20% (0.20). Second, Lines 20 through 26 compute the QRE component of the ASC and the combined Section B credit in sequential steps:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Line 20:</strong> Enter total current-year QREs (carried directly from Section F, Line 48).",
+        "<strong>Line 21:</strong> Enter total aggregate QREs for the prior 3 tax years (the sum of Prior Year 1, Prior Year 2, and Prior Year 3 QREs).",
+        "<strong>Line 22 (<a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">ASC Base Amount</a>):</strong> Divide Line 21 by 6.0 (which is mathematically identical to taking 50% of the 3-year average, since 0.50 ÷ 3 = 1/6).",
+        "<strong>Line 23 (Creditable Excess QREs):</strong> Subtract Line 22 from Line 20 (if zero or less, enter -0-).",
+        "<strong>Line 24 (Gross QRE ASC):</strong> Multiply Line 23 by 14% (0.14) (or, if Lines 22 and 23 were skipped under the 6% special rule, multiply Line 20 by 6% (0.06)).",
+        "<strong>Line 25 (Total Gross ASC):</strong> Add Lines 19 and 24.",
+        "<strong>Line 26 (Net ASC After IRC § 280C Election):</strong> If the taxpayer elected the reduced credit under IRC Section 280C(c)(2) on Item A, multiply Line 25 by 79% (0.79); if not, enter the full amount from Line 25 and attach the required Section 280C deduction or capital-account reduction statement."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When the ASC was first enacted by Section 104(b) of the Tax Relief and Health Care Act of 2006 (Pub. L. 109-432, Div. A, Title I, § 104(b), 120 Stat. 2922, Dec. 20, 2006) for taxable years ending after December 31, 2006, the statutory rate under § 41(c)(5)(A) was 12%. Subsequently, Section 301(c) of Division C of the Emergency Economic Stabilization Act of 2008 (Pub. L. 110-343, 122 Stat. 3866, Oct. 3, 2008) increased the rate from 12% to 14% for taxable years ending after December 31, 2008, by substituting \"14 percent (12 percent in the case of taxable years ending before January 1, 2009)\" for \"12 percent\". After the R&D tax credit was made permanent by Section 121 of the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act</a> of 2015 (Pub. L. 114-113, Div. Q, Title I, § 121, 129 Stat. 3049), Congress struck the obsolete 12% parenthetical and redesignated § 41(c)(5) as § 41(c)(4) in the Consolidated Appropriations Act, 2018 (Pub. L. 115-141, Div. U, Title I, § 101(c) and Title IV, § 401(b)(6), 132 Stat. 1160, 1202)."
+    },
+    {
+      "type": "subheading",
+      "text": "The 6% Zero-History Rule for New or Intermittent Claimants"
+    },
+    {
+      "type": "paragraph",
+      "text": "In that circumstance, the taxpayer skips the base-amount calculation entirely (skipping Lines 22 and 23 on Form 6765), and the credit is fixed at 6% of the current taxable year's total QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ASC = 0.06 × QRE<sub>CY</sub>"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is crucial to emphasize the exact statutory phrasing in 26 U.S.C. § 41(c)(4)(B)(i): \"no qualified research expenses in <em>any one</em> of the 3 taxable years preceding the taxable year for which the credit is being determined\". Consequently, the 6% rate applies not only to a pure startup claiming the R&D credit in its very first year of research (where all three prior years had $0 of QREs), but also to a company that incurred positive QREs in only one or two of the three preceding taxable years—such as a startup in its second or third year of R&D operations, or an established enterprise that temporarily suspended all qualified research during one of the three preceding years. Once the taxpayer has incurred positive QREs in each of the three immediately preceding taxable years (for example, reaching Year 4 of continuous R&D spending), it transitions to the standard 14% incremental formula under § 41(c)(4)(A)."
+    },
+    {
+      "type": "paragraph",
+      "text": "For multi-entity corporate structures, 26 CFR § 1.41-9(c)(4) specifies that this three-year QRE history requirement is tested on an aggregate controlled-group basis. So long as the controlled group as a whole (i.e., at least one member of the controlled group) incurred QREs in each of the three taxable years preceding the credit year, the entire controlled group computes its group ASC under the 14% formula of § 41(c)(4)(A) (referenced in the regulation as § 41(c)(5)(A)) rather than the 6% rule of § 41(c)(4)(B)(ii)—even if a newly formed or newly acquired subsidiary within the group had no stand-alone QREs in prior years."
+    },
+    {
+      "type": "subheading",
+      "text": "Short Taxable Years and Acquisitions or Dispositions"
+    },
+    {
+      "type": "paragraph",
+      "text": "First, for <strong>Short Taxable Years</strong> under 26 CFR § 1.41-9(c)(3)(i)–(ii), unlike the RCM—which prorates the base amount for short taxable years on a monthly basis by multiplying by the number of months in the short year divided by 12 under 26 CFR § 1.41-3(b)(1)—the final ASC regulations mandate a daily 365-day proration methodology. Under 26 CFR § 1.41-9(c)(3)(i), if one or more of the three taxable years preceding the credit year is a short taxable year, the QREs for that short preceding year are annualized by multiplying the QREs actually paid or incurred in that short year by 365 and dividing by the number of days in that short year. Conversely, if the current credit year itself is a short taxable year, the average QREs for the three taxable years preceding the credit year are modified (prorated downward) by multiplying that three-year average amount by the number of days in the short credit year and dividing the result by 365. (Under 26 CFR § 1.41-9(c)(3)(ii), returns filed for taxable years ending after December 31, 2006, and before June 9, 2011, were permitted a limited exception to amend open returns to switch from the monthly calculation in former temporary regulation § 1.41-9T(c)(4) to the daily calculation in § 1.41-9(c)(3)(i).)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, for <strong>Acquisitions and Dispositions</strong> under 26 U.S.C. § 41(f)(3)(A) and 26 CFR § 1.41-7(b) (disclosed on Form 6765, Section E, Line 39), if a taxpayer acquires the major portion of either a trade or business or a separate unit of a trade or business (the \"acquired business\") of another person (the \"predecessor\"), the QREs paid or incurred by the predecessor with respect to the acquired business during the three preceding measurement years must be added to the taxpayer's prior three-year QRE history. Conversely, under 26 U.S.C. § 41(f)(3)(B), if a taxpayer disposes of a major portion of a trade or business or a separate unit thereof, the QREs attributable to the disposed business during the three preceding measurement years are subtracted from the taxpayer's prior three-year QRE base (provided the taxpayer furnishes the acquiring person with the information needed to make the corresponding upward adjustment under § 41(f)(3)(A)). Pursuant to 26 CFR § 1.41-7(b), the definitions of \"acquisition,\" \"separate unit,\" and \"major portion\" follow 26 CFR § 1.52-2(b), and an \"acquisition\" explicitly includes an incorporation or a liquidation."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Rate vs. Effective Credit Rate Trade-Offs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dividing the standard ASC equation by QRE<sub>CY</sub> reveals that the gross effective credit rate (ER) depends entirely on the ratio of the prior three-year average QREs (AVG<sub>PY</sub>) to current-year QREs (QRE<sub>CY</sub>):"
+    },
+    {
+      "type": "paragraph",
+      "text": "ER = 0.14 × (1 − 0.50 × AVG<sub>PY</sub> ÷ QRE<sub>CY</sub>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the 14% statutory rate applies only to the excess above 50% of the prior three-year average, a company with completely flat QRE spending (where the prior three-year average equals current-year QREs, or 0% annual growth) has a base amount equal to 50% of current-year QREs and therefore earns a gross effective credit rate of exactly 14% × (1 − 0.50) = 7.00% of total current-year QREs (or 7.00% × 79% = 5.53% net if electing the IRC § 280C(c)(2) reduced credit). Across typical corporate R&D trajectories where compound annual QRE growth ranges from slight contraction (-6% per year, yielding a 6.07% gross effective rate) through moderate expansion (+10% per year, yielding 8.20%; +13% per year, yielding 8.49%), the gross effective ASC rate falls within the practitioner benchmark range of 6.0% to 8.5% of total current-year QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "By comparison, under the RCM, 26 U.S.C. § 41(c)(2) forces the base amount to be at least 50% of current-year QREs, meaning creditable excess QREs under the RCM can never exceed 50% of current-year QREs. Thus, the RCM has a strict mathematical ceiling of 20% × 50% = 10.0% of total current-year QREs on a gross basis (or 10.0% × 79% = 7.90% net after the § 280C(c)(2) election) when the 50% minimum base floor binds. Conversely, because the ASC base amount is anchored solely to prior-year QREs and has no floor tied to current-year QREs, the ASC's theoretical upper ceiling approaches 14.0% of total current-year QREs (11.06% net after § 280C) when current-year QREs expand dramatically relative to a small three-year historical average."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, for <strong>High-Revenue-Growth Enterprises</strong> (such as software, biotechnology, and pharmaceutical companies), the RCM base amount equals the Fixed-Base Percentage multiplied by the prior 4-year Average Annual Gross Receipts (FBP × AAGR). If a company's gross receipts grow substantially faster than its R&D spending, its RCM base amount can exceed 100% of its current-year QREs, reducing its RCM credit to $0; because the ASC excludes gross receipts entirely, rapid top-line revenue growth never penalizes an ASC claimant. Second, for <strong>Low QRE-to-Gross-Receipts Industries and Older Enterprises Lacking 1984–1988 Records</strong> (such as banking, insurance, and legacy industrial manufacturing), taxpayers either incur modest QREs relative to massive gross receipts or lack the contemporaneous project records from 1984–1988 required to prove their RCM fixed-base percentage under audit (which, under <em>Research, Inc.</em> and the IRS RCCATG, can result in complete disallowance of an RCM claim). By isolating the base calculation to the three immediately preceding tax years of QREs, the ASC enables these sectors to claim a defensible, predictable R&D credit."
+    },
+    {
+      "type": "heading",
+      "text": "Comparative Methodology: Regular Credit Method vs. Alternative Simplified Credit"
+    },
+    {
+      "type": "subheading",
+      "text": "Structural Complexity of the Regular Credit Method"
+    },
+    {
+      "type": "paragraph",
+      "text": "To evaluate whether to elect the ASC in Section B of Form 6765 or claim the RCM in Section A, taxpayers must compare the statutory mechanics of both regimes under 26 U.S.C. § 41(a)(1) and § 41(c)(1)–(4). Under the RCM, a taxpayer must execute four sequential steps:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Fixed-Base Percentage (FBP) (<a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">26 U.S.C. § 41(c)(3)</a>; Form 6765, Line 6):</strong> For established \"existing companies,\" the FBP under § 41(c)(3)(A) is the percentage which the taxpayer's aggregate QREs for taxable years beginning after December 31, 1983, and before January 1, 1989 (the 1984–1988 base period) is of the taxpayer's aggregate gross receipts for those same taxable years. For \"<a href=\"/us/glossary/start-up-provision\">start-up companies</a>\" under § 41(c)(3)(B)(i)—defined as taxpayers whose first taxable year with both gross receipts and QREs began after December 31, 1983, or who had fewer than 3 taxable years during 1984–1988 with both gross receipts and QREs—the FBP is determined under a 10-year statutory phase-in schedule in § 41(c)(3)(B)(ii)(I)–(VII): it is fixed at 3.00% for each of the taxpayer's first 5 taxable years beginning after December 31, 1993, for which the taxpayer has QREs; then transitions to 1/6 of the aggregate QRE-to-gross-receipts ratio for the 4th and 5th such years in Year 6; 1/3 of the ratio for the 5th and 6th years in Year 7; 1/2 of the ratio for the 5th through 7th years in Year 8; 2/3 of the ratio for the 5th through 8th years in Year 9; 5/6 of the ratio for the 5th through 9th years in Year 10; and finally, for Year 11 and thereafter, the aggregate ratio of QREs to gross receipts for any 5 taxable years selected by the taxpayer from among the 5th through the 10th such taxable years. Under § 41(c)(3)(C) and (D), the FBP is rounded to the nearest 1/100th of 1% (0.01%) and can in no event exceed the statutory cap of 16.00%.",
+        "<strong>Average Annual Gross Receipts (AAGR) (26 U.S.C. § 41(c)(1)(B); Form 6765, Line 7):</strong> Compute the average annual gross receipts of the taxpayer (reduced by returns and allowances under § 41(c)(6), annualized for any short taxable years, and excluding returns, intercompany transactions, and items specified in 26 CFR § 1.41-3(c)(2)) for the 4 taxable years preceding the credit year.",
+        "<strong>Preliminary Base Amount and 50% Minimum Floor (<a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">26 U.S.C. § 41(c)(1)–(2)</a>; Form 6765, Lines 8–11):</strong> Multiply the FBP (Line 6) by the 4-year AAGR (Line 7) to obtain the preliminary base amount on Line 8, and subtract Line 8 from current-year QREs (Line 5) on Line 9. Because <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">26 U.S.C. § 41(c)(2)</a> mandates that the base amount shall in no event be less than 50% of current-year QREs (computed on Line 10), Line 11 limits creditable excess QREs to the smaller of (a) current-year QREs minus the computed base amount (Line 9) or (b) 50% of current-year QREs (Line 10).",
+        "<strong>20% Statutory Rate (26 U.S.C. § 41(a)(1); Form 6765, Lines 12–13):</strong> Add any energy consortia payments (Line 1) and excess <a href=\"/us/glossary/basic-research-payments\">basic research payments</a> (Line 4) to creditable excess QREs (Line 11) on Line 12, and multiply Line 12 by 20% (0.20) on Line 13—or by 15.8% (0.158) if electing the IRC § 280C(c)(2) reduced credit on Item A, since 20% × (1 − 0.21) = 15.8%."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Strategic Scenario Modeling and Hypothetical Worked Examples"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Hypothetical Scenario 1 (Apex Innovations — Established QRE History at 14% Rate)</strong> and <strong>Hypothetical Scenario 2 (Zero-History Claimant at 6% Rate)</strong>, both taxpayers incur $1,000,000 of current-year QREs (with $0 of basic research or energy consortia payments on Lines 14–19). Table 1 details the exact line-by-line computation on IRS Form 6765 (Rev. December 2024), Section B, including both the gross credit on Lines 24–25 and the net credit if the taxpayer elects the IRC § 280C(c)(2) reduced credit on Line 26 (multiplying by 79%)."
+    },
+    {
+      "type": "subheading",
+      "text": "Table 1: Line-by-Line Form 6765 Section B Computational Comparison"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form 6765 Section B Line / Metric",
+        "Hypothetical Scenario 1: Apex Innovations (Standard 14% Rate)",
+        "Hypothetical Scenario 2: Zero-History Claimant (6% Special Rule)",
+        "Hypothetical Scenario 3: ASC Navigator Baseline (14% Rate)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Prior Year 1 (PY1) QREs (3 years ago)",
+            "$400,000",
+            "$0",
+            "$1,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "Prior Year 2 (PY2) QREs (2 years ago)",
+            "$500,000",
+            "$0",
+            "$1,200,000"
+          ]
+        },
+        {
+          "cells": [
+            "Prior Year 3 (PY3) QREs (1 year ago)",
+            "$600,000",
+            "$0",
+            "$1,500,000"
+          ]
+        },
+        {
+          "cells": [
+            "Line 20: Current Year (CY) Total QREs (from Line 48)",
+            "$1,000,000",
+            "$1,000,000",
+            "$2,000,000"
+          ]
+        },
+        {
+          "cells": [
+            "Line 21: Total QREs for Prior 3 Tax Years (PY1 + PY2 + PY3)",
+            "$1,500,000",
+            "$0 (Skip Lines 22–23)",
+            "$3,700,000"
+          ]
+        },
+        {
+          "cells": [
+            "Intermediate Check: 3-Year Average QREs (Line 21 ÷ 3)",
+            "$500,000",
+            "$0",
+            "$1,233,333.33"
+          ]
+        },
+        {
+          "cells": [
+            "Line 22: ASC Base Amount (50% of 3-Yr Avg = Line 21 ÷ 6.0)",
+            "$250,000",
+            "Skipped per Line 21",
+            "$616,666.67"
+          ]
+        },
+        {
+          "cells": [
+            "Line 23: Creditable Excess QREs (Line 20 − Line 22)",
+            "$750,000",
+            "Skipped per Line 21",
+            "$1,383,333.33"
+          ]
+        },
+        {
+          "cells": [
+            "Applicable Statutory ASC Rate (IRC § 41(c)(4)(A) or (B))",
+            "14% (0.14)",
+            "6% (0.06)",
+            "14% (0.14)"
+          ]
+        },
+        {
+          "cells": [
+            "Line 24 / Line 25: Gross ASC Credit (Before § 280C Election)",
+            "$105,000",
+            "$60,000",
+            "$193,666.67 (Rounds to $193,667)"
+          ]
+        },
+        {
+          "cells": [
+            "Line 26: Net ASC Credit if § 280C Reduced Credit Elected (× 79%)",
+            "$82,950",
+            "$47,400",
+            "$152,996.67 (Rounds to $152,997)"
+          ]
+        },
+        {
+          "cells": [
+            "Gross Effective Credit Rate (Line 24 ÷ Line 20)",
+            "10.50%",
+            "6.00%",
+            "9.68%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Two key analytical insights emerge from the computations in Table 1. First, comparing Scenario 1 ($105,000 gross credit; $82,950 net credit) and Scenario 2 ($60,000 gross credit; $47,400 net credit) demonstrates the $45,000 gross ($35,550 net) first-year spread created by the 6% Zero-History Rule under 26 U.S.C. § 41(c)(4)(B) when a company lacks QREs in at least one of the three preceding taxable years. Once a startup establishes three consecutive years of positive QRE history, its Year 4 calculation shifts from 6% of total QREs to 14% of excess QREs over the 50% three-year average base."
+    },
+    {
+      "type": "paragraph",
+      "text": "Table 2 synthesizes the statutory, regulatory, and strategic differences between the Regular Credit Method and the Alternative Simplified Credit."
+    },
+    {
+      "type": "subheading",
+      "text": "Table 2: Comparative Synthesis – Regular Credit Method vs. Alternative Simplified Credit"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature / Dimension",
+        "Regular Credit Method (RCM)",
+        "Alternative Simplified Credit (ASC)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Primary Statutory Authority",
+            "26 U.S.C. § 41(a)(1), § 41(c)(1)–(3)",
+            "26 U.S.C. § 41(c)(4) (originally enacted as § 41(c)(5) by Pub. L. 109-432; redesignated by Pub. L. 115-141)"
+          ]
+        },
+        {
+          "cells": [
+            "Implementing Regulations",
+            "26 CFR § 1.41-3",
+            "26 CFR § 1.41-9"
+          ]
+        },
+        {
+          "cells": [
+            "Primary Statutory Credit Rate",
+            "20% of excess QREs over Base Amount (15.8% if § 280C reduced credit elected)",
+            "14% of excess QREs over Base Amount (11.06%, i.e., 14% × 79%, if § 280C reduced credit elected)"
+          ]
+        },
+        {
+          "cells": [
+            "Base Period Lookback",
+            "1984–1988 QREs and gross receipts (or post-1993 10-year startup phase-in) for FBP, plus prior 4 tax years of gross receipts for AAGR",
+            "Prior 3 immediately preceding tax years of QREs only"
+          ]
+        },
+        {
+          "cells": [
+            "Role of Gross Receipts",
+            "Mandatory component of both FBP and 4-year AAGR base calculation",
+            "Completely excluded from the calculation"
+          ]
+        },
+        {
+          "cells": [
+            "Base Amount Formula",
+            "FBP × 4-Year AAGR (FBP capped at 16%; total Base Amount subject to a minimum floor of 50% of current-year QREs)",
+            "50% of the 3-Year Average QREs (computed on Form 6765, Line 22 as Prior 3-Year Total QREs ÷ 6.0; no minimum floor tied to current-year QREs)"
+          ]
+        },
+        {
+          "cells": [
+            "New / Zero-History Claimants",
+            "Complex startup FBP rules under § 41(c)(3)(B): 3% FBP for first 5 QRE years after 1993, then phased ratio over years 6–10+",
+            "If $0 QREs in any one of the 3 preceding tax years, credit equals 6% of current-year QREs (4.74% net if § 280C elected) under § 41(c)(4)(B)"
+          ]
+        },
+        {
+          "cells": [
+            "Short Taxable Year Rule",
+            "Base amount prorated by months in the short year divided by 12 (26 CFR § 1.41-3(b)(1)); 50% minimum floor is not prorated",
+            "Prior short-year QREs annualized by 365 ÷ days in short year; current short-year 3-year average prorated by days in short year ÷ 365 (26 CFR § 1.41-9(c)(3))"
+          ]
+        },
+        {
+          "cells": [
+            "Typical Gross Effective Rate",
+            "Capped at a maximum of 10.0% of total current-year QREs (7.9% net) when the 50% minimum base floor binds (20% × 50%); can drop to 0% if gross receipts surge",
+            "Typically 6.0% to 8.5% of total current-year QREs under moderate growth (7.0% at 0% flat growth; theoretical ceiling approaches 14.0% gross / 11.06% net during sharp QRE spikes)"
+          ]
+        },
+        {
+          "cells": [
+            "IRS Form 6765 Reporting Section",
+            "Section A (Lines 1–13), fed by Section F (Line 48) and Section G",
+            "Section B (Lines 14–26), fed by Section F (Line 48) and Section G"
+          ]
+        },
+        {
+          "cells": [
+            "Election & Amended Return Rules",
+            "Claimed on original or open amended return; used in Section A to revoke a prior ASC election on a timely filed original return",
+            "Elected in Section B on timely filed original return (or on an open amended return only if no § 41(a)(1) credit was previously claimed for that year by the taxpayer or any controlled group member); applies to all subsequent years until revoked on an original return; cannot be revoked on an amended return"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Procedural Compliance, Form 6765 Elections, and Substantiation"
+    },
+    {
+      "type": "subheading",
+      "text": "Electing and Revoking the ASC on Form 6765"
+    },
+    {
+      "type": "paragraph",
+      "text": "The procedural rules governing ASC elections and revocations are codified in 26 U.S.C. § 41(c)(4)(C) and 26 CFR § 1.41-9(b)(1)–(4), and further detailed in the IRS <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a>. Under 26 CFR § 1.41-9(b)(2), a taxpayer makes an ASC election by completing the portion of Form 6765 (<em>Credit for Increasing Research Activities</em>) relating to the election of the ASC—specifically Section B (Lines 14–26)—and attaching the completed form to the taxpayer's timely filed (including extensions) original income tax return for the taxable year to which the election applies. Pursuant to 26 U.S.C. § 41(c)(4)(C) and 26 CFR § 1.41-9(b)(1), once made, an ASC election applies to the taxable year for which it is made and all subsequent taxable years unless formally revoked in the manner prescribed by 26 CFR § 1.41-9(b)(3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although the original 2008 temporary regulations (T.D. 9401, 73 FR 34185, June 17, 2008) and 2011 final regulations (T.D. 9528, 76 FR 33996, June 10, 2011) barred making an ASC election on an amended return under any circumstances, the Treasury Department and the IRS amended 26 CFR § 1.41-9(b)(2) (via temporary regulations in T.D. 9666, 79 FR 31864, June 3, 2014, and final regulations in T.D. 9712, 80 FR 10589, Feb. 27, 2015) to permit a conditional amended-return ASC election. Under current law in force (26 CFR § 1.41-9(b)(2)), a taxpayer may make an ASC election for a tax year on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a>, but only if three cumulative conditions are satisfied:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The taxpayer has not previously claimed a Section 41(a)(1) research credit (e.g., using the RCM) on its original return or an amended return for that tax year;",
+        "That tax year is not closed by the period of limitations on assessment under IRC Section 6501(a); and",
+        "If the taxpayer is a member of a controlled group in that tax year, no member of the controlled group for that tax year previously claimed the research credit under Section 41(a)(1) using a method other than the ASC on an original or amended return for that tax year."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For revocations, 26 CFR § 1.41-9(b)(3) provides that an existing ASC election may not be revoked except with the consent of the Commissioner. However, a taxpayer is automatically deemed to have requested, and to have been granted, the consent of the Commissioner to revoke an ASC election if the taxpayer completes the portion of Form 6765 relating to the regular credit determined under Section 41(a)(1) (Section A, Lines 1–13) and attaches the completed form to the taxpayer's timely filed (including extensions) original return for the year to which the revocation applies. Crucially, under 26 CFR § 1.41-9(b)(3), an ASC election may <em>never</em> be revoked on an amended return—meaning a taxpayer that elected the ASC on its original return for a given tax year cannot later file an amended return for that same tax year to switch back to the Regular Credit Method. Furthermore, both 26 CFR § 1.41-9(b)(2) and (b)(3) explicitly state that an extension of time to make or revoke an ASC election will not be granted under 26 CFR § 301.9100-3."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the case of a <a href=\"/us/glossary/controlled-group\">controlled group of corporations</a> whose members are not all included on a single consolidated federal income tax return, 26 CFR § 1.41-9(b)(4)(i)–(ii) mandates that the ASC election (or revocation) must be made by the \"designated member,\" and that designated member's election (or revocation) is binding on all members of the controlled group for the credit year to which it relates. Under 26 CFR § 1.41-9(b)(4)(ii), for any credit year, the term \"designated member\" means that member of the group that is allocated the greatest amount of the group credit under 26 CFR § 1.41-6(c) based on the amount of credit reported on the taxpayer's timely filed (including extensions) original federal income tax return (even if that member is subsequently determined upon audit not to be the designated member). If the members of a controlled group compute the group credit using different methods (e.g., RCM vs. ASC) and at least two members would qualify as the designated member under their respective methods, then the designated member is that member computing the group credit using the method that yields the greatest total group credit. For example, as illustrated in 26 CFR § 1.41-9(b)(4)(ii), if non-consolidated controlled group members A, B, C, and D compute a total group RCM credit of $10x (with A allocated the largest RCM share of $5x) and a total group ASC credit of $15x (with C allocated the largest ASC share of $5x), C is the designated member because the ASC yields the greatest total group credit ($15x &gt; $10x); if C makes the ASC election on its timely filed original return, that election binds A, B, C, and D for the credit year. If the designated member fails to timely make or revoke an election, each member of the controlled group must compute the group credit using the method used to compute the group credit for the immediately preceding credit year."
+    },
+    {
+      "type": "subheading",
+      "text": "Qualitative Substantiation and the Redesigned Form 6765"
+    },
+    {
+      "type": "paragraph",
+      "text": "As established in the IRS <em>Research Credit Claims Audit Techniques Guide</em> (RCCATG, updated July 2, 2026), taxpayers claiming the credit under either Section A (RCM) or Section B (ASC) must satisfy the general recordkeeping mandate of IRC Section 6001 and 26 CFR § 1.6001-1 by maintaining competent, <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a> available for inspection that establishes all essential elements of the credit. Specifically, the taxpayer must substantiate (1) that the research activities for each new or improved business component satisfied all four tests under IRC § 41(d)(1), including the process of experimentation test, and (2) a <a href=\"/us/glossary/project-to-expense-nexus\">verifiable nexus</a> connecting claimed QREs (wages, supplies, computer rentals, and contract research) to specific qualified research projects or business components. Where a claim lacks <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">adequate contemporaneous documentation</a>, the RCCATG instructs IRS examiners to document non-compliance with IRC § 6001 in the audit report and issue separate Notices of Proposed Adjustment (NOPAs / Form 5701s) detailing the factual and legal deficiencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, recent IRS revisions to Form 6765 (Rev. December 2024) and the Instructions for Form 6765 (Rev. December 2025, incorporating IR-2025-99 and the June 18, 2025 IRS Clarification) have embedded these granular substantiation disclosures directly into the tax return for all ASC and RCM filers. The December 2025 Instructions specify completing Form 6765 in a structured sequence—starting with Section G (unless optional or exempt), followed by Section F, Section A or Section B, Section C, Section D (if applicable), and Section E. At the top of Page 1, <strong>Header Item A</strong> asks whether the taxpayer is electing the reduced credit under <a href=\"/us/glossary/section-280c-election\">IRC Section 280C(c)(2)</a> (Yes/No), which must be made on an original timely filed return (including extensions) and is irrevocable for the tax year. <strong>Header Item B</strong> asks whether the taxpayer is a member of a controlled group or business under <a href=\"/us/glossary/common-control\">common control</a> (Yes/No); if \"Yes,\" the filer must attach the required group computation statement (Form6765ItemBGroupCredit.pdf) listing every member's EIN, name, common parent or designated member, consolidated status, principal business activity code, QREs by category, allocated share of credit, group totals, and number of group members in the current and prior year."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Section C (Current Year Credit, Lines 27–32)</strong> and <strong>Section D (Qualified Small Business Payroll Tax Election, Lines 33a–36)</strong>, Section C adjusts the credit from Line 13 (RCM) or Line 26 (ASC) for any overlapping employer differential wage credit from Form 8932 (Line 27), adds <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">pass-through research credits</a> from partnerships, S corporations, estates, and trusts (Line 29), and carries the current-year credit (Line 30/32) to Form 3800, Part III (Line 4i for eligible small businesses, or Line 1c for all other filers), where unused credits may be carried back 1 year and carried forward up to 20 years under IRC Section 39. Under Section D (Lines 33a–36) and <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">26 U.S.C. § 41(h)</a>, a \"qualified small business\" (QSB)—a corporation, partnership, or person with less than $5,000,000 in gross receipts for the current taxable year and no gross receipts for any taxable year preceding the 5-taxable-year period ending with the current taxable year, tested at the controlled group level—may elect on its timely filed original return to apply up to <strong>$500,000</strong> per year of its research credit against employer payroll taxes (as increased from $250,000 by the Inflation Reduction Act of 2022, Pub. L. 117-169, § 13902, for taxable years beginning after December 31, 2022), flowing from Line 36 to Form 8974, Part 1, column (e), and Form 941."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Section E (Other Information, Lines 37–41)</strong>, which is mandatory whenever QREs are reported on Line 48, filers must disclose the exact number of business components generating the QREs on Line 5 or Line 20 (Line 37), the dollar amount of officers' wages included in total qualified wages on Line 42 (Line 38), whether the taxpayer acquired or disposed of any major portion of a trade or business during the tax year (Line 39), whether any new categories of expenses were included as current-year QREs (Line 40), and whether any QREs were determined following the Large Business & International (LB&I) <a href=\"/us/glossary/asc-730-directive\">GAAP ASC 730 Directive</a> (available to taxpayers with assets of $10,000,000 or more preparing certified audited U.S. GAAP financial statements showing a separate R&D expense line or note used for Schedule M-3, reporting the Appendix C, Line 19 amount) (Line 41)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong>Section F (Qualified Research Expenses Summary, Item A and Lines 42–48)</strong>, Item A asks whether the filer is required to complete Section G (Yes/No). Lines 42–48 aggregate total qualified wages (Line 42, carried from Section G, column 53 if Section G is completed), total supplies (Line 43, from column 54), total rental or lease cost of computers (Line 44, from column 55), total applicable contract research expenses (Line 45, from column 56), and applicable <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">basic research payments</a> (Lines 46–47) into Total QREs on Line 48, which transfers directly to Line 5 (RCM) or Line 20 (ASC). Per the June 18, 2025 IRS Clarification (and December 2025 Instructions), controlled group members filing separate tax returns enter <em>only the filing member's QREs</em> (not the combined group QREs) in Section E, Section F, Line 5, and Line 20, while entering the total controlled group's prior 3-year QREs on Line 21, computing the group credit on the required Item B attachment (Form6765ItemBGroupCredit.pdf), and entering the member's allocated share of the group credit on Line 26. The June 18, 2025 IRS Clarification also formally deleted an erroneous sentence in the January 2025 draft instructions under \"Electing the ASC\" that had referred to entering group average annual gross receipts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, <strong>Section G (Business Component Information, Columns 49a–56)</strong> requires a disaggregated, component-by-component breakdown (subject to reporting the top business components comprising at least 80% of total QREs up to a maximum of 50 business components, plus a single aggregated entry for any remaining components, and a single \"ASC 730 Directive\" entry if applicable). For each reported business component, the filer must enter: the EIN of the controlled group member conducting the research activities (Column 49a); the member's principal business activity code (Column 49b); the business component's name or unique alphanumeric identifier (Column 49c); the business component type, limited under the simplified options to \"Product,\" \"Process,\" or \"All Others\" (Column 49d); the software classification, if applicable, selected from Category A (Internal Use Software / IUS), Category B (<a href=\"/us/glossary/dual-function-software\">Dual Function Software</a> / DFS: (1) no third-party subset identified, (2) third-party subset identified with remaining subset subject to the High Threshold of Innovation test, or (3) 25% safe harbor applied), or Category C (Excepted from IUS treatment: (1) software for use in qualified research, (2) software for internal use in a qualifying production process, or (3) combined hardware-software package) (Column 49e); a narrative description of the information sought to be discovered (Column 49f); direct research wages (Column 50); direct supervision wages (Column 51); direct support wages (Column 52); total qualified wages summing Columns 50–52 (Column 53); cost of supplies (Column 54); rental or lease cost of computers (Column 55); and applicable amount of contract research expenses (Column 56). Under IRS News Release IR-2025-99 (Oct. 1, 2025) and the December 2025 Instructions for Form 6765, Section G is <strong>optional for all filers for tax years beginning before 2026</strong> (including all 2025 tax returns, unless filing an amended return subject to specific research credit refund claim requirements) and becomes <strong>mandatory for tax years beginning after December 31, 2025 (tax year 2026 and beyond)</strong>, except for two exempted categories of taxpayers: (1) a Qualified Small Business under IRC § 41(h)(3) that <a href=\"/us/glossary/payroll-tax-credit-election\">elects the payroll tax credit</a> in Section D, or (2) a taxpayer with total QREs of $1,500,000 or less measured at the controlled group level AND average annual gross receipts of $50,000,000 or less for the three preceding tax years that claims the credit on an original return."
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Interplay: Section 41, Section 174, and New Section 174A"
+    },
+    {
+      "type": "subheading",
+      "text": "From Mandatory TCJA Capitalization (2022–2024) to Permanent Domestic Expensing under Section 174A (2025+)"
+    },
+    {
+      "type": "paragraph",
+      "text": "While that description accurately reflects the statutory regime enacted by the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act of 2017</a> (TCJA, Pub. L. 115-97, § 13206) that governed taxable years beginning after December 31, 2021, and before January 1, 2025, federal tax law underwent a landmark statutory overhaul on July 4, 2025, with the enactment of Public Law 119-21 (139 Stat. 72, 191), commonly known as the One Big Beautiful Bill Act (OBBBA)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, Section 70302 of the OBBBA split the former Section 174 regime into two separate Code sections for amounts paid or incurred in taxable years beginning after December 31, 2024. First, under <strong>New 26 U.S.C. § 174A (Domestic Research or Experimental Expenditures)</strong>, added by OBBBA § 70302(a), Section 174A(a) permanently restores immediate, 100% current deductibility for \"<a href=\"/us/glossary/research-and-experimental-expenditures\">domestic research or experimental expenditures</a>\" (defined in § 174A(b) as R&E expenditures paid or incurred by the taxpayer during the taxable year in connection with the taxpayer's trade or business, other than expenditures attributable to foreign research within the meaning of § 41(d)(4)(F)). Alternatively, under 26 U.S.C. § 174A(c)(1), a taxpayer may elect on a timely filed return (including extensions) to charge domestic R&E expenditures to capital account and amortize them ratably over a period of not less than 60 months, beginning with the month in which the taxpayer first realizes benefits from such expenditures (or elect 10-year amortization under IRC § 59(e)). Under § 174A(d)(3), any amount paid or incurred in connection with the development of software is explicitly treated as an R&E expenditure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, under <strong>Amended <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">26 U.S.C. § 174</a> (Foreign Research or Experimental Expenditures)</strong>, as modified by OBBBA § 70302(b)(1), Section 174 is now restricted solely to foreign R&E expenditures, which remain subject to mandatory capitalization and ratable amortization over a 15-year period beginning with the midpoint of the taxable year in which paid or incurred under § 174(a)(2)(B). Furthermore, under OBBBA § 70302(b)(1)(C) and § 70302(e)(2)(A), Congress amended 26 U.S.C. § 174(d) effective for property disposed of, retired, or abandoned after May 12, 2025: if any property with respect to which foreign R&E expenditures are paid or incurred is disposed of, retired, or abandoned during the 15-year amortization period, no deduction or reduction to the amount realized is allowed on account of such disposition, retirement, or abandonment, and the 15-year amortization deduction continues uninterrupted on its original schedule."
+    },
+    {
+      "type": "paragraph",
+      "text": "To maintain strict statutory precision and distinguish between prior-year rules and current law in force as of November 2026, Table 3 details the three distinct statutory eras governing R&E deductions and capitalization alongside the Section 41 ASC."
+    },
+    {
+      "type": "subheading",
+      "text": "Table 3: Statutory Eras Governing R&E Expenditure Accounting (Section 174 / 174A)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Dimension",
+        "Pre-TCJA Era (Tax Years Beginning Before Jan. 1, 2022)",
+        "TCJA Mandatory Capitalization Era (Tax Years Beginning After Dec. 31, 2021, and Before Jan. 1, 2025)",
+        "Current OBBBA Era in Force (Tax Years Beginning After Dec. 31, 2024)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Governing IRC Section(s)",
+            "Former 26 U.S.C. § 174(a)–(b)",
+            "26 U.S.C. § 174 (as amended by TCJA, Pub. L. 115-97, § 13206)",
+            "26 U.S.C. § 174A (Domestic R&E) and amended 26 U.S.C. § 174 (Foreign R&E), enacted by Pub. L. 119-21, § 70302 (July 4, 2025)"
+          ]
+        },
+        {
+          "cells": [
+            "Treatment of Domestic R&E Expenditures",
+            "Immediately deductible in the year paid or incurred (or elective amortization over ≥60 months under former § 174(b))",
+            "Mandatory capitalization and <a href=\"/us/glossary/section-174-amortization\">ratable amortization over a 5-year period</a> beginning with the midpoint of the taxable year (10% deduction in Year 1)",
+            "Immediately deductible in the year paid or incurred under § 174A(a); OR elective capitalization and amortization over ≥60 months (from month benefits first realized) under § 174A(c) (or 10 years under § 59(e))"
+          ]
+        },
+        {
+          "cells": [
+            "Treatment of Foreign R&E Expenditures",
+            "Immediately deductible (or elective amortization)",
+            "Mandatory capitalization and ratable amortization over a 15-year period beginning with the <a href=\"/us/glossary/mid-year-convention\">midpoint of the taxable year</a>",
+            "Mandatory capitalization and ratable amortization over a 15-year period from the midpoint of the taxable year under amended § 174(a)(2)(B); no loss deduction upon disposition/abandonment after May 12, 2025 under § 174(d)"
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/faq/section-174-software-development-amortization\">Software Development Costs</a>",
+            "Deductible or amortizable under Rev. Proc. 2000-50 / former § 174",
+            "Treated as specified R&E expenditures subject to 5-year (domestic) or 15-year (foreign) amortization under § 174(c)(3)",
+            "Treated as R&E expenditures under § 174A(d)(3) (immediately deductible if domestic) and § 174(c)(3) (15-year amortization if foreign)"
+          ]
+        },
+        {
+          "cells": [
+            "Transition / Recovery Rules for 2022–2024 Domestic Costs",
+            "N/A",
+            "Implemented on a cut-off basis for first tax year beginning after Dec. 31, 2021 (Rev. Proc. 2023-11; Rev. Proc. 2025-8)",
+            "Under OBBBA § 70302(f), Rev. Proc. 2025-28, and Rev. Proc. 2026-32: (1) All taxpayers may elect to recover remaining 2022–2024 unamortized domestic R&E balances either 100% in the first tax year beginning after Dec. 31, 2024 (e.g., 2025) or ratably over 2 tax years (e.g., 2025–2026); (2) Eligible small businesses (≤$31 million gross receipts under § 448(c)) had an election window (closed July 6, 2026) to apply § 174A retroactively to 2022–2024"
+          ]
+        },
+        {
+          "cells": [
+            "Cross-Reference in IRC § 41(d)(1)(A) Four-Part Test",
+            "\"expenses under section 174\"",
+            "\"specified research or experimental expenditures under section 174\"",
+            "\"domestic research or experimental expenditures under section 174A\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Section 280C Coordination and Operational Integration for Finance Teams"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Mandatory Definitional Alignment Between IRC § 174A and IRC § 41(d)(1)(A):</strong> Under amended 26 U.S.C. § 41(d)(1)(A), an expenditure cannot qualify as a QRE for the Section 41 ASC unless the underlying research is an activity with respect to which expenditures are treated as domestic R&E expenditures under IRC Section 174A. Finance teams must reconcile three distinct R&D cost pools across book and tax reporting: (i) financial statement R&D expense under U.S. GAAP ASC 730, (ii) the broad tax deduction pool of domestic R&E expenditures under IRC § 174A (which includes indirect research overhead, depreciation allowances on research equipment under § 167, <a href=\"/us/glossary/patent-perfection-costs\">patent preparation and prosecution legal fees</a>, and 100% of domestic commissioned research where the taxpayer bears financial risk under Notice 2023-63), and (iii) the narrower, closed list of Section 41 QREs (which excludes overhead, depreciation, patent legal fees, and 35% of standard contract research). Every dollar included in the Section 41 ASC calculation on Form 6765 must be a valid subset of the taxpayer's domestic Section 174A expenditures.",
+        "<strong>Strict Domestic vs. Foreign Location Tracking (§ 174A vs. § 174):</strong> Because domestic R&E is immediately deductible under § 174A(a) (and eligible for the § 41 ASC if all four-part test and QRE criteria are satisfied) while foreign R&E is both excluded outright from the § 41 credit under § 41(d)(4)(F) and locked into mandatory 15-year amortization (with no disposition loss deduction after May 12, 2025) under amended § 174(a)(2)(B) and § 174(d), enterprise accounting systems must track employee and contractor research locations project by project.",
+        "<strong>Accounting for 2022–2024 Unamortized Balances, § 174A(c) Elections, and Designated Automatic Accounting Method Change Numbers (DCNs 265, 273, and 274):</strong> Under OBBBA § 70302(f)(2), Rev. Proc. 2025-28 (2025-38 I.R.B. 393, released Aug. 28, 2025, modifying Rev. Proc. 2025-23, Section 7), and Rev. Proc. 2026-32 (effective for Forms 3115 filed after September 4, 2026), taxpayers managing deferred tax assets under GAAP ASC 740 and book-tax adjustments must apply the correct Designated Automatic Accounting Method Change Number (DCN). Specifically, <strong>DCN 265</strong> (under Section 7.01 of Rev. Proc. 2025-23, as modified) governs automatic accounting method changes to comply with TCJA § 174 for domestic specified R&E expenditures paid or incurred in taxable years beginning before January 1, 2025 (2022–2024), using a modified IRC § 481(a) adjustment. <strong>DCN 273</strong> (under Section 7.02 of Rev. Proc. 2025-23, as modified) governs automatic accounting method changes to a § 174A method for domestic R&E expenditures paid or incurred in taxable years beginning after December 31, 2024 (applied on a cut-off basis with no § 481(a) adjustment), as well as the OBBBA transition methods—including the election under OBBBA § 70302(f)(2)(A) to recover remaining unamortized 2022–2024 TCJA § 174 domestic balances either 100% in the first taxable year beginning after December 31, 2024 (e.g., 2025) or ratably over two taxable years (e.g., 2025–2026). (For subsequent taxable years, taxpayers may still elect ≥60-month amortization for current-year domestic R&E under § 174A(c) by attaching a statement titled \"FILED PURSUANT TO SECTION 6.02 OF REV. PROC. 2025-28\" to their timely filed original return.) <strong>DCN 274</strong> (under Section 7.03 of Rev. Proc. 2025-23, as modified) governs automatic accounting method changes for foreign R&E expenditures to conform to 15-year amortization under TCJA § 174 or OBBBA-amended § 174. Furthermore, under Rev. Proc. 2026-32, the IRS (i) waived the five-year and final-year eligibility restrictions of Rev. Proc. 2015-13 for DCNs 265, 273, and 274 for any taxable year beginning before January 1, 2028; (ii) extended DCN 274 automatic procedures to 2026 and later taxable years; and (iii) established a special coordination rule aligning the inclusion period of a net positive § 481(a) adjustment under DCN 265 with the 1-year or 2-year recovery period elected for unamortized 2022–2024 domestic balances under the OBBBA recovery method.",
+        "<strong>IRC Section 280C(c) Deduction/Capital Account Reduction vs. 79% Reduced Credit Election:</strong> To prevent a double tax benefit (claiming both a 100% deduction and a 100% tax credit on the same research dollar), OBBBA § 70302 rewrote <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">26 U.S.C. § 280C(c)(1)</a> for taxable years beginning after December 31, 2024. Under amended § 280C(c)(1) and the December 2025 Instructions for Form 6765 (Item A and Line 26), a taxpayer that declines the reduced credit (checking \"No\" on Item A) and claims the full 14% (or 6%) gross ASC must <a href=\"/us/faq/does-rd-tax-credit-reduce-tax-basis-section-280c\">reduce its domestic R&E expenditures</a> under Section 174A (otherwise taken into account as a deduction or charged to a capital account) dollar-for-dollar by the full amount of the research credit, and must attach an itemized statement named Form6765ItemASection280C.pdf identifying the exact return lines or schedules reduced. Alternatively, under 26 U.S.C. § 280C(c)(2) and 26 CFR § 1.280C-4, the taxpayer may check \"Yes\" on Item A at the top of Form 6765 on its timely filed original return (including extensions) to make an irrevocable annual election to claim a <a href=\"/us/glossary/reduced-research-credit\">reduced research credit</a>. On Line 26 of Section B, the § 280C(c)(2) election multiplies the gross ASC on Line 25 by <strong>79% (0.79)</strong>—reducing the credit by the 21% maximum corporate tax rate under IRC § 11(b), so the 14% statutory rate becomes an <strong>11.06%</strong> net statutory rate and the 6% rate becomes <strong>4.74%</strong>—while preserving 100% of the taxpayer's Section 174A deduction. As confirmed in the December 2025 Instructions and IRS RCCATG, a § 280C(c)(2) election cannot be made or changed on an amended return (now that the temporary small-business retroactive relief window under Rev. Proc. 2025-28 closed on July 6, 2026), though checking \"Yes\" on Item A on a timely original return preserves the reduced-credit posture even if no credit was claimed on the original return. While a profitable C corporation taxed at 21% is federally indifferent between the two options (100% − 21% = 79%), electing the 79% reduced credit under § 280C(c)(2) simplifies <a href=\"/us/faq/how-federal-rd-credit-affects-state-tax-return\">state tax conformity</a> and book-tax reconciliations and yields substantial net tax savings for individual owners of S corporations and partnerships whose personal marginal income tax rate exceeds 21% (for example, at a 37% individual marginal rate, losing $100 of § 174A deduction costs $37 of federal tax while reducing the credit by 21% costs only $21)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Operational Controls and Next Steps for ASC Utilization"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Conduct Pre-Filing Dual Calculation Modeling (<a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">RCM vs. ASC</a>):</strong> Before filing an original return, compute the credit under both Section A (Regular Credit) and Section B (ASC) of Form 6765 across a multi-year forecast. Because an ASC election applies to the current year and all subsequent years unless revoked on a future timely filed original return—and can never be revoked on an amended return under 26 CFR § 1.41-9(b)(3)—finance teams should verify whether the ASC's lower typical gross effective rate (6.0% to 8.5% of total QREs) is outweighed by a low RCM base amount or whether rapid gross-receipts growth or missing 1984–1988 records make the ASC yield a higher, more defensible dollar credit.",
+        "<strong>Audit Prior Three-Year Base Period Consistency and M&A Adjustments:</strong> Under the Consistency Rule of IRC § 41(c)(5)(A) and 26 CFR § 1.41-9(c)(2) (and the precedent of <em>Trinity Industries</em>, <em>Research, Inc.</em>, and TAM 201740018), ensure that QREs for the three preceding taxable years (Form 6765, Line 21) are calculated using the exact same QRE definition and project-qualification methodology applied in the current credit year. Adjust the three-year historical QRE base for any acquisitions or dispositions of a major portion of a trade or business or separate unit (including incorporations and liquidations) under IRC § 41(f)(3) and 26 CFR § 1.41-7(b) (disclosed on Form 6765, Line 39), and annualize or prorate any short taxable years on a 365-day basis under 26 CFR § 1.41-9(c)(3).",
+        "<strong>Verify Controlled Group Aggregation and Designated Member Elections:</strong> For multi-entity enterprises with more than 50% common ownership under IRC § 41(f)(1) and (5), confirm that all controlled group members are aggregated as a single taxpayer under 26 CFR § 1.41-6(b)(1), that the designated member under 26 CFR § 1.41-9(b)(4)(ii) timely files the ASC election (or revocation) binding the entire group, and that separate-return filers follow the June 18, 2025 IRS Clarification and December 2025 Instructions by reporting member-only QREs in Sections E and F and on Line 20 alongside the group prior 3-year QREs on Line 21 and the required group credit attachment (Form6765ItemBGroupCredit.pdf).",
+        "<strong>Integrate Section 174A / Section 174 Accounting with Section 41 QRE Tracking:</strong> Establish a unified chart-of-accounts and time-tracking standard that reconciles domestic R&E expenditures expensed under IRC § 174A(a) (or electively amortized over ≥60 months under § 174A(c) via a Section 6.02 statement under Rev. Proc. 2025-28) with the narrower subset of wages, supplies, computer rentals, and contract research claimed as QREs under IRC § 41(b), while isolating foreign R&E subject to 15-year amortization under IRC § 174, applying the correct automatic accounting method change numbers (DCN 265, DCN 273, and DCN 274) under Rev. Proc. 2025-28 and Rev. Proc. 2026-32, and properly executing the IRC § 280C(c) deduction reduction (Form6765ItemASection280C.pdf) or timely 79% reduced-credit election on Item A.",
+        "<strong>Deploy Project-Level Contemporaneous Documentation for Form 6765 Section G:</strong> Because Section G of Form 6765 (Business Component Information) is mandatory for tax years beginning after December 31, 2025 (unless the taxpayer qualifies for the <a href=\"/us/glossary/qualified-small-business-qsb\">QSB</a> payroll-credit exemption or the ≤$1.5M QRE/≤$50M gross receipts original-return exemption) and the IRS RCCATG requires a verifiable nexus between QREs and business components under IRC § 6001, implement contemporaneous project-tracking systems that capture direct research, direct supervision, and direct support wages (Columns 50–53), non-depreciable supplies (Column 54), leased computers (Column 55), contract research (Column 56), software classifications (Column 49e), and the specific technological information sought to be discovered (Column 49f) for each business component (or evaluate eligibility for the LB&I GAAP ASC 730 Directive on Line 41)."
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export function caseMetadata(caseRecord: CaseRecord | undefined) {
   if (!caseRecord) return {};
   return {
     title: `${caseRecord.title} | RDTAXCASES.com`,
-    description: caseRecord.summary,
+    description: caseRecord.metaDescription ?? caseRecord.summary,
     alternates: { canonical: caseHref(caseRecord) },
   };
 }

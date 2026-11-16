@@ -1,0 +1,13 @@
+{
+  "note": "Rules for links in the texts, applied by scripts/import-batch.mjs after every import (scripts/lib/legacy-links.mjs). aliases: a link written with a wrong address goes to the right one. removed: a link to a page that will never exist, or to an outside address that is dead, is shown as plain text for good (the text stays).",
+  "aliases": {
+    "/us/united-states-v-grigsby": "/us/grigsby-v-united-states"
+  },
+  "removed": [
+    "/us/faq/rd-tax-credits-during-company-acquisition-ma",
+    "https://www.rdtaxsavers.com/pdf/Coordinated%20Issue%20QRE.pdf",
+    "https://www.costcare.co.uk/the-risks-of-signing-agency-agreements-with-rd-tax-advisors/",
+    "https://www.grantthornton.com/insights/newsletters/tax/2025/hot-topics/oct-21/irs-delays-information-reporting-for-research-credit",
+    "https://kpmg.com/us/en/taxnewsflash/news/2025/08/tnf-rev-proc-2025-28-research-and-experimental-expenditures-under-ob3.html"
+  ]
+}

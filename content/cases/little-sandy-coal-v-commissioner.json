@@ -1,0 +1,483 @@
+{
+  "slug": "little-sandy-coal-v-commissioner",
+  "title": "Little Sandy Coal Co., Inc. v. Commissioner",
+  "caseNumber": "21-3145",
+  "court": "United States Court of Appeals for the Seventh Circuit",
+  "year": 2023,
+  "subject": "Process of Experimentation Test — Documentation Standards",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Little Sandy Coal Co. v. Commissioner is a federal R&D tax credit case in which the U.S. Tax Court and the Seventh Circuit denied a shipbuilding taxpayer's entire claim. For U.S. taxpayers claiming the I.R.C. § 41 credit, novelty is not proof: substantially all (80%) of research activities must be documented as a process of experimentation.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary & Case Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "The litigation in <em>Little Sandy Coal Co., Inc. v. Commissioner</em>, initially adjudicated by the United States Tax Court in <em>T.C. Memo. 2021-15</em> (authored by Judge James S. Halpern on February 11, 2021) and subsequently affirmed by the United States Court of Appeals for the Seventh Circuit in <em>62 F.4th 287</em> (authored by Circuit Judge Michael B. Brennan on March 7, 2023), represents a watershed moment in federal research and development (R&D) tax credit jurisprudence within the United States. The rulings establish stringent evidentiary boundaries regarding how custom manufacturers, <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">engineering firms</a>, and industrial fabricators must substantiate the \"process of experimentation\" and the arithmetic \"substantially all\" (80%) threshold under Section 41 of the Internal Revenue Code (I.R.C.). While the Seventh Circuit corrected a critical legal error in the Tax Court's interpretation of how direct supervision, direct support, and pilot model production activities factor into the \"substantially all\" fraction, the appellate court ultimately affirmed the complete disallowance of the taxpayer's claimed credits due to pervasive documentation failures, arbitrary <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective time estimates</a>, and an unviable \"all-or-nothing\" business component strategy."
+    },
+    {
+      "type": "subheading",
+      "text": "The Taxpayer's Claim and Factual Matrix"
+    },
+    {
+      "type": "paragraph",
+      "text": "The petitioner-appellant, Little Sandy Coal Company, Inc. (Little Sandy Coal), is a corporate parent headquartered in the United States that owns Corn Island Shipyard, Inc. (CIS), a custom steel shipbuilding subsidiary operating in southern Indiana. On its consolidated federal income tax return for the taxable year ended June 30, 2014, Little Sandy Coal claimed a federal research tax credit pursuant to I.R.C. §§ 38 and 41(a) for alleged <a href=\"/us/glossary/qualified-research-expenses-qre\">qualified research expenses (QREs)</a> incurred by CIS during the design, engineering, and physical fabrication of 11 custom maritime vessels. The taxpayer asserted that because all 11 vessels were \"<a href=\"/us/glossary/first-in-class-development\">first-in-class</a>\" builds—meaning hulls and vessel configurations that CIS had never previously constructed—the vessels constituted experimental \"pilot models\" whose design and physical fabrication costs qualified for the research credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "To streamline the five-day bench trial before the U.S. Tax Court, the parties stipulated to litigate two representative projects out of the 11 claimed vessels. The first representative project was Project 720, the Apex 720 Tanker Barge (Tanker), constructed under a commercial contract with Apex Oil, Inc. Although CIS based the Tanker's design on a predecessor tanker it had previously built (the Penn 80), several elements of the design differed. Specifically, CIS used three-dimensional modeling to redesign the stern notch that attaches the Tanker to a pusher tug, redesigned the towing bridle to minimize interference with other vessel components, performed a \"wind sail\" engineering calculation to determine the appropriate size of the anchor, performed engineering calculations to test the strength of the vessel's longitudinal elements, and designed a vapor barrier system (a special coating to prevent corrosion). After analyzing CIS production employees' time records, CIS engineering technician Brian Meunier estimated that 87% of the time those employees spent constructing the Tanker involved functions tied directly to items that differed from those of the Penn 80. For the Tanker alone, Little Sandy Coal claimed $2,505,491 in production employee wages, $3,892,142 in <a href=\"/us/glossary/qualified-supplies\">direct supply costs</a> (representing the steel and physical materials incorporated into the barge), and $17,504 in contract research expenses paid to Hayes Testing Labs to test some of the welds made in the Tanker's construction."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second representative project was Project 730, the Detyens Dry Dock (Dry Dock), constructed under a contract with Detyens Shipyards, Inc. Unlike the Tanker, the floating Dry Dock required the development of an entirely new product design and represented the first dry dock CIS had ever built. Its execution necessitated extensive naval engineering calculations, multiple iterative design draft revisions—including five distinct revisions of the outboard side plate and structural alterations to the safety deck height—and a partial submergence raise-and-lower test prior to customer delivery. For the Dry Dock, Little Sandy Coal claimed $146,109 in production wages and $1,943,265 in physical supply costs. In addition to project-specific production wages and supplies, Little Sandy Coal claimed $609,276 in nonproduction employee wages across all 11 vessels. These nonproduction \"estimated wage expenses\" were not broken out by vessel; the taxpayer calculated them by applying to each employee's total wages an allocation percentage equal to the estimated portion of that employee's time spent on qualified research, attributing $173,996 to lead engineer and naval architect Bud Johnson, $126,734 to management (Don Foertsch, David Foertsch, and Alan Fleischmann), and $56,895 to draftsmen (Dennis Gass, Kyle Harpenau, and Robert Kellems), with Brian Meunier testifying that 60% was a \"reasonable\" allocation for Johnson's time and David Foertsch attesting that the percentage estimates for various employees were \"fair\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Claim Category / Representative Project",
+        "Customer & Contractual Scope",
+        "Claimed Production Wages ($)",
+        "Claimed Supply Costs ($)",
+        "Claimed Nonproduction / Contract QREs ($)",
+        "Taxpayer's Asserted Basis for Qualification"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Project 720: Apex 720 Tanker Barge</strong>",
+            "Apex Oil, Inc.; redesign of Penn 80 barge with new stern notch, towing bridle, longitudinal strength, and wind sail anchor calculations.",
+            "$2,505,491",
+            "$3,892,142",
+            "$17,504 (<a href=\"/us/glossary/contract-research-expenses\">Contract research</a> paid to Hayes; waived on appeal)",
+            "Asserted whole vessel was a \"pilot model\" with 87% of production time tied to \"novel\" design features relative to Penn 80."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Project 730: Detyens Dry Dock</strong>",
+            "Detyens Shipyards, Inc.; first-ever floating dry dock built by CIS; 5 revisions to outboard side plate and safety deck height changes.",
+            "$146,109",
+            "$1,943,265",
+            "Included in aggregate nonproduction pool below",
+            "Asserted whole dry dock was an entirely new, \"first-in-class\" pilot model requiring iterative design and raise-and-lower testing."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Nonproduction Employee Wages (Across All 11 Vessels)</strong>",
+            "Engineering, naval architecture, drafting, purchasing, and management wages across all 11 vessels, not broken out by vessel.",
+            "N/A",
+            "N/A",
+            "$609,276 total (including $173,996 for lead engineer Bud Johnson, $126,734 for management, and $56,895 for draftsmen; Meunier testified that a 60% allocation was \"reasonable\" for Johnson)",
+            "Retrospective percentage estimates of annual salaries supported by witness testimony asserting estimates were \"fair\" and \"reasonable\"."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon examination, the Commissioner of Internal Revenue disallowed Little Sandy Coal's research tax credit claim in its entirety, issuing a statutory Notice of Deficiency that assessed an income tax deficiency alongside a 20% <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalty</a> pursuant to I.R.C. § 6662(a). The Internal Revenue Service (IRS) challenged the claim on multiple substantive and evidentiary grounds. Primarily, the Commissioner contended that CIS's shipbuilding operations represented routine custom manufacturing and professional engineering rather than qualified research under I.R.C. § 41(d). The Commissioner argued that the taxpayer failed to demonstrate that \"substantially all\" (at least 80%) of the research activities with respect to each claimed vessel constituted elements of a process of experimentation under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6). Furthermore, the Commissioner challenged the inclusion of millions of dollars in production fabrication wages and raw steel supplies as \"pilot model\" expenditures, contested the unsubstantiated percentage allocations for nonproduction personnel under I.R.C. § 6001 and Treas. Reg. § 1.41-4(d), and asserted that the projects were subject to statutory exclusions under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "The Governing Statutory and Regulatory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41(a)(1)</a> allows a tax credit equal to 20% of the amount by which a taxpayer's QREs for the taxable year exceed a statutory base amount. Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">I.R.C. § 41(b)(1)–(2)</a>, QREs comprise \"contract research expenses\" (generally 65% of amounts paid to non-employees for qualified research) and \"in-house research expenses,\" which are strictly limited to wages paid or incurred to an employee for \"qualified services\" performed by such employee, amounts paid or incurred for \"supplies\" (tangible property other than land or depreciable property) used in the conduct of qualified research, and certain computer lease payments. Under I.R.C. § 41(b)(2)(B) and Treas. Reg. § 1.41-2(c), \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" encompass three distinct activity tiers: engaging directly in the actual conduct of qualified research, engaging in the \"direct supervision\" of qualified research (immediate first-line supervision of researchers), and engaging in the \"direct support\" of qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "For an underlying activity to constitute \"qualified research,\" <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">I.R.C. § 41(d)(1)</a> mandates that the taxpayer satisfy a cumulative Four-Part Test, which must be applied separately to each discrete \"business component\" (defined in I.R.C. § 41(d)(2)(B) as any product, process, computer software, technique, formula, or invention held for sale, lease, or license, or used in the taxpayer's trade or business). The first statutory requirement is the Section 174 Test under I.R.C. § 41(d)(1)(A), which dictates that the expenditures must be eligible for treatment as <a href=\"/us/glossary/research-and-experimental-expenditures\">research or experimental expenditures</a> under I.R.C. § 174. Under Treas. Reg. § 1.174-2(a)(1), costs qualify in the \"experimental or laboratory sense\" if they are incurred for activities intended to discover information that would <a href=\"/us/glossary/elimination-of-uncertainty\">eliminate uncertainty</a> concerning the development or improvement of a product's capability, method, or appropriate design. Treas. Reg. § 1.174-2(a)(4) further defines a \"<a href=\"/us/glossary/pilot-model\">pilot model</a>\" as any representation or model of a product produced to evaluate and resolve uncertainty concerning the product during its development or improvement."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second statutory requirement is the Technological Information Test under I.R.C. § 41(d)(1)(B)(i), which requires that the research be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, meaning the process of experimentation fundamentally relies on principles of the physical or biological sciences, engineering, or computer science. The third requirement is the Business Component Test under I.R.C. § 41(d)(1)(B)(ii), under which the taxpayer must intend to apply the discovered technological information to develop a new or improved <a href=\"/us/glossary/business-component\">business component</a>. Finally, the fourth requirement is the Process of Experimentation Test under I.R.C. § 41(d)(1)(C), which mandates that \"substantially all\" of the research activities with respect to the business component must constitute elements of a process of experimentation for a qualified purpose—specifically, a new or improved function, performance, reliability, or quality under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">I.R.C. § 41(d)(3)(A)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Little Sandy Coal</em>, the Commissioner did not dispute on appeal the Tax Court's finding that CIS designed the Tanker and Dry Dock for a <a href=\"/us/glossary/permitted-purpose\">qualified purpose</a> (a new or improved function, performance, or reliability or quality), and the Seventh Circuit identified only the fourth test (and, indirectly, the first test under Section 174) as in dispute. Within the fourth prong, only the \"substantially all\" fractional determination was contested: whether \"substantially all\" of CIS's research activities constituted elements of a process of experimentation. Under Treas. Reg. § 1.41-4(a)(5)(i)—as construed in <a href=\"/us/union-carbide-v-commissioner\">Union Carbide Corp. v. Commissioner</a>, T.C. Memo. 2009-50, and adopted by the Seventh Circuit—a process of experimentation requires a structured, scientific-method approach where the taxpayer identifies a technical uncertainty, identifies one or more design alternatives to eliminate that uncertainty, and conducts an evaluative process (such as modeling, simulation, or systematic trial and error) involving a methodical series of trials to test a hypothesis, analyze data, refine the hypothesis, and retest. Under Treas. Reg. § 1.41-4(a)(6), the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" threshold</a> is satisfied only if 80% or more of a taxpayer's research activities for that business component—measured on a cost or other consistently applied reasonable basis—constitute elements of a process of experimentation. If a full business component fails any of the qualified research tests, including this 80% threshold, Treas. Reg. § 1.41-4(b)(2) instructs the taxpayer to apply the <a href=\"/us/glossary/shrink-back-rule\">\"shrinking-back\" rule</a>, stepping the Four-Part Test down to the most significant subset of elements (subcomponents) until a qualifying subset is proved."
+    },
+    {
+      "type": "subheading",
+      "text": "The Courts' Final Holdings"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>T.C. Memo. 2021-15</em>, the U.S. Tax Court ruled entirely in favor of the Commissioner, disallowing all claimed research credits and sustaining the I.R.C. § 6662(a) accuracy-related penalty. Judge Halpern analyzed the Treas. Reg. § 1.41-4(a)(6) fraction under alternative assumptions that the vessels were and were not pilot models; assuming they were pilot models, the court included pilot model production activities in the denominator but categorically excluded them from the numerator because, in the Tax Court's view, activities in direct support or direct supervision of research (including pilot model production) are not themselves \"elements of a process of experimentation\". Even after assuming that all $609,276 in nonproduction wages belonged to the Tanker and were elements of a process of experimentation, the Tanker fraction reached at best 19.6% ($609,276 ÷ ($609,276 + $2,505,491)), and the Dry Dock would have required roughly 96% of all nonproduction wages to be experimental activities attributable to it alone—a showing the taxpayer did not make; because the taxpayer failed the threshold test, the court did not need to decide whether the § 41(d)(4) exclusions, including the <a href=\"/us/glossary/funded-research\">\"funded research\" exclusion</a> under I.R.C. § 41(d)(4)(H), applied."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal in <em>62 F.4th 287 (7th Cir. 2023)</em>, the Seventh Circuit <strong>affirmed</strong> the Tax Court's judgment denying the tax credits, holding that Little Sandy Coal \"claimed more tax credit than it could prove\". However, in a critical doctrinal correction, the Seventh Circuit <strong>rejected</strong> the Tax Court's categorical exclusion of pilot model production, direct support, and direct supervision from the numerator of the \"substantially all\" fraction. The appellate court held that pilot model production activities can be research activities (denominator) that constitute elements of a process of experimentation (numerator)—so that direct support and supervision activities are considered in both the numerator and the denominator rather than in the denominator alone—but only where the activity is a research activity whose expenses are deductible under Section 174 and, for the numerator, where the model is actually used to evaluate one or more alternatives using the scientific method. Nevertheless, the Seventh Circuit affirmed the disallowance because Little Sandy Coal failed to introduce documentation (such as records of time spent on experimentation-related activities) proving what portion of its production or nonproduction activities actually involved a scientific process of experimentation, improperly relied on design \"novelty\" as a substitute for proof, and lacked the subcomponent accounting required to invoke the shrinking-back rule."
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal & Evidentiary Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "A forensic examination of the <em>Little Sandy Coal</em> opinions reveals six interlocking legal, technical, and evidentiary failures that dismantled the taxpayer's claim. Understanding the mechanics of these failures—and the doctrinal divergence between the Tax Court and the Seventh Circuit—is essential for tax controversy defense in the United States."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Satisfy the \"Substantially All\" (80%) Process of Experimentation Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "The overarching fatal flaw in <em>Little Sandy Coal</em> was the taxpayer's inability to establish the arithmetic 80% \"substantially all\" requirement under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6). The statutory architecture of Section 41 distinguishes between the existence of <em>technological uncertainty</em> under <a href=\"/us/glossary/irc-section-174\">I.R.C. § 174</a> (Prong 1) and the execution of a <em>process of experimentation</em> under I.R.C. § 41(d)(1)(C) (Prong 4). As the Seventh Circuit explained (citing Union Carbide), although both tests target the same type of uncertainty, the process of experimentation test imposes a more structured method of discovering information than Section 174 requires and may not include all actions a taxpayer takes to resolve uncertainty; likewise, under Treas. Reg. § 1.174-2(a)(5), uncertainty concerning certain components of a product does not necessarily indicate uncertainty concerning other components or the product as a whole."
+    },
+    {
+      "type": "paragraph",
+      "text": "Both the Tax Court and the Seventh Circuit emphasized that a qualifying <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a> requires adherence to the scientific method: the taxpayer must formulate a hypothesis linking design alternatives to the uncertainty, conduct systematic trials (via physical modeling, computational simulation, or structured testing), analyze the resulting data, refine or discard the hypothesis, and retest. While CIS undoubtedly encountered engineering challenges on the Tanker (calculating longitudinal strength, wind sail anchor loads, and 3D modeling the stern notch) and the Dry Dock (revising the outboard side plate five times and adjusting safety deck elevations), the taxpayer treated routine naval engineering calculations, iterative CAD drafting, and standard shop-floor vessel assembly as synonymous with scientific experimentation. Because CIS did not document which of its activities were hypothesis-driven trials as opposed to routine drafting, construction, and other non-experimental work, the court could not verify that at least 80% of the research activities constituted elements of a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Judicial Divergence on Numerator and Denominator Mechanics: Direct Supervision, Direct Support, and Pilot Model Production"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most technically complex aspect of the <em>Little Sandy Coal</em> litigation involves the mathematical formulation of the \"substantially all\" fraction under Treas. Reg. § 1.41-4(a)(6):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Experimentation Fraction = Activities Constituting Elements of a Process of Experimentation ÷ Total Research Activities for the Business Component"
+    },
+    {
+      "type": "paragraph",
+      "text": "The purpose of the <a href=\"/us/glossary/substantially-all-rule\">\"substantially all\" rule</a> in the statutory scheme is actually inclusionary: if at least 80% of the research activities on a business component are elements of a process of experimentation for a qualified purpose (e.g., function or performance), then the remaining 20% (or less) of research activities need not constitute elements of a process of experimentation for a qualified purpose, so long as those remaining activities satisfy the Section 174 requirement of I.R.C. § 41(d)(1)(A) and are not otherwise excluded under I.R.C. § 41(d)(4); accordingly, the Seventh Circuit framed the fraction as research activities that constitute elements of a process of experimentation divided by research activities not excluded under Section 41(d)(4) and whose expenses are deductible under Section 174. However, in <em>T.C. Memo. 2021-15</em>, Judge Halpern imported the wage-service categories of <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">I.R.C. § 41(b)(2)(B)</a>—which separate \"engaging in qualified research\" from \"direct supervision\" and \"direct support\"—into the activity test of I.R.C. § 41(d)(1)(C). The Tax Court reasoned that while physical fabrication of a pilot model (e.g., welders and shipfitters assembling the hull) and direct support/supervision qualify as research activities under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">I.R.C. § 174</a> and must be placed in the <strong>denominator</strong>, such support and fabrication activities cannot be placed in the <strong>numerator</strong> because, in its view, pilot model production directly supported research activities but lacked a close enough nexus to the testing to be considered qualified research in its own right."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the Seventh Circuit dismantled this Tax Court rationale. Circuit Judge Brennan explained that under Treas. Reg. § 1.174-2(a)(4), a \"pilot model\" is produced specifically to evaluate and resolve uncertainty concerning the product. The court acknowledged that Treas. Reg. § 1.41-2(c)(3)(ii) describes the services of a machinist machining a part of an experimental model as \"<a href=\"/us/glossary/direct-support\">direct support</a>\" and that Section 41(b)(2)(B)(ii) distinguishes direct support and supervision from qualified research itself, which made the Tax Court's reading sensible, but it held that reading incorrect because Section 41(b) (qualified research expenses) and Section 41(d) (qualified research activities) address different subjects, the concepts of direct support and direct supervision do not appear in Section 41(d), and the examples in Treas. Reg. § 1.41-4(a)(8) (including the fine-shred blade example) treat the production of alternative designs as part of the process of experimentation. As the court observed in a footnote, if pilot model production expenses were included in the denominator but categorically excluded from the numerator, satisfaction of the test would depend on how small those production expenses were relative to the other research expenses, so a taxpayer whose pilot model production exceeded 20% of its total research activities could never reach the 80% ratio. Consequently, the Seventh Circuit adopted the taxpayer's approach: direct supervision and direct support activities, including pilot model production, are considered in both the numerator and the denominator, but only to the extent they are research activities whose expenses are deductible under Section 174 (i.e., incurred before the elimination of uncertainty) and, for the numerator, only where the model is used to evaluate alternatives through the scientific method; the court cautioned that its holding does not mean any direct support or supervision activity may be considered, and that merely making a <a href=\"/us/glossary/prototype-development\">prototype model</a> is not enough. Notably, in <em><a href=\"/us/intermountain-electronics-v-commissioner\">Intermountain Electronics, Inc. v. Commissioner</a></em>, Docket No. 11019-19, Order dated March 14, 2024, the Tax Court subsequently aligned with this view, denying an IRS summary judgment motion and confirming that pilot model production costs are not categorically excluded from the numerator."
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite winning this pivotal legal argument before the Seventh Circuit, Little Sandy Coal still lost the case on the facts. Assuming <em>arguendo</em> that the Tanker and Dry Dock were pilot models, the taxpayer failed to demonstrate which production activities were used to test an experimental hypothesis, versus which merely addressed generic manufacturing or construction uncertainty and therefore did not belong in the numerator (supply costs, for their part, are excluded from the activity-based \"substantially all\" fraction altogether)."
+    },
+    {
+      "type": "subheading",
+      "text": "Rejection of the Trinity Industries \"Novelty\" and \"First-in-Class\" Shortcut"
+    },
+    {
+      "type": "paragraph",
+      "text": "Little Sandy Coal's novelty argument mirrored the \"feels new enough\" approach used in the federal district court decision in <a href=\"/us/trinity-industries-v-united-states\">Trinity Industries, Inc. v. United States</a>, 691 F. Supp. 2d 688 (N.D. Tex. 2010), aff'd, 757 F.3d 400 (5th Cir. 2014), another shipbuilding case. In <em>Trinity Industries</em>, the district court found the expenses for two of six vessels built by a shipbuilder to be qualified research expenses (including a highly innovative special operations deployment craft designed to be fast, undetectable, and able to fit on a C-5 cargo plane) largely because the vessels were highly innovative and \"novel,\" effectively treating design novelty as a proxy for the 80% process of experimentation requirement. Little Sandy Coal's argument followed the same logic: for the Apex Tanker, it relied on Brian Meunier's estimate that 87% of production employees' construction time involved functions tied to items that differed from the Penn 80; for the Detyens Dry Dock, it emphasized that the vessel was first-in-class because CIS had never built a dry dock before."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court rejected the taxpayer's novelty argument, and the Seventh Circuit, agreeing, expressly rejected the novelty approach used in Trinity Industries. The Seventh Circuit held that while Treas. Reg. § 1.41-4(a)(6) allows the 80% fraction to be measured \"on a cost or other consistently applied reasonable basis,\" the <em>novelty</em> or \"feels new enough\" character of a business component is not a legally valid basis. Designing and fabricating a component that a company has never built before—or modifying 87% of a prior blueprint—demonstrates only that the design is <em>different</em>, not that the taxpayer resolved technical uncertainty through a structured scientific process of experimentation. Skilled engineers and shipwrights routinely design and fabricate novel, custom structures using established engineering principles, standard look-up tables, and conventional fabrication techniques without ever formulating or testing competing scientific hypotheses. By measuring <em>design difference</em> (87% new features) rather than <em>experimental activity</em> (percentage of total research cost or time devoted to scientific testing), CIS's metric was not a valid measure under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), which require the test to be applied to activities rather than to physical elements of the business component."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"All-or-Nothing\" Whole-Vessel Strategy and Failure of the Shrinking-Back Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "A catastrophic strategic error by Little Sandy Coal was its choice of an \"all-or-nothing\" strategy and its evidentiary inability to utilize the \"shrinking-back\" rule under Treas. Reg. § 1.41-4(b)(2). In defining its business components under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">I.R.C. § 41(d)(2)(B)</a>, the taxpayer defined the business components as the <em>entire Apex 720 Tanker</em> and the <em>entire Detyens Dry Dock</em>. This \"all-or-nothing\" election allowed the taxpayer to claim millions of dollars in supply costs ($3,892,142 on the Tanker and $1,943,265 on the Dry Dock) and production wages ($2,505,491 on the Tanker and $146,109 on the Dry Dock) as QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer defines an entire complex machine or vessel as a single business component, I.R.C. § 41(d)(1)(C) requires that at least 80% of all research activities across the <em>entire vessel</em> constitute elements of a process of experimentation. Because the taxpayer could not show what portion of the activities for each whole vessel constituted elements of a process of experimentation—and the Seventh Circuit suspected that much of the iterative \"design spiral\" addressed generic manufacturing uncertainty rather than investigative uncertainty—the whole vessels failed the 80% test. Under Treas. Reg. § 1.41-4(b)(2), when the top-level product fails the Four-Part Test, the analysis must \"shrink back\" to the most significant subset of elements—such as the Tanker's redesigned stern notch, the towing bridle, or the Dry Dock's outboard side plate and safety deck. However, the taxpayer's documentation lacked the detail needed to isolate subcomponent-level activities: its claimed production wages and supplies were presented only at the whole-vessel level (Project 720 and Project 730), and its nonproduction wages were not even broken out by vessel. Because the record contained no subcomponent cost accounting or subcomponent time logs, the Seventh Circuit held that the shrinking-back doctrine could not be applied to salvage partial credits for subcomponents whose design iterations, the court acknowledged, may very well have involved a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Deficiencies in Contemporaneous Documentation, Arbitrary Estimates, and Limits of the Cohan Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under I.R.C. § 6001 and Treas. Reg. § 1.41-4(d), a taxpayer bears the burden of maintaining records in sufficiently usable form and detail to substantiate that claimed expenditures are eligible for the credit. For its nonproduction employees ($609,276 across the 11 vessels), Little Sandy Coal's claimed wages were not broken out by vessel, and the record did not document how the employees' time related to specific vessels, subcomponents, or experimental activities. Instead, the taxpayer offered arbitrary allocation percentages estimating each employee's time spent on qualified research (for example, Meunier testified that 60% was a \"reasonable\" allocation for lead engineer Bud Johnson), supported by witness testimony that the estimates were \"reasonable\" or \"fair\"; the Tax Court further found, and the Seventh Circuit found no clear error, that much of these wages covered non-research activities—Johnson spent much of his time on customer relations and management, the Foertsches were co-owners whose research involvement was largely undocumented, purchasing agent Alan Fleischmann's work was at least partly non-experimental, and the draftsmen simply drew designs provided by engineers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, although the Seventh Circuit did not rest its decision on the direct supervision rules, its treatment of the management wages is consistent with them: it observed that Don Foertsch seemed to play a supervisory role over research activities, and it cited Shami v. Commissioner, 741 F.3d 560 (5th Cir. 2014), for the principle that the supervisor of the direct supervisor of employees who conduct qualified research is not himself engaged in qualified research; under I.R.C. § 41(b)(2)(B)(ii) and Treas. Reg. § 1.41-2(c)(2)—a limitation later applied by the Tax Court in <a href=\"/us/scott-moore-v-commissioner\">Moore v. Commissioner</a>, T.C. Memo. 2023-20—only first-line supervision of researchers qualifies as direct supervision, excluding general management or higher-tier executives. Crucially, the Seventh Circuit addressed the applicability of the estimation doctrine established in <em>Cohan v. Commissioner</em>, 39 F.2d 540, 544 (2d Cir. 1930) (and applied to R&D credits in <em><a href=\"/us/united-states-v-mcferrin\">United States v. McFerrin</a></em>, 570 F.3d 672, 679 (5th Cir. 2009)). While the Seventh Circuit acknowledged that a court <em>may</em> invoke <em>Cohan</em> to estimate the <em>amount</em> of QREs if a taxpayer first proves that qualified research occurred, it held that <em>Cohan</em> cannot be used to bridge a failure to prove the threshold statutory requirement that 80% of activities constituted a process of experimentation. Without a principled evidentiary foundation showing that the 80% test was met, the court had nothing upon which to base a <em>Cohan</em> estimate."
+    },
+    {
+      "type": "subheading",
+      "text": "Contractual Vulnerabilities, Mooted Exclusions, and Section 6662 Penalties"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the primary failure under the <a href=\"/us/glossary/four-part-test\">Four-Part Test</a>, the litigation exposed three ancillary legal vulnerabilities regarding third-party contractors, customer funding exclusions, and statutory penalties. First, regarding the waiver of unsubstantiated contract research, CIS paid $17,504 to Hayes Testing Labs to test some welds made in the Tanker's construction (Project 720) and claimed the payment as contract research under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">I.R.C. § 41(b)(3)</a>. The Tax Court disallowed the expense after finding the payments were neither research nor experimental expenditures under I.R.C. § 174, and when Little Sandy Coal failed to address the issue in its opening appellate brief, the Seventh Circuit held that the taxpayer formally waived any argument that the Hayes expenditures were creditable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the litigation highlighted the latent threat of the \"funded research\" exclusion under I.R.C. § 41(d)(4)(H) and Treas. Reg. § 1.41-4A(d), which disqualifies research to the extent funded by a customer where payment is not contingent on the success of the research or where the taxpayer fails to retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> in the research results. In the Tax Court, the Commissioner argued that CIS's vessel construction contracts triggered the statutory exclusions of I.R.C. § 41(d)(4), but because Judge Halpern concluded that the taxpayer failed the threshold Four-Part Test under I.R.C. § 41(d)(1)(C), the court explicitly declined to decide the applicability of the Section 41(d)(4) exclusions as moot. Nevertheless, in custom shipbuilding and commercial fabrication, fixed-price or milestone contracts that transfer exclusive ownership of vessel designs to the buyer or fail to place payment at risk of technical failure present an immediate secondary trap even if the 80% experimentation test is overcome. Third, after disallowing the credit, the Tax Court upheld the tax deficiency and the accuracy-related penalty (imposed under I.R.C. § 6662(a), which applies a 20% rate to underpayments attributable to, among other things, negligence or a substantial understatement of income tax); the Seventh Circuit's opinion addresses only the research credit issue and affirms the Tax Court's decision."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table: Statutory Mandates vs. Taxpayer Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and regulatory requirement examined in <em>Little Sandy Coal Co., Inc. v. Commissioner</em> against the taxpayer's specific evidentiary or legal deficiency and the controlling judicial standard of proof established by the U.S. Tax Court and the Seventh Circuit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory / Regulatory Provision",
+        "Core Legal Requirement",
+        "Taxpayer's Failure in Little Sandy Coal",
+        "Controlling Judicial Standard of Proof"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(d)(1)(A) & Treas. Reg. § 1.174-2(a)(1), (4)</strong> (Section 174 & Pilot Model Test)",
+            "Expenditures must be incurred in the experimental or laboratory sense to eliminate uncertainty regarding capability, method, or appropriate design. A \"pilot model\" is a representation/model produced to evaluate and resolve such uncertainty.",
+            "Designated entire commercial vessels (Apex Tanker and Detyens Dry Dock) as \"pilot models\" and claimed $5.83M+ in raw steel/supplies and $2.65M+ in fabrication wages without isolating costs incurred <em>prior</em> to resolving specific technical uncertainties.",
+            "Taxpayer must prove the creator's intent and link specific model fabrication costs to the evaluation and resolution of identified technical uncertainties; commercial production costs incurred after uncertainty is resolved or for routine structural elements do not qualify."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(d)(1)(C) & Treas. Reg. § 1.41-4(a)(5)</strong> (Process of Experimentation)",
+            "Research activities must involve a structured evaluative process capable of evaluating alternatives via the scientific method: formulating a hypothesis, systematic testing/modeling, analyzing data, refining the hypothesis, and retesting.",
+            "Conflated iterative naval engineering calculations, 3D CAD drafting, five side-plate blueprint revisions, and post-build acceptance testing with a scientific process of experimentation; failed to document hypotheses or systematic trial-and-error protocols.",
+            "Generalized descriptions of engineering challenges, routine design revisions, or complex calculations are insufficient. Taxpayer must produce objective evidence of a methodical plan testing hypotheses to resolve technological uncertainty."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(d)(1)(C) & Treas. Reg. § 1.41-4(a)(6)</strong> (\"Substantially All\" 80% Arithmetic Fraction)",
+            "At least 80% of a taxpayer's research activities for a business component, measured on a cost or other consistently applied reasonable basis, must constitute elements of a process of experimentation for a qualified purpose.",
+            "Advanced a novelty argument mirroring the approach used in Trinity Industries, arguing that because the Dry Dock was first-in-class (CIS had never built a dry dock) and 87% of Tanker production time related to items different from the Penn 80, substantially all activities were elements of a process of experimentation.",
+            "<em>Trinity Industries</em> novelty approach is rejected as a matter of law. \"Novelty\" or \"first-in-class\" status is not a reasonable basis under Treas. Reg. § 1.41-4(a)(6). Taxpayer must mathematically prove &gt;80% of research activities (by cost or time) were experimental."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(b)(2)(B) & Treas. Reg. § 1.41-4(a)(6)</strong> (Numerator vs. Denominator Treatment of Direct Support & Supervision)",
+            "\"Qualified services\" include engaging in qualified research, direct supervision, and direct support. In computing the 80% fraction, numerator and denominator must be defined consistently.",
+            "<em>Tax Court Error</em>: Tax Court categorically excluded pilot model fabrication and direct support/supervision from the numerator while placing them in the denominator. <em>Taxpayer Failure</em>: Failed to prove what portion of fabrication/support actually aided experimentation.",
+            "<em>Seventh Circuit Rule</em>: Direct supervision, direct support, and pilot model production activities are <strong>not</strong> categorically excluded from the numerator; they enter both numerator and denominator to the extent they are research activities deductible under Section 174 and, for the numerator, the taxpayer proves they constituted elements of a process of experimentation (e.g., a model used to evaluate alternatives through the scientific method)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(d)(2)(A)–(B) & Treas. Reg. § 1.41-4(b)(2)</strong> (Business Component & Shrinking-Back Rule)",
+            "The <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> applies separately to each discrete business component. If a whole product fails the 80% test, the test \"shrinks back\" to the most significant subset of elements (subcomponent) that satisfies the test.",
+            "Elected an \"all-or-nothing\" strategy defining the <em>entire vessels</em> as the business components; presented its claimed costs only at the whole-vessel level (Projects 720 and 730), with nonproduction wages not even broken out by vessel, and without subcomponent documentation.",
+            "A court cannot apply the shrinking-back rule to rescue credits for experimental subcomponents (e.g., stern notch, towing bridle, side plates) unless the taxpayer provides granular documentation isolating the activities, hours, and costs of those specific subcomponents."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 6001, Treas. Reg. § 1.41-4(d) & <em>Cohan</em> Rule</strong> (Substantiation & Estimation of QREs)",
+            "Taxpayers must retain records in sufficiently usable form and detail to substantiate credit eligibility. Under <em>Cohan</em>, courts may estimate QREs only after threshold qualification is proven.",
+            "Claimed $609,276 in nonproduction wages using arbitrary percentage allocations of each employee's wages (e.g., a 60% allocation testified to be \"reasonable\" for the lead engineer), not broken out by vessel and supported only by witness testimony that the estimates were \"reasonable\" or \"fair\".",
+            "Arbitrary percentage estimates and <a href=\"/us/glossary/credible-oral-testimony\">conclusory oral testimony</a> fail I.R.C. § 6001. While <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">daily timesheets</a> are not strictly mandated by statute, estimates require a principled, verifiable nexus between employee activities and specific experimental tasks. <em>Cohan</em> cannot cure a failure to prove the 80% test."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>I.R.C. § 41(b)(3), § 41(d)(4)(H) & § 6662(a)</strong> (Contract Research, Exclusions & Penalties)",
+            "Contract research requires proving third-party § 174 experimentation; funded research under § 41(d)(4)(H) is excluded; § 6662 imposes a 20% penalty for negligence or substantial understatement.",
+            "Payments of $17,504 to Hayes Testing Labs for weld testing were held not to be research or experimental expenditures, and the issue was waived on appeal; failed threshold § 41(d)(1)(C) test (mooting § 41(d)(4) exclusions); incurred 20% § 6662 accuracy-related penalty.",
+            "Unsubstantiated subcontractor costs are disallowed (and waived if not briefed). Claiming whole-product manufacturing costs on a legally defective \"novelty\" theory without subcomponent records exposes the taxpayer to 20% accuracy-related penalties under I.R.C. § 6662."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the doctrinal holdings of <em>Little Sandy Coal Co., Inc. v. Commissioner</em> into actionable compliance protocols, the following two applied industry case studies examine realistic commercial taxpayers confronting the exact legal, technical, contractual, and accounting pitfalls identified by the Tax Court and the Seventh Circuit. Each case study provides a step-by-step remedial blueprint designed to withstand IRS Large Business and International (LB&I) examination and federal judicial review."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Maritime & Heavy Custom Vessel Fabrication (Commercial Offshore Hybrid-Electric Tugboat Development)"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Inherent Little Sandy Coal Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pelican Marine Fabricators, Inc. (Pelican Marine), a U.S. custom shipbuilder operating on the Gulf Coast, enters into a $14.5 million <a href=\"/us/glossary/fixed-price-contract\">fixed-price contract</a> with a commercial port operator to design, engineer, fabricate, and deliver a \"first-in-class\" 120-foot Azimuth Stern Drive (ASD) hybrid-electric harbor tugboat (designated internally as Hull 810). Pelican Marine has previously built conventional diesel-mechanical tugboats (such as Hull 790), but has never integrated a high-capacity lithium-iron-phosphate (LFP) battery energy storage system (BESS), an active liquid-cooled power distribution switchboard, or a redesigned low-drag bulbous bow hull geometry required to meet the customer's 75-ton bollard pull and zero-emission harbor transit specifications."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under its existing accounting practices, Pelican Marine assigns a single job-cost code (JOB-810) to the entire vessel. At year-end, Pelican Marine's tax advisor interviews the Vice President of Engineering, who estimates that because Hull 810 is a \"first-in-class\" hybrid vessel, 85% of the vessel's blueprint features differ from Hull 790. Relying on this novelty percentage, Pelican Marine defines the entire Hull 810 tugboat as a \"pilot model\" business component and claims $4.2 million in shipyard production labor (welders, pipefitters, electricians), $6.8 million in raw steel plates, engines, and marine supplies, and 70% of the annual salaries of its Chief Naval Architect, Shipyard General Manager, and CAD drafting department. Furthermore, the customer contract is a standard lump-sum maritime construction agreement requiring progress payments at keel laying, hull turnover, and delivery, while granting the buyer \"all right, title, and interest in and to the vessel and its custom specifications.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "If audited by the IRS, Pelican Marine's claim faces a high risk of total disallowance under the reasoning of Little Sandy Coal, as well as exposure to a 20% accuracy-related penalty under I.R.C. § 6662. Defining the entire tugboat as the business component makes it extremely difficult to satisfy the 80% \"substantially all\" test because standard hull welding, crew quarters outfitting, and wheelhouse assembly are routine manufacturing. The 85% \"blueprint difference\" estimate is an invalid <em>Trinity Industries</em> novelty metric. The single JOB-810 cost code prevents applying the Treas. Reg. § 1.41-4(b)(2) shrinking-back rule. The 70% salary allocation for the General Manager lacks a principled basis and is vulnerable under the direct supervision limits of I.R.C. § 41(b)(2)(B) (see <a href=\"/us/shami-v-commissioner\">Shami v. Commissioner</a>, cited in Little Sandy Coal). Finally, the lump-sum contract risks disqualification as \"funded research\" under I.R.C. § 41(d)(4)(H)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance & Subcomponent Business Component Architecture (Shrinking-Back Readiness)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to commencing engineering on Hull 810, Pelican Marine must abandon the \"all-or-nothing\" whole-vessel business component strategy and establish a hierarchical Work Breakdown Structure (WBS) aligned with Treas. Reg. § 1.41-4(b)(2). During the Pre-Engineering Charter Review, the Tax Director and Chief Naval Architect must partition JOB-810 into non-qualifying commercial construction accounts and discrete, subcomponent-level experimental business components under I.R.C. § 41(d)(2)(B). Specifically, Pelican Marine establishes a general commercial construction account (JOB-810-000) to capture all excluded baseline vessel activities, including standard hull framing, deckhouse fabrication, crew quarters, standard HVAC and plumbing, surface preparation, painting, and routine regulatory classification society (ABS/USCG) compliance checks. Alongside that excluded account, Pelican Marine charters three separate experimental subcomponent business components: Subcomponent 1 (BC-810-A), covering the Hydrodynamic Bulbous Bow and Skeg Appendage Geometry dedicated strictly to resolving hydrodynamic drag and directional stability uncertainties at transitional speeds of 10 to 14 knots; Subcomponent 2 (BC-810-B), covering the Marine LFP Battery Thermal Runaway Containment and Liquid-Cooled Switchboard Architecture dedicated to resolving electrical load-shedding harmonics and thermal dissipation uncertainties within a confined engine room envelope; and Subcomponent 3 (BC-810-C), covering the Dynamic Thruster-Hull Structural Foundation Matrix dedicated to resolving structural resonance and vibrational fatigue under 75-ton omni-directional bollard pull loads. By segregating the vessel into three discrete subcomponents (BC-810-A, BC-810-B, and BC-810-C) from inception, Pelican Marine isolates the denominator of the Treas. Reg. § 1.41-4(a)(6) fraction to <em>only</em> the research activities associated with each specific technical subsystem, ensuring that standard shipyard construction costs never dilute the 80% experimentation ratio."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation & Scientific Method Protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Seventh Circuit's mandate that experimentation must follow the scientific method rather than routine engineering design, Pelican Marine must implement a mandatory <a href=\"/us/glossary/contemporaneous-documentation\">Contemporaneous Experimentation & Hypothesis Log</a> (CEHL) within its Product Lifecycle Management (PLM) software for each subcomponent. At project inception, the naval architect uses the CEHL to document explicit <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> under I.R.C. § 174 for BC-810-A, recording that existing hydrodynamic hull series data cannot predict whether a shortened bulbous bow paired with an asymmetric aft skeg on a 120-foot hull will induce vortex shedding and propeller cavitation during rapid azimuth thruster reversals, thereby establishing an appropriate design uncertainty under Treas. Reg. § 1.174-2(a)(1). Rather than merely saving five sequential design revisions as CIS did with the Dry Dock's outboard side plate, the CEHL records formal scientific hypotheses and competing design alternatives under Treas. Reg. § 1.41-4(a)(5) for each iteration—for example, formulating Hypothesis A1 that modifying the bow entrance angle from 18° to 14.5° and adding a 300 mm flow-straightening fin to the skeg will reduce wake-field pressure fluctuations below 4.5 kPa without reducing bollard pull efficiency below 92%, and logging at least three distinct geometric alternatives (Alt-1, Alt-2, Alt-3). Finally, the CEHL captures the systematic trial, data analysis, and hypothesis refinement loop by linking each alternative directly to Computational Fluid Dynamics (CFD) Reynolds-Averaged Navier-Stokes (RANS) simulation runs and scale-model tow-tank test logs, recording the quantitative output data, why Alt-1 and Alt-2 failed the cavitation threshold, how the hypothesis was refined for Alt-3, and the exact date on which technical uncertainty was eliminated."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contract Terms & Risk Allocation (Overcoming I.R.C. § 41(d)(4)(H) Funded Research & Subcontractor Traps)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To ensure that the Commissioner cannot disallow the credits on the secondary grounds of \"funded research\" under I.R.C. § 41(d)(4)(H) and Treas. Reg. § 1.41-4A(d)—the issue pretermitted by the Tax Court in <em>Little Sandy Coal</em>—and to prevent the disallowance and waiver of third-party engineering expenses like the $17,504 Hayes expenditure, Pelican Marine's legal counsel must restructure the customer and subcontractor agreements prior to execution. First, to establish contingency of payment on technical success, the vessel construction contract is amended to stipulate that progress payments attributable to the hybrid propulsion and hull subsystems (BC-810-A, BC-810-B, BC-810-C) are strictly conditional upon successful completion of dockside and sea-trial performance acceptance criteria (specifically achieving 75-ton bollard pull, &lt; 65 dB(A) vibration thresholds, and 4-hour zero-emission transit endurance). The contract explicitly grants the customer the right to reject the subsystems and demand a full refund of milestone payments if Pelican Marine fails to resolve the technical uncertainties and meet the performance specifications, placing the <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of technical failure squarely on Pelican Marine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, to preserve substantial rights in intellectual property, the IP clause is redrafted so that while the customer receives title to the physical vessel Hull 810, Pelican Marine retains exclusive ownership—or, at a minimum, a perpetual, royalty-free, non-exclusive license without restriction or fee—to use all underlying naval architectural calculations, CFD models, hydro-structural designs, and hybrid switchboard schematics in future vessels built for other customers, satisfying the \"substantial rights\" requirement under Treas. Reg. § 1.41-4A(d)(1)–(3). Third, for any <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">third-party engineering firm</a> hired to assist under I.R.C. § 41(b)(3) (analogous to Hayes in <em>Little Sandy Coal</em>), the Subcontractor Statement of Work (SOW) must explicitly specify the experimental testing services to be performed (such as finite element analysis of thruster foundation resonance for BC-810-C), state that payment is contingent on Pelican Marine's engineering acceptance, confirm that the research is performed on behalf of Pelican Marine with Pelican Marine retaining all IP rights, and require the vendor to submit itemized invoices detailing the exact test runs and engineering hours performed."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Tracking & \"Substantially All\" (80%) Arithmetic Accounting"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the Seventh Circuit's standard for the Treas. Reg. § 1.41-4(a)(6) fraction and I.R.C. § 6001 substantiation, Pelican Marine implements a bi-level ERP <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">time and material tracking protocol</a>. Under this system, all naval architects, electrical engineers, and CAD draftsmen record daily hours in the ERP system against specific subcomponent codes (BC-810-A, BC-810-B, BC-810-C) coupled with one of four Activity Phase Tags: [EXP-HYP] for Hypothesis and Alternative Formulation, [EXP-MOD] for CFD/FEA Modeling and Simulation, [EXP-TEST] for Physical Prototype Testing and Data Analysis, or [NON-EXP] for Routine Code Compliance, Aesthetic Layout, or Post-Resolution Production Drafting. To enforce the \"one-up\" rule for <a href=\"/us/glossary/direct-supervision\">direct supervision</a>, the Shipyard General Manager's salary is excluded entirely, while the Lead Naval Architect logs exact hours spent reviewing CFD test outputs and directing the design engineers on BC-810-A under [EXP-SUP]."
+    },
+    {
+      "type": "paragraph",
+      "text": "With respect to pilot model fabrication wages and supplies under the Seventh Circuit's numerator standard, rather than claiming the entire hull's steel and welding labor, Pelican Marine designates <em>only</em> the physical scale tow-tank model (for BC-810-A) and a full-scale, standalone Engine Room Switchboard & Cooling Test Rig built in the shop prior to vessel installation (for BC-810-B) as \"pilot models\" under Treas. Reg. § 1.174-2(a)(4). Shop machinists, electricians, and welders fabricating the Test Rig log hours to BC-810-B [EXP-FAB], and raw materials consumed exclusively in constructing the Test Rig prior to the sign-off date resolving thermal uncertainty are booked to a dedicated general ledger supply account (GL-5120-PM-810B). At year-end, Pelican Marine performs an arithmetic verification of the 80% fraction for BC-810-B, where total research hours in the denominator equal 2,400 hours (comprising 1,600 engineering modeling/testing hours, 200 direct supervision hours, 450 pilot rig fabrication/testing support hours, and 150 routine post-uncertainty integration hours) and the numerator equals 2,250 hours (1,600 + 200 + 450, since under the Seventh Circuit's rule in <em>Little Sandy Coal</em>, pilot model fabrication and direct supervision that directly execute the experimental test are included in the numerator):"
+    },
+    {
+      "type": "paragraph",
+      "text": "2,250 Experimental Hours ÷ 2,400 Total Research Hours = 93.75% ≥ 80%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because 93.75% exceeds the 80% threshold under Treas. Reg. § 1.41-4(a)(6), BC-810-B passes the \"substantially all\" test with mathematical precision."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Industrial Custom Equipment & Turnkey Capital Machinery Manufacturing (Modular High-Voltage Arc-Flash Containment & Regenerative Thermal Oxidizer System)"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Inherent Little Sandy Coal Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vanguard Industrial Systems, Corp. (Vanguard), a U.S.-based industrial manufacturer of custom environmental control and power distribution equipment, contracts with a semiconductor fabrication plant to design, manufacture, and install a custom, skid-mounted Regenerative Thermal Oxidizer (RTO) integrated with a medium-voltage (34.5 kV) solid-state switchgear enclosure (Project 905). The customer requires the integrated skid to destroy 99.8% of fluorinated greenhouse gas emissions while operating within a compact footprint subject to extreme seismic zone requirements and internal arc-flash containment standards."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vanguard manufactures the custom unit on its shop floor over an eight-month period, incurring $1,850,000 in direct manufacturing materials (structural steel skids, ceramic heat-exchange media, high-voltage busbars, valves, and PLCs) and $920,000 in shop-floor assembly labor. Prior to shipping the unit to the customer's semiconductor facility, Vanguard conducts a three-day Factory Acceptance Test (FAT) to verify that the valves cycle properly and the PLC logic meets the customer's functional specification. On its federal tax return, Vanguard claims the entire $1,850,000 in materials and $920,000 in shop labor as QREs, asserting that because every custom RTO/switchgear skid is uniquely engineered for a specific customer's site parameters, the entire commercial unit is a \"pilot model\" under Treas. Reg. § 1.174-2(a)(4). Additionally, Vanguard conducts an annual employee survey asking its Chief Operating Officer (COO), Vice President of Operations, and 18 mechanical/electrical engineers to estimate a single annual percentage of their time spent on \"new or improved custom projects,\" resulting in flat claims of 50% to 80% of their W-2 wages."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <em>Little Sandy Coal</em> (as well as subsequent Tax Court precedent applying <em>Little Sandy Coal</em>, such as <em><a href=\"/us/betz-v-commissioner\">Betz v. Commissioner</a></em> and <em>Phoenix Design Group, Inc. v. Commissioner</em>), Vanguard's claim is fatally defective across three core dimensions. First, Vanguard conflates custom commercial production with a pilot model because it built the unit to fulfill a commercial sale, and its Factory Acceptance Test was merely a post-production <a href=\"/us/glossary/quality-control-testing\">quality control check</a> rather than a scientific test to resolve technological uncertainty. Second, the project fails the 80% fraction because including $1,850,000 of commercial skid materials and $920,000 of standard shop assembly in the business component swamps the genuine engineering research conducted on the fluorinated gas burner nozzle and arc-flash venting baffle. Third, Vanguard relies on invalid retrospective survey estimates and <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">executive wage claims</a>, as allocating annual percentages across all projects without project-by-project substantiation fails I.R.C. § 6001, and claiming the COO's and VP of Operations' wages is vulnerable under the direct supervision rules unless their activities are shown to be first-line supervision of qualified research."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance & Segregation of Experimental Prototypes from Commercial Skids"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vanguard must establish a strict Stage-Gate R&D Governance Policy that legally and operationally separates <em>Pre-Production Experimental Research</em> from <em>Commercial Order Fulfillment</em>. Under this policy, Vanguard prohibits claiming commercial customer deliverables (Project 905 as a whole) as pilot models. Instead, the R&D Governance Committee identifies the two specific subcomponents within Project 905 where existing engineering knowledge available to Vanguard cannot establish the capability or appropriate design: Subcomponent 1 (SUB-905-1), the High-Velocity Fluorinated Gas Vortex Burner Chamber, which faces design uncertainty regarding how to prevent hydrofluoric acid (HF) corrosion and thermal NOx spikes at 1,150°C chamber temperatures within a shortened 1.2 m residence chamber; and Subcomponent 2 (SUB-905-2), the Passive Magnetic-Quench Arc-Flash Pressure Relief Plenum, which faces design uncertainty regarding whether a multi-louvered ablative baffle geometry can vent a 50 kA internal arc fault in under 4 milliseconds without structural rupture of the compact 34.5 kV enclosure. Rather than charging experimental work to the main manufacturing order (MFG-905), Vanguard opens two dedicated R&D Prototype Work Orders (RD-905-BURNER and RD-905-PLENUM), stipulating that only disposable physical test articles, sacrificial chambers, and engineering iterations prior to final design freeze may be charged to these R&D work orders."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation & Scientific Method Protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prove that SUB-905-1 and SUB-905-2 underwent a genuine process of experimentation under Treas. Reg. § 1.41-4(a)(5) rather than routine custom engineering or code compliance, Vanguard implements a structured Design of Experiments (DOE) Technical Dossier. The Technical Dossier explicitly distinguishes scientific experimentation from site customization and commercial acceptance testing by excluding <a href=\"/us/glossary/adaptation-exclusion\">site-adaptation calculations</a> (such as structural anchor bolt sizing for local building codes or standard duct routing) and excluding the end-of-line Factory Acceptance Test (FAT). For SUB-905-1, the Lead Combustion Engineer documents a complete hypothesis-trial-refinement loop across three competing burner injector geometries (Geo-Alpha, Geo-Beta, Geo-Gamma), capturing the scientific hypothesis for each geometry, the chemical kinetics simulation logs (ANSYS Fluent reactive flow models), and the laboratory test bench data where physical sacrificial burner nozzles are fired in Vanguard's test cell. Each test record documents the measured destruction removal efficiency (DRE), the thermal profile, the analytical reason why Geo-Alpha failed due to localized flame impingement, how the swirl-vane angle was mathematically refined for Geo-Beta and Geo-Gamma, and the formal Engineering Change Notice (ECN) marking the resolution of uncertainty and the transition to commercial fabrication."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contract Terms & Risk Allocation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because custom industrial equipment is frequently sold under fixed-price purchase orders with milestone billing, Vanguard must insulate its R&D claims against I.R.C. § 41(d)(4)(H) funded research challenges. Relying on a standard repair-or-replace commercial warranty is insufficient if it eliminates a refund remedy or fails to tie payment to technical success. Consequently, Vanguard's Master Equipment Supply Agreement is drafted so that final title transfer and payment of the engineering and fabrication price are expressly contingent upon the system passing rigorous chemical destruction (99.8% DRE) and thermal performance testing during commissioning, with the customer holding an unconditional contractual right to return the equipment for a full refund of all prior milestone payments if the experimental burner or arc-flash plenum fails to achieve the specified technical parameters. Furthermore, the contract contains an explicit reservation of proprietary subcomponent rights stating that all experimental data, combustion chamber geometries (SUB-905-1), and arc-flash plenum designs (SUB-905-2) developed by Vanguard remain the sole and exclusive proprietary technology of Vanguard, and the buyer receives no license or right to replicate the subcomponents or restrict Vanguard from incorporating them into standard product lines."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimentation Tracking & \"Substantially All\" (80%) Arithmetic Accounting"
+    },
+    {
+      "type": "paragraph",
+      "text": "To eliminate arbitrary survey estimates and establish an audit-ready <a href=\"/us/glossary/project-to-expense-nexus\">nexus between activities and costs</a> under <em>Little Sandy Coal</em>, Vanguard terminates its annual percentage survey and replaces it with contemporaneous project-phase time cards. Engineers, CAD technicians, and test-cell machinists record weekly hours directly against RD-905-BURNER and RD-905-PLENUM using specific activity codes tied to the four elements of experimentation: Uncertainty and Hypothesis Definition, Alternative Modeling and Simulation, Prototype Fabrication and Test Execution, and Data Analysis and Refinement. Vanguard also enforces the \"one-up\" direct supervision rule by completely excluding the wages of the COO and VP of Operations from QREs, allowing only the R&D Engineering Manager who directly supervises the Combustion and Electrical Engineers to log specific hours spent reviewing test-cell data and approving DOE refinements. Finally, Vanguard strictly segregates sacrificial pilot model supplies from commercial inventory: the $1,850,000 in commercial skid materials and $920,000 in commercial assembly labor are charged strictly to MFG-905 and excluded from the R&D tax credit claim, whereas only the $48,500 in specialized nickel-alloy nozzles and ceramic liners physically destroyed in the test cell (RD-905-BURNER), the $32,000 in ablative louver prototypes destroyed during high-current arc-fault laboratory testing (RD-905-PLENUM), and the $24,000 in test-cell technician wages (direct support under Treas. Reg. § 1.41-2(c)(3)) incurred to assemble and instrument those sacrificial test units prior to design freeze are claimed as QREs."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Remediation Dimension",
+        "Defective Practice in Little Sandy Coal",
+        "Restructured Compliance Protocol (Case Studies 1 & 2)",
+        "Legal & Evidentiary Impact Under I.R.C. § 41"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Business Component Definition (I.R.C. § 41(d)(2)(B))</strong>",
+            "\"All-or-nothing\" whole-vessel designation that swept in total production wages and supply costs.",
+            "Pre-project partitioning into discrete, uncertain technical subcomponents (e.g., BC-810-B switchboard, SUB-905-1 burner) via ERP WBS codes.",
+            "Satisfies Treas. Reg. § 1.41-4(b)(2) shrinking-back rule from inception; removes routine commercial manufacturing from the 80% fraction denominator."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Substantiating the 80% Fraction (Treas. Reg. § 1.41-4(a)(6))</strong>",
+            "Reliance on a Trinity Industries-style design \"novelty\" argument (87% of Tanker production time tied to items differing from the prior barge) and \"first-in-class\" assertions.",
+            "Mathematical calculation of experimental hours/costs (Numerator) divided by total subcomponent research hours/costs (Denominator) using ERP activity tags.",
+            "Directly satisfies the Seventh Circuit's mandate for a principled, consistently applied cost or time measurement basis proving &gt;80% experimentation."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Pilot Model Supplies & Production Labor (Treas. Reg. § 1.174-2(a)(4))</strong>",
+            "Claiming millions in raw steel and commercial fabrication wages for customer-delivered vessels without isolating experimental testing.",
+            "Restricting pilot model QREs to standalone test rigs and sacrificial prototypes consumed <em>prior</em> to uncertainty resolution; tracking shop support under [EXP-FAB].",
+            "Leverages the Seventh Circuit's favorable ruling allowing pilot model fabrication/support into the numerator while eliminating commercial inventory inflation."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Nonproduction & Supervisory Wages (I.R.C. § 41(b)(2)(B))</strong>",
+            "Retrospective percentage salary allocations (e.g., 60% for the lead engineer) for engineers, draftsmen, and management, not broken out by vessel and backed only by conclusory oral testimony.",
+            "Contemporaneous subcomponent time-tracking coupled with strict \"one-up\" first-line supervisory logging and complete exclusion of upper executives.",
+            "Satisfies I.R.C. § 6001 and Treas. Reg. § 1.41-4(d); avoids reliance on the <em>Cohan</em> rule and prevents disallowance of general management wages."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Contractual & Subcontractor Governance (I.R.C. § 41(d)(4)(H) & § 41(b)(3))</strong>",
+            "Unsubstantiated third-party payments (Hayes) waived on appeal; exposure to funded research exclusions under commercial contracts.",
+            "Explicit performance-based refund contingencies, retention of non-exclusive/exclusive IP rights in subcomponent designs, and itemized SOWs for contract research.",
+            "Preserves \"substantial rights\" and financial risk under Treas. Reg. § 1.41-4A(d); substantiates § 41(b)(3) contract research and insulates against § 6662 penalties."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The decisions of the U.S. Tax Court and the Seventh Circuit in <em>Little Sandy Coal Co., Inc. v. Commissioner</em> establish an uncompromising paradigm for federal R&D tax credit compliance in the United States. At the doctrinal level, the Seventh Circuit provided a vital victory for industrial taxpayers by overturning the Tax Court's categorical exclusion of pilot model fabrication, direct support, and direct supervision from the numerator of the Treas. Reg. § 1.41-4(a)(6) \"substantially all\" fraction. Yet, at the evidentiary level, the appellate court made clear that generalized descriptions of uncertainty, assertions of novelty, and arbitrary estimates of time spent performing experimentation are not enough. Under the Seventh Circuit's precedent (binding in that circuit and persuasive elsewhere), taxpayers cannot rely on the Trinity Industries \"novelty\" or \"first-in-class\" approach to sweep whole commercial vessels, custom machinery, or entire manufacturing builds into <a href=\"/us/glossary/irc-section-41\">I.R.C. § 41</a>. Nor can taxpayers rely on the Cohan rule (which applies only after qualified research under Section 41(d) is established) or on arbitrary retrospective percentage estimates to salvage claims where underlying <a href=\"/us/glossary/project-accounting\">project accounting</a> fails to track subcomponent-level experimentation. By prospectively structuring business components at the subcomponent level to enable the Treas. Reg. § 1.41-4(b)(2) shrinking-back rule, <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">documenting hypothesis-driven scientific testing</a> contemporaneously, isolating sacrificial pilot model costs prior to the resolution of technical uncertainty, and embedding risk-allocation and IP-retention clauses into commercial contracts, U.S. taxpayers can robustly defend their qualified research expenses against administrative and judicial scrutiny."
+    }
+  ],
+  "metaDescription": "Little Sandy Coal v. Commissioner: the courts denied the whole claim because 80% of activities were not documented as a process of experimentation."
+}

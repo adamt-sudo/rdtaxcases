@@ -13,8 +13,10 @@ export interface PageRecord {
   country: string;
   /** The page title: the h1 of the source document. */
   title: string;
-  /** Meta description (from the delivery sheet). Empty until the sheet gives one. */
+  /** Meta description, at most 155 characters (made from the answer capsule; the delivery sheet's own is empty or wrong). */
   description?: string;
+  /** The answer capsule of the document as plain text: the answer shown for a FAQ question in its structured data. */
+  summary?: string;
   /** Dates as the document states them (ISO yyyy-mm-dd). */
   published?: string;
   updated?: string;

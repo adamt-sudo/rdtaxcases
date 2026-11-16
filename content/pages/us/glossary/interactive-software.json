@@ -1,0 +1,536 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Interactive Software",
+  "description": "Interactive software is sold, leased or licensed to third parties, or lets them initiate functions; it bypasses the high threshold of innovation test.",
+  "summary": "Interactive software, for U.S. R&D tax credit purposes under IRC Section 41, is software developed to be commercially sold, leased, or licensed to third parties, or that lets third parties initiate functions or review data on the taxpayer's system. Taxpayers that classify such software correctly bypass the High Threshold of Innovation test and need only satisfy the standard four-part test.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Interactive software, for U.S. R&D tax credit purposes under IRC Section 41, is software developed to be commercially sold, leased, or licensed to third parties, or that lets third parties initiate functions or review data on the taxpayer's system. Taxpayers that classify such software correctly bypass the High Threshold of Innovation test and need only satisfy the standard four-part test."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary and Regulatory Thesis"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal Research and Development (R&D) tax credit governed by <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Internal Revenue Code (IRC) Section 41</a> serves as a foundational tax incentive for domestic technological innovation, yet its application to software engineering expenditures is heavily constrained by the Internal Use Software (IUS) exclusion set forth in IRC § 41(d)(4)(E) and Treasury Regulation § 1.41-4(c)(6). Within this statutory and regulatory architecture, the accurate classification of a software development project as Interactive Software—referred to in administrative practice as third-party-facing or external-facing software—represents the primary determinant of credit eligibility and examination defensibility. Historically, the Internal Revenue Service (IRS) has evaluated software designed for back-office operations such as human resources, inventory tracking, and financial management with heightened scrutiny, subjecting those expenditures to the restrictive three-part <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation (HTI) test</a> under Treas. Reg. § 1.41-4(c)(6)(vii) in addition to the baseline four-part qualification test under IRC § 41(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The central operational thesis of software R&D tax compliance is that qualifying a business component as Interactive Software legally bypasses the HTI test in its entirety. Under Treas. Reg. § 1.41-4(c)(6)(iv), when software is developed primarily to be commercially sold, leased, licensed, or otherwise marketed to third parties, or when it is developed to enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system, the resulting <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenditures (QREs)</a> are exempt from IUS status. Consequently, Interactive Software development need only satisfy the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">standard four-part test</a> under IRC § 41(d) and avoid the general statutory exclusions of IRC § 41(d)(4). This regulatory distinction shifts the taxpayer's evidentiary burden from proving subjective financial recovery forecasts and substantial economic risk under the HTI standard to demonstrating objective, contemporaneous technical experimentation under the standard statutory framework."
+    },
+    {
+      "type": "paragraph",
+      "text": "The quantitative divergence between purely internal tools and external-facing interactive systems underscores why software classification constitutes the central battleground in IRS R&D examinations. When an application is structured as an internal administrative tool—such as a static warehouse inventory system utilized exclusively by internal personnel—the project carries a 90% IUS classification risk index, a 10% customer interaction profile, a 20% evidentiary burden of proof index, and an 85% administrative focus profile, depressing overall credit realization potential to 20% due to the difficulty of substantiating the HTI test. Conversely, when a taxpayer architectures an Interactive Platform—such as a client-facing portal enabling external users to simulate loan scenarios and generate custom reports—customer interaction rises to 95%, IUS classification risk falls to 20%, administrative focus drops to 30%, the evidentiary burden of proof index settles at a manageable 60% under the standard four-part test, and credit eligibility potential reaches 90%."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Analytical Benchmark Dimension",
+        "Internal Administrative Tool Profile",
+        "Interactive Platform Profile",
+        "Operational & Examination Implication"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "IUS Classification Risk Index",
+            "90%",
+            "20%",
+            "Reflects the likelihood that IRS examiners classify the software as general and administrative (G&A) under Treas. Reg. § 1.41-4(c)(6)(iii)."
+          ]
+        },
+        {
+          "cells": [
+            "Credit Realization Potential",
+            "20%",
+            "90%",
+            "Measures expected QRE recovery after applying the applicable statutory and regulatory qualification filters."
+          ]
+        },
+        {
+          "cells": [
+            "Customer Interaction Profile",
+            "10%",
+            "95%",
+            "Evaluates the extent to which third parties actively initiate computing functions or review dynamic system data."
+          ]
+        },
+        {
+          "cells": [
+            "Administrative Focus Profile",
+            "85%",
+            "30%",
+            "Captures the proportion of system functionality dedicated to internal financial, human resource, or support services."
+          ]
+        },
+        {
+          "cells": [
+            "Evidentiary Burden of Proof Index",
+            "20%",
+            "60%",
+            "Represents the structured technical documentation effort under the standard four-part test versus the near-insurmountable economic risk threshold of the HTI test."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Foundational Statutory Principles: Qualified Research Under IRC Section 41(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before any distinction between Internal Use Software and Interactive Software becomes legally operative, every software engineering expenditure must first satisfy the baseline statutory definition of \"qualified research\" under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC § 41(d)</a>. If a software development project fails these foundational criteria, the associated costs are categorically ineligible for the research tax credit regardless of whether external third parties interact with the final production system."
+    },
+    {
+      "type": "subheading",
+      "text": "The Mandatory Four-Part Qualification Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "IRC § 41(d) mandates that four cumulative tests be applied separately to each discrete \"business component\" developed or improved by the taxpayer. Together, these four statutory prongs establish that the software engineering effort addressed genuine technological uncertainty through rigorous scientific or computer science methodology. Under Treas. Reg. § 1.41-4(b)(2), if a broader software platform or system fails to satisfy the four-part test as an aggregated whole, the \"shrinking-back rule\" directs the analysis to progressively smaller subsets of elements—such as specific microservices, algorithmic engines, or database synchronization modules—until a qualifying subset of elements is isolated or the most basic element fails to qualify."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Prong",
+        "IRC Section 41(d) Standard",
+        "Software Engineering Application & Evidentiary Focus"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">Section 174</a> Permissibility Test",
+            "Expenditures must be eligible to be treated as <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditures</a> under IRC § 174.",
+            "Encompasses direct wages paid to employees performing, supervising, or <a href=\"/us/glossary/direct-support\">directly supporting</a> qualified software development, cloud or computing supply costs, and eligible contract research payments."
+          ]
+        },
+        {
+          "cells": [
+            "Discovering Technological Information Test",
+            "Activity must be undertaken for the purpose of discovering information that is technological in nature.",
+            "Requires that the underlying development uncertainty relies on principles of computer science, engineering, physical science, or biological science rather than business, aesthetic, or macroeconomic principles."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/legislation/26-usc-41d2-business-component-test\">Business Component Test</a>",
+            "Application of the research must be intended to be useful in the development of a new or improved business component of the taxpayer.",
+            "Defines the discrete unit of measurement—the specific software product, process, technique, invention, or formula—being newly created or functionally enhanced."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">Process of Experimentation Test</a>",
+            "<a href=\"/us/glossary/substantially-all-rule\">Substantially all</a> of the activities must constitute elements of a process of experimentation designed to eliminate technical uncertainty concerning capability, method, or appropriate design.",
+            "Substantiated through iterative design modeling, architectural simulation, alpha/beta testing, rewriting legacy code in an emerging language for computational speed and efficiency, or engineering a novel system architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In the context of Interactive Software, the Process of Experimentation test under IRC § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(5) frequently serves as the primary technical filter during IRS examinations. Under the \"substantially all\" standard in Treas. Reg. § 1.41-4(a)(6), at least 80% of the research activities measured on a cost or other consistently applied reasonable basis must constitute elements of a process of experimentation for a qualified purpose (improving function, performance, reliability, or quality under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC § 41(d)(3)</a>). If a development effort merely adapts or duplicates existing software technology, or if the engineering uncertainty is readily deducible by a competent professional using standard software routines, the activity fails the experimentation requirement. Conversely, when software engineers must evaluate multiple architectural alternatives to resolve concurrency bottlenecks, latency under external user load, cryptographic security throughput, or cross-platform data synchronization, the systematic identification of <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> and iterative testing of competing hypotheses satisfies the statutory mandate."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Exclusions Under IRC Section 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even where software development activities appear to involve technical problem-solving, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)</a> enumerates explicit statutory exclusions that disqualify expenditures from the credit computation. Beyond the specific rules governing Internal Use Software under IRC § 41(d)(4)(E), three statutory exclusions are particularly critical for software developers. First, IRC § 41(d)(4)(A) excludes any <a href=\"/us/glossary/research-after-commercial-production\">research conducted after the beginning of commercial production</a>, meaning that activities performed once the software business component meets its basic functional and economic requirements and is ready for commercial release or production deployment are ineligible. Second, IRC § 41(d)(4)(B) excludes activities dedicated to <a href=\"/us/glossary/adaptation-exclusion\">adapting an existing software business component</a> to a particular customer's requirement or specific operational environment without advancing underlying technological capability. Third, IRC § 41(d)(4)(C) bars activities involving the <a href=\"/us/glossary/duplication-exclusion\">reproduction or duplication</a> of an existing business component—in whole or in part—from a physical examination, plans, blueprints, detailed specifications, or publicly available source code."
+    },
+    {
+      "type": "paragraph",
+      "text": "Distinguishing qualified Interactive Software development from excluded adaptation or duplication requires demonstrating that iterative code rewrites and architectural modifications were undertaken to resolve fundamental capability, method, or design uncertainties rather than performing routine client onboarding, parameter configuration, or cosmetic user-interface customization."
+    },
+    {
+      "type": "heading",
+      "text": "The Internal Use Software Hurdle and the High Threshold of Innovation Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary regulatory obstacle confronting software research claims is the general exclusion for <a href=\"/us/glossary/internal-use-software-ius\">Internal Use Software (IUS)</a> under IRC § 41(d)(4)(E) and Treas. Reg. § 1.41-4(c)(6), finalized by Treasury Decision (T.D.) 9786. Understanding the exact legal boundaries of IUS is essential because Interactive Software is defined within the Treasury regulations as the functional exception to this restrictive regime."
+    },
+    {
+      "type": "subheading",
+      "text": "Defining Internal Use Software via General and Administrative Functions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation § 1.41-4(c)(6)(iii)(A), software is presumed to be developed by (or for the benefit of) the taxpayer primarily for internal use if the software is developed for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) functions</a> that facilitate or support the conduct of the taxpayer's trade or business. Under Treas. Reg. § 1.41-4(c)(6)(iii)(B), the Treasury regulations strictly cabin G&A functions to three exhaustive functional categories. The first category encompasses financial management functions, which include software supporting the taxpayer's financial management and associated recordkeeping such as accounts payable, accounts receivable, inventory management, budgeting, financial reporting, and tax compliance. The second category covers human resource management functions, encompassing software that manages the taxpayer's workforce, including hiring, benefits administration, payroll processing, performance evaluation, and resource allocation. The third category consists of support services functions, which capture software supporting the taxpayer's day-to-day administrative operations, explicitly including data processing, facilities services, and general marketing functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "A major compliance pitfall arises in business-to-business (B2B) supply chain integrations. For example, when a company develops a web application allowing external vendors to log into the company's inventory management system to track product levels and initiate replenishment orders, taxpayers frequently misclassify the portal as third-party Interactive Software. However, under the regulatory examples in Treas. Reg. § 1.41-4(c)(6)(viii), external vendors acting in that capacity do not remove the software from the G&A category because inventory management and supplier procurement fundamentally support the taxpayer's back-office financial and support operations. Consequently, vendor replenishment portals default to IUS status and must satisfy the High Threshold of Innovation test to qualify for the credit."
+    },
+    {
+      "type": "subheading",
+      "text": "The Three-Part High Threshold of Innovation (HTI) Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a software business component is classified as IUS, meeting the standard four-part test under IRC § 41(d) is legally insufficient. Under Treas. Reg. § 1.41-4(c)(6)(vii), the taxpayer must additionally substantiate all three cumulative prongs of the High Threshold of Innovation (HTI) test."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "HTI Prong",
+        "Regulatory Standard (Treas. Reg. § 1.41-4(c)(6)(vii))",
+        "Substantiation & Audit Defense Challenge"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Innovation Standard",
+            "The software must be intended to be innovative, meaning it would result in a reduction in cost, improvement in speed, or other measurable improvement that is substantial and economically significant if development is successful.",
+            "Elevates the burden beyond technical uncertainty into quantifiable performance benchmarks comparing the new system against the prior state of technology."
+          ]
+        },
+        {
+          "cells": [
+            "2. <a href=\"/us/glossary/significant-economic-risk\">Significant Economic Risk</a>",
+            "The software development must involve significant economic risk, whereby the taxpayer commits substantial resources and there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period.",
+            "Forces tax departments to defend subjective financial recovery horizons paired with deep technical uncertainty—a standard rarely satisfied by routine corporate IT upgrades."
+          ]
+        },
+        {
+          "cells": [
+            "3. <a href=\"/us/glossary/commercial-availability-standard\">Commercial Availability</a> (Practical Comparability)",
+            "The software cannot be commercially available for use by the taxpayer in that it cannot be purchased, leased, or licensed and used for the intended purpose without modifications that themselves satisfy the innovation and significant economic risk prongs.",
+            "Requires contemporaneous market research proving that no off-the-shelf commercial software existed or could be configured without fundamental engineering risk."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The acute vulnerability of IUS claims during IRS examinations stems primarily from the second prong: Significant Economic Risk under Treas. Reg. § 1.41-4(c)(6)(vii)(C). Whereas the standard four-part test requires only that technical uncertainty exist regarding capability, method, or appropriate design, the HTI test requires proving substantial uncertainty driven specifically by technical risk—rather than business or market risk—that threatens the economic recovery of substantial committed capital within a reasonable timeframe. Furthermore, the third prong—Commercial Availability under Treas. Reg. § 1.41-4(c)(6)(vii)(D)—operates as an explicit statutory and regulatory mandate rather than merely an implicit comparability guideline, requiring proof that no commercial off-the-shelf (COTS) package could be utilized without modifications that independently satisfy the first two HTI prongs. Because IRS examiners frequently contend that internal enterprise software projects rely on established engineering architectures whose capital recovery is mainly a function of internal organizational adoption rather than technical failure risk, avoiding the HTI test via valid Interactive Software classification is of paramount strategic value."
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Classification of Interactive Software: The Non-IUS Exception"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interactive Software represents the primary regulatory gateway through which modern software engineering expenditures bypass the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">IUS exclusion</a> and qualify directly under the standard four-part test. In administrative practice, the regulatory rules under IRC § 41 and Treas. Reg. § 1.41-4(c)(6) operate as a four-stage sequential evaluation filter. At the first stage, every software project must clear the baseline gate of the IRC § 41(d) Four-Part Test. At the second stage, the taxpayer's primary purpose and intent at project initiation are evaluated under Treas. Reg. § 1.41-4(c)(6)(v) to determine whether the software is aimed at internal G&A operations or external service delivery. At the third stage, the software branches into one of three functional regimes: purely internal G&A software (encompassing financial management, HR, support services, static marketing pages, and vendor inventory portals); Dual Function Software combining interwoven internal and third-party capabilities; or Interactive Software designed for commercial licensing or third-party functional interaction. At the fourth and final stage, this functional classification dictates the legal burden of proof: purely internal G&A software is subjected to the enhanced three-part HTI test, whereas Interactive Software—along with segregated third-party subsets and the 25% safe harbor portion of eligible Dual Function Software—qualifies directly under the standard four-part test."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Definition of Interactive Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the framework of IRC § 41, the term Interactive Software is defined not by its consumer genre—such as video games or entertainment media—but by its functional relationship with external third parties under Treas. Reg. § 1.41-4(c)(6)(iv). Specifically, software is not developed primarily for internal use if it is not developed for use in G&A functions, such as when it fulfills either of two regulatory criteria: first, under Treas. Reg. § 1.41-4(c)(6)(iv)(A), the software is developed primarily to be commercially sold, leased, licensed, or otherwise marketed to third parties; or second, under Treas. Reg. § 1.41-4(c)(6)(iv)(B), the software is developed to enable the taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system."
+    },
+    {
+      "type": "paragraph",
+      "text": "Functionally, this non-IUS exception encompasses any software architecture engineered to invite or accept dynamic actions, transaction initiation, or data queries from external users. Classic qualifying implementations include <a href=\"/us/faq/fintech-software-rd-tax-credit-guide\">online and mobile banking transaction platforms</a>, dynamic e-commerce configuration and fulfillment portals, interactive streaming media interfaces, and client-facing financial simulation portals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, Treasury Regulation § 1.41-4(c)(6)(v) stipulates that whether software is developed primarily for internal use or for third-party interaction depends on the intent of the taxpayer and the facts and circumstances at the beginning of the software development. Because the legal determination attaches at project inception, retrofitting a third-party justification onto a back-office system during an examination is rarely effective; tax and product engineering teams must document external functional requirements in contemporaneous project charters, product requirement documents (PRDs), and architectural specifications at the outset of development."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Classification Dimension",
+        "Internal Use Software (IUS)",
+        "Interactive Software (Non-IUS)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Primary Intended Function",
+            "General and administrative functions (Financial Management, HR Management, Support Services) under Treas. Reg. § 1.41-4(c)(6)(iii).",
+            "Commercially marketed to third parties, or enables third parties to initiate functions or review data on the taxpayer's system under Treas. Reg. § 1.41-4(c)(6)(iv)."
+          ]
+        },
+        {
+          "cells": [
+            "Baseline Statutory Requirement",
+            "Must satisfy the Four-Part Test under IRC § 41(d) and avoid § 41(d)(4) exclusions.",
+            "Must satisfy the Four-Part Test under IRC § 41(d) and avoid § 41(d)(4) exclusions."
+          ]
+        },
+        {
+          "cells": [
+            "Additional Regulatory Hurdle",
+            "Must satisfy all three prongs of the High Threshold of Innovation (HTI) test under Treas. Reg. § 1.41-4(c)(6)(vii).",
+            "None—explicitly exempt from the HTI test under Treas. Reg. § 1.41-4(c)(6)(iv)."
+          ]
+        },
+        {
+          "cells": [
+            "Primary Evidentiary Focus",
+            "Both objective technical experimentation and subjective financial/market recovery risk.",
+            "Objective technical uncertainty and iterative process of experimentation only."
+          ]
+        },
+        {
+          "cells": [
+            "Representative Regulatory Example",
+            "Warehouse inventory system or vendor replenishment portal; static marketing website displaying hours and catalogs.",
+            "Customer mobile banking transaction app; dynamic e-commerce product configurator and order management portal."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Applying the Standard: Qualifying vs. Ambiguous Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal boundary between G&A support software and qualifying Interactive Software hinges on whether the external user actually drives a computing process or merely views collateral marketing outputs."
+    },
+    {
+      "type": "subheading",
+      "text": "Qualifying Interactive E-Commerce and Transaction Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider a manufacturer engineering a custom e-commerce platform intended for customer use. The architecture allows external customers to dynamically configure customizable products, verify real-time warehouse inventory availability, execute online orders, modify existing orders prior to shipment, and retrieve custom engineering specifications. Because external third parties directly initiate computing functions (executing configurations, placing and modifying orders) and review dynamic system data (real-time inventory and order status), the platform is classified as Interactive Software (non-IUS) under Treas. Reg. § 1.41-4(c)(6)(iv)(B). Consequently, all QREs incurred in resolving technical uncertainties across its database architecture, dynamic rendering engine, and transaction processing pipeline qualify for the R&D tax credit solely by meeting the standard four-part test."
+    },
+    {
+      "type": "subheading",
+      "text": "Ambiguous Cases: Static Informational Portals and Login Screens"
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast, consider a company that develops a web application enabling prospective customers to view static product catalogs, pricing sheets, office hours, and retail locations, without allowing users to execute transactions or manipulate underlying system data. Under Treas. Reg. § 1.41-4(c)(6)(iii)(B)(3) and the regulatory examples in Treas. Reg. § 1.41-4(c)(6)(viii), general marketing is categorized as a G&A support service function. Because the website does not permit third parties to initiate dynamic functions on the taxpayer's system, any informational benefit to external visitors is treated as collateral and secondary to the taxpayer's internal marketing function, rendering the software IUS subject to the HTI test. Similarly, the mere existence of an external login screen or authentication portal does not establish interactivity; the authenticated external user must actively initiate functions or review non-static operational data on the taxpayer's system to overcome the IUS classification."
+    },
+    {
+      "type": "heading",
+      "text": "Navigating Dual Function Software and the 10%/25% Regulatory Safe Harbor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern enterprise architectures rarely consist of isolated monolithic applications; instead, companies increasingly deploy integrated cloud platforms that simultaneously execute internal G&A operations and power external customer-facing workflows. Treasury Regulation § 1.41-4(c)(6)(vi) addresses these hybrid systems under the rubric of <a href=\"/us/glossary/dual-function-software\">Dual Function Software (DFS)</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Presumption, Segregation of Subsets, and the Safe Harbor Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "By default, under Treas. Reg. § 1.41-4(c)(6)(vi)(A), software developed both for internal G&A use and to enable interaction with third parties (or to allow third parties to initiate functions or review data) is presumed to be developed primarily for internal use. However, the Treasury regulations provide a two-step relief mechanism that allows taxpayers to recover non-IUS treatment for third-party interactive functionality. Under the first mechanism, governed by Treas. Reg. § 1.41-4(c)(6)(vi)(B), a taxpayer may identify and segregate the specific subset of elements of dual function software that only enables the taxpayer to interact with third parties or allows third parties to initiate functions or review data (the \"<a href=\"/us/glossary/third-party-subset\">third party subset</a>\"). That segregated interactive subset is removed from the IUS presumption, meaning 100% of the QREs allocable to the segregated subset bypass the HTI test and qualify directly under the standard four-part test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the second mechanism, governed by Treas. Reg. § 1.41-4(c)(6)(vi)(C), if the internal G&A and third-party interactive elements are so architecturally interwoven that complete segregation is impracticable—or if an unsegregated dual-function subset remains after partial segregation—the taxpayer may invoke the Dual Function Safe Harbor. Under this safe harbor, if the use of the dual function software (or remaining dual function subset) by third parties or by the taxpayer to interact with third parties is reasonably anticipated to constitute at least 10 percent (≥ 10%) of the total use at the beginning of development, then 25 percent (25%) of the QREs allocable to that dual function software (or subset) are treated as non-IUS expenditures exempt from the HTI test."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dual Function Software Compliance Path",
+        "Prerequisite Condition",
+        "Regulatory QRE Treatment",
+        "Evidentiary Substantiation Requirement"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Baseline Qualification",
+            "Underlying engineering activities must satisfy the IRC § 41(d) Four-Part Test.",
+            "Mandatory prerequisite for both segregated subsets and safe harbor claims.",
+            "<a href=\"/us/glossary/contemporaneous-documentation\">Contemporaneous technical documentation</a> of uncertainty and experimentation."
+          ]
+        },
+        {
+          "cells": [
+            "Path 1: Subset Segregation (Treas. Reg. § 1.41-4(c)(6)(vi)(B))",
+            "Specific software modules/APIs exclusively enabling third-party interaction can be isolated from G&A modules.",
+            "100% of QREs allocable to the segregated third-party subset are treated as non-IUS (Interactive Software).",
+            "<a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">Granular time-tracking</a>, Jira ticket tagging, and cost accounting isolating the external-facing code modules."
+          ]
+        },
+        {
+          "cells": [
+            "Path 2: 10%/25% Safe Harbor (Treas. Reg. § 1.41-4(c)(6)(vi)(C))",
+            "Interwoven DFS (or remaining dual-function subset) has reasonably anticipated third-party usage of ≥ 10% of total use.",
+            "25% of the qualified research expenditures of the interwoven DFS component are automatically treated as non-IUS.",
+            "Objective usage telemetry projections (e.g., API call volume, user session duration, transaction share) establishing ≥ 10% external usage."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Worked Example: Dual Function Software Segregation and Safe Harbor Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mechanics of the Dual Function Software rules under Treas. Reg. § 1.41-4(c)(6)(vi), consider a hypothetical scenario involving a logistics technology taxpayer (\"Taxpayer Alpha\") developing an integrated Cloud Order & Warehouse Platform during the tax year. Assume Taxpayer Alpha incurs $1,000,000 in total software engineering QREs (wages, cloud computing supplies, and <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">contract research</a>) that fully satisfy the standard four-part test under IRC § 41(d), while none of the platform components satisfy the stringent three-part HTI test."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within this hypothetical platform, the $1,000,000 of total QREs is distributed across three distinct architectural modules. Module A is an Internal Financial & HR Ledger accounting for $200,000 of QREs, utilized exclusively (100% internal use) by back-office accounting and human resources staff. Module B is a Segregated Customer Self-Service API & Portal accounting for $400,000 of QREs, which is distinctly tracked in version control and project accounting and used exclusively (100% third-party use) by external customers to configure shipments, initiate order modifications, and review real-time delivery telemetry. Module C is an Interwoven Core Routing & Inventory Engine accounting for the remaining $400,000 of QREs; it simultaneously processes internal warehouse G&A inventory reconciliation and external customer real-time order queries, and its codebase cannot be further segregated. Based on system capacity telemetry at project initiation, external customer-initiated queries are reasonably anticipated to account for 15% of Module C's total compute and API usage."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Hypothetical Platform Component",
+        "Total Four-Part Test QREs",
+        "Anticipated Third-Party Usage",
+        "Regulatory Classification Under Treas. Reg. § 1.41-4(c)(6)",
+        "Non-IUS Exemption Rate",
+        "Claimable Non-IUS QREs"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Module A: Internal Financial & HR Ledger",
+            "$200,000",
+            "0%",
+            "Pure Internal Use Software (IUS)",
+            "0% (Fails HTI Test)",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Module B: Segregated Customer API & Portal",
+            "$400,000",
+            "100%",
+            "Segregated Interactive Software Subset",
+            "100% Exempt from HTI",
+            "$400,000"
+          ]
+        },
+        {
+          "cells": [
+            "Module C: Interwoven Routing & Inventory Engine",
+            "$400,000",
+            "15% (≥ 10% threshold)",
+            "Unsegregated DFS Under Safe Harbor",
+            "25% Safe Harbor Rate",
+            "$100,000"
+          ]
+        },
+        {
+          "cells": [
+            "Total Integrated Platform",
+            "$1,000,000",
+            "Blended",
+            "Combined Segregation + Safe Harbor",
+            "Effective 50% Recovery",
+            "$500,000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the regulatory rules step-by-step confirms the non-IUS (Interactive Software) QRE computation. In the first step, evaluating Module A (Pure IUS) shows that because it serves exclusively internal G&A financial and HR functions (0% third-party interaction) and does not pass the HTI test, its eligible QREs are zero:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Module A</sub> = $200,000 × 0% = $0"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the second step, evaluating Module B (Segregated Interactive Software Subset) under the segregation rule in Treas. Reg. § 1.41-4(c)(6)(vi)(B) demonstrates that because Module B exclusively enables third parties to initiate functions and review data on Taxpayer Alpha's system and is isolated from G&A modules, 100% of its QREs bypass the HTI test:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Module B</sub> = $400,000 × 100% = $400,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the third step, evaluating Module C (Unsegregated Dual Function Subset) under the 10%/25% Safe Harbor in Treas. Reg. § 1.41-4(c)(6)(vi)(C) shows that because its reasonably anticipated third-party usage (15%) exceeds the regulatory 10% minimum usage threshold (15% ≥ 10%), Taxpayer Alpha qualifies for the Dual Function Safe Harbor on the $400,000 of interwoven costs. Consequently, exactly 25% of Module C's QREs are treated as non-IUS Interactive Software expenditures, while the remaining 75% ($300,000) retains the IUS presumption and is disallowed because Module C does not pass the HTI test:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Module C</sub> = $400,000 × 25% = $100,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the fourth step, summing the segregated Interactive Software subset and the safe harbor portion yields Taxpayer Alpha's total claimable QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "QRE<sub>Total</sub> = QRE<sub>Module A</sub> + QRE<sub>Module B</sub> + QRE<sub>Module C</sub> = $0 + $400,000 + $100,000 = $500,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "This hypothetical computation demonstrates a critical second-order compliance implication: had Taxpayer Alpha failed to segregate Module B from Module C and instead treated the combined $800,000 customer-and-core architecture as a single unsegregated Dual Function Software business component (assuming overall third-party usage still exceeded 10%), the safe harbor would have capped eligible QREs at 25% of $800,000, or $200,000. By proactively segregating Module B in its engineering tracking systems and applying the 25% safe harbor only to the truly inseparable core engine (Module C), Taxpayer Alpha legally substantiates $500,000 in eligible QREs—an increase of $300,000 (or 150%) in qualified research base."
+    },
+    {
+      "type": "heading",
+      "text": "Contemporary Compliance Challenges: Form 6765 Modernization and AI/ML Modularity"
+    },
+    {
+      "type": "paragraph",
+      "text": "The operational environment for substantiating Interactive Software claims has tightened substantially due to IRS administrative reforms and the rapid shift toward modular Artificial Intelligence (AI) and Machine Learning (ML) architectures."
+    },
+    {
+      "type": "subheading",
+      "text": "Enhanced IRS Scrutiny and Form 6765 (Rev. January 2025)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, many R&D tax credit studies relied on <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">retrospective, memory-based interviews</a> and summary spreadsheets compiled months after the close of the tax year. Recent revisions to <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> (<em>Credit for Increasing Research Activities</em>, Rev. January 2025) have dismantled this retrospective approach by requiring unprecedented granularity at the business-component level. Under the modernized Form 6765 architecture (specifically Section E and Section G), taxpayers are required to itemize QREs and research activities by discrete project and business component, explicitly identifying software classifications—such as Internal Use Software, Dual Function Software, Commercial Sale/Lease/License, or Third-Party Interactivity—directly on the tax return."
+    },
+    {
+      "type": "paragraph",
+      "text": "To meet this heightened evidentiary threshold without overwhelming engineering personnel, corporate tax departments are increasingly deploying <a href=\"/us/faq/ai-rd-tax-credit-platforms\">AI-assisted tax documentation platforms</a>. These compliance tools ingest contemporaneous engineering artifacts—such as Jira tickets, Git version control commit logs, pull requests, and architectural design documents—to map developer hours directly to specific Interactive Software business components and generate examination-ready narratives demonstrating the four-part process of experimentation in real time."
+    },
+    {
+      "type": "subheading",
+      "text": "The AI and Machine Learning Classification Dilemma"
+    },
+    {
+      "type": "paragraph",
+      "text": "While AI tools simplify compliance documentation, substantive R&D tax law faces a profound structural ambiguity when classifying the development of proprietary AI and ML models themselves. Designing novel neural network architectures, optimizing training algorithms, mitigating model hallucination or latency, and integrating ML pipelines into production environments involve extensive technical uncertainty and iterative experimentation, readily satisfying the four-part test under IRC § 41(d). However, determining whether an AI/ML model constitutes IUS or Interactive Software under Treas. Reg. § 1.41-4(c)(6) depends entirely on how the trained model is deployed. When a taxpayer trains a complex ML model primarily for internal G&A deployment—such as optimizing internal financial forecasting, automating back-office accounts payable reconciliation, or routing internal HR tickets—the associated development expenditures are classified as IUS and must satisfy the three-part HTI test. Conversely, when the exact same core ML model is deployed to power an external, interactive application—such as a customer-facing conversational AI agent that enables users to initiate transaction functions based on natural-language queries—the development expenditures qualify as non-IUS Interactive Software exempt from the HTI test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The core regulatory friction arises because modern enterprise AI engineering treats the foundational trained model as a centralized, modular intangible asset designed to serve multiple internal and external endpoints simultaneously via internal APIs. Because the Treasury regulations under Treas. Reg. § 1.41-4(c)(6) were drafted primarily around monolithic software applications where \"intent at the start\" under Treas. Reg. § 1.41-4(c)(6)(v) mapped cleanly to a single user interface, applying the rule to multi-endpoint foundation models creates acute cost-apportionment challenges. To preserve non-IUS Interactive Software status under current law, taxpayers must structure their <a href=\"/us/glossary/project-accounting\">project accounting</a> and define the \"business component\" around the specific external interactive application or treat a shared foundational model under the Dual Function Software segregation and 10%/25% safe harbor framework supported by API telemetry."
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Recommendations and Compliance Action Plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "To maximize R&D credit recovery for Interactive Software while insulating claims against IRS examination adjustments, taxpayers and tax policy stakeholders should execute a four-part strategic framework grounded in the regulatory architecture of IRC § 41 and Treas. Reg. § 1.41-4(c)(6)."
+    },
+    {
+      "type": "subheading",
+      "text": "1. Granular Business Component Definition and Pre-Audit Documentation Protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tax departments must collaborate with product management and software engineering leadership at the initiation of every software development lifecycle to document third-party interactive intent before code is written, satisfying the inception-focused standard of Treas. Reg. § 1.41-4(c)(6)(v). Operationalizing this protocol requires executing three interconnected verification practices across every software business component. First, engineering and tax teams must map external user journeys in architectural specifications to document exactly how external third parties authenticate, initiate computing functions, manipulate parameters, and receive dynamic system outputs beyond static marketing display. Second, project managers must isolate and tag \"bridge\" features—such as APIs, microservices, and user-interface repositories where internal databases expose dynamic functionality to external customers—so those segregated modules qualify for 100% non-IUS treatment under Treas. Reg. § 1.41-4(c)(6)(vi)(B) rather than being diluted into interwoven back-office code. Third, legal and tax teams must align commercial contracts, licensing schedules, and terms of service to reflect that external customers are utilizing or paying for the interactive functional capabilities hosted on the taxpayer's system."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Implementation of Contemporaneous Telemetry and Data Logging"
+    },
+    {
+      "type": "paragraph",
+      "text": "To eliminate reliance on retrospective interviews and satisfy updated <a href=\"/us/faq/irs-form-6765-instructions-2024\">Form 6765 (Rev. January 2025) reporting standards</a>, organizations must integrate automated compliance logging directly into their continuous integration/continuous deployment (CI/CD) pipelines, version control repositories, and project ticketing systems. For integrated platforms classified as Dual Function Software, engineering teams should systematically log quantitative production telemetry—including external versus internal API call counts, compute cycle allocation, and active user session durations—to establish an objective, irrefutable examination trail proving that third-party usage meets or exceeds the 10% Dual Function Safe Harbor threshold under Treas. Reg. § 1.41-4(c)(6)(vi)(C)."
+    },
+    {
+      "type": "subheading",
+      "text": "3. Proactive Utilization of IRS Dispute Resolution Programs"
+    },
+    {
+      "type": "paragraph",
+      "text": "When large-scale software development projects involve ambiguous classification boundaries—such as multi-endpoint AI platforms or complex B2B transactional exchanges—taxpayers should proactively leverage established IRS administrative dispute resolution mechanisms. Specifically, the Accelerated Issue Resolution (AIR) program and Fast Track Settlement (FTS) provide structured avenues in Large Business and International (LB&I) examinations and Appeals to resolve multi-year software classification and Dual Function segregation questions expeditiously, securing binding certainty on non-IUS eligibility without protracted litigation."
+    },
+    {
+      "type": "subheading",
+      "text": "4. Regulatory Advocacy for AI/ML Apportionment and B2B Interactive Portals"
+    },
+    {
+      "type": "paragraph",
+      "text": "From a tax policy perspective, industry stakeholders and professional bodies should advocate for targeted administrative guidance from the IRS and Treasury Department across two critical frontiers. First, the IRS should publish updated <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guides (ATGs)</a> or formal administrative guidance establishing standardized classification and cost-apportionment methodologies for foundational AI and ML models that simultaneously feed internal G&A workflows and external Interactive Software endpoints. Second, regulators should modernize the \"third party\" standard for sophisticated B2B portals. Current regulatory examples in Treas. Reg. § 1.41-4(c)(6)(viii) that relegate vendor inventory portals to G&A support services penalize enterprises building highly complex, bilateral B2B supply-chain platforms that involve greater technical uncertainty than consumer applications. Administrative guidance should clarify that where external commercial partners initiate complex algorithmic functions—such as collaborative engineering configuration or dynamic supply-chain capacity execution—that go beyond basic back-office replenishment, those interactive B2B modules qualify for non-IUS status."
+    }
+  ]
+}

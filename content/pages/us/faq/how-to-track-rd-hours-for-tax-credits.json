@@ -1,0 +1,554 @@
+{
+  "kind": "faq-question",
+  "country": "us",
+  "title": "How to track R&D hours for tax credits",
+  "description": "Track R&D hours for tax credits by logging employee time contemporaneously at project and task level and linking it to evidence of experimentation.",
+  "summary": "Tracking R&D hours for tax credits under IRC Section 41 means logging employee time contemporaneously at the project and task level, then linking those hours to technical evidence of experimentation. U.S. taxpayers claiming the research credit need this substantiation for IRS Form 6765, where Section G business-component reporting becomes mandatory for tax years beginning on or after January 1, 2026.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Tracking R&D hours for tax credits under IRC Section 41 means logging employee time contemporaneously at the project and task level, then linking those hours to technical evidence of experimentation. U.S. taxpayers claiming the research credit need this substantiation for IRS Form 6765, where Section G business-component reporting becomes mandatory for tax years beginning on or after January 1, 2026."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Thesis: How to Track R&D Hours for Tax Credits Under Federal Substantiation Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tracking research and development (R&D) labor hours for federal tax credits under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Internal Revenue Code (IRC) Section 41</a> requires a verifiable, contemporaneous link between employee time and the resolution of technological uncertainty for specific business components. Under federal tax compliance standards, effective R&D hour tracking cannot rely on retrospective payroll allocations, end-of-year managerial conjectures, or generic departmental cost-center estimates. Instead, taxpayers claiming the Credit for Increasing Research Activities must implement structured, project-level time and activity tracking architectures that satisfy Treasury Regulation recordkeeping mandates, withstand heightened United States Tax Court scrutiny, and support granular business-component disclosures on Internal Revenue Service (IRS) <a href=\"/us/glossary/irs-form-6765\">Form 6765</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "The regulatory trajectory governing research tax credits demonstrates a decisive shift from aggregate cost estimation toward forensic, component-level substantiation. Because internal labor wages frequently constitute the largest share of a taxpayer's <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a>, the integrity of the underlying time-tracking mechanism dictates the defensibility of the entire tax credit claim. When time logs fail to differentiate between routine commercial production and iterative technical experimentation, the resulting wage allocations become vulnerable to <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">wholesale disallowance</a> during IRS examination. Consequently, an audit-ready R&D hour-tracking methodology must simultaneously capture quantitative labor inputs—linking specific W-2 wage rates and employee hours to discrete workstreams—and qualitative technical evidence proving that those hours were expended within a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">systematic process of experimentation</a>."
+    },
+    {
+      "type": "heading",
+      "text": "1. Regulatory Standards and Judicial Scrutiny for Tracking R&D Labor Hours"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1 The Recordkeeping Mandate and the Statutory Four-Part Test"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under federal tax regulations governing the Credit for Increasing Research Activities—specifically IRC Section 41 and Treasury Regulations Section 1.41-4(d), which cross-reference the general federal recordkeeping obligations established under IRC Section 6001—a taxpayer claiming R&D tax credits is legally required to \"retain records in a sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\". This regulatory mandate places the affirmative burden of proof squarely on the taxpayer to maintain an evidentiary trail that connects financial ledger entries to qualifying technical execution."
+    },
+    {
+      "type": "paragraph",
+      "text": "To establish that tracked labor hours qualify as in-house research expenses under IRC Section 41(b), employee time logs and supporting technical documentation must directly substantiate the statutory four-part test codified under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)</a>. If a time-tracking system records hours without mapping those hours to the statutory criteria of qualified research, the payroll records alone are insufficient to sustain a claim under examination."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Test Component",
+        "Governing IRC & Treasury Authority",
+        "Substantiation Requirement for Tracked R&D Labor Hours"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section 174 / Elimination of Uncertainty Test",
+            "IRC Section 41(d)(1)(A); <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174</a>",
+            "Tracked hours must correspond to <a href=\"/us/glossary/research-and-experimental-expenditures\">expenditures eligible under IRC Section 174</a>, incurred in the taxpayer's trade or business to eliminate uncertainty concerning the capability, method, or appropriate design for developing or improving a product or process."
+          ]
+        },
+        {
+          "cells": [
+            "Technological in Nature Test",
+            "IRC Section 41(d)(1)(B)(i)",
+            "The underlying activity undertaken during the logged labor hours must be undertaken for the purpose of discovering information that fundamentally relies on principles of the physical or biological sciences, engineering, or computer science."
+          ]
+        },
+        {
+          "cells": [
+            "Business Component / Permitted Purpose Test",
+            "IRC Section 41(d)(1)(B)(ii); <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC Section 41(d)(3)</a>",
+            "The taxpayer must intend to apply the information discovered during the tracked hours to develop a new or improved business component (product, process, computer software, technique, formula, or invention) held for sale, lease, or license, or used in the taxpayer's trade or business, targeting improved function, performance, reliability, or quality."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation Test",
+            "IRC Section 41(d)(1)(C); Treas. Reg. Section 1.41-4(a)(6)",
+            "\"<a href=\"/us/glossary/substantially-all-rule\">Substantially all</a>\" (defined by Treasury Regulations Section 1.41-4(a)(6) as at least 80%) of the research activities measured on a business-component basis must constitute elements of a systematic process of experimentation—such as modeling, simulation, prototyping, or systematic trial and error—evaluating one or more alternatives to resolve technical uncertainty."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The interplay among these four statutory requirements creates a dual substantiation threshold for labor tracking. First, under the business-component \"substantially all\" rule of IRC Section 41(d)(1)(C) and Treasury Regulations Section 1.41-4(a)(6), at least 80% of the research activities conducted with respect to a specific business component must constitute elements of a process of experimentation for the component itself to qualify. Second, once a business component satisfies the four-part test, the taxpayer must isolate the specific employee hours spent performing <a href=\"/us/glossary/qualified-services\">qualified services</a>—comprising direct conduct of qualified research, direct first-line supervision of qualified research, or direct support of qualified research—under IRC Section 41(b)(2)(B). Time-tracking architectures that commingle routine commercial development, aesthetic design, or <a href=\"/us/glossary/research-after-commercial-production\">post-production maintenance</a> with experimental engineering prevent the taxpayer from proving that the 80% process-of-experimentation threshold was satisfied at the business-component level."
+    },
+    {
+      "type": "subheading",
+      "text": "1.2 Judicial Scrutiny of R&D Hour Tracking: Phoenix Design Group, Inc. v. Commissioner"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal jurisprudence demonstrates heightened judicial scrutiny regarding the evidentiary nexus between employee wage allocations and the statutory process of experimentation. In <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113 (decided December 23, 2024, following an earlier discovery order in Docket No. 4759-22 issued on August 29, 2023), the United States Tax Court examined federal research tax credits claimed for tax years 2015 through 2019 that were attributable solely to employee wages. The litigation centered on a mechanical, electrical, plumbing, and fire protection (MEPF) consulting engineering firm that claimed wage-based QREs across numerous design projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Phoenix Design Group</em>, the U.S. Tax Court held that none of the sampled engineering design projects satisfied the statutory requirements of IRC Section 41. The court's disallowance rested on the taxpayer's failure to provide specific, project-level evidence demonstrating that the engineering teams encountered unknown technical answers that could not be resolved through already available information and standard engineering calculations. Furthermore, the taxpayer failed to substantiate that at least 80% of the relevant activities on the sampled business components constituted a systematic process of experimentation evaluating technical alternatives. Without project records tying the claimed employee hours to hypothesis formulation, iterative modeling, or systematic testing of design alternatives, the wage claims collapsed under scrutiny."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113) reveals an essential doctrinal distinction for tax practitioners and corporate compliance officers. While compliance commentary frequently characterizes contemporaneous documentation as an absolute statutory prerequisite, the Tax Court's opinion in <em>Phoenix Design Group</em> did not impose a categorical legal ban on <a href=\"/us/glossary/credible-oral-testimony\">credible oral testimony</a>, retrospective technical explanations, or reasonable estimation methodologies, nor did the court mandate a single uniform accounting code structure for all taxpayers. Under longstanding judicial precedent interpreting Treasury Regulations Section 1.41-4(d), taxpayers may present varied forms of corroborating evidence. However, in administrative practice before IRS examiners and in Tax Court litigation, contemporaneous time logs paired with <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous technical documentation</a> remain the decisive evidentiary standard. When a taxpayer relies on retrospective wage estimates without <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous records</a> proving that specific employee hours were devoted to resolving technical uncertainty through iterative experimentation, courts routinely reject generalized testimony as uncorroborated and self-serving."
+    },
+    {
+      "type": "subheading",
+      "text": "1.3 IRS Form 6765 Business Component Disclosure Rules (2025–2026)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To enforce the <a href=\"/us/glossary/project-to-expense-nexus\">statutory nexus</a> between employee hours and business components at the point of return filing, the IRS substantially restructured Form 6765 (<em>Credit for Increasing Research Activities</em>). The finalized <a href=\"/us/faq/irs-form-6765-instructions-2024\">IRS Instructions for Form 6765</a> (Rev. December 2025, published in February 2026) establish the exact phased effective dates, mandatory reporting fields, and administrative exemptions governing current R&D tax credit filings."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form 6765 Section",
+        "Mandatory Effective Timeline",
+        "Required Disclosures & Quantitative Thresholds",
+        "Statutory & Administrative Exemptions"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section E (Other Information)",
+            "Mandatory for Tax Year 2025 returns (and subsequent tax years).",
+            "Required for all filers reporting QREs on Form 6765 Line 48. Mandates disclosure of: (1) total number of business components generating QREs on Line 37; (2) officer wages included in QREs on Line 38; (3) business acquisitions or dispositions during the year on Line 39; (4) identification of any new categories of expenditures included in QREs on Line 40; and (5) whether any portion of QREs was determined under the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> on Line 41.",
+            "Applicable to all taxpayers reporting positive QREs on Line 48; no general small-business exemption applies to Section E."
+          ]
+        },
+        {
+          "cells": [
+            "Section G (Business Component Information)",
+            "Optional for tax years beginning before January 1, 2026; <strong>Mandatory</strong> for tax years beginning on or after January 1, 2026.",
+            "Requires reporting of QREs broken down by individual business component across five distinct cost categories: (1) direct research wages, (2) direct supervision wages, (3) direct support wages, (4) qualified supplies, and (5) contract research expenses. Filers must itemize business components in descending order of QRE size covering at least <strong>80% of total QREs</strong>, up to a maximum of <strong>50 business components</strong> (\"80%/Top 50\" rule), with any remaining qualifying projects reported under an \"Aggregate Business Components\" entry.",
+            "Exempts: (1) <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Businesses (QSBs)</a> under IRC Section 41(h)(3) (less than $5 million in current-year gross receipts and no gross receipts prior to the 5-tax-year window) electing the payroll tax credit on Line 33a and Form 8974; and (2) filers on original returns with controlled-group QREs of <strong>$1.5 million or less</strong> AND prior 3-tax-year average annual gross receipts of <strong>$50 million or less</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The structural requirements of Form 6765 Section G fundamentally alter how organizations must design their R&D time-tracking systems. Prior to the introduction of Section G, many taxpayers aggregated total qualified wages across an entire engineering department and reported a single lump-sum wage figure on Form 6765. Under the mandatory 2026 regime, non-exempt taxpayers cannot file a compliant return unless their time-tracking system bifurcates every participating employee's eligible hours not only by specific business component, but also by functional labor role—separating direct conduct of research from first-line supervision and direct support. Furthermore, even for taxpayers qualifying for the small-filer exemption ($1.5 million or less in controlled-group QREs and $50 million or less in average gross receipts) on an original return, the IRS explicitly retains the authority to demand component-level wage and hour breakdowns during an audit, and any taxpayer filing an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> or refund claim for research credits must satisfy stringent business-component substantiation rules."
+    },
+    {
+      "type": "heading",
+      "text": "2. Structural Best Practices for Tracking R&D Hours"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 Contemporaneous Time Logging and Qualitative Narratives"
+    },
+    {
+      "type": "paragraph",
+      "text": "During an R&D tax credit examination, IRS engineers and financial auditors evaluate taxpayer documentation to verify three indispensable dimensions of Qualified Research Expenses: the exact dollar amount of the claimed expenses, the precise time period over which those expenses were incurred, and the specific technical nature of the research activities performed during that time period."
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard corporate payroll systems and <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">generic human-resources timesheets</a> routinely fail the third prong of this examination standard. A timesheet that records only total daily hours worked (such as eight hours per day) or assigns labor time to broad departmental cost centers (such as \"Product Engineering\" or \"Software Development\") establishes the time period and gross wage expenditure, but completely omits the qualitative technical context required by IRC Section 41(d). Without granular activity tracking, an auditor cannot determine whether an engineer spent a given forty-hour week conducting iterative stress testing on an experimental prototype or performing <a href=\"/us/glossary/quality-control-testing\">routine quality-assurance checks</a> on an established commercial product."
+    },
+    {
+      "type": "paragraph",
+      "text": "To render tracked R&D hours legally defensible, quantitative time entries must be systematically paired with contemporaneous <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">qualitative narratives</a>. As employees log hours against specific project tasks, the tracking ecosystem must capture or link to technical artifacts generated in the normal course of engineering—including design specifications, hypothesis statements, test protocols, simulation outputs, prototype failure logs, and engineering decision records explaining why specific technical alternatives were evaluated, modified, or abandoned. This pairing bridges the gap between accounting ledgers and engineering reality, proving that the logged hours directly addressed technological uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Three-Tier Work Hierarchy for Project-Level Cost Accounting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Separating qualified research hours from routine commercial or operational work is particularly complex in <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">architecture and engineering (A&E)</a>, software development, and advanced manufacturing environments, where technical personnel frequently split their workdays across concurrent qualifying and non-qualifying duties. To prevent the contamination of R&D cost pools, best-practice time-tracking architectures utilize a structured three-tier work hierarchy consisting of Client Spaces, Projects, and Tasks."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Hierarchy Tier",
+        "Structural Role in R&D Time-Tracking Architecture",
+        "Federal Tax Compliance & Form 6765 Mapping Purpose"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Tier 1: Client Spaces",
+            "Separate top-level workspaces created within the tracking software for each overarching R&D program, division, or major innovation initiative.",
+            "Segregates R&D initiatives from commercial client delivery, routine manufacturing production, and <a href=\"/us/glossary/general-and-administrative-functions\">general administrative operations</a> at the highest accounting level."
+          ]
+        },
+        {
+          "cells": [
+            "Tier 2: Projects",
+            "Distinct project records nested within each Client Space corresponding to major research phases (such as applied research or experimental development) or individual products, processes, and software architectures.",
+            "Maps directly to individual \"business components\" as defined under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC Section 41(d)(2)(B)</a> and reported on IRS Form 6765 Section E (Line 37) and Section G."
+          ]
+        },
+        {
+          "cells": [
+            "Tier 3: Tasks",
+            "Granular deliverables, testing cycles, and experimental iterations nested within each Project, classified as claimable or non-claimable using custom tags and up to two custom fields for accounting cost codes or tax line items.",
+            "Isolates qualified direct research, first-line supervision, and <a href=\"/us/glossary/direct-support\">direct support</a> hours from ineligible routine maintenance, debugging, or post-production activities; ensures compliance with the 80% \"substantially all\" rule."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Operating within this three-tier hierarchy allows tax directors and project managers to enforce strict boundaries around the statutory business component. By configuring custom tags at the Task level (Tier 3) to designate activities as either \"Claimable R&D — Direct,\" \"Claimable R&D — Supervision/Support,\" or \"Non-Claimable Routine,\" the organization captures the exact functional wage split required by Form 6765 Section G in real time. Moreover, utilizing up to two custom fields per entry enables the organization to attach internal general-ledger cost codes and project identifiers, ensuring seamless reconciliation between engineering time logs and corporate financial statements."
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Integrating Labor Rates, Non-Labor QREs, and Approval Workflows"
+    },
+    {
+      "type": "paragraph",
+      "text": "An audit-ready R&D time-tracking system functions not merely as a digital stopwatch, but as an integrated <a href=\"/us/glossary/project-accounting\">project-costing subledger</a> that connects hourly labor tracking with non-labor QRE accounting and internal governance controls."
+    },
+    {
+      "type": "paragraph",
+      "text": "First, assigning individual, verified hourly W-2 labor rates to each employee profile within the tracking platform enables automated labor cost accumulation. As engineers and scientists record hours against specific Tier 3 Tasks, the software automatically multiplies the logged time by the employee's applicable taxable wage rate (excluding non-taxable fringe benefits or retirement contributions that are ineligible under IRC Section 41(b)(2)(A)(i) and IRC Section 3401(a)), generating real-time wage QRE totals for each business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, comprehensive tracking architectures unify labor logs with non-labor QRE documentation. Under IRC Section 41(b), total QREs encompass in-house research wages, supplies used in the conduct of qualified research (IRC Section 41(b)(2)(A)(ii)), right-to-use computer rental or <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">cloud computing costs</a> directly used in qualified research (IRC Section 41(b)(2)(A)(iii)), and contract research expenses paid to third parties (IRC Section 41(b)(3)). By logging supply expenditures and third-party contractor invoices—complete with uploaded digital receipts and statements of work—directly against the corresponding project and task time logs, the taxpayer constructs a unified audit trail. This integration ensures that contract research expenses—which generally qualify at <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of the eligible expense</a> under IRC Section 41(b)(3)(A), or at 75% for payments to qualified research consortia under IRC Section 41(b)(3)(C) and 100% for eligible energy research under IRC Section 41(b)(3)(D)—are linked to the same substantiated business components as internal employee hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, internal control workflows are essential to establish the evidentiary credibility of time records. Implementing mandatory weekly timesheet submission protocols where entries are automatically locked upon managerial review and approval prevents unauthorized retrospective alterations. When combined with an immutable system audit log that records the exact user, date, and timestamp of every time entry and subsequent modification, managerial approval locking provides IRS examiners with verifiable proof of contemporaneous data integrity."
+    },
+    {
+      "type": "heading",
+      "text": "3. Operational Friction in Manual R&D Time Tracking vs. Specialized Automation"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 The \"Triple Burden\" and Six Core Challenges of R&D Time Tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizations that rely on ad-hoc manual spreadsheets, email surveys, or end-of-year retrospective interviews to <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">reconstruct R&D hours</a> confront what tax compliance literature defines as the \"Triple Burden\" of time, risk, and cost. Reconstructing engineering time months after the close of the tax year consumes hundreds of hours of high-value engineering and tax-department labor (time), exposes the corporation to severe audit disallowances and <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">accuracy-related penalties</a> under IRC Section 6662 due to unsubstantiated estimates (risk), and inflates external consulting and compliance defense expenditures (cost)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the compliance department, deploying time-tracking protocols across R&D-intensive environments encounters deep-seated operational friction. Technical personnel—such as software architects, biomedical researchers, and mechanical engineers—frequently resist granular, minute-by-minute time logging, viewing traditional timesheets as bureaucratic overhead that disrupts deep technical concentration. Industry analysis of R&D-intensive operations identifies six interconnected structural challenges that organizations must resolve to achieve sustainable time-tracking compliance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first challenge involves linking \"time in\" to actual research outcomes. Unlike repetitive manufacturing or billable professional services where labor hours correlate linearly with commercial output, R&D inherently involves failed hypotheses, <a href=\"/us/glossary/prototype-development\">discarded prototypes</a>, and non-linear breakthroughs. Consequently, tracking architectures must connect the raw hours invested by specialized personnel (\"time in\") to experimental progress and the resolution of technical uncertainty, capturing qualifying effort even when an <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">experimental iteration fails</a> to achieve its desired performance target. This difficulty is compounded by a second challenge: cultural resistance and interface mismatch. Scientists and engineers conceptualize their workweeks differently across disciplines, and forcing every researcher into a rigid, uniform daily stopwatch interface degrades data quality and triggers widespread non-compliance. Effective platforms overcome this cultural resistance by offering flexible input interfaces that allow personnel to log exact hours (such as 2 hours on a specific experimental task), enter a percentage of time (such as 25% of weekly capacity), or allocate a standard 40-hour workweek across active projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "A third structural challenge arises from managing multidisciplinary and external talent—distinguishing between internal \"insiders\" and external \"outsiders\". Modern R&D initiatives draw upon cross-functional internal W-2 employees across engineering, data science, and quality testing alongside <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">external 1099 contractors</a> and specialized research vendors. A compliant tracking framework must capture effort across both cohorts while enforcing their distinct statutory tax treatments, separating 100% eligible in-house W-2 wages under IRC Section 41(b)(2) from 65% eligible contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC Section 41(b)(3)</a>. Closely related is the fourth challenge of establishing activity-level visibility and Full-Time Equivalent (FTE) standardization. Both executive leadership and IRS auditors require standardized visibility into resource allocation across concurrent initiatives, making it necessary to convert disparate hourly logs and percentage allocations into standardized FTE metrics tied to specific research activities to verify that claimed QREs align with overall engineering headcount capacity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, organizations must resolve the fifth and sixth challenges of reconciling fully burdened hourly costing with tax-eligible wage isolation and delineating qualifying phases across concurrent lifecycles. While financial controllers track fully burdened labor rates (which incorporate overhead, facilities, and non-taxable fringe benefits) for internal project budgeting, R&D tax compliance requires isolating strictly defined IRC Section 3401(a) taxable W-2 wages across distinct project phases. Simultaneously, because R&D personnel rarely work on a single phase of a single project in isolation—often transitioning within the same week between early-stage conceptual ideation, active experimental prototyping, commercial production readiness, and post-release maintenance across multiple products—the tracking system must enforce granular task-level boundaries so that routine commercial hours do not contaminate qualifying experimental cost pools."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 Limitations of Generic Issue Trackers (Jira and Git)"
+    },
+    {
+      "type": "paragraph",
+      "text": "In technology and software development environments, taxpayers frequently attempt to bypass <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">dedicated time-tracking tools</a> by repurposing agile project-management trackers or version-control logs—most notably Atlassian Jira tickets and Git commit histories—as primary R&D tax substantiation. While Jira workflows and Git repositories provide valuable contemporaneous proof that specific code changes or technical tasks occurred on exact dates, they possess fundamental structural limitations when evaluated against IRC Section 41."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Evaluation Dimension",
+        "Manual Spreadsheets & Retrospective Surveys",
+        "Generic Issue Trackers (Jira / Git Repositories)",
+        "Specialized R&D Time-Tracking & AI Compliance Platforms"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Contemporaneous Timestamp Integrity",
+            "<strong>Low:</strong> Frequently reconstructed at year-end or during audit discovery; lacks immutable system timestamps.",
+            "<strong>High:</strong> Captures exact dates of ticket transitions and code commits automatically.",
+            "<strong>High:</strong> Enforces locked weekly approvals or time-stamped periodic surveys during the tax year."
+          ]
+        },
+        {
+          "cells": [
+            "Quantitative Labor Hour Accuracy",
+            "<strong>Low:</strong> Relies on subjective memory and broad percentage estimates across entire departments.",
+            "<strong>Moderate to Low:</strong> Tracks story points or commit counts rather than actual labor hours expended; omits off-line research and supervision time.",
+            "<strong>High:</strong> Captures exact hours, validated percentages, or structured 40-hour allocations mapped to individual W-2 wage rates."
+          ]
+        },
+        {
+          "cells": [
+            "Mapping to IRC Section 41(d) Four-Part Test",
+            "<strong>Low:</strong> Generic cost centers (\"Engineering\") omit technical uncertainty and experimentation evidence.",
+            "<strong>Low (Natively):</strong> Ticket descriptions focus on feature delivery or bug fixes without distinguishing routine coding from experimental resolution of technical uncertainty.",
+            "<strong>High:</strong> Embeds structured qualitative prompts and task tags directly aligned with the four-part test and 80% experimentation rule."
+          ]
+        },
+        {
+          "cells": [
+            "Form 6765 Section G Readiness",
+            "<strong>Low:</strong> Requires labor-intensive manual re-mapping to isolate Top 50 business components and wage categories.",
+            "<strong>Low (Without AI Mapping):</strong> Epics and sprints often cross multiple business components or mix maintenance with new development.",
+            "<strong>High:</strong> Natively structures Projects as business components and Tasks into direct, supervision, and support wage buckets."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "As demonstrated in the comparison above, Jira tickets and Git commits are engineered to track software delivery velocity rather than tax eligibility. A Git commit log records lines of code added or modified, but it does not record how many hours the developer spent researching algorithmic alternatives before writing that code, nor does it capture the hours spent by a technical lead providing <a href=\"/us/glossary/direct-supervision\">direct first-line supervision</a> in design reviews. Furthermore, agile sprints routinely bundle qualified experimental development (such as architecting a novel distributed caching engine) with ineligible routine tasks (such as fixing user-interface formatting bugs or updating third-party libraries). Without specialized artificial-intelligence classification layers, ticket-level API integration, or structured compliance surveys to translate agile artifacts into IRC Section 41 business components, tax teams are forced to perform high-risk manual reconciliations at year-end."
+    },
+    {
+      "type": "heading",
+      "text": "4. Automated Survey-Based Substantiation and the Six-Eye Review Workflow"
+    },
+    {
+      "type": "subheading",
+      "text": "4.1 How the TaxTrex Platform Captures Contemporaneous R&D Hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "To eliminate the operational friction of daily stopwatch logging while preserving strict contemporaneous compliance, specialized <a href=\"/us/faq/automated-rd-tax-credit-software-comparison\">R&D tax credit software platforms</a> utilize automated survey architectures and artificial intelligence."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than requiring engineers to interrupt their daily workflows to log every fifteen-minute increment, TaxTrex issues targeted, automated technical and time-allocation surveys at regular intervals—specifically <strong>three times per year</strong> (every four months). This tri-annual cadence is deliberately calibrated: it is infrequent enough to prevent survey fatigue among technical staff, yet frequent enough to capture project allocations and technical narratives contemporaneously within the active tax year while engineering details remain fresh and verifiable."
+    },
+    {
+      "type": "paragraph",
+      "text": "During each tri-annual survey cycle, TaxTrex utilizes Natural Language Processing (NLP) and structured compliance prompts to guide participating personnel through both quantitative hour allocations and qualitative technical disclosures. Instead of asking generic accounting questions, the platform prompts engineers to articulate the specific <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technological uncertainties</a> encountered, the hypotheses formulated, and the iterative testing alternatives evaluated for each business component. As participants submit their survey responses and upload supporting engineering artifacts, TaxTrex automatically extracts, time-stamps, and archives the records within a secure cloud repository. This automated system-level timestamp provides objective documentary proof during an IRS audit that the time allocations and technical narratives were generated contemporaneously throughout the tax year rather than fabricated retroactively after receiving an <a href=\"/us/glossary/information-document-request-idr\">Information Document Request (IDR)</a>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the TaxTrex architecture incorporates Next-Gen AI Agents with direct accounting software integration alongside an Intelligent AI Risk Assessment engine. By ingesting payroll ledgers, categorizing project documentation, and scoring claims against statutory risk parameters, the platform enables corporate tax teams to compile a fully structured, self-claimed <a href=\"/us/faq/how-long-does-rd-tax-credit-study-take\">R&D tax credit study</a> in approximately <strong>90 minutes</strong>."
+    },
+    {
+      "type": "subheading",
+      "text": "4.2 The Six-Eye Review Process (\"Human-in-the-Loop\" Governance)"
+    },
+    {
+      "type": "paragraph",
+      "text": "While artificial intelligence and automated surveys dramatically accelerate data collection and cost mapping, relying exclusively on unverified automated outputs introduces compliance hazards, including the risk of AI misclassifications or insufficiently rigorous technical narratives."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Governance Stage",
+        "Designated Reviewing Specialist",
+        "Core Substantiation & Audit-Defense Verification Function"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Eyes 1 & 2",
+            "<strong>Creator / Preparer or Qualified Engineer</strong>",
+            "Compiles initial project data, payroll integrations, and survey outputs via TaxTrex; verifies that the technical narrative accurately reflects the real-world engineering lifecycle, project boundaries, and business components."
+          ]
+        },
+        {
+          "cells": [
+            "Eyes 3 & 4",
+            "<strong>Technical Specialist (Qualified Engineer or Scientist)</strong>",
+            "Audits the technical claim against the scientific method (Hypothesis, Test, Analyze, Refine); verifies that technological uncertainty and iterative experimentation are proven by contemporaneous evidence and that the 80% \"substantially all\" threshold under Treas. Reg. Section 1.41-4(a)(6) is satisfied."
+          ]
+        },
+        {
+          "cells": [
+            "Eyes 5 & 6",
+            "<strong>Regulatory Specialist (Certified Public Accountant or Enrolled Agent)</strong>",
+            "Audits all quantitative W-2 wage calculations, hourly labor rate derivations, non-labor QRE cost allocations, <a href=\"/us/glossary/controlled-group\">controlled-group</a> aggregations, base-period arithmetic, and statutory reporting compliance on IRS Form 6765."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This three-stage \"human-in-the-loop\" architecture directly mirrors the dual structure of an IRS research credit examination, where an IRS Engineer evaluates scientific eligibility under IRC Section 41(d) while an IRS Financial Revenue Agent audits wage and expenditure substantiation under IRC Section 41(b). By requiring sequential sign-off from a qualified engineer, a domain scientist/technical specialist, and a licensed tax practitioner (CPA or Enrolled Agent), the Six-Eye Review ensures that both the qualitative narratives and the quantitative hour allocations meet federal evidentiary standards prior to return filing."
+    },
+    {
+      "type": "heading",
+      "text": "5. Hypothetical Worked Example: Business-Component Hour Allocation and Wage QRE Calculation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mathematical and statutory mechanics linking task-level hour tracking to IRS Form 6765 Section G disclosures and the dual \"substantially all\" thresholds, the following worked analysis applies federal statutory rules under IRC Section 41(b), IRC Section 41(d)(1)(C), Treasury Regulations Section 1.41-2(d)(2), Treasury Regulations Section 1.41-4(a)(6), and the finalized IRS Form 6765 Instructions (Rev. December 2025) to a standardized 1,000-hour engineering dataset."
+    },
+    {
+      "type": "subheading",
+      "text": "5.1 Scenario Parameters (Hypothetical)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume a <a href=\"/us/faq/qualifying-rd-activities-software-companies\">domestic software corporation</a> tracks <strong>1,000 total labor hours</strong> during the 2026 tax year for a specialized software engineering unit working within a single overarching product workspace (\"Project Alpha\") at a verified IRC Section 3401(a) W-2 hourly wage rate of <strong>$80.00 per hour</strong>, representing total gross eligible wages of <strong>$80,000.00</strong>. Utilizing the structured three-tier tracking hierarchy (Client Space → Project → Task), the 1,000 total hours are contemporaneously logged and locked across three distinct functional activity categories. Specifically, <strong>Core R&D (Direct Experimental Development)</strong> accounts for 40% of total logged hours, dedicated to resolving architectural uncertainty in a novel real-time data-compression algorithm through iterative modeling, simulation, and benchmarking. <strong>Support R&D (Direct Supervision and Direct Support)</strong> accounts for 20% of total logged hours, dedicated to first-line technical supervision of the experimental benchmarking trials and compiling test datasets directly supporting the experimental algorithm. Finally, <strong>Ineligible Routine Work (Commercial Maintenance & Administration)</strong> accounts for the remaining 40% of total logged hours, dedicated to post-release maintenance on legacy modules, general administrative staff meetings, and routine user-interface debugging."
+    },
+    {
+      "type": "subheading",
+      "text": "5.2 Step-by-Step Hour and Wage QRE Calculation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To determine the exact reportable QREs on IRS Form 6765 Section G, the tracking system computes the hour and wage allocations across each functional category sequentially. First, for Core R&D Hours and Direct Research Wages, the system multiplies the 1,000 total project hours by the 40% Core R&D allocation to yield 400 Core R&D hours (Core R&D Hours = 1,000 hours × 0.40 = 400 hours), which at the verified $80.00 hourly wage rate produces $32,000.00 in Direct Research Wage QREs (Direct Research Wage QREs = 400 hours × $80.00/hour = $32,000.00). This $32,000.00 allocation is mapped directly to Form 6765 Section G as direct research wages for the experimental business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, for Support R&D Hours and Supervision/Support Wages, the system multiplies the 1,000 total hours by the 20% support allocation to yield 200 Support R&D hours (Support R&D Hours = 1,000 hours × 0.20 = 200 hours), which at $80.00 per hour results in $16,000.00 in Supervision and Support Wage QREs (Supervision & Support Wage QREs = 200 hours × $80.00/hour = $16,000.00). This $16,000.00 allocation is mapped directly to Form 6765 Section G under direct supervision or direct support wages for the experimental business component."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, the remaining Ineligible Routine Hours are isolated by subtracting the 400 Core R&D hours and 200 Support R&D hours from the 1,000 total hours, leaving 400 ineligible hours (Ineligible Routine Hours = 1,000 hours − 400 hours − 200 hours = 400 hours, or 40%), representing $32,000.00 in excluded routine wages (Excluded Routine Wages = 400 hours × $80.00/hour = $32,000.00). This $32,000.00 expenditure is completely <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">excluded from the QRE calculation</a> and segregated into non-claimable operational cost codes. Summing the qualifying tiers yields 600 Total Eligible R&D Hours (Total Eligible R&D Hours = 400 hours + 200 hours = 600 hours, or 60% of total hours) and $48,000.00 in Total Claimable Wage QREs (Total Claimable Wage QREs = $32,000.00 + $16,000.00 = $48,000.00)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Activity Category",
+        "Percentage of Total Time",
+        "Logged Hours",
+        "Verified Hourly W-2 Rate",
+        "Total Gross Cost",
+        "Form 6765 Section G Classification",
+        "Claimable Wage QRE Amount"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Core R&D (Direct Experimental Development)",
+            "40%",
+            "400 hrs",
+            "$80.00/hr",
+            "$32,000.00",
+            "Direct Research Wages",
+            "<strong>$32,000.00</strong>"
+          ]
+        },
+        {
+          "cells": [
+            "Support R&D (Direct Supervision & Support)",
+            "20%",
+            "200 hrs",
+            "$80.00/hr",
+            "$16,000.00",
+            "Direct Supervision / Support Wages",
+            "<strong>$16,000.00</strong>"
+          ]
+        },
+        {
+          "cells": [
+            "Ineligible Routine Work (Maintenance / Admin)",
+            "40%",
+            "400 hrs",
+            "$80.00/hr",
+            "$32,000.00",
+            "Excluded (Non-Qualifying Cost Pool)",
+            "<strong>$0.00</strong>"
+          ]
+        },
+        {
+          "cells": [
+            "Total Project Alpha Workforce Summary",
+            "<strong>100%</strong>",
+            "<strong>1,000 hrs</strong>",
+            "<strong>$80.00/hr</strong>",
+            "<strong>$80,000.00</strong>",
+            "<strong>Total Substantiated Business Component QREs</strong>",
+            "<strong>$48,000.00</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "5.3 Statutory Compliance Analysis: Interaction of the Dual 80% \"Substantially All\" Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "The mathematical breakdown above illustrates why granular task-level time tracking is legally indispensable under two separate and frequently confused \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" (80%) thresholds in the federal research tax credit regime. The first threshold is the Employee-Wage \"Substantially All\" Safe Harbor governed by <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC Section 41(b)(2)(B)</a> and Treasury Regulations Section 1.41-2(d)(2). Under Treasury Regulations Section 1.41-2(d)(2), if \"substantially all\" (at least 80%) of the services performed by an individual employee for the taxpayer during a taxable year constitute qualified services (direct research, direct supervision, or direct support), the taxpayer is permitted to include 100% of that employee's annual W-2 wages as QREs. In the worked example above, the engineering group's qualified services represent exactly 60% of their total logged hours (600 eligible hours ÷ 1,000 total hours = 60%). Because 60% falls below the 80% employee-wage safe harbor threshold, the taxpayer is legally barred from claiming 100% of the employees' wages and may claim only the exact substantiated 60% portion ($48,000.00). Without a reliable time-tracking system to prove that exact 60% allocation, an IRS examiner could disallow the entire wage pool."
+    },
+    {
+      "type": "paragraph",
+      "text": "The second threshold is the Business-Component \"Substantially All\" Process-of-Experimentation Rule governed by IRC Section 41(d)(1)(C) and Treasury Regulations Section 1.41-4(a)(6). Under IRC Section 41(d)(1)(C), at least 80% of the research activities measured on a business-component basis must constitute elements of a process of experimentation. If the taxpayer in this scenario failed to use a three-tier tracking hierarchy and instead commingled all 1,000 hours (including the 400 hours of post-release maintenance and debugging) into a single undifferentiated \"Project Alpha\" business component, an IRS examiner could argue that only 60% of the activities within the project involved experimentation—failing the 80% business-component test of Treasury Regulations Section 1.41-4(a)(6) and disqualifying 100% of the project's QREs, resulting in $0.00 of allowed credits. By utilizing task-level tracking (Tier 3) and discrete component delineation principles under Treasury Regulations Section 1.41-4(b)(2) to segregate the 400 hours of routine post-production maintenance into a separate non-R&D operational bucket, the taxpayer isolates the experimental data-compression algorithm as a distinct business component. Within that properly bounded business component (the 600 R&D hours), 100% of the research activities constitute elements of a systematic process of experimentation, fully satisfying IRC Section 41(d)(1)(C) and preserving the entire $48,000.00 wage QRE claim."
+    },
+    {
+      "type": "heading",
+      "text": "6. Statutory Matrix and Compliance Synthesis"
+    },
+    {
+      "type": "paragraph",
+      "text": "To consolidate the legal, judicial, and administrative rules governing R&D hour tracking in the United States, the following matrix synthesizes the operative compliance requirements across federal statutes, Treasury Regulations, U.S. Tax Court precedent, and finalized IRS administrative instructions."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Compliance Domain",
+        "Governing Legal / Administrative Authority",
+        "Substantiation Rule & Operational Mandate"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "General Recordkeeping Burden",
+            "IRC Section 6001; IRC Section 41; Treas. Reg. Section 1.41-4(d)",
+            "Taxpayers must \"retain records in a sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\"."
+          ]
+        },
+        {
+          "cells": [
+            "Four-Part Technical Qualification",
+            "IRC Section 41(d)(1)(A)–(C); IRC Section 174; Treas. Reg. Section 1.41-4(a)(6)",
+            "Tracked hours must link to activities that (1) resolve technical uncertainty under Section 174, (2) rely on hard sciences/engineering/computer science, (3) target a permitted business component purpose, and (4) comprise at least 80% process of experimentation at the business-component level."
+          ]
+        },
+        {
+          "cells": [
+            "Judicial Standard on Wage Claims",
+            "<em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113 (Dec. 23, 2024); Order No. 4759-22 (Aug. 29, 2023)",
+            "Disallowed 100% of sampled wage-only R&D claims where records failed to prove unknown technical answers or satisfy the 80% process-of-experimentation threshold; confirms that while oral testimony is not statutorily barred, contemporaneous time and technical records are the decisive practical standard."
+          ]
+        },
+        {
+          "cells": [
+            "Form 6765 Section E Disclosures",
+            "IRS Instructions for Form 6765 (Rev. Dec. 2025, published Feb. 2026)",
+            "<strong>Mandatory for Tax Year 2025 returns:</strong> Requires reporting total business components (Line 37), <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">officer wages</a> in QREs (Line 38), acquisitions/dispositions (Line 39), new expense categories (Line 40), and ASC 730 elections (Line 41) whenever Line 48 QREs are claimed."
+          ]
+        },
+        {
+          "cells": [
+            "Form 6765 Section G Disclosures",
+            "IRS Instructions for Form 6765 (Rev. Dec. 2025, published Feb. 2026); <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC Section 41(h)(3)</a>",
+            "<strong>Optional for pre-2026 tax years; Mandatory for tax years beginning on or after Jan. 1, 2026:</strong> Requires component-by-component QRE breakdown (direct wages, supervision wages, support wages, supplies, contract research) for Top 50 components / 80% of QREs, unless exempt as a <a href=\"/us/glossary/payroll-tax-credit-election\">QSB payroll-credit filer</a> or small filer (≤ $1.5M QREs and ≤ $50M gross receipts)."
+          ]
+        },
+        {
+          "cells": [
+            "Employee Wage Allocation Rules",
+            "IRC Section 41(b)(2)(B); Treas. Reg. Section 1.41-2(d)(2)",
+            "Only the exact substantiated percentage of hours spent on qualified services may be claimed unless an employee reaches the 80% \"substantially all\" individual service threshold, which unlocks 100% wage eligibility."
+          ]
+        },
+        {
+          "cells": [
+            "Automated & Human-Reviewed Workflows",
+            "TaxTrex Platform & Six-Eye Review Protocol",
+            "Tri-annual (3x/year) time-stamped NLP surveys paired with a mandatory 3-tier human review (Qualified Engineer, Domain Scientist/Technical Specialist, and CPA/Enrolled Agent) provide contemporaneous <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a> while minimizing engineering disruption."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Strategic Conclusions for Corporate Tax and Engineering Leadership"
+    },
+    {
+      "type": "paragraph",
+      "text": "The convergence of judicial precedent in <em>Phoenix Design Group, Inc. v. Commissioner</em> (T.C. Memo. 2024-113) and the mandatory implementation of IRS Form 6765 Section G for tax years beginning on or after January 1, 2026 has permanently closed the era of informal, retrospective R&D wage estimation. Organizations seeking to defend federal research tax credits must treat R&D time tracking as a core tax-accounting internal control rather than an after-the-fact compliance exercise."
+    },
+    {
+      "type": "paragraph",
+      "text": "To insulate wage QREs against IRS examination disallowance, corporate leadership must institutionalize three structural pillars. First, accounting and project-management hierarchies must be aligned with the three-tier Client Space, Project, and Task framework so that every logged hour automatically maps to a discrete IRC Section 41(d)(2)(B) business component and distinguishes between direct research, first-line supervision, direct support, and routine commercial maintenance. Second, because neither generic payroll timesheets nor raw software issue trackers (such as Jira or Git) natively capture the statutory <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a>, quantitative hour logs must be continuously paired with time-stamped qualitative narratives documenting technological uncertainty and iterative experimentation. Finally, where daily timesheet logging creates cultural resistance among technical staff, organizations should deploy structured, periodic automation—such as tri-annual NLP survey workflows locked with immutable timestamps and governed by a multidisciplinary Six-Eye Review involving qualified engineers, scientists, and licensed tax professionals—to eliminate the triple burden of compliance cost, time, and audit risk."
+    }
+  ]
+}

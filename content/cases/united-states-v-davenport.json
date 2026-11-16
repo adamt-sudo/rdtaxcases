@@ -1,0 +1,528 @@
+{
+  "slug": "united-states-v-davenport",
+  "title": "United States v. Davenport",
+  "caseNumber": "897 F. Supp. 2d 496",
+  "court": "U.S. District Court for the Northern District of Texas",
+  "year": 2012,
+  "decisionDate": "2012-09-14",
+  "subject": "Process of Experimentation: Customized ERP Software",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "United States v. Davenport (N.D. Tex. 2012) held that a metal roofing manufacturer's internal testing of a customized J.D. Edwards OneWorld ERP system failed the IRC Section 41 process of experimentation test. For U.S. taxpayers claiming R&D tax credits on commercial software implementations, the key takeaway: technological uncertainty must exist at the outset, not arise mid-project.",
+  "metaDescription": "United States v. Davenport (N.D. Tex. 2012): internal testing of a customized ERP system failed the IRC Section 41 process of experimentation test.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary and Case Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>United States v. Davenport</em>, 897 F. Supp. 2d 496, No. 3:09-cv-02455-L (N.D. Tex. Sept. 14, 2012), the United States District Court for the Northern District of Texas addressed a recurring controversy in federal tax law: whether expenditures incurred by a manufacturing enterprise to customize, configure, integrate, and test a commercially available <a href=\"/us/glossary/erp-implementation-qualification\">Enterprise Resource Planning (ERP)</a> software package qualify for the Research and Increasing Research Activities Tax Credit (the R&D tax credit) under Internal Revenue Code (I.R.C.) § 41. The ruling, a district-court decision that is persuasive but not binding precedent within the Fifth Circuit, is frequently cited regarding the evidentiary threshold required to survive summary judgment on the \"<a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a>\" test, the temporal requirement that technological uncertainty exist at the outset of the taxpayer's research activities, and the consequences of relying on a retrospective tax study whose own descriptions—together with the vendor's earlier project proposals and deposition testimony—showed that any uncertainty arose only during the project rather than at its outset."
+    },
+    {
+      "type": "subheading",
+      "text": "Corporate Structure and Technical Project Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "The taxpayers, Morris Davenport (alongside spouse Cynthia Davenport) and David Davenport (alongside spouse Myra Davenport), were equal 50 percent shareholders in Burly Corporation (Burly), an <a href=\"/us/glossary/pass-through-entity-rd-credit\">S corporation</a> that filed Forms 1120S for the years at issue. Burly manufactures residential metal roofing and stand-alone metal buildings through its subsidiary, Mueller Supply Company, Inc. (Mueller), which the Davenport family purchased in 1984."
+    },
+    {
+      "type": "paragraph",
+      "text": "In connection with expenses incurred during the 2002 and 2003 tax years, Mueller undertook an enterprise-wide software implementation initiative designated as the \"OneWorld Project,\" which yielded an integrated software environment referred to as the \"OneWorld System\". The overarching business objective of the OneWorld Project was to manage, automate, and integrate all core operational verticals of Mueller's metal building and roofing enterprise, encompassing the automation and integration of manufacturing, design, sales, accounting, and shipping. Rather than engineering a proprietary ERP kernel from scratch, Mueller licensed the commercially available J.D. Edwards OneWorld ERP software application suite. To facilitate data migration and system interoperability, Mueller also purchased a software license from International Business Machines Corporation (IBM) for an \"ERP Bridge\"—data collection software consisting of base code developed for all of IBM's customers, used as a starting point and customized to meet a particular customer's needs, including to interface with JDE OneWorld and run terminals and wireless devices—and relied on IBM to customize and configure the software for Mueller's operational requirements."
+    },
+    {
+      "type": "subheading",
+      "text": "The Taxpayer's Claim and Procedural History"
+    },
+    {
+      "type": "paragraph",
+      "text": "Burly originally filed its federal income tax returns on Form 1120S for the 2002 and 2003 tax years without claiming R&D tax credits. Subsequently, on March 17, 2006, the Davenports contracted with the tax consulting firm alliantgroup L.P. (which also acted as their counsel in the litigation) to perform a retroactive R&D tax credit study evaluating Mueller's software development expenditures. On the basis of this retrospective study, the Davenports filed <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended tax returns</a> on September 8, 2006 and October 14, 2006 claiming flow-through R&D tax credits attributable to Qualified Research Expenses (QREs) incurred by Mueller during 2002 and 2003. The Government contended, and the Davenports appeared to agree, that the claimed credits were limited to wages paid to Mueller employees and to four outside contractors (Steve Wilburn, Tracy Leaks, Ronald Hartin, and Shannon Bailey) who worked on the OneWorld Project, and did not include expenses related to services performed by IBM or J.D. Edwards consultants."
+    },
+    {
+      "type": "paragraph",
+      "text": "The administrative processing of the 2002 and 2003 amended returns diverged, generating two consolidated federal lawsuits before the Northern District of Texas. For the 2002 tax year, the Internal Revenue Service (IRS) <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">rejected the claimed research credits</a> ($98,449 for each couple, $196,898 in total), prompting the Davenports to file a tax refund suit against the United States on May 18, 2011 (Case No. 3:11-CV-1038-L) pursuant to 28 U.S.C. § 1346(a)(1) and I.R.C. § 7422. Conversely, for the 2003 tax year, the IRS processed the amended returns without conducting a pre-refund examination, disbursing refund checks totaling $292,095.70 ($112,399 in tax plus $31,237.18 in interest to David and Myra Davenport, and $112,398 in tax plus $36,061.52 in interest to Morris and Cynthia Davenport)—mailed to David and Myra Davenport on December 28, 2007, and to Morris and Cynthia Davenport on June 27, 2008. On December 28, 2009, the United States initiated an erroneous refund recovery action under I.R.C. § 7405 to recover the $292,095.70, plus additional allowable interest and a claimed 10 percent surcharge under 28 U.S.C. § 3011; the two actions were consolidated by order dated June 8, 2011."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Litigation Parameter",
+        "Tax Year 2002 Refund Action",
+        "Tax Year 2003 Erroneous Refund Action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Administrative Disposition",
+            "Research credits claimed for 2002 rejected (disallowed) by the IRS.",
+            "Processed without pre-refund audit; refund checks disbursed on Dec. 28, 2007 (David & Myra Davenport) and June 27, 2008 (Morris & Cynthia Davenport)."
+          ]
+        },
+        {
+          "cells": [
+            "Principal Amount in Dispute",
+            "$196,898 in disallowed R&D tax credits.",
+            "$292,095.70 disbursed ($224,797 in refunded tax plus $67,298.70 in interest paid with the refunds), plus additional allowable interest and a claimed 10% surcharge under 28 U.S.C. § 3011."
+          ]
+        },
+        {
+          "cells": [
+            "Initiating Party & Statutory Basis",
+            "Refund suit initiated by the Davenports on May 18, 2011 under 28 U.S.C. § 1346(a)(1) and I.R.C. § 7422.",
+            "Erroneous refund recovery suit initiated by the United States on December 28, 2009 under I.R.C. § 7405."
+          ]
+        },
+        {
+          "cells": [
+            "Procedural Defenses Raised",
+            "Taxpayers asserted genuine disputes of material fact under <em><a href=\"/us/trinity-industries-v-united-states\">Trinity Industries</a></em> regarding experimentation.",
+            "Taxpayers asserted the Government's recovery claim against David and Myra Davenport was barred by the statute of limitations."
+          ]
+        },
+        {
+          "cells": [
+            "Final Judicial Disposition",
+            "Summary judgment granted to the United States by Memorandum Opinion and Order of Sept. 14, 2012; taxpayers' claims dismissed with prejudice; Davenports' Motion for Partial Summary Judgment denied.",
+            "Summary judgment granted to the United States on its claim to recover the 2003 refunds by Memorandum Opinion and Order of Sept. 14, 2012; limitations defense rejected; supplemental briefing on surcharge and interest ordered by Sept. 28, 2012."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the jurisdiction of the United States, a taxpayer's entitlement to the research tax credit is governed by <a href=\"/us/glossary/irc-section-41\">I.R.C. § 41</a>, which cross-references I.R.C. § 174 and is interpreted through comprehensive Treasury Regulations under Treas. Reg. § 1.41-4. Under the regular credit computation method set forth in <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">I.R.C. § 41(a)(1)</a> and § 41(c), the credit equals 20 percent of the excess of the taxpayer's claim-year QREs over a historical \"base amount,\" subject to a statutory floor where the base amount cannot be less than 50 percent of the claim-year QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "In this statutory formulation, the <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a> is the product of the taxpayer's \"fixed-base percentage\" and the average annual gross receipts of the taxpayer for the four taxable years preceding the credit year:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">I.R.C. § 41(c)(3)(A)</a> and the consistency rule of I.R.C. § 41(c)(6)(A), the fixed-base percentage is the ratio of aggregate QREs to aggregate gross receipts for the statutory base period (generally taxable years beginning after December 31, 1983, and before January 1, 1989), where base-period QREs must be determined on a basis strictly consistent with the determination of QREs for the credit year."
+    },
+    {
+      "type": "paragraph",
+      "text": "To constitute a valid QRE via internal wages under I.R.C. § 41(b)(2) or contract research expenses under I.R.C. § 41(b)(3) (generally limited to 65 percent of amounts paid or incurred to non-employees for qualified research), the underlying activities must satisfy the cumulative <a href=\"/us/glossary/four-part-test\">four-part test</a> of I.R.C. § 41(d)(1), applied separately to each \"business component\" defined under I.R.C. § 41(d)(2)(B). First, under the Section 174 Test (I.R.C. § 41(d)(1)(A)), the expenditures must be eligible to be treated as research or experimental expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">I.R.C. § 174</a>, requiring that the costs be incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense intended to eliminate uncertainty concerning the development or improvement of a product or process. Second, under the Technological Information Test (I.R.C. § 41(d)(1)(B)(i)), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, meaning the process of experimentation fundamentally relies on the principles of the physical or biological sciences, engineering, or computer science. Third, under the Business Component Purpose Test (I.R.C. § 41(d)(1)(B)(ii)), the application of the discovered technological information must be intended to be useful in the development of a new or improved business component of the taxpayer, relating to a new or improved function, performance, reliability, or quality (the \"<a href=\"/us/glossary/permitted-purpose\">permitted purpose</a>\"). Fourth, under the Process of Experimentation Test (I.R.C. § 41(d)(1)(C)), <a href=\"/us/glossary/substantially-all-rule\">substantially all</a>—defined in Treas. Reg. § 1.41-4(a)(6) as 80 percent or more—of the research activities measured on a cost or another consistently applied reasonable basis must constitute elements of a process of experimentation for a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, even if a project appears to address operational complexity, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">I.R.C. § 41(d)(4)</a> enumerates categorical exclusions from qualified research. These statutory exclusions encompass research conducted after the beginning of commercial production (I.R.C. § 41(d)(4)(A)), the adaptation of an existing business component to a particular customer's requirement or need (I.R.C. § 41(d)(4)(B)), the <a href=\"/us/glossary/duplication-exclusion\">duplication of an existing business component</a> (I.R.C. § 41(d)(4)(C)), routine testing or inspection for quality control (I.R.C. § 41(d)(4)(D)), and computer software developed by or for the benefit of the taxpayer primarily for internal use (I.R.C. § 41(d)(4)(E)), unless the software satisfies an additional three-part \"high threshold of innovation\" test under Treas. Reg. § 1.41-4(c)(6)."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge and the Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "In moving for summary judgment, the United States mounted a comprehensive five-pronged challenge against the Davenports' refund claims: (1) Mueller's activities failed to satisfy <a href=\"/us/glossary/irc-section-174\">I.R.C. § 174</a>, the technological information test, and the process of experimentation test; (2) the OneWorld System constituted disqualified internal-use software (IUS); (3) the activities fell squarely within the statutory exclusions for post-commercial production research, adaptation or duplication of an existing business component, and routine quality control testing; (4) the claimed contract research expenses for the four contractors did not qualify because the Davenports failed to produce any agreements entered into prior to the performance of the research, as Treas. Reg. § 1.41-2(e)(2) requires; and (5) the Davenports used the wrong fixed-base percentage, because Burly is a start-up company subject to a 3 percent fixed-base percentage, under which no credit would be generated for 2002 or 2003."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court bypassed the secondary statutory exclusions and calculation disputes because it found a single threshold requirement dispositive: the Davenports failed as a matter of law to raise a genuine issue of material fact demonstrating that Mueller's internal employees and four contractors engaged in a qualified <strong>process of experimentation</strong> under <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">I.R.C. § 41(d)(1)(C)</a> and Treas. Reg. § 1.41-4(a)(5). Relying on the standard articulated in <em><a href=\"/us/union-carbide-v-commissioner\">Union Carbide Corp. v. Commissioner</a></em>, T.C. Memo. 2009-50, aff'd, 697 F.3d 104 (2d Cir. 2012), the Court held that Mueller's integration and script testing occurred <em>after</em> IBM had already designed and customized the base J.D. Edwards OneWorld software and ERP Bridge, and constituted a \"simple trial and error to validate that a process or product change meets the taxpayer's needs\" rather than a systematic evaluation of design alternatives to resolve initial technological uncertainty. Consequently, the Court granted summary judgment in favor of the United States, dismissed the Davenports' 2002 refund claims with prejudice, held the Government entitled to judgment on its claim to recover the 2003 erroneous refunds, and, in the same September 14, 2012 Memorandum Opinion and Order, denied the Davenports' Motion for Partial Summary Judgment (which sought rulings on the regulatory standards for discovery and internal-use software) as unnecessary to the result and inconsistent with the court's rulings; the court also ordered supplemental briefing on the requested 10 percent surcharge and interest and administratively closed the case pending entry of a separate judgment."
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal and Evidentiary Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "A forensic examination of the <em>Davenport</em> ruling reveals how standard enterprise IT implementation methodologies collapse when subjected to the strict statutory predicates of I.R.C. § 41. The taxpayers' disqualification rested on a single dispositive ground—failure of the process of experimentation test—although the Government's briefing also exposed additional legal, contractual, and computational vulnerabilities that the court found unnecessary to decide."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of Technological Uncertainty at Project Outset and the Temporal Sequencing Defect"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under I.R.C. § 174 and Treas. Reg. § 1.174-2(a)(1), as interpreted in Union Carbide and accepted by both parties in Davenport, <a href=\"/us/glossary/elimination-of-uncertainty\">technological uncertainty</a> exists only if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of that business component. Crucially, Treas. Reg. § 1.41-4(a)(5)(i) imposes a strict temporal boundary: a process of experimentation is a process designed to evaluate one or more alternatives to achieve a result where the capability or the method of achieving that result, or the appropriate design of that result, is uncertain <strong>as of the beginning of the taxpayer's research activities</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Davenport</em>, the evidentiary record revealed a fatal temporal disconnect between the architectural customization performed by third-party vendor IBM and the subsequent testing activities executed by Mueller's internal employees. Contemporaneous project proposals issued by IBM divided the OneWorld implementation into four sequential operational phases: preparation, redesign/design, configuration, and deployment. Mueller licensed the ERP Bridge and J.D. Edwards OneWorld suite, and IBM, drawing on its J.D. Edwards expertise, performed the design, configuration, and customization—primarily through configuration, with the Design Proposal limiting modifications to only the Sales Order Module and rating the implementation's degree of difficulty between .1 and 1 on a scale where 1 equals a standard implementation. Because the Davenports excluded IBM and J.D. Edwards consultant fees from their <a href=\"/us/glossary/qualified-research-expenses-qre\">QRE</a> computation and claimed credits exclusively for Mueller's internal employees and four secondary contractors, the Court scrutinized the exact point in the project lifecycle when Mueller's claimed personnel intervened."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Court found that Mueller's claimed activities—predominantly executing test scripts (for example, entering simulated orders, which IBM's representative testified probably also served as training), reporting issues to IBM, and integration testing—took place <em>after</em> the initial startup, design, and customization of the OneWorld System by IBM had already concluded. By the time Mueller's internal personnel engaged in testing, the fundamental architectural design of the ERP system was already established. Consequently, the claimed activities did not address technological uncertainty existing \"as of the beginning of the taxpayer's research activities,\" but instead occurred mid-stream or at the tail end of a vendor-driven implementation. This establishes a critical second-order principle for tax compliance: when a taxpayer outsources the foundational design phase to a commercial software vendor and restricts internal staff to downstream configuration and verification, the internal staff cannot retroactively claim the vendor's initial design parameters as their own outset uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Failure of the Process of Experimentation Test: Validation Versus the Scientific Method"
+    },
+    {
+      "type": "paragraph",
+      "text": "The centerpiece of the <em>Davenport</em> opinion is its rigorous enforcement of the process of experimentation standard under I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(5). To resist summary judgment, the Davenports relied heavily on <em>Trinity Industries, Inc. v. United States</em>, 691 F. Supp. 2d 688 (N.D. Tex. 2010) (subsequently affirmed in part and vacated in part, 757 F.3d 400 (5th Cir. 2014)), arguing that the Government's assertion that no experimentation occurred was conclusory, oversimplified Mueller's engineering efforts, and ignored genuine disputes of material fact."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court rejected the analogy to <em>Trinity Industries</em> and instead anchored its analysis in <em>Union Carbide Corp. v. Commissioner</em>, T.C. Memo. 2009-50, aff'd, 697 F.3d 104 (2d Cir. 2012). Adopting the <em>Union Carbide</em> formulation—which the Davenports themselves acknowledged as the governing legal standard—the Court held that a qualified process of experimentation requires the application of the <strong>scientific method</strong>. Specifically, the taxpayer must execute a methodical, systematic plan involving a series of trials to test a hypothesis, analyze the resulting data, refine or discard the hypothesis, and retest the hypothesis to evaluate the relative strengths and weaknesses of competing design alternatives. Moreover, under Treas. Reg. § 1.41-4(a)(5) as applied in Union Carbide, alternatives may be evaluated through modeling, simulation, or a systematic trial-and-error methodology; the process need identify only one alternative but generally should be capable of evaluating more than one, and if only one alternative is tested the taxpayer should conduct a series of experiments with it and perform sufficient analysis to meaningfully compare one alternative to another, even if the results are not recorded."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the Court examined the evidentiary record of Mueller's integration and script testing, it found a complete absence of hypothesis testing or alternative design evaluation. During the configuration and deployment phases of the OneWorld System, Mueller employees performed script testing by entering simulated orders to make sure they understood how the system worked, that it actually worked, and that it could handle a simulation of real production volume. Mueller employees reported technical issues to IBM—the ultimate expert—and, if they were unhappy with how the system operated, one of two things occurred: IBM either created a \"fix\" or advised Mueller that the system was working as designed, in which case Mueller would need to adjust the way it did business; and where Mueller wanted capabilities not previously discussed (such as printing labels), IBM modified the system to add them—so that Mueller's practices were conformed to the software's constraints."
+    },
+    {
+      "type": "paragraph",
+      "text": "This operational reality proved fatal to the tax credit claim. Reconciling enterprise workflows to fit the standard logic of a commercial ERP suite is the antithesis of computer science experimentation. Rather than formulating a computer science hypothesis, writing competing algorithmic architectures, benchmarking performance metrics, and refining source code, Mueller personnel performed User Acceptance Testing (UAT) and quality assurance validation. Quoting <em>Union Carbide</em>, the <em>Davenport</em> Court held that it is legally insufficient that a taxpayer uses a \"simple trial and error to validate that a process or product change meets the taxpayer's needs\". Testing conducted merely to confirm or validate that a customized third-party software system operates as intended—without evaluating technical alternatives to resolve underlying design uncertainty—fails I.R.C. § 41(d)(1)(C) as a matter of law."
+    },
+    {
+      "type": "subheading",
+      "text": "Commercial ERP Customization, the Adaptation Exclusion, and Internal-Use Software Hurdles"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the failure of the process of experimentation test, <em>Davenport</em> highlights the acute statutory vulnerability of projects centered on customizing Commercial Off-The-Shelf (COTS) software packages. When a taxpayer licenses a mature enterprise application like J.D. Edwards OneWorld alongside an IBM ERP Bridge, the base capability and method of the software are already established by the commercial vendor. As subsequent tax jurisprudence citing <em>Davenport</em> has emphasized, if a taxpayer merely adapts widely used commercial software to solve a complex but familiar operational problem, the activity fails to satisfy the Treasury Regulations."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Government's summary judgment briefing also invoked overlapping statutory exclusions under I.R.C. § 41(d)(4) that threaten commercial ERP implementations, although the court expressly declined to reach them after finding the process of experimentation test dispositive. First, under the exclusion for <a href=\"/us/glossary/adaptation-exclusion\">adaptation of existing business components</a> (I.R.C. § 41(d)(4)(B)), modifying an existing software framework (the J.D. Edwards suite and IBM ERP Bridge) to accommodate the specific data fields, pricing tables, and manufacturing workflows of a single enterprise is, on the Government's theory, disqualified adaptation rather than the creation of a new composite business component. Second, under the <a href=\"/us/glossary/quality-control-testing\">routine testing and quality control exclusion</a> (I.R.C. § 41(d)(4)(D)), executing test scripts to verify that configured ERP modules properly route sales orders or calculate shipping weights falls, on the Government's theory, within routine testing or inspection for quality control. Third, under the <a href=\"/us/glossary/research-after-commercial-production\">post-commercial production exclusion</a> (I.R.C. § 41(d)(4)(A)), activities occurring during the deployment phase after the core software system has been developed by the third-party vendor and placed into operational readiness are, the Government argued, excluded as post-production activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth, the project faced the stringent <a href=\"/us/glossary/internal-use-software-ius\">Internal-Use Software (IUS) exclusion</a> under I.R.C. § 41(d)(4)(E). Because the OneWorld System was developed to manage Mueller's internal corporate functions—accounting, inventory, shipping, sales, and manufacturing management—rather than being held for commercial sale, lease, or license to external customers, the Government argued that it fell within the definition of internal-use software (the Davenports contended that the 2001 Final Regulations' definition of internal-use software should govern, an issue the court did not decide). To overcome the IUS exclusion under Treas. Reg. § 1.41-4(c)(6), a taxpayer must satisfy not only the standard four-part test of I.R.C. § 41(d)(1) but also the cumulative three-part \"<a href=\"/us/glossary/high-threshold-of-innovation-test\">high threshold of innovation</a>\" test: the software must be innovative, resulting in a reduction in cost or improvement in speed or other measurable metric that is substantial and economically significant; the software development must involve significant economic risk, where the taxpayer commits substantial resources and there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period; and the software must not be commercially available for use by the taxpayer without modifications that are so extensive as to be akin to building a new software system. The Government contended that, because Mueller utilized commercially available J.D. Edwards software and relied on IBM to resolve technical issues, the project could not surmount the IUS threshold; the court did not reach this argument."
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, because the Davenports claimed the entire \"OneWorld System\" as an overarching business component without isolating specific, novel software sub-modules where true computer science uncertainty existed, they could not successfully invoke the \"<a href=\"/us/glossary/shrink-back-rule\">shrinking-back</a>\" rule of Treas. Reg. § 1.41-4(b)(2). Under the shrink-back rule, if the entire product fails the 80 percent \"substantially all\" process of experimentation test, the test is applied to progressively smaller subsets or subcomponents until a qualifying subcomponent is identified. However, as the Davenport court explained—citing the district court's decision in Trinity Industries, Inc. v. United States, 691 F. Supp. 2d 688, 693 (N.D. Tex. 2010)—even had some expenses qualified, the Davenports offered no argument or evidence of the costs associated with any subset of the OneWorld Project, leaving no basis to apply the shrink-back rule or to estimate qualified research expenses for any business component smaller than the entire Mueller OneWorld System."
+    },
+    {
+      "type": "subheading",
+      "text": "Retrospective Reconstruction Versus Contemporaneous Documentation and Contract Substantiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The evidentiary collapse in <em>Davenport</em> provides a cautionary lesson regarding tax study methodology under I.R.C. § 6001 and Treas. Reg. § 1.41-4(d). The record contained no <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous 2002–2003 documentation</a> evidencing a process of experimentation; instead, after filing their original returns, the Davenports contracted with alliantgroup on March 17, 2006 to perform an R&D tax credit study supporting a retroactive claim. In litigation, the primary assertions that Mueller employees engaged in a hypothesis-driven redesign and restructuring of the software came from conclusory arguments, a November 30, 2007 statement by Rayome Soupiset that appears to have been prepared by alliantgroup, and limited deposition excerpts (including Phillip Arp's brief reference to MIRA, a metal-roof design program developed with consultant Shannon Bailey, about which no further evidence was offered)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The District Court, which may not weigh evidence or make credibility determinations at summary judgment, did not resolve a conflict between the study and the business records; rather, it found that alliantgroup's March 2006 study and Soupiset's statement themselves reflected that uncertainty, if any, was not encountered until after IBM's initial development of the system, while testing to confirm that it operated as intended—a conclusion further supported by IBM's September 20, 2000 Design Proposal and March 25, 2001 Data Collection Proposal and the deposition testimony of IBM's Neal Horner and Mueller's Phillip Arp. Although the alliantgroup-prepared materials used statutory terms such as \"redesign\" and \"experimentation,\" the 2000–2001 IBM proposals documented a conventional four-phase commercial ERP rollout (preparation, redesign/design, configuration, and deployment) in which Mueller's role was confined to business process alignment and validation testing. Consistent with the Tax Court's parallel rejection of retroactive, uncorroborated oral estimates in <em>Shami v. Commissioner</em>, T.C. Memo. 2012-78 (which also involved a retroactive alliantgroup study) and the Fifth Circuit's allocation of the burden of proof and record-retention duty in <em><a href=\"/us/united-states-v-mcferrin\">United States v. McFerrin</a></em>, 570 F.3d 672 (5th Cir. 2009) (which also requires a court to estimate the allowable credit where some qualified expenses are shown—an estimate the Davenport court could not make on this record), Davenport demonstrates that conclusory, retrospective tax narratives unsupported by specific record evidence cannot create a genuine issue of material fact, particularly when the taxpayer's own study and the contemporaneous project records show that any uncertainty arose only mid-project."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, the Government raised two further contractual and computational challenges—which the court did not reach—that illustrate the evidentiary burden on taxpayers. With respect to unsubstantiated <a href=\"/us/glossary/contract-research-expenses\">contract research expenses</a> under I.R.C. § 41(b)(3) and Treas. Reg. § 1.41-2(e), a taxpayer may claim 65 percent of amounts paid to third parties for qualified research only if the research is performed \"on behalf of\" the taxpayer pursuant to an agreement that is entered into prior to the performance of the qualified research and requires the taxpayer to bear the expense even if the research is not successful (Treas. Reg. § 1.41-2(e)(2)), with the taxpayer retaining substantial rights in the research results (Treas. Reg. § 1.41-2(e)(3)). The Davenports claimed contract research QREs for four outside contractors on the OneWorld Project, and the Government contended those expenses were ineligible because the Davenports failed to produce any agreements; the Davenports countered that § 1.41-2(e)(2) does not require a written contract, and the court did not decide the issue. Simultaneously, with respect to base-period consistency and <a href=\"/us/glossary/fixed-base-percentage\">fixed-base percentage</a> calculations under I.R.C. § 41(c)(3) and I.R.C. § 41(c)(6)(A), a taxpayer claiming the regular research credit must substantiate its historical base-period QREs and gross receipts (1984–1988) on a basis consistent with the claim years. The Government contended that Burly was a <a href=\"/us/glossary/start-up-provision\">start-up company</a> to which a 3 percent fixed-base percentage applied and that applying it eliminated any credit for 2002 or 2003, while the Davenports contended that sufficient evidence supported the rate they used and objected to the Government's deposition testimony on this point as calling for legal conclusions; the court overruled those objections as moot and did not decide the fixed-base issue."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and regulatory requirement implicated in <em>United States v. Davenport</em> against the taxpayers' specific factual and evidentiary failures and the governing legal standard of proof enforced by the Court."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory / Regulatory Requirement",
+        "Governing Citation & Authority",
+        "Taxpayer's Factual & Evidentiary Failure in Davenport",
+        "Court's Governing Standard of Proof"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Outset Technological Uncertainty (Section 174 Test)",
+            "I.R.C. §§ 41(d)(1)(A), 174; Treas. Reg. §§ 1.174-2(a)(1), 1.41-4(a)(5)(i)",
+            "Mueller's claimed internal activities (script and integration testing) occurred <em>after</em> IBM had already completed the initial startup, design, and customization of the J.D. Edwards OneWorld software and ERP Bridge.",
+            "Uncertainty regarding capability, method, or appropriate design must exist <em>as of the beginning of the taxpayer's research activities</em>, not mid-stream or post-development."
+          ]
+        },
+        {
+          "cells": [
+            "Process of Experimentation Test",
+            "I.R.C. § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5); <em>Union Carbide Corp. v. Comm'r</em>, T.C. Memo. 2009-50",
+            "Employees ran test scripts to verify system functionality; when issues arose, IBM either created a fix or advised that the system was working as designed, in which case Mueller adjusted its business practices.",
+            "Requires the scientific method: a methodical plan involving a series of trials to test a hypothesis, analyze data, refine the hypothesis, and evaluate competing design alternatives. Simple trial-and-error validation is legally insufficient."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Information Purpose",
+            "I.R.C. § 41(d)(1)(B)(i); Treas. Reg. § 1.41-4(a)(4)",
+            "The Government argued that the activities focused on aligning Mueller's manufacturing, sales, and accounting workflows with commercial ERP configuration parameters rather than discovering technological information; the court did not reach this test or the parties' dispute over whether the 2001 Proposed or 2003 Final Regulations' definition of discovering information applied.",
+            "Research must fundamentally rely on principles of physical or biological sciences, engineering, or computer science to discover technological information, not business process re-engineering."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/glossary/business-component\">Business Component</a> & Shrink-Back Rule",
+            "<a href=\"/us/legislation/26-usc-41d2-business-component-test\">I.R.C. § 41(d)(2)</a>; Treas. Reg. § 1.41-4(a)(6), (b)(2); <em>Trinity Indus., Inc. v. United States, 691 F. Supp. 2d 688, 693 (N.D. Tex. 2010)</em>",
+            "Taxpayers claimed the overarching \"OneWorld System\" as a monolithic project without segregating costs or proving experimentation on specific custom-coded subcomponents.",
+            "At least 80% (\"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\") of activities on a business component must constitute experimentation. Absent argument or evidence of the costs associated with any subset of the business component, the court could not apply the shrink-back rule or estimate QREs for any smaller component."
+          ]
+        },
+        {
+          "cells": [
+            "Adaptation & Quality Control Exclusions",
+            "I.R.C. § 41(d)(4)(A), (B), (D); Treas. Reg. § 1.41-4(c)(2), (3), (5)",
+            "Government asserted these exclusions based on customizing commercially available J.D. Edwards OneWorld and IBM ERP Bridge software to fit Mueller's existing operations and running post-configuration validation scripts (the court did not reach these exclusions).",
+            "Adapting widely used commercial software to solve a complex but familiar enterprise problem, or conducting routine post-customization script testing for quality control, is statutorily excluded (Government's position; not decided in Davenport)."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/faq/internal-use-software-rd-tax-credit\">Internal-Use Software (IUS)</a> High Threshold",
+            "I.R.C. § 41(d)(4)(E); Treas. Reg. § 1.41-4(c)(6)",
+            "The Government argued that the OneWorld System was developed for Mueller's internal <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative</a>/operational functions (accounting, sales, shipping, manufacturing management) using commercial ERP software; the court did not reach the IUS issue or the parties' dispute over whether the 2001 Final Regulations' IUS definition applied.",
+            "IUS is excluded unless the taxpayer proves the software is innovative, entails significant economic risk due to technical uncertainty, and is <a href=\"/us/glossary/commercial-availability-standard\">not commercially available</a> without modifications akin to building a new system."
+          ]
+        },
+        {
+          "cells": [
+            "Contract Research Substantiation",
+            "I.R.C. § 41(b)(3); Treas. Reg. § 1.41-2(e)",
+            "The Davenports claimed contract research QREs for four outside consultants and the Government contended they failed to produce any agreements; the Davenports argued no written contract is required, and the court did not decide the issue.",
+            "Under Treas. Reg. § 1.41-2(e)(2), contract research expenses qualify only if paid pursuant to an agreement entered into prior to performance of the research that provides the research be performed on the taxpayer's behalf and requires the taxpayer to bear the expense even if the research is unsuccessful; the taxpayer must also retain <a href=\"/us/glossary/substantial-rights\">substantial rights</a> (§ 1.41-2(e)(3))."
+          ]
+        },
+        {
+          "cells": [
+            "<a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">Contemporaneous Substantiation</a> & Base Consistency",
+            "I.R.C. §§ 6001, 41(c)(3), 41(c)(6)(A); Treas. Reg. § 1.41-4(d)",
+            "Relied on a retroactive 2006 alliantgroup study and a 2007 Soupiset statement that themselves placed any uncertainty during the project, consistent with IBM's 2000–2001 proposals and the deposition testimony; the Government's separate start-up (3 percent) fixed-base percentage challenge was not reached.",
+            "The Government bore the ultimate burden on its 2003 erroneous refund claim and the taxpayers on their 2002 refund claim; as summary judgment movant the Government had to show no genuine dispute, and conclusory assertions could not create one. Taxpayers must retain records substantiating a claimed credit, and base-period QREs/gross receipts must be consistently calculated."
+          ]
+        },
+        {
+          "cells": [
+            "Erroneous Refund Recovery & Limitations",
+            "I.R.C. §§ 7405, 6532(b)",
+            "Taxpayers argued the Government's suit to recover the December 28, 2007 refund check was untimely, while failing to establish underlying substantive entitlement to the 2003 credit.",
+            "Under I.R.C. § 6532(b), a § 7405 suit must be brought within two years after the making of the refund; applying Fed. R. Civ. P. 6(a), the court held the December 28, 2009 filing timely (and, alternatively, December 27, 2009 fell on a Sunday). The Government must show both that an amount was erroneously refunded and how much."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the judicial holdings of <em>United States v. Davenport</em> into actionable legal and technical compliance protocols, the following two industry case studies model realistic enterprise projects that directly confront the pitfalls that defeated the Davenports' claim. Each case study provides a step-by-step remedial architecture demonstrating how a United States taxpayer can restructure project governance, technical documentation, vendor contracting, and experimentation tracking to satisfy I.R.C. § 41 and Treas. Reg. § 1.41-4."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Enterprise ERP Middleware and Algorithmic Supply-Chain Engine in Industrial Metal Manufacturing"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Exposure to Davenport Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apex Structural Metals, Inc. (Apex), a United States C corporation manufacturing custom cold-formed steel framing and pre-engineered metal buildings, initiates a multi-year digital transformation project (\"Project Titan\"). Apex licenses a commercially available cloud ERP platform (Oracle NetSuite) and retains a global systems integrator (Accenture) under a Master Services Agreement to configure general ledger accounting, standard order entry, and shipping modules. Simultaneously, Apex assigns 12 internal software engineers and retains three independent software architects to build a custom, real-time \"Dynamic Coil-Slitting and Nesting Engine\" (DCNE) and an asynchronous middleware data bus that bridges legacy shop-floor Computer Numerical Control (CNC) roll-formers with the cloud ERP database."
+    },
+    {
+      "type": "paragraph",
+      "text": "If Apex manages and documents Project Titan in the manner of Mueller Supply in <em>Davenport</em>, the company will aggregate all internal IT wages and contractor costs into a single monolithic business component (\"Project Titan ERP System\"), allow Accenture's Statement of Work (SOW) to describe Apex's internal staff as performing \"Phase 4 Configuration & User Acceptance Script Testing,\" fail to execute pre-work agreements with the three independent architects, and hire a tax consultant years later to write a narrative claiming the entire ERP rollout was an experiment. Under <em>Davenport</em>, the IRS and federal district court would disallow 100 percent of the claim on summary judgment."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Business Component Bifurcation (Shrink-Back Execution at Inception)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the routine commercial ERP configuration from contaminating the novel engineering work under the 80 percent \"substantially all\" rule of I.R.C. § 41(d)(1)(C) and Treas. Reg. § 1.41-4(a)(6), Apex's tax counsel and Chief Technology Officer must formally bifurcate Project Titan in the company's Enterprise Project Management (EPM) and general ledger <a href=\"/us/glossary/project-accounting\">cost-accounting systems</a> prior to project launch. Rather than defining the overarching ERP rollout as the business component, Apex must apply the business component definition of I.R.C. § 41(d)(2)(B) and preemptively structure its work breakdown structure (WBS) at the discrete subcomponent level pursuant to Treas. Reg. § 1.41-4(b)(2). Specifically, Apex establishes Cost Center 100 (Non-Qualified COTS ERP Adaptation & Deployment) to capture all activities related to licensing, configuring, data mapping, script testing, and deploying the commercial ERP modules—such as accounting, human resources, standard sales order entry, and vendor patches—as well as any internal business workflow adjustments, ensuring that zero wages or contractor costs from Cost Center 100 are included in QREs. Concurrently, Apex establishes Cost Center 201 (Qualified Business Component A — Dynamic Coil-Slitting Heuristic Engine), isolated strictly to the mathematical modeling and algorithmic development of the custom nesting and structural load optimization engine, and Cost Center 202 (Qualified Business Component B — Low-Latency Asynchronous CNC-to-ERP Telemetry Bus), isolated strictly to the custom computer science protocol translating high-frequency binary PLC sensor streams into transactional ERP states without database deadlocks."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Establishing Outset Technological Uncertainty and Overcoming the IUS High Threshold"
+    },
+    {
+      "type": "paragraph",
+      "text": "To defeat the <em>Davenport</em> temporal defect—where uncertainty was lacking because the vendor had already designed the system—Apex must author a formal <strong>Pre-Development Architectural Uncertainty Specification</strong> prior to writing a single line of code or receiving any vendor deliverable. This contemporaneous engineering charter must document why the commercial ERP suite and existing middleware bridges are incapable of achieving the required functional performance, demonstrating that standard ERP inventory modules operate on static batch intervals and cannot solve NP-hard two-dimensional steel coil-nesting optimization combined with real-time CNC thermal expansion compensation in under 50 milliseconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, because the IRS may assert that the DCNE and Telemetry Bus constitute Internal-Use Software (IUS) under I.R.C. § 41(d)(4)(E), Apex must explicitly document two statutory exceptions in its outset charter. First, under the <a href=\"/us/glossary/hardware-software-integration\">computer hardware and production process exception</a> of Treas. Reg. § 1.41-4(c)(6), Apex documents that Business Component B is developed to be integrated with computer-controlled CNC roll-forming hardware used directly in a manufacturing production process, exempting it from IUS restrictions. Second, for Business Component A, Apex contemporaneously establishes compliance with the three-part High Threshold of Innovation Test using quantitative benchmarks: proving that the software is <strong>innovative</strong> by targeting a measurable 18 percent reduction in structural steel scrap yield and a 400 percent increase in algorithmic execution speed over existing linear programming solvers; proving <strong><a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a></strong> by dedicating $1.4 million in unrecoverable internal engineering payroll where technical uncertainty regarding multi-threaded memory contention threatens total project failure; and proving that the software is <strong>commercially unavailable</strong> through a documented market survey showing no off-the-shelf ERP plug-in or nesting package can dynamically re-compute structural building loads in real time without core source-code creation."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Structuring and Tracking a Scientific Process of Experimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the <em>Union Carbide</em> and <em>Davenport</em> standard for a process of experimentation under Treas. Reg. § 1.41-4(a)(5), Apex must prohibit its engineers from logging generic \"integration testing\" or \"script validation\". Instead, Apex configures its version control and issue-tracking architecture (such as GitLab and Jira) to enforce a strict <strong>Hypothesis-Trial-Analysis-Refinement</strong> workflow. At the outset of Business Component A, the lead architect documents three competing algorithmic design alternatives in Jira Epic 201: <em>Alternative 1</em> (Simulated Annealing metaheuristic), <em>Alternative 2</em> (Genetic Algorithm with dynamic mutation rates), and <em>Alternative 3</em> (Branch-and-Bound mixed-integer linear programming). Engineers then build prototype branches in Git for each alternative and run automated simulation trials across 10,000 historical steel building orders, capturing CPU utilization, memory allocation, convergence time, and scrap percentage."
+    },
+    {
+      "type": "paragraph",
+      "text": "As the trials progress, automated test logs record that <em>Alternative 3</em> fails due to exponential memory exhaustion on complex roof geometries, while <em>Alternative 1</em> converges too slowly at 850 milliseconds. The engineering team analyzes the bottleneck, refines <em>Alternative 2</em> by coding a hybrid heuristic combining a greedy first-fit decreasing algorithm with localized genetic mutation, and retests the refined hypothesis until the 50-millisecond latency target is achieved. Crucially, Apex enforces a strict separation of vendor bug-fixing: if an integration test fails due to a defect in the commercial NetSuite API, the ticket is routed to Cost Center 100 as non-qualified vendor validation, whereas only code commits where Apex engineers alter their own proprietary source code to resolve algorithmic or architectural uncertainty are tagged to Cost Centers 201 and 202."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contractual Restructuring for Systems Integrators and Independent Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "To eliminate the two contractual vulnerabilities exposed in Davenport—vendor proposals that documented a standard configuration-and-validation rollout, and the Government's (unresolved) challenge that no contractor agreements were produced—Apex's legal department executes two binding contractual interventions prior to the tax year. First, whereas IBM's proposal in <em>Davenport</em> defined the project phases in a manner that proved Mueller was merely validating IBM's work, Apex drafts its SOW with Accenture to explicitly carve out Cost Centers 201 and 202 from Accenture's scope of work. The SOW stipulates that Accenture's configuration and deployment services are restricted strictly to core commercial ERP modules, while Apex retains sole architectural responsibility, source-code authorship, and technical risk for the experimental development of the Dynamic Coil-Slitting Engine and Asynchronous CNC Telemetry Bus."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, for the three independent software architects, Apex executes formal written Consulting Agreements <strong>prior to the commencement of any services</strong> in strict compliance with <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">I.R.C. § 41(b)(3)</a> and Treas. Reg. § 1.41-2(e)(2). Each agreement explicitly stipulates that the experimental software development services are performed exclusively <em>on behalf of</em> Apex, that Apex retains exclusive, unencumbered ownership of all intellectual property, source code, and patent rights resulting from the research (satisfying the \"substantial rights\" requirement), and that compensation is structured on a time-and-materials basis where payment is not contingent upon the success of the research—or, if structured on a fixed-price milestone basis following the Tax Court's framework in <em><a href=\"/us/populous-holdings-v-commissioner\">Populous Holdings, Inc. v. Commissioner</a></em>, No. 405-17 (T.C. Dec. 6, 2019) (order), that Apex bears the economic risk of failed research and would be required to incur additional expenses without revenue recovery if the algorithmic architecture fails."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Compliance Dimension",
+        "Disqualified Posture in United States v. Davenport",
+        "Remediated Statutory Architecture for Case Study 1 (Apex)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Business Component Definition",
+            "Monolithic \"OneWorld System\" blending commercial J.D. Edwards ERP configuration with internal testing.",
+            "Strict general ledger and WBS bifurcation isolating Cost Center 201 (Heuristic Nesting Engine) and Cost Center 202 (CNC Telemetry Bus) from Cost Center 100 (COTS ERP configuration)."
+          ]
+        },
+        {
+          "cells": [
+            "Temporal Timing of Uncertainty",
+            "Claimed internal staff engaged <em>after</em> IBM completed initial startup, design, and customization.",
+            "Pre-development Architectural Uncertainty Specification executed <em>prior</em> to code creation or vendor delivery, proving commercial ERP incapability at project inception."
+          ]
+        },
+        {
+          "cells": [
+            "Experimental Methodology",
+            "Running validation scripts; relying on IBM for patches or changing Mueller's business workflows to fit software.",
+            "Documented scientific method in Jira/Git: testing three competing algorithmic hypotheses, logging memory/latency failures, refining hybrid heuristic code, and excluding vendor bug fixes."
+          ]
+        },
+        {
+          "cells": [
+            "Contractual & Vendor Documentation",
+            "IBM proposals proved standard 4-phase ERP rollout; no agreements produced for the four outside contractors (a Government challenge the court did not reach).",
+            "Systems integrator SOW explicitly carves out Apex's proprietary R&D modules; pre-work written agreements executed with all <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">independent contractors</a> vesting IP and financial risk in Apex."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Automated Manufacturing Control Systems and Custom Sensor Integration in Heavy Fabrication"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Exposure to Davenport Pitfalls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vanguard Building Systems, LLC (Vanguard), a <a href=\"/us/legislation/26-usc-41g-rd-tax-credit-pass-through-entities\">taxed-as-partnership</a> manufacturer of insulated metal panels and structural trusses established in 1986, undertakes an initiative (\"Project Weld-Vision\") to automate its high-speed continuous foaming and roll-forming production line. Vanguard purchases commercial programmable logic controllers (PLCs) and robotic welding gantries from an Original Equipment Manufacturer (OEM) and contracts with four external automation engineers alongside its internal manufacturing engineering team to integrate a high-speed laser-profilometry and infrared thermal-imaging feedback loop that dynamically adjusts chemical foam injection pressures and weld current in real time."
+    },
+    {
+      "type": "paragraph",
+      "text": "If Vanguard follows the operational pattern criticized in <em>Davenport</em>, the OEM vendor will install and commission the turnkey production line first, and Vanguard's internal engineers and four external specialists will subsequently run production trials to see if the panels meet dimensional tolerances. When defects occur, the OEM will adjust the PLC ladder logic or Vanguard will simply slow down the conveyor line speed to accommodate the equipment's limitations. Furthermore, Vanguard will rely on an <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">after-the-fact employee survey</a> to estimate time allocations and fail to substantiate the inputs to its fixed-base percentage computation. Under the reasoning of Davenport and Union Carbide, the claim would fail the process of experimentation test as post-startup validation, and it would remain exposed to the routine quality control exclusion of I.R.C. § 41(d)(4)(D), Shami-type substantiation problems, and the kind of fixed-base percentage challenge the Government raised (but the court did not reach) in Davenport."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Pre-Startup Governance and Temporal Alignment of Research Activities"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the IRS from characterizing Vanguard's engineering efforts as post-commissioning validation or research after commercial production under I.R.C. § 41(d)(4)(A), Vanguard must restructure the engineering sequence so that its internal R&D commences <strong>prior to OEM hardware installation</strong>. Vanguard's engineering leadership establishes a formal <strong>Closed-Loop Control Systems R&D Charter</strong> before the production line is assembled. Rather than purchasing a turnkey integrated system from the OEM, Vanguard procures the commercial PLCs and laser sensors as raw, unintegrated hardware components. The R&D Charter documents the outset engineering uncertainty: specifically, that off-the-shelf OEM PLC firmware cannot reconcile optical laser-scatter interference caused by exothermic polyurethane foam outgassing with sub-millimeter robotic weld seam tracking at line speeds exceeding 60 feet per minute. By initiating mathematical modeling and <a href=\"/us/glossary/prototype-development\">breadboard sensor prototyping</a> in an offline laboratory environment <em>before</em> shop-floor installation, Vanguard establishes that technological uncertainty existed \"as of the beginning of the taxpayer's research activities\" under Treas. Reg. § 1.41-4(a)(5)(i)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Differentiating Systematic Experimentation from Trial-and-Error and Quality Control"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Davenport</em>, the Court held that testing conducted to verify whether a product or process change meets the taxpayer's needs—and adjusting operational methods when it does not—is merely simple trial-and-error validation. To establish a valid <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a> under <em>Union Carbide</em> and <em>Davenport</em>, Vanguard institutes a formal <strong>Design of Experiments (DOE) Protocol</strong> that separates experimental engineering trials from routine quality control inspection under I.R.C. § 41(d)(4)(D). Prior to each test series, Vanguard engineers document specific physical and computer science hypotheses, such as <em>Hypothesis 1</em>, positing that implementing a Kalman filter algorithm on the raw 405nm laser-profilometry signal coupled with a Proportional-Integral-Derivative (PID) feed-forward loop will eliminate thermal outgassing signal distortion without introducing more than 8 milliseconds of phase lag. Rather than passively testing a single vendor configuration, Vanguard's test matrix evaluates multiple competing technical alternatives, comparing 405nm blue-violet laser triangulation against 650nm red laser sensors, and comparing standard PID control logic against a fuzzy-logic adaptive controller and a model-predictive control (MPC) architecture."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every experimental run on the pilot line logs quantitative telemetry, including signal-to-noise ratio in decibels, phase lag in milliseconds, foam cell density uniformity, and weld penetration depth. When <em>Hypothesis 1</em> fails at 65 feet per minute due to harmonic vibration from the roll-former, Vanguard engineers do <em>not</em> simply slow down the production line—which would replicate Mueller's fatal workflow adjustment in <em>Davenport</em>—or ask the OEM for a standard patch. Instead, they analyze the frequency spectrum via Fast Fourier Transform (FFT), refine the hypothesis by designing an active notch-filter algorithm and a custom pneumatic sensor-isolation mount, and retest the modified design until the target performance is achieved. Once the optimal sensor topology and control algorithm are validated and the line is released for commercial customer manufacturing, the R&D project code is immediately locked, and all subsequent sensor calibration, pass/fail panel inspections, and operator adjustments are segregated as non-qualified commercial production and quality control under I.R.C. § 41(d)(4)(A) and (D)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contemporaneous Substantiation and Time-Tracking Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid the evidentiary collapse seen in <em>Davenport</em> and <em><a href=\"/us/shami-v-commissioner\">Shami v. Commissioner</a></em>, T.C. Memo. 2012-78—where post-hoc tax studies and retrospective oral testimony were rejected by the courts—Vanguard implements contemporaneous project time-tracking integrated directly into its payroll and engineering management systems during the tax year. Every W-2 engineer and direct supervisor working on Project Weld-Vision <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">records time weekly</a> against specific WBS phase codes mapped to the experimental DOE trials, distinguishing <em>WBS 301.1 (Kalman Filter Mathematical Modeling & Simulation)</em> and <em>WBS 301.2 (Sensor Optical Interference Lab Trials)</em> from <em>WBS 301.3 (Non-Qualified Line Commissioning & Operator Training)</em>. Each weekly time entry cross-references the specific Product Lifecycle Management (PLM) engineering change order (ECO) or DOE test log ID created that week, forging an unassailable contemporaneous nexus between the employee's wage expense under <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">I.R.C. § 41(b)(2)</a> and the specific element of the process of experimentation required by Treas. Reg. § 1.41-4(d)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contract Research Compliance and Base-Period Consistency Resolution"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, Vanguard neutralizes the two remaining legal challenges raised by the Government in <em>Davenport</em> regarding outside consultants and the fixed-base percentage calculation. Prior to allowing the four external automation engineers onto the project, Vanguard executes bilateral Master Engineering Services Agreements and Project Work Orders that satisfy all three prongs of Treas. Reg. § 1.41-2(e). The contracts explicitly state that the experimental control-loop engineering is performed <em>on behalf of</em> Vanguard, assign 100 percent of the resulting PLC source code, schematics, and inventions to Vanguard, and obligate Vanguard to pay for the engineering hours incurred regardless of whether the closed-loop system achieves the 60 feet-per-minute target."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simultaneously, Vanguard preempts the fixed-base percentage and <a href=\"/us/glossary/consistency-rule\">consistency rule</a> trap of I.R.C. § 41(c)(3) and § 41(c)(6)(A). In <em>Davenport</em>, the Government challenged the Davenports' credit calculation on the ground that Burly was a start-up company subject to a 3 percent fixed-base percentage, under which no credit would arise for 2002 or 2003 (an issue the court did not reach). Because Vanguard was founded in 1986, its first taxable year with both QREs and gross receipts would begin after December 31, 1983, making it a start-up company under I.R.C. § 41(c)(3)(B); claiming the <a href=\"/us/glossary/regular-research-credit-rrc\">Regular Research Credit</a> under I.R.C. § 41(a)(1) would therefore require Vanguard to apply the start-up fixed-base percentage rules (3 percent for its first five credit years, followed by a formula based on its own later QREs and gross receipts) and to substantiate those inputs on a basis consistent with the current claim year, as the consistency rule of § 41(c)(6)(A) requires and as the Fifth Circuit addressed in Trinity Industries, Inc. v. United States, 757 F.3d 400 (5th Cir. 2014). To eliminate this historical base-period audit exposure, Vanguard's tax advisor elects the <a href=\"/us/glossary/alternative-simplified-credit-asc\">Alternative Simplified Credit (ASC)</a> under I.R.C. § 41(c)(4) on a timely filed original Form 1065 return (using Form 6765). Under the <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">ASC method</a>, the credit equals 14 percent of the claim-year QREs that exceed 50 percent of the average QREs for the three preceding taxable years:"
+    },
+    {
+      "type": "paragraph",
+      "text": "By electing the ASC on the original return and auditing the immediately preceding three years of QREs under the exact subcomponent and DOE standards applied in the current year, Vanguard bypasses the fixed-base percentage computation (including the start-up company rules) entirely while maintaining strict statutory consistency."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Remedial Implementation Phase",
+        "Operational & Legal Action Required",
+        "Contemporaneous Documentary Artifact Generated",
+        "Statutory & Judicial Defect Overcome"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Phase 1: Pre-Project Architecture & Contracting",
+            "Execute Closed-Loop R&D Charter before OEM hardware delivery; execute bilateral contractor agreements with the 4 external specialists.",
+            "Signed R&D Charter detailing optical/thermal physics uncertainties; pre-work Contractor Agreements vesting IP and financial risk in Vanguard.",
+            "Overcomes <em>Davenport</em> post-startup timing defect and the Government's (unresolved) challenge to undocumented contract research QREs under Treas. Reg. § 1.41-2(e)."
+          ]
+        },
+        {
+          "cells": [
+            "Phase 2: Offline Lab & Pilot DOE Execution",
+            "Formulate mathematical hypotheses; test competing laser wavelengths (405nm vs. 650nm) and control algorithms (PID vs. Kalman/MPC).",
+            "Timestamped DOE Test Matrices, FFT vibration spectrum logs, failed firmware branches, and ECO refinement records.",
+            "Satisfies the scientific method standard of <em>Union Carbide</em> and <em>Davenport</em>; refutes allegation of \"simple trial-and-error validation\"."
+          ]
+        },
+        {
+          "cells": [
+            "Phase 3: Real-Time Payroll & Cost Segregation",
+            "Track W-2 engineering hours weekly against granular subcomponent WBS codes; lock R&D codes upon commercial line release.",
+            "Contemporaneous WBS timesheets cross-referenced to PLM/DOE IDs; separate cost center for commercial QA/inspection.",
+            "Defeats I.R.C. § 41(d)(4)(A)/(D) exclusions and avoids <em>Davenport</em>/<em>Shami</em> rejection of retrospective tax studies."
+          ]
+        },
+        {
+          "cells": [
+            "Phase 4: Return Filing & Base Calculation",
+            "Elect <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Alternative Simplified Credit (ASC)</a> on timely filed original return; reconcile prior 3 years of QREs under identical DOE criteria.",
+            "<a href=\"/us/glossary/irs-form-6765\">Form 6765</a> ASC Election and 3-year rolling QRE consistency workpapers.",
+            "Eliminates the fixed-base percentage (start-up company) and I.R.C. § 41(c)(6)(A) consistency rule vulnerability raised in <em>Davenport</em> and <em>Trinity</em>."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Strategic Conclusions for Federal R&D Tax Credit Governance"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ruling of the United States District Court for the Northern District of Texas in <em>United States v. Davenport</em> establishes an unforgiving boundary between routine commercial technology implementation and statutorily qualified research under I.R.C. § 41. When advising United States taxpayers across software engineering, systems integration, and industrial manufacturing sectors, tax practitioners and corporate counsel must recognize that outset technological uncertainty cannot be inherited mid-stream. Where a third-party vendor or systems integrator designs, builds, or customizes the core architecture of a business component, the taxpayer's downstream internal testing and configuration activities do not inherit the vendor's initial design uncertainty; rather, the taxpayer's own personnel—or properly contracted researchers acting under the taxpayer's technical direction and financial risk—must confront and resolve technological uncertainty existing at the inception of their research activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, <em>Davenport</em> confirms that validation testing and business workflow alignment are fatal to proving a process of experimentation. Running test scripts to verify whether customized commercial software meets operational needs—and relying on vendor patches or altering internal business workflows when discrepancies arise—is legally classified as simple trial-and-error validation rather than a scientific process of experimentation. Taxpayers must preserve objective evidence of formulating competing technical hypotheses, conducting systematic trials, analyzing performance data, and iteratively modifying underlying code or engineering designs. In parallel, commercial ERP rollouts require strict subcomponent isolation at the outset of the project, as claiming an entire COTS ERP implementation as a single business component left the Davenports without any subset cost evidence on which the court could apply the shrinking-back rule or estimate QREs, and exposes such claims to the Government's challenges under the 80 percent \"substantially all\" rule, the adaptation exclusion of I.R.C. § 41(d)(4)(B), and the internal-use software rules of I.R.C. § 41(d)(4)(E). Finally, <em>Davenport</em> underscores the weakness of retrospective tax studies: a retroactive R&D tax credit study prepared years after the tax year cannot defeat summary judgment where it offers only conclusory narratives, and in Davenport the study's own descriptions—like IBM's earlier proposals, their project phase definitions, and the deposition testimony—placed any uncertainty in the middle of the project rather than at its outset. Audit-ready substantiation requires aligning vendor contracts, pre-work independent contractor agreements, and internal engineering repositories in real time during the taxable year in which the research is conducted."
+    }
+  ]
+}

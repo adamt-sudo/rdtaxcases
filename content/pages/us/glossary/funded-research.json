@@ -1,0 +1,478 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Funded Research",
+  "description": "Research paid for by another person or government is excluded under IRC § 41(d)(4)(H) unless the performer bears the risk and keeps substantial rights.",
+  "summary": "Funded research is research paid for by another person or governmental entity through a grant, contract, or otherwise, and it is excluded from the federal R&D tax credit under IRC Section 41(d)(4)(H). U.S. taxpayers performing contract or grant-supported research can claim QREs only if they bear the economic risk and retain substantial rights in the results.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Funded research is research paid for by another person or governmental entity through a grant, contract, or otherwise, and it is excluded from the federal R&D tax credit under IRC Section 41(d)(4)(H). U.S. taxpayers performing contract or grant-supported research can claim QREs only if they bear the economic risk and retain substantial rights in the results."
+    },
+    {
+      "type": "heading",
+      "text": "Executive Summary: Statutory Mandate and Compliance Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal Credit for Increasing Research Activities, codified under Internal Revenue Code (IRC) <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">Section 41</a>, is designed to incentivize self-funded, domestic technological investment. Within this statutory architecture, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)(H)</a> establishes a mandatory categorical exclusion known as the \"Funded Research\" exclusion. The statute provides that <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a> does not include \"Any research to the extent funded by any grant, contract, or otherwise by another person (or governmental entity)\". Because the statutory text encompasses every form of external financial support—ranging from private commercial contracts to federal grants and state subsidies—corporate taxpayers may only include expenditures in their <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses (QREs)</a> base to the extent the taxpayer itself bears the financial investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proper application of the Funded Research exclusion is one of the primary focal points of Internal Revenue Service (IRS) examinations, where misclassifications routinely trigger disallowances and <a href=\"/us/faq/irs-penalties-for-improper-rd-tax-credit-claim\">tax penalties</a>. Determining whether research is funded operates as a legal and economic gatekeeper that shifts the compliance inquiry from the technical nature of the engineering work to the contractual allocation of financial risk and intellectual property ownership. Under the governing regulatory framework of Treasury Regulation Section 1.41-4A(d), a taxpayer performing research under an external payment arrangement is presumed to be conducting ineligible funded research unless it satisfies a cumulative two-prong standard: the Economic Risk Standard and the Substantial Rights Standard. Failure to satisfy either prong renders the underlying activities funded and excludes the associated costs from the credit calculation."
+    },
+    {
+      "type": "subheading",
+      "text": "The Presumption of Funding and the Substantiation Burden"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a performing entity receives external payments connected to research activities, IRS examination guidelines treat the arrangement as presumptively funded until the taxpayer affirmatively proves otherwise. Under Treasury Regulation Section 1.41-4(d), taxpayers claiming the Section 41 credit must maintain records in sufficiently usable form and detail to substantiate the eligibility of claimed QREs. However, because the formal regulation does not prescribe a rigid template for contemporaneous funded-research workpapers, operational compliance is governed in practice by the IRS <em><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guide</a>: Credit for Increasing Research Activities (i.e., Research Tax Credit) IRC § 41</em> (ATG), Chief Counsel Advice Memorandum 20214101F, and judicial precedent such as <em>Populous Holdings, Inc. v. Commissioner</em>, T.C. Memo. 2019-162."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under both Treasury Regulation Section 1.41-4A(d) and the IRS ATG, examiners do not evaluate isolated contract clauses in a vacuum; rather, all agreements, contract modifications, statements of work (SOWs), letters of understanding, and side instruments executed between the performing taxpayer and the funding entity are examined holistically to ascertain the true extent of external funding. Specifically, IRS examiners are directed to request and interpret contract provisions governing four core domains: compensation structures, payment schedules, nonpayment and default remedies, and intellectual property (IP) ownership or licensing terms. This stringent evidentiary standard prevents service providers executing compensated tasks on behalf of a third party from claiming tax incentives reserved for genuine at-risk research investors."
+    },
+    {
+      "type": "heading",
+      "text": "Legal and Regulatory Framework Governing the Exclusion"
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Scope of IRC Section 41(d)(4)(H)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The statutory text of IRC Section 41(d)(4)(H) establishes two foundational principles that govern all downstream regulatory calculations. First, the phrase \"to the extent funded\" establishes that funding is not strictly an all-or-nothing binary at the project level; a single research project may be partially funded by an external party and partially self-funded by the taxpayer. Where partial funding occurs, the taxpayer must apply specific regulatory expense allocation rules to segregate ineligible externally funded expenditures from eligible self-funded QREs. Second, the statutory phrase \"by any grant, contract, or otherwise by another person (or governmental entity)\" eliminates any distinction based on the identity or motive of the payor. Commercial customer contracts, federal agency awards, state economic development grants, and local municipal subsidies are all subject to identical statutory scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Operationalization Under Treasury Regulation Section 1.41-4A(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "While Treasury Regulation Section 1.41-4(d) addresses general recordkeeping requirements, the substantive rules governing the Funded Research exclusion are housed in Treasury Regulation Section 1.41-4A(d), which operationalizes IRC Section 41(d)(4)(H) across three primary regulatory subsections. First, Treasury Regulation Section 1.41-4A(d)(1) sets forth the general rule and <a href=\"/us/glossary/financial-risk-test\">Economic Risk Standard</a>, defining when research is treated as funded based on whether payment is contingent on the technical success of the research. Second, Treasury Regulation Section 1.41-4A(d)(2) establishes the <a href=\"/us/glossary/substantial-rights\">Substantial Rights Standard</a>, providing that research is treated as fully funded if the performing taxpayer retains no substantial rights in the research results, even if the taxpayer bears full financial risk. Third, Treasury Regulation Section 1.41-4A(d)(3) prescribes the methodology for allocating partial funding, establishing a default 100 percent QRE offset rule under paragraph (d)(3)(i) alongside a conditional pro rata allocation exception—subject to a 65 percent minimum funding floor—under paragraph (d)(3)(ii). Furthermore, under paragraph (d)(3)(iii), when the exact extent of external funding cannot be determined at the time the original tax return is filed, the regulatory framework requires provisional reporting of the research as completely funded, followed by subsequent adjustment via an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a> (such as Form 1120X or Form 1040X) once the funding amount becomes fixed and determinable."
+    },
+    {
+      "type": "heading",
+      "text": "The Cumulative Two-Prong Standard: Risk and Rights Analysis"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the funded research exclusion, a taxpayer performing research under a third-party contract or grant must satisfy both the Economic Risk Standard and the Substantial Rights Standard simultaneously. Determining whether these two prongs are satisfied is a facts-and-circumstances inquiry that hinges on the legal rights and obligations created by the governing contract at the outset of the project, rather than whether the project ultimately succeeded or generated a financial profit or loss in hindsight. In illustrative audit controversy models, funded research disputes are often estimated to account for 35 percent of all IRS research credit disallowances—exceeding disallowances for substantiation and documentation deficiencies (30 percent), <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> eligibility (20 percent), and base amount calculation errors (15 percent)—although official IRS Statistics of Income (SOI) and Government Accountability Office (GAO) publications do not release formally confirmed disaggregated disallowance percentages matching these specific figures."
+    },
+    {
+      "type": "subheading",
+      "text": "Prong 1: The Economic Risk Standard (Contingency of Payment)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation Section 1.41-4A(d)(1), amounts payable under any agreement that are contingent on the success of the research—and thus considered to be paid for the product or result of the research—are not treated as funding. Conversely, if the performing taxpayer is guaranteed payment regardless of whether the research successfully resolves the underlying technological uncertainty, the taxpayer is insulated from financial risk and the research is deemed funded. In essence, the regulation distinguishes between a taxpayer paid for a successful technical outcome (an investor bearing risk) and a taxpayer paid merely for time, effort, or incurred costs (a compensated service provider)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The economic risk inquiry depends directly on the contractual compensation structure governing the parties. Under <a href=\"/us/glossary/cost-plus-contract\">cost-plus contracts</a>, the customer reimburses the performing party for actual costs incurred plus a guaranteed fee or profit margin. Similarly, under standard hourly <a href=\"/us/glossary/time-and-materials-contract\">time-and-materials (T&M) contracts</a>, a developer is compensated for hours worked irrespective of whether the resulting software or engineering design functions as intended. Because the performing party in both cost-plus and hourly T&M arrangements is paid for its effort rather than a successful deliverable, these structures fail the Economic Risk Standard."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, under a <a href=\"/us/glossary/fixed-price-contract\">fixed-price or lump-sum contract</a>, the performing taxpayer commits to delivering a specified technical result or prototype for a predetermined price. If the technical approach fails, requires costly redesign, or incurs substantial cost overruns, the performing taxpayer must remedy the defects at its own expense and absorb the financial loss. Provided payment is contingent upon successful delivery and client acceptance of the research output, fixed-price structures generally satisfy the Economic Risk Standard. Between these two poles lie T&M contracts subject to a monetary ceiling (\"<a href=\"/us/glossary/capped-contract\">capped T&M</a>\"), which occupy a contentious gray area in IRS examinations and litigation. If the contractual cap is set high enough that it is rarely reached in practice, the arrangement operates economically as a standard T&M contract and is treated as funded. Conversely, if the cap is frequently hit and the contractor is legally obligated to complete and deliver the working solution at its own expense beyond the ceiling, the arrangement may function akin to a fixed-price contract."
+    },
+    {
+      "type": "subheading",
+      "text": "Prong 2: The Substantial Rights Standard (Intellectual Property Retention)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Satisfying the Economic Risk Standard is necessary but insufficient on its own. Under Treasury Regulation Section 1.41-4A(d)(2), if a taxpayer performing research for another person retains no substantial rights in the research under the terms of the agreement, the research is treated as funded. While the taxpayer is not required to retain exclusive rights to the research results, it must retain a meaningful, unrestricted right to use or exploit the resulting technology, processes, or technical know-how in its own trade or business."
+    },
+    {
+      "type": "paragraph",
+      "text": "A performing taxpayer fails the Substantial Rights Standard under two primary contractual conditions. First, where a contract contains an exclusive assignment or \"work made for hire\" clause that assigns sole and exclusive ownership of all inventions, designs, code, and derived know-how to the client—effectively locking the researcher out of using the results for other commercial clients or internal projects—the researcher retains no substantial rights. Second, under Treasury Regulation Section 1.41-4A(d)(2) and the IRS ATG, a taxpayer does not retain substantial rights in the research if the taxpayer must pay a royalty, license fee, or other consideration to the funding party to use the research results in future projects."
+    },
+    {
+      "type": "subheading",
+      "text": "The Double Ineligibility Trap and the Mirror Asymmetry with Contract Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical structural vulnerability identified in Treasury Regulation Section 1.41-4A(d)(2) and the IRS ATG is the \"Double Ineligibility Trap\". Suppose a performing contractor enters into a strict fixed-price contract where payment is wholly contingent upon successful technical delivery (thereby passing the Economic Risk Standard), but the contract contains a sweeping IP clause transferring exclusive ownership of all research results to the customer (thereby failing the Substantial Rights Standard). Because the contractor failed the Substantial Rights prong, the contractor is barred from claiming the Section 41 credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, under the mirror rules governing the customer (the funding payor) in IRC Section 41(b)(3) and Treasury Regulation Section 1.41-2(e), <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">payments made to an outside contractor</a> are only includible as Contract Research Expenses (at 65 percent of the eligible payment under IRC Section 41(b)(3)(A)) if the agreement is entered into prior to the performance of the research, the research is performed \"on behalf of\" the taxpayer, and the payor bears the financial risk (meaning the payor makes payments that are not contingent on the success of the research). Because payment under the fixed-price contract was contingent on success, the customer did not bear the financial risk of failure; consequently, if the customer only pays upon success or does not otherwise satisfy the trade-or-business and qualified research requirements, neither the performing contractor nor the funding payor can claim the R&D tax credit for those expenditures."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Analytical Dimension",
+        "Performing Researcher (Internal QREs)",
+        "Funding Payor (Contract Research QREs)",
+        "Statutory & Regulatory Authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Governing Statutory Provision",
+            "IRC § 41(d)(4)(H) (Funded Research Exclusion)",
+            "IRC § 41(b)(3) (Contract Research Expenses)",
+            "IRC § 41(b)(3); IRC § 41(d)(4)(H)"
+          ]
+        },
+        {
+          "cells": [
+            "Eligible Expense Inclusion Rate",
+            "100% of eligible <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">internal QREs</a> (wages, supplies) if unfunded",
+            "<a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% of eligible payments to third-party contractor</a>",
+            "IRC § 41(b)(1)–(3)"
+          ]
+        },
+        {
+          "cells": [
+            "Economic Risk Requirement",
+            "Payment to researcher must be contingent on technical success",
+            "Payment by payor must NOT be contingent on success (payor bears risk)",
+            "Treas. Reg. § 1.41-4A(d)(1); Treas. Reg. § 1.41-2(e); IRS ATG"
+          ]
+        },
+        {
+          "cells": [
+            "Substantial Rights Requirement",
+            "Researcher must retain unrestricted right to use results without paying funder",
+            "Payor must hold substantial rights to the research results",
+            "Treas. Reg. § 1.41-4A(d)(2); Treas. Reg. § 1.41-2(e); IRS ATG"
+          ]
+        },
+        {
+          "cells": [
+            "Double Ineligibility Trap Scenario",
+            "Fixed-price contingent payment (has risk) + Exclusive IP transfer to client (no rights) = Ineligible ($0 QREs)",
+            "Contingent payment on success (payor lacks risk) or non-qualifying payor = Ineligible ($0 QREs)",
+            "Treas. Reg. § 1.41-4A(d)(2); IRS ATG"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Application to Government Grants and Customer-Initiated Contracts"
+    },
+    {
+      "type": "subheading",
+      "text": "Federal and State Grants (Including SBIR and STTR Awards)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public-sector funding instruments—including <a href=\"/us/faq/grant-funding-rd-tax-credit-eligibility\">federal, state, and municipal grants</a> as well as awards under the Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs—carry severe audit exposure under the Funded Research exclusion. Grant agreements frequently disburse funds upfront, on a cost-reimbursable basis, or upon the completion of administrative or technical tasks regardless of whether the final commercial or technical objective is achieved. Because the grantee is not obligated to repay the grant funds if the experimentation fails to resolve the technological uncertainty, the grantee is shielded from economic risk, failing Treasury Regulation Section 1.41-4A(d)(1). Moreover, many government contracts vest exclusive or priority ownership of deliverables in the governmental agency or impose strict security and usage restrictions that prevent the contractor from freely reusing the underlying IP in commercial operations, triggering failure under Treasury Regulation Section 1.41-4A(d)(2)."
+    },
+    {
+      "type": "subheading",
+      "text": "Customer-Initiated Research and the Populous Precedent"
+    },
+    {
+      "type": "paragraph",
+      "text": "In contrast to cost-reimbursable grants, commercial <a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">architecture, engineering</a>, and custom manufacturing firms frequently perform customer-initiated research that can qualify as unfunded under principles established in judicial precedent such as <em>Populous Holdings, Inc. v. Commissioner</em>, T.C. Memo. 2019-162. In <em>Populous</em>, the Tax Court examined contracts in which an <a href=\"/us/faq/architect-rd-tax-credit-eligibility\">architectural design firm</a> performed research under fixed-fee arrangements where payment depended on successful deliverable acceptance and no contractual provision barred the taxpayer from reusing the resulting research know-how."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Example 1: Fixed-Fee Engineering Contract Under the Populous Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate how customer-initiated research satisfies the cumulative two-prong standard under the <em>Populous</em> framework, consider a scenario in which an engineering firm (the taxpayer) executes a contract with a commercial client to design a novel, high-efficiency cooling system for a specialized facility. Because the required thermal performance specifications cannot be achieved using standard engineering practices, the firm must conduct a systematic process of experimentation evaluating multiple fluid-dynamics models and material compositions, thereby satisfying the core <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a> for qualified research under IRC Section 41(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "With respect to the Economic Risk Standard, the agreement is structured as a fixed-fee contract under which payment is contingent upon the final, successful delivery and client approval of the design specification and <a href=\"/us/glossary/prototype-development\">functional prototype</a>. If the research effort fails to meet performance specifications or incurs engineering cost overruns exceeding the fixed price, the engineering firm absorbs the entire financial loss, satisfying Treasury Regulation Section 1.41-4A(d)(1). With respect to the Substantial Rights Standard, the contract stipulates that while the customer owns the final physical cooling system design package for that specific facility, the engineering firm explicitly retains the unrestricted, royalty-free right to all derived technical know-how, modeling methodologies, computational algorithms, and experimental results developed during the project. Because the firm can reuse that technological information in future, unrelated commercial projects without paying the original customer, it satisfies Treasury Regulation Section 1.41-4A(d)(2). Consequently, the research conducted by the engineering firm is unfunded, permitting the firm to claim 100 percent of its eligible internal QREs—such as employee wages and prototype supplies—attributable to the experimentation."
+    },
+    {
+      "type": "heading",
+      "text": "Expense Allocation Mechanics for Partially Funded Research"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a research project receives external funding that fails either the Economic Risk Standard or the Substantial Rights Standard, the statutory phrase \"to the extent funded\" in IRC Section 41(d)(4)(H) requires the taxpayer to reduce its eligible QREs by the funded amount. When total project costs exceed the external funding received, Treasury Regulation Section 1.41-4A(d)(3) establishes two distinct allocation regimes: a punitive default rule and a conditional pro rata exception."
+    },
+    {
+      "type": "subheading",
+      "text": "The General 100 Percent Offset Rule: Treasury Regulation Section 1.41-4A(d)(3)(i)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the default rule of Treasury Regulation Section 1.41-4A(d)(3)(i), external funding received by a taxpayer is applied 100 percent directly against otherwise qualified research expenses before any portion is allocated to non-qualified project costs (such as routine engineering, <a href=\"/us/glossary/quality-control-testing\">quality control</a>, overhead, or administrative support). This default allocation is severely punitive whenever a project involves substantial non-qualified expenditures, because every dollar of external reimbursement erodes the taxpayer's QRE base dollar-for-dollar."
+    },
+    {
+      "type": "subheading",
+      "text": "The Conditional Pro Rata Exception and the 65 Percent Floor: Treasury Regulation Section 1.41-4A(d)(3)(ii)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To mitigate the harshness of the 100 percent default offset, Treasury Regulation Section 1.41-4A(d)(3)(ii) permits a taxpayer to allocate external funding pro rata between qualified research expenses and non-qualified research expenses attributable to the project, provided the taxpayer satisfies three cumulative conditions. First, the taxpayer must establish, to the satisfaction of the IRS, the total amount of all research expenses (<em>E</em><sub>total</sub>)—both QREs and non-QREs—incurred on the project. Second, the total amount of all research expenses on the project must exceed the total external funding (<em>F</em>) received, demonstrating net self-funding by the taxpayer (<em>E</em><sub>total</sub> &gt; <em>F</em>). Third, the taxpayer's otherwise qualified research expenses (<em>Q</em><sub>initial</sub>, calculated prior to the funded research reduction) must exceed 65 percent of the total external funding (<em>F</em>) received:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Q</em><sub>initial</sub> &gt; 0.65 × <em>F</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when all three prerequisites are satisfied, Treasury Regulation Section 1.41-4A(d)(3)(ii) imposes a strict ceiling on the benefit of pro rata allocation (referred to as the 65 percent minimum allocation floor): in no event shall less than 65 percent of the total funding be applied against the otherwise qualified research expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although tax commentaries occasionally refer to this 65 percent minimum allocation floor as a statutory constraint embedded within IRC Section 41(d)(4)(H), an examination of the verbatim 18-word text of IRC Section 41(d)(4)(H) (\"Any research to the extent funded by any grant, contract, or otherwise by another person (or governmental entity)\") confirms that the statute itself contains no numerical 65 percent floor. Rather, the 65 percent threshold and minimum allocation floor are regulatory constraints promulgated by the Treasury Department in Treasury Regulation Section 1.41-4A(d)(3)(ii), modeled by analogy to the 65 percent statutory inclusion rate for contract research expenses under IRC Section 41(b)(3)(A). Under the standard hierarchy of federal tax authority, because this floor resides in Treasury Regulation Section 1.41-4A(d)(3)(ii) rather than the statutory text of IRC Section 41(d)(4)(H), the Treasury Department possesses administrative authority to amend the allocation formula via regulation without requiring an Act of Congress, although legislative modification of IRC Section 41(d)(4)(H) could also override the regulation."
+    },
+    {
+      "type": "subheading",
+      "text": "Hypothetical Example 2: Step-by-Step Allocation Comparison ($100,000 Project)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate the exact mathematical operation of Treasury Regulation Section 1.41-4A(d)(3)(i) and (ii), consider a research project that incurs total research expenses (<em>E</em><sub>total</sub>) of $100,000, consisting of $50,000 in otherwise qualified research expenses (<em>Q</em><sub>initial</sub>, or 50 percent of total project costs) and $50,000 in non-qualified research expenses (<em>E</em><sub>non-QRE</sub>, or 50 percent of total project costs), while the taxpayer receives $40,000 in external funding (<em>F</em>) that fails the Risk and Rights tests."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the General 100 Percent Offset Rule of Treasury Regulation Section 1.41-4A(d)(3)(i), if the taxpayer does not maintain segregated <a href=\"/us/glossary/project-accounting\">project accounting</a> records sufficient to establish total non-QRE project costs to the satisfaction of the IRS, 100 percent of the $40,000 funding is applied directly against the $50,000 in QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Q</em><sub>surviving</sub> = <em>Q</em><sub>initial</sub> − <em>F</em> = $50,000 − $40,000 = $10,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under this default regime, $40,000 of QREs are eliminated, leaving only $10,000 in surviving QREs despite the fact that half of the project's costs were non-qualified."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, assume the taxpayer maintains comprehensive project accounting records establishing total project expenses of ); and otherwise qualified research expenses ($50,000) exceed 65 percent of total funding:"
+    },
+    {
+      "type": "paragraph",
+      "text": "0.65 × <em>F</em> = 0.65 × $40,000 = $26,000 (and $50,000 &gt; $26,000)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To compute the allocation under the pro rata exception, the taxpayer first calculates the unadjusted mathematical pro rata share of funding attributable to QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pro Rata Share = <em>F</em> × (<em>Q</em><sub>initial</sub> / <em>E</em><sub>total</sub>) = $40,000 × ($50,000 / $100,000) = $40,000 × 0.50 = $20,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Next, the taxpayer must apply the mandatory 65 percent minimum allocation floor under Treasury Regulation Section 1.41-4A(d)(3)(ii), which dictates that in no event shall less than 65 percent of total funding ($26,000) be applied against otherwise qualified research expenses:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Funding Offset = max(Pro Rata Share, 0.65 × <em>F</em>) = max($20,000, $26,000) = $26,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subtracting this floored offset from the initial QREs yields the surviving eligible QREs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Q</em><sub>surviving</sub> = <em>Q</em><sub>initial</sub> − Funding Offset = $50,000 − $26,000 = $24,000"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Allocation Parameter / Step",
+        "General 100% Offset Rule (Treas. Reg. § 1.41-4A(d)(3)(i))",
+        "Pro Rata Exception With 65% Floor (Treas. Reg. § 1.41-4A(d)(3)(ii))",
+        "Pure Mathematical Pro Rata (Unfloored Benchmark)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Total Project Expenses (<em>E</em><sub>total</sub>)",
+            "$100,000 (Unverified/Unsegregated)",
+            "$100,000 (Substantiated to IRS)",
+            "$100,000"
+          ]
+        },
+        {
+          "cells": [
+            "Initial QREs (<em>Q</em><sub>initial</sub>)",
+            "$50,000",
+            "$50,000",
+            "$50,000"
+          ]
+        },
+        {
+          "cells": [
+            "Non-Qualified Expenses (<em>E</em><sub>non-QRE</sub>)",
+            "$50,000",
+            "$50,000",
+            "$50,000"
+          ]
+        },
+        {
+          "cells": [
+            "External Funding Received (<em>F</em>)",
+            "$40,000",
+            "$40,000",
+            "$40,000"
+          ]
+        },
+        {
+          "cells": [
+            "65% Funding Floor (0.65 × <em>F</em>)",
+            "Not Applicable",
+            "$26,000 Minimum QRE Reduction",
+            "Not Applicable"
+          ]
+        },
+        {
+          "cells": [
+            "Funding Applied Against QREs",
+            "$40,000 (100% of $40,000)",
+            "$26,000 (max($20,000, $26,000))",
+            "$20,000 (50% of $40,000)"
+          ]
+        },
+        {
+          "cells": [
+            "Surviving Eligible QRE Base",
+            "$10,000",
+            "$24,000",
+            "$30,000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "As this comparison demonstrates, satisfying the cost-segregation requirements of Treasury Regulation Section 1.41-4A(d)(3)(ii) increases the taxpayer's surviving QRE base from $10,000 to $24,000 (a 140 percent increase in eligible QREs), even though the 65 percent regulatory floor imposes an additional $6,000 QRE reduction relative to an unfloored 50/50 pro rata split ($30,000 surviving QREs). Moreover, as a mathematical property of the regulation, the pro rata allocation only yields a smaller reduction than the 65 percent floor when the ratio <em>Q</em><sub>initial</sub> / <em>E</em><sub>total</sub> is less than 65 percent; whenever QREs constitute more than 65 percent of total project costs (for instance, if <em>Q</em><sub>initial</sub> were $70,000 out of $100,000), the pro rata reduction (70 percent of $40,000, or $28,000) exceeds the $26,000 floor and governs the offset."
+    },
+    {
+      "type": "subheading",
+      "text": "Provisional Reporting for Indeterminable Funding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation Section 1.41-4A(d)(3)(iii) and the IRS ATG, if the extent to which research is funded cannot be determined at the time the taxpayer files its original federal income tax return—such as when a grant reimbursement is pending agency approval or a complex contractual milestone settlement remains unresolved—the taxpayer must provisionally treat the research as 100 percent funded on the original return for that taxable year. When the exact amount of external funding is subsequently determined in a later period, the taxpayer must file an amended return (Form 1120X for corporate taxpayers or Form 1040X for individual/<a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through taxpayers</a>) to adjust the QRE base and claim the properly allocated credit."
+    },
+    {
+      "type": "heading",
+      "text": "Audit Defense and Documentation Protocols Under the IRS ATG"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the IRS ATG directs examiners to treat any external funding arrangement as a primary audit target, effective <a href=\"/us/glossary/rd-tax-credit-audit-defense\">audit defense</a> requires contemporaneous project-level recordkeeping rather than retrospective reconstruction during an examination. Furthermore, to submit a valid <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">administrative refund claim</a> for the research credit, Chief Counsel Advice Memorandum 20214101F requires taxpayers to identify all business components to which the Section 41 research credit claim relates for that year, identify all research activities performed for each business component, name the individuals who performed each research activity, and specify the information each individual sought to discover, alongside total qualified employee wage, supply, and contract research expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "To substantiate that externally contracted or grant-supported projects satisfy the Economic Risk and Substantial Rights standards (or qualify for pro rata expense allocation), compliance workpapers must assemble four core evidentiary packages mapped directly to IRS ATG examination requests:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Documentation Category",
+        "Specific Records Required by IRS Examiners",
+        "Compliance Objective & Regulatory Link"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Contractual Instruments",
+            "Complete Master Services Agreements (MSAs), Statements of Work (SOWs), contract modifications, change orders, letters of understanding, and grant award documents.",
+            "Establishes the binding legal terms governing payment, default/nonpayment remedies, and IP ownership across the entire arrangement (Treas. Reg. § 1.41-4A(d); IRS ATG)."
+          ]
+        },
+        {
+          "cells": [
+            "Compensation & Risk Analysis",
+            "Workpapers classifying each contract by pricing structure (fixed-price, capped T&M, cost-plus, milestone), along with evidence of unreimbursed rework or defect remediation costs borne by the taxpayer.",
+            "Substantiates that payment was contingent on technical success and that the taxpayer bore the <a href=\"/us/glossary/significant-economic-risk\">economic risk</a> of failure (Treas. Reg. § 1.41-4A(d)(1))."
+          ]
+        },
+        {
+          "cells": [
+            "Substantial Rights Memoranda",
+            "Formal legal analysis of IP assignment, work-for-hire, confidentiality, and security clauses demonstrating retained rights to reuse underlying technical know-how without paying royalties.",
+            "Proves retention of substantial rights in the research results and avoids the Double Ineligibility Trap (Treas. Reg. § 1.41-4A(d)(2); <em>Populous</em> principle)."
+          ]
+        },
+        {
+          "cells": [
+            "Project-Level Cost Segregation",
+            "General ledger account details, <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">time-tracking logs</a>, invoices, and purchase orders mapping both QREs (wages, supplies) and non-QREs to discrete R&D projects.",
+            "Satisfies the three cumulative conditions for the Pro Rata Exception and prevents default to the punitive 100% QRE offset rule (Treas. Reg. § 1.41-4A(d)(3)(ii); <a href=\"/us/faq/irs-ccm-20214101f-impact-rd-claims\">CCA 20214101F</a>)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In complex commercial or classified government contracts, standard commercial boilerplate governing security clearances, export controls, or deliverable title can inadvertently strip a contractor of substantial rights under federal tax law. Engaging specialized tax counsel to review and interpret ambiguous IP and nonpayment provisions is therefore critical to defending unfunded status during an IRS examination."
+    },
+    {
+      "type": "heading",
+      "text": "Strategic Conclusions and Policy Recommendations"
+    },
+    {
+      "type": "subheading",
+      "text": "Proactive Contract Vetting and Negotiation Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "For corporate tax departments and chief financial officers, mitigating Funded Research disallowances requires shifting compliance upstream from post-year-end tax return preparation to pre-execution contract negotiation. Organizations performing custom engineering, software development, or scientific research should institutionalize a mandatory internal vetting protocol in which tax and legal specialists evaluate all prospective customer MSAs, SOWs, and government grant agreements prior to signature, assigning an internal \"Funded Risk Score\" based on payment contingency and IP retention clauses. Identifying disqualifying cost-plus, hourly T&M, or work-for-hire language before contract execution allows corporate leadership to weigh the commercial certainty of guaranteed payment against the direct tax value of preserving the Section 41 credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "As illustrated in a $1,000,000 project cost comparison (assuming an illustrative 10 percent net credit rate), structuring an engagement as an unfunded fixed-price contract with retained IP rights preserves $100,000 in estimated research tax credits, whereas failing either the Economic Risk Standard (via an hourly T&M structure) or the Substantial Rights Standard (via an exclusive work-for-hire IP transfer) reduces the performing taxpayer's credit to $0."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Hypothetical Contract Scenario ($1,000,000 Project Cost)",
+        "Economic Risk Prong (Treas. Reg. § 1.41-4A(d)(1))",
+        "Substantial Rights Prong (Treas. Reg. § 1.41-4A(d)(2))",
+        "Funded Research Classification",
+        "Estimated Tax Credit Value (at 10% Illustrative Rate)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Unfunded (Fixed Price + Retained Know-How Rights)",
+            "Passed (Payment contingent on delivery; researcher absorbs overruns)",
+            "Passed (Researcher retains unrestricted right to reuse know-how)",
+            "Unfunded (Eligible)",
+            "$100,000"
+          ]
+        },
+        {
+          "cells": [
+            "Funded via Risk Failure (Hourly Time & Materials)",
+            "Failed (Guaranteed hourly payment for effort regardless of outcome)",
+            "Passed or Failed (Irrelevant once Risk Prong fails)",
+            "Funded (Ineligible)",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Funded via Rights Failure (Fixed Price + Exclusive IP Transfer)",
+            "Passed (Researcher bears financial risk of cost overruns)",
+            "Failed (Work-for-hire clause transfers all IP rights to client)",
+            "Funded (Ineligible)",
+            "$0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When commercial clients demand exclusive title to a final physical deliverable or facility-specific design package, contracts should be negotiated to mirror the <em>Populous</em> framework—explicitly reserving the researcher's unrestricted, royalty-free right to retain and reuse all underlying methodologies, computational algorithms, and experimental know-how in future commercial engagements. In transactions where the performing contractor cannot retain substantial rights, the contracting parties should coordinate terms so that the funding client is positioned to claim 65 percent of the payments as Contract Research Expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC Section 41(b)(3)</a>, thereby avoiding the Double Ineligibility Trap. Furthermore, when accepting government grants or partial third-party funding, taxpayers should explicitly delineate project phases and budget lines within the contract so that external funds are directed toward non-qualified activities—such as administrative overhead, routine testing, or commercial production—while high-uncertainty experimental phases are isolated and self-funded by the taxpayer."
+    },
+    {
+      "type": "subheading",
+      "text": "Recommendations for Administrative and Regulatory Reform"
+    },
+    {
+      "type": "paragraph",
+      "text": "To reduce audit friction and modernize the application of IRC Section 41(d)(4)(H), three priority areas warrant administrative or legislative reform. First, the Treasury Department and the IRS should issue updated regulations or a formal Revenue Procedure clarifying how the Economic Risk and Substantial Rights standards apply to complex multi-party collaborative environments—including joint ventures, multi-tier supply chain research, and industry consortia—to ensure consistent credit allocation and eliminate the Double Ineligibility Trap when neither party holds traditional bilateral contract rights. Second, because the 65 percent minimum allocation floor in Treasury Regulation Section 1.41-4A(d)(3)(ii) prevents a pure mathematical pro rata allocation whenever QREs represent less than 65 percent of total project costs, reforming this constraint (via regulatory amendment to Treasury Regulation Section 1.41-4A(d)(3)(ii) or legislative modification of IRC Section 41(d)(4)(H)) to permit true proportionate allocation for taxpayers who maintain exhaustive cost-segregation records would reward rigorous recordkeeping and align the exclusion precisely with the statutory phrase \"to the extent funded\". Third, the IRS should establish a formal \"Funded Research Safe Harbor\" procedure providing model contract clauses, internal control standards, and project accounting templates that automatically satisfy examiners regarding the retention of economic risk and substantial rights, thereby curbing protracted contract-interpretation disputes during IRS audits."
+    }
+  ]
+}

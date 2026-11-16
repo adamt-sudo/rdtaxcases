@@ -1,0 +1,853 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Qualified Research Expenses (QREs)",
+  "description": "Qualified research expenses are the IRC Section 41 cost base: in-house wages, supplies, computer rental and generally 65% of contract research.",
+  "summary": "Qualified research expenses (QREs) are the statutory cost base for the federal research credit under IRC Section 41, limited to in-house wages, supplies, computer rental costs, and generally 65% of contract research for U.S. businesses whose activities pass the Four-Part Test. Validated QREs reduce federal income tax or, for qualified small businesses, offset up to $500,000 in payroll taxes annually.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Qualified research expenses (QREs) are the statutory cost base for the federal research credit under IRC Section 41, limited to in-house wages, supplies, computer rental costs, and generally 65% of contract research for U.S. businesses whose activities pass the Four-Part Test. Validated QREs reduce federal income tax or, for qualified small businesses, offset up to $500,000 in payroll taxes annually."
+    },
+    {
+      "type": "paragraph",
+      "text": "Qualified Research Expenses (QREs) constitute the statutory cost base used to compute the federal Credit for Increasing Research Activities under Internal Revenue Code (IRC) Section 41. Rather than encompassing all corporate research and development (R&D) spending, QREs are strictly bounded by IRC Section 41(b) and Treasury Regulation Section 1.41-2 to four specific expenditure categories—in-house employee wages for qualified services, tangible non-depreciable supplies consumed in research, certain off-premises computer leasing or time-sharing costs, and a statutorily limited percentage (generally 65%, 75%, or 100%) of third-party contract research payments—incurred in connection with activities that satisfy every element of the mandatory IRC Section 41(d) <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a>. For profitable enterprises, validated QREs generate a dollar-for-dollar reduction in federal income tax liability under either the 20% Regular Credit Method or the 14% <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Alternative Simplified Credit (ASC) Method</a>. For eligible early-stage ventures classified as <a href=\"/us/glossary/qualified-small-business-qsb\">Qualified Small Businesses (QSBs)</a>, QREs can be monetized immediately as a payroll tax offset of up to $500,000 annually against employer Social Security and Medicare tax liabilities under IRC Sections 41(h) and 3111(f)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Five foundational statutory, regulatory, and procedural updates govern contemporary QRE compliance and optimization:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Enactment of IRC Section 174A (P.L. 119-21 and Rev. Proc. 2025-28):</strong> Public Law 119-21 (139 Stat. 72), commonly known as the One, Big, Beautiful Bill Act (OBBBA), was signed into law on July 4, 2025, enacting IRC Section 174A to restore immediate domestic <a href=\"/us/glossary/research-and-experimental-expenditures\">research and experimental (R&E)</a> expensing for taxable years beginning after December 31, 2024, followed by comprehensive IRS procedural rules in Revenue Procedure 2025-28 on August 28, 2025.",
+        "<strong>Cloud Computing Costs vs. Tangible Supplies:</strong> Under IRC Section 41(b)(2)(C), qualified supplies are restricted exclusively to tangible property; <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">off-premises cloud server rentals</a> and hosted development environments qualify instead under the separate statutory provision for leasing or time-sharing computers under IRC Section 41(b)(2)(A)(iii) and Treasury Regulation Section 1.41-2(b)(4), and must be segregated on Line 44 and Line 55 of redesigned IRS Form 6765.",
+        "<strong>Application of the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">80% \"Substantially All\" Wage Rule</a>:</strong> Under IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(d)(2), when an employee spends at least 80% of their total working time during the taxable year performing qualified services, 100% of that employee's Form W-2 Box 1 taxable wages qualify as QREs rather than a pro-rata 80% allocation.",
+        "<strong>ASC Election Binding Effect and Revocation:</strong> Under IRC Section 41(c)(4) and Treasury Regulation Section 1.41-9(b), an Alternative Simplified Credit (ASC) election is not a standalone single-year election; once made, it applies to the election year and all subsequent taxable years unless revoked with IRS consent—though consent to revoke is automatically deemed granted if the taxpayer completes Section A (Regular Credit) on a timely filed original return (and never on an amended return).",
+        "<strong>QSB Payroll Tax Offset Expansion and Redesigned Form 6765:</strong> The <a href=\"/us/faq/startup-rd-payroll-tax-offset\">QSB payroll tax credit</a> cap was doubled by the Inflation Reduction Act of 2022 to $500,000 per year for tax years beginning after December 31, 2022, and expanded to offset both employer Social Security (6.2%) and employer Medicare (1.45%) taxes. Concurrently, the redesigned <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> (Rev. December 2024; Instructions Rev. December 2025) introduces mandatory business-component-level QRE reporting in Sections E, F, and G for tax years beginning after 2025."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "1. Statutory and Regulatory Foundation of Qualified Research Expenses"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1 Legal Basis and the Trade or Business Requirement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">IRC Section 41(a)(1)</a>, a taxpayer's research credit is anchored on the excess of current-year QREs over a historical base amount. <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">IRC Section 41(b)(1)</a> defines \"qualified research expenses\" as the sum of in-house research expenses and contract research expenses that are \"paid or incurred by the taxpayer during the taxable year in carrying on any trade or business of the taxpayer\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation Section 1.41-2(a)(1) establishes that the phrase \"in carrying on a trade or business\" under IRC Section 41(b)(1) carries the exact same legal standard as IRC Section 162 (ordinary and necessary business expenses). Crucially, this is a stricter requirement than the standard under IRC Section 174 or Section 174A, which permits deductions or amortization for R&E expenditures paid or incurred merely \"in connection with\" a taxpayer's trade or business. Under Treasury Regulation Section 1.41-2(a)(1)–(2), expenses paid or incurred prior to commencing a new trade or business—as distinguished from expanding an existing trade or business—do not satisfy the general Section 41(b)(1) trade or business test. Similarly, a contract research expense is disqualified as not being incurred in carrying on a trade or business if the resulting product or technology is intended solely to be transferred to another party in return for license or royalty payments and the taxpayer does not actively use the product in its own trade or business."
+    },
+    {
+      "type": "paragraph",
+      "text": "Where research is conducted through a partnership or joint venture, Treasury Regulation Section 1.41-2(a)(4)(i) provides that the trade or business requirement is generally evaluated at the partnership level without regard to the individual trades or businesses of the partners. However, Treasury Regulation Section 1.41-2(a)(4)(ii) provides a specialized exception for certain joint ventures that are not themselves carrying on the trade or business to which the research relates: if all partners or venturers are entitled to make independent use of the results of the research, a portion of the partnership's research expenditures may still qualify for eligible partners. In that scenario, total QREs are first computed as if the partnership met the trade or business test, then reduced by the proportionate share allocable to partners who could not claim the credit directly (using their highest share of partnership income or gain), and finally allocated among the remaining eligible partners according to the relative proportions in which they share Section 174 or Section 174A R&E deductions for the taxable year. For example, if two computer developers (Corporations A and B, each holding a 30% distributive share) and an investment bank (Corporation C, holding a 40% share) form a research joint venture that incurs $100x to develop a supercomputer that all venturers may use independently, Corporation C's 40% share ($40x) is excluded because banking does not use the supercomputer research in carrying on a trade or business, while Corporations A and B split the remaining $60x equally ($30x each) based on their relative 30%-to-30% R&E deduction ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the strict Section 162 standard from disqualifying pre-revenue technology, life sciences, and industrial startups, Congress enacted a targeted statutory exception in <a href=\"/us/legislation/26-usc-41b4-startup-ventures-research-expenses\">IRC Section 41(b)(4)</a> (\"Trade or business requirement disregarded for in-house research expenses of certain startup ventures\"). Under Section 41(b)(4), a taxpayer is treated as satisfying the trade or business requirement of Section 41(b)(1) with respect to in-house research expenses if, at the time the expenses are paid or incurred, the taxpayer's principal purpose in making the expenditures is to use the results of the research in the active conduct of a future trade or business of (A) the taxpayer, or (B) one or more other persons who, together with the taxpayer, are treated as a single taxpayer under the <a href=\"/us/glossary/aggregation-rules\">controlled-group aggregation rules</a> of IRC Section 41(f)(1). By its express statutory text, this startup relief applies to in-house research expenses under Section 41(b)(4) and operates in tandem with the Qualified Small Business (QSB) payroll tax election under Section 41(h), enabling <a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">pre-revenue enterprises</a> to convert early-stage in-house QREs into immediate payroll tax liquidity."
+    },
+    {
+      "type": "subheading",
+      "text": "1.2 The Interplay Between IRC Section 41, Section 174, and Section 174A"
+    },
+    {
+      "type": "paragraph",
+      "text": "A comprehensive QRE strategy requires navigating the statutory intersection between IRC Section 41 (which governs the calculation of the research tax credit based on QREs), IRC Section 174 and Section 174A (which govern the timing of income tax deductions or capitalization for R&E expenditures), and IRC Section 280C(c) (which prevents a double tax benefit for the same research dollar)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Regime & Period",
+        "Domestic R&E Expenditure Treatment",
+        "Foreign R&E Expenditure Treatment",
+        "Impact on IRC § 41 Credit & Cash Flow"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Pre-TCJA Regime</strong> (Tax years beginning before Jan. 1, 2022)",
+            "Immediate deduction in the year paid or incurred under former IRC § 174(a), or elective amortization over ≥60 months under former § 174(b).",
+            "Same as domestic (immediate deduction or elective ≥60-month amortization).",
+            "Full current deduction plus IRC § 41 credit (subject to § 280C(c) deduction reduction or reduced credit election)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">TCJA</a> Mandatory Capitalization</strong> (P.L. 115-97, § 13206; Tax years beginning after Dec. 31, 2021, and before Jan. 1, 2025)",
+            "<a href=\"/us/glossary/r-and-e-capitalization\">Mandatory capitalization</a> and ratable amortization over 5 years beginning with the midpoint of the tax year incurred (10% deduction in Year 1).",
+            "Mandatory capitalization and ratable amortization over 15 years beginning with the midpoint of the tax year incurred.",
+            "Created a <a href=\"/us/faq/tcja-impact-on-rd-tax-credit\">severe cash flow paradox</a>: deferring 90% of Year 1 domestic R&E deductions inflated current taxable income, often exceeding the § 41 credit benefit."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Post-OBBBA Regime (IRC § 174A & Amended § 174)</strong> (P.L. 119-21, § 70302, enacted July 4, 2025; Tax years beginning after Dec. 31, 2024)",
+            "Immediate deduction under IRC § 174A(a), or elective capitalization and amortization over ≥60 months (from month benefits first realized) under § 174A(c), or 10-year amortization under § 59(e).",
+            "Remains under amended IRC § 174(a)–(b): mandatory capitalization and 15-year midpoint amortization; no deduction allowed upon disposition, retirement, or abandonment (§ 174(d)).",
+            "Restores immediate domestic expensing alongside the § 41 credit; requires § 280C(c)(1) reduction of § 174A expenditures unless the § 280C(c)(2) reduced credit is elected."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>OBBBA Transition Rules for 2022–2024 Costs</strong> (P.L. 119-21, § 70302(f); Rev. Proc. 2025-28, issued Aug. 28, 2025)",
+            "(1) General Taxpayers: Default to remaining 5-year schedule, OR elect 1-year full recovery (2025) or 2-year ratable recovery (2025–2026) of unamortized 2022–2024 domestic balances. (2) Eligible Small Businesses (§ 448(c)): May elect (by July 6, 2026) to apply § 174A retroactively to tax years beginning after Dec. 31, 2021.",
+            "No transition relief; foreign R&E continues on its 15-year amortization schedule.",
+            "Accelerated recovery of 2022–2024 unamortized domestic costs is treated as \"amortization\" for § 163(j) ATI purposes, but can trigger syndicate/tax shelter rules under § 448."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Prior to 2022, taxpayers generally deducted R&E expenditures in the year paid or incurred. However, the Tax Cuts and Jobs Act of 2017 (TCJA, P.L. 115-97, § 13206) amended IRC Section 174 for taxable years beginning after December 31, 2021, requiring taxpayers to capitalize all \"specified research or experimental expenditures\" (including <a href=\"/us/faq/section-174-software-development-amortization\">software development costs</a>) and amortize them ratably over five years for domestic research and 15 years for foreign research, beginning at the midpoint of the taxable year in which the expenses were paid or incurred. Because the <a href=\"/us/glossary/mid-year-convention\">midpoint convention</a> limited the first-year amortization deduction for domestic R&E to just 10% of the expenditure (with 20% in years two through five and the final 10% in year six), taxpayers experienced an acute cash flow paradox: while QREs generated a tax credit under IRC Section 41, the simultaneous deferral of 90% of the first-year R&E deduction under IRC Section 174 artificially inflated current taxable income, frequently creating an immediate cash tax liability that exceeded the value of the Section 41 credit."
+    },
+    {
+      "type": "paragraph",
+      "text": "On July 4, 2025, Public Law 119-21 (139 Stat. 72), the One, Big, Beautiful Bill Act (OBBBA), was enacted into law. Section 70302 of P.L. 119-21 enacted IRC Section 174A (\"Domestic research or experimental expenditures\") and narrowed IRC Section 174 exclusively to foreign research or experimental expenditures. Under amended <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC Section 174(a)–(d)</a>, foreign R&E expenditures remain subject to mandatory capitalization and 15-year midpoint amortization, and Section 174(d) strictly prohibits any deduction or reduction to amount realized upon the disposition, retirement, or abandonment of property with respect to which foreign R&E expenditures were paid or incurred. On August 28, 2025, the IRS and Treasury Department issued Revenue Procedure 2025-28 (modifying Revenue Procedure 2025-23), establishing the comprehensive procedural rules for implementing Section 174A and its transition elections."
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxable years beginning after December 31, 2024, IRC Section 174A(a) restores the right of taxpayers to immediately deduct domestic R&E expenditures—explicitly including software development under Section 174A(d)(3), while excluding land, depreciable property under Section 167 or depletable property under Section 611, and mineral, ore, or oil and gas exploration under Section 174A(d)(1)–(2)—in the taxable year paid or incurred. Alternatively, under IRC Section 174A(c), taxpayers may elect to charge domestic R&E expenditures to a capital account and amortize them ratably over a period of not less than 60 months, beginning with the month in which the taxpayer first realizes benefits from the expenditures. Notably, whereas pre-TCJA Section 174(b) permitted project-by-project capitalization elections, Revenue Procedure 2025-28 specifies that a taxpayer electing the Section 174A(c) amortization method must apply it as a unified method of accounting to all domestic R&E expenditures incurred in the election year and subsequent taxable years unless Secretarial consent is obtained to change methods. Taxpayers seeking project-level or annual dollar-amount flexibility may instead adopt the Section 174A(a) immediate deduction method as their underlying accounting method under Revenue Procedure 2025-28 and layer an annual election under IRC Section 59(e) and Treasury Regulation Section 1.59-1(b) to capitalize and amortize all or a selected portion of domestic R&E expenditures ratably over a fixed 10-year period beginning immediately in the year paid or incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under OBBBA Section 70302(c)(1) and Revenue Procedure 2025-28, changing from TCJA Section 174 capitalization to the Section 174A(a) deduction method or Section 174A(c) amortization method for the 2025 taxable year is treated as a taxpayer-initiated accounting method change made with Secretarial consent and implemented strictly on a cut-off basis (with no IRC Section 481(a) adjustment permitted). The IRS waived the requirement under Treasury Regulation Section 1.446-1(e)(3)(i) to file Form 3115 (<em>Application for Change in Accounting Method</em>) and waived the duplicate copy requirement under Revenue Procedure 2015-13, authorizing taxpayers to attach a simplified statement in lieu of Form 3115 to their timely filed 2025 tax return (including extensions). This statement must list the applicant's name, Taxpayer Identification Number (TIN), the designated automatic accounting method change number, and a declaration specifying the change to the Section 174A(a) or Section 174A(c) method. Special transition rules under OBBBA Section 70302(c)(2) and Section 7.02 of Revenue Procedure 2025-23 (as modified) govern short 2025 taxable years beginning after December 31, 2024, and ending before July 4, 2025, while Section 8 of Revenue Procedure 2025-28 granted an automatic extension of time for 2024 taxable years ending prior to September 15, 2025, to file superseding returns applying the new guidance."
+    },
+    {
+      "type": "paragraph",
+      "text": "For domestic R&E costs capitalized during the 2022–2024 TCJA window, OBBBA Section 70302(f)(2) and Revenue Procedure 2025-28 Section 7.02 provide three transition paths, also implemented on a cut-off basis: (1) take no action and continue amortizing those costs over the remainder of their original five-year recovery schedule; (2) elect to amortize the entire remaining unamortized balance in full in the first taxable year beginning after December 31, 2024 (1-year recovery); or (3) elect to amortize the remaining unamortized balance ratably over the two-taxable-year period beginning with the first taxable year after December 31, 2024 (2-year recovery across 2025 and 2026). Concurrent changes for both pre-2025 unamortized balances and post-2024 domestic R&E costs may be filed on the same statement in lieu of Form 3115. Additionally, under OBBBA Section 70302(f)(1) and Revenue Procedure 2025-28 Section 3, an \"eligible taxpayer\"—defined as a business that meets the gross receipts test of IRC Section 448(c) for its first taxable year beginning after December 31, 2024 ($31 million or less in average annual gross receipts for 2022–2024) and is not a tax shelter prohibited from using the cash method under IRC Section 448(a)(3)—was permitted to elect on or before July 6, 2026 (one year after enactment, extended from Saturday, July 4, 2026, under IRC Section 7503, and subject to the statute of limitations on credits or refunds under IRC Section 6511) to apply Section 174A and amended Section 280C retroactively to all taxable years beginning after December 31, 2021, via amended returns or Administrative Adjustment Requests (AARs)."
+    },
+    {
+      "type": "heading",
+      "text": "2. Definitional Scope: The Statutory Components of Qualified Research Expenses"
+    },
+    {
+      "type": "paragraph",
+      "text": "IRC Section 41(b)(1) divides QREs into in-house research expenses (<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">Section 41(b)(2)</a>) and contract research expenses (Section 41(b)(3)). While traditional summaries often group QREs into three conceptual pillars—Qualified Wages, Qualified Supplies, and Contract Research Expenses—IRC Section 41(b)(2)(A) defines three distinct subcategories of in-house research expenses: (i) employee wages for qualified services, (ii) tangible supplies used in qualified research, and (iii) amounts paid or incurred to another person for the right to use computers in the conduct of qualified research. On redesigned IRS Form 6765 (Section F, Lines 42–45, and Section G, Lines 50–56), the IRS requires taxpayers to segregate and report all four cost buckets separately."
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 Qualified Wages and the 80% \"Substantially All\" Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Qualified wages represent the single largest QRE component for most research-active businesses. Under IRC Section 41(b)(2)(A)(i), in-house wage QREs encompass any \"wages paid or incurred to an employee for qualified services performed by such employee\"."
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Definition of Wages (IRC § 41(b)(2)(D) and § 3401(a))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all employee compensation is eligible for inclusion in the QRE base. IRC Section 41(b)(2)(D)(i) cross-references IRC Section 3401(a), which defines wages for federal income tax withholding purposes—specifically, taxable wages reported in Box 1 of Form W-2. Base salaries, taxable performance bonuses, and taxable stock option exercises included in Box 1 W-2 wages—or, in the case of self-employed individuals and owner-employees within the meaning of IRC Section 401(c)(1), \"earned income\" as defined in IRC Section 401(c)(2) per IRC Section 41(b)(2)(D)(ii)—are eligible to the extent allocable to qualified services. Conversely, non-taxable fringe benefits (Section 3401(a)(19)), employer matching or profit-sharing contributions to qualified retirement or 401(k) plans (Section 3401(a)(12)), non-taxable health insurance premiums and medical reimbursements (Section 3401(a)(20)), employer payroll taxes, and corporate overhead are statutorily <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">excluded from QRE wages</a>. Furthermore, IRC Section 41(b)(2)(D)(iii) and Form 6765 Line 42 explicitly exclude any wage amounts taken into account in determining the Work Opportunity Credit under IRC Section 51(a)."
+    },
+    {
+      "type": "subheading",
+      "text": "Three Tiers of Qualified Services (IRC § 41(b)(2)(B) and Treas. Reg. § 1.41-2(c))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(c), an employee performs \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\" only when executing one of three distinct functions, each of which must be itemized separately in Columns 50, 51, and 52 of Form 6765 Section G:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Engaging in Qualified Research (Treas. Reg. § 1.41-2(c)(1); Form 6765, Line 50):</strong> The actual hands-on conduct of qualified research, such as a chemical engineer conducting laboratory experiments or a software architect coding and testing an experimental algorithm.",
+        "<strong><a href=\"/us/glossary/direct-supervision\">Direct Supervision</a> of Qualified Research (Treas. Reg. § 1.41-2(c)(2); Form 6765, Line 51):</strong> The immediate, first-line management and technical supervision of employees who are actively engaging in qualified research, such as a research scientist or lead engineering manager who directly oversees laboratory or coding trials. Treasury Regulation Section 1.41-2(c)(2) explicitly excludes supervision by <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">higher-level executives</a> or upper-tier managers to whom first-line research managers report, even if those executives are qualified scientists or engineers who review project summaries.",
+        "<strong><a href=\"/us/glossary/direct-support\">Direct Support</a> of Qualified Research (Treas. Reg. § 1.41-2(c)(3); Form 6765, Line 52):</strong> Services in the direct support of persons engaging in either the actual conduct or the direct supervision of qualified research. Regulatory examples of qualifying direct support include a laboratory worker cleaning and calibrating specialized laboratory equipment used in qualified research, a machinist machining a part for an experimental model, a clerk compiling research test data, or a secretary typing reports describing laboratory research results. By contrast, <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) services</a>—such as payroll personnel preparing salary checks for research scientists, accountants maintaining bookkeeping records for research expenses, janitors performing general building cleaning, or corporate officers supervising financial or personnel operations—do not qualify as direct support even when performed within a research department."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Substantially All\" (80%) Rule (IRC § 41(b)(2)(B) and Treas. Reg. § 1.41-2(d)(2))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation Section 1.41-2(d)(1), when an employee performs both qualified and non-qualified services during the taxable year, only the portion of wages multiplied by the ratio of time spent on qualified services to total working time during the taxable year qualifies as an in-house research expense. However, IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(d)(2) establish a powerful statutory safe harbor known as the <a href=\"/us/glossary/substantially-all-rule\">Substantially All Rule</a>: if \"substantially all\" of the services performed by an employee for the taxpayer during the taxable year consist of qualified services (engaging in, directly supervising, or directly supporting qualified research), then 100% of the employee's wages for that taxable year qualify as QREs. Treasury Regulation Section 1.41-2(d)(2) defines \"substantially all\" as being satisfied if at least 80% of the wages paid to the employee during the taxable year are allocated to qualified services."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Qualified Supplies vs. Computer Leasing and Cloud Computing Costs"
+    },
+    {
+      "type": "subheading",
+      "text": "Qualified Supplies (IRC § 41(b)(2)(C) and Treas. Reg. § 1.41-2(b))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(b)(2)(A)(ii) and (C), qualified supplies encompass any tangible property used or consumed in the conduct of qualified research, explicitly excluding (i) land or improvements to land (Section 41(b)(2)(C)(i)) and (ii) property of a character subject to the allowance for depreciation (Section 41(b)(2)(C)(ii))."
+    },
+    {
+      "type": "paragraph",
+      "text": "The non-depreciable requirement serves as a strict statutory boundary. Raw materials, chemicals, reagents, substrates, and electronic components consumed in fabricating and testing <a href=\"/us/glossary/prototype-development\">experimental prototypes</a> qualify as supply QREs, provided the materials are used or consumed during qualified services and do not have a useful life extending substantially beyond the taxable year. Conversely, capital equipment, laboratory machinery, capitalized computer hardware, or a durable prototype that is subsequently placed into commercial service or is of a character subject to depreciation under IRC Section 167 is disqualified as a Section 41 supply QRE, even though its annual depreciation allowance may be treated as an R&E expenditure under IRC Section 174(c)(1) or Section 174A(d)(1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treasury Regulation Section 1.41-2(b)(1)–(2) also excludes indirect research expenditures, travel costs, general administrative office supplies, and ordinary building utility charges (water, electricity, and natural gas). However, under the <a href=\"/us/glossary/extraordinary-utilities\">extraordinary utilities</a> exception of Treasury Regulation Section 1.41-2(b)(2)(ii), to the extent the taxpayer can establish that the special character of the qualified research required additional extraordinary expenditures for utilities—such as incremental high-voltage electricity consumed solely to operate a high-energy laser or nuclear research apparatus rather than general laboratory lighting and HVAC—those additional utility amounts are treated as qualifying supply expenses."
+    },
+    {
+      "type": "subheading",
+      "text": "Cloud Computing and Off-Premises Computer Rentals (IRC § 41(b)(2)(A)(iii))"
+    },
+    {
+      "type": "paragraph",
+      "text": "A frequent compliance error involves misclassifying the cost of temporary cloud servers and rented Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform server space used to host software development and testing environments as \"qualified supplies\". Because IRC Section 41(b)(2)(C) restricts \"supplies\" exclusively to tangible property, remote cloud server capacity does not qualify under the supplies provision. Instead, under Treasury Regulation Section 1.41-2(b)(3)–(4), although amounts paid for the use of personal property are generally disallowed as QREs for taxable years beginning after December 31, 1985, Congress preserved an express statutory authorization in IRC Section 41(b)(2)(A)(iii) for \"any amount paid or incurred to another person for the right to use computers in the conduct of qualified research\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Treasury Regulation Section 1.41-2(b)(4) and IRC Section 41(b)(2)(A), amounts paid or incurred for the right to use (time-sharing or leasing) a computer in the conduct of qualified research qualify as in-house research expenses only if four statutory and regulatory conditions are satisfied: (1) the computer is owned and operated by someone other than the taxpayer, (2) the computer is located off the taxpayer's premises, (3) the taxpayer is not the primary user of the computer, and (4) the taxpayer (or any controlled-group member aggregated under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">Section 41(f)(1)</a>) does not receive or accrue any amount from any other person for the right to use substantially identical personal property. On the redesigned IRS Form 6765, taxpayers must report these eligible cloud computing and off-premises computer time-sharing expenses on Line 44 (\"Total rental or lease cost of computers for all business components\") in Section F and Line 55 (\"Rental or lease cost of computers\") in Section G—never commingled with tangible supplies on Line 43 or Line 54. Production web-hosting environments, commercial SaaS delivery servers, and general office IT or ERP software licenses remain excluded."
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Contract Research Expenses and the \"Funded Research\" Dual Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC Section 41(b)(3)(A)</a> and Treasury Regulation Section 1.41-2(e)(1), Contract Research Expenses (CREs) consist of 65% of any amount paid or incurred by the taxpayer in carrying on a trade or business to any person other than an employee of the taxpayer for the performance on behalf of the taxpayer of (i) qualified research or (ii) services which, if performed by employees of the taxpayer, would constitute qualified services under Section 41(b)(2)(B). Consequently, a <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">35% statutory haircut</a> automatically applies to general third-party contractor invoices. As illustrated in Treasury Regulation Section 1.41-2(e)(5) Examples 6 and 7, if a taxpayer pays a temporary agency $400 for a secretary who spends a week typing reports of qualified research results (a qualifying direct support service), 65% ($260) qualifies as a CRE; conversely, if the taxpayer pays an outside accounting firm $100x to maintain project books and records (an excluded G&A service), $0 qualifies as a CRE."
+    },
+    {
+      "type": "paragraph",
+      "text": "The statute provides two elevated inclusion rates for specialized outside research arrangements. First, under IRC Section 41(b)(3)(C), the 65% rate increases to 75% for amounts paid or incurred by the taxpayer to a \"qualified research consortium\" for qualified research conducted on behalf of the taxpayer and one or more unrelated taxpayers (where persons treated as a single employer under IRC Section 52(a) or (b) are treated as related). Under Section 41(b)(3)(C)(ii), a qualified research consortium must be an organization described in IRC Section 501(c)(3) or Section 501(c)(6) that is exempt from tax under Section 501(a), organized and operated primarily to conduct scientific research, and not a private foundation. Second, under IRC Section 41(b)(3)(D), the inclusion rate increases to 100% for amounts paid or incurred for qualified research that is energy research to (I) an eligible small business (defined as a business employing an annual average of 500 or fewer employees during either of the two preceding calendar years in which the business existed throughout the year, and in which the taxpayer owns less than 50% of the stock by vote or value or capital and profits interests under IRC Section 318), (II) an institution of higher education as defined in IRC Section 3304(f), or (III) a Federal laboratory as defined in Section 4(6) of the Stevenson-Wydler Technology Innovation Act of 1980 (15 U.S.C. § 3703(6))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, under IRC Section 41(b)(3)(B) and Treasury Regulation Section 1.41-2(e)(4), if any contract research expense paid or incurred during a taxable year is attributable to qualified research to be conducted after the close of that taxable year (prepaid amounts), the expense cannot be claimed in the year of payment; instead, it is treated as paid or incurred during the subsequent taxable year(s) in which the qualified research is actually conducted. Thus, as shown in Treasury Regulation Section 1.41-2(e)(5) Examples 1 and 2, if a taxpayer pays a contractor $300x in Year 1 under a non-contingent research contract where 50% of the research is performed in Year 1 and 50% in Year 2, the $195x total CRE ($300x × 65%) must be split into $97.5x in Year 1 and $97.5x in Year 2."
+    },
+    {
+      "type": "subheading",
+      "text": "Distinguishing Payor CRE Qualification (Treas. Reg. § 1.41-2(e)) from Performer Funded Research (IRC § 41(d)(4)(H))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analyzing third-party research contracts requires separating two distinct legal perspectives: the payor claiming a 65% CRE and the performer claiming in-house QREs."
+    },
+    {
+      "type": "paragraph",
+      "text": "From the <strong>payor perspective</strong>—when a taxpayer hires a third-party contractor and claims 65% of the payment as a CRE under Treasury Regulation Section 1.41-2(e)(2)–(3)—an expense qualifies only if paid or incurred pursuant to an agreement that: (i) is entered into prior to the performance of the qualified research, (ii) provides that the research be performed \"on behalf of\" the taxpayer (meaning under Treasury Regulation Section 1.41-2(e)(3) that the hiring taxpayer retains a right to the research results, though that right does not need to be exclusive), and (iii) requires the hiring taxpayer to bear the expense even if the research is not successful. If the hiring taxpayer's obligation to pay the contractor is contingent on the technical success of the research, Treasury Regulation Section 1.41-2(e)(2) deems the payment to be for the purchase of a finished product or result rather than for the performance of research, disqualifying the contingent payment as a CRE for the hiring taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "From the <strong>performer perspective</strong>—when an engineering firm, contract manufacturer, or software developer performs research under contract for a client or government agency—IRC Section 41(d)(4)(H) and Treasury Regulation Section 1.41-4(c)(9) (incorporating Treasury Regulation Section 1.41-4A(d)) exclude the research as \"funded\" unless the performing researcher satisfies both prongs of a strict two-part test:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Prong 1 — <a href=\"/us/glossary/financial-risk-test\">Economic Risk</a> / Payment Contingent on Success (Treas. Reg. § 1.41-4A(d)(1)):</strong> Amounts payable to the researcher under the agreement must be contingent on the technical success of the research so that they are considered paid for the product or result of the research rather than merely for research services. As established by the Federal Circuit in <em>Fairchild Industries, Inc. v. United States</em>, 71 F.3d 868 (Fed. Cir. 1995), rev'g 30 Fed. Cl. 839 (1994), whether research is funded depends on \"who bears the research costs upon failure, not on whether the researcher is likely to succeed in performing the project\". In <em>Fairchild Industries</em>, although the U.S. Air Force made bi-monthly progress payments under a <a href=\"/us/glossary/fixed-price-contract\">fixed-price incentive contract</a>, the payments were refundable advances unless the taxpayer delivered prototypes meeting strict contract specifications and Defense Acquisition Regulations; thus, the researcher bore the financial risk of failure. Courts apply this same risk-allocation framework across fixed-fee and <a href=\"/us/glossary/cost-plus-contract\">cost-reimbursement contracts</a> in <em>Geosyntec Consultants, Inc. v. United States</em>, 776 F.3d 1330 (11th Cir. 2015), <em>Dynetics, Inc. v. United States</em>, 121 Fed. Cl. 492 (2015) (holding that unambiguous time-and-materials or service contracts lacking explicit technical inspection and acceptance conditions prior to payment are funded), and <em>Populous Holdings, Inc. v. Commissioner</em>, Docket No. 405-17 (T.C. Dec. 9, 2019).",
+        "<strong>Prong 2 — Retention of <a href=\"/us/glossary/substantial-rights\">Substantial Rights</a> (Treas. Reg. § 1.41-4A(d)(2)):</strong> The performing researcher must retain \"substantial rights\" in the results of the research. Under Treasury Regulation Section 1.41-2(a)(3)(i)–(ii), if a taxpayer performs research for another person and retains no substantial rights in the research, none of the researcher's expenses can be taken into account under Section 41."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Distinguishing IRC § 41 \"Substantial Rights\" from IRC § 174 \"Right to Exploit\""
+    },
+    {
+      "type": "paragraph",
+      "text": "While the first requirement of the Section 41 Four-Part Test references R&E expenditures under Section 174 or Section 174A, the \"substantial rights\" standard under IRC Section 41 and the \"right to exploit\" standard discussed in IRS Notice 2023-63 (as modified by Notice 2024-12) for TCJA Section 174 operate under fundamentally distinct legal criteria. In Notice 2023-63 and Notice 2024-12, the IRS stated that for a research provider to capitalize <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">Specified Research or Experimental (SRE) expenditures</a> under TCJA Section 174, it must acquire an \"SRE product right\"—defined as the right to use or exploit a resulting \"SRE product\" (a pilot model, process, formula, invention, technique, patent, or software \"that is subject to protection under applicable domestic or foreign law\") without needing separate consideration or authorization from an unrelated third party, where mere unprotectable know-how does not suffice. However, Notice 2023-63 explicitly states that its rules are \"not intended to change the rules for determining eligibility for or computation of the research credit under § 41 and the regulations thereunder\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Legal Feature",
+        "IRC § 174 \"Right to Exploit\" (Notice 2023-63 & Notice 2024-12)",
+        "IRC § 41 \"Substantial Rights\" (Treas. Reg. § 1.41-4A(d)(2) & Case Law)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Primary Target of Analysis</strong>",
+            "Focuses strictly on the capitalizable <strong>end-product or asset</strong> (\"SRE product\") itself.",
+            "Extends beyond the final work product to encompass <strong>technological information, designs, and data</strong> generated throughout the research process."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Legal Protectability Requirement</strong>",
+            "Must involve an SRE product subject to legal IP protection under domestic or foreign law; mere unprotectable know-how does not create an SRE product.",
+            "Does not require formal patent or copyright ownership of the final deliverable; focuses on the right to use discovered technical information without paying royalties or seeking client approval."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Effect of Transferring Final Product</strong>",
+            "If the research provider lacks a legally protectable right to exploit the final SRE product, costs are not SRE expenditures of the provider under Notice 2023-63.",
+            "Under <em>Lockheed Martin</em> and <em>Populous Holdings</em>, transferring exclusive ownership of the final product to the client still satisfies substantial rights if the researcher retains non-exclusive rights to reuse underlying technical data and design details."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under controlling federal appellate and Tax Court precedent for IRC Section 41—specifically <em>Lockheed Martin Corp. v. United States</em>, 210 F.3d 1366 (Fed. Cir. 2000), <em>Populous Holdings, Inc. v. Commissioner</em>, Docket No. 405-17 (T.C. Dec. 9, 2019), and IRS NSAR 20350—a researcher retains \"substantial rights\" under Treasury Regulation Section 1.41-4A(d)(2) even if the client obtains exclusive ownership of the final product, provided the contract does not prohibit the researcher from reusing the discovered technological information, repetitive design details, and underlying technical data in its business without paying additional royalties or seeking consent from the client (though mere incidental benefits from selling related technology do not suffice if full IP ownership is stripped). Conversely, where a contract contains a sweeping \"work made for hire\" clause or affirmatively transfers \"all right, title, and interest\" in all drawings, designs, technical data, and work product exclusively to the buyer without reserving any rights to the underlying information or processes—as in <em>Tangel v. Commissioner</em>, T.C. Memo. 2021-1, and <em>Grigsby v. United States</em>, 86 F.4th 602 (5th Cir. 2023)—the researcher fails the substantial rights test and its expenses are disqualified as funded research."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Category & IRC Citation",
+        "Eligible Cost Scope",
+        "Key Compliance & Allocation Rules",
+        "Statutory Limitations & Exclusions",
+        "Form 6765 Reporting Line (Rev. Dec. 2024)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Qualified Wages</strong> (IRC § 41(b)(2)(A)(i), § 41(b)(2)(B), § 41(b)(2)(D); Treas. Reg. § 1.41-2(c)–(d))",
+            "Form W-2 Box 1 taxable wages (§ 3401(a)) and self-employed earned income (§ 401(c)(2)) paid for: (1) Direct Research, (2) Direct Supervision (first-line only), or (3) Direct Support.",
+            "<strong>Substantially All Rule:</strong> If ≥80% of an employee's total wages/time are for qualified services, 100% of their wages qualify; if &lt;80%, allocate pro rata by time tracked.",
+            "Excludes non-taxable fringe benefits, 401(k) matches, overhead, G&A, upper-level management, foreign research wages, and Work Opportunity Credit wages (§ 51(a)).",
+            "<strong>Section F:</strong> Line 42; <strong>Section G:</strong> Lines 50, 51, 52, and 53."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Qualified Supplies</strong> (IRC § 41(b)(2)(A)(ii), § 41(b)(2)(C); Treas. Reg. § 1.41-2(b)(1)–(2))",
+            "Tangible property used or consumed in the conduct of qualified research (e.g., raw materials for destroyed/consumed prototypes, lab chemicals, reagents, extraordinary utilities).",
+            "Must be non-depreciable tangible property consumed in research; extraordinary utilities require proving incremental usage above general building utilities.",
+            "Excludes land, improvements to land, depreciable property/capital equipment (§ 167), commercial production materials, general utilities, travel, and G&A supplies.",
+            "<strong>Section F:</strong> Line 43; <strong>Section G:</strong> Line 54."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Computer Rental / Cloud Leasing</strong> (IRC § 41(b)(2)(A)(iii); Treas. Reg. § 1.41-2(b)(4))",
+            "Amounts paid or incurred to another person for the right to use (time-sharing/leasing) computers in the conduct of qualified research (e.g., off-premises cloud dev/test servers).",
+            "Computer must be owned and operated by a third party, located off the taxpayer's premises, and the taxpayer must not be the primary user.",
+            "Excludes capitalized computer hardware purchases, general office IT/ERP software licenses, and commercial production web-hosting environments.",
+            "<strong>Section F:</strong> Line 44; <strong>Section G:</strong> Line 55."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Contract Research Expenses (CREs)</strong> (IRC § 41(b)(3); Treas. Reg. § 1.41-2(e))",
+            "Payments to unrelated non-employees for performing qualified research or qualified services on behalf of the taxpayer.",
+            "Agreement must be executed prior to research performance; hiring taxpayer must bear economic risk of failure and retain rights to results.",
+            "65% general cap (35% haircut); 75% for qualified research consortia (§ 501(c)(3)/(c)(6)); 100% for eligible energy research; prepaid costs deferred until performed; excluded if \"funded\" (§ 41(d)(4)(H)).",
+            "<strong>Section F:</strong> Line 45 (plus Line 46 basic research); <strong>Section G:</strong> Line 56."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. Qualifying Activities: The Mandate of the Four-Part Test and Statutory Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "An expenditure—regardless of whether it is a Form W-2 Box 1 wage, a non-depreciable tangible supply, an off-premises computer rental, or a third-party contractor payment—cannot be claimed as a QRE unless the underlying research activity satisfies the Four-Part Test codified in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">IRC Section 41(d)(1)–(3)</a> and Treasury Regulation Section 1.41-4(a), and is not disqualified by the statutory exclusions of IRC Section 41(d)(4). Under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC Section 41(d)(2)(A)</a>, the Four-Part Test must be applied separately with respect to each discrete business component of the taxpayer."
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 The Four-Part Test Components (IRC § 41(d)(1)–(3) and Treas. Reg. § 1.41-4(a))"
+    },
+    {
+      "type": "paragraph",
+      "text": "The failure of any single component of the Four-Part Test with respect to a business component invalidates 100% of the associated QREs for that project unless a qualifying subset is established under the regulatory shrinking-back rule."
+    },
+    {
+      "type": "subheading",
+      "text": "1. The Section 174A and Business Component Test (IRC § 41(d)(1)(A), § 41(d)(1)(B)(ii), and § 41(d)(2)(B))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(d)(1)(A), as amended by P.L. 119-21 (OBBBA) and reflected in the December 2025 Instructions for Form 6765, the research must be research \"with respect to which expenditures are treated as domestic research or experimental expenditures under section 174A\" (for taxable years beginning before 2025, treated as expenses under Section 174). This requires that the expenditures represent R&D costs in the experimental or laboratory sense (Treasury Regulation Section 1.174-2) and are reasonable in amount under the circumstances. Furthermore, under IRC Section 41(d)(1)(B)(ii) and Section 41(d)(2)(B), the application of the discovered information must be intended to be useful in the development of a new or improved business component of the taxpayer—defined as any product, process, computer software, technique, formula, or invention which is to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the special rule of IRC Section 41(d)(2)(C), any <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">plant process, machinery, or technique</a> for the commercial production of a business component is treated as a separate business component distinct from the product being manufactured. If an overall product or system as a whole fails to satisfy the Four-Part Test, the <strong>Shrinking-Back Rule</strong> of Treasury Regulation Section 1.41-4(b)(2) directs that the requirements of Section 41(d) be applied to the most significant subset of elements of the product, process, software, technique, formula, or invention, continuing downward until either a subset of elements that satisfies the test is reached or the most basic element of the product is reached and fails to qualify. As Treasury Regulation Section 1.41-4(b)(2) specifies, the shrinking-back rule is applied only when the overall business component fails Section 41(d)(1) and may not itself be used as a basis to exclude otherwise qualifying research activities."
+    },
+    {
+      "type": "subheading",
+      "text": "2. The Technological Uncertainty Test (IRC § 41(d)(1)(B) and Treas. Reg. § 1.41-4(a)(3))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Research is undertaken for the purpose of discovering information only if it is intended to eliminate uncertainty concerning the development or improvement of a business component. Under Treasury Regulation Section 1.41-4(a)(3)(i), <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">uncertainty exists</a> if the information available to the taxpayer at the outset of the research activities does not establish the <strong>capability</strong> or <strong>method</strong> for developing or improving the business component, or the <strong>appropriate design</strong> of the business component. As Treasury Regulation Section 1.41-4(a)(5)(i) clarifies, a taxpayer may undertake a qualifying process of experimentation even if there is no uncertainty regarding its capability or method of achieving the desired result, so long as the appropriate design of the desired result is uncertain as of the beginning of the research activities. For instance, if a <a href=\"/us/faq/qualifying-rd-activities-software-companies\">software company's</a> existing data exchange protocols present demonstrable technical uncertainty regarding whether a new cloud-based architecture can achieve required scalability and latency targets, designing and testing new scalable REST APIs addresses appropriate design and capability uncertainty."
+    },
+    {
+      "type": "paragraph",
+      "text": "Importantly, Treasury Regulation Section 1.41-4(a)(3)(ii) confirms that a taxpayer does not need to seek information that exceeds, expands, or refines the common knowledge of skilled professionals in the particular field, nor does the research need to <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">succeed functionally or commercially</a> to qualify. Furthermore, under the <a href=\"/us/glossary/patent-safe-harbor\">Patent Safe Harbor</a> (Treasury Regulation Section 1.41-4(a)(3)(iii)), the issuance of a utility patent under 35 U.S.C. § 151 (excluding design patents under 35 U.S.C. § 171) is conclusive evidence that the taxpayer discovered information that is technological in nature and intended to eliminate uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "3. The Process of Experimentation Test (IRC § 41(d)(1)(C), § 41(d)(3), and Treas. Reg. § 1.41-4(a)(5)–(6))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(d)(1)(C) and Treasury Regulation Section 1.41-4(a)(5)(i), substantially all of the research activities with respect to the business component must constitute elements of a process of experimentation designed to evaluate one or more alternatives to achieve a result where the capability, method, or appropriate design is uncertain as of the beginning of the taxpayer's research activities. The taxpayer must: (i) identify the specific uncertainty concerning the development or improvement of the business component, (ii) identify one or more alternatives intended to eliminate that uncertainty, and (iii) identify and conduct an evaluative process—such as modeling, simulation, or a systematic trial-and-error methodology—generally capable of evaluating more than one alternative. Mere existence of design uncertainty at the outset does not by itself establish that all activities undertaken to achieve the new or improved business component constituted a process of experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Distinct from the 80% employee wage rule, the <strong>Activity-Level 80% \"Substantially All\" Rule</strong> in Treasury Regulation Section 1.41-4(a)(6) stipulates that the \"substantially all\" requirement of Section 41(d)(1)(C) is satisfied only if 80% or more of a taxpayer's research activities for that business component—measured on a cost or other consistently applied reasonable basis, and without regard to the wage rule of Treasury Regulation Section 1.41-2(d)(2)—constitute elements of a process of experimentation for a qualified purpose described in Section 41(d)(3). If this 80% threshold is met for a business component, the remaining 20% or less of research activities with respect to that component also satisfy the requirement, so long as those remaining activities satisfy Section 41(d)(1)(A) and are not otherwise excluded under Section 41(d)(4). Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">IRC Section 41(d)(3)(A)–(B)</a> and Treasury Regulation Section 1.41-4(a)(5)(ii), a process of experimentation is conducted for a <strong>qualified purpose</strong> if it relates to a new or improved function, performance, reliability, or quality of the business component, whereas research relating to style, taste, cosmetic, or seasonal design factors is explicitly disqualified."
+    },
+    {
+      "type": "subheading",
+      "text": "4. The Technological in Nature Test (IRC § 41(d)(1)(B)(i) and Treas. Reg. § 1.41-4(a)(4))"
+    },
+    {
+      "type": "paragraph",
+      "text": "To be technological in nature, the process of experimentation used to discover the information must fundamentally rely on principles of the \"hard sciences\"—defined specifically in Treasury Regulation Section 1.41-4(a)(4) and Section 1.41-4(a)(5)(i) as the physical or biological sciences, engineering, or computer science. Disciplines such as chemistry, physics, metallurgy, and materials science fall within the physical sciences, while molecular biology, biochemistry, and pharmacology fall within the biological sciences. A taxpayer may employ existing technologies and rely on established scientific or engineering principles to satisfy this prong."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 Explicit Statutory Exclusions Under IRC Section 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if an activity involves technical personnel, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC Section 41(d)(4)</a> and Treasury Regulation Section 1.41-4(c) explicitly exclude eight categories of activities from qualifying as \"qualified research\":"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong><a href=\"/us/glossary/research-after-commercial-production\">Research After Commercial Production</a> (IRC § 41(d)(4)(A), Treas. Reg. § 1.41-4(c)(2)):</strong> Any research conducted after the business component has been developed to the point where it meets the basic functional and economic requirements of the taxpayer for commercial sale or use—including preproduction planning for a finished component, tooling-up for production, trial production runs, routine debugging, clinical trials that do not involve technical uncertainty, and troubleshooting faults in production equipment (unless developing a separate manufacturing process that independently meets Section 41(d)).",
+        "<strong><a href=\"/us/glossary/adaptation-exclusion\">Adaptation of Existing Business Components</a> (IRC § 41(d)(4)(B), Treas. Reg. § 1.41-4(c)(3)):</strong> Any research related to adapting an existing business component to a particular customer's requirement or need.",
+        "<strong><a href=\"/us/glossary/duplication-exclusion\">Duplication of Existing Business Components</a> (IRC § 41(d)(4)(C), Treas. Reg. § 1.41-4(c)(4)):</strong> Any research related to reproducing an existing business component (in whole or in part) from a physical examination of the component itself or from plans, blueprints, detailed specifications, or publicly available information (reverse engineering).",
+        "<strong>Surveys, Studies, Management Functions, and Routine Quality Control (IRC § 41(d)(4)(D), Treas. Reg. § 1.41-4(c)(5)):</strong> Any efficiency survey, activity relating to <a href=\"/us/glossary/management-functions-exclusion\">management functions or techniques</a> (such as financial forecasting, employee training, or rearranging assembly line workstations), market research, market testing or development (including advertising or promotions), routine data collection, or routine/ordinary testing or inspection for quality control.",
+        "<strong><a href=\"/us/glossary/internal-use-software-ius\">Internal-Use Software (IUS)</a> (IRC § 41(d)(4)(E), Treas. Reg. § 1.41-4(c)(6)):</strong> Computer software developed by (or for the benefit of) the taxpayer primarily for internal use in general and administrative (G&A) functions that facilitate or support the conduct of the taxpayer's trade or business—specifically (i) financial management (accounts payable/receivable, inventory, budgeting, cash management, cost/fixed-asset/general-ledger accounting, financial reporting, internal audit, risk management, strategic planning, and tax), (ii) human resources management (recruiting, hiring, training, personnel records, payroll, and benefits), and (iii) support services (data processing, facility/janitorial/logistics services, graphic services, marketing, legal, government compliance, printing, and security)—is excluded from credit eligibility unless it satisfies an exception or passes a heightened innovation threshold. Under Treasury Regulation Section 1.41-4(c)(6)(ii) and Form 6765 Instructions, software is excepted from IUS treatment if it is developed for use in an activity that constitutes qualified research (Section 41(d)(4)(E)(i)), for internal use in a production process that meets Section 41(d)(1) (Section 41(d)(4)(E)(ii)), or as part of a new or improved <a href=\"/us/glossary/hardware-software-integration\">package of computer software and hardware</a> developed together as a single product. Otherwise, internal-use software qualifies only if it meets the standard Four-Part Test and satisfies the stringent three-prong <strong><a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation (HTI) Test</a></strong> under Treasury Regulation Section 1.41-4(c)(6)(vii): (A) <strong>Innovative</strong> (intended to result in a reduction in cost or improvement in speed or other measurable metric that is substantial and economically significant), (B) <strong>Significant Economic Risk</strong> (the taxpayer commits substantial resources to the development and there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period), and (C) <strong>Not Commercially Available</strong> (the software is not commercially available for use by the taxpayer without modifications that satisfy the first two prongs). For <strong><a href=\"/us/glossary/dual-function-software\">Dual Function Software (DFS)</a></strong> presumed to be internal-use software because it serves both internal G&A and third-party interaction (Treasury Regulation Section 1.41-4(c)(6)(vi)(A)), taxpayers may first identify and isolate a third-party subset (which is not subject to the HTI test under paragraph (c)(6)(vi)(B)), and for any remaining dual-function subset, apply a <strong>25% Safe Harbor</strong> under paragraph (c)(6)(vi)(C) to include 25% of the remaining dual-function QREs if third-party use is reasonably anticipated at the outset of development to account for at least 10% of the software's total use (whereas if anticipated third-party use is less than 10%, the HTI test must be met).",
+        "<strong><a href=\"/us/glossary/foreign-research-exclusion\">Foreign Research</a> (IRC § 41(d)(4)(F), Treas. Reg. § 1.41-4(c)(7)):</strong> Any research conducted outside the United States, the Commonwealth of Puerto Rico, or any possession of the United States, applying to both in-house wages/supplies and contract research regardless of whether the employer or researcher is a U.S. taxpayer.",
+        "<strong><a href=\"/us/glossary/social-sciences-exclusion\">Social Sciences</a>, Arts, or Humanities (IRC § 41(d)(4)(G), Treas. Reg. § 1.41-4(c)(8)):</strong> Any research in the social sciences (including economics, business management, and behavioral sciences), arts, or humanities.",
+        "<strong><a href=\"/us/glossary/funded-research\">Funded Research</a> (IRC § 41(d)(4)(H), Treas. Reg. § 1.41-4(c)(9), Treas. Reg. § 1.41-4A(d)):</strong> Any research to the extent funded by any grant, contract, or otherwise by another person or governmental entity, as analyzed in Section 2.3."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Calculation Methodologies, Worked Examples, and Maximization Strategies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once validated QREs are aggregated on Line 48 of Form 6765 Section F, the resulting credit depends on the <a href=\"/us/faq/how-to-calculate-rd-tax-credit-2024\">statutory calculation methodology</a> selected—the Regular Credit Method (Section A) or the Alternative Simplified Credit (ASC) Method (Section B)—as well as the IRC Section 280C(c) election (Item A) and, for eligible startups, the Qualified Small Business (QSB) Payroll Tax Election (Section D)."
+    },
+    {
+      "type": "subheading",
+      "text": "4.1 The Regular Credit Method (IRC § 41(a)(1) and § 41(c)(1)–(3))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(a)(1), the Regular Credit equals 20% of the excess (if any) of the taxpayer's current-year QREs over the base amount (plus 20% of basic research payments determined under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">Section 41(e)(1)(A)</a> per Section 41(a)(2), and 20% of amounts paid or incurred to an energy research consortium for energy research per Section 41(a)(3)). Under <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">IRC Section 41(c)(1)</a>, the base amount (Form 6765, Line 8) is calculated by multiplying the taxpayer's fixed-base percentage (Line 6) by the taxpayer's average annual gross receipts (reduced by returns and allowances) for the four taxable years preceding the credit year (Line 7)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">IRC Section 41(c)(3)(A)</a>, for existing (\"traditional\") companies that had both gross receipts and QREs in at least three taxable years beginning after December 31, 1983, and before January 1, 1989, the fixed-base percentage is the ratio of aggregate QREs to aggregate gross receipts for those 1984–1988 taxable years. Under IRC Section 41(c)(3)(B), for \"<a href=\"/us/glossary/start-up-provision\">start-up companies</a>\"—defined as taxpayers whose first taxable year with both gross receipts and QREs began after December 31, 1983, or that had fewer than three such years during the 1984–1988 window—the fixed-base percentage is fixed at 3% (3.00%) for each of the taxpayer's first five taxable years beginning after December 31, 1993, for which the taxpayer has QREs. Thereafter, the start-up fixed-base percentage phases in progressively: in the 6th such taxable year, it equals 1/6 of the ratio of aggregate QREs to aggregate gross receipts for the 4th and 5th such taxable years; in the 7th year, 1/3 of that ratio for the 5th and 6th years; in the 8th year, 1/2 of that ratio for the 5th, 6th, and 7th years; in the 9th year, 2/3 of that ratio for the 5th through 8th years; in the 10th year, 5/6 of that ratio for the 5th through 9th years; and for the 11th and subsequent such taxable years, the aggregate QRE-to-gross-receipts ratio for any five taxable years selected by the taxpayer from among the 5th through 10th such taxable years."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(c)(3)(C)–(D), the fixed-base percentage is rounded to the nearest 1/100th of 1% (four decimal places) and in no event may exceed a statutory maximum of 16% (16.00%). Additionally, under the <strong>minimum base amount floor</strong> of <a href=\"/us/legislation/26-usc-41c2-minimum-base-amount\">IRC Section 41(c)(2)</a>, in no event shall the base amount be less than 50% of the current credit year's QREs (Form 6765, Line 10 and Line 11), which caps the maximum gross Regular Credit on incremental QREs at 10% (20% multiplied by 50%) of total current-year QREs."
+    },
+    {
+      "type": "subheading",
+      "text": "4.2 The Alternative Simplified Credit (ASC) Method (IRC § 41(c)(4) and Treas. Reg. § 1.41-9)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC Section 41(c)(4) (codified as Section 41(c)(5) prior to the 2018 repeal of the expired Alternative Incremental Research Credit and still referenced as Section 41(c)(5) in the text of Treasury Regulation Section 1.41-9), a taxpayer may elect the Alternative Simplified Credit (ASC) in Section B of Form 6765. Under the general rule of <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">IRC Section 41(c)(4)(A)</a>, the ASC equals 14% of so much of the current taxable year's QREs as exceeds 50% of the average QREs for the three taxable years preceding the credit year—computed on Form 6765, Lines 20–24 by entering total prior 3-year QREs on Line 21, dividing Line 21 by 6.0 on Line 22 (since dividing the 3-year sum by 6.0 equals 50% of the 3-year average), subtracting Line 22 from current-year QREs on Line 23, and multiplying by 14% (0.14) on Line 24. Under the special startup rule of IRC Section 41(c)(4)(B) and Treasury Regulation Section 1.41-9(c)(1), if the taxpayer had no QREs in any one (or more) of the three preceding taxable years, Lines 22 and 23 are skipped and the credit equals 6% (0.06) of total current-year QREs (Form 6765, Line 21 and Line 24)."
+    },
+    {
+      "type": "subheading",
+      "text": "The \"Annual Election\" Myth vs. Binding Duration and Deemed Revocation Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "A widespread misconception in R&D tax practice is that the ASC is a standalone annual election that taxpayers can switch at will on any return. Under IRC Section 41(c)(4)(C) and Treasury Regulation Section 1.41-9(b)(1), once an ASC election is made, it \"applies to the taxable year for which made and all subsequent taxable years unless revoked\" with the consent of the Commissioner."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, under Treasury Regulation Section 1.41-9(b)(3), a taxpayer is automatically deemed to have requested—and to have been granted—the consent of the Commissioner to revoke a prior ASC election if the taxpayer completes the portion of Form 6765 relating to the Regular Credit (Section A) and attaches the completed form to the taxpayer's timely filed (including extensions) original income tax return for the year to which the revocation applies. Under Treasury Regulation Section 1.41-9(b)(2)–(4), strict procedural limitations govern amended returns and controlled groups. First, an ASC election may never be revoked on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a>, and no extension of time to make or revoke an ASC election will be granted under Treasury Regulation Section 301.9100-3. Second, a taxpayer may make an initial ASC election on an amended return (before the assessment period under IRC Section 6501(a) expires) only if the taxpayer—and, in the case of a controlled group, every member of the controlled group—has not previously claimed a Section 41(a)(1) research credit using another method on an original or amended return for that tax year. Third, all members of a <a href=\"/us/glossary/controlled-group\">controlled group</a> must use the same computation method under Treasury Regulation Section 1.41-6(b)(1); where controlled group members do not file a single consolidated return, any election or revocation must be made on a timely filed original return by the \"designated member\"—defined as the member allocated the greatest amount of the group credit under Treasury Regulation Section 1.41-6(c)—which binds all group members for that credit year, and if the designated member fails to timely make or revoke an election, every member of the group must compute the group credit using the method used in the immediately preceding credit year."
+    },
+    {
+      "type": "subheading",
+      "text": "4.3 Interaction with IRC Section 280C(c) Reduced Credit Election"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent taxpayers from claiming both a 100% deduction or capitalization recovery under IRC Section 174A and a tax credit under IRC Section 41 on the exact same dollar of expenditure, <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC Section 280C(c)(1)</a> (as amended by P.L. 119-21) mandates that a taxpayer's domestic R&E expenditures (as defined in Section 174A(b)) otherwise taken into account as a deduction or charged to a capital account under Chapter 1 must be reduced by the full amount of the research credit allowed under Section 41(a). When a taxpayer does not elect the <a href=\"/us/glossary/reduced-research-credit\">reduced credit</a>, it must attach a statement to its return listing the deduction or capitalized amounts reduced and identifying the corresponding return lines (named Form6765ItemASection280C.pdf for electronic filers)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternatively, under <a href=\"/us/glossary/section-280c-election\">IRC Section 280C(c)(2)</a> (Item A at the top of Form 6765), a taxpayer may make an irrevocable election by checking \"Yes\" on its timely filed original return (including extensions) to claim a reduced research credit in lieu of reducing its Section 174A deduction. Under IRC Section 280C(c)(2)(B), the reduction equals the gross credit multiplied by the maximum corporate tax rate under IRC Section 11(b) (currently 21%), leaving the taxpayer with 79% of the gross credit. Under the Regular Credit (Form 6765, Line 13), electing Section 280C(c)(2) reduces the 20% credit rate by 21% to an effective rate of 15.8% (0.158). Under the ASC Method (Form 6765, Line 26), electing Section 280C(c)(2) multiplies the gross credit on Line 25 by 79% (0.79), yielding an effective rate of 11.06% (14% × 0.79) on incremental QREs, or 4.74% (6% × 0.79) if using the 6% startup ASC rate. An election under Section 280C(c)(2) cannot be made or changed on an amended return, and any portion of the research credit elected as a QSB payroll tax credit is treated as a research credit for purposes of computing the Section 280C reduced credit."
+    },
+    {
+      "type": "subheading",
+      "text": "4.4 The Qualified Small Business (QSB) Payroll Tax Credit Election (IRC § 41(h) and § 3111(f))"
+    },
+    {
+      "type": "paragraph",
+      "text": "For pre-revenue or loss-making startups that have little or no federal income tax liability, IRC Section 41(h) and IRC Section 3111(f)—originally enacted by the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act of 2015</a> and expanded by the Inflation Reduction Act of 2022—allow a Qualified Small Business (QSB) to elect in Section D of Form 6765 (Lines 33a–36) to apply a portion of its research credit against federal employer payroll taxes. Three statutory and administrative rules under IRC Section 41(h), IRC Section 3111(f), IRS Notice 2017-23, and the December 2025 Instructions for Form 6765 govern this monetization mechanism:"
+    },
+    {
+      "type": "subheading",
+      "text": "1. The Two-Prong QSB Gross Receipts Test and 5-Year Lookback Window (IRC § 41(h)(3)(A) and Notice 2017-23)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC Section 41(h)(3)(A)(i)</a> and IRS Notice 2017-23 Sections 3.01–3.05, a corporation (including an S corporation), partnership, or individual business (excluding tax-exempt organizations under IRC Section 501) qualifies as a QSB for a current taxable year only if it meets two cumulative requirements: first, it has gross receipts—determined under IRC Section 448(c)(3) (without regard to Section 448(c)(3)(A)) and Treasury Regulation Section 1.448-1T(f)(2)(iii)–(iv), rather than Section 41(c)(7)—of <strong>less than $5,000,000</strong> for the current taxable year; and second, it did <strong>not</strong> have any gross receipts for <strong>any taxable year preceding the 5-taxable-year period ending with the current taxable year</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the 5-taxable-year period ends with (and includes) the current taxable year, a taxpayer is <strong>not</strong> required to have zero gross receipts in the preceding four years; rather, it may have gross receipts during the four immediately preceding taxable years, provided it had zero gross receipts in the fifth preceding year and all earlier years. As illustrated in Notice 2017-23 Section 3.06 Example 1, if calendar-year Corporation A had zero gross receipts prior to 2012, followed by gross receipts of $1,000,000 in 2012, $7,000,000 in 2013, $4,000,000 in 2014, $3,000,000 in 2015, and $4,000,000 in 2016, Corporation A <strong>is</strong> a QSB for 2016 because its 2016 gross receipts ($4,000,000) are under $5,000,000 and it had no gross receipts prior to the 5-year window of 2012–2016 (even though its 2013 gross receipts reached $7,000,000). However, Corporation A cannot qualify as a QSB in 2017 regardless of its 2017 revenue because its 2012 gross receipts fall prior to the 2013–2017 five-year window. Under Notice 2017-23 Section 3.05 and Example 2, all members of a controlled group must aggregate their gross receipts; thus, if controlled group members Corp A ($4M in 2016), Corp B ($1M in 2016), and Corp C ($500K in 2016, plus $1M in 2011) are aggregated, none qualify in 2016 both because combined 2016 gross receipts reach $5,500,000 and because Corp C had gross receipts in 2011 prior to the 2012–2016 window. Furthermore, under IRC Section 41(h)(4)(B)(ii) and Notice 2017-23 Section 4.04, a taxpayer (or its controlled group) may not make the <a href=\"/us/glossary/payroll-tax-credit-election\">payroll tax election</a> if it has already made a QSB payroll tax election in five or more preceding taxable years."
+    },
+    {
+      "type": "subheading",
+      "text": "2. The $500,000 Annual Election Cap and Entity-Type Limitations (IRC § 41(h)(4)(B))"
+    },
+    {
+      "type": "paragraph",
+      "text": "For taxable years beginning after December 31, 2015, and before January 1, 2023, the maximum annual payroll tax credit election was $250,000. Under Provision 13902 of the Inflation Reduction Act of 2022 (P.L. 117-169), codified at IRC Section 41(h)(4)(B)(i)(II), for taxable years beginning after December 31, 2022, the statutory cap doubled to <strong>$500,000</strong> per taxable year (reflected on Form 6765, Line 34). On Form 6765 Section D (Lines 34–36), for partnerships and S corporations, the allowed payroll tax credit equals the smaller of the current-year research credit (Line 28) or the elected amount up to $500,000 (Line 34); for C corporations and other non-pass-through entities, the credit is limited to the smallest of Line 28, Line 34, or the <a href=\"/us/glossary/research-credit-carryforward\">business credit carryforward</a> under IRC Section 39 from the current year (Line 35, computed on Form 3800 before completing Section D)."
+    },
+    {
+      "type": "subheading",
+      "text": "3. Dual Offset Against Employer Social Security and Medicare Taxes (IRC § 3111(f) and Form 8974)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective for calendar quarters beginning after December 31, 2022, the Inflation Reduction Act amended IRC Section 3111(f)(1) so that the <a href=\"/us/faq/how-to-apply-rd-tax-credit-to-payroll-taxes\">QSB payroll tax credit</a> offsets both the employer portion of Old-Age, Survivors, and Disability Insurance (Social Security / OASDI) tax (6.2% of wages under IRC Section 3111(a)) and the employer portion of Hospital Insurance (Medicare) tax (1.45% of wages under IRC Section 3111(b)). The election must be made on Form 6765 attached to a timely filed original income tax return (including extensions) and can never be made on an amended return."
+    },
+    {
+      "type": "paragraph",
+      "text": "Starting in the first calendar quarter that begins after the date the income tax return containing Form 6765 is filed, the QSB claims the credit by completing <strong><a href=\"/us/glossary/irs-form-8974\">Form 8974</a></strong> (<em>Qualified Small Business Payroll Tax Credit for Increasing Research Activities</em>) and attaching it to its quarterly employment tax return (e.g., Form 941). Under IRC Section 3111(f)(1)–(3), the credit is applied first to reduce the employer's share of Social Security tax up to $250,000 per quarter (Section 3111(f)(1)(A)), and any remaining credit for that quarter is then applied to reduce the employer's share of Medicare tax (Section 3111(f)(1)(B)). Any unused credit exceeding both employer Social Security and employer Medicare tax liabilities for the quarter carries forward to succeeding calendar quarters under Section 3111(f)(3). Under IRC Section 3111(f)(4), the payroll tax credits allowed under Section 3111(f)(1) do not reduce the employer's Chapter 1 income tax deduction for payroll taxes paid or incurred. If the QSB uses a third-party payer—such as a Section 3504 agent, Certified Professional Employer Organization (CPEO), or non-certified PEO—so that payroll taxes are reported under a different EIN, the QSB checks Line 33b of Form 6765, and the agent or PEO claims the credit on its aggregate Form 941 accompanied by Schedule R (Form 941) and a separate Form 8974 for each QSB client."
+    },
+    {
+      "type": "subheading",
+      "text": "4.5 Worked Examples (Recomputing the Baseline and TechFlow Inc. Scenarios)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate the exact statutory mechanics of QRE qualification, the 65% contractor limitation, the 80% \"Substantially All\" wage rule, the classification of off-premises cloud servers, and the resulting ASC credit computations, the table and step-by-step derivations below evaluate two detailed numerical scenarios."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Scenario & Cost Component",
+        "Gross R&D Expenditure",
+        "Unadjusted / Naive Calculation",
+        "Statutory Validated QREs",
+        "Statutory Adjustment & Form 6765 Line Mapping"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Scenario A: Baseline Calculator</strong> — In-House W-2 Box 1 Wages",
+            "$500,000",
+            "$500,000",
+            "$500,000",
+            "100% eligible under IRC § 41(b)(2)(A)(i); Form 6765, Line 42."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario A: Baseline Calculator</strong> — Tangible R&D Supplies Consumed",
+            "$100,000",
+            "$100,000",
+            "$100,000",
+            "100% eligible under IRC § 41(b)(2)(A)(ii); Form 6765, Line 43."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario A: Baseline Calculator</strong> — <a href=\"/us/faq/outsourced-contractor-rd-tax-credit-eligibility\">Third-Party U.S. Contractors</a>",
+            "$200,000",
+            "$130,000",
+            "$130,000",
+            "65% cap under IRC § 41(b)(3)(A) ($70,000 [35%] excluded); Form 6765, Line 45."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario A Total (Baseline Calculator)</strong>",
+            "<strong>$800,000</strong>",
+            "<strong>$730,000</strong>",
+            "<strong>$730,000</strong>",
+            "-$70,000 net reduction due to 35% statutory contractor haircut; Form 6765, Line 48."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario B: TechFlow Inc.</strong> — 5 Senior Devs ($150k W-2 Box 1 each, 80% time coding algorithm)",
+            "$750,000",
+            "$600,000 (80% direct)",
+            "$750,000 (100% via 80% rule)",
+            "<strong>Adjusted (+$150,000):</strong> Because time spent is ≥80%, 100% of wages qualify under the Substantially All Rule (Treas. Reg. § 1.41-2(d)(2)); Line 42 & Line 50."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario B: TechFlow Inc.</strong> — Rented AWS Dev/Test Cloud Server Environment",
+            "$50,000",
+            "$50,000 (labeled \"Supply\")",
+            "$50,000 (Computer Lease)",
+            "<strong>Category Corrected:</strong> 100% eligible, but under IRC § 41(b)(2)(A)(iii) & Treas. Reg. § 1.41-2(b)(4) (Computer Rental, Line 44 & Line 55), not Supplies."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario B: TechFlow Inc.</strong> — \"DesignLab\" Third-Party Testing Firm Invoice",
+            "$100,000",
+            "$65,000",
+            "$65,000",
+            "65% cap under IRC § 41(b)(3)(A) ($35,000 [35%] excluded); Form 6765, Line 45 & Line 56."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Scenario B Total (TechFlow Inc.)</strong>",
+            "<strong>$900,000</strong>",
+            "<strong>$715,000</strong>",
+            "<strong>$865,000</strong>",
+            "<strong>Adjusted (+$150,000 QREs/+$21,000 Gross ASC Credit):</strong> Applying the 80% Substantially All wage rule raises total QREs from $715,000 to $865,000."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Example 1: Baseline QRE Calculator and ASC Credit Computation"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Scenario A, a company incurs three categories of qualified domestic R&D expenditures during the current taxable year: $500,000 in Box 1 W-2 wages for qualified services (100% eligible = $500,000 on Line 42), $100,000 in tangible non-depreciable supplies consumed in research (100% eligible = $100,000 on Line 43), and $200,000 paid to unrelated U.S. contractors (subject to the 65% limitation under IRC Section 41(b)(3)(A) = $130,000 on Line 45, with $70,000 [35%] statutorily excluded). While total raw R&D spend is $800,000, total validated QREs on Form 6765 Line 48 equal $730,000 ($500,000 + $100,000 + $130,000)."
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate how this $730,000 QRE figure translates into actual tax credits under Section B (ASC) of Form 6765, assume the taxpayer's validated QREs for the three preceding taxable years were $500,000 (3 years prior), $550,000 (2 years prior), and $600,000 (1 year prior):"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Total Prior 3-Year QREs (Form 6765, Line 21):</strong> $500,000 + $550,000 + $600,000 = $1,650,000 (yielding a 3-year annual average of $1,650,000 ÷ 3 = $550,000).",
+        "<strong><a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">ASC Base Amount</a> — 50% of 3-Year Average (Form 6765, Line 22):</strong> Dividing Line 21 by 6.0 ($1,650,000 ÷ 6.0, which is mathematically identical to 50% × $550,000) equals $275,000.",
+        "<strong>Excess Current-Year QREs (Form 6765, Line 23):</strong> $730,000 - $275,000 = $455,000.",
+        "<strong>Gross ASC Credit at 14% (Form 6765, Line 24 & Line 25):</strong> $455,000 × 14% = $63,700 (requiring the taxpayer to reduce its IRC Section 174A domestic R&E deduction by $63,700 under IRC Section 280C(c)(1) if Item A is checked \"No\").",
+        "<strong>Net ASC Credit with IRC § 280C(c)(2) Election (Form 6765, Line 26):</strong> If the taxpayer checks \"Yes\" on Item A of Form 6765 to preserve 100% of its $800,000 Section 174A deduction, the reduced credit is $63,700 × 79% = $50,323."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Example 2: The \"TechFlow Inc.\" Software Case Study"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Scenario B, a software company (\"TechFlow Inc.\") develops a new AI-driven logistics algorithm and incurs $900,000 in gross project spend across three items:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>In-House Senior Developer Wages ($750,000 Gross):</strong> Five senior developers earning $150,000 each in Box 1 W-2 wages ($750,000 total) spend 80% of their working time coding and testing the experimental algorithm. A naive pro-rata calculation would multiply $150,000 × 5 × 80% = $600,000. However, under IRC Section 41(b)(2)(B) and Treasury Regulation Section 1.41-2(d)(2), because each developer spent <strong>at least 80%</strong> of their time performing qualified services (\"substantially all\"), <strong>100%</strong> of their Box 1 W-2 wages qualify as QREs: $150,000 × 5 × 100% = $750,000, capturing an additional $150,000 of eligible wage QREs on Form 6765 Line 42 and Line 50.",
+        "<strong>Off-Premises AWS Development and Testing Servers ($50,000 Gross):</strong> TechFlow pays $50,000 to rent off-premises AWS cloud server capacity used exclusively to host the development and simulation testing environment (not commercial production hosting). While 100% of the $50,000 expenditure is eligible, it qualifies under IRC Section 41(b)(2)(A)(iii) and Treasury Regulation Section 1.41-2(b)(4) as the rental or lease cost of off-premises computers (reported on Form 6765, Line 44 and Line 55), rather than tangible supplies under Section 41(b)(2)(C).",
+        "<strong>Third-Party Testing Contractor Invoice ($100,000 Gross):</strong> TechFlow pays an unrelated U.S. testing firm (\"DesignLab\") a $100,000 invoice to conduct systematic performance and reliability testing on behalf of TechFlow under a pre-existing written contract where TechFlow bears the economic risk of failure and retains rights to the results. Provided the testing evaluates technical and functional uncertainty rather than excluded cosmetic or style factors (IRC Section 41(d)(3)(B)), 65% of the invoice ($100,000 × 65% = $65,000) qualifies as Contract Research Expenses on Form 6765 Line 45 and Line 56."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Summing the three components, properly applying the 80% Substantially All wage rule increases TechFlow Inc.'s total validated QREs from $715,000 to <strong>$865,000</strong> ($750,000 + $50,000 + $65,000), generating an additional <strong>$21,000</strong> ($150,000 × 14%) in gross ASC research credit (or $16,590 in net reduced credit after the 79% Section 280C(c)(2) adjustment)."
+    },
+    {
+      "type": "heading",
+      "text": "5. Strategic Compliance, Documentation, and Audit Defense"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the contemporary IRS enforcement environment—shaped by appellate and district court specificity precedents, IRS News Release IR-2021-203 (updated June 18, 2024, FAQ 21), the IRS Research Credit <a href=\"/us/glossary/irs-audit-techniques-guide-atg\">Audit Techniques Guide (ATG)</a>, and the comprehensive overhaul of IRS Form 6765 (Rev. December 2024; Instructions Rev. December 2025)—substantiating QREs can no longer be treated as a retrospective year-end estimation exercise."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two federal court decisions catalyzed the IRS's shift toward mandatory upfront project-level disclosure. In <em>Harper v. United States</em>, 847 Fed. App'x 408 (9th Cir. 2021), the IRS challenged an R&D refund claim for failing to satisfy the specificity threshold of Treasury Regulation Section 301.6402-2(b)(1), which requires a claim to set forth in detail each ground upon which a credit or refund is claimed and facts sufficient to apprise the Commissioner of its exact basis; although the Ninth Circuit ruled the IRS had waived its procedural objection by auditing the claim over four years, the litigation underscored the vulnerability of unsubstantiated filings. Shortly thereafter, in <em>Premier Tech, Inc. v. United States</em>, No. 2:20-cv-890 (D. Utah July 15, 2022), the government challenged a Form 6765 refund filing that lacked project-level descriptions of the research performed, components developed, and specific allocations of wages and supplies to individual projects. Under IRS News Release IR-2021-203 (effective for refund claims filed after January 10, 2022) and updated as of June 18, 2024 (FAQ 21), taxpayers filing <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">amended return refund claims</a> must provide three mandatory elements at the time of filing: (1) identification of all business components to which the claim relates, (2) a clear description of all research activities performed for each business component, and (3) the total qualified employee wage, supply, computer rental, and contract research expenses for the claim year. While the June 18, 2024 update waived the initial filing requirement to list the names of the specific individuals who performed each research activity and the specific information each individual sought to discover, taxpayers must still maintain and produce those individual-level records upon examination."
+    },
+    {
+      "type": "subheading",
+      "text": "5.1 Implementing Contemporaneous Documentation Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "Examiners routinely <a href=\"/us/faq/what-happens-if-rd-tax-credit-is-denied\">disallow QRE claims</a> that rely on high-level cost-center estimates or uncorroborated year-end oral interviews. Taxpayers should execute two core operational protocols tailored to their industry profile."
+    },
+    {
+      "type": "subheading",
+      "text": "Action Item 1 — Business-Component Technical Narratives"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers should establish a continuous engineering documentation workflow that records, for each specific business component (IRC Section 41(d)(2)(B)), the three foundational inquiries embedded in redesigned Form 6765: (1) <em>What did you make?</em> (identifying the specific product, process, software, technique, formula, or invention and whether it is held for sale, lease, license, or internal use); (2) <em>Why is it qualified?</em> (documenting the specific technical uncertainty regarding capability, method, or appropriate design at the outset and the <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">systematic process of experimentation</a>—alternatives evaluated, simulations run, prototypes tested, and trial-and-error logs—conducted to resolve that uncertainty); and (3) <em>How much did it cost?</em> (project-level QRE breakdown). High-scrutiny industries must tailor these records to their specific audit risk areas: <strong>Manufacturing</strong> taxpayers must document experimental tooling, custom fabrication, and destroyed vs. commercial prototypes; <strong><a href=\"/us/faq/rd-tax-credits-architecture-engineering-firms\">Architecture and Engineering (A&E)</a></strong> firms must delineate qualifying structural/environmental experimentation from standard code-compliant design and review client contracts for funded-research exclusions; and <strong>Software Development</strong> enterprises must separate experimental algorithmic architecture from routine debugging, maintenance, or non-HTI internal-use software."
+    },
+    {
+      "type": "subheading",
+      "text": "Action Item 2 — Contemporaneous Personnel Time-Tracking by Activity Tier"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Section G of redesigned Form 6765 requires breaking down qualified wages for each business component into Direct Research (Line 50), Direct Supervision (Line 51), and Direct Support (Line 52), companies must configure payroll and <a href=\"/us/faq/best-software-tracking-rd-time-expenses\">project-management software</a> with dedicated R&D project codes. <a href=\"/us/faq/how-to-track-rd-hours-for-tax-credits\">Recording employee hours</a> daily or weekly by specific business component and service tier substantiates when an engineer crosses the ≥80% Substantially All threshold (Treasury Regulation Section 1.41-2(d)(2)) and defends mixed-role executives (such as a Chief Technology Officer splitting time between first-line technical supervision and excluded corporate G&A) against IRS audit adjustments."
+    },
+    {
+      "type": "subheading",
+      "text": "5.2 Navigating Post-OBBBA Financial Strategy (The IRC § 174A / § 41 / § 448 Interface)"
+    },
+    {
+      "type": "paragraph",
+      "text": "With the enactment of P.L. 119-21 (OBBBA) and the issuance of Revenue Procedure 2025-28, tax directors must integrate QRE credit maximization with Section 174A deduction modeling."
+    },
+    {
+      "type": "subheading",
+      "text": "Action Item 3 — Modeling 2022–2024 Unamortized R&E Recovery and the IRC § 448(d)(3) \"Syndicate\" Tax Shelter Trap"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider a company that spent $1,000,000 per year on domestic R&E in 2022, 2023, and 2024 ($3,000,000 total). Under <a href=\"/us/glossary/section-174-amortization\">TCJA 5-year midpoint amortization</a>, the company deducted $100,000 in 2022 (10%), $300,000 in 2023 (20% of 2022 plus 10% of 2023), and $500,000 in 2024 (20% of 2022 plus 20% of 2023 plus 10% of 2024), totaling $900,000 in cumulative deductions and leaving <strong>$2,100,000</strong> of unamortized domestic R&E costs entering 2025. If the company spends another $1,000,000 per year in 2025 and 2026 and adopts immediate expensing under IRC Section 174A(a), electing 1-year full catch-up recovery under OBBBA Section 70302(f)(2) causes its 2025 R&E deduction to spike to <strong>$3,100,000</strong> ($1,000,000 current 2025 expensing plus $2,100,000 unamortized catch-up), followed by $1,000,000 in 2026. Conversely, electing 2-year ratable recovery smooths total deductions to <strong>$2,050,000</strong> per year in both 2025 and 2026 ($1,000,000 current expensing plus $1,050,000 unamortized recovery each year), while defaulting to the remaining 5-year TCJA schedule yields <strong>$1,600,000</strong> per year in 2025 and 2026 ($1,000,000 current expensing plus $600,000 prior-year amortization)."
+    },
+    {
+      "type": "paragraph",
+      "text": "When modeling this catch-up deduction, <a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through entities</a> and small businesses must guard against the IRC Section 448 \"syndicate\" tax shelter trap. While IRC Section 448(c) establishes the small-business gross receipts test ($25 million base adjusted for inflation under Section 448(c)(4) to $31 million average annual gross receipts for 2025), IRC Section 448(a)(3) prohibits any \"tax shelter\" from using the cash method of accounting, and OBBBA Section 70302(f)(1)(A) disqualifies any tax shelter under Section 448(a)(3) from electing small-business retroactive Section 174A relief. Under IRC Section 448(d)(3)—which cross-references IRC Section 461(i)(3)(B) and IRC Section 1256(e)(3)(B)—the term \"tax shelter\" includes any \"syndicate,\" defined as any partnership, S corporation, or non-C-corporation entity that allocates more than 35% of its losses for the taxable year to limited partners or limited entrepreneurs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequently, if a pass-through entity accelerates $2,100,000 of unamortized 2022–2024 R&E deductions into 2025 (or deducts 2025 domestic R&E immediately) and tips from a net profit into a net tax loss for 2025 where more than 35% of that loss is allocated to passive limited partners or limited entrepreneurs, the entity automatically becomes a \"tax shelter\" under Section 448(d)(3) for 2025—forfeiting its eligibility for the cash method of accounting and small-business transition relief. To mitigate this hazard, Revenue Procedure 2025-28 provides a protective election allowing a taxpayer to rely on its <strong>2024 income or loss allocations</strong> to determine whether it is classified as a syndicate for the 2025 taxable year. Small business taxpayers that were profitable in 2024 (or allocated 35% or less of 2024 losses to limited partners or entrepreneurs) should evaluate making this 2024 lookback election, or alternatively spreading unamortized recovery over two years (2025–2026), continuing the remaining 5-year schedule, or electing optional capitalization under IRC Section 174A(c) (≥60 months) or IRC Section 59(e) (10 years) to prevent triggering a syndicate net loss. Furthermore, Revenue Procedure 2025-28 Section 7.02(2)(f) clarifies that whether a taxpayer elects 1-year or 2-year recovery of its unamortized 2022–2024 domestic TCJA costs, that accelerated recovery continues to be characterized as \"amortization,\" allowing it to be added back to Adjusted Taxable Income (ATI) when computing business interest deduction limitations under IRC Section 163(j)."
+    },
+    {
+      "type": "subheading",
+      "text": "Action Item 4 — Continuous General Ledger Segregation and Contract Review"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finance teams must maintain separate general ledger accounts for (1) non-depreciable tangible R&D supplies (Section 41(b)(2)(C), Form 6765 Line 43), (2) off-premises development and testing computer rentals and cloud server time-sharing (Section 41(b)(2)(A)(iii), Line 44), and (3) depreciable R&D capital equipment (Section 167, excluded from Section 41 QREs). Concurrently, legal and tax teams must review every third-party R&D contract prior to execution to verify that agreements where the company hires outside contractors explicitly place economic risk on the company and grant rights to the research results (Treasury Regulation Section 1.41-2(e)(2)–(3)), and agreements where the company performs research for clients make payment contingent on technical inspection/acceptance and preserve the company's substantial rights to reuse underlying technical data without paying royalties (Treasury Regulation Section 1.41-4A(d))."
+    },
+    {
+      "type": "subheading",
+      "text": "5.3 Mastering Redesigned IRS Form 6765 Compliance (Sections A through G)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The IRS fundamentally redesigned Form 6765 (Rev. December 2024) and its accompanying <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a> (Rev. December 2025), expanding upfront disclosure from four sections to seven sections plus header elections."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the top of Form 6765, <strong>Item A</strong> requires checking \"Yes\" or \"No\" to make the irrevocable IRC Section 280C(c)(2) reduced credit election on an original timely filed return (including extensions), while <strong>Item B</strong> requires disclosing whether the taxpayer is a member of a controlled group or business under <a href=\"/us/glossary/common-control\">common control</a> under IRC Section 41(f)(1), which mandates attaching a group QRE and credit allocation statement. <strong>Section A (Regular Credit, Lines 1–13)</strong> and <strong>Section B (Alternative Simplified Credit, Lines 14–26)</strong> compute the gross credit and apply the Section 280C(c)(2) reduction (15.8% effective multiplier on Line 13 for the Regular Credit, or 79% multiplier on Line 26 for the ASC). <strong>Section C (Current Year Credit, Lines 27–32)</strong> reduces the research credit on Line 27 by any portion of the credit from Form 8932 (Line 2) attributable to differential wage payments that were also used to figure the research credit on Line 13 or Line 26; adds pass-through research credits from partnerships, S corporations, estates, and trusts on Line 29; allocates estate or trust credits to beneficiaries on Line 31; and routes the net income tax credit on Line 32 to <a href=\"/us/glossary/irs-form-3800\">Form 3800</a> (<em>General Business Credit</em>), Part III, Line 4i (for eligible small businesses) or Line 1c (for all other filers). <strong>Section D (Qualified Small Business Payroll Tax Election, Lines 33a–36)</strong> is completed by eligible QSBs checking Line 33a (and Line 33b if payroll taxes are reported under a different EIN via a PEO/agent) to elect up to $500,000 (Line 34) as a payroll tax offset transferred from Line 36 to Form 8974, Part 1, column (e)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Section E (Other Information, Lines 37–41)</strong> is mandatory for all filers reporting QREs on Line 48. It requires reporting: (Line 37) the total number of business components generating the QREs on Line 5 or Line 20; (Line 38) the dollar amount of officers' wages included on Line 42; (Line 39) whether the taxpayer acquired or disposed of any major portion of a trade or business during the tax year (triggering base-period adjustments under IRC Section 41(f)(3)); (Line 40) whether the taxpayer included any new categories or recharacterized categories of expenses as current-year QREs compared to base years (requiring corresponding base-year adjustments); and (Line 41) whether any QREs were determined following the Large Business and International (LB&I) <strong><a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a></strong>—which applies to taxpayers with assets of $10,000,000 or more that follow U.S. GAAP for Certified Audited Financial Statements (CAFS) showing R&D expenses separately and reconcile book-to-tax income on Schedule M-3—entering the amount from ASC 730 Directive Appendix C, Line 19 and attaching Form6765ASC730AppendixA.pdf, B.pdf, C.pdf, and D.pdf."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Section F (Qualified Research Expenses Summary, Question A and Lines 42–48)</strong> asks in Question A whether the filer is required to complete Section G (if required, Section G is completed first and its totals populate Section F; group members filing separate tax returns enter only their individual member QREs on Lines 42–47, while Line 48 reflects total QREs determined at the controlled-group level for credit computation). Section F segregates QREs across Line 42 (Total wages for qualified services, excluding Work Opportunity Credit wages), Line 43 (Total costs of supplies), Line 44 (Total rental or lease cost of computers), Line 45 (Total applicable amount of contract research, excluding basic research), Line 46 (Applicable <a href=\"/us/glossary/basic-research-payments\">basic research payments</a>), Line 47 (Line 45 plus Line 46), and Line 48 (Total QREs = sum of Lines 42, 43, 44, and 47)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Section G (Business Component Information, Columns 49(a)–(f) and Lines 50–56)</strong> is optional for all filers for taxable years beginning before 2026 (unless filing an amended return) and <strong>mandatory for taxable years beginning after 2025</strong> unless the taxpayer qualifies for an exemption. A taxpayer is exempt from completing Section G if: (1) it is a Qualified Small Business under Section 41(h)(3) that checked the box in Section D to claim a reduced payroll tax credit, <strong>or</strong> (2) its total controlled-group QREs on Line 48 are <strong>$1.5 million or less</strong>, its controlled-group average annual gross receipts for the prior three taxable years (under Section 448(c)(3)) are <strong>$50 million or less</strong>, and it is claiming the research credit on an original return. Non-exempt filers must satisfy the <strong>80% / Top 50 Business Component Rule</strong>, listing business components in descending order of total QREs until they have itemized at least 80% of total QREs reported on Line 48, up to a maximum of 50 business components, and reporting any remaining components on a single line labeled \"Aggregate Business Components\" in Column 49(c) with aggregate dollar amounts in Columns 50–56. (If a taxpayer uses the ASC 730 Directive and its single \"ASC 730 Directive\" entry accounts for at least 80% of Line 48 QREs, no additional business components need be listed; if a taxpayer uses <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling</a> under Revenue Procedure 2011-42, it must still report the 80%/Top 50 components, append the word \"sample\" to sampled component identifiers in Column 49(c), and attach Form6765StatSamplePlan.pdf)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form 6765 Section G Column / Line",
+        "Required Data Element & Statutory Classification"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Column 49(a)</strong>",
+            "Employer Identification Number (EIN) of the controlled group member conducting the research activities."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Column 49(b)</strong>",
+            "Controlled group member's Principal Business Activity (PBA) code derived from the top-level tax return instructions."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Column 49(c)</strong>",
+            "Business component's name or unique alphanumeric identifier (appending \"sample\" if selected via statistical sampling, or entering \"Aggregate Business Components\" for the residual line beyond the 80%/Top 50 threshold)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Column 49(d)</strong>",
+            "Business component type: Product, Process, or All Others."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Column 49(e)</strong>",
+            "Software classification, if applicable: <strong>A. IUS</strong> (Internal Use Software); <strong>B. DFS</strong> (Dual Function Software: 1. no third-party subset identified and safe harbor not applied, 2. <a href=\"/us/glossary/third-party-subset\">third-party subset</a> identified with remaining dual-function subset subject to HTI, or 3. 25% safe harbor applied); <strong>C. Non-IUS</strong> (commercial software held for sale, lease, or license); or <strong>D. Excepted from IUS treatment</strong> (software for use in qualified research, software for internal use in a qualifying Section 41(d)(1) production process, or a new/improved integrated hardware-software package)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Column 49(f)</strong>",
+            "Narrative describing the information sought to be discovered (currently required only for amended return refund claims)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Columns / Lines 50–56</strong>",
+            "Itemized QRE breakdown per business component: Direct research wages (Line 50), Direct supervision wages (Line 51), Direct support wages (Line 52), Total qualified wages (Line 53 = sum of Lines 50–52), Cost of supplies (Line 54), Rental or lease cost of computers (Line 55), and Applicable amount of contract research expenses (Line 56)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "5.4 Contemporaneous Documentation Checklist for IRS Audit Defense"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Documentation Category",
+        "Required Substantiation Content & Granularity",
+        "Governing IRC, Treasury Regulation & IRS Authority",
+        "Form 6765 Section & Line Supported"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. <a href=\"/us/faq/how-to-draft-rd-tax-credit-project-narrative\">Business Component Technical Narratives</a> & Test Logs</strong>",
+            "Identification of each discrete business component; baseline capabilities at project outset; specific technical uncertainties (capability, method, or design); alternatives evaluated; and <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous records</a> of modeling, simulation, or systematic trial-and-error testing (plus HTI 3-prong documentation for any Internal-Use Software).",
+            "IRC § 41(d)(1)–(4); Treas. Reg. § 1.41-4(a)–(c); IRS IR-2021-203 / FAQ 21.",
+            "<strong>Section E:</strong> Line 37; <strong>Section G:</strong> Columns 49(a)–49(f)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Personnel Time-Tracking & Wage Allocation Records</strong>",
+            "Daily or weekly <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">timecards</a>/project logs mapping each employee's hours to specific business components and separating Direct Research, Direct Supervision (first-line only), Direct Support, and excluded G&A; Form W-2 Box 1 wage reconciliations (§ 3401(a)); officers' wage isolation; exclusion of § 51(a) WOTC wages; and verification of employees meeting the ≥80% Substantially All Rule.",
+            "IRC § 41(b)(2)(A)(i), (B), (D); IRC § 3401(a) & § 51(a); Treas. Reg. § 1.41-2(c)–(d).",
+            "<strong>Section E:</strong> Line 38; <strong>Section F:</strong> Line 42; <strong>Section G:</strong> Lines 50, 51, 52, and 53."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. General Ledger Supply & Computer Rental Segregation</strong>",
+            "Itemized vendor invoices and GL sub-accounts separating non-depreciable tangible prototype/lab supplies consumed in research (§ 41(b)(2)(C)) from depreciable capital equipment (§ 167), general utilities/G&A, extraordinary utility calculations, and off-premises third-party computer/cloud development server leases (§ 41(b)(2)(A)(iii)).",
+            "IRC § 41(b)(2)(A)(ii)–(iii); IRC § 41(b)(2)(C); Treas. Reg. § 1.41-2(b)(1)–(4).",
+            "<strong>Section F:</strong> Lines 43 and 44; <strong>Section G:</strong> Lines 54 and 55."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Executed Third-Party & Customer R&D Contracts</strong>",
+            "(a) <strong>Outbound CREs:</strong> Written contracts signed prior to research performance proving research is performed on taxpayer's behalf, taxpayer bears economic risk of failure, and 65%/75%/100% statutory caps and prepaid deferral rules are applied. (b) <strong>Inbound Client Contracts:</strong> Complete contract text and SOWs proving payment is contingent on technical success and taxpayer retains substantial rights to reuse underlying technical data (§ 1.41-4A(d)).",
+            "IRC § 41(b)(3) & § 41(d)(4)(H); Treas. Reg. § 1.41-2(e); Treas. Reg. § 1.41-4(c)(9); Treas. Reg. § 1.41-4A(d).",
+            "<strong>Section F:</strong> Lines 45–47; <strong>Section G:</strong> Line 56."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. Multi-Year Base Period, QSB & § 174A Method Files</strong>",
+            "Prior 4-year gross receipts and fixed-base percentage workpapers (Regular Credit) or prior 3-year consistent QRE workpapers (ASC); QSB controlled-group gross receipts (&lt;$5M current year and 5-year lookback) and Form 8974 / Form 941 reconciliations; and Rev. Proc. 2025-28 statements in lieu of Form 3115 for IRC § 174A elections and 2022–2024 unamortized recovery.",
+            "IRC § 41(c), § 41(h), § 280C(c), § 3111(f) & § 174A; Treas. Reg. § 1.41-9; Rev. Proc. 2025-28 & Notice 2017-23.",
+            "<strong>Header:</strong> Items A & B; <strong>Sections A, B, C & D:</strong> Lines 1–36; <strong>Form 8974 / Form 941</strong>."
+          ]
+        }
+      ]
+    }
+  ]
+}

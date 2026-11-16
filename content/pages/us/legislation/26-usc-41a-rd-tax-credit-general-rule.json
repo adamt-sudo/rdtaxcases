@@ -1,0 +1,568 @@
+{
+  "kind": "legislation-page",
+  "country": "us",
+  "title": "26 U.S. Code Section 41(a) General Rule",
+  "description": "26 U.S.C. § 41(a) sets the federal R&D credit at 20% of qualified research expenses above a base amount, or an elected 14% Alternative Simplified Credit.",
+  "summary": "26 U.S.C. § 41(a) sets the general rule for the federal R&D tax credit: a U.S. taxpayer's research credit equals 20 percent of qualified research expenses above a base amount, plus 20 percent of incremental basic research payments and energy research consortium payments. Taxpayers may instead elect the 14 percent Alternative Simplified Credit under § 41(c)(4).",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "26 U.S.C. § 41(a) sets the general rule for the federal R&D tax credit: a U.S. taxpayer's research credit equals 20 percent of qualified research expenses above a base amount, plus 20 percent of incremental basic research payments and energy research consortium payments. Taxpayers may instead elect the 14 percent Alternative Simplified Credit under § 41(c)(4)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Title 26 of the United States Code, Section 41(a) establishes the general statutory rule for computing the federal Credit for Increasing Research Activities, commonly referred to as the Research and Experimentation (R&E) or Research and Development (R&D) tax credit. Under the plain statutory language of 26 U.S.C. § 41(a), for purposes of calculating the <a href=\"/us/glossary/general-business-credit\">general business credit</a> under 26 U.S.C. § 38, a taxpayer's federal research credit for a given taxable year is equal to the sum of three distinct 20 percent calculation pillars: (1) 20 percent of the excess (if any) of the taxpayer's qualified research expenses (QREs) for the taxable year over a statutory historical base amount under § 41(a)(1); (2) 20 percent of incremental basic research payments (BRPs) made to qualified academic or scientific organizations determined under § 41(a)(2) and § 41(e)(1)(A); and (3) 20 percent of the amounts paid or incurred by the taxpayer in carrying on any trade or business during the taxable year (including as contributions) to an energy research consortium for energy research under § 41(a)(3). Alternatively, pursuant to <a href=\"/us/legislation/26-usc-41c4-alternative-simplified-credit\">26 U.S.C. § 41(c)(4)</a>, a taxpayer may elect the Alternative Simplified Credit (ASC), which replaces the § 41(a)(1) historical gross-receipts base calculation with a credit equal to 14 percent of so much of the taxpayer's current-year QREs as exceeds 50 percent of the average QREs for the three preceding taxable years—or 6 percent of current-year QREs under § 41(c)(4)(B) if the taxpayer had no QREs in any one of those three preceding taxable years."
+    },
+    {
+      "type": "paragraph",
+      "text": "First enacted on a temporary basis by Section 221 of the Economic Recovery Tax Act of 1981 (ERTA, Pub. L. 97-34, originally codified as Internal Revenue Code § 44F before redesignation as § 41) to counter declining domestic business investment in scientific advancement, the federal research credit was extended 16 times as a temporary measure before being made permanent by Division Q of the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act</a> of 2015 (Pub. L. 114-113) beginning with the 2015 tax year. As documented in Congressional Research Service (CRS) economic analyses, the core macroeconomic policy objective of 26 U.S.C. § 41 is to reduce the after-tax user cost of capital for domestic research and development, thereby incentivizing private enterprises to undertake technologically uncertain projects whose broader economic spillover benefits and high-wage employment gains exceed private returns. Estimates by the U.S. Department of the Treasury's Office of Tax Analysis under 2016 tax law indicate that the combined effect of the § 41 research credit and immediate expensing of research expenditures under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174(a)</a> lowered the user cost of capital for R&D investment by 15 percent to 26 percent relative to equipment investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practice, 26 U.S.C. § 41(a) operates within an interconnected federal and state statutory matrix. At the federal level, § 41 interacts directly with the research expenditure deduction and capitalization rules of 26 U.S.C. §§ 174 and 174A—as amended by Section 70302 of the One Big Beautiful Bill Act (OBBBA, Pub. L. 119-21, signed July 4, 2025) for taxable years beginning after December 31, 2024, where § 174A governs domestic research or experimental expenditures while § 174 continues to require <a href=\"/us/glossary/section-174-amortization\">15-year amortization</a> for foreign research expenditures—and the anti-double-dipping deduction reduction and reduced-credit election mechanics of 26 U.S.C. § 280C(c). Simultaneously, multi-state enterprises must navigate localized <a href=\"/us/faq/state-vs-federal-rd-tax-credits\">state-level R&D tax credit statutes</a>—such as those enacted in California, Massachusetts, Connecticut, Pennsylvania, and Iowa—that conform to or modify the core definitions of IRC § 41 while imposing strict in-state geographic nexus boundaries, custom base-period and gross-receipts definitions, and specialized credit monetization frameworks. This report examines the statutory mechanics of 26 U.S.C. § 41(a), the four-part qualitative test and exclusions under § 41(d), multi-state conformity regimes, controlling federal and state judicial precedents, a step-by-step multi-state computational model, the finalized February 2026 IRS Form 6765 reporting architecture, and specialized R&D tax compliance methodologies."
+    },
+    {
+      "type": "heading",
+      "text": "The Statutory Mechanics of 26 U.S. Code Section 41(a)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the general rule of 26 U.S.C. § 41(a), for purposes of determining the general business credit under 26 U.S.C. § 38, the federal research credit for a taxable year is the sum of three distinct statutory expenditure pillars, each multiplied by a 20 percent statutory credit rate:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Incremental Qualified Research Expenses (§ 41(a)(1)):</strong> 20 percent of the excess (if any) of the taxpayer's qualified research expenses (QREs) for the taxable year (§ 41(a)(1)(A)) over the statutory base amount (§ 41(a)(1)(B)).",
+        "<strong><a href=\"/us/glossary/basic-research-payments\">Basic Research Payments</a> (§ 41(a)(2)):</strong> 20 percent of the basic research payments determined under § 41(e)(1)(A), representing the excess of qualifying cash payments made by an eligible corporation to qualified higher education or scientific research organizations over the historical Qualified Organization Base Period Amount (QOBPA).",
+        "<strong><a href=\"/us/glossary/energy-research-consortium\">Energy Research Consortium</a> Payments (§ 41(a)(3)):</strong> 20 percent of the amounts paid or incurred by the taxpayer in carrying on any trade or business of the taxpayer during the taxable year (including as contributions) to an energy research consortium for energy research."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Defining Qualified Research Expenses (QREs) under Section 41(b)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">26 U.S.C. § 41(b)(1)</a>, qualified research expenses represent the sum of in-house research expenses (§ 41(b)(1)(A)) and contract research expenses (§ 41(b)(1)(B)) paid or incurred by the taxpayer during the taxable year \"in carrying on any trade or business of the taxpayer\". Treasury Regulation (26 CFR) § 1.41-2(a)(1) specifies that the phrase \"in carrying on a trade or business\" carries the same strict operational meaning for § 41(b)(1) as it does for ordinary and necessary business deductions under 26 U.S.C. § 162, rather than the broader \"in connection with\" standard applicable to research expenditures under <a href=\"/us/faq/section-41-credit-vs-section-174-expenses\">26 U.S.C. §§ 174 and 174A</a>. Consequently, under the general rule of 26 CFR § 1.41-2(a)(1)–(2), a research expense must relate to a particular trade or business that is being carried on by the taxpayer at the time the expense is paid or incurred; expenses paid or incurred <a href=\"/us/faq/pre-revenue-startup-rd-tax-credit-eligibility\">prior to commencing a new business</a> (as distinguished from expanding an existing trade or business) do not satisfy the general trade-or-business requirement. However, Congress enacted a specific statutory exception in <a href=\"/us/legislation/26-usc-41b4-startup-ventures-research-expenses\">26 U.S.C. § 41(b)(4)</a> for startup ventures: in the case of in-house research expenses, a taxpayer is treated as meeting the trade-or-business requirement of § 41(b)(1) if, at the time such in-house research expenses are paid or incurred, the principal purpose of the taxpayer in making such expenditures is to use the results of the research in the active conduct of a future trade or business of the taxpayer or of one or more other persons who, together with the taxpayer, are treated as a single taxpayer under the aggregation rules of § 41(f)(1)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Additionally, 26 CFR § 1.41-2(a)(3) and (4) govern research performed for others and partnerships or joint ventures. Under § 1.41-2(a)(1), a contract research expense is ineligible if the product or result of the research is intended to be transferred to another party in return for license or royalty payments and the taxpayer does not use the product of the research in its own trade or business. Under § 1.41-2(a)(4), research expenses incurred by a partnership qualify if paid or incurred in carrying on a trade or business of the partnership (determined at the partnership level without regard to the trade or business of any individual partner); even where a partnership or joint venture is not carrying on the trade or business to which the research relates, expenditures may still qualify for partners or venturers who are entitled to make independent use of the research results under a three-step regulatory allocation formula proportional to their relative § 174 expense deductions for that taxable year."
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent routine corporate overhead or capital acquisitions from being subsidized as research, 26 U.S.C. § 41(b)(2)–(3) and 26 CFR § 1.41-2 restrict QREs to four tightly bounded expenditure categories:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "QRE Expenditure Category",
+        "Statutory & Regulatory Authority",
+        "Inclusion Rate",
+        "Governing Definitions, Scope, and Statutory Exclusions"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "In-House Wages",
+            "<a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">26 U.S.C. § 41(b)(2)(A)(i)</a>, (B), (D); 26 CFR § 1.41-2(c)–(d)",
+            "100% (pro-rata by qualified time; or 100% of all wages if ≥80% qualified)",
+            "Wages as defined in 26 U.S.C. § 3401(a) for employees (or earned income as defined in 26 U.S.C. § 401(c)(2) for self-employed individuals and owner-employees within the meaning of § 401(c)(1)) paid or incurred for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>\": (1) engaging in the actual conduct of qualified research, (2) engaging in the direct supervision of qualified research (immediate first-line management only, excluding higher-level executives), or (3) engaging in the direct support of qualified research. Under the <a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">\"substantially all\" rule</a> of 26 U.S.C. § 41(b)(2)(B) and 26 CFR § 1.41-2(d)(2), if at least 80 percent of an employee's wages for the taxable year are allocated to qualified services, 100 percent of that employee's wages for the taxable year qualify as QREs. Excludes any wages taken into account in determining the Work Opportunity Credit under 26 U.S.C. § 51(a)."
+          ]
+        },
+        {
+          "cells": [
+            "In-House Supplies",
+            "26 U.S.C. § 41(b)(2)(A)(ii), (C); 26 CFR § 1.41-2(b)",
+            "100%",
+            "Any amount paid or incurred for supplies—defined as any tangible property—used or consumed in the conduct of qualified research. Statutory Exclusions: Under 26 U.S.C. § 41(b)(2)(C)(i)–(ii), the term \"supplies\" explicitly excludes (1) land or improvements to land, and (2) any property of a character subject to the allowance for depreciation."
+          ]
+        },
+        {
+          "cells": [
+            "Computer Rental / Lease (Time-Sharing)",
+            "26 U.S.C. § 41(b)(2)(A)(iii); 26 CFR § 1.41-2(b)(4)",
+            "100%",
+            "Under regulations prescribed by the Secretary, any amount paid or incurred to another person for the right to use computers in the conduct of qualified research (commonly applied to dedicated development and testing <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">cloud computing environments</a>). Under 26 CFR § 1.41-2(b), amounts paid for the use of personal property are generally excluded for taxable years beginning after December 31, 1985, except for computer time-sharing payments where three regulatory conditions are met: (1) the computer is owned and operated by someone other than the taxpayer, (2) the computer is located off the taxpayer's premises, and (3) the taxpayer is not the primary user of the computer. Under § 41(b)(2)(A), this clause does not apply to the extent the taxpayer (or an aggregated person under § 41(f)(1)) receives or accrues any amount from another person for the right to use substantially identical personal property."
+          ]
+        },
+        {
+          "cells": [
+            "Contract Research Expenses",
+            "<a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">26 U.S.C. § 41(b)(3)(A)–(D)</a>; 26 CFR § 1.41-2(e)",
+            "65% (Ordinary); 75% (Consortium); 100% (Energy)",
+            "Amounts paid or incurred by the taxpayer to any person other than an employee of the taxpayer for qualified research (or services that would constitute qualified services if performed by an employee) performed on behalf of the taxpayer. Under 26 CFR § 1.41-2(e)(2)–(3), contract research qualifies only if pursuant to an agreement that (1) is entered into prior to the performance of the qualified research, (2) provides that the research be performed on behalf of the taxpayer (meaning the taxpayer has a right—though not necessarily exclusive—to the research results), and (3) requires the taxpayer to bear the financial expense even if the research is not successful (any fee contingent on success is excluded). Included at <a href=\"/us/faq/contractor-expenses-65-percent-rule-rd-credit\">65% for ordinary contracts</a> (§ 41(b)(3)(A)); 75% for payments to a qualified research consortium (§ 41(b)(3)(C), defined as a § 501(c)(3) or § 501(c)(6) tax-exempt organization organized and operated primarily to conduct scientific research that is not a private foundation, performing research for the taxpayer and ≥1 unrelated taxpayers); and 100% for eligible energy research paid to an eligible small business (≤500 average employees in either of the 2 preceding calendar years and &lt;50% owned by the taxpayer under § 318), a § 3304(f) institution of higher education, or a Federal laboratory as defined in 15 U.S.C. § 3703(6) (§ 41(b)(3)(D)). Under § 41(b)(3)(B) and 26 CFR § 1.41-2(e)(4), prepaid contract research expenses are treated as paid or incurred during the period in which the qualified research is actually conducted."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "The Base Amount and the Alternative Simplified Credit (ASC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Congress designed the federal research credit to reward incremental growth in research investment rather than subsidizing a static baseline, the 20 percent credit under 26 U.S.C. § 41(a)(1) applies only to current-year QREs that exceed the taxpayer's <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">statutory base amount</a>. Under the Regular Research Credit (RRC) rules codified in <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">26 U.S.C. § 41(c)(1)</a>, the base amount is calculated as the product of (A) the taxpayer's fixed-base percentage, and (B) the average annual gross receipts of the taxpayer for the four taxable years preceding the taxable year for which the credit is being determined (referred to in the statute as the \"credit year\")."
+    },
+    {
+      "type": "paragraph",
+      "text": "The computation of the fixed-base percentage under <a href=\"/us/legislation/26-usc-41c3-fixed-base-percentage\">26 U.S.C. § 41(c)(3)</a> bifurcates between established firms and startup companies. For established firms—those that had both gross receipts and QREs in at least three taxable years beginning after December 31, 1983, and before January 1, 1989 (the historical 1984–1988 base period)—§ 41(c)(3)(A) defines the fixed-base percentage as the percentage which the aggregate QREs of the taxpayer for taxable years beginning after December 31, 1983, and before January 1, 1989, is of the aggregate gross receipts of the taxpayer for those same taxable years. Conversely, under 26 U.S.C. § 41(c)(3)(B)(i), a taxpayer is classified as a <a href=\"/us/glossary/start-up-provision\">startup company</a> if (I) the first taxable year in which it had both gross receipts and QREs began after December 31, 1983, or (II) there were fewer than three taxable years beginning after December 31, 1983, and before January 1, 1989, in which the taxpayer had both gross receipts and QREs. Under 26 U.S.C. § 41(c)(3)(B)(ii), a startup company is assigned a statutory fixed-base percentage of 3 percent for each of its first five taxable years (beginning after December 31, 1993) for which it has QREs. Beginning in the sixth such taxable year, the startup company's fixed-base percentage transitions over a five-year phase-in schedule based on its actual QRE-to-gross-receipts ratios: 1/6 of the aggregate QRE-to-gross-receipts percentage for its 4th and 5th such taxable years in the 6th year (§ 41(c)(3)(B)(ii)(II)); 1/3 of the ratio for its 5th and 6th years in the 7th year (§ 41(c)(3)(B)(ii)(III)); 1/2 of the ratio for its 5th, 6th, and 7th years in the 8th year (§ 41(c)(3)(B)(ii)(IV)); 2/3 of the ratio for its 5th through 8th years in the 9th year (§ 41(c)(3)(B)(ii)(V)); 5/6 of the ratio for its 5th through 9th years in the 10th year (§ 41(c)(3)(B)(ii)(VI)); and for the 11th and subsequent taxable years thereafter, the actual percentage which the taxpayer's aggregate QREs for any five taxable years selected by the taxpayer from among its 5th through 10th such taxable years is of its aggregate gross receipts for those selected years (§ 41(c)(3)(B)(ii)(VII))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Across both established and startup entities, 26 U.S.C. § 41(c)(3)(C) and (D) mandate that the fixed-base percentage be rounded to the nearest 1/100th of 1 percent (four decimal places) and capped at a maximum statutory ceiling of 16 percent. Under the <a href=\"/us/glossary/consistency-rule\">consistency rule</a> of 26 U.S.C. § 41(c)(5)(A) (formerly codified as § 41(c)(6)), notwithstanding whether the period for filing a claim for credit or refund has expired for any taxable year taken into account in determining the fixed-base percentage, the QREs taken into account in computing such percentage must be determined on a basis consistent with the determination of QREs for the current credit year. As confirmed in precedential administrative jurisprudence (<em>Appeal of Novo Nordisk Inc.</em>, 2024-OTA-679P, citing <em>Union Carbide Corp. and Subsidiaries v. Commissioner</em>, T.C. Memo. 2009-50), for a <a href=\"/us/glossary/controlled-group\">controlled group</a> of corporations aggregated as a single taxpayer under 26 U.S.C. § 41(f)(1), the consistency rule applies on a per-member basis to ensure consistent accounting of research expenditures between historical years and the credit year, while historical QREs of a former controlled-group affiliate that ceased operations without transferring a viable trade or business under § 41(f)(3)(B) must remain in the controlled group's aggregate fixed-base percentage calculation so as not to artificially lower the group's base amount."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because reconstructing 1984–1988 financial records can be administratively prohibitive and rapid revenue growth can inflate the base amount under the gross-receipts formula, Congress introduced the <a href=\"/us/faq/asc-vs-regular-rd-tax-credit-method\">Alternative Simplified Credit (ASC)</a>. Under 26 U.S.C. § 41(c)(4)(A)–(C), a taxpayer electing the ASC bypasses gross receipts entirely, computing its § 41(a)(1) credit as 14 percent of current-year QREs exceeding 50 percent of the average QREs for the three preceding taxable years—or 6 percent of current-year QREs under § 41(c)(4)(B) if the taxpayer had no QREs in any one of those three preceding taxable years—with the election applying to the taxable year for which made and all succeeding taxable years unless revoked with the consent of the Secretary."
+    },
+    {
+      "type": "subheading",
+      "text": "Section 41(e): Basic Research Payments and Academic Collaboration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whereas 26 U.S.C. § 41(a)(1) targets commercial product and process development, 26 U.S.C. § 41(a)(2) and § 41(e) establish a dedicated 20 percent tax credit for Basic Research Payments (BRPs) to incentivize private corporations to fund foundational scientific inquiry at universities and nonprofit scientific research institutions. Under 26 U.S.C. § 41(e)(7)(A), the term \"basic research\" is defined as any original investigation for the advancement of scientific knowledge not having a specific commercial objective, except that the term explicitly excludes (i) basic research conducted outside of the United States, and (ii) basic research in the social sciences, arts, or <a href=\"/us/glossary/humanities-exclusion\">humanities</a>. Furthermore, under 26 U.S.C. § 41(e)(7)(D), for purposes of applying the trade-or-business requirement of § 41(b)(1) to § 41(e), any basic research payment is statutorily treated as an amount paid in carrying on a trade or business of the taxpayer in the taxable year in which it is paid, without regard to the prepaid contract research deferral rule of § 41(b)(3)(B)."
+    },
+    {
+      "type": "paragraph",
+      "text": "To qualify as a basic research payment under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">26 U.S.C. § 41(e)(2)(A)</a>, the payment must be made in cash during the taxable year by an eligible corporation to a qualified organization for basic research, but only if (i) the payment is made pursuant to a mandatory written agreement between the corporation and the qualified organization, and (ii) the basic research is to be performed directly by that qualified organization (except where the recipient is a scientific tax-exempt organization or grant organization described in § 41(e)(6)(C) or (D) that currently expends substantially all of its funds or basic research payments for grants to, or contracts for basic research with, qualified higher education institutions). Under 26 U.S.C. § 41(e)(6)(A)–(D), \"<a href=\"/us/glossary/qualified-organization\">qualified organizations</a>\" encompass four statutory categories: (A) educational institutions that are both institutions of higher education within the meaning of 26 U.S.C. § 3304(f) and described in 26 U.S.C. § 170(b)(1)(A)(ii); (B) certain scientific research organizations not described in subparagraph (A) that are described in 26 U.S.C. § 501(c)(3) and exempt from tax under § 501(a), organized and operated primarily to conduct scientific research, and are not private foundations; (C) scientific tax-exempt organizations described in § 501(c)(3) (other than a private foundation) or § 501(c)(6) that are exempt under § 501(a) and organized and operated primarily to promote scientific research by § 41(e)(6)(A) educational institutions pursuant to written research agreements; and (D) certain § 501(c)(3) grant organizations established by pre-July 10, 1981 tax-exempt organizations that elect private foundation treatment to make basic research grants exclusively to § 41(e)(6)(A) higher education institutions under written agreements. Crucially, 26 U.S.C. § 41(e)(7)(E) bars three classes of entities from claiming the basic research credit by excluding them from the statutory definition of \"corporation\": (i) S corporations, (ii) personal holding companies (as defined in 26 U.S.C. § 542), and (iii) service organizations (as defined in 26 U.S.C. § 414(m)(3))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(e)(1)(A), the 20 percent credit under § 41(a)(2) applies only to the excess of current-year basic research payments over the Qualified Organization Base Period Amount (QOBPA). Under 26 U.S.C. § 41(e)(3), the QOBPA is equal to the sum of two historical look-back components—the Minimum Basic Research Amount (MBRA) under § 41(e)(3)(A) plus the Maintenance-of-Effort Amount (MEA) under § 41(e)(3)(B)—computed over the \"base period,\" which § 41(e)(7)(B) defines as the three-taxable-year period ending with the taxable year immediately preceding the first taxable year of the taxpayer beginning after December 31, 1983:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Section 41(e) Component",
+        "Statutory Citation",
+        "Statutory Formula and Legal Mechanics"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Minimum Basic Research Amount (MBRA)",
+            "26 U.S.C. § 41(e)(4)(A)–(B)",
+            "Furthermore, under the Floor Amount rule of § 41(e)(4)(B), except in the case of a taxpayer that was in existence during a full taxable year (other than a short taxable year) in the base period, the MBRA for any base period shall not be less than 50 percent of the basic research payments for the current taxable year for which the credit determination is being made."
+          ]
+        },
+        {
+          "cells": [
+            "Maintenance-of-Effort Amount (MEA)",
+            "26 U.S.C. § 41(e)(5)(A)–(C)",
+            "Prevents corporations from substituting historical non-research charitable university donations with tax-advantaged BRPs. Under § 41(e)(5)(A), the MEA equals the excess (if any) of (i) the average of the \"nondesignated university contributions\" (defined in § 41(e)(5)(B) as charitable contributions to § 41(e)(6)(A) universities for which a deduction was allowable under 26 U.S.C. § 170 and that were not taken into account in computing the research credit or as BRPs) paid by the taxpayer during the base period, multiplied by the cost-of-living adjustment for the calendar year in which the current taxable year begins (determined under 26 U.S.C. § 1(f)(3) by substituting \"calendar year 1987\"—or the calendar year in which the base period ends if other than 1983 or 1984—for \"calendar year 1992\" under § 41(e)(5)(C)), over (ii) the amount of nondesignated university contributions paid by the taxpayer during the current taxable year."
+          ]
+        },
+        {
+          "cells": [
+            "Non-Excess BRP Contract Flow-Through",
+            "26 U.S.C. § 41(e)(1)(B), § 41(e)(7)(C), § 41(b)(3)(A)",
+            "Any basic research payments that do not exceed the QOBPA threshold do not receive the 20% credit under § 41(a)(2). Instead, 26 U.S.C. § 41(e)(1)(B) mandates that the portion of basic research payments that does not exceed the QOBPA shall be treated as contract research expenses for purposes of § 41(a)(1), meaning 65 percent of the non-excess amount under § 41(b)(3)(A) flows directly into the taxpayer's general QRE pool. Conversely, under the anti-double-counting rule of § 41(e)(7)(C)(i)–(ii), the incremental BRPs taken into account under § 41(a)(2) shall not be treated as QREs under § 41(a)(1)(A) and shall not be included in the computation of the base amount under § 41(a)(1)(B)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Four-Part Test for Qualified Research and Statutory Exclusions (§ 41(d))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before any expenditure can enter the mathematical formulas of 26 U.S.C. § 41(a), the underlying research activity must satisfy the qualitative statutory definition of \"qualified research\" codified in <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">26 U.S.C. § 41(d)</a> and Treasury Regulation 26 CFR § 1.41-4. Under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">26 U.S.C. § 41(d)(2)(A)</a>, the four-part statutory test of § 41(d)(1) must be applied separately with respect to each discrete business component of the taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Should a business component as a whole fail to satisfy all four prongs of the statutory test, 26 CFR § 1.41-4(b)(2) establishes the \"shrinking-back rule\": the requirements of § 41(d) are first applied at the level of the discrete business component (the overall product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in its trade or business), and if those requirements are not met at that level, they are then applied to the \"most significant subset of elements\" of that product, process, software, technique, formula, or invention. This shrinking-back continues down to smaller subcomponents until either a subset of elements of the product that satisfies the four-part test of § 41(d)(1) is reached, or the most basic element of the product is reached and fails the test. However, as demonstrated in <em>Appeal of Abramson, et al.</em> (2024-OTA-636), a taxpayer can utilize the shrinking-back rule under 26 CFR § 1.41-4(b)(2) only if its records identify and substantiate the specific subparts and precise activities that constituted a <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a>; where a taxpayer tracks hours only by project and phase with vague timesheet descriptions, tribunals cannot apply the shrinking-back rule or estimate qualifying wages for any subset of activities. Furthermore, under the special rule for <a href=\"/us/faq/manufacturing-process-improvements-rd-tax-credit\">production processes</a> in 26 U.S.C. § 41(d)(2)(C), any plant process, machinery, or technique for the commercial production of a business component is treated as a separate business component distinct from (and not part of) the business component being produced."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Test Prong",
+        "Statutory & Regulatory Citation",
+        "Legal Standard and Evidentiary Requirements"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. Section 174 / 174A Test (Elimination of Uncertainty)",
+            "26 U.S.C. § 41(d)(1)(A); 26 CFR § 1.41-4(a)(2)(i), (a)(3)(i); 26 CFR § 1.174-2",
+            "Expenditures connected with the research must be eligible for treatment as <a href=\"/us/glossary/research-and-experimental-expenditures\">research or experimental expenditures</a> under 26 U.S.C. § 174 (and, for domestic research or experimental expenditures in taxable years beginning after December 31, 2024, 26 U.S.C. § 174A). Under 26 CFR § 1.41-4(a)(3)(i), research is undertaken for the purpose of discovering information only if it is intended to eliminate <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">objective uncertainty</a> concerning the development or improvement of a business component. Uncertainty exists if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of the business component."
+          ]
+        },
+        {
+          "cells": [
+            "2. Technological in Nature Test",
+            "26 U.S.C. § 41(d)(1)(B)(i); 26 CFR § 1.41-4(a)(3)(ii)–(iii), (a)(4)",
+            "The research must be undertaken for the purpose of discovering information that is technological in nature. Under 26 CFR § 1.41-4(a)(4), information is technological in nature only if the process of experimentation used to discover such information fundamentally relies on principles of the physical or biological sciences, engineering, or computer science (rather than economics, social sciences, or artistic design). Under 26 CFR § 1.41-4(a)(3)(ii), the taxpayer is not required to seek information that exceeds, expands, or refines the common knowledge of skilled professionals in the field, nor is the <a href=\"/us/faq/failed-development-rd-tax-credit-eligibility\">research required to succeed</a>. Under the <a href=\"/us/glossary/patent-safe-harbor\">Patent Safe Harbor</a> of 26 CFR § 1.41-4(a)(3)(iii), the issuance of a patent by the Patent and Trademark Office under 35 U.S.C. § 151 (other than a design patent under 35 U.S.C. § 171) is conclusive evidence that the taxpayer has discovered technological information intended to eliminate uncertainty."
+          ]
+        },
+        {
+          "cells": [
+            "3. Business Component Test",
+            "26 U.S.C. § 41(d)(1)(B)(ii), (d)(2)(B)",
+            "The taxpayer must intend that the application of the discovered information be useful in the development of a new or improved business component of the taxpayer. Under 26 U.S.C. § 41(d)(2)(B), a \"business component\" is defined as any product, process, computer software, technique, formula, or invention which is to be (i) held for sale, lease, or license, or (ii) used by the taxpayer in a trade or business of the taxpayer."
+          ]
+        },
+        {
+          "cells": [
+            "4. Process of Experimentation Test",
+            "26 U.S.C. § 41(d)(1)(C), (d)(3)(A)–(B); 26 CFR § 1.41-4(a)(5)–(6)",
+            "<a href=\"/us/glossary/substantially-all-rule\">Substantially all</a>—defined in 26 CFR § 1.41-4(a)(6) as 80 percent or more of a taxpayer's research activities for the discrete business component measured on a cost or other consistently applied reasonable basis (and determined without regard to § 1.41-2(d)(2))—must constitute elements of a process of experimentation for a qualified purpose. If the 80% threshold is met, the remaining ≤20% of activities also satisfy the requirement if they satisfy § 41(d)(1)(A) and are not excluded under § 41(d)(4). Under 26 CFR § 1.41-4(a)(5)(i), a process of experimentation requires identifying the uncertainty, identifying one or more alternatives to eliminate that uncertainty, and conducting a methodical evaluation of those alternatives (via modeling, simulation, or systematic trial and error). Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">26 U.S.C. § 41(d)(3)(A)</a>, a qualified purpose must relate to a new or improved function, performance, reliability, or quality, whereas § 41(d)(3)(B) disqualifies any purpose relating to style, taste, cosmetic, or seasonal design factors."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Statutory Exclusions under 26 U.S.C. § 41(d)(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if an activity appears related to product engineering, <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">26 U.S.C. § 41(d)(4)(A)–(H)</a> and 26 CFR § 1.41-4(c) expressly exclude eight categories of activities from the definition of qualified research:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong><a href=\"/us/glossary/research-after-commercial-production\">Research After Commercial Production</a> (§ 41(d)(4)(A)):</strong> Any research conducted after the beginning of commercial production of the business component—defined in 26 CFR § 1.41-4(c)(2) as the point where the component is developed to the point where it is ready for commercial sale or use, or meets the basic functional and economic requirements of the taxpayer for commercial sale or use. Under 26 CFR § 1.41-4(c)(2)(ii), activities explicitly deemed to occur after the beginning of commercial production include: (1) preproduction planning for a finished business component; (2) tooling-up for production; (3) trial production runs; (4) troubleshooting involving detecting faults in production equipment or processes; (5) accumulating data relating to production processes; and (6) debugging flaws in a business component.",
+        "<strong><a href=\"/us/glossary/adaptation-exclusion\">Adaptation of Existing Business Components</a> (§ 41(d)(4)(B)):</strong> Any research related to the adaptation of an existing business component to a particular customer's requirement or need.",
+        "<strong><a href=\"/us/glossary/duplication-exclusion\">Duplication of Existing Business Components</a> (§ 41(d)(4)(C)):</strong> Any research related to the reproduction of an existing business component (in whole or in part) from a physical examination of the business component itself or from plans, blueprints, detailed specifications, or publicly available information with respect to such business component (reverse engineering).",
+        "<strong>Surveys, Studies, Management Functions, and Quality Control (§ 41(d)(4)(D)):</strong> Any (i) <a href=\"/us/glossary/efficiency-surveys\">efficiency survey</a>, (ii) activity relating to management function or technique, (iii) market research, testing, or development (including advertising or promotions), (iv) routine data collection, or (v) routine or ordinary testing or inspection for quality control.",
+        "<strong>Internal-Use Computer Software (§ 41(d)(4)(E)):</strong> Except to the extent provided in regulations (26 CFR § 1.41-4(c)(6), where software developed primarily for internal use in general and administrative functions, such as inventory management, is subject to restriction and must pass an additional <a href=\"/us/glossary/high-threshold-of-innovation-test\">High-Threshold-of-Innovation</a> [HTI] test, whereas software developed to interact with third parties—such as enabling third parties to initiate functions, review data, or order products online—or intended for commercial sale, lease, or license is not treated as internal use software), any research with respect to computer software developed by or for the benefit of the taxpayer primarily for internal use by the taxpayer, other than software developed for use in (i) an activity which constitutes qualified research or (ii) a production process that meets the requirements of § 41(d)(1) (or a new or improved package of software and hardware).",
+        "<strong><a href=\"/us/glossary/foreign-research-exclusion\">Foreign Research</a> (§ 41(d)(4)(F)):</strong> Any research conducted outside the United States, the Commonwealth of Puerto Rico, or any possession of the United States.",
+        "<strong><a href=\"/us/glossary/social-sciences-exclusion\">Social Sciences, Arts, or Humanities</a> (§ 41(d)(4)(G)):</strong> Any research in the social sciences (including economics and business management), arts, or humanities.",
+        "<strong><a href=\"/us/glossary/funded-research\">Funded Research</a> (§ 41(d)(4)(H)):</strong> Any research to the extent funded by any grant, contract, or otherwise by another person or governmental entity (where the taxpayer does not retain substantial rights or does not bear the financial risk of failure under 26 CFR § 1.41-4A(d))."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "State-Level R&D Tax Credit Frameworks: Adapting Section 41"
+    },
+    {
+      "type": "paragraph",
+      "text": "While 26 U.S.C. § 41(a) applies uniformly to research conducted within the United States, Puerto Rico, and U.S. possessions, state legislatures have enacted localized R&D tax credit statutes that tether to IRC § 41 definitions while imposing strict in-state geographic sourcing rules, modified base-period formulas, and unique credit monetization options."
+    },
+    {
+      "type": "subheading",
+      "text": "California: Revenue and Taxation Code (R&TC) Section 23609 and Franchise Tax Board Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "California conforms to IRC § 41 with significant statutory modifications codified in California Revenue and Taxation Code (R&TC) § 23609 (for corporations) and R&TC § 17052.12 (for personal income tax filers), administered by the California Franchise Tax Board (FTB) via Form FTB 3523 (Research Credit, Credit Code 183). California generally operates on static IRC conformity (referencing the Internal Revenue Code as of January 1, 2015, unless otherwise specified). Under R&TC § 23609(c)(2), both qualified research and basic research must be conducted strictly within California."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, for purposes of computing the historical base amount under the regular credit, R&TC § 23609(h)(3) and the Form FTB 3523 instructions restrict \"gross receipts\" for multistate taxpayers exclusively to gross receipts from the sale of property held primarily for sale to customers in the ordinary course of the taxpayer's trade or business that is delivered or shipped to customers within California, regardless of free on board (f.o.b.) point or other conditions of sale (reduced by returns and allowances). This includes sales to the U.S. government delivered in California, but explicitly excludes throwback sales as well as receipts from services, rents, operating leases, interest, royalties, and licenses. As confirmed by the California Office of Tax Appeals in <em>Appeal of Electronic Data Systems Corp. & Subsidiaries</em> (2023-OTA-540), a taxpayer cannot calculate its California gross receipts under R&TC § 23609(h)(3) simply by applying its general California apportionment percentage to its total net gross receipts, and must substantiate its methodology for all included and excluded revenue streams. Under FTB Legal Division Guidance 2012-03-01 and R&TC §§ 17052.12(h) and 23609(i), a taxpayer with California QREs but zero California gross receipts may still claim the regular credit, although the FTB advises such taxpayers to consider electing the Alternative Simplified Credit. If a taxpayer without California gross receipts maintains the regular credit, the 2025 Form FTB 3523 instructions require computing its fixed-base percentage as a startup company (using the first taxable year on or after January 1, 1994, in which QREs occurred); if division by zero gross receipts creates a mathematical error in year six or beyond, statutory rules require using a fixed-base percentage of 16 percent (0.16) and entering $0 for average annual gross receipts."
+    },
+    {
+      "type": "paragraph",
+      "text": "California's statutory calculation rates under R&TC § 23609(a) and the 2025 Instructions for Form FTB 3523 diverge substantially from the federal 20 percent and 14 percent rates. The California regular research credit rate is 15 percent of the excess of California QREs over the base period amount, while eligible C-corporations (excluding S corporations, personal holding companies, and service organizations) are allowed an enhanced 24 percent credit for basic research payments under IRC § 41(e) for basic research conducted in California pursuant to a written contract with a qualified organization (including public university hospitals and qualified cancer centers located in California for eligible biopharmaceutical/biotech corporations). For the Alternative Simplified Credit (ASC)—available by election for taxable years beginning on or after January 1, 2022, and mandatory to elect (or elect the regular credit) for former Alternative Incremental Credit (AIC) filers starting January 1, 2025, following the repeal of California's AIC—California provides a primary rate of 3 percent of California QREs exceeding 50 percent of the average California QREs for the three preceding taxable years, or 1.3 percent of current-year California QREs if the taxpayer had no California QREs in any one of the three preceding taxable years."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <a href=\"/us/glossary/pass-through-entity-rd-credit\">pass-through entities</a>, S corporations compute the credit at 100 percent on Form FTB 3523 and transfer one-third (1/3) of the computed credit to Schedule C (100S) to offset their 1.5 percent entity-level franchise tax (or 3.5 percent for financial S corporations), while passing through 100 percent of the generated credit to their shareholders on a pro-rata basis. (If a C corporation had unused research credit carryovers upon converting to S corporation status, the carryovers are reduced to one-third for entity-level use, the remaining two-thirds are permanently disregarded, and the converted carryovers cannot pass through to shareholders.) Partnerships allocate the credit among partners based on each partner's distributive share as determined in a written partnership agreement under R&TC § 17039(e). Additionally, for taxable years beginning on or after January 1, 2024, and before January 1, 2027, California imposes a $5,000,000 annual cap on total business credit utilization per taxpayer or combined reporting group; taxpayers (excluding S corporations at the entity level) whose credits are disallowed due to the $5,000,000 cap may either carry over the disallowed credit (extending the carryover period by the number of years limited) or make an irrevocable election on Form FTB 3870 attached to a timely filed return to receive an annual refundable credit of 20 percent per year over five years beginning in the third taxable year after the election year."
+    },
+    {
+      "type": "paragraph",
+      "text": "California R&TC § 41 is a general legislative oversight statute requiring the FTB to collect data and submit reports to the California Legislature on specific newly enacted state tax expenditures. For the 2025 tax year, Form FTB 4197 is filed only by taxpayers claiming one of nine specific statutory items: commercial cannabis activity deductions/credits (Code CBIS, R&TC § 17209), deployed military small business exemptions (Code DME), turf replacement water conservation rebates (Code TRWCP, R&TC §§ 17138.2 & 24308.9), emergency financial aid grants (Code EFAG, R&TC § 17131.22), ARPA student loan forgiveness (Code ARPSLF, R&TC § 17144.8), or specific wildfire settlements/mitigation payments—Thomas and Woolsey Wildfires (Code TWWE), Kincade Wildfire (Code KWE), Zogg Wildfire (Code ZWE), and Wildfire Mitigation Payments (Code WMP). The general California Research Credit under R&TC §§ 23609 and 17052.12 is reported on Form FTB 3523 and is not reported on Form FTB 4197 unless the taxpayer independently triggers one of those nine unrelated tax expenditure codes."
+    },
+    {
+      "type": "subheading",
+      "text": "Massachusetts: 830 CMR 63.38M.1 and Aggregated Group Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Massachusetts provides a corporate excise research credit under Massachusetts General Laws (M.G.L.) c. 63, § 38M and Department of Revenue regulation 830 CMR 63.38M.1 (Massachusetts Research Credit). Under 830 CMR 63.38M.1(2)–(5), the regulation tethers its core definitions of QREs (§ 41(b)) and basic research payments (§ 41(e)) to the Internal Revenue Code as amended and in effect on August 12, 1991 (while referencing current-year IRC §§ 280C(c) and 704 for net income determination and partnership flow-through attribution under 830 CMR 63.38M.1(3)(d) and (f)), providing a standard credit equal to 10 percent of incremental Massachusetts QREs over the Massachusetts base amount (subject to a 50 percent minimum base floor and a 16 percent fixed-base percentage if historical records are inadequate) plus 15 percent of Massachusetts basic research payments determined under IRC § 41(e)(1)(A). Additionally, following a 2014 statutory amendment to M.G.L. c. 63, § 38M, Massachusetts offers an Alternative Simplified Method (modeled after the federal simplified method and referencing IRC § 41(c)(5) as in effect on January 1, 2014) that phased in from 5 percent (2015–2017) and 7.5 percent (2018–2020) to 10 percent (for calendar years beginning on or after January 1, 2021) of Massachusetts QREs exceeding 50 percent of the average Massachusetts QREs for the three preceding taxable years. Annual utilization is capped at 100 percent of the first $25,000 of corporate excise plus 75 percent of excise over $25,000 (shared across affiliated groups), with a <a href=\"/us/glossary/research-credit-carryforward\">15-year carryforward</a> (or indefinite carryforward in certain instances, and partial refundability available for certified Life Science or Climatetech companies)."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a corporation is part of a controlled group or affiliated entities under <a href=\"/us/glossary/common-control\">common control</a> required to aggregate under 830 CMR 63.38M.1(7), all Massachusetts QREs, basic research payments, gross receipts, base period amounts, and minimum basic research amounts must be computed on a unified basis across the entire aggregated group to determine a single aggregated credit (with intercompany transactions adjusted to fair market value and partnerships/joint ventures owned by group members treated as flow-through entities). Specifically, under 830 CMR 63.38M.1(7)(h)2, when computing the group's QOBPA for basic research payments, the maintenance-of-effort amount for any individual member may be negative, but a negative maintenance-of-effort amount may not be used to reduce the minimum basic research amounts of the aggregated group or of any individual member. The resulting aggregated credit is allocated solely to corporate members doing business in Massachusetts in proportion to each member's share of Massachusetts QREs and basic research payments."
+    },
+    {
+      "type": "subheading",
+      "text": "Connecticut, Pennsylvania, and Iowa: Specialized State Monetization Frameworks"
+    },
+    {
+      "type": "paragraph",
+      "text": "States have also engineered distinct statutory mechanisms—including bifurcated incremental/non-incremental schedules, cash refund exchanges, and open-market credit assignments—to provide liquidity to pre-revenue or loss-making innovators:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "State Jurisdiction",
+        "Governing Statutes & Forms",
+        "Credit Calculation & Tiered Rate Mechanics",
+        "Monetization, Refundability, and Current Statutory Status"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Connecticut",
+            "CGS § 12-217j (Form CT-1120RC); CGS § 12-217n (Form CT-1120 RDC); CGS § 12-217ee (Form CT-1120 XCH)",
+            "Bifurcated Framework: 1. R&E Incremental Credit (CGS § 12-217j): Flat 20% credit on the increase in direct Connecticut § 174 research and experimental expenditures over the preceding income year (excluding overhead and G&A). 2. R&D Rolling Credit (CGS § 12-217n): Non-incremental credit on remaining Connecticut R&D spending and basic research payments with tiered tentative rates: 1% (up to $50M), $500,000 + 2% ($50M–$100M), $1.5M + 4% ($100M–$200M), and $5.5M + 6% (over $200M, subject to wage base reduction if out-of-state transfers reduce the CT wage base by &gt;2%). Qualified Small Businesses (QSBs) with prior-year gross income ≤$100 million (including related-entity transactions) bypass the lower tiers and receive a flat 6% tentative rate on all R&D spending (Enterprise Zone headquarters with &gt;2,500 CT employees and &gt;$3B revenue qualify for ≥3.5%).",
+            "65% Cash Refund Exchange (CGS § 12-217ee): A QSB whose prior-year gross income does not exceed $70 million and that has no Corporation Business Tax liability may file Form CT-1120 XCH separately with supporting schedules to exchange unused current-year credits earned under § 12-217j or § 12-217n for a cash refund equal to 65% of the credit value (or 90% for certain eligible cases), capped at $1.5 million in refunds per income year. Unused credits otherwise <a href=\"/us/faq/rd-tax-credit-carryforward-rules\">carry forward</a> 15 income years under § 12-217j or indefinitely under § 12-217n (no carryback permitted)."
+          ]
+        },
+        {
+          "cells": [
+            "Pennsylvania",
+            "72 P.S. §§ 8701-B to 8712-B (Article XVII-B, Tax Reform Code of 1971)",
+            "Incremental credit on qualified Pennsylvania R&D expenses exceeding base-year expenses against Corporate Net Income Tax (CNIT) and Personal Income Tax (PIT): • Standard (\"Not Small\") Businesses: 10% tentative credit. • Small Businesses (for-profit corporation, LLC, partnership, or proprietorship with net book value of total assets &lt;$5,000,000): 20% tentative credit (since Act 116 of 2006). • Program Cap (Act 53 of 2022): $60 million annual cap ($12 million, or 20%, reserved for small businesses).",
+            "Open-Market Sale / Assignment via DCED (72 P.S. § 8704-B): Under Act 46 of 2003 (and Act 85 of 2012, which removed the one-year holding period), taxpayers with unused approved R&D credits exceeding collectible tax liabilities (excluding credits passed through to S-corporation shareholders) may apply to the Department of Community and Economic Development (DCED) to <a href=\"/us/faq/can-you-sell-transfer-rd-tax-credits\">sell or assign their credits</a> immediately for cash (historically trading at ~92.9% of face value through 2025). Buyers must use purchased credits in the taxable year of purchase/assignment to offset up to 75% of their qualified tax liability and cannot carry forward, carry back, resell, or refund them."
+          ]
+        },
+        {
+          "cells": [
+            "Iowa",
+            "Iowa Code §§ 422.10 & 422.33(5) (Forms IA 128 & IA 128S)",
+            "Regular Research Activities Tax Credit equals 6.5% of Iowa QREs exceeding the greater of the base amount or 50% of current-year Iowa QREs (or calculated via the Alternative Simplified method on Form IA 128S, which since TY 2023 must match the federal calculation method), restricted since TY 2017 to manufacturing, life sciences, agriscience, software engineering, and aviation/aerospace. Since TY 2023, Iowa disallows the federal \"substantially all\" wage rule, excludes computer rental costs, and phased down eligible Iowa supply QREs (80% in 2023, 60% in 2024, 40% in 2025, 20% in 2026, 0% in 2027).",
+            "Currency Update — Statutory Repeal Effective Jan. 1, 2026: While historically refundable (with refundability caps and a 6-month limit on credit-increasing amended returns phased in starting 2023), Iowa repealed both the Research Activities Tax Credit and Supplemental Research Activities Credit effective January 1, 2026. Credits may only be claimed for transition tax years beginning on or after Jan. 1, 2025, and before Jan. 1, 2026, with full program repeal on January 1, 2027."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Judicial Interpretation and Case Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal and state courts uniformly hold that tax credits are a matter of legislative grace, meaning statutes granting credits under 26 U.S.C. § 41 are strictly construed against the taxpayer, who bears the burden of proving strict entitlement through <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a>. Two landmark decisions in the <a href=\"/us/faq/apparel-fashion-industry-rd-tax-credits\">apparel design sector</a>—one before the California Office of Tax Appeals and one before the United States Tax Court—illustrate how tribunals enforce the Section 174 uncertainty test (§ 41(d)(1)(A)), the technological in nature test (§ 41(d)(1)(B)(i)), the process of experimentation test (§ 41(d)(1)(C)), and the style, taste, cosmetic, or seasonal design exclusion (§ 41(d)(3)(B))."
+    },
+    {
+      "type": "subheading",
+      "text": "State Administrative Precedent: Appeals of Swat-Fame, Inc., et al. (2020-OTA-046P)"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>In the Matter of the Appeals of: Swat-Fame, Inc.; Bruce Stern and Judith Stern; and Mitchell Quaranta and Nina Quaranta</em>, 2020-OTA-046P (OTA Case Nos. 18010702, 18012114, and 18012115, opinion issued March 22, 2019), the California Office of Tax Appeals (OTA) issued a precedential decision upholding the Franchise Tax Board's disallowance of $2,443,508 in combined California R&D tax credit refund claims and proposed assessments claimed by S-corporation garment manufacturer Swat-Fame, Inc. and its shareholders under R&TC § 23609 and IRC § 41. Specifically, across tax years 2008 through 2011, the FTB denied refund claims totaling $1,422,688—comprising $260,047 at the Swat-Fame S-corporation entity level ($26,143 for 2008; $51,168 for 2009; $107,728 for 2010; and $75,008 for 2011), $665,119 for shareholders Bruce and Judith Stern ($158,754 for 2008; $143,530 for 2009; $196,952 for 2010; and $165,883 for 2011), and $497,522 for shareholders Mitchell and Nina Quaranta ($107,635 for 2008; $102,129 for 2009; $117,759 for 2010; and $169,999 for 2011)—and issued Notices of Proposed Assessment (NPAs) for the 2012 tax year totaling $1,020,820 ($347,427 against Swat-Fame; $343,045 against the Sterns; and $330,348 against the Quarantas). Following an R&D study performed with alliantgroup, Swat-Fame contended that its pre-production garment development activities across four sample projects (Projects UB636N, D11072, Z1743D01, and M93771)—creating silhouettes, selecting fabrics, sketching/CAD modeling, patternmaking, fit testing, and wash/laser treatments—constituted qualified research."
+    },
+    {
+      "type": "paragraph",
+      "text": "In rejecting the claims, the OTA established three controlling evidentiary principles under R&TC § 23609 and IRC § 41(d). First, interpreting 26 U.S.C. § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(5), the OTA held that to prove that \"substantially all\" (80 percent or more) of research activities constitute elements of a process of experimentation, a taxpayer cannot rely on \"simple trial and error\" or routine product development adjustments, but must substantiate a scientific method involving formulating a hypothesis, testing alternatives under controlled variables, recording data, refining the hypothesis, and retesting. Second, in examining Project M93771 (a 2010 two-piece cotton sundress and smocked shrug set), where the stonewashing process frequently ripped the corners of the shrug's pockets and the sundress fabric at the neckline was so flimsy that it kept falling forward, Swat-Fame remedied the issues by reinforcing the pockets with extra bar tack stitching, returning the shrug to patternmaking for construction guideline adjustments, and adding a lining and a hook-and-eye clasp to the sundress. The OTA ruled that applying extra bar tack stitching, adding a lining for structure, or adding a hook-and-eye clasp was merely applying known, routine industry solutions to a familiar design rather than resolving technological uncertainty through a scientific process of experimentation. Third, in examining Project UB636N (2008 denim Bermuda shorts made of 98 percent cotton and 2 percent spandex raw indigo stretch denim, which experienced wash shrinkage, waistband fusing shrinkage, and back pocket tearing, and never went into production), where Swat-Fame treated the denim through lasering and washing (using potassium, resin, and stonewashing), the OTA held that even though laser treatment and chemical washing employ scientific equipment or principles, Swat-Fame was already familiar with the fabric's properties and performed standard fit and wash tests to achieve an aesthetic look (style and seasonal design), which is disqualified under IRC § 41(d)(3)(B)."
+    },
+    {
+      "type": "subheading",
+      "text": "Federal Tax Court Precedent: Leon Max v. Commissioner (T.C. Memo. 2021-37)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The California OTA's reasoning in <em>Swat-Fame</em> was reinforced at the federal level by the United States Tax Court in <em>Leon Max v. Commissioner</em>, T.C. Memo. 2021-37 (Docket No. 20237-16, filed March 29, 2021). Petitioner Leon Max, sole shareholder of women's apparel S-corporation Leon Max, Inc. (LMI), challenged the IRS's disallowance of passthrough IRC § 41 research credits arising from an alliantgroup study across 32 sampled garments. LMI argued that its pre-production garment development—turning hand-drawn conceptual sketches and mood boards into physical garments through 2D blueprint patternmaking, fabric cutting along the grain, trial-and-error fabric draping on mannequins, fit testing on live models mimicking daily physical movements (reaching, sitting, climbing stairs, driving), grading patterns across sizes, and pre-shipment fabric testing (washing for shrinkage and pilling, 3-second seam pull tests, and dye crocking/colorfastness tests) prior to third-party manufacturing in China—satisfied 26 U.S.C. § 41(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court held that LMI failed three independent prongs of the <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">four-part test</a>, rendering it unnecessary to reach the Business Component test. First, LMI failed the Section 174 uncertainty test (§ 41(d)(1)(A)) because its experienced patternmakers and designers already possessed the technical knowledge to resolve garment construction challenges (such as fabric shrinkage, aligning flying-bird prints across seams, selecting thread sizes, adjusting crotch curves for fit models, or draping twisted shoulder straps) as ordinary daily tasks (\"common solutions to common problems\"), and its seam, pilling, colorfastness, and home laundering shrinkage tests constituted ordinary inspection or testing of materials for <a href=\"/us/glossary/quality-control-testing\">quality control</a>, which is explicitly excluded from § 174 under 26 CFR § 1.174-2(a)(3) and § 41(d)(4)(D)(v). Second, LMI failed the Technological in Nature test (§ 41(d)(1)(B)(i)) because its design team practiced the art of fashion design using standard artistic and commercial techniques to meet commercial price points rather than applying principles of physical or biological sciences, material science (LMI did not use mathematical draping coefficients), chemistry, or engineering. Third, LMI failed the Process of Experimentation and Qualified Purpose tests (§ 41(d)(1)(C) & § 41(d)(3)(B)) because its activities centered on visual aesthetics, seasonal factors, and customer taste profiles—which are explicitly barred by 26 U.S.C. § 41(d)(3)(B) as relating to style, taste, cosmetic, or seasonal design factors—and lacked a formalized scientific method demonstrating that at least 80 percent of activities constituted elements of a process of experimentation."
+    },
+    {
+      "type": "heading",
+      "text": "Practical Worked Example: Multi-State QRE and Credit Calculation (Hypothetical)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quantum Horizon elects the Alternative Simplified Credit (ASC) method at both the federal and California levels and elects the reduced credit under 26 U.S.C. § 280C(c)(2) on Item A of Form 6765."
+    },
+    {
+      "type": "paragraph",
+      "text": "In this hypothetical 2026 scenario, Quantum Horizon reports $5,000,000 in Total Federal QREs (comprising all domestic in-house wages, supplies, and contract research across California and Texas, inclusive of the $260,000 non-excess BRP contract research flow-through from Step 1) against a prior three-year (2023–2025) average annual federal QRE baseline of $4,000,000. Within California, the company incurs $3,500,000 in California-apportioned QREs strictly within state borders under R&TC § 23609(c)(2), compared against a prior three-year average annual California QRE baseline of $3,000,000. In addition, Quantum Horizon makes a $1,000,000 Basic Research Payment (BRP) in cash to a qualified university under a written agreement pursuant to 26 U.S.C. § 41(e)(2), compared against a historical Qualified Organization Base Period Amount (QOBPA) of $400,000 (the sum of its MBRA under § 41(e)(4) and MEA under § 41(e)(5))."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Federal Basic Research Credit Computation (26 U.S.C. § 41(a)(2) & § 41(e))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 U.S.C. § 41(e)(1)(A) and § 41(a)(2), Quantum Horizon first isolates its $1,000,000 university cash payment from its general QRE pool and subtracts the $400,000 historical QOBPA, yielding $600,000 in eligible incremental basic research payments ($1,000,000 − $400,000 = $600,000). Multiplying this $600,000 incremental excess by the 20 percent statutory rate under 26 U.S.C. § 41(a)(2) produces a Federal Basic Research Credit of $120,000 ($600,000 × 20% = $120,000). Under 26 U.S.C. § 41(e)(1)(B), the $400,000 portion of the basic research payment that did not exceed the QOBPA is not lost; rather, it is treated as a contract research expense for purposes of § 41(a)(1). Applying the 65 percent statutory inclusion rate for ordinary contract research under 26 U.S.C. § 41(b)(3)(A) generates $260,000 ($400,000 × 65% = $260,000) in qualified contract research expenses, which flows into Quantum Horizon's $5,000,000 total current-year federal QRE pool."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Federal Alternative Simplified Credit (§ 41(c)(4)) and Section 280C(c) Election"
+    },
+    {
+      "type": "paragraph",
+      "text": "Using its $5,000,000 total current-year federal QREs and $4,000,000 prior three-year average federal QREs, Quantum Horizon computes its ASC base amount under 26 U.S.C. § 41(c)(4)(A) as 50 percent of the prior three-year average, which equals $2,000,000 ($4,000,000 × 50% = $2,000,000). Subtracting the $2,000,000 ASC base amount from the $5,000,000 current-year QREs leaves $3,000,000 in eligible incremental federal QREs ($5,000,000 − $2,000,000 = $3,000,000). Applying the 14 percent statutory ASC rate under § 41(c)(4)(A) yields a Federal ASC Credit of $420,000 ($3,000,000 × 14% = $420,000). Combining the $120,000 Basic Research Credit and the $420,000 ASC Credit produces a Gross (Pre-280C) Federal Research Credit of $540,000 ($120,000 + $420,000 = $540,000)."
+    },
+    {
+      "type": "paragraph",
+      "text": "At this stage, Quantum Horizon must account for the anti-double-dipping rules of <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">26 U.S.C. § 280C(c)</a>. Under <a href=\"/us/faq/does-rd-tax-credit-reduce-tax-basis-section-280c\">26 U.S.C. § 280C(c)(1)</a> (as amended for taxable years beginning after December 31, 2024), if a taxpayer claims the full $540,000 gross research credit, the domestic research or experimental expenditures (as defined in 26 U.S.C. § 174A(b)) otherwise taken into account as a deduction or charged to a capital account must be reduced by the full $540,000 credit amount. To preserve 100 percent of its domestic research deductions under § 174A/§ 174 and avoid a $540,000 taxable income add-back, Quantum Horizon checks \"Yes\" on Item A of Form 6765 on its timely filed original return (including extensions) to make an irrevocable <a href=\"/us/glossary/section-280c-election\">election for the reduced credit</a> under 26 U.S.C. § 280C(c)(2) (formerly codified as § 280C(c)(3); see also Treasury Decision 9539 and 26 CFR § 1.280C-4). Under 26 U.S.C. § 280C(c)(2)(B), the gross credit is reduced by the product of the gross credit and the maximum corporate tax rate under 26 U.S.C. § 11(b), which is 21 percent ($540,000 × 21% = $113,400 reduction), leaving a Net Federal Research Credit of $426,600 ($540,000 × 79% = $426,600)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: California State Apportionment and ASC Computation (R&TC § 23609)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For its California franchise tax return (Form FTB 3523), Quantum Horizon includes only the $3,500,000 of current-year QREs and $3,000,000 prior three-year average QREs incurred strictly within California under R&TC § 23609(c)(2). The California ASC base amount equals 50 percent of the $3,000,000 prior three-year California average, or $1,500,000 ($3,000,000 × 50% = $1,500,000), leaving $2,000,000 in eligible incremental California QREs ($3,500,000 − $1,500,000 = $2,000,000). Multiplying $2,000,000 by California's 3 percent statutory ASC rate yields a California ASC Credit of $60,000 ($2,000,000 × 3% = $60,000)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analytical Note on California Basic Research and R&TC § 24440 Rules: Furthermore, as noted in Form FTB 3523 instructions and state tax guidance under R&TC § 24440, California does not conform to the federal 79 percent § 280C(c)(2) reduced credit percentage to avoid a state deduction reduction; instead, California requires a mandatory add-back (deduction disallowance) of the California credit amount at the 8.84 percent corporate tax rate or applies a California-specific reduction multiplier of 91.16 percent (100% − 8.84% California corporate tax rate) under R&TC § 24440."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Computational Step & Jurisdiction",
+        "Statutory Authority",
+        "Gross Input / QRE Pool",
+        "Historical Base / QOBPA",
+        "Incremental Eligible Amount",
+        "Statutory Rate / Multiplier",
+        "Resulting Tax Credit / Adjustment"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Step 1A: Federal Basic Research Credit",
+            "26 U.S.C. § 41(a)(2), § 41(e)(1)(A)",
+            "$1,000,000 (BRP)",
+            "$400,000 (QOBPA)",
+            "$600,000",
+            "20%",
+            "$120,000 (Basic Credit)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 1B: Non-Excess BRP Flow-Through",
+            "26 U.S.C. § 41(e)(1)(B), § 41(b)(3)(A)",
+            "$400,000 (Base BRP)",
+            "N/A",
+            "$400,000",
+            "65%",
+            "$260,000 (Added to Federal QRE Pool)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 2A: Federal ASC Computation",
+            "26 U.S.C. § 41(a)(1), § 41(c)(4)(A)",
+            "$5,000,000 (Total QREs)",
+            "$2,000,000 (50% of $4M 3-Yr Avg)",
+            "$3,000,000",
+            "14%",
+            "$420,000 (Federal ASC Credit)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 2B: Gross Federal Credit Total",
+            "26 U.S.C. § 41(a)(1)–(2)",
+            "—",
+            "—",
+            "—",
+            "Sum of 1A + 2A",
+            "$540,000 (Pre-280C Federal Credit)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 2C: <a href=\"/us/glossary/reduced-research-credit\">IRC § 280C(c) Reduced Credit</a>",
+            "26 U.S.C. § 280C(c)(2)(B), § 11(b)",
+            "$540,000 (Gross Credit)",
+            "($113,400) (21% Tax Reduction)",
+            "$540,000",
+            "79% (1 − 0.21)",
+            "$426,600 (Net Federal Credit; preserves 100% § 174A deduction)"
+          ]
+        },
+        {
+          "cells": [
+            "Step 3: California ASC Computation",
+            "Cal. R&TC § 23609; Form FTB 3523",
+            "$3,500,000 (CA QREs)",
+            "$1,500,000 (50% of $3M 3-Yr Avg)",
+            "$2,000,000",
+            "3%",
+            "$60,000 (California ASC Credit)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Compliance, IRS Guidance, and the 2026 Form 6765 Reporting Landscape"
+    },
+    {
+      "type": "paragraph",
+      "text": "The administrative enforcement of 26 U.S.C. § 41(a) has undergone a structural overhaul designed to replace enterprise-level expenditure aggregation with project-by-project transparency. On February 6, 2026, the Internal Revenue Service published the finalized <a href=\"/us/faq/irs-form-6765-instructions-2024\">Instructions for Form 6765</a> (Rev. December 2025) (Credit for Increasing Research Activities, for use with the January 2025 revision of Form 6765). The revised <a href=\"/us/glossary/irs-form-6765\">Form 6765</a> introduces two major reporting sections—Section E and Section G—that directly operationalize the business-component requirements of 26 U.S.C. § 41(d)(2)(A)."
+    },
+    {
+      "type": "subheading",
+      "text": "Section E and Section G Mandatory Reporting Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the finalized Form 6765 instructions, any taxpayer reporting Qualified Research Expenses on line 48 must complete Section E (Other Information, Lines 37–41) for the filing member's QREs on 2025 tax year returns (filed in 2026) and beyond. Section E functions as an upfront risk-assessment profile, requiring disclosure of: (1) the total number of business components generating QREs across the entire claim (Line 37); (2) total corporate officer wages included in qualified service wages on line 42, with officer status determined under the laws of the state of incorporation regardless of whether the officer is also a shareholder (Line 38); (3) whether any QREs on line 48 relate to a current-year business acquisition or disposition under § 41(f)(3) (Line 39); (4) whether any new or recharacterized expense categories were included compared to historical base years under the § 41(c)(5) consistency rule (Line 40); and (5) whether any QREs follow the IRS ASC 730 Directive safe harbor for large taxpayers with $10 million or more in assets that prepare U.S. GAAP Certified Audited Financial Statements (CAFS) showing current R&D expenses as a separate income statement line item or note and use those statements to reconcile book income to federal tax income on Schedule M-3, entering the amount from ASC 730 Directive Appendix C, line 19 (Line 41)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meanwhile, Section G (Business Component Information, Lines 49–56)—after remaining optional for all filers for tax years beginning before 2026 (the 2024 and 2025 transition tax years, unless specific rules apply to <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended returns</a>)—becomes mandatory for all filers for tax years beginning after 2025 (the 2026 tax year and beyond), subject to two strict exemptions. First, Qualified Small Businesses under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">26 U.S.C. § 41(h)(3)</a> that check the box to claim a reduced payroll tax credit (up to $500,000 against payroll tax liability) are exempt. Second, under the small-business / low-QRE exception, taxpayers are exempt from completing Section G if they have (i) total QREs determined at the controlled group level on line 48 of $1.5 million or less, AND (ii) average annual gross receipts for the prior three tax years (determined under 26 U.S.C. § 448(c)(3) without regard to § 448(c)(3)(A)) of $50 million or less, AND (iii) are reporting the research credit on an original return."
+    },
+    {
+      "type": "paragraph",
+      "text": "For all non-exempt filers, Section G enforces the \"80% / Top 50\" Business Components Rule: taxpayers must list business components in descending order of total QREs until they account for at least 80 percent of total QREs reported on line 48, reporting no more than 50 business components determined at the controlled group level, with any remaining components reported on a single \"Aggregate Business Components\" line in column 49(c) (leaving columns 49(a), 49(b), 49(d), 49(e), and 49(f) blank and entering aggregate totals in columns 50 through 56). Filers using the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a> enter \"ASC 730 Directive\" in column 49(c) with applicable Appendix B (column A) amounts in columns 53, 54, 55, and 56 (attaching Form6765ASC730AppendixA.pdf through Form6765ASC730AppendixD.pdf); if that single entry equals at least 80 percent of line 48 QREs, no additional business components need be reported in Section G. Filers using <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling</a> under Revenue Procedure 2011-42 must still report the 80% / Top 50 business components in Section G, adding the word \"sample\" to the component name in column 49(c) for sampled components and attaching Form6765StatSamplePlan.pdf."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form 6765 Section & Line / Column",
+        "Mandatory Effective Date",
+        "Statutory & Regulatory Nexus",
+        "Required Granular Disclosure and Filing Rules"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Section E, Line 37 (Business Components)",
+            "Mandatory for 2025 tax year (filed in 2026) when QREs are on Line 48",
+            "26 U.S.C. § 41(d)(2)(A)",
+            "Total count of all business components generating the QREs reported on Line 48 (not limited to the Top 50 reported in Section G)."
+          ]
+        },
+        {
+          "cells": [
+            "Section E, Line 38 (Officer Wages)",
+            "Mandatory for 2025 tax year (filed in 2026)",
+            "26 U.S.C. § 41(b)(2)(A)(i), § 3401(a)",
+            "Total dollar amount of compensation attributable to <a href=\"/us/faq/ceo-salary-rd-tax-credit-calculation\">corporate officers</a> (determined under state incorporation law) included in qualified service wages on Line 42."
+          ]
+        },
+        {
+          "cells": [
+            "Section E, Lines 39–40 (M&A & Consistency)",
+            "Mandatory for 2025 tax year (filed in 2026)",
+            "<a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">26 U.S.C. § 41(f)(3)</a>, § 41(c)(5)(A)",
+            "\"Yes/No\" flags indicating whether Line 48 QREs involve a current-year acquisition/disposition (Line 39) or new/recharacterized expense categories requiring base-year adjustments (Line 40)."
+          ]
+        },
+        {
+          "cells": [
+            "Section E, Line 41 (ASC 730 Directive)",
+            "Mandatory for 2025 tax year (filed in 2026)",
+            "IRS ASC 730 Directive Safe Harbor",
+            "\"Yes/No\" flag and dollar amount from ASC 730 Directive Appendix C, Line 19 (for U.S. GAAP audited filers with ≥$10M assets reconciling on Schedule M-3). If the single \"ASC 730 Directive\" entry in Section G covers ≥80% of Line 48 QREs, no further Section G components need be itemized."
+          ]
+        },
+        {
+          "cells": [
+            "Section G, Cols. 49(a)–(f) (Component Identity & Software Type)",
+            "Optional before 2026; Mandatory for tax years beginning after 2025",
+            "26 U.S.C. § 41(d)(2)(B), § 41(d)(4)(E)",
+            "For each 80% / Top 50 component: Entity EIN (49(a)); PBA code (49(b)); Component name/ID (49(c), appending \"sample\" if sampled under Rev. Proc. 2011-42); Type (\"Product\", \"Process\", or \"All Others\" in 49(d)); and Software code in 49(e) (A. <a href=\"/us/glossary/internal-use-software-ius\">IUS Internal Use Software</a>, B.1–B.3 DFS Dual Function Software, C.1–C.3 Excepted from IUS, or Non-IUS)."
+          ]
+        },
+        {
+          "cells": [
+            "Section G, Cols. 50–56 (Project-Level QRE Breakdown)",
+            "Optional before 2026; Mandatory for tax years beginning after 2025",
+            "26 U.S.C. § 41(b)(2)–(3); 26 CFR § 1.41-2(c)",
+            "For each 80% / Top 50 component (and the \"Aggregate Business Components\" line): Direct Conduct Wages (Col. 50), Direct Supervision Wages (Col. 51), <a href=\"/us/glossary/direct-support\">Direct Support</a> Wages (Col. 52), Total Qualified Wages (Col. 53 = sum of 50–52), Supplies (Col. 54), Computer Rental/Lease (Col. 55), and Contract Research (Col. 56, carried to Line 45)."
+          ]
+        }
+      ]
+    }
+  ]
+}

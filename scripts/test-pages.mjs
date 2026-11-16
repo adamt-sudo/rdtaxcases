@@ -5,6 +5,8 @@ import { buildPage } from "./import-page.mjs";
 import { normalizeInternalHref } from "../src/lib/inline-core.mjs";
 import { loadSiteMap } from "./lib/page-address.mjs";
 import { measure } from "./link-density.mjs";
+import { cleanTitle, convertDoc } from "./import-batch.mjs";
+import { makeDescription } from "./lib/describe.mjs";
 
 const siteMap = loadSiteMap();
 let groups = 0;
@@ -83,6 +85,43 @@ group("link density", () => {
   assert.equal(rep.distinct, 2);
   assert.equal(rep.repeats, 1);
   assert.equal(rep.maxRepeat, 2);
+});
+
+// ---- the delivered documents (answer capsule, no h1, works cited, footnote markers, formulas, MathML)
+const DELIVERED = `<section class="answer-capsule" aria-label="Summary"><p>Under 26 U.S.C. § 41(c)(3), the ratio is capped at 16%. Second sentence.</p></section>
+<article lang="en-US"><h1>Not the title</h1>
+<h2>One</h2>
+<p>Text<sup>3</sup> and a link <a href="https://rdtaxcases.com/us/glossary/funded-research/" target="_blank" rel="noopener">here</a> and <a href="https://www.irs.gov/x" target="_blank" rel="noopener">IRS</a> and QRE<sub>t</sub> over Σ<sub>t=1984</sub><sup>1988</sup> and r<sup>[7]</sup>.</p>
+<math><mrow><mtext>Fraction</mtext><mo>=</mo><mfrac><mn>1,200</mn><mn>2,000</mn></mfrac></mrow></math>
+<section id="works-cited"><h4>Works cited</h4><ol><li>https://www.irs.gov/a</li></ol></section>
+</article>`;
+group("a delivered document is cleaned", () => {
+  const { blocks, capsule, h1, report } = convertDoc(DELIVERED);
+  assert.equal(capsule, "Under 26 U.S.C. § 41(c)(3), the ratio is capped at 16%. Second sentence.");
+  assert.deepEqual(h1, ["Not the title"]);
+  assert.ok(!blocks.some((b) => b.type === "heading" && /Not the title/.test(b.text)), "no h1 in the body");
+  assert.ok(!JSON.stringify(blocks).includes("Works cited") && !JSON.stringify(blocks).includes("irs.gov/a"), "works cited removed");
+  assert.equal(report.removedReferences, 1);
+  const p = blocks.find((b) => b.type === "paragraph" && b.text.startsWith("Text")).text;
+  assert.ok(p.startsWith("Text and a link"), "the footnote marker 3 is gone");
+  assert.ok(!p.includes("[7]"), "the bracketed marker is gone");
+  assert.ok(p.includes('<a href="/us/glossary/funded-research">here</a>'), "own link: path, no trailing slash, no target");
+  assert.ok(p.includes('<a href="https://www.irs.gov/x">IRS</a>'), "other sites keep their link (the renderer adds target and rel)");
+  assert.ok(p.includes("QRE<sub>t</sub>") && p.includes("<sub>t=1984</sub><sup>1988</sup>"), "formula indices stay");
+  assert.ok(blocks.some((b) => b.type === "paragraph" && b.text.includes("(1,200) / (2,000)") === false && b.text.includes("1,200 / 2,000")), "MathML fraction as text");
+});
+group("titles and descriptions", () => {
+  assert.equal(cleanTitle("faq", "Compare R&D tax advisors."), "Compare R&D tax advisors");
+  assert.equal(cleanTitle("faq", "Do I qualify?"), "Do I qualify?");
+  assert.equal(cleanTitle("legislation", "26 U.S. Code Section 41(a) General Rule"), "26 U.S. Code Section 41(a) General Rule");
+  const a = makeDescription("Under 26 U.S.C. § 41(a), the federal research credit equals twenty percent of excess expenses. A second sentence follows here.");
+  assert.equal(a.text, "Under 26 U.S.C. § 41(a), the federal research credit equals twenty percent of excess expenses.");
+  assert.equal(makeDescription("Short opening. Then more.").text, "Short opening. Then more.", "a very short first sentence is joined with the next");
+  assert.equal(makeDescription("Yes. In many cases a pre-revenue startup can claim the credit through the payroll election.").text.startsWith("Yes. In many cases"), true);
+  assert.equal(makeDescription("Is a 30% fee too high? A 30% success fee sits at the top of published ranges.", 155, "Is a 30% fee too high?").text.startsWith("Is a 30% fee too high? A 30%"), true);
+  assert.equal(makeDescription("Leon Max v. Commissioner (T.C. Memo. 2021-37) is a ruling.").text, "Leon Max v. Commissioner (T.C. Memo. 2021-37) is a ruling.");
+  const long = makeDescription("Under 26 U.S.C. § 41(h), a qualified small business may elect up to five hundred thousand dollars of its credit against payroll taxes and then more words keep going on and on without any end in sight at all.");
+  assert.ok(long.text.length <= 155 && long.text.endsWith("…"), long.text);
 });
 
 console.log(`pages and link density: ${groups} groups of tests passed`);

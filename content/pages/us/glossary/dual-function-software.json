@@ -1,0 +1,853 @@
+{
+  "kind": "glossary-term",
+  "country": "us",
+  "title": "Dual Function Software",
+  "description": "Dual function software is software a U.S. taxpayer develops for both internal general and administrative functions and third-party interaction.",
+  "summary": "Dual function software is software a U.S. taxpayer develops for both internal general and administrative functions and third-party interaction. Under Treasury Regulations § 1.41-4(c)(6)(vi), it is presumed internal use software for the federal R&D tax credit, but a pure third-party subset qualifies fully, and remaining software may claim 25% of QREs if anticipated third-party use is at least 10%.",
+  "language": "en-US",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Dual function software is software a U.S. taxpayer develops for both internal general and administrative functions and third-party interaction. Under Treasury Regulations § 1.41-4(c)(6)(vi), it is presumed internal use software for the federal R&D tax credit, but a pure third-party subset qualifies fully, and remaining software may claim 25% of QREs if anticipated third-party use is at least 10%."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dual Function Software (DFS), governed by Treasury Regulations § 1.41-4(c)(6)(vi) (promulgated in Treasury Decision 9786, 81 Fed. Reg. 68,308, effective for taxable years beginning on or after October 4, 2016), is computer software developed by or for the benefit of a taxpayer both for internal general and administrative (G&A) functions that facilitate or support the conduct of the taxpayer's trade or business and to enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system. Because Internal Revenue Code (IRC) § 41(d)(4)(E) generally excludes <a href=\"/us/glossary/internal-use-software-ius\">Internal Use Software (IUS)</a> from the federal Research and Development (R&D) tax credit unless it satisfies a stringent three-part High Threshold of Innovation Test (HTIT) under 26 CFR § 1.41-4(c)(6)(vii) in addition to the standard Four-Part Test under IRC § 41(d)(1) and 26 CFR § 1.41-4(a)(2), the foundational regulatory presumption under 26 CFR § 1.41-4(c)(6)(vi)(A) that Dual Function Software is developed primarily for internal use creates an immediate statutory and audit barrier for integrated enterprise software platforms. To overcome or mitigate this presumption without proving the three-part HTIT, taxpayers must execute a strict two-step regulatory sequence grounded in their documented intent and the facts and circumstances at the beginning of software development under 26 CFR § 1.41-4(c)(6)(vi)(D): first, identify and isolate any <a href=\"/us/glossary/third-party-subset\">Third-Party Subset (TSS)</a> of software elements that exclusively enables third-party interaction, function initiation, or data review under 26 CFR § 1.41-4(c)(6)(vi)(B), which removes the subset from IUS treatment and qualifies 100% of its allocable Qualified Research Expenses (QREs) under the standard Four-Part Test; second, for any remaining interwoven Dual-Function Subset (or for the entire Dual Function Software system if no separate TSS can be isolated), elect the 25% Safe Harbor under 26 CFR § 1.41-4(c)(6)(vi)(C) to include 25% of the subset's allocable QREs, provided third-party use is reasonably anticipated at the beginning of development to constitute at least 10% of the software or subset's total use as measured by an objective, reasonable method within the taxpayer's industry."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Availability of the 25% Safe Harbor When No Third-Party Subset Is Identified:</strong> A recurring compliance misconception is that if a taxpayer cannot isolate a Third-Party Subset (TSS) under 26 CFR § 1.41-4(c)(6)(vi)(B), the 25% safe harbor under 26 CFR § 1.41-4(c)(6)(vi)(C) cannot be applied, leaving the entire software development project subject to the three-part HTIT. In fact, the verbatim text of 26 CFR § 1.41-4(c)(6)(vi)(C) (\"If, after the application of paragraph (c)(6)(vi)(B) of this section, there remains dual function software or a subset of elements of dual function software (dual function subset)...\"), Section V of the Preamble to T.D. 9786, and 26 CFR § 1.41-4(c)(6)(viii) Example 12 explicitly establish that a taxpayer who attempts to identify a TSS under paragraph (c)(6)(vi)(B) but is unable to do so may apply the 25% safe harbor to the entire unsegregated Dual Function Software system, provided the ≥10% anticipated third-party use threshold and the general requirements of IRC § 41(d) and § 41(b) are satisfied.",
+        "<strong>Enumerated Objective Methods for Measuring the 10% Usage Threshold:</strong> Contrary to assertions that Treasury regulations fail to specify how \"use\" is measured and force taxpayers to rely on subjective metrics, 26 CFR § 1.41-4(c)(6)(vi)(C) expressly prohibits subjective estimations by mandating an \"objective, reasonable method within the taxpayer's industry\" and enumerating concrete regulatory examples—specifically processing time, amount of data transfer, and number of software user interface screens—while Section V of the T.D. 9786 Preamble adds number of third-party initiated functions as a fourth recognized metric.",
+        "<strong>Mutually Exclusive Operation of the 25% Safe Harbor and the HTIT on Residual Subsets:</strong> Under 26 CFR § 1.41-4(c)(6)(vi)(A)–(C), 26 CFR § 1.41-4(c)(6)(viii) Examples 12 through 14, and the IRS Instructions for Form 6765 (Rev. January 2025 / updated December 2025), the 25% safe harbor is an elective alternative to the HTIT for a given Dual-Function Subset. Electing the 25% safe harbor fixes the includible QREs of that specific Dual-Function Subset at 25% and forfeits the remaining 75% without subjecting that disallowed 75% residual to a separate HTIT examination; conversely, a taxpayer only evaluates the HTIT on a Dual-Function Subset if the taxpayer foregoes the 25% safe harbor to seek 100% QRE inclusion (or fails the ≥10% anticipated third-party usage threshold, as in Example 13).",
+        "<strong>Exclusion of G&A Support Vendors from the Regulatory Definition of \"Third Party\":</strong> Classifying vendor-facing software modules (such as vendor inventory portals or vendor supply-chain APIs) as qualifying third-party interaction elements for Dual Function Software contravenes 26 CFR § 1.41-4(c)(6)(vi)(E). While \"third party\" generally encompasses any corporation, trade or business, or other person not treated as a single taxpayer with the taxpayer under <a href=\"/us/legislation/26-usc-41f-rd-tax-credit-special-rules\">IRC § 41(f)</a>, 26 CFR § 1.41-4(c)(6)(vi)(E) and 26 CFR § 1.41-4(c)(6)(viii) Example 6 explicitly exclude any persons—including the taxpayer's own vendors—who use the software to support the taxpayer's general and administrative functions, such as inventory management under 26 CFR § 1.41-4(c)(6)(iii)(B)(1).",
+        "<strong>Statutory Distinction Between Permitted Purpose (IRC § 41(d)(3)(A)) and HTIT Innovation (26 CFR § 1.41-4(c)(6)(vii)(B)):</strong> Conflating the standard <a href=\"/us/faq/rd-tax-credit-four-part-test-explained\">Four-Part Test</a> with the three-part HTIT creates significant audit exposure. Under <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">26 U.S.C. § 41(d)(3)(A)</a> and 26 CFR § 1.41-4(a)(5)(ii), a \"qualified purpose\" (Permitted Purpose) under the standard Four-Part Test is limited to developing a business component for a new or improved function, performance, reliability, or quality (excluding style, taste, cosmetic, or seasonal design factors). Achieving a substantial and economically significant \"reduction in cost\" (or improvement in speed or other measurable improvement) is the regulatory standard for the Innovative prong of the HTIT under 26 CFR § 1.41-4(c)(6)(vii)(B)—which, in turn, explicitly rejects any requirement that internal-use software be \"unique or novel\" or significantly different from existing implementation methods.",
+        "<strong>Exact Regulatory Codification of IUS, Excepted Software, and Non-IUS (26 CFR § 1.41-4(c)(6)(ii), (iii), and (iv)):</strong> Accurate tax return disclosure—particularly under mandatory Section G of <a href=\"/us/glossary/irs-form-6765\">IRS Form 6765</a> for tax years beginning after 2025—requires precise regulatory mapping. Under 26 CFR § 1.41-4(c)(6), paragraph (c)(6)(iii) defines Internal Use Software and its three exhaustive G&A categories (Financial Management, Human Resources Management, and Support Services, reported as Category A on Form 6765 Column 49(e)); paragraph (c)(6)(ii) governs internal-use software Excepted from the HTIT (software used in qualified research under (ii)(A), software used in a qualified production process under (ii)(B), and integrated hardware-software packages under (ii)(C), reported as Category D); and paragraph (c)(6)(iv) governs Software Not Developed Primarily for Internal Use (commercial software held for sale, lease, license, or marketing under (iv)(A) and pure third-party interaction software under (iv)(B), reported as Category C).",
+        "<strong>Statutory Enactment Lineage and Regulatory Recordkeeping Authority:</strong> The federal research credit was originally enacted in 1981 as IRC § 44F under Section 221 of the Economic Recovery Tax Act of 1981 (Pub. L. No. 97-34), redesignated as IRC § 30 by Section 471(c) of the Tax Reform Act of 1984, redesignated and restructured as IRC § 41 by Section 231 of the Tax Reform Act of 1986, and made permanent by the <a href=\"/us/glossary/path-act\">Protecting Americans from Tax Hikes (PATH) Act</a> of 2015. Furthermore, the explicit mandate that a taxpayer claiming a credit under Section 41 \"must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\" is codified in Treasury Regulations § 1.41-4(d) (cross-referencing 26 CFR § 1.6001-1 and IRC § 6001), rather than in the statutory text of IRC § 41 itself."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "I. Executive Summary: The Strategic Significance of Dual Function Software"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Statutory Evolution of IRC § 41 and the Software Eligibility Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Congress originally enacted the federal research and development tax credit in Section 221 of the Economic Recovery Tax Act of 1981 (ERTA 1981, Pub. L. No. 97-34, 95 Stat. 172, 241) as Section 44F of the Internal Revenue Code of 1954. As documented in House Report H.R. Rep. No. 97-201, 97th Cong., 1st Sess. 116 (1981), Congress established the credit to counter declining private-sector research spending, \"stimulate a higher rate of capital formation and to increase productivity,\" and \"encourage business firms to perform the research necessary to increase the innovative qualities and efficiency of the U.S. economy\" by helping businesses absorb the substantial staffing, wage, and supply costs required for experimental research programs. Following its redesignation as IRC § 30 under Section 471(c) of the Tax Reform Act of 1984, Congress redesignated the provision as IRC § 41 and substantially modified its qualification standards in Section 231 of the Tax Reform Act of 1986, revised the <a href=\"/us/faq/rd-tax-credit-base-amount-calculation\">base computation</a> in the Revenue Reconciliation Act of 1989, extended the credit through a series of temporary reenactments (including the Small Business Job Protection Act of 1996, the Tax Relief Extension Act of 1999, and the Working Families Tax Relief Act of 2004), and ultimately made the credit permanent in the Protecting Americans from Tax Hikes (PATH) Act of 2015."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41(a)</a> and § 38, the research credit is a nonrefundable general business credit (subject to the qualified small business payroll tax credit election under IRC § 41(h)(3)) structured on an incremental basis to reward taxpayers for expanding ongoing domestic research efforts. Specifically, under the regular credit calculation of 26 U.S.C. § 41(a)(1)–(3), the credit equals the sum of: (1) 20 percent of the excess (if any) of the taxpayer's Qualified Research Expenses (QREs) for the taxable year over a statutory base amount; (2) 20 percent of basic research payments determined under <a href=\"/us/legislation/26-usc-41e-basic-research-payments\">IRC § 41(e)(1)(A)</a>; and (3) 20 percent of amounts paid or incurred by the taxpayer in carrying on any trade or business during the taxable year (including as contributions) to an energy research consortium for energy research. Under <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">26 U.S.C. § 41(b)(1)–(3)</a>, QREs consist of in-house research expenses—comprising employee wages paid or incurred for qualified services under § 41(b)(2)(A)(i), supplies used in the conduct of qualified research under § 41(b)(2)(A)(ii), and amounts paid or incurred to another person for the right to use computers (such as off-premises cloud computing or time-sharing rental under 26 CFR § 1.41-2(b)(4)) in the conduct of qualified research under § 41(b)(2)(A)(iii)—plus 65 percent of contract research expenses paid or incurred to non-employees under § 41(b)(3)(A) (increased to 75 percent for qualified research consortia under § 41(b)(3)(C) and 100 percent for eligible small businesses, universities, and federal laboratories performing energy research under § 41(b)(3)(D))."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the statutory architecture of IRC § 41, <a href=\"/us/faq/qualifying-rd-activities-software-companies\">computer software development</a> presents an acute boundary challenge. Taxpayers and IRS examiners must distinguish bona fide experimental software research—which must satisfy all four statutory tests of IRC § 41(d)(1)—from routine software engineering, <a href=\"/us/glossary/adaptation-exclusion\">adaptation of existing business components</a>, post-release maintenance, vendor package configuration, and back-office administration. To prevent routine corporate information technology investments from claiming the credit, Congress enacted a general statutory exclusion in <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">26 U.S.C. § 41(d)(4)(E)</a>: except to the extent provided by Treasury regulations, any research with respect to computer software that is developed by (or for the benefit of) the taxpayer primarily for internal use by the taxpayer is excluded from the definition of qualified research. Crucially, under 26 CFR § 1.41-4(c)(6)(v) and (vi)(D), whether software is classified as developed primarily for internal use—or whether it qualifies for regulatory relief as Dual Function Software—depends on the intent of the taxpayer and the facts and circumstances at the beginning of the software development."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Definition and Strategic Role of Dual Function Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognizing that modern enterprise software architectures increasingly integrate internal administrative back-office systems with external customer-facing digital applications, the Treasury Department and the IRS promulgated final regulations in Treasury Decision (T.D.) 9786 on October 4, 2016 (81 Fed. Reg. 68,308, published in Internal Revenue Bulletin 2016-42 on October 17, 2016, and codified at 26 CFR § 1.41-4(c)(6)). These final regulations apply prospectively to taxable years beginning on or after October 4, 2016 (with the IRS also declining to challenge return positions consistent with the final regulations for taxable years ending on or after January 20, 2015, the publication date of the proposed regulations in REG-153656-03)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(c)(6)(vi)(A), Dual Function Software (DFS) is defined as computer software developed by (or for the benefit of) the taxpayer both for use in <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A) functions</a> that facilitate or support the conduct of the taxpayer's trade or business—exhaustively categorized under 26 CFR § 1.41-4(c)(6)(iii)(B) as financial management functions, human resources management functions, and support services functions—and to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system."
+    },
+    {
+      "type": "paragraph",
+      "text": "The strategic importance of the Dual Function Software classification arises from the strict default presumption codified in 26 CFR § 1.41-4(c)(6)(vi)(A): Dual Function Software is presumed to be developed primarily for a taxpayer's internal use. Unless the taxpayer overcomes or mitigates this presumption through the specific mechanisms of 26 CFR § 1.41-4(c)(6)(vi)(B) or (C), the software is governed by the Internal Use Software regime of 26 CFR § 1.41-4(c)(6)(i). Consequently, it must satisfy not only the standard Four-Part Test of IRC § 41(d)(1), but also all three prongs of the <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation Test (HTIT)</a> under 26 CFR § 1.41-4(c)(6)(vii): (1) it must be innovative, resulting in a substantial and economically significant reduction in cost, improvement in speed, or other measurable improvement; (2) its development must involve significant economic risk, where the taxpayer commits substantial resources and faces substantial uncertainty—requiring a higher level of technical risk and uncertainty than non-internal-use business components—that those resources will be recovered within a reasonable period; and (3) it must not be commercially available for use by the taxpayer without modifications that satisfy the first two prongs."
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent legitimate external-facing technological innovation from being disqualified solely because it operates within an enterprise platform that also performs internal G&A functions, 26 CFR § 1.41-4(c)(6)(vi)(B) and (C) establish two sequential relief mechanisms:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Segregation of the Third-Party Subset (26 CFR § 1.41-4(c)(6)(vi)(B)):</strong> To the extent that a taxpayer can identify a subset of elements of Dual Function Software that <em>only</em> enables the taxpayer to interact with third parties or allows third parties to initiate functions or review data on the taxpayer's system (the Third-Party Subset, or TSS), the presumption of internal use under paragraph (c)(6)(vi)(A) does not apply to that subset. The isolated TSS is treated as software not developed primarily for internal use as described in 26 CFR § 1.41-4(c)(6)(iv)(B), bypasses the three-part HTIT entirely, and qualifies 100% of its allocable QREs so long as the research activities satisfy the standard Four-Part Test of IRC § 41(d)(1) and the cost rules of IRC § 41(b).",
+        "<strong>The 25% Safe Harbor for Remaining Dual Function Software or Subsets (26 CFR § 1.41-4(c)(6)(vi)(C)):</strong> If, after applying paragraph (c)(6)(vi)(B), there remains unsegregated Dual Function Software (where no separate TSS could be isolated) or an interwoven subset of elements serving both internal G&A and third-party functions (a Dual-Function Subset), the taxpayer may elect to include 25 percent of the QREs of that remaining Dual Function Software or Dual-Function Subset in computing the amount of the taxpayer's research credit without satisfying the HTIT. This safe harbor applies only if (a) the taxpayer's research activities related to the development or improvement of the Dual Function Software or Dual-Function Subset constitute qualified research under IRC § 41(d) without regard to IRC § 41(d)(4)(E), and (b) the Dual Function Software or Dual-Function Subset's use by third parties (or by the taxpayer to interact with third parties) is reasonably anticipated at the beginning of software development to constitute at least 10 percent of the total use of that Dual Function Software or Dual-Function Subset, estimated using an objective, reasonable method within the taxpayer's industry."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "C. Regulatory Benchmark and Hypothetical Worked Example: Customized Order Management and Logistics Platform"
+    },
+    {
+      "type": "paragraph",
+      "text": "The financial and compliance impact of functional segmentation under 26 CFR § 1.41-4(c)(6)(vi) can be demonstrated through both the official regulatory benchmark in 26 CFR § 1.41-4(c)(6)(viii) Example 14 and an enterprise-scale worked calculation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Regulatory Example 14 (26 CFR § 1.41-4(c)(6)(viii)), Taxpayer X develops software used both for internal G&A functions that facilitate or support X's trade or business and to allow third parties to initiate functions and review data. Taxpayer X incurs $50,000 in total research expenditures for the software and successfully isolates Subset A, a pure Third-Party Subset accounting for 50% ($25,000) of total expenditures. The remaining Dual-Function Subset of the software, Subset B (accounting for the remaining 50%, or $25,000, of expenditures), allows third parties to review data while simultaneously providing X with data used in its internal G&A functions; X is unable to isolate a separate third-party subset within Subset B. At the beginning of software development, X applies an objective, reasonable industry method—processing time—and determines that third-party use of Subset B is reasonably anticipated to account for 15% of the total processing time of Subset B, satisfying the ≥10% usage threshold of 26 CFR § 1.41-4(c)(6)(vi)(C). Assuming all underlying research activities satisfy IRC § 41(d) (without regard to § 41(d)(4)(E)) and the expenditures qualify under IRC § 41(b), X includes 100% of Subset A's allocable QREs ($25,000 × 100% = $25,000) pursuant to 26 CFR § 1.41-4(c)(6)(vi)(B) plus 25% of Subset B's allocable QREs ($25,000 × 25% = $6,250) pursuant to the 26 CFR § 1.41-4(c)(6)(vi)(C) safe harbor, yielding $31,250 in total credit-eligible QREs (62.5% of the $50,000 total software development budget). Similarly, in an application example analyzed in practitioner guidance under the final regulations, a bank develops a web application costing $100,000 with 100 total user interface screens: 75 screens allow customers to check balances, transfer funds, and deposit checks (isolated as a Third-Party Subset yielding $75,000 × 100% = $75,000 in QREs), while 25 screens comprise an interwoven data-mining and G&A subset where 3 of the 25 screens (12%, exceeding the 10% threshold) facilitate completing customer interactions, allowing 25% of the remaining $25,000 ($6,250) to qualify under the safe harbor for a total QRE recovery of $81,250."
+    },
+    {
+      "type": "paragraph",
+      "text": "To illustrate how these rules apply to an enterprise Order Management System (OMS) and Logistics ERP modernization project, consider a hypothetical manufacturer that incurs $400,000 in total in-house employee wage and cloud computer rental expenditures satisfying <a href=\"/us/legislation/26-usc-41b2-in-house-research-expenses\">IRC § 41(b)(2)</a> and the standard Four-Part Test of IRC § 41(d)(1). None of the software modules satisfy the three-part HTIT under 26 CFR § 1.41-4(c)(6)(vii) because commercial ERP platforms are available in the market and the technical risk does not rise to the heightened economic-risk threshold of 26 CFR § 1.41-4(c)(6)(vii)(C). At the beginning of software development, joint engineering and tax documentation partitions the platform into three distinct architectural modules:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Module 1 — Pure Internal G&A Core ($100,000 QREs):</strong> Performs internal general ledger bookkeeping, accounts payable/receivable reconciliation, payroll administration, and regulatory compliance recordkeeping under 26 CFR § 1.41-4(c)(6)(iii)(B)(1)–(3), with 0% third-party interaction. Because Module 1 is pure Internal Use Software and fails the HTIT, its eligible QRE inclusion is $100,000 × 0% = $0.",
+        "<strong>Module 2 — Segregated Customer Portal UI & External Order-Initiation Layer ($180,000 QREs):</strong> A decoupled microservice and user-interface layer that <em>only</em> enables authenticated external customers to configure custom product orders, initiate return authorizations, and review real-time shipment telemetry under 26 CFR § 1.41-4(c)(6)(vi)(B). Because Module 2 is cleanly isolated as a Third-Party Subset, it is exempted from IUS treatment and qualifies at 100%: $180,000 × 100% = $180,000.",
+        "<strong>Module 3 — Shared Dynamic Pricing and Logistics Routing Engine ($120,000 QREs):</strong> An interwoven algorithmic engine invoked concurrently by internal cost-accounting and logistics dispatchers (G&A functions) and by external customers generating live custom freight quotes (third-party interaction), where code elements cannot be further separated into a pure TSS. Prior to coding, architectural capacity modeling projects 1,200,000 annual processing minutes for Module 3, of which 180,000 processing minutes are reasonably anticipated to be initiated by external customers. The anticipated third-party usage ratio is 180,000 minutes ÷ 1,200,000 minutes = 0.15, or 15.0%. Because 15.0% meets or exceeds the 10% threshold of 26 CFR § 1.41-4(c)(6)(vi)(C), Module 3 qualifies for the 25% safe harbor, yielding $120,000 × 25% = $30,000 in eligible QREs (while the remaining $120,000 × 75% = $90,000 is excluded).",
+        "<strong>Total Recomputed Claimable QREs:</strong> Combining all three modules yields $0 (Module 1) + $180,000 (Module 2) + $30,000 (Module 3) = $210,000 in total eligible QREs, representing 52.5% of the $400,000 project budget. By contrast, if the taxpayer failed to architecturally decouple Module 2 from Module 3—leaving a combined $300,000 Dual-Function Subset subject to the 25% safe harbor—eligible QREs would drop to $300,000 × 25% = $75,000 (an immediate loss of $135,000 in QREs), and if the taxpayer failed to document the ≥10% usage projection at project inception, eligible QREs would collapse to $0."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "D. Core Strategic Implications: The Two-Front Audit Battle and the Intent Premium"
+    },
+    {
+      "type": "paragraph",
+      "text": "Claiming and defending R&D tax credits for Dual Function Software requires taxpayers to prevail in a simultaneous <strong>Two-Front Audit Battle</strong>:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The First Front (Regulatory Classification and Functional Segmentation under 26 CFR § 1.41-4(c)(6)):</strong> The taxpayer must establish that each software module or subset is properly classified—proving that the software is either excepted from IUS rules under 26 CFR § 1.41-4(c)(6)(ii), non-IUS under 26 CFR § 1.41-4(c)(6)(iv), cleanly isolated into a functionally pure Third-Party Subset under 26 CFR § 1.41-4(c)(6)(vi)(B), or supported by a contemporaneous ≥10% third-party usage projection under the 25% safe harbor of 26 CFR § 1.41-4(c)(6)(vi)(C).",
+        "<strong>The Second Front (Substantive Qualification under the Four-Part Test of IRC § 41(d)(1)):</strong> For every dollar of expenditure allocated to a Third-Party Subset or Dual-Function Subset, the taxpayer must independently demonstrate that the underlying software engineering activities satisfy all four statutory requirements of IRC § 41(d)(1) and 26 CFR § 1.41-4(a)(2). This requires demonstrating objective technical uncertainty at the outset under IRC § 174 and substantiating through granular, <a href=\"/us/faq/contemporaneous-documentation-rd-tax-credit\">contemporaneous documentation</a> that at least 80% (\"substantially all\") of the research activities with respect to that specific business component constituted elements of a process of experimentation for a qualified purpose under 26 CFR § 1.41-4(a)(6). Even clean architectural segmentation into a Third-Party Subset yields zero tax credit if the underlying coding activities consist of routine configuration, standard data mapping, or unsubstantiated sprint hours that fail IRC § 41(d)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Compounding this dual burden is the <strong>Regulatory Intent Premium</strong> codified in 26 CFR § 1.41-4(c)(6)(v) and (vi)(D). Because the regulations mandate that Dual Function Software classification, TSS isolation, and the ≥10% third-party usage forecast be determined based on the taxpayer's intent and the facts and circumstances <em>at the beginning of the software development</em>, <a href=\"/us/faq/reconstructing-rd-time-estimates-without-timesheets\">post-hoc reconstructions</a> prepared years later during a tax return study or IRS examination face severe disallowance risk. As the Treasury Department and the IRS emphasized in the Preamble to T.D. 9786, anchoring the determination at the outset of software development ensures that the Section 41 credit operates in accordance with congressional intent as an upfront incentive to undertake qualified research rather than an after-the-fact windfall."
+    },
+    {
+      "type": "heading",
+      "text": "II. The Regulatory Foundation: Internal Use Software (IUS) and the Heightened Standard"
+    },
+    {
+      "type": "subheading",
+      "text": "A. The Standard Four-Part Test Under IRC § 41(d)(1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before evaluating any software-specific rules under 26 CFR § 1.41-4(c)(6), every software development project—whether commercial, internal-use, third-party interaction, or dual-function—must satisfy the four baseline statutory tests of <a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">26 U.S.C. § 41(d)(1)</a> and 26 CFR § 1.41-4(a)(2) to constitute \"qualified research\":"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Section 174 / Elimination of Technical Uncertainty Test (IRC § 41(d)(1)(A); 26 CFR § 1.41-4(a)(2)(i) & (a)(3)(i)):</strong> The research expenditures must be eligible for treatment as <a href=\"/us/glossary/specified-research-or-experimental-expenditures-sre\">specified research or experimental expenditures</a> under IRC § 174 and 26 CFR § 1.174-2, meaning they are incurred in connection with the taxpayer's trade or business and represent research and development costs in the experimental or laboratory sense intended to discover information that eliminates uncertainty concerning the development or improvement of a business component. Under 26 CFR § 1.41-4(a)(3)(i), uncertainty exists objectively only if the information available to the taxpayer does not establish the capability or method for developing or improving the business component, or the appropriate design of that business component. Under 26 CFR § 1.41-4(a)(3)(ii), the taxpayer need not seek information that exceeds or expands the common knowledge of skilled professionals in the field, nor must the research succeed, and under 26 CFR § 1.41-4(a)(3)(iii), issuance of a <a href=\"/us/glossary/patent-safe-harbor\">utility patent</a> under 35 U.S.C. § 151 (other than a design patent under 35 U.S.C. § 171) is conclusive evidence of discovering technological information intended to eliminate uncertainty.",
+        "<strong>The Technological in Nature Test (IRC § 41(d)(1)(B)(i); 26 CFR § 1.41-4(a)(4)):</strong> The research must be undertaken for the purpose of discovering information that is technological in nature, which requires that the process of experimentation used to discover the information fundamentally rely on principles of the physical or biological sciences, engineering, or computer science. While a taxpayer may employ existing technologies and rely on established principles of computer science to satisfy this test, 26 CFR § 1.41-4(a)(7) establishes a critical restriction for software claimants: the mere employment of computers or information technology, or reliance on principles of computer science to store, collect, manipulate, translate, disseminate, produce, distribute, or process data or information, does not by itself establish that qualified research has been undertaken.",
+        "<strong>The Business Component and Permitted Purpose Test (IRC § 41(d)(1)(B)(ii) & § 41(d)(3)(A); 26 CFR § 1.41-4(a)(2)(ii) & (a)(5)(ii)):</strong> The application of the discovered technological information must be intended to be useful in the development of a new or improved business component of the taxpayer—defined under <a href=\"/us/legislation/26-usc-41d2-business-component-test\">IRC § 41(d)(2)(B)</a> and 26 CFR § 1.41-4(b)(2) as any discrete product, process, computer software, technique, formula, or invention to be held for sale, lease, or license, or used by the taxpayer in a trade or business of the taxpayer—for a qualified purpose. Crucially, while some practitioner summaries loosely state that Permitted Purpose under the Four-Part Test includes achieving \"a significant cost reduction,\" 26 U.S.C. § 41(d)(3)(A) and 26 CFR § 1.41-4(a)(5)(ii) strictly limit a qualified purpose under the Four-Part Test to a new or improved <strong>function, performance, reliability or quality</strong> of the business component (expressly excluding research relating to style, taste, cosmetic, or seasonal design factors under IRC § 41(d)(3)(B)). By contrast, achieving \"a reduction in cost or improvement in speed or other measurable improvement, that is substantial and economically significant\" is the regulatory test for the Innovative prong of the High Threshold of Innovation Test (HTIT) for Internal Use Software under 26 CFR § 1.41-4(c)(6)(vii)(B), not a standalone statutory permitted purpose under the baseline Four-Part Test.",
+        "<strong>The Process of Experimentation Test and the 80% Rule (IRC § 41(d)(1)(C); 26 CFR § 1.41-4(a)(5)(i) & (a)(6)):</strong> Substantially all of the research activities with respect to the business component must constitute elements of a process of experimentation relating to a qualified purpose. Under 26 CFR § 1.41-4(a)(5)(i), a process of experimentation is a structured evaluative process following the scientific method—involving the identification of uncertainty regarding capability, method, or appropriate design at the beginning of research activities, the identification of one or more alternatives intended to eliminate that uncertainty, and the conduct of a process of evaluating those alternatives through modeling, simulation, or a systematic trial-and-error methodology. Under 26 CFR § 1.41-4(a)(6), the \"<a href=\"/us/glossary/substantially-all-rule\">substantially all</a>\" requirement is satisfied <strong>only if 80 percent or more</strong> of a taxpayer's research activities with respect to the discrete business component, measured on a cost or other consistently applied reasonable basis (and determined without regard to the employee wage 80% rule of 26 CFR § 1.41-2(d)(2)), constitute elements of a process of experimentation for a purpose described in IRC § 41(d)(3). If at least 80% of the research activities on that business component constitute elements of a process of experimentation, the remaining 20% or less also qualify so long as those remaining activities satisfy IRC § 41(d)(1)(A) (Section 174) and are not excluded under IRC § 41(d)(4). Under IRC § 41(d)(2)(A), 26 CFR § 1.41-4(a)(6), and 26 CFR § 1.41-4(b)(1), all four tests—including the 80% process-of-experimentation threshold—must be applied separately to each discrete business component."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "B. Defining Internal Use Software (IUS), G&A Functions, and ERP Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(c)(6)(iii)(A), except as otherwise provided in paragraph (c)(6)(vi) for Dual Function Software, software is developed by (or for the benefit of) the taxpayer primarily for the taxpayer's internal use if the software is developed for use in general and administrative (G&A) functions that facilitate or support the conduct of the taxpayer's trade or business. Software developed primarily for the internal use of a related party—defined as any corporation, trade or business, or other person treated as a single taxpayer with the taxpayer pursuant to IRC § 41(f)—is likewise treated as internal use software."
+    },
+    {
+      "type": "paragraph",
+      "text": "To replace the ambiguous \"back-office\" standards of prior guidance with an objective taxonomy, 26 CFR § 1.41-4(c)(6)(iii)(B) exhaustively defines G&A functions across three specific categories:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Financial Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(1)):</strong> Functions that involve the financial management of the taxpayer and the supporting recordkeeping, including, but not limited to, accounts payable, accounts receivable, inventory management, budgeting, cash management, cost accounting, disbursements, economic analysis and forecasting, financial reporting, finance, fixed asset accounting, general ledger bookkeeping, internal audit, management accounting, risk management, strategic business planning, and tax (illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 2, where a manufacturer develops software to administer self-insurance reserves for employee health benefits, which is classified as IUS because reserve valuation is a financial management function).",
+        "<strong>Human Resources Management Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(2)):</strong> Functions that manage the taxpayer's workforce, including, but not limited to, recruiting, hiring, training, assigning personnel, and maintaining personnel records, payroll, and benefits (illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 3, where a manufacturer develops a web module interacting with its payroll system to allow employees to print pay stubs and modify payroll deductions over the internet, which is classified as IUS).",
+        "<strong>Support Services Functions (26 CFR § 1.41-4(c)(6)(iii)(B)(3)):</strong> Other functions that support the day-to-day operations of the taxpayer, including, but not limited to, data processing, facility services (for example, groundskeeping, housekeeping, janitorial, and logistics), graphic services, marketing, legal services, government compliance services, printing and publication services, and security services (for example, video surveillance and physical asset protection from fire and theft, as well as facility move-coordination and maintenance-tracking software in 26 CFR § 1.41-4(c)(6)(viii) Example 10). Furthermore, under T.D. 9786, connectivity software (bridging software, integration software, or middleware that allows multiple processes running on one or more machines to interact across a network) is not placed in a separate rigid category; rather, whether connectivity software is IUS, non-IUS, or Dual Function Software depends on the underlying function the connectivity software provides."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise Resource Planning (ERP) systems—comprehensive database software shells integrating modules for financial accounting, inventory control, production planning, sales and distribution, and human resources—sit squarely at the center of IRS audit enforcement regarding G&A software. Under 26 CFR § 1.41-4(a)(8) Examples 5, 6, 9, and 10, routine ERP and web implementation activities do not constitute a process of experimentation to eliminate technical uncertainty and are categorically excluded from qualified research. Non-qualifying ERP activities include evaluating available vendor software packages and technical requirements, configuring software settings to match existing business processes, re-engineering business processes to fit the software, transferring data through routine programming, and performing one-to-one mapping of data fields exchanged between systems. Conversely, custom software engineering during an <a href=\"/us/glossary/erp-implementation-qualification\">ERP deployment</a> may satisfy the Four-Part Test where the taxpayer writes new machine-readable code to resolve genuine technological uncertainties—such as experimenting with custom middleware architectures to synchronize incompatible legacy databases with an ERP core, or conducting systematic trial-and-error testing of specialized data-caching and load-balancing algorithms."
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to Section 41 credit disallowance, the IRS has established strict capitalization rules for purchased ERP implementation expenses in <strong>Private Letter Ruling (PLR) 200236028</strong> (June 4, 2002) and <strong>IRS Chief Counsel Advice (CCA) 201549024</strong> (POSTN-124481-15, released December 4, 2015). In PLR 200236028 and CCA 201549024, the IRS analyzed an ERP implementation encompassing four primary cost categories: (1) the acquired ERP software package and hardware, (2) installation and configuration costs for selecting options and implementing embedded vendor templates, (3) custom software development costs for writing machine-readable code, and (4) employee training and maintenance costs. The IRS ruled that while employee training and routine maintenance costs are deductible under IRC § 162 (subject to economic performance under IRC § 461 for prepaid training), technical consulting costs incurred for <strong>option selection and the implementation of embedded ERP templates</strong> do not satisfy the \"writing of machine-readable code\" definition of computer software development under Section 2 and Section 5.01 of Revenue Procedure 2000-50. Because an acquired ERP shell is inoperable until option selection and template configuration are completed, those template implementation costs—together with their allocable share of upfront modeling and design costs and any undefined miscellaneous project costs—constitute installation and modification costs of purchased software that must be capitalized under <strong>IRC § 263(a)</strong> and <strong>26 CFR § 1.263(a)-4(c)(1)(xiv) and (g)(1)</strong> as part of the underlying acquired ERP software intangible, and amortized ratably over <strong>36 months</strong> under <strong>IRC § 167(f)(1)</strong> and <strong>26 CFR § 1.167(a)-14(b)(1)</strong> beginning the later of the month the purchased ERP software is placed in service or the month the template work is available for use. CCA 201549024 explicitly confirmed that the promulgation of the final intangible capitalization regulations in 2004 (26 CFR § 1.263(a)-4) did not render the holdings of PLR 200236028 obsolete. Only the consulting and internal engineering costs where the taxpayer bears sole financial and technical responsibility for writing new machine-readable code (plus the proportional share of modeling and design costs allocable to code writing) constitute self-developed software development costs governed by IRC § 174 (which, following the <a href=\"/us/glossary/tax-cuts-and-jobs-act-tcja\">Tax Cuts and Jobs Act of 2017</a> and IRS Notice 2023-63, required 5-year domestic or 15-year foreign amortization for specified research or experimental expenditures beginning in 2022, subject to subsequent domestic research expensing provisions under IRC § 174A)."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Software Excepted from IUS Treatment vs. Non-Internal Use Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "A frequent source of error in tax technical analyses—and a direct compliance trap on Section G of IRS Form 6765—is conflating <strong>Software Excepted from the High Threshold of Innovation Test</strong> under <strong>26 CFR § 1.41-4(c)(6)(ii)</strong> with <strong>Software Not Developed Primarily for Internal Use (Non-IUS)</strong> under <strong>26 CFR § 1.41-4(c)(6)(iv)</strong>. The regulations and the <a href=\"/us/faq/irs-form-6765-instructions-2024\">IRS Instructions for Form 6765</a> (Rev. January 2025 / updated December 2025) draw a sharp structural boundary between these two provisions:"
+    },
+    {
+      "type": "paragraph",
+      "text": "First, <strong>26 CFR § 1.41-4(c)(6)(ii)</strong> (<em>Inapplicability of the high threshold of innovation test</em>, reported as <strong>Category D — Excepted from IUS treatment</strong> in Column 49(e) of Form 6765 Section G) applies to software that <em>is</em> developed primarily for internal use by the taxpayer, but is statutorily and regulatorily exempted from paragraph (c)(6) and the HTIT because of its operational deployment. Specifically, 26 CFR § 1.41-4(c)(6) does not apply to:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Software Used in Qualified Research (26 CFR § 1.41-4(c)(6)(ii)(A)):</strong> Software developed primarily for internal use by the taxpayer for use in an activity that constitutes qualified research (other than the development of the internal use software itself).",
+        "<strong>Software Used in a Production Process (26 CFR § 1.41-4(c)(6)(ii)(B)):</strong> Software developed primarily for internal use by the taxpayer for use in a production process to which the requirements of IRC § 41(d)(1) are met.",
+        "<strong>Combined Hardware-Software Packages (26 CFR § 1.41-4(c)(6)(ii)(C)):</strong> A new or improved <a href=\"/us/glossary/hardware-software-integration\">package of software and hardware</a> developed together by the taxpayer as a single product (or the costs to modify an acquired software and hardware package), of which the software is an integral part, that is used directly by the taxpayer in providing services in its trade or business. In these cases, eligibility for the research credit is determined by examining the combined hardware-software product as a single unit (illustrated in 26 CFR § 1.41-4(c)(6)(viii) Example 1, where a telecommunications company designs and develops high-technology telephone switching hardware together with the integral call-switching interface software)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, <strong>26 CFR § 1.41-4(c)(6)(iv)</strong> (<em>Software not developed primarily for internal use</em>, reported as <strong>Category C — Non-IUS</strong> in Column 49(e) of Form 6765 Section G) governs software that is <em>not</em> developed for use in G&A functions that facilitate or support the conduct of the taxpayer's trade or business. Under 26 CFR § 1.41-4(c)(6)(iv)(A) and (B), software is Non-IUS—and therefore subject only to the standard Four-Part Test of IRC § 41(d)(1)—if it is:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Commercial Software Held for Sale, Lease, License, or Marketing (26 CFR § 1.41-4(c)(6)(iv)(A)):</strong> Software developed to be commercially sold, leased, licensed, or otherwise marketed to third parties. As explained in Section II.A of the Preamble to T.D. 9786 and illustrated in 26 CFR § 1.41-4(c)(6)(viii) Examples 8 and 9 (as well as practitioner Example 6), the phrase \"commercially sold, leased, licensed, or otherwise marketed to third parties\" is broad enough to encompass hosted software and cloud-based Software-as-a-Service (SaaS) applications residing on the taxpayer's servers where third-party users pay subscription or transaction fees (or view advertisements) to access the software's functionality even though no physical or digital copy of the software code is transferred to the customer. Moreover, under 26 CFR § 1.41-4(c)(6)(v) and Example 10, if a taxpayer originally develops internal-use G&A software (such as facilities services software) with no intent to market it, and several years later develops technical and functional improvements to sell the enhanced software to third parties, the original software remains IUS, but the subsequent commercialization improvements are treated separately as Non-IUS under 26 CFR § 1.41-4(c)(6)(iv)(A).",
+        "<strong>Pure Third-Party Interaction Software (26 CFR § 1.41-4(c)(6)(iv)(B)):</strong> Software developed exclusively to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system, without performing internal G&A functions."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "D. The Three-Part High Threshold of Innovation Test (HTIT) Under 26 CFR § 1.41-4(c)(6)(vii)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When software is classified as Internal Use Software under 26 CFR § 1.41-4(c)(6)(iii) (or is Dual Function Software under § 1.41-4(c)(6)(vi)(A) that is neither isolated as a Third-Party Subset nor eligible for or elected into the 25% safe harbor) and does not qualify for an exception under 26 CFR § 1.41-4(c)(6)(ii), 26 CFR § 1.41-4(c)(6)(i) requires the taxpayer to establish both that the software satisfies the standard Four-Part Test of IRC § 41(d)(1) and that the software satisfies all three prongs of the <strong>High Threshold of Innovation Test (HTIT)</strong> under <strong>26 CFR § 1.41-4(c)(6)(vii)(A)–(D)</strong>. Under 26 CFR § 1.41-4(c)(6)(vii)(D), the HTIT must be applied based on the intent of the taxpayer and the facts and circumstances at the beginning of the software development, taking into account only the results anticipated to be attributable to the development of the software itself rather than modifications to related hardware or other software:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Innovative Prong (26 CFR § 1.41-4(c)(6)(vii)(A)(1) & (B)):</strong> Software is innovative if the software would result in a reduction in cost or improvement in speed or other measurable improvement, that is substantial and economically significant, if the development is or would have been successful. Importantly, while older pre-2016 proposed regulations and some outdated practitioner commentaries state that the HTIT Innovation Test requires software to be \"unique or novel\" or \"significantly different from existing implementation methods,\" the final regulations in <strong>26 CFR § 1.41-4(c)(6)(vii)(B)</strong> explicitly eliminated any novelty requirement: <em>\"This is a measurable objective standard, not a determination of the unique or novel nature of the software or the software development process\"</em>.",
+        "<strong>The Significant Economic Risk Prong (26 CFR § 1.41-4(c)(6)(vii)(A)(2) & (C)):</strong> The software development involves <a href=\"/us/glossary/significant-economic-risk\">significant economic risk</a> if the taxpayer commits substantial resources to the development and if there is substantial uncertainty, because of technical risk, that such resources would be recovered within a reasonable period. Crucially, <strong>26 CFR § 1.41-4(c)(6)(vii)(C)</strong> establishes an explicitly elevated legal standard: <em>\"The term 'substantial uncertainty' requires a higher level of uncertainty and technical risk than that required for business components that are not internal use software\"</em>. This standard does not require uncertainty as to whether the final result can ever be achieved, but rather uncertainty as to whether the final result can be achieved within a timeframe that will allow the substantial resources committed to the development to be recovered within a reasonable period. Technical risk must arise from technological uncertainty as defined in 26 CFR § 1.41-4(a)(4) and must exist at the beginning of the taxpayer's software development activities. As explained in Section VII.A of the Preamble to T.D. 9786 and AICPA technical analyses, while the final regulations look to the <em>level</em> of uncertainty rather than categorically barring design uncertainty, internal-use software research involving only design uncertainty—rather than fundamental capability or methodology uncertainty—will rarely rise to the level of \"substantial uncertainty\" required by 26 CFR § 1.41-4(c)(6)(vii)(C).",
+        "<strong>The Commercial Availability Prong (26 CFR § 1.41-4(c)(6)(vii)(A)(3)):</strong> The software is not <a href=\"/us/glossary/commercial-availability-standard\">commercially available</a> for use by the taxpayer in that the software cannot be purchased, leased, or licensed and used for the intended purpose without modifications that would satisfy the requirements of paragraphs (c)(6)(vii)(A)(1) (Innovative) and (c)(6)(vii)(A)(2) (Significant Economic Risk)."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "E. Analytical Takeaway: The Regulatory Firewall and the \"Customization Trap\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Taken together, the three prongs of the HTIT under 26 CFR § 1.41-4(c)(6)(vii) function as a deliberate regulatory firewall. By requiring a \"higher level of uncertainty and technical risk than that required for business components that are not internal use software\" under 26 CFR § 1.41-4(c)(6)(vii)(C) and conditioning commercial unavailability on modifications that independently satisfy both the substantial cost/speed improvement test and the heightened economic risk test under 26 CFR § 1.41-4(c)(6)(vii)(A)(3), Treasury regulations systematically screen out conventional enterprise IT modernization projects."
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates a pervasive <strong>\"Customization Trap\"</strong> for taxpayers implementing or heavily customizing G&A platforms such as ERP, <a href=\"/us/faq/crm-customization-rd-tax-credit-eligibility\">CRM</a>, human capital management, or financial accounting suites. Even when an enterprise spends millions of dollars customizing an acquired ERP package, attempting to qualify the G&A core under the <a href=\"/us/faq/internal-use-software-rd-tax-credit\">IUS rules</a> almost always fails because: (1) the underlying ERP package is commercially available in the marketplace under 26 CFR § 1.41-4(c)(6)(vii)(A)(3); (2) custom extensions and interfaces rarely involve such severe technical capability or methodology risk that the company's capital investment might not be recovered within a reasonable period under 26 CFR § 1.41-4(c)(6)(vii)(C); and (3) template selection, parameter configuration, and one-to-one data mapping are excluded from Section 41(d) under 26 CFR § 1.41-4(a)(8) and capitalized under IRC § 263(a) per PLR 200236028 and CCA 201549024. Consequently, whenever an enterprise software initiative combines internal G&A administration with external third-party interaction, the Dual Function Software framework of 26 CFR § 1.41-4(c)(6)(vi) represents the primary viable legal pathway to recover research tax credits."
+    },
+    {
+      "type": "heading",
+      "text": "III. Dual Function Software: Classification, Presumption, and Segmentation"
+    },
+    {
+      "type": "subheading",
+      "text": "A. The Dual Function Software Definition, the IUS Presumption, and the \"Third Party\" Boundary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>26 CFR § 1.41-4(c)(6)(vi)(A)</strong>, software is classified as Dual Function Software when it is developed by (or for the benefit of) the taxpayer both for use in general and administrative functions that facilitate or support the conduct of the taxpayer's trade or business (as defined in 26 CFR § 1.41-4(c)(6)(iii)(B)) and to enable a taxpayer to interact with third parties or to allow third parties to initiate functions or review data on the taxpayer's system. Unless the Third-Party Subset rule of paragraph (c)(6)(vi)(B) or the 25% safe harbor of paragraph (c)(6)(vi)(C) applies, Dual Function Software is presumed to be developed primarily for a taxpayer's internal use and is subject to the three-part HTIT."
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical legal boundary that frequently trips up taxpayers, software engineers, and automated tax classification tools is the regulatory definition of <strong>\"third party\"</strong> codified in <strong>26 CFR § 1.41-4(c)(6)(vi)(E)</strong>. Some informal guides and interactive analyzers mistakenly define Dual Function Software as internal utility plus third-party interaction with \"vendors/customers\" and classify an \"API for Vendors\" as an external third-party module eligible for Dual Function Software relief. That classification directly contravenes the text of <strong>26 CFR § 1.41-4(c)(6)(vi)(E)</strong>, which provides verbatim:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"For purposes of paragraphs (c)(6)(iv), (v), and (vi) of this section, the term third party means any corporation, trade or business, or other person that is not treated as a single taxpayer with the taxpayer pursuant to section 41(f). Additionally, for purposes of paragraph (c)(6)(iv)(B) of this section, third parties do not include any persons that use the software to support the general and administrative functions of the taxpayer.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>26 CFR § 1.41-4(c)(6)(viii) Example 6</strong> (<em>Internal use software; definition of third party</em>) directly illustrates the operation of this vendor exclusion. In Example 6, Taxpayer X develops software to interact electronically with its vendors to improve X's inventory management; X develops the software specifically to enable X to interact with vendors and to allow vendors to initiate functions (such as replenishment orders) or review data (such as inventory levels) on X's system. Because inventory management is explicitly listed as a G&A financial management function under 26 CFR § 1.41-4(c)(6)(iii)(B)(1), the vendors are persons using the software to support the general and administrative functions of the taxpayer. Consequently, under 26 CFR § 1.41-4(c)(6)(vi)(E), those vendors do not qualify as \"third parties,\" and the vendor-facing inventory software is classified in its entirety as pure <strong>Internal Use Software</strong> (subject to the three-part HTIT), not as Third-Party Interaction Software or Dual Function Software."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similarly, where a web application allows customers to browse products, place orders, track shipments, and pay for orders while simultaneously triggering automated inventory replenishment messages to vendors and generating internal supply chain metrics (as in practitioner Example 5), only the customer-facing order and tracking elements constitute third-party interaction; the automated vendor replenishment and supply-chain reporting elements constitute the internal G&A subset because vendor inventory replenishment supports the taxpayer's G&A functions. Likewise, a passive marketing web application that merely allows prospective customers to review products, pricing, office hours, and store locations without allowing customers to initiate transactions or communicate directly is classified as pure Internal Use Software because marketing is a G&A support service under 26 CFR § 1.41-4(c)(6)(iii)(B)(3) and third parties cannot initiate functions on the system."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Strategy 1: Identifying and Isolating the Third-Party Subset (TSS)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The highest-value compliance strategy for Dual Function Software is identifying and segregating a <strong>Third-Party Subset (TSS)</strong> pursuant to <strong>26 CFR § 1.41-4(c)(6)(vi)(B)</strong>, which states verbatim:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"To the extent that a taxpayer can identify a subset of elements of dual function software that only enables a taxpayer to interact with third parties or allows third parties to initiate functions or review data (third party subset), the presumption under paragraph (c)(6)(vi)(A) of this section does not apply to such third party subset, and such third party subset is not developed primarily for internal use as described in paragraph (c)(6)(iv)(B) of this section.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "As illustrated in <strong>26 CFR § 1.41-4(c)(6)(viii) Example 11</strong> (<em>Dual function software; identification of a third party subset</em>), when Taxpayer X incurs $50,000 of research expenditures to develop Dual Function Software and is able to isolate a Third-Party Subset accounting for 50% ($25,000) of the expenditures, the internal-use presumption under paragraph (c)(6)(vi)(A) is lifted from that subset. So long as X's research activities related to the TSS constitute qualified research under IRC § 41(d) (the standard Four-Part Test) and the allocable expenditures satisfy IRC § 41(b), 100% of the $25,000 allocable to the TSS is included in computing X's research credit under 26 CFR § 1.41-4(c)(6)(vi)(B), without any requirement to satisfy the HTIT."
+    },
+    {
+      "type": "paragraph",
+      "text": "The decisive legal word in 26 CFR § 1.41-4(c)(6)(vi)(B) is <strong>\"only\"</strong>: a Third-Party Subset must consist of software elements that <em>only</em> enable the taxpayer to interact with qualifying third parties or allow qualifying third parties to initiate functions or review data on the taxpayer's system. This creates a strict <strong>Architectural Mandate of Functional Purity</strong>. If an application module, service layer, or database stored procedure executes shared business logic that simultaneously performs an internal G&A function (such as posting journal entries to the general ledger, valuing internal inventory reserves, or routing internal HR approvals) and serves an external customer request, that shared element does not <em>only</em> enable third-party interaction and therefore cannot be included in the TSS. To maximize 100% QRE recovery under 26 CFR § 1.41-4(c)(6)(vi)(B), enterprise software architects and tax teams must decouple external customer presentation layers, customer authentication services, and external transaction-initiation APIs from back-office G&A engines in both the system architecture and the engineering time-tracking structure."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Strategy 2: Defining the Dual-Function Subset and Default Regulatory Status"
+    },
+    {
+      "type": "paragraph",
+      "text": "After the taxpayer isolates all functionally pure Third-Party Subsets under 26 CFR § 1.41-4(c)(6)(vi)(B) (or where the taxpayer attempts to do so and finds that the entire Dual Function Software platform is technologically intertwined), the remaining software elements that serve both internal G&A functions and external third-party interaction functions constitute the <strong>Dual-Function Subset</strong> (or remaining Dual Function Software)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under 26 CFR § 1.41-4(c)(6)(vi)(A), this Dual-Function Subset retains the default regulatory presumption of Internal Use Software. As demonstrated in <strong>26 CFR § 1.41-4(c)(6)(viii) Example 13</strong> (<em>Dual function software; safe harbor inapplicable</em>), where Taxpayer X is unable to isolate a Third-Party Subset and reasonably anticipates at the beginning of development that third-party use will constitute only 5% (less than the 10% threshold) of the Dual Function Software's total use, the 25% safe harbor of paragraph (c)(6)(vi)(C) is inapplicable. In that scenario—or whenever a taxpayer does not elect the 25% safe harbor—the taxpayer may include the QREs of the Dual Function Software or Dual-Function Subset in computing the research credit <strong>only if</strong> the software satisfies all three prongs of the High Threshold of Innovation Test under 26 CFR § 1.41-4(c)(6)(vii) in addition to the standard Four-Part Test of IRC § 41(d) (without regard to § 41(d)(4)(E)) and the expense rules of IRC § 41(b)."
+    },
+    {
+      "type": "heading",
+      "text": "IV. Detailed Analysis of the Dual Function Software 25% Safe Harbor Provision"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Regulatory Basis, Sequencing, and Application When No TSS Is Identified"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Dual Function Software safe harbor is codified in <strong>26 CFR § 1.41-4(c)(6)(vi)(C)</strong>, which provides verbatim:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"If, after the application of paragraph (c)(6)(vi)(B) of this section, there remains dual function software or a subset of elements of dual function software (dual function subset), a taxpayer may include 25 percent of the qualified research expenditures of such dual function software or dual function subset in computing the amount of the taxpayer's credit. This paragraph (c)(6)(vi)(C) applies only if the taxpayer's research activities related to the development or improvement of the dual function software or dual function subset constitute qualified research under section 41(d), without regard to section 41(d)(4)(E), and the dual function software or dual function subset's use by third parties or by the taxpayer to interact with third parties is reasonably anticipated to constitute at least 10 percent of the dual function software or the dual function subset's use. An objective, reasonable method within the taxpayer's industry must be used to estimate the dual function software or dual function subset's use by third parties or by the taxpayer to interact with third parties; such method may include, but is not limited to, processing time, amount of data transfer, and number of software user interface screens.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "The introductory clause—\"If, after the application of paragraph (c)(6)(vi)(B) of this section, there remains dual function software or a subset of elements of dual function software (dual function subset)\"—establishes a mandatory two-step evaluation sequence. First, the taxpayer must apply paragraph (c)(6)(vi)(B) to determine whether any pure Third-Party Subset can be isolated. Second, the taxpayer applies paragraph (c)(6)(vi)(C) to whatever Dual Function Software or Dual-Function Subset remains."
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical legal correction is required regarding what happens when a taxpayer attempts Step 1 under paragraph (c)(6)(vi)(B) and <strong>cannot identify a separate Third-Party Subset</strong> because the internal G&A code and external third-party interaction code are completely interwoven throughout the system. Some erroneous commentaries assert that if a taxpayer cannot identify a TSS, the 25% safe harbor cannot be applied at all, leaving the entire Dual Function Software subject to the HTIT. That assertion is directly refuted by three primary authorities:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Verbatim Text of 26 CFR § 1.41-4(c)(6)(vi)(C):</strong> The regulation expressly refers in the disjunctive to <em>\"there remains dual function software or a subset of elements of dual function software (dual function subset)\"</em>. \"Dual function software\" refers to the entire unsegregated Dual Function Software system when no TSS could be isolated under paragraph (c)(6)(vi)(B), whereas \"dual function subset\" refers to the residual interwoven subset remaining after a TSS was carved out.",
+        "<strong>The Preamble to Treasury Decision 9786 (Section V):</strong> In explaining the final regulations, the Treasury Department and the IRS stated explicitly: <em>\"The safe harbor is optional and serves as a benefit for taxpayers who cannot identify a separate third-party subset or who still have a dual function subset remaining\"</em>.",
+        "<strong>26 CFR § 1.41-4(c)(6)(viii) Example 12 (<em>Dual function software; application of the safe harbor</em>):</strong> Example 12 directly models a taxpayer who cannot isolate a TSS. In Example 12, Taxpayer X incurs $50,000 of research expenditures to develop Dual Function Software (used both for internal G&A functions and to allow third parties to initiate functions), <strong>is unable to identify a third party subset</strong>, and uses an objective, reasonable method at the beginning of software development to determine that third-party use is reasonably anticipated to constitute 15% of the Dual Function Software's total use. Example 12 holds that although X is unable to identify a third-party subset, because anticipated third-party use is at least 10% and the research activities satisfy IRC § 41(d) (without regard to § 41(d)(4)(E)) and § 41(b), X may include <strong>$12,500 (25% of $50,000)</strong> of the software research expenditures of the entire Dual Function Software in computing X's research credit pursuant to 26 CFR § 1.41-4(c)(6)(vi)(C)."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "B. Mechanics of the 25% QRE Inclusion and Elective Finality"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a taxpayer satisfies the prerequisites of 26 CFR § 1.41-4(c)(6)(vi)(C) and elects the safe harbor for remaining Dual Function Software or a Dual-Function Subset, 25% of the qualified research expenditures (wages under IRC § 41(b)(2)(A)(i), supplies under § 41(b)(2)(A)(ii), computer rental under § 41(b)(2)(A)(iii), and 65%/75%/100% contract research expenses under <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">§ 41(b)(3)</a>) allocable to that Dual Function Software or Dual-Function Subset are included in the credit calculation, while the remaining 75% of the QREs of that subset are forfeited."
+    },
+    {
+      "type": "paragraph",
+      "text": "A second essential legal clarification concerns the status of that <strong>remaining 75% of QREs</strong> within a Dual-Function Subset for which the 25% safe harbor is elected. It is a misconception to believe that when a taxpayer elects the 25% safe harbor for a Dual-Function Subset, the remaining 75% of QREs within that same subset must still be evaluated or audited under the three-part HTIT. Under the plain structure of <strong>26 CFR § 1.41-4(c)(6)(vi)(A)–(C)</strong>, <strong>Examples 12 and 14</strong>, and the <strong>IRS Instructions for Form 6765</strong> (Section G, Column 49(e)), the 25% safe harbor and the HTIT operate as <strong>mutually exclusive alternatives</strong> for a given Dual-Function Subset:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under 26 CFR § 1.41-4(c)(6)(vi)(A), the internal-use presumption and the resulting HTIT requirement apply <em>\"Unless paragraph (c)(6)(vi)(B) or (C) of this section applies\"</em>.",
+        "If a Dual-Function Subset actually satisfied all three prongs of the HTIT under 26 CFR § 1.41-4(c)(6)(vii) (plus the Four-Part Test), <strong>100%</strong> of its QREs would already be eligible for the research credit under 26 CFR § 1.41-4(c)(6)(i), making an election into the 25% safe harbor unnecessary.",
+        "Conversely, when a taxpayer elects the 25% safe harbor under 26 CFR § 1.41-4(c)(6)(vi)(C) (as in Examples 12 and 14, and subcategory B(3) of the Form 6765 instructions), the safe harbor serves as an administrative compromise for that subset: 25% of the subset's QREs are treated as non-internal-use software and included in the credit without proving the HTIT, and the remaining 75% is excluded from QREs without any HTIT examination."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "C. The 10% Anticipated Third-Party Usage Threshold and Objective Measurement Methods"
+    },
+    {
+      "type": "paragraph",
+      "text": "To qualify for the 25% safe harbor under 26 CFR § 1.41-4(c)(6)(vi)(C), the Dual Function Software's or Dual-Function Subset's use by third parties (or by the taxpayer to interact with third parties, excluding persons supporting the taxpayer's G&A functions under paragraph (c)(6)(vi)(E)) must be reasonably anticipated to constitute <strong>at least 10 percent</strong> of the Dual Function Software's or Dual-Function Subset's total use. Under <strong>26 CFR § 1.41-4(c)(6)(vi)(D)</strong>, this estimation must be made <strong>at the beginning of the software development</strong> based on the intent of the taxpayer and the facts and circumstances at that time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contrary to claims that the regulations fail to define how \"use\" is measured and force taxpayers to rely on subjective standards, <strong>26 CFR § 1.41-4(c)(6)(vi)(C)</strong> explicitly forbids subjective estimations by mandating an <strong>\"objective, reasonable method within the taxpayer's industry\"</strong> and enumerating concrete acceptable methods directly in the regulation and its preamble:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Processing Time (26 CFR § 1.41-4(c)(6)(vi)(C) & (viii) Example 14):</strong> Estimating the proportion of total central processing unit (CPU) execution time, server compute cycles, or application runtime of the Dual-Function Subset attributable to third-party initiated requests or taxpayer-to-third-party interactions versus internal G&A operations (illustrated in Example 14, where third-party processing time of Subset B is reasonably anticipated at the beginning of development to account for 15% of Subset B's total processing time).",
+        "<strong>Amount of Data Transfer (26 CFR § 1.41-4(c)(6)(vi)(C)):</strong> Estimating the proportion of total network bandwidth, database read/write payload volume, or gigabytes of data transmitted through the Dual-Function Subset that is attributable to third-party interactions versus internal G&A data processing.",
+        "<strong>Number of Software User Interface Screens (26 CFR § 1.41-4(c)(6)(vi)(C)):</strong> Calculating the ratio of software user interface (UI) views, web pages, or application screens within the Dual-Function Subset that enable third-party interaction or data review relative to the total number of UI screens in that subset (illustrated in practitioner Example 4, where 3 out of 25 screens—or 12%—within a 25-screen G&A/data-mining subset enable completion of third-party interactions).",
+        "<strong>Number of Third-Party Initiated Functions (Preamble to T.D. 9786, Section V):</strong> Calculating the proportion of total system functions, API endpoints, or transaction calls within the Dual-Function Subset that can be initiated by external third parties relative to total available functions."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "While these four enumerated methods provide clear objective anchors, taxpayers face a substantial practical substantiation challenge during IRS audits if they fail to document their chosen metric contemporaneously at project inception. Because 26 CFR § 1.41-4(c)(6)(vi)(D) locks the 10% usage determination to the beginning of software development, a taxpayer cannot rely solely on post-deployment production server logs gathered two years later; instead, the taxpayer must preserve pre-development capacity models, UI wireframes, or architectural traffic forecasts demonstrating that at least 10% third-party use was reasonably anticipated when development began."
+    },
+    {
+      "type": "subheading",
+      "text": "D. Sequential Application and Economic Trade-Off Between the TSS and the 25% Safe Harbor"
+    },
+    {
+      "type": "paragraph",
+      "text": "The interaction between 26 CFR § 1.41-4(c)(6)(vi)(B) (the Third-Party Subset) and 26 CFR § 1.41-4(c)(6)(vi)(C) (the 25% Safe Harbor) creates a strong economic incentive for granular architectural decomposition. Because paragraph (c)(6)(vi)(B) yields a <strong>100% QRE inclusion rate</strong> whereas paragraph (c)(6)(vi)(C) imposes a <strong>75% haircut (25% QRE inclusion rate)</strong>, every dollar of qualified software engineering wages, cloud computing rental, or contractor spend that is left inside an interwoven Dual-Function Subset instead of being decoupled into a pure Third-Party Subset loses 75 cents of research credit base."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, taxpayers must respect the anti-cherry-picking structure of the two-step sequence. When a taxpayer carves out a large Third-Party Subset (Subset A) under paragraph (c)(6)(vi)(B), all of the pure third-party interaction elements are removed from the remaining Dual-Function Subset (Subset B). Consequently, the ≥10% anticipated third-party usage test under paragraph (c)(6)(vi)(C) must be satisfied <strong>specifically with respect to Subset B alone</strong>, not across the combined software platform as a whole (as confirmed in 26 CFR § 1.41-4(c)(6)(viii) Example 14, where Taxpayer X must establish that third-party processing time of <em>Subset B</em> is reasonably anticipated to account for at least 10% of the total processing time of <em>Subset B</em>). Thus, engineering and tax teams must verify at the beginning of development that after isolating Subset A (the pure TSS), the residual shared engine (Subset B) still independently anticipates at least 10% third-party usage."
+    },
+    {
+      "type": "heading",
+      "text": "V. Documentation Requirements, Form 6765 Section G Reporting, and Audit Defense Strategy for DFS"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Recordkeeping and Substantiation Requirements Under 26 CFR § 1.41-4(d) and § 1.6001-1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Defending a Dual Function Software R&D tax credit claim under IRS examination requires rigorous financial, time-tracking, and technical documentation. While some commentaries informally attribute the specific research-credit recordkeeping language to the statutory text of the Internal Revenue Code, the verbatim requirement is codified in <strong>Treasury Regulations § 1.41-4(d)</strong> (promulgated under the statutory authority of <strong>IRC § 6001</strong> and cross-referencing <strong>26 CFR § 1.6001-1</strong>):"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"A taxpayer claiming a credit under section 41 must retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit. For the rules governing record retention, see § 1.6001-1.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "As detailed in <strong>IRS Field Attorney Advice (FAA) 20212501F</strong> (released June 25, 2021), <strong>26 CFR § 1.6001-1(a)</strong> requires any person subject to income tax to keep permanent books of account or records sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown on any return, and <strong>26 CFR § 1.6001-1(e)</strong> mandates that those books and records be kept available at all times for inspection by authorized internal revenue officers or employees and retained so long as their contents may become material in the administration of any internal revenue law. Citing controlling federal jurisprudence—including <em>Eustace v. Commissioner</em>, <em>United States v. McFerrin</em>, <em>Shami v. Commissioner</em>, <em>Fudim v. Commissioner</em>, <em>Union Carbide Corp. v. Commissioner</em>, <em>CRA Holdings US, Inc. v. United States</em>, and <em>Suder v. Commissioner</em>—FAA 20212501F emphasizes that the taxpayer bears the burden of substantiating that each discrete business component satisfies all four tests of IRC § 41(d)(1), and clarifies that this business-component substantiation requirement is <strong>not altered or eliminated</strong> when a taxpayer or the IRS utilizes <a href=\"/us/glossary/irs-statistical-sampling\">statistical sampling</a> under Revenue Procedure 2011-42."
+    },
+    {
+      "type": "paragraph",
+      "text": "For Dual Function Software projects, audit-ready substantiation records span three interconnected domains:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Financial and Cost-Accounting Records (IRC § 41(b) & 26 CFR § 1.41-2):</strong> Employee Form W-2s (box 1 wages as defined under IRC § 3401(a) and § 41(b)(2)(D), excluding wages taken into account for the IRC § 51 work opportunity credit), payroll registers, general ledger expense accounts, chart of accounts, purchase orders and invoices for supplies used in qualified research (IRC § 41(b)(2)(A)(ii)), cloud computing / off-premises computer lease invoices used directly in qualified research testing and development (IRC § 41(b)(2)(A)(iii) and 26 CFR § 1.41-2(b)(4)), and third-party contractor agreements, invoices, and Form 1099s demonstrating that the contract was entered into prior to the performance of research, that the research was performed on the taxpayer's behalf with substantial rights retained, and that the taxpayer bore the <a href=\"/us/glossary/financial-risk-test\">financial risk</a> of failure on a non-contingent basis (26 CFR § 1.41-2(e)(1)–(3)).",
+        "<strong>Nexus and Time-Allocation Records (26 CFR § 1.41-2(d) & § 1.41-4(c)(6)(vi)):</strong> Contemporaneous project time-tracking logs, sprint/ticket histories (e.g., Jira, GitHub, GitLab, Azure DevOps), subcomponent cost-accounting codes, and employee job descriptions establishing a <a href=\"/us/glossary/project-to-expense-nexus\">direct nexus</a> between specific employee hours/wages and discrete software business components—specifically separating (a) the pure Third-Party Subset (100% eligible), (b) the interwoven Dual-Function Subset (25% eligible under the safe harbor), (c) pure G&A / IUS modules, and (d) non-qualified maintenance or configuration tasks.",
+        "<strong>Contemporaneous Technical and Experimental Records (IRC § 41(d)(1) & 26 CFR § 1.41-4(a)):</strong> Pre-development project charters, system architecture schematics, product requirements documents, capacity/traffic forecasts substantiating the ≥10% third-party usage threshold at project inception, technical design specifications identifying objective capability, method, or design uncertainties at the outset, and iterative test plans, simulation logs, prototype benchmarks, and failure/resolution records demonstrating a scientific-method <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a>."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "B. Documenting Upfront Intent, QRE Wage Allocation, and the Two 80% Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because <strong>26 CFR § 1.41-4(c)(6)(v) and (vi)(D)</strong> require taxpayers to determine software classification and apply the Dual Function Software rules based on the intent of the taxpayer and the facts and circumstances <strong>at the beginning of the software development</strong>, contemporaneous project-initiation artifacts carry substantial weight in an IRS audit. Prior to commencing software coding, engineering and tax teams should preserve dated architecture blueprints and project charters that explicitly document: (1) the intended internal G&A and external third-party interaction functions; (2) the exact modular boundaries isolating the Third-Party Subset under 26 CFR § 1.41-4(c)(6)(vi)(B) from the shared Dual-Function Subset under 26 CFR § 1.41-4(c)(6)(vi)(C); (3) verification under 26 CFR § 1.41-4(c)(6)(vi)(E) that external users are qualifying third parties (such as customers) rather than vendors supporting the taxpayer's G&A operations; and (4) the objective, reasonable industry calculation (processing time, data transfer volume, UI screen count, or third-party initiated functions) projecting ≥10% third-party usage of the Dual-Function Subset."
+    },
+    {
+      "type": "paragraph",
+      "text": "In computing eligible in-house wage QREs under <strong>26 U.S.C. § 41(b)(2)(A)(i) and (B)</strong> and <strong>26 CFR § 1.41-2(d)</strong>, wages qualify only to the extent paid or incurred for \"<a href=\"/us/glossary/qualified-services\">qualified services</a>,\" which consist of: (i) engaging in qualified research, or (ii) engaging in the direct supervision or direct support of research activities which constitute qualified research (excluding general administrative services such as payroll, accounting, or financial supervision under 26 CFR § 1.41-2(c)). Under <strong>26 CFR § 1.41-2(d)(1)</strong>, if an employee performs both qualified and nonqualified services, in-house research expenses are determined by multiplying the employee's total annual wages by the ratio of total time actually spent performing qualified services to total time spent performing all services during the taxable year. However, under the <strong>\"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">Substantially All</a>\" Employee Wage 80% Rule</strong> of <strong>26 U.S.C. § 41(b)(2)(B)</strong> and <strong>26 CFR § 1.41-2(d)(2)</strong>, if at least 80 percent of the wages allocated to an employee during the taxable year are for qualified services meeting IRC § 41(b)(2)(B)(i) or (ii), then 100 percent of the services performed by that employee during the taxable year are treated as qualified services."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taxpayers developing Dual Function Software must carefully distinguish and coordinate the <strong>two independent 80% rules</strong> in the Treasury regulations so that neither is misapplied:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The Process of Experimentation 80% Rule (IRC § 41(d)(1)(C) & 26 CFR § 1.41-4(a)(6)):</strong> Applies separately to each discrete <strong>business component</strong> (software subset) to determine whether the research activity itself qualifies under IRC § 41(d)(1). As 26 CFR § 1.41-4(a)(6) explicitly states, this test requires that ≥80% of the taxpayer's research activities with respect to the business component (measured on a cost or other consistently applied reasonable basis, <strong>and determined without regard to the employee wage 80% rule of 26 CFR § 1.41-2(d)(2)</strong>) constitute elements of a process of experimentation for a qualified purpose.",
+        "<strong>The Employee Wage 80% Rule (IRC § 41(b)(2)(B) & 26 CFR § 1.41-2(d)(2)):</strong> Applies to each individual <strong>employee</strong> after qualified research activities have been established, allowing 100% of an employee's annual wages to be included if ≥80% of the employee's time during the year was spent performing qualified services."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Crucially, in a Dual Function Software environment, satisfying the employee wage 80% rule under 26 CFR § 1.41-2(d)(2) does <strong>not</strong> eliminate the requirement to allocate an engineer's wages across distinct software subsets. Even if a lead software architect spends 85% of their annual hours performing qualified research across an integrated enterprise platform, the taxpayer must still track how that architect's hours divide between the <strong>Third-Party Subset</strong> (where QREs are included at <strong>100%</strong> under 26 CFR § 1.41-4(c)(6)(vi)(B)), the <strong>Dual-Function Subset</strong> (where QREs are subject to the <strong>25% safe-harbor cap / 75% haircut</strong> under 26 CFR § 1.41-4(c)(6)(vi)(C)), and any <strong>pure G&A / IUS modules</strong> that fail the HTIT (where QREs are <strong>0%</strong> eligible)."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Mandatory Business Component Reporting on IRS Form 6765, Section G"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <strong>IRS Instructions for Form 6765, Credit for Increasing Research Activities</strong> (Rev. January 2025 / updated December 2025), the IRS has instituted mandatory upfront business-component and software-category disclosure on original and amended returns through <strong>Section G (Business Component Information)</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the effective-date and filing thresholds in the Form 6765 instructions:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Effective Date:</strong> Completing Section G is optional for all filers for tax years beginning before 2026 (unless the claim is filed on an <a href=\"/us/glossary/amended-tax-return-rd-credit\">amended return</a>), and is <strong>mandatory for tax years beginning after 2025</strong>.",
+        "<strong>Small-Taxpayer and QSB Exemptions:</strong> A taxpayer is exempt from completing Section G on an original return if the taxpayer is either (1) a qualified small business (QSB) under <a href=\"/us/legislation/26-usc-41h-payroll-tax-credit-qualified-small-businesses\">IRC § 41(h)(3)</a> electing the reduced payroll tax credit, or (2) a taxpayer whose controlled-group QREs (reported on Line 48) are $1.5 million or less and whose prior three-year average annual gross receipts under IRC § 448(c)(3) are $50 million or less.",
+        "<strong>The \"80%/Top 50\" Reporting Rule:</strong> Taxpayers required to complete Section G must report complete component-by-component information across Columns 49(a)–(f) and Columns 50 through 56 for business components constituting <strong>at least 80% of total QREs</strong>, up to a maximum of <strong>50 business components</strong> (\"80%/Top 50\"), listed in <strong>descending order</strong> by total QREs per business component. Any business components remaining after identifying the 80%/Top 50 components are reported on a single summary row by entering <strong>\"Aggregate Business Components\"</strong> in Column 49(c) and entering the aggregate expenditure amounts in Columns 50 through 56 (leaving all other Section G columns blank). Members of a <a href=\"/us/glossary/controlled-group\">controlled group</a> filing separate returns must report at least 80% of their own separate QREs across no more than 50 business components, and taxpayers using statistical sampling under Rev. Proc. 2011-42 must still report the 80%/Top 50 business components in Section G regardless of which components were selected in the statistical sample. (If a taxpayer checks \"Yes\" on Line 41 to utilize the <a href=\"/us/glossary/asc-730-directive\">ASC 730 Directive</a>, the taxpayer enters \"ASC 730 Directive\" in Column 49(c) and reports Appendix B Column A amounts in Columns 53–56, which does not count toward the 50-component cap.)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For every software business component listed in Section G, the taxpayer must enter <strong>3. All Others</strong> (which includes computer software, technique, formula, or invention) in <strong>Column 49(d)</strong> and must explicitly declare the regulatory software classification in <strong>Column 49(e)</strong> using one of four mandatory codes:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Code A — IUS (Internal Use Software):</strong> Software developed primarily for internal G&A functions under 26 CFR § 1.41-4(c)(6)(iii) that must satisfy the three-part HTIT under 26 CFR § 1.41-4(c)(6)(vii).",
+        "<strong>Code B — DFS (Dual Function Software):</strong> Software developed for both internal G&A functions and third-party interaction under 26 CFR § 1.41-4(c)(6)(vi), further sub-classified under the Form 6765 instructions according to whether (1) no third-party subset is identified and the 25% safe harbor is not applied (requiring the HTIT), (2) one or more Third-Party Subsets are identified under 26 CFR § 1.41-4(c)(6)(vi)(B) and the remaining Dual-Function Subset is evaluated under the HTIT, or (3) the <strong>25% safe harbor</strong> under 26 CFR § 1.41-4(c)(6)(vi)(C) is applied.",
+        "<strong>Code C — Non-IUS:</strong> Software not developed primarily for internal use under 26 CFR § 1.41-4(c)(6)(iv) (including commercial/SaaS software held for sale, lease, license, or marketing under (iv)(A) and pure third-party interaction software under (iv)(B)).",
+        "<strong>Code D — Excepted from IUS Treatment:</strong> Software exempted from the HTIT under 26 CFR § 1.41-4(c)(6)(ii) (software used in qualified research under (ii)(A), software used in a qualified production process under (ii)(B), or integral hardware-software packages under (ii)(C))."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, for taxpayers claiming R&D tax credit refunds on <strong>amended returns</strong> (governed by the specificity standards of 26 CFR § 301.6402-2(b)(1), litigated in <em>Harper v. United States</em>, 847 Fed. App'x 408 (9th Cir.), and <em>Premier Tech, Inc.</em>, No. 2:20-cv-890), <strong><a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">IRS News Release IR-2021-203</a></strong> (effective January 10, 2022) as modified by the IRS's <strong>June 18, 2024 update (FAQ 21)</strong> requires taxpayers to submit three mandatory items at the time of filing: (1) identification of all business components to which the Section 41 research credit claim relates for that year; (2) a description of all research activities performed for each business component; and (3) the total qualified employee wage, supply, and contract research expenses (which may be satisfied via a properly completed Form 6765). While the June 18, 2024 update waived at the time of initial filing the two additional requirements of naming the individuals who performed each research activity and stating the specific information each individual sought to discover, the IRS retains full authority to demand both items during an examination."
+    },
+    {
+      "type": "subheading",
+      "text": "D. Judicial Precedents and Agile Workflow Audit Risks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent federal appellate and Tax Court decisions demonstrate that even when a software project is properly categorized under 26 CFR § 1.41-4(c)(6), the IRS and the courts will disallow 100% of the claimed credit if the taxpayer cannot substantiate outset technical uncertainty under IRC § 174 and the 80% process-of-experimentation fraction under IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(6) at the granular business-component level."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong><em>Little Sandy Coal Company, Inc. v. Commissioner</em></strong>, <strong>T.C. Memo. 2021-15</strong> (Docket No. 17431-17, decided February 11, 2021), <strong>aff'd, 62 F.4th 287</strong> (7th Cir. March 7, 2023), both the U.S. Tax Court and the U.S. Court of Appeals for the Seventh Circuit upheld the IRS's complete disallowance of research tax credits claimed by a shipbuilding subsidiary (Corn Island Shipyard) for the design and construction of a <a href=\"/us/glossary/first-in-class-development\">first-in-class</a> tanker barge and a floating drydock. The case established three critical legal principles directly applicable to Dual Function Software audits:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Strict Enforcement of the 80% Process-of-Experimentation Fraction:</strong> Under IRC § 41(d)(1)(C) and 26 CFR § 1.41-4(a)(6), the taxpayer must demonstrate that at least 80% of the research activities with respect to the business component—measured on a cost or other consistently applied reasonable basis—constituted elements of a process of experimentation. As the Seventh Circuit noted at 62 F.4th 287, 298, qualified research under Section 41 cannot merely be \"any design or modification to meet customer specifications,\" nor routine testing to confirm a product design is appropriate, but must remove technical uncertainty related to the development or improvement of the component.",
+        "<strong>Inclusion of Direct Support and Supervision in the Numerator—Only If Substantiated:</strong> On appeal, the Seventh Circuit disagreed with the Tax Court's apparent categorical exclusion of production, <a href=\"/us/glossary/direct-support\">direct support</a>, and direct supervision activities (IRC § 41(b)(2)(B)(ii) and 26 CFR § 1.41-2(c)) from the numerator of the 80% \"substantially all\" fraction, holding that direct support and supervisory personnel <em>can</em> be included in the numerator if their activities directly support or constitute elements of a process of experimentation. Nevertheless, the Seventh Circuit affirmed the disallowance because the taxpayer relied on retrospective oral testimony and arbitrary trial estimates rather than <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a> quantifying experimental versus non-experimental activities—famously observing that <em>\"Section 41(d) requires us to walk by sight, not by faith\"</em>.",
+        "<strong>Inability to Invoke the Shrinking-Back Rule Without Subcomponent Accounting:</strong> Under the <strong>shrinking-back rule</strong> of <strong>26 CFR § 1.41-4(b)(2)</strong>, if an overall business component fails the Four-Part Test (for example, because less than 80% of activities on the overall system were experimental), the tests are applied to the most significant subset of elements of the product or software until a qualifying subcomponent is reached. In <em>Little Sandy Coal</em>, because the taxpayer adopted an \"all-or-nothing\" strategy claiming the entire vessel and failed to maintain subcomponent-level time and cost accounting, neither the taxpayer nor the court could apply the shrinking-back rule to salvage credits for novel subcomponents."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In <strong><em>Phoenix Design Group, Inc. v. Commissioner</em></strong>, <strong>T.C. Memo. 2024-113</strong> (Docket No. 4759-22, Judge Greaves, decided December 23, 2024), the U.S. Tax Court disallowed all claimed research credits across three sampled mechanical, electrical, plumbing, and fire protection (MEPF) engineering projects for research years 2013 through 2016 (<a href=\"/us/glossary/research-credit-carryforward\">credit carryforward</a> years 2015 through 2019) and sustained accuracy-related penalties. The Tax Court's holdings in <em>Phoenix Design Group</em> reinforce four major audit pitfalls for software and engineering taxpayers:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Objective Outset Uncertainty Under IRC § 174 vs. Ongoing Design Revisions:</strong> Citing 26 CFR § 1.174-2(a)(5), <em>Max v. Commissioner</em> (T.C. Memo. 2021-37), and <em>Betz v. Commissioner</em> (T.C. Memo. 2023-84), the Tax Court held that technical uncertainty is an objective standard based on the information available to the taxpayer at the outset of research. The court rejected Phoenix Design Group's (PDG's) argument that objective uncertainty persisted across the entire MEPF system throughout construction merely because engineers had to alter or revise designs in later stages; if gross-block diagrams and schematic design documents already establish the basic design of the system, localized revisions do not render the entire system uncertain.",
+        "<strong>Subcomponent Uncertainty Does Not Contaminate the Whole System:</strong> The court held that technical uncertainty regarding a single subset or subcomponent of a business component does not establish that the design of the entire business component is uncertain as a whole, rejecting sparse, conclusory <a href=\"/us/glossary/credible-oral-testimony\">engineer testimony</a> that a change in one subcomponent impacted the basic design of the entire system.",
+        "<strong>Rejection of Theoretical Iterative Frameworks Conflicting with Employee Timesheets:</strong> PDG argued that its formal six-stage design process inherently mirrored the scientific method required under <em>Union Carbide Corp.</em> and 26 CFR § 1.41-4(a)(5)(i) whenever engineers reverted to earlier stages. The Tax Court rejected this high-level framework argument because it focuses on the actual, granular activities of employees, and pointed out glaring inconsistencies in PDG's <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">employee hour sheets</a>: employees never categorized tracked hours by design phase, and narrative descriptions directly contradicted PDG's theoretical framework—for example, on the VU ESB Project, mechanical engineer Ross T. Malloy logged hours during the \"design development\" stage as <em>\"finishing up construction documents\"</em> (which PDG defined as the final stage), while on the BHNM Oxford Project, mechanical engineer John Wade logged hours during the \"design development\" stage as <em>\"schematic design\"</em> (an earlier, separate stage).",
+        "<strong>Failure of Subcomponents Even After Applying the Shrinking-Back Rule:</strong> Unlike <em>Little Sandy Coal</em>, the Tax Court in <em>Phoenix Design Group</em> explicitly applied the shrinking-back rule of 26 CFR § 1.41-4(b)(2) to evaluate the next most significant subcomponents—the individual mechanical, electrical, and plumbing systems (including PDG's claim of uncertainty regarding the hospital location and sizing of an HVAC system)—and held that even at the shrunk-back subcomponent level, PDG failed to demonstrate that ≥80% of employee activities constituted a scientific-method process of experimentation."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These judicial holdings create acute <strong>Risk Amplification in Agile Software Environments</strong>. Modern enterprise software engineering relies on cross-functional agile scrum teams working in rapid two-week sprints where a single developer's sprint backlog routinely blends qualified experimental algorithm development with non-qualified backlog grooming, UI styling, routine bug patches, data migration, and G&A workflow configuration. Under <em>Little Sandy Coal</em> and <em>Phoenix Design Group</em>, if an enterprise developing Dual Function Software merely exports aggregate sprint hours or generic ticket labels (e.g., \"Sprint 14 development,\" \"ERP integration,\" or \"bug fixes\") without mapping developer hours to (1) segregated functional subsets (TSS vs. Dual-Function Subset vs. G&A Core) as required for Form 6765 Section G and (2) specific technical uncertainties and iterative hypothesis testing, the IRS can disallow both the Dual Function Software segmentation and the underlying Section 41(d) qualification."
+    },
+    {
+      "type": "heading",
+      "text": "VI. Essential Regulatory Classification and Safe Harbor Reference Tables"
+    },
+    {
+      "type": "paragraph",
+      "text": "To synthesize the statutory and regulatory rules governing software under IRC § 41, 26 CFR § 1.41-4(c)(6), and the IRS Instructions for Form 6765 (Section G), the five regulatory software pathways and the 25% safe harbor compliance requirements are structured in Table 1 and Table 2 below."
+    },
+    {
+      "type": "subheading",
+      "text": "Table 1: Software Classification Pathways Under IRC § 41 and 26 CFR § 1.41-4(c)(6)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Software Classification",
+        "Form 6765 Sec. G, Col. 49(e) Code",
+        "Functional Description & Regulatory Scope",
+        "Applicable Qualification Test(s)",
+        "Maximum QRE Inclusion Rate",
+        "Primary Statutory & Regulatory Citations"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Non-Internal Use Software (Non-IUS)</strong>",
+            "<strong>Category C (Non-IUS)</strong>",
+            "Software not developed for G&A functions: (A) software developed to be commercially sold, leased, licensed, or otherwise marketed to third parties (including hosted cloud/SaaS applications under Examples 8 & 9 and commercialization improvements under Example 10); or (B) software developed exclusively to enable the taxpayer to interact with third parties or allow third parties to initiate functions or review data on the taxpayer's system.",
+            "Standard Four-Part Test (IRC § 41(d)(1) & 26 CFR § 1.41-4(a)(2)) only",
+            "100%",
+            "IRC § 41(d)(1); 26 CFR § 1.41-4(c)(6)(iv)(A)–(B) & (v)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Software Excepted from IUS / HTIT Treatment</strong>",
+            "<strong>Category D (Excepted from IUS treatment)</strong>",
+            "Software developed primarily for internal use that is exempted from paragraph (c)(6) and the HTIT because it is: (A) used in an activity that constitutes qualified research (other than developing the IUS itself); (B) used in a production process meeting IRC § 41(d)(1); or (C) an integral part of a new or improved hardware-software package developed together as a single product used directly in providing trade or business services (evaluated as a combined single unit per Example 1).",
+            "Standard Four-Part Test (IRC § 41(d)(1) & 26 CFR § 1.41-4(a)(2)) only",
+            "100%",
+            "IRC § 41(d)(1); 26 CFR § 1.41-4(c)(6)(ii)(A)–(C) & (viii) Ex. 1"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Internal Use Software (IUS)</strong>",
+            "<strong>Category A (IUS)</strong>",
+            "Software developed primarily for internal General & Administrative (G&A) functions that facilitate or support the taxpayer's trade or business (including for a § 41(f) related party): (1) Financial Management (including inventory management & vendor inventory portals under Example 6), (2) Human Resources Management (Example 3), or (3) Support Services (including marketing websites & facility services under Example 10).",
+            "Standard Four-Part Test (IRC § 41(d)(1)) <strong>AND</strong> Three-Part HTIT (26 CFR § 1.41-4(c)(6)(vii): Innovative, Significant Economic Risk, Not Commercially Available)",
+            "100% (if HTIT met); 0% (if HTIT failed)",
+            "IRC § 41(d)(4)(E); 26 CFR § 1.41-4(c)(6)(i), (iii)(A)–(B), & (vii)(A)–(D)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Dual Function Software — Third-Party Subset (TSS)</strong>",
+            "<strong>Category B (DFS — TSS identified)</strong>",
+            "Segregated subset of elements of Dual Function Software that <strong>only</strong> enables the taxpayer to interact with third parties or allows third parties to initiate functions or review data on the taxpayer's system (excluding persons supporting the taxpayer's G&A functions under 26 CFR § 1.41-4(c)(6)(vi)(E)).",
+            "Standard Four-Part Test (IRC § 41(d)(1) & 26 CFR § 1.41-4(a)(2)) only (Presumption of IUS under (vi)(A) is overcome per Example 11)",
+            "100%",
+            "26 CFR § 1.41-4(c)(6)(vi)(B), (D), (E), & (viii) Ex. 11 & 14"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Dual Function Software — Dual-Function Subset (or Unsegregated DFS)</strong>",
+            "<strong>Category B (DFS — HTIT or Safe Harbor)</strong>",
+            "Remaining Dual Function Software (where no separate TSS can be identified, as in Example 12) or interwoven subset of elements serving both internal G&A functions and third-party interaction remaining after TSS isolation under 26 CFR § 1.41-4(c)(6)(vi)(B) (as in Example 14).",
+            "<strong>Default ((vi)(A) & Ex. 13):</strong> Four-Part Test AND Three-Part HTIT. <strong>Elective Safe Harbor ((vi)(C) & Ex. 12/14):</strong> Four-Part Test (disregarding § 41(d)(4)(E)) AND ≥10% Anticipated Third-Party Use at outset.",
+            "100% (if HTIT met); 25% (if Safe Harbor elected & ≥10% third-party use met); 0% (if &lt;10% use & HTIT failed)",
+            "26 CFR § 1.41-4(c)(6)(vi)(A), (C), (D), & (viii) Ex. 12, 13, & 14"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Table 2: Dual Function Software (DFS) 25% Safe Harbor Compliance Matrix"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Safe Harbor Criterion",
+        "Regulatory Requirement (26 CFR § 1.41-4(c)(6)(vi))",
+        "Audit Defense & Substantiation Focus"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Sequential Prerequisite (26 CFR § 1.41-4(c)(6)(vi)(B)–(C))</strong>",
+            "The taxpayer must first apply paragraph (c)(6)(vi)(B) to identify and isolate any pure Third-Party Subset (TSS). However, if no separate TSS can be identified, the 25% safe harbor remains available for the entire unsegregated Dual Function Software (T.D. 9786 Preamble Sec. V & Example 12).",
+            "Preserve contemporaneous system architecture diagrams and code repository maps demonstrating either (a) the clean decoupling of the 100%-eligible TSS from the residual Dual-Function Subset (Example 14), or (b) the technical reasons why G&A and third-party functions are inextricably interwoven across the software (Example 12)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Underlying Section 41(d) Qualification (26 CFR § 1.41-4(c)(6)(vi)(C))</strong>",
+            "The taxpayer's research activities related to the development or improvement of the Dual Function Software or Dual-Function Subset must constitute qualified research under IRC § 41(d), applied without regard to the IUS exclusion of IRC § 41(d)(4)(E), and expenses must satisfy IRC § 41(b).",
+            "Document objective technical uncertainty at the outset under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a>, maintain iterative hypothesis and testing logs demonstrating that ≥80% of subset activities constitute a process of experimentation under 26 CFR § 1.41-4(a)(6), and maintain subcomponent time logs satisfying <em>Little Sandy Coal</em> and <em>Phoenix Design Group</em>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. ≥10% Anticipated Third-Party Usage Threshold (26 CFR § 1.41-4(c)(6)(vi)(C) & (E))</strong>",
+            "Use of the Dual Function Software or Dual-Function Subset by qualifying third parties (or by the taxpayer to interact with third parties, excluding vendors/persons supporting taxpayer G&A functions under (vi)(E) and Example 6) must be reasonably anticipated to constitute <strong>at least 10%</strong> of total use of that software or subset.",
+            "Substantiate the ≥10% estimate using an <strong>objective, reasonable method within the taxpayer's industry</strong>—specifically enumerated in the regulation and preamble as <strong>processing time</strong>, <strong>amount of data transfer</strong>, <strong>number of software user interface screens</strong>, or <strong>number of third-party initiated functions</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Upfront Timing of Determination (26 CFR § 1.41-4(c)(6)(vi)(D))</strong>",
+            "Both the Dual Function Software classification and the ≥10% anticipated third-party usage estimation must be determined <strong>at the beginning of the software development</strong> based on the intent of the taxpayer and the facts and circumstances at that time.",
+            "Retain dated, pre-development project charters, capacity planning forecasts, UI wireframes, and product requirements documents created prior to or at the inception of coding rather than relying solely on post-deployment usage studies."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. 25% QRE Inclusion, Finality, & Form 6765 Section G Reporting (26 CFR § 1.41-4(c)(6)(vi)(C))</strong>",
+            "The taxpayer includes <strong>25%</strong> of the allocable QREs (IRC § 41(b)) of the Dual Function Software or Dual-Function Subset in computing the research credit. Electing the safe harbor is an alternative to the HTIT; the disallowed 75% residual is forfeited and is not audited under the HTIT.",
+            "Segregate employee wages (26 CFR § 1.41-2(d)(1)–(2)), supplies, <a href=\"/us/faq/aws-cloud-hosting-costs-rd-tax-credit\">cloud computer rental</a>, and contract research costs for the subset; apply the 25% multiplier; and disclose on <strong>Form 6765, Section G, Column 49(d) (3. All Others) and Column 49(e) (Category B — DFS, safe harbor applied)</strong> for tax years beginning after 2025."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VII. Strategic Recommendations and Compliance Next Steps"
+    },
+    {
+      "type": "subheading",
+      "text": "A. Refining Guidance on the 10% Usage Threshold: From General Examples to Industry Safe-Harbor Protocols"
+    },
+    {
+      "type": "paragraph",
+      "text": "While <strong>26 CFR § 1.41-4(c)(6)(vi)(C)</strong> and Section V of the Preamble to T.D. 9786 already establish an \"objective, reasonable method within the taxpayer's industry\" standard and enumerate four concrete measurement methods—<strong>processing time, amount of data transfer, number of software user interface screens, and number of third-party initiated functions</strong>—substantive audit controversies still arise over how taxpayers weight and project those metrics in modern cloud-native and microservice architectures."
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, in an enterprise platform where an internal G&A financial batch-reconciliation job runs nightly for four continuous hours while external customers execute hundreds of thousands of sub-second REST or GraphQL API calls throughout the business day, measuring \"use\" by raw server <strong>processing time</strong> versus <strong>number of third-party initiated functions</strong> or <strong>amount of data transfer</strong> can produce substantially different usage percentages. Similarly, headless API-driven microservices and backend event-streaming engines have no traditional \"software user interface screens\". While Treasury regulations deliberately grant flexibility by permitting any objective, reasonable method within the taxpayer's industry, administrative updates to the <strong><a href=\"/us/glossary/irs-audit-techniques-guide-atg\">IRS Research Credit Audit Techniques Guide (ATG)</a></strong> or a dedicated Revenue Procedure establishing standardized pre-development forecasting protocols for cloud, API, and event-driven architectures would substantially reduce examination disputes without requiring an amendment to 26 CFR § 1.41-4(c)(6)(vi)(C)."
+    },
+    {
+      "type": "subheading",
+      "text": "B. Administrative Closure Under the 25% Safe Harbor vs. Maximizing the Third-Party Subset"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because <strong>26 CFR § 1.41-4(c)(6)(vi)(A)–(C)</strong> and the <strong>IRS Instructions for Form 6765</strong> already structure the 25% safe harbor as a mutually exclusive elective alternative to the three-part HTIT for a given Dual-Function Subset—meaning that electing the 25% safe harbor caps includible QREs of that subset at 25% and forfeits the remaining 75% without an HTIT examination—taxpayers do not need a regulatory amendment to avoid litigating the HTIT on the 75% residual of a safe-harbor subset."
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead, the primary strategic imperative for enterprise taxpayers is <strong>minimizing the size of the interwoven Dual-Function Subset before the 25% safe harbor is applied</strong>. Every engineering hour and cloud-computing dollar that is architecturally decoupled from the shared G&A core and isolated into a pure <strong>Third-Party Subset (TSS)</strong> under <strong>26 CFR § 1.41-4(c)(6)(vi)(B)</strong> achieves a <strong>100% QRE inclusion rate</strong> rather than a <strong>25% QRE inclusion rate</strong>—quadrupling the eligible research credit base for those expenditures while leaving only the inseparable shared algorithmic core subject to the 75% safe-harbor haircut."
+    },
+    {
+      "type": "subheading",
+      "text": "C. Taxpayer Best Practices: Integrated Project-Inception Compliance Protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "To withstand heightened IRS examination scrutiny under <strong><em>Little Sandy Coal</em></strong> (62 F.4th 287), <strong><em>Phoenix Design Group</em></strong> (T.C. Memo. 2024-113), <strong>IRS Field Attorney Advice 20212501F</strong>, and mandatory <strong>Form 6765 Section G</strong> business-component reporting (effective for tax years beginning after 2025), taxpayers developing Dual Function Software should institutionalize a five-step contemporaneous compliance protocol at the beginning of every software development project:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Charter-Stage Intent and Architectural Subset Mapping (26 CFR § 1.41-4(c)(6)(v) & (vi)(D)):</strong> Prior to writing machine-readable code, conduct a joint engineering-and-tax architecture review that formally documents the software's intended internal G&A and external third-party capabilities at the outset of development, and partitions the system into discrete business components: (a) pure Internal Use Software / G&A modules under 26 CFR § 1.41-4(c)(6)(iii) (Form 6765 Category A), (b) pure Third-Party Subsets under 26 CFR § 1.41-4(c)(6)(vi)(B) (Category B — TSS), and (c) interwoven Dual-Function Subsets under 26 CFR § 1.41-4(c)(6)(vi)(C) (Category B — Safe Harbor).",
+        "<strong>Third-Party Boundary Verification and Vendor Exclusion Audit (26 CFR § 1.41-4(c)(6)(vi)(E) & Example 6):</strong> Audit every external-facing portal, EDI feed, and API endpoint to verify that the external users qualify as \"third parties\" (such as external customers initiating orders, transfers, or data queries) and strip out any interfaces used by vendors, suppliers, or contractors to support the taxpayer's own G&A functions (such as vendor inventory replenishment under Example 6 or accounts payable invoicing portals), which must be classified as pure IUS.",
+        "<strong>Contemporaneous ≥10% Third-Party Usage Forecast (26 CFR § 1.41-4(c)(6)(vi)(C)–(D)):</strong> For each interwoven Dual-Function Subset (evaluated separately after excluding any isolated TSS, as required by Example 14), preserve a dated, pre-development engineering estimate demonstrating that third-party usage is reasonably anticipated at the beginning of development to constitute at least 10% of the subset's total use, utilizing one or more of the four regulatory metrics: processing time, amount of data transfer, number of software user interface screens, or number of third-party initiated functions.",
+        "<strong>Subcomponent-Level Agile Time Tracking and ERP Cost Segregation (26 CFR § 1.41-2(d), § 1.41-4(d), PLR 200236028, & CCA 201549024):</strong> Configure agile project-management repositories (e.g., Jira epics, component tags, and payroll timecodes) so that developer, <a href=\"/us/glossary/direct-supervision\">direct supervisor</a>, and direct support hours map directly to the discrete software subsets required for Form 6765 Section G (Columns 49(c)–(e) and 50–56). Simultaneously, segregate non-qualifying ERP option selection and embedded template implementation costs (which must be capitalized under IRC § 263(a) and amortized over 36 months under IRC § 167(f)(1) per PLR 200236028 and CCA 201549024) from custom machine-readable code development.",
+        "<strong>Outset Technical Uncertainty and Scientific-Method Experimentation Logs (IRC § 41(d)(1), <em>Little Sandy Coal</em>, & <em>Phoenix Design Group</em>):</strong> For each qualifying Third-Party Subset and Dual-Function Subset, require lead engineers to record at the start of development the specific <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">objective technological uncertainties</a> (IRC § 174 and 26 CFR § 1.41-4(a)(3)) regarding capability, method, or appropriate design, the alternative architectures or algorithms evaluated, and the modeling, simulation, or systematic trial-and-error testing conducted—ensuring that time-tracking narratives align with experimental phases and substantiate that ≥80% of the subset's research activities constituted elements of a process of experimentation for a qualified purpose under 26 CFR § 1.41-4(a)(5)–(6)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VIII. Comprehensive Statutory, Regulatory, and Judicial Verification Matrix"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Technical / Legal Topic",
+        "Controlling Primary Authority",
+        "Substantive Legal & Technical Analysis"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1",
+            "Statutory Enactment Lineage and Incremental Credit Structure under IRC § 41(a)",
+            "26 U.S.C. § 41(a); ERTA 1981 § 221 (Pub. L. 97-34); H.R. Rep. No. 97-201; IRS ATG (updated July 2, 2026); IRS PLR 201006027",
+            "Confirmed 1981 enactment to stimulate capital formation, productivity, and private R&D spending, and the incremental structure (20% of QREs over <a href=\"/us/legislation/26-usc-41c1-rd-tax-credit-base-amount\">base amount</a> plus 20% of basic research and energy consortium payments under 26 U.S.C. § 41(a)(1)–(3)). Refined statutory lineage: originally enacted in 1981 as IRC § 44F, redesignated as IRC § 30 in 1984, redesignated as IRC § 41 in 1986, and made permanent by the PATH Act of 2015."
+          ]
+        },
+        {
+          "cells": [
+            "2",
+            "Upfront Timing of Determination Based on Taxpayer Intent at Project Inception",
+            "26 CFR § 1.41-4(c)(6)(v) & (vi)(D); T.D. 9786 (81 Fed. Reg. 68,308, Oct. 4, 2016; IRB 2016-42)",
+            "Confirmed verbatim under 26 CFR § 1.41-4(c)(6)(vi)(D): <em>\"A taxpayer must apply this paragraph (c)(6)(vi) based on the intent of the taxpayer and the facts and circumstances at the beginning of the software development\"</em> (effective for taxable years beginning on or after October 4, 2016)."
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "Definition of Dual Function Software and Foundational Presumption of Internal Use",
+            "26 CFR § 1.41-4(c)(6)(vi)(A); T.D. 9786; IRS Instructions for Form 6765 (Rev. Jan. 2025 / Dec. 2025)",
+            "Confirmed under 26 CFR § 1.41-4(c)(6)(vi)(A): software developed both for internal G&A functions and to enable third-party interaction or allow third parties to initiate functions or review data is presumed to be developed primarily for internal use unless paragraph (c)(6)(vi)(B) (Third-Party Subset) or (c)(6)(vi)(C) (25% Safe Harbor) applies."
+          ]
+        },
+        {
+          "cells": [
+            "4",
+            "Exhaustive Definition of G&A Functions and Regulatory Citations for IUS vs. Non-IUS",
+            "26 CFR § 1.41-4(c)(6)(iii)(A)–(B) & (iv)(A)–(B); IRS Instructions for Form 6765",
+            "Verified the three exhaustive G&A categories: Financial Management, Human Resources Management, and Support Services. Corrected regulatory citations: Internal Use Software and the three G&A categories are codified in <strong>26 CFR § 1.41-4(c)(6)(iii)</strong> ((iii)(A) and (iii)(B)(1)–(3), Form 6765 Category A), whereas <strong>26 CFR § 1.41-4(c)(6)(iv)(A)</strong> governs commercial software held for sale, lease, license, or marketing (Form 6765 Category C Non-IUS)."
+          ]
+        },
+        {
+          "cells": [
+            "5",
+            "Isolation of the Third-Party Subset (TSS) and 100% QRE Eligibility",
+            "26 CFR § 1.41-4(c)(6)(vi)(B) & (viii) Examples 11 & 14; T.D. 9786",
+            "Confirmed under 26 CFR § 1.41-4(c)(6)(vi)(B) and Examples 11 and 14: a segregated subset of elements that <em>only</em> enables third-party interaction or allows third parties to initiate functions or review data overcomes the internal-use presumption, is treated as Non-IUS under (c)(6)(iv)(B), and qualifies 100% of its allocable QREs under the standard Four-Part Test."
+          ]
+        },
+        {
+          "cells": [
+            "6",
+            "Exclusion of G&A Support Vendors from the Regulatory Definition of \"Third Party\"",
+            "26 CFR § 1.41-4(c)(6)(vi)(E) & (viii) Example 6; T.D. 9786",
+            "Corrected: Under 26 CFR § 1.41-4(c)(6)(vi)(E), <em>\"third parties do not include any persons that use the software to support the general and administrative functions of the taxpayer.\"</em> In Example 6, software enabling electronic interaction and function initiation with vendors for inventory management is held to be pure Internal Use Software (not third-party interaction or Dual Function Software) because inventory management is a G&A financial management function under 26 CFR § 1.41-4(c)(6)(iii)(B)(1)."
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Standard Four-Part Test Permitted Purpose vs. HTIT Cost Reduction Standard",
+            "26 U.S.C. § 41(d)(1) & (3)(A); 26 CFR § 1.41-4(a)(2)–(6) & (c)(6)(vii)(B); IRS FAA 20212501F",
+            "Verified the Four-Part Test and the 80% process-of-experimentation rule (26 CFR § 1.41-4(a)(6)). Corrected Permitted Purpose: under IRC § 41(d)(3)(A) and 26 CFR § 1.41-4(a)(5)(ii), a qualified purpose under the Four-Part Test is limited to new or improved <strong>function, performance, reliability, or quality</strong>. Substantial and economically significant \"reduction in cost\" is the standard for the Innovative prong of the HTIT under 26 CFR § 1.41-4(c)(6)(vii)(B)."
+          ]
+        },
+        {
+          "cells": [
+            "8",
+            "Non-Qualifying ERP Configuration vs. IRC § 263(a) Capitalization of Embedded Templates",
+            "26 CFR § 1.41-4(a)(8) Examples 5, 6, 9, 10; IRS PLR 200236028; IRS CCA 201549024; Rev. Proc. 2000-50",
+            "Confirmed non-qualified ERP configuration and routine data mapping under 26 CFR § 1.41-4(a)(8). Confirmed under PLR 200236028 and CCA 201549024 that technical consulting costs for option selection and implementing embedded ERP templates (plus allocable modeling/design costs and undefined miscellaneous costs) do not constitute writing machine-readable code under Rev. Proc. 2000-50 and must be capitalized under IRC § 263(a) and 26 CFR § 1.263(a)-4(c)(1)(xiv) & (g)(1) and amortized ratably over 36 months under IRC § 167(f)(1)."
+          ]
+        },
+        {
+          "cells": [
+            "9",
+            "Distinction Between Software Excepted from the HTIT ((c)(6)(ii)) and Non-IUS ((c)(6)(iv))",
+            "26 CFR § 1.41-4(c)(6)(ii)(A)–(C) & (iv)(A)–(B); IRS Instructions for Form 6765",
+            "Corrected regulatory classification: <strong>26 CFR § 1.41-4(c)(6)(ii)</strong> (<em>Inapplicability of the HTIT</em>, Form 6765 Category D) covers only the three internal-use exceptions: (ii)(A) used in qualified research, (ii)(B) used in a qualified production process, and (ii)(C) integral hardware-software package (Example 1). Commercial/SaaS software sold, leased, licensed, or marketed to third parties is governed by <strong>26 CFR § 1.41-4(c)(6)(iv)(A)</strong> (Form 6765 Category C Non-IUS)."
+          ]
+        },
+        {
+          "cells": [
+            "10",
+            "Three-Part High Threshold of Innovation Test (HTIT) and Rejection of the \"Unique or Novel\" Standard",
+            "26 CFR § 1.41-4(c)(6)(vii)(A)–(D); T.D. 9786 Preamble Sec. VII",
+            "Verified all three HTIT prongs and the exact language in 26 CFR § 1.41-4(c)(6)(vii)(C) that \"substantial uncertainty\" requires a higher level of uncertainty and technical risk than non-IUS components. Corrected the Innovation prong description: 26 CFR § 1.41-4(c)(6)(vii)(B) explicitly rejects any requirement that software be unique, novel, or significantly different from existing implementation methods (<em>\"not a determination of the unique or novel nature of the software\"</em>)."
+          ]
+        },
+        {
+          "cells": [
+            "11",
+            "25% Safe Harbor Mechanics and ≥10% Anticipated Third-Party Usage Requirement",
+            "26 CFR § 1.41-4(c)(6)(vi)(C)–(D) & (viii) Examples 12 & 14; T.D. 9786",
+            "Confirmed under 26 CFR § 1.41-4(c)(6)(vi)(C) and (D): 25% QRE inclusion applies if the underlying research activities satisfy IRC § 41(d) (without regard to § 41(d)(4)(E)) and third-party use is reasonably anticipated at the beginning of software development to constitute at least 10% of the Dual Function Software's or Dual-Function Subset's total use."
+          ]
+        },
+        {
+          "cells": [
+            "12",
+            "Enumerated Objective Industry Methods for Measuring the 10% Usage Threshold",
+            "26 CFR § 1.41-4(c)(6)(vi)(C) & (viii) Example 14; T.D. 9786 Preamble Sec. V",
+            "Corrected: 26 CFR § 1.41-4(c)(6)(vi)(C) forbids subjective standards by mandating an <em>\"objective, reasonable method within the taxpayer's industry\"</em> and expressly enumerating acceptable methods in the regulatory text: <strong>processing time</strong>, <strong>amount of data transfer</strong>, and <strong>number of software user interface screens</strong> (plus <strong>number of third-party initiated functions</strong> in Section V of the T.D. 9786 Preamble)."
+          ]
+        },
+        {
+          "cells": [
+            "13",
+            "Availability of the 25% Safe Harbor When No Separate Third-Party Subset Can Be Identified",
+            "26 CFR § 1.41-4(c)(6)(vi)(C) & (viii) Example 12; T.D. 9786 Preamble Sec. V",
+            "Corrected: Directly established by 26 CFR § 1.41-4(c)(6)(vi)(C) (<em>\"there remains dual function software or a subset...\"</em>), Section V of the T.D. 9786 Preamble (<em>\"serves as a benefit for taxpayers who cannot identify a separate third-party subset\"</em>), and <strong>Example 12</strong>, where Taxpayer X <em>\"is unable to identify a third party subset\"</em> and is explicitly permitted to include 25% ($12,500 of $50,000) of the entire Dual Function Software's QREs under the safe harbor because anticipated third-party use is 15% (≥10%)."
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "Codification of Research Credit Recordkeeping and Substantiation Mandate",
+            "26 CFR § 1.41-4(d); 26 CFR § 1.6001-1(a) & (e); IRC § 6001; IRS FAA 20212501F",
+            "Verified the verbatim recordkeeping quotation and required financial/technical records, and clarified the exact legal authority: the requirement to <em>\"retain records in sufficiently usable form and detail to substantiate that the expenditures claimed are eligible for the credit\"</em> is codified in <strong>26 CFR § 1.41-4(d)</strong> (cross-referencing 26 CFR § 1.6001-1 and IRC § 6001), rather than in the statutory text of IRC § 41."
+          ]
+        },
+        {
+          "cells": [
+            "15",
+            "Coordination of the Employee Wage 80% Rule (26 CFR § 1.41-2(d)(2)) and Business-Component 80% Rule (26 CFR § 1.41-4(a)(6))",
+            "26 U.S.C. § 41(b)(2)(B) & § 41(d)(1)(C); 26 CFR § 1.41-2(d)(1)–(2); 26 CFR § 1.41-4(a)(6)",
+            "Confirmed that under IRC § 41(b)(2)(B) and 26 CFR § 1.41-2(d)(2), 100% of an employee's annual wages qualify if ≥80% of the employee's services are qualified services, while under 26 CFR § 1.41-4(a)(6) the 80% process-of-experimentation rule applies separately to each business component without regard to § 1.41-2(d)(2), and employee wages must still be allocated across the 100%-eligible TSS and 25%-eligible Dual-Function Subset."
+          ]
+        },
+        {
+          "cells": [
+            "16",
+            "Judicial Holdings in <em>Little Sandy Coal</em> (2021/2023) and <em>Phoenix Design Group</em> (2024)",
+            "<em>Little Sandy Coal Co., Inc. v. Commissioner</em>, T.C. Memo. 2021-15, aff'd, 62 F.4th 287 (7th Cir. 2023); <em>Phoenix Design Group, Inc. v. Commissioner</em>, T.C. Memo. 2024-113 (Dec. 23, 2024)",
+            "Confirmed both decisions and expanded with exact appellate and Tax Court holdings: Seventh Circuit's clarification on direct support/supervision in the 80% fraction numerator paired with affirmance for lack of contemporaneous time records in <em>Little Sandy Coal</em> (62 F.4th 287), and the Tax Court's rejection of ongoing construction revision uncertainty, citation of conflicting timesheet narratives (Malloy and Wade), and application of the shrinking-back rule (26 CFR § 1.41-4(b)(2)) to individual MEPF subcomponents in <em>Phoenix Design Group</em> (T.C. Memo. 2024-113)."
+          ]
+        },
+        {
+          "cells": [
+            "17",
+            "Mandatory Business Component and Software Category Disclosure on IRS Form 6765 Section G",
+            "IRS Instructions for Form 6765 (Rev. Jan. 2025 / updated Dec. 2025); IR-2021-203 & June 18, 2024 Update",
+            "Confirmed Section G effective dates (optional before 2026 unless amended; mandatory after 2025 subject to <a href=\"/us/glossary/qualified-small-business-qsb\">QSB</a> and ≤$1.5M QRE/≤$50M gross receipts exceptions), the 80%/Top 50 descending-order reporting rule, Column 49(d) (3. All Others), and Column 49(e) software codes: <strong>A (IUS)</strong>, <strong>B (DFS)</strong>, <strong>C (Non-IUS)</strong>, and <strong>D (Excepted from IUS treatment)</strong>."
+          ]
+        },
+        {
+          "cells": [
+            "18",
+            "Elective Finality of the 25% Safe Harbor vs. HTIT Audit on the Disallowed 75% Residual",
+            "26 CFR § 1.41-4(c)(6)(vi)(A)–(C) & (viii) Examples 12–14; T.D. 9786 Preamble; IRS Form 6765 Instructions",
+            "Corrected: Under 26 CFR § 1.41-4(c)(6)(vi)(A)–(C) and Examples 12 and 14, the 25% safe harbor is already an elective alternative to the HTIT for a Dual-Function Subset. Electing the 25% safe harbor fixes includible QREs of that subset at 25% and excludes the remaining 75% without subjecting that 75% residual to an HTIT examination."
+          ]
+        }
+      ]
+    }
+  ]
+}

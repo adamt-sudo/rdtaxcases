@@ -2,49 +2,49 @@
 // Do not edit by hand; it is rebuilt before every build and dev start.
 import type { CaseRecord } from "@/types/case";
 import c0 from "../../content/cases/amirikian-v-united-states.json";
-import c1 from "../../content/cases/little-sandy-coal-co-inc-v-commissioner.json";
-import c2 from "../../content/cases/apple-computer-inc-v-commissioner.json";
+import c1 from "../../content/cases/little-sandy-coal-v-commissioner.json";
+import c2 from "../../content/cases/apple-computer-v-commissioner.json";
 import c3 from "../../content/cases/bayer-corp-v-united-states.json";
 import c4 from "../../content/cases/betz-v-commissioner.json";
 import c5 from "../../content/cases/eustace-v-commissioner.json";
-import c6 from "../../content/cases/fairchild-industries-inc-v-united-states.json";
+import c6 from "../../content/cases/fairchild-industries-v-united-states.json";
 import c7 from "../../content/cases/fedex-corp-v-united-states.json";
 import c8 from "../../content/cases/fudim-v-commissioner.json";
-import c9 from "../../content/cases/geosyntec-consultants-inc-v-united-states.json";
+import c9 from "../../content/cases/geosyntec-consultants-v-united-states.json";
 import c10 from "../../content/cases/harper-v-commissioner.json";
-import c11 from "../../content/cases/kollsman-instrument-corp-v-commissioner.json";
-import c12 from "../../content/cases/kyocera-avx-components-corp-v-united-states.json";
-import c13 from "../../content/cases/leon-max-inc-v-commissioner.json";
-import c14 from "../../content/cases/lockheed-martin-corp-v-united-states.json";
+import c11 from "../../content/cases/kollsman-instrument-v-commissioner.json";
+import c12 from "../../content/cases/kyocera-avx-components-v-united-states.json";
+import c13 from "../../content/cases/leon-max-v-commissioner.json";
+import c14 from "../../content/cases/lockheed-martin-v-united-states.json";
 import c15 from "../../content/cases/mayrath-v-commissioner.json";
-import c16 from "../../content/cases/meyer-borgman-and-johnson-inc-v-commissioner.json";
+import c16 from "../../content/cases/meyer-borgman-johnson-v-commissioner.json";
 import c17 from "../../content/cases/norwest-corp-v-commissioner.json";
-import c18 from "../../content/cases/phoenix-design-group-inc-v-commissioner.json";
-import c19 from "../../content/cases/populous-holdings-inc-v-commissioner.json";
+import c18 from "../../content/cases/phoenix-design-group-v-commissioner.json";
+import c19 from "../../content/cases/populous-holdings-v-commissioner.json";
 import c20 from "../../content/cases/scott-moore-v-commissioner.json";
 import c21 from "../../content/cases/shami-v-commissioner.json";
-import c22 from "../../content/cases/siemer-milling-co-v-commissioner.json";
+import c22 from "../../content/cases/siemer-milling-v-commissioner.json";
 import c23 from "../../content/cases/suder-v-commissioner.json";
-import c24 from "../../content/cases/sun-microsystems-inc-v-commissioner.json";
+import c24 from "../../content/cases/sun-microsystems-v-commissioner.json";
 import c25 from "../../content/cases/tangel-v-commissioner.json";
-import c26 from "../../content/cases/tax-and-accounting-software-corp-v-united-states.json";
-import c27 from "../../content/cases/tg-missouri-corp-v-commissioner.json";
-import c28 from "../../content/cases/trinity-industries-inc-v-united-states.json";
-import c29 from "../../content/cases/union-carbide-corp-and-subsidiaries-v-commissioner.json";
+import c26 from "../../content/cases/tax-accounting-software-v-united-states.json";
+import c27 from "../../content/cases/tg-missouri-v-commissioner.json";
+import c28 from "../../content/cases/trinity-industries-v-united-states.json";
+import c29 from "../../content/cases/union-carbide-v-commissioner.json";
 import c30 from "../../content/cases/united-states-v-mcferrin.json";
-import c31 from "../../content/cases/united-stationers-inc-v-united-states.json";
-import c32 from "../../content/cases/wicor-inc-v-united-states.json";
+import c31 from "../../content/cases/united-stationers-v-united-states.json";
+import c32 from "../../content/cases/wicor-v-united-states.json";
 import c33 from "../../content/cases/zink-v-united-states.json";
 import c34 from "../../content/cases/george-v-commissioner.json";
-import c35 from "../../content/cases/procter-and-gamble-co-v-united-states.json";
-import c36 from "../../content/cases/dynetics-inc-v-united-states.json";
+import c35 from "../../content/cases/procter-gamble-v-united-states.json";
+import c36 from "../../content/cases/dynetics-v-united-states.json";
 import c37 from "../../content/cases/kantor-v-commissioner.json";
 import c38 from "../../content/cases/ekman-v-commissioner.json";
-import c39 from "../../content/cases/intermountain-electronics-inc-v-commissioner.json";
-import c40 from "../../content/cases/system-technologies-inc-v-commissioner.json";
+import c39 from "../../content/cases/intermountain-electronics-v-commissioner.json";
+import c40 from "../../content/cases/system-technologies-v-commissioner.json";
 import c41 from "../../content/cases/smith-v-commissioner.json";
 import c42 from "../../content/cases/cleveland-v-commissioner.json";
-import c43 from "../../content/cases/coors-porcelain-co-v-commissioner.json";
+import c43 from "../../content/cases/coors-porcelain-v-commissioner.json";
 import c44 from "../../content/cases/kilroy-v-commissioner.json";
 import c45 from "../../content/cases/nickeson-v-commissioner.json";
 import c46 from "../../content/cases/research-inc-v-united-states.json";
@@ -105,6 +105,9 @@ import c100 from "../../content/cases/kuria-kfv-v-35196-2013.json";
 import c101 from "../../content/cases/amo-a40-158523-2020.json";
 import c102 from "../../content/cases/moreton-resources-ltd-v-innovation-science-australia.json";
 import c103 from "../../content/cases/coal-of-queensland-pty-ltd-v-innovation-science-australia.json";
+import c104 from "../../content/cases/saykally-v-commissioner.json";
+import c105 from "../../content/cases/tyson-foods-v-commissioner.json";
+import c106 from "../../content/cases/united-states-v-davenport.json";
 
 export const caseRecords = [
   c0,
@@ -211,6 +214,9 @@ export const caseRecords = [
   c101,
   c102,
   c103,
+  c104,
+  c105,
+  c106,
 ] as unknown as CaseRecord[];
 
 export interface TranslationRecord {

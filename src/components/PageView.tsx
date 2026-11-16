@@ -36,11 +36,9 @@ export function PageView({ page }: { page: PageRecord }) {
     { name: page.title, url },
   ];
   const modified = page.updated ?? page.published;
-  const jsonLd = {
+  const common = {
     "@context": "https://schema.org",
-    "@type": "Article",
     "@id": url,
-    headline: page.title,
     ...(page.description ? { description: page.description } : {}),
     url,
     inLanguage: page.language,
@@ -51,6 +49,23 @@ export function PageView({ page }: { page: PageRecord }) {
     publisher: { "@id": `${SITE}/#organization` },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
+  // One structured-data block per page type: a FAQ question is a FAQPage (its answer is the answer capsule shown first on
+  // the page); a law is an Article about a Legislation; a glossary term is an Article.
+  const jsonLd =
+    page.kind === "faq-question"
+      ? {
+          ...common,
+          "@type": "FAQPage",
+          name: page.title,
+          mainEntity: {
+            "@type": "Question",
+            name: page.title,
+            acceptedAnswer: { "@type": "Answer", text: page.summary ?? page.description ?? page.title },
+          },
+        }
+      : page.kind === "legislation-page"
+        ? { ...common, "@type": "Article", headline: page.title, about: { "@type": "Legislation", name: page.title, legislationJurisdiction: country } }
+        : { ...common, "@type": "Article", headline: page.title };
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

@@ -1,0 +1,390 @@
+{
+  "slug": "wicor-v-united-states",
+  "title": "Wicor, Inc. v. United States",
+  "caseNumber": "116 F. Supp. 2d 1028",
+  "court": "United States District Court for the Eastern District of Wisconsin",
+  "year": 2000,
+  "subject": "Internal-Use Software / Innovativeness Test",
+  "jurisdictionGroup": "usa-federal",
+  "jurisdictionSlug": "federal",
+  "summary": "Wicor, Inc. v. United States (E.D. Wis. 2000), affirmed by the Seventh Circuit in 2001, denied a gas utility's IRC Section 41 research credit claims for a $30 million-plus internal-use Customer Information System. The key takeaway for U.S. taxpayers: merely adapting existing computer technology, without true technological discovery or technical risk, does not qualify as research.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary and Case Background"
+    },
+    {
+      "type": "subheading",
+      "text": "Procedural Posture and Taxpayer Claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Wicor, Inc. v. United States</em>, 116 F. Supp. 2d 1028 (E.D. Wis. 2000), <em>aff'd</em>, 263 F.3d 659 (7th Cir. 2001), the United States District Court for the Eastern District of Wisconsin and the United States Court of Appeals for the Seventh Circuit established a stringent evidentiary and substantive benchmark for enterprise software development claims under <a href=\"/us/glossary/irc-section-41\">Internal Revenue Code (IRC) Section 41</a>. The plaintiff, WICOR, Inc., and its wholly owned public utility subsidiary, Wisconsin Gas Company (WGC)—both accrual-basis corporate taxpayers—instituted a federal tax refund suit in the Eastern District of Wisconsin (Docket No. 97-C-393) seeking to recover federal income taxes paid for taxable years 1990 and 1991. Specifically, WICOR claimed incremental research and experimentation tax credits under 26 U.S.C. § 41 for <a href=\"/us/legislation/26-usc-41b1-qualified-research-expenses\">Qualified Research Expenses</a> (QREs) incurred in developing a computerized, integrated Customer Information System (CIS), filing timely administrative refund claims of $332,119 for tax year 1990 and $336,637 for tax year 1991. A separate, bifurcated claim in the litigation involved utility rate reduction adjustments under the IRC § 1341 claim of right doctrine, which was resolved in favor of the government via partial summary judgment granted on September 30, 1999 (reported at 117 F. Supp. 2d 855) and subsequently affirmed alongside the Section 41 holding on appeal."
+    },
+    {
+      "type": "paragraph",
+      "text": "The underlying technical initiative arose from WGC's operational need to modernize and unify its disparate legacy mainframe data processing operations. The CIS project was designed to integrate core utility administrative workflows—specifically accounts receivable, customer billing, credit management, meter reading, and service orders—while introducing high-value operational enhancements such as On-Line Cash processing and Computer-Aided Dispatching. WGC initially attempted to implement an existing third-party software package designed for the gas and utility sector—the Customer Information System/Data Base (CIS/DB)—by contracting with Computer Systems & Associates (CS&A). However, after the project's cost estimate was increased in July 1989 from $5.4 million to $10.9 million based on additional functional, technical, and staffing needs, WICOR concluded that CS&A could not meet its technological needs at an acceptable cost and that in-house custom development was necessary."
+    },
+    {
+      "type": "paragraph",
+      "text": "To facilitate custom internal system development, WICOR retained the Andersen Consulting division of Arthur Andersen & Co. (Andersen Consulting)—an information technology consultancy that had previously performed customer information system work for other utilities, including Madison Gas & Electric and Wisconsin Public Service—to review the CIS plan; in an August 18, 1989 report, Andersen's James Drayer found the project scope well-defined and the online architecture well-structured, but identified concerns regarding project approach, the database, project planning and control, and functionality. In December 1989, WICOR terminated its agreement with CS&A, phasing CS&A out of the project while phasing in Andersen Consulting. In January 1990, WICOR and Andersen Consulting entered into a consulting services agreement documenting Andersen's arrangement to assist WICOR with completing the CIS project; in May 1990, the IDMS database acquired during the CS&A phase was abandoned in favor of a newly purchased DB2 database platform, and in early 1991 the project scope expanded to integrate a computer aided dispatching system, a remote meter reading system, and online cash posting, each of which used software provided by other vendors and required an interface to the new system. WICOR ultimately expended more than $30 million on the CIS initiative and sought to capture a portion of the <a href=\"/us/glossary/qualified-wages\">internal wages</a> and contractor fees as Section 41 QREs."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon examination, the Internal Revenue Service (IRS) disallowed WICOR's <a href=\"/us/faq/irs-guidance-rd-tax-credit-refund-claims\">Section 41 refund claims</a> in their entirety, and the United States Department of Justice Tax Division defended the disallowance at trial. Crucially, the government did not dispute that WICOR satisfied the first statutory prerequisite of IRC § 41(d)(1)(A)—namely, that the CIS expenditures qualified as research or experimental costs deductible under <a href=\"/us/legislation/26-usc-174-research-expenditures-amortization\">IRC § 174</a>—nor did it dispute that the information gained was technological in nature, that WICOR intended its application to be useful in a new or improved business component, or that the CIS software was not commercially available. However, the government challenged the claim on the grounds that the CIS project was not undertaken for the purpose of discovering technological information but rather to install a cost-effective and cost-reducing business information system that would automate a number of company information functions in a single integrated system, and therefore did not constitute \"<a href=\"/us/legislation/26-usc-41d1-qualified-research-definition\">qualified research</a>\" under IRC § 41(d)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Of the seven tests that the parties agreed applied (the four statutory tests of IRC § 41(d) and three additional tests arising from the 1986 Conference Report), the government contended that WICOR failed two elements of the general <a href=\"/us/glossary/four-part-test\">Four-Part Test</a> under IRC § 41(d)(1)—specifically the Discovery Test (whether the research was undertaken for the purpose of discovering technological information) and the Process of Experimentation Test—and additionally failed two of the three prongs (innovativeness and significant economic risk) of the heightened Three-Part \"High Threshold of Innovation\" Test governing internal-use software (IUS) under IRC § 41(d)(4)(E) and its accompanying legislative history."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "To establish entitlement to the incremental research credit under <a href=\"/us/legislation/26-usc-41a-rd-tax-credit-general-rule\">26 U.S.C. § 41</a>, a taxpayer bears the affirmative burden of proving that its activities meet both the general definition of \"qualified research\" in Section 41(d)(1) and, where applicable, the special statutory exclusions and exceptions in Section 41(d)(4). Originally enacted in 1981 to incentivize private-sector research programs and recodified under the Tax Reform Act of 1986, Section 41 provides a 20 percent credit for qualified research expenses exceeding a statutory base amount, operating as a component of the IRC § 38 general business credit and subject to <a href=\"/us/legislation/26-usc-280cc-rd-credit-deduction-disallowance\">IRC § 280C(c)(1)</a> deduction reductions. Under the statutory framework governing the years in suit, a project must first satisfy four cumulative general tests applied at the <a href=\"/us/legislation/26-usc-41d2-business-component-test\">business component</a> level. First, under the Section 174 Eligibility Test of IRC § 41(d)(1)(A), the expenditures connected with the research must be eligible for treatment as expenses under <a href=\"/us/glossary/irc-section-174\">IRC § 174</a>, meaning they represent research and development costs in the experimental or laboratory sense. Second, under the Discovery or Technological Information Test of IRC § 41(d)(1)(B)(i), the research must be undertaken for the purpose of discovering information that is <a href=\"/us/glossary/technological-in-nature\">technological in nature</a>, which requires that the process of experimentation fundamentally rely on principles of the physical or biological sciences, engineering, or computer science. Third, under the Business Component and Qualified Purpose Test of IRC §§ 41(d)(1)(B)(ii) and 41(d)(3), the taxpayer must intend to apply the discovered information to develop a new or improved business component (defined as any product, process, computer software, technique, formula, or invention) for a <a href=\"/us/glossary/permitted-purpose\">qualified purpose</a>—specifically a new or improved function, performance, reliability, or quality—while excluding activities related to style, taste, cosmetic, or seasonal design factors. Fourth, under the Process of Experimentation Test of IRC § 41(d)(1)(C), substantially all (defined quantitatively as 80 percent or more) of the research activities measured on a cost or other consistently applied reasonable basis must constitute elements of a <a href=\"/us/glossary/process-of-experimentation\">process of experimentation</a> relating to a qualified purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because WICOR developed the CIS to manage its own corporate accounting, customer billing, and internal utility dispatch operations rather than for commercial sale, licensing, or lease to external customers, the software triggered the statutory exclusion for internal-use computer software under <a href=\"/us/legislation/26-usc-41d4-rd-tax-credit-excluded-activities\">IRC § 41(d)(4)(E)</a>. Pursuant to the Conference Report to the Tax Reform Act of 1986, H.R. Conf. Rep. No. 99-841, at II-71 to II-73 (1986), and controlling Seventh Circuit precedent in <em><a href=\"/us/united-stationers-v-united-states\">United Stationers, Inc. v. United States</a></em>, 163 F.3d 440 (7th Cir. 1998), internal-use software is ineligible for the credit unless it passes a rigorous Three-Part \"High Threshold of Innovation\" Test in addition to the general Four-Part Test. Under the first prong, the Innovativeness Requirement, the software must be innovative, defined as resulting in a substantial and economically significant reduction in cost or a substantial and economically significant improvement in speed. Under the second prong, the <a href=\"/us/glossary/significant-economic-risk\">Significant Economic Risk</a> Requirement, the software development must involve significant economic risk, whereby the taxpayer commits substantial resources to the development and there is substantial uncertainty, because of <em>technical risk</em>, that such resources will be recovered within a reasonable period. Under the third prong, the <a href=\"/us/glossary/commercial-availability-standard\">Commercial Availability</a> Requirement, the software must not be commercially available for use by the taxpayer without modifications that themselves satisfy the innovation and significant economic risk requirements."
+    },
+    {
+      "type": "subheading",
+      "text": "The Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Following a bench trial featuring extensive lay and expert testimony, U.S. Magistrate Judge Aaron E. Goodstein issued a comprehensive Decision and Order on September 28, 2000 (<em>Wicor I</em>, 116 F. Supp. 2d 1028), entering judgment in favor of the United States and dismissing WICOR's complaint on the merits. The District Court held that WICOR failed to carry its burden of proof on four independent grounds: the CIS project did not discover technological information under IRC § 41(d)(1)(B)(i); it did not utilize a qualifying process of experimentation under IRC § 41(d)(1)(C); and, with respect to the <a href=\"/us/glossary/internal-use-software-ius\">internal-use software</a> mandate of IRC § 41(d)(4)(E), it satisfied neither the innovativeness test nor the significant economic risk test."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the United States Court of Appeals for the Seventh Circuit (<em>Wicor II</em>, 263 F.3d 659 (7th Cir. 2001)) unanimously affirmed the District Court's ruling. In a decision issued August 14, 2001 by a panel consisting of Judges Posner, Manion, and Rovner, Judge Richard Posner, writing for the court, underscored that the Section 41 requirements at issue mark off \"the domain of genuine research from that of implementation of existing research findings\". Finding that the project had involved merely adapting existing computer technology to the special needs of the gas company—most of the software having been acquired from other companies, with Andersen and the gas company jointly developing a program to integrate the components—the Seventh Circuit held that the District Court did not commit clear error in finding that WICOR failed the discovery test, which alone sufficed to deny the Section 41 credit."
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal and Evidentiary Failures"
+    },
+    {
+      "type": "subheading",
+      "text": "Failure to Prove Technological Discovery and Expansion of Computer Science Principles"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary substantive barrier in <em>Wicor</em> centered on the Discovery Test under IRC § 41(d)(1)(B)(i). Relying heavily on <em>United Stationers, Inc. v. United States</em>, 163 F.3d 440 (7th Cir. 1998), and the Tax Court's opinion in <em><a href=\"/us/norwest-corp-v-commissioner\">Norwest Corp. v. Commissioner</a></em>, 110 T.C. 454 (1998), the District Court enforced a strict construction of the statutory phrase \"undertaken for the purpose of discovering information which is technological in nature\". Quoting H.R. Conf. Rep. No. 99-841, at II-71 n.3 (1986), the court noted that research does not rely on principles of computer science merely because a computer is employed; rather, software activities qualify only if intended to \"expand or refine existing principles of computer science\". Under this standard, \"discovery demands something more than mere superficial newness; it connotes innovation in underlying principle\" and must \"pass a high threshold of innovation and be of broad effect\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "WICOR's fatal evidentiary misstep was conflating <em>domain-specific operational complexity</em> within the gas utility industry with <em>fundamental <a href=\"/us/glossary/elimination-of-uncertainty\">technological uncertainty</a></em> in the field of computer science. At trial, WICOR proffered expert witness Donald O'Neill, a software engineering specialist, who testified that the CIS project applied principles of computer science and software engineering to integrate accounts receivable, billing, credit, meters, and service orders alongside functional improvements like On-Line Cash and Computer-Aided Dispatching. However, the court found O'Neill's testimony revealing, because he did not assert that the CIS project expanded knowledge in the computer science field itself, but only in the utility industry's utilization of computer science. Applying existing principles of computer science to build an enterprise application is the antithesis of <em>expanding or refining</em> those principles. Furthermore, the court emphasized that the research tax credit is not intended for projects that merely expand knowledge within a particular industry or yield information that is new only to the taxpayer. Coupled with the uncontradicted testimony of the government's expert, Dr. Jaideep Srivastava, that WICOR's software development practices were a fairly standard procedure in existence for a decade or more, that he was aware of no new algorithms created through the project, and that the project did not contribute additional information to the field of computer science as a whole, the court concluded that the CIS project was not research undertaken to discover information that is technological in nature."
+    },
+    {
+      "type": "subheading",
+      "text": "Adverse Contractual IP Terms and the Andersen Source Code Abandonment"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most damaging evidentiary findings in <em>Wicor</em> stemmed from the interplay between the taxpayer's contract terms and the post-completion behavior of its contractor, Andersen Consulting. As the Seventh Circuit noted, the contract between the parties provided that the source code for the integrated computer system would be the property of Andersen Consulting. At trial, WICOR contended that its integrated system was innovative and served as a model for other utility companies."
+    },
+    {
+      "type": "paragraph",
+      "text": "On appeal, the Seventh Circuit dismantled this assertion by examining what actually occurred when the CIS installation concluded: the original source code remained on Wisconsin Gas's system, and Andersen Consulting departed the engagement without even taking a copy of the source code it contractually owned. Although the District Court's decision does not address the source code, the Seventh Circuit found Andersen Consulting's abandonment of the source code to be pretty telling evidence that the project had merely adapted existing computer technology to the special needs of the gas company rather than inventing a new technology with broader applicability. In the commercial reality of enterprise technology consulting, if the CIS integration code had truly embodied a portable, state-of-the-art advance in computer science or utility software architecture, Andersen Consulting would have retained, cataloged, and commercialized that intellectual property across its national utility practice. The fact that the contractor treated its own contractual IP as a bespoke, one-off configuration with zero external reuse value fatally contradicted WICOR's litigation posture."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of a Structured Process of Experimentation and Deficient Documentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IRC § 41(d)(1)(C), WICOR was required to demonstrate that substantially all of its development activities constituted elements of a structured <a href=\"/us/faq/documenting-process-of-experimentation-rd-credit\">process of experimentation</a>. In federal tax jurisprudence, a qualifying process of experimentation requires the taxpayer to identify a specific technological uncertainty regarding capability, method, or appropriate design at the outset of the project, formulate competing scientific or engineering hypotheses capable of resolving that uncertainty, and conduct systematic modeling, simulation, or trial-and-error testing to validate or discard those hypotheses."
+    },
+    {
+      "type": "paragraph",
+      "text": "The court identified two interconnected failures in WICOR's experimentation claim. First, WICOR conflated methods that were merely new to it with hypothesis-driven experimentation. WICOR failed to present evidence that the means for achieving the final result of the project were uncertain at the outset; its own credit team leader, Paul Kowalski, testified that the project team followed a tried and true data processing approach—the DB2 system—that was not new, although it was new to WICOR. Instead, the development team's testing activities consisted of standard software engineering verification—unit testing, string testing, integration testing, and stress testing—and the court credited the testimony of the government's experts, Dr. Srivastava and Thomas Niccum, that the project did not involve identification of models or theories of computer science through a process of experimentation and that there was no systematic, research-oriented process by which data was collected for analysis of competing hypotheses. The court specifically held that a development methodology does not constitute a statutory process of experimentation merely because the method is unfamiliar or experimental to the specific taxpayer; rather, the method must be experimental to the relevant field—in this case, computer science."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, WICOR suffered from acute deficiencies in its <a href=\"/us/glossary/contemporaneous-documentation\">contemporaneous documentation</a>, specifically its \"lessons learned\" reports. To substantiate that its developers engaged in systematic experimentation, WICOR introduced internal project documents titled \"lessons learned\" reports, which had been compiled and distributed internally during the CIS build. Crediting the government's experts, the court concluded these reports did not support WICOR's claim. Rather than recording the formulation of competing computer science hypotheses, architectural trade-off analyses, or experimental test protocols, the \"lessons learned\" reports were informal and only identified miscellaneous programming errors. Reliance on informal bug-tracking and error logs as primary R&D substantiation proved fatal to establishing a scientific process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Internal-Use Software Disqualification: Conflating Business Risk with Technical Risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the CIS was developed for WGC's internal administrative, bookkeeping, and customer service operations, WICOR had to overcome the statutory exclusion for internal-use software under IRC § 41(d)(4)(E). In attempting to soften this standard, WICOR cited the Northern District of Oklahoma's decision in <em><a href=\"/us/tax-accounting-software-v-united-states\">Tax & Accounting Software Corp. v. United States</a></em> (<em>Kloehr</em>), 111 F. Supp. 2d 1153 (N.D. Okla. 2000), which had adopted a lenient interpretation of the Section 41 discovery and experimentation tests. Judge Goodstein firmly rejected the comparison, and the Tenth Circuit later reversed <em>Kloehr</em> outright in 301 F.3d 1254 (10th Cir. 2002). The <em>Wicor</em> court pointed out that the taxpayer in <em>Kloehr</em> developed commercial software sold on the open market to thousands of tax and accounting practitioners, whereas nothing in the record indicated that WICOR's CIS was a commercial success and its benefits remained internal; thus, even if the court agreed with the Kloehr court's view that Section 41 should be construed more strictly for internal-use software than for commercial software, that distinction did not help WICOR, and in any event United Stationers, which adopted the Norwest approach, states the law in the Seventh Circuit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying the Three-Part <a href=\"/us/glossary/high-threshold-of-innovation-test\">High Threshold of Innovation Test</a>, the court identified a fundamental legal error in WICOR's analysis of the Significant Economic Risk Test. To satisfy significant economic risk, the taxpayer must prove that it committed substantial financial resources and faced substantial uncertainty, <em>because of technical risk</em>, that those resources would be recovered within a reasonable period. The parties disputed whether WICOR's commitment of more than $30 million to the CIS project constituted significant economic risk within the meaning of this test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The court drew a sharp analytical line between business risk and technical risk. Andersen's Dennis Terry testified that the risk he envisioned revolved around whether the project could be delivered within the time and financial investment Wisconsin Gas had committed—a scheduling risk, not technical uncertainty—and the government's experts testified that the primary risk was managerial, such as the risk that WICOR management would reduce or eliminate funding for the project. The court observed that had WICOR developed the CIS without Andersen Consulting's input, it may very well have incurred technical risk in integrating the various aspects of the system. Given Andersen Consulting's prior experience with similar software projects for other utilities—Terry testified that he knew the system could be completed because Andersen had successfully completed a similar project with Wisconsin Public Service, and that he was confident any technical problems could be overcome—the technical risk was sufficiently decreased that WICOR failed to show it incurred significant economic risk as a result of technical risk. By contrast, commercial availability was not at issue: the government did not dispute that the CIS software was not commercially available, so the court's internal-use software analysis turned solely on the innovativeness and significant economic risk prongs."
+    },
+    {
+      "type": "subheading",
+      "text": "Regulatory Evolution and Enduring Precedential Impact"
+    },
+    {
+      "type": "paragraph",
+      "text": "From the perspective of modern U.S. tax controversy practice, <em>Wicor</em> occupies a pivotal position in the regulatory history of Treasury Regulation § 1.41-4. When the Treasury Department and the IRS promulgated the January 3, 2001 Final Regulations (T.D. 8930, 66 Fed. Reg. 280), the preamble explicitly cited <em>Wicor, Inc. v. United States</em>, 116 F. Supp. 2d 1028 (E.D. Wis. 2000), alongside <em>United Stationers</em> and <em>Norwest</em>, to codify the restrictive \"Discovery Requirement\"—requiring that qualified research be undertaken to obtain knowledge that \"exceeds, expands, or refines the common knowledge of skilled professionals\". Following widespread taxpayer criticism that T.D. 8930 and cases like <em>Wicor</em> imposed a \"revolutionary invention\" standard contrary to the 1998 Tax and Trade Relief Extension Act Conference Report (H.R. Conf. Rep. No. 105-825), Treasury froze T.D. 8930, issued proposed regulations in December 2001 (66 Fed. Reg. 66,362), and issued the December 22, 2003 Final Regulations (T.D. 9104) and subsequent 2016 Final Internal-Use Software Regulations (T.D. 9786)."
+    },
+    {
+      "type": "paragraph",
+      "text": "While T.D. 9104 eliminated the requirement that a taxpayer expand the underlying principles of computer science as a whole—redefining the discovery test to require only the resolution of capability, method, or appropriate design uncertainty relative to information available to the taxpayer—<em>Wicor</em>'s evidentiary holdings remain lethal to poorly substantiated claims today. Consistent with the Seventh Circuit's continued strict approach to the research credit in <em><a href=\"/us/eustace-v-commissioner\">Eustace v. Commissioner</a></em>, 312 F.3d 905 (7th Cir. 2002), and as federal and state taxing authorities consistently reiterate, taxpayers who merely configure vendor software, rely on informal bug logs (\"lessons learned\") as evidence of experimentation, or conflate project budget risk with genuine technical uncertainty fail under both the historical <em>Wicor</em> framework and current Treasury Regulations."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and regulatory requirement adjudicated in <em>Wicor, Inc. v. United States</em> against the specific factual and evidentiary deficiencies exhibited by the taxpayer and the governing legal standard of proof articulated by the District Court and the Seventh Circuit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory / Regulatory Requirement",
+        "Governing Authority",
+        "Taxpayer's Factual & Evidentiary Failure in Wicor",
+        "Court's Legal Standard of Proof"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Section 174 Eligibility Test</strong>",
+            "IRC § 41(d)(1)(A); IRC § 174; Treas. Reg. § 1.174-2(a)(1)",
+            "<strong>No Failure (Stipulated):</strong> The United States did not dispute that WICOR's software development expenditures met the threshold definition under IRC § 174.",
+            "Expenditures must represent <a href=\"/us/glossary/research-and-experimental-expenditures\">research and development costs</a> in the experimental or laboratory sense incurred in connection with the taxpayer's trade or business. Satisfaction of § 174 alone is insufficient to qualify for the § 41 credit."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Discovery / Technological Information Test</strong>",
+            "IRC § 41(d)(1)(B)(i); H.R. Conf. Rep. No. 99-841, at II-71 n.3",
+            "<strong>Application of Existing Knowledge:</strong> WICOR's expert (Donald O'Neill) showed only that the CIS applied known computer science principles to integrate utility billing, meter, and dispatch modules. Furthermore, the government's expert Dr. Srivastava gave uncontradicted testimony that the project did not contribute additional information to the field of computer science as a whole, and on appeal the Seventh Circuit treated contractor Andersen Consulting's failure to take a copy of the source code it contractually owned as telling evidence that the project merely adapted existing technology.",
+            "Research does not rely on computer science merely because a computer is used. Under the <em>United Stationers</em> / <em>Wicor</em> standard, activities must seek to expand or refine existing principles of computer science beyond the wealth of knowledge in a specific industry, distinguishing genuine research from the implementation of existing findings. <em>(Note: Modern Treas. Reg. § 1.41-4(a)(3) requires resolving capability, method, or design uncertainty via hard sciences).</em>"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Business Component & Qualified Purpose Test</strong>",
+            "IRC §§ 41(d)(1)(B)(ii), <a href=\"/us/legislation/26-usc-41d3-qualified-research-permitted-purposes\">41(d)(3)(A)–(B)</a>",
+            "<strong>No Failure (Not Disputed):</strong> The United States did not dispute that WICOR intended the application of the information to be useful in the development of a new or improved business component.",
+            "The application of the discovered information must be intended to be useful in the development of a new or improved business component, and the research must relate to a new or improved function, performance, or reliability or quality, rather than style, taste, cosmetic, or seasonal design factors."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Process of Experimentation Test</strong>",
+            "IRC § 41(d)(1)(C); Treas. Reg. § 1.41-4(a)(5)",
+            "<strong>No Outset Uncertainty & Informal Logs:</strong> WICOR failed to show that the means of achieving the project's result were uncertain at the outset; its credit team leader testified that it followed a tried and true data processing approach (DB2) that was new only to WICOR, and there was no systematic, research-oriented process for analyzing competing hypotheses. Its contemporaneous \"lessons learned\" reports were informal and only identified miscellaneous programming errors.",
+            "<a href=\"/us/glossary/substantially-all-rule\">Substantially all</a> () of the activities must constitute elements of a structured, scientific process of experimentation (identifying technical uncertainty from the outset, formulating hypotheses, modeling/simulating, and systematically evaluating alternatives). Methods that are merely \"experimental to the taxpayer\" do not qualify; the method must be experimental to the relevant field (computer science)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS High Threshold: Innovativeness Test</strong>",
+            "IRC § 41(d)(4)(E); H.R. Conf. Rep. No. 99-841, at II-73; Treas. Reg. § 1.41-4(c)(6)",
+            "<strong>Standard Industry Modernization:</strong> While the CIS reduced WICOR's operating costs and integrated computer aided dispatch, remote meter reading, and online cash posting, WICOR's experts focused on the utility industry in a vacuum rather than the computer field as a whole, and Dr. Srivastava testified without contradiction that the project produced no new discoveries regarding computer science principles. WICOR also did not seek a patent and offered no evidence that its software was marketed to or used by other utility companies; a reduction in operating expenses alone did not meet the high threshold of innovativeness.",
+            "<a href=\"/us/faq/internal-use-software-rd-tax-credit\">Internal-use software</a> is subject to a strictly construed high threshold of innovation. The taxpayer must prove the software is intended to result in a substantial and economically significant reduction in cost or improvement in speed (or under current regulations, be unique or novel and differ in a significant and inventive way from prior art)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS High Threshold: Significant Economic Risk Test</strong>",
+            "IRC § 41(d)(4)(E); H.R. Conf. Rep. No. 99-841, at II-73; Treas. Reg. § 1.41-4(c)(6)",
+            "<strong>Conflating Business Risk with Technical Risk:</strong> The parties disputed whether WICOR's substantial financial commitment to the project, including after terminating its first vendor, constituted significant economic risk. Andersen's Dennis Terry testified that the risk was scheduling, not technical uncertainty, and the government's experts identified the primary risk as managerial; the court found that Andersen's prior experience with similar projects for other utilities sufficiently decreased the technical risk.",
+            "The taxpayer must commit substantial resources where there is substantial uncertainty, <em>because of technical risk</em> (i.e., fundamental capability or method uncertainty, not budget, timeline, or business execution risk), that such resources will be recovered within a reasonable period."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>IUS High Threshold: Commercial Availability Test</strong>",
+            "IRC § 41(d)(4)(E); H.R. Conf. Rep. No. 99-841, at II-73; Treas. Reg. § 1.41-4(c)(6)",
+            "<strong>No Failure (Not Disputed):</strong> The United States did not dispute that the CIS software was not commercially available. Accordingly, the court did not adjudicate this prong against WICOR.",
+            "Internal-use software cannot be commercially available for use by the taxpayer (by purchase, lease, or license) without modifications that <em>themselves</em> independently satisfy both the Innovativeness and Significant Economic Risk requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To demonstrate how contemporary United States taxpayers and tax advisors can proactively structure complex engineering and software development initiatives to survive IRS Large Business and International (LB&I) examination and federal judicial scrutiny under the principles of <em>Wicor, Inc. v. United States</em>, the following two applied case studies illustrate the exact pitfalls encountered by WICOR and provide a comprehensive, step-by-step remedial governance blueprint."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Regulated Energy Utility Developing a Real-Time Distributed Energy Resource Management System (DERMS) and Automated Billing Engine"
+    },
+    {
+      "type": "subheading",
+      "text": "Project Scenario and Wicor Pitfall Exposure"
+    },
+    {
+      "type": "paragraph",
+      "text": "A regulated regional electric and gas utility (\"Midwest Grid Corp.\") initiates a $45 million, multi-year IT transformation to replace its legacy customer billing and dispatch mainframe with an integrated Distributed Energy Resource Management System (DERMS) and Real-Time Dynamic Tariff Billing Engine. Midwest Grid purchases two commercial off-the-shelf (COTS) enterprise software packages—an <a href=\"/us/glossary/erp-implementation-qualification\">enterprise resource planning (ERP)</a> core and a third-party meter data management (MDM) module—and retains a global systems integrator (\"Apex Systems\") under a standard Master Services Agreement (MSA) to integrate the platforms and build custom middleware."
+    },
+    {
+      "type": "paragraph",
+      "text": "Without tax-informed restructuring, Midwest Grid faces total disallowance under <em>Wicor</em> on four distinct fronts. First, the project is claimed holistically as a $45 million \"<a href=\"/us/glossary/business-component\">Business Component</a>,\" mixing routine ERP configuration, data migration, and user interface design with genuinely complex algorithmic development. Second, the MSA contains boilerplate consulting language assigning all intellectual property in custom-developed integration templates and source code to Apex Systems, while granting Midwest Grid only a non-exclusive license—creating the exact evidentiary trap that proved fatal when Andersen Consulting abandoned its CIS code in <em>Wicor</em>. Third, the engineering teams track their work via standard Agile Jira tickets and post-sprint \"lessons learned\" retrospectives that merely log API syntax mismatches, database timeout bugs, and routine defect resolutions. Fourth, in its internal capital appropriation request to the Board of Directors, management justifies the $45 million expenditure by citing regulatory deadlines and financial overrun risks rather than fundamental computer science uncertainties, failing the Significant Economic Risk test for Internal-Use Software."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Business Component Bifurcation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the <em>Wicor</em> trap of having an entire enterprise integration disqualified as routine adaptation of commercial software, Midwest Grid must restructure its project governance at project inception using the \"<a href=\"/us/glossary/shrink-back-rule\">shrinking-back</a>\" rule of Treas. Reg. § 1.41-4(b)(2). Rather than defining the entire $45 million CIS/DERMS platform as a single business component, the tax and engineering steering committee must bifurcate the project into two distinct cost-accounting tracks. Under the non-qualifying implementation track, all COTS software acquisition costs, ERP parameter configuration, legacy customer database scrubbing, graphical user interface (GUI) formatting, user acceptance testing (UAT), and routine API endpoint wiring are segregated into non-R&D cost centers and excluded from <a href=\"/us/glossary/qualified-research-expenses-qre\">QREs</a>. Under the qualifying R&D business component track, Midwest Grid isolates two discrete, highly technical software sub-components: Business Component Alpha, an event-driven, sub-second streaming ingestion engine capable of processing 15 million concurrent smart-meter telemetry payloads without memory heap exhaustion; and Business Component Beta, a stochastic load-forecasting and dynamic micro-tariff dispatch algorithm that balances bidirectional solar and electric vehicle grid loads in real time. Furthermore, because Business Component Beta directly controls physical electrical grid hardware and customer-facing smart inverters rather than <a href=\"/us/glossary/general-and-administrative-functions\">general and administrative (G&A)</a> bookkeeping, Midwest Grid can document its qualification under the dual-function or non-IUS exceptions of Treas. Reg. § 1.41-4(c)(6), while preparing Business Component Alpha to strictly satisfy the High Threshold of Innovation Three-Part Test."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Contractual Restructuring and IP Alignment"
+    },
+    {
+      "type": "paragraph",
+      "text": "To neutralize the <em>Wicor</em> source code abandonment defect and satisfy the contract research rules of <a href=\"/us/legislation/26-usc-41b3-contract-research-expenses\">IRC § 41(b)(3)</a> and Treas. Reg. § 1.41-2(e), legal counsel must redraft the Statement of Work (SOW) with Apex Systems prior to execution. The SOW must explicitly vest sole and exclusive legal title, copyright, and trade secret ownership of all source code, algorithmic architectures, and technical documentation for Business Components Alpha and Beta in Midwest Grid Corp. as \"work made for hire\" or via immediate assignment. Apex Systems must be contractually prohibited from retaining copies or reusing the proprietary streaming algorithms for other utility clients, eliminating the evidentiary inference in <em>Wicor</em> where the contractor owned the code on paper but abandoned it in practice. Additionally, under Treas. Reg. § 1.41-2(e)(2), to claim 65 percent of payments to Apex Systems as <a href=\"/us/glossary/contract-research-expenses\">contract research expenses</a>, the SOW for Business Components Alpha and Beta must stipulate that payment is contingent upon the successful achievement of specific technical performance metrics—such as achieving latency at throughput without packet loss—rather than an unconditional time-and-materials staffing arrangement. Finally, whereas WICOR's case was damaged by evidence that Andersen Consulting had built similar customer information systems for other utilities, which reduced the project's technical risk, the SOW recitals must explicitly record Apex Systems' representation that neither Apex nor the broader utility software market possesses an existing architectural solution capable of meeting the specified concurrency and latency thresholds."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Technical Documentation Overhaul"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before committing capital, Midwest Grid must author a formal Pre-Development Technical Feasibility and Risk Assessment approved by the Chief Information Officer. To satisfy the Significant Economic Risk and Discovery requirements under <em>Wicor</em>, this document must rigorously separate business risk from technical risk. The assessment must explicitly state the <a href=\"/us/faq/irs-technical-uncertainty-description-examples\">technical uncertainty</a> by documenting why existing COTS packages and standard relational database management systems fail mathematically and architecturally under the target concurrency load—specifically detailing lock-contention bottlenecks, garbage-collection pauses in standard runtime environments, and non-linear state-space explosion in real-time tariff reconciliation. For Business Component Alpha (the internal-use billing and ingestion engine), the assessment must also substantiate the High Threshold of Innovation by establishing quantifiable baseline metrics showing how the proposed lock-free, in-memory ring-buffer architecture is intended to achieve an economically significant improvement in speed (for example, reducing batch billing reconciliation from 14 hours to under 3 minutes, representing a processing time reduction) and why no commercially available middleware can be purchased or modified without undertaking fundamental architectural research."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Structured Experimentation Tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Midwest Grid must prohibit the use of informal \"lessons learned\" memos or routine bug-tracking tickets as primary R&D substantiation. Instead, the engineering team must implement a mandatory Hypothesis-Driven Experimentation Protocol within their version control (Git) and architectural decision records (ADRs). For each technical uncertainty, engineers must log formal ADRs stating competing computer science hypotheses, such as evaluating Hypothesis A1 (implementing an actor-model concurrency framework using zero-copy serialization) against Hypothesis A2 (implementing a partitioned distributed log with custom C++ memory allocators). Engineers must then conduct systematic modeling and empirical benchmarking, retaining automated load-testing telemetry, flame graphs, CPU thread-contention profiles, and failed branch commits demonstrating how Hypothesis A1 failed at 4.2 million concurrent connections due to serialization overhead, prompting the architectural pivot to Hypothesis A2. To satisfy the \"substantially all\" (80 percent) rule, <a href=\"/us/faq/are-timesheets-required-for-rd-tax-credit\">employee timecards</a> and contractor invoices must be mapped directly to specific ADRs and experimental Git branches rather than generic \"CIS Project\" cost codes, proving that of the hours claimed for Business Components Alpha and Beta constituted direct elements of a process of experimentation."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Financial Services Institution Developing an Automated High-Frequency Liquidity Risk and Cross-Margining Platform"
+    },
+    {
+      "type": "subheading",
+      "text": "Project Scenario and Wicor Pitfall Exposure"
+    },
+    {
+      "type": "paragraph",
+      "text": "A national clearinghouse and commercial banking corporation (\"First National Clearing Corp.\") undertakes a $22 million internal software development project to build a unified, real-time Cross-Margining and Intraday Liquidity Risk Engine (\"Project Horizon\"). The system is designed solely for internal risk management, regulatory capital compliance, and back-office margin accounting across equities, fixed income, and derivatives desks. First National licenses a core risk calculation library from an external financial software vendor (\"QuantVendor\") and assigns 45 internal software developers to customize the library and integrate it with the bank's legacy COBOL settlement ledgers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the legal standards of <em>Wicor</em>, <em>United Stationers</em>, and <em>Norwest</em>, First National's R&D tax credit claim is highly vulnerable to complete disqualification on three grounds. First, regarding the financial product versus computer science exclusion, H.R. Conf. Rep. No. 99-841 (as quoted in <em>Wicor</em>) establishes that information relating to financial services or similar products—such as new types of variable annuities or legal forms—or advertising does not qualify as \"technological in nature\" under IRC § 41(d)(1)(B)(i). If First National frames Project Horizon around new financial margining rules rather than computer science architecture, the claim fails immediately. Second, licensing QuantVendor's library and writing wrapper code to connect it to legacy COBOL ledgers mirrors the integration in Wicor of software acquired from other vendors through a jointly developed integration program—which the Seventh Circuit characterized as merely adapting existing computer technology to the taxpayer's special needs—exposing First National to the Commercial Availability test for internal-use software and the <a href=\"/us/glossary/adaptation-exclusion\">Adaptation Exclusion</a> of IRC § 41(d)(4)(B). Third, First National relies on after-the-fact oral interviews and high-level expert summaries—similar to Donald O'Neill's generalized testimony in <em>Wicor</em>—asserting that the project \"applied principles of software engineering to integrate financial modules\"."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Strict Separation of Financial Modeling from Computer Science"
+    },
+    {
+      "type": "paragraph",
+      "text": "To survive scrutiny under the Technological Information Test of IRC § 41(d)(1)(B)(i), First National's tax and engineering leadership must establish a formal governance charter that strictly separates quantitative financial policy from computer science systems engineering. Under this charter, all time spent by quantitative analysts, economists, and compliance officers defining Value-at-Risk (VaR) financial parameters, regulatory margin rules, or pricing formulas is explicitly <a href=\"/us/faq/excluded-expenses-rd-tax-credit\">excluded from QREs</a> as non-technological financial research under H.R. Conf. Rep. No. 99-841. Concurrently, the engineering charter isolates the qualifying Business Component solely as the Distributed Graph-Partitioning and Hardware-Accelerated Compute Kernel (\"Compute Kernel\"). The technical objective is framed entirely in principles of computer science: designing a deterministic, lock-free parallel graph traversal algorithm capable of recalculating 50 million interdependent cross-asset margin nodes within a 10-millisecond window on a heterogeneous GPU/FPGA cluster."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Contractual and Architectural Disposition of Commercial Vendor Packages"
+    },
+    {
+      "type": "paragraph",
+      "text": "To overcome the <em>Wicor</em> finding that integrating and customizing third-party software packages represents mere \"implementation of existing research findings\" (a point the Seventh Circuit made in affirming on the discovery test), and to avoid failing the IUS Commercial Availability prong (which was not in dispute in Wicor), First National must restructure its relationship with QuantVendor and its system architecture. Prior to coding, First National's chief architect must compile a formal Commercial Availability and Benchmark Failure Report. This contemporaneous report must document empirical benchmark tests performed on QuantVendor's library and two competing commercial engines, proving mathematically that existing commercial libraries operate sequentially on CPU threads and suffer catastrophic latency degradation above 500,000 nodes—rendering them technologically incapable of meeting the 10-millisecond intraday risk threshold. Rather than modifying QuantVendor's source code or counting COBOL integration wrappers as QREs, First National isolates the COBOL middleware and QuantVendor licensing fees in non-qualifying cost centers. Only the clean-room development of the custom GPU/FPGA parallel Compute Kernel—where the new code independently satisfies the Innovativeness and Significant Economic Risk tests—is included in the QRE base."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contemporaneous Substantiation of the High Threshold of Innovation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Compute Kernel is used internally by First National for risk management rather than sold commercially, it must satisfy all three prongs of the High Threshold of Innovation test under IRC § 41(d)(4)(E) and Treas. Reg. § 1.41-4(c)(6). To document Innovativeness, First National establishes a contemporaneous architectural specification demonstrating how the custom GPU graph-partitioning kernel introduces a unique and novel memory-coalescing data structure that reduces portfolio cross-margin computation time from 45 minutes (on the legacy mainframe batch system) to 8 milliseconds—a measurable, substantial, and economically significant improvement in processing speed spanning several orders of magnitude. To document Significant Economic Risk rooted in technical risk, the Chief Technology Officer records in the project authorization memorandum that First National is committing $8.5 million specifically to the custom Compute Kernel development, and that due to fundamental technical uncertainty regarding warp-divergence in GPU memory architectures and floating-point determinism across asynchronous threads, there is substantial uncertainty whether a deterministic kernel can be achieved at all—risking total write-off of the $8.5 million engineering investment."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Rigorous Experimentation Tracking and Evidentiary Preservation"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid the fate of WICOR's expert witness and informal \"lessons learned\" logs, First National embeds automated evidentiary capture directly into its continuous integration and continuous deployment (CI/CD) pipeline. Every experimental iteration on the Compute Kernel requires a structured pull-request template containing four mandatory fields: Specific Computer Science Uncertainty (such as L2 cache thrashing during sparse matrix multiplication), Theoretical Hypothesis, Simulation or Test Protocol Executed, and Empirical Performance Telemetry and Conclusion (attaching profiler output showing cache-miss rates dropping from to ). Furthermore, to segregate routine maintenance and debugging from experimentation, once the Compute Kernel passes architectural validation and achieves the threshold in staging, a formal \"Technical Uncertainty Resolution Sign-Off\" is recorded. All subsequent syntax debugging, UI dashboard wiring, and production stabilization hours are automatically routed to non-qualifying maintenance cost codes, ensuring strict compliance with the \"<a href=\"/us/faq/substantially-all-rule-rd-tax-credit\">substantially all</a>\" () requirement of IRC § 41(d)(1)(C)."
+    },
+    {
+      "type": "subheading",
+      "text": "Summary Matrix of Remedial Governance Controls"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Wicor Disqualification Factor",
+        "Case Study 1 Remedial Control (Utility DERMS/CIS)",
+        "Case Study 2 Remedial Control (Financial Risk Engine)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Aggregated Project Scope & COTS Integration</strong>",
+            "Apply Treas. Reg. § 1.41-4(b)(2) shrinking-back rule to exclude ERP/MDM package installation and isolate two discrete algorithmic sub-components.",
+            "Exclude QuantVendor licensing and legacy COBOL wrapper code; isolate the custom GPU/FPGA parallel Compute Kernel as the sole Business Component."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Failure to Prove Computer Science Discovery</strong>",
+            "Document mathematical concurrency bottlenecks and memory heap exhaustion that cannot be resolved using standard relational databases.",
+            "Strictly segregate non-qualifying financial/VaR policy formulas from computer science parallel graph-traversal and memory-coalescing research."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Adverse Contract IP Terms & Code Abandonment</strong>",
+            "Draft SOW to vest exclusive IP ownership of custom source code in the taxpayer, prohibit contractor reuse, and tie contractor payment to technical performance milestones.",
+            "Conduct internal clean-room kernel development; compile empirical benchmark reports proving commercial vendor libraries fail at target node scale."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Informal \"Lessons Learned\" & Debugging Logs</strong>",
+            "Replace post-mortem bug lists with formal Architectural Decision Records (ADRs) and empirical load-testing telemetry linked to specific Git branches.",
+            "Enforce mandatory CI/CD pull-request templates capturing hypothesis, test protocol, profiler telemetry, and a hard cut-off once technical uncertainty is resolved."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Business Risk vs. Technical Risk Conflation</strong>",
+            "Author a pre-development feasibility study isolating technical capability uncertainty from project budget/timeline risk.",
+            "Quantify the $8.5M capital at risk due specifically to GPU warp-divergence and floating-point determinism uncertainties, alongside a speed improvement."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The decisions of the U.S. District Court for the Eastern District of Wisconsin and the U.S. Court of Appeals for the Seventh Circuit in <em>Wicor, Inc. v. United States</em> remain a cornerstone of federal R&D tax credit jurisprudence under IRC Section 41. Although subsequent amendments to Treasury Regulation § 1.41-4 moderated the historical \"discovery test\" so that taxpayers need no longer prove they expanded the global state of computer science, <em>Wicor</em> exposes the enduring evidentiary vulnerabilities that routinely defeat large-scale enterprise software claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specifically, <em>Wicor</em> demonstrates that substantial capital expenditure ($30 million) and undeniable operational modernization do not equate to \"qualified research\" when a taxpayer merely retains experienced consultants to customize and integrate commercially available software packages. To prevail under contemporary IRS examination and judicial review, U.S. taxpayers developing internal-use or <a href=\"/us/glossary/dual-function-software\">dual-function software</a> must proactively apply the shrinking-back rule to isolate genuine algorithmic and architectural uncertainties from routine systems integration; align third-party consulting agreements so that intellectual property ownership and economic conduct reflect genuine proprietary innovation; replace informal \"lessons learned\" and bug-tracking logs with contemporaneous, hypothesis-driven experimentation records; and rigorously substantiate that their economic risk arises from fundamental <em>technical uncertainty</em> rather than ordinary business, scheduling, or budgetary execution risk."
+    }
+  ],
+  "metaDescription": "Wicor v. United States (E.D. Wis. 2000): merely adapting existing computer technology, without technological discovery or risk, is not research."
+}
