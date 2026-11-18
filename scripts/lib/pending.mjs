@@ -40,7 +40,7 @@ export function allContent() {
   return out;
 }
 
-const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
+const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
 export function isExisting(address, content, countryCodes) {
   if (FIXED.has(address) || /^\/us\/states\/[a-z-]+$/.test(address)) return true;
   if (/^\/[a-z]{2}$/.test(address) && countryCodes.has(address.slice(1))) return true;

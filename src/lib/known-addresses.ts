@@ -2,7 +2,7 @@ import { countries } from "@/data/countries";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { knownAddresses } from "@/data/addresses.index";
 
-const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
+const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
 const PAGES = new Set(knownAddresses);
 const STATES = new Set(usStateJurisdictions.map((s) => `/us/states/${s.slug}`));
 const COUNTRIES = new Set(["us", ...countries.map((c) => c.slug)].map((c) => `/${c}`));

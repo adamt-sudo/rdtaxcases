@@ -111,7 +111,7 @@ export function validateRows(rows, siteMap, hasCaseColumns = true) {
 /** Addresses of the pages that exist already (cases, the fixed pages, state pages). */
 export function livePages() {
   const dir = path.join(ROOT, "content", "cases");
-  const set = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
+  const set = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
     const c = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     set.add(c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`);

@@ -134,7 +134,7 @@ export function CaseTranslationToggle({
         afterFirstParagraph={
           <p className="text-sm italic text-slate-600">
             Summarised in the{" "}
-            <a href={caseUrl} className="underline underline-offset-2 hover:text-slate-900">
+            <a href={caseUrl} className="underline underline-offset-2 hover:text-slate-900" target="_blank" rel="noopener">
               RDTAXCASES.com case library
             </a>
             , a Swanson Reed database.

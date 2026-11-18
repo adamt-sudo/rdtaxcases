@@ -1,4 +1,5 @@
 import siteMap from "../../content/site-map.json";
+import { getPublishedPages } from "@/data/pages";
 
 export type HubKind = "glossary" | "legislation" | "faq";
 
@@ -23,6 +24,8 @@ export function hubHref(code: string, kind: HubKind): string | undefined {
  * A country page links its hubs, and is indexed as soon as it has a case or a hub.
  */
 export function getCountryHubs(code: string): CountryHub[] {
-  void code;
-  return [];
+  const kinds: HubKind[] = ["glossary", "legislation", "faq"];
+  return kinds
+    .filter((kind) => getPublishedPages().some((p) => p.country === code && p.address.split("/")[2] === COUNTRIES[code]?.folders[kind]))
+    .map((kind) => ({ kind, href: hubHref(code, kind) as string }));
 }

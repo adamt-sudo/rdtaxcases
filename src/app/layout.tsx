@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ZENDESK_SNIPPET_URL } from "@/lib/site-config";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -113,6 +114,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* Zendesk web widget, exactly as Zendesk gives it (no async), in the head. The key is in src/lib/site-config.ts. */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script id="ze-snippet" src={ZENDESK_SNIPPET_URL} />
+      </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <script
           type="application/ld+json"

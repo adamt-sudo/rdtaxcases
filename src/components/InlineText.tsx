@@ -15,12 +15,9 @@ function render(nodes: InlineNode[]): ReactNode[] {
     if (n.t === "sup") return <sup key={i}>{render(n.c)}</sup>;
     // a link to a page of this site that does not exist yet is plain text until the page is added
     if (!n.external && n.href.startsWith("/") && !isKnownAddress(n.href)) return <span key={i}>{render(n.c)}</span>;
-    return n.external ? (
+    // every link in the content opens in a new tab, this site's own pages and other sites alike
+    return (
       <a key={i} href={absoluteHref(n.href)} className={LINK} target="_blank" rel="noopener">
-        {render(n.c)}
-      </a>
-    ) : (
-      <a key={i} href={absoluteHref(n.href)} className={LINK}>
         {render(n.c)}
       </a>
     );

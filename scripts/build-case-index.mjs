@@ -82,6 +82,22 @@ for (const f of files) {
   bySlug.set(slug, c);
 }
 
+// Corrected fields (content/case-overrides.json) must be what the case file says.
+const OVERRIDES_FILE = path.join(ROOT, "content", "case-overrides.json");
+if (fs.existsSync(OVERRIDES_FILE)) {
+  const ov = JSON.parse(fs.readFileSync(OVERRIDES_FILE, "utf8")).cases ?? {};
+  for (const [slug, fields] of Object.entries(ov)) {
+    const c = bySlug.get(slug);
+    if (!c) {
+      problems.push(`case-overrides.json: there is no case "${slug}"`);
+      continue;
+    }
+    for (const [field, value] of Object.entries(fields)) {
+      if (field !== "reason" && c[field] !== value) problems.push(`case-overrides.json: ${slug}.${field} must be "${value}" (the case file says "${c[field]}")`);
+    }
+  }
+}
+
 // English translations: one file per case, content/translations/<slug>.json.
 const trBySlug = new Map();
 if (fs.existsSync(TDIR)) {
