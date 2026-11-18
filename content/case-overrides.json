@@ -1,0 +1,9 @@
+{
+  "note": "Fields of a case that were corrected by the site owner and must survive a re-import from the sheet (which still carries the old value). scripts/import-batch.mjs applies them after every import; the case index (scripts/build-case-index.mjs) fails the build when a case does not match.",
+  "cases": {
+    "saykally-v-commissioner": {
+      "decisionDate": "2007-09-07",
+      "reason": "Adam confirmed 2007-09-07 on 2026-11-18. The sheet's name says September 14, 2007; the document gives only the year."
+    }
+  }
+}

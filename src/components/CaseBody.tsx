@@ -13,7 +13,7 @@ export function CaseBody({
 }) {
   const firstParagraph = blocks.findIndex((b) => b.type === "paragraph");
   return (
-    <div className="mt-8 space-y-5 text-slate-800">
+    <div className="mt-8 space-y-5 text-slate-800" data-content>
       {blocks.map((block, i) => {
         switch (block.type) {
           case "heading":

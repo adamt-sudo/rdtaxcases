@@ -58,3 +58,7 @@ jobs:
       # canonical and structured-data URL; the content itself stays path-based.
       - name: Absolute addresses in the HTML
         run: node scripts/check-absolute-links.mjs out
+
+      # Zendesk in every head, the list pages, the Back button, links in the content in a new tab, the footer links.
+      - name: Site features
+        run: node scripts/check-site-features.mjs out

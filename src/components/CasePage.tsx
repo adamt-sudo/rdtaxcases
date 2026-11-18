@@ -1,6 +1,7 @@
 import { getJurisdictionBySlug } from "@/data/jurisdictions";
 import { countries } from "@/data/countries";
 import { CaseTranslationToggle } from "@/components/CaseTranslationToggle";
+import { BackLink } from "@/components/BackLink";
 import { CopyAttribution } from "@/components/CopyAttribution";
 import type { CaseRecord } from "@/types/case";
 import { absolute, caseHref, countryHref, listingHref, SITE, stateHref, US_FEDERAL, US_STATES } from "@/lib/urls";
@@ -87,6 +88,11 @@ export function CasePage({ caseRecord }: { caseRecord: CaseRecord }) {
     <article className="mx-auto max-w-3xl px-6 py-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <BackLink
+        fallbackHref={backHref}
+        fallbackName={jurisdictionName}
+        prefix={country?.uiLabels.backToPrefix ? country.uiLabels.backToPrefix.replace(/^\s*\u2190\s*/, "") : "Back to "}
+      />
       <p className="text-xs font-medium uppercase tracking-wide text-blue-700">{jurisdictionName}</p>
       <CopyAttribution url={caseUrl} title={caseRecord.title} />
       <CaseTranslationToggle

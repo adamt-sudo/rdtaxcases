@@ -76,7 +76,7 @@ for (const f of pageFiles()) {
   const p = JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8"));
   published.set("/" + f.slice("content/pages/".length, -".json".length), (p.status ?? "published") !== "draft");
 }
-const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
+const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
 const PENDING_FILE = path.join(ROOT, "content", "pending-pages.json");
 const pending = new Set(fs.existsSync(PENDING_FILE) ? JSON.parse(fs.readFileSync(PENDING_FILE, "utf8")).pages.map((p) => p.address) : []);
 const pendingHits = new Map(); // file -> Set of addresses

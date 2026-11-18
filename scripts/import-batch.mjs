@@ -56,6 +56,13 @@ async function main() {
   const write = args.includes("--write");
   const siteMap = loadSiteMap();
   const result = { imported: [], skipped: [], problems: [], methods: {} };
+  // content/case-overrides.json: corrected fields that a re-import must not undo (the sheet still carries the old value)
+  const overridesFile = path.join(ROOT, "content", "case-overrides.json");
+  const overrides = fs.existsSync(overridesFile) ? JSON.parse(fs.readFileSync(overridesFile, "utf8")).cases ?? {} : {};
+  const applyOverrides = (record) => {
+    for (const [field, value] of Object.entries(overrides[record.slug] ?? {})) if (field !== "reason") record[field] = value;
+    return record;
+  };
   const histFile = path.join(ROOT, "content", "slug-history.json");
   const history = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")) : { note: "", renames: {} };
   const orderFile = path.join(ROOT, "content", "case-order.json");
@@ -109,7 +116,7 @@ async function main() {
       // a case with no existing record: created from the row's fields (court and date from the sheet's name, number from the document)
       const body = blocks[0]?.type === "paragraph" && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
       const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, jurisdictionGroup: "usa-federal", jurisdictionSlug: "federal", summary: capsule, metaDescription: desc.text, body };
-      fs.writeFileSync(path.join(ROOT, "content", "cases", `${a.slug}.json`), JSON.stringify(rec2, null, 2) + "\n");
+      fs.writeFileSync(path.join(ROOT, "content", "cases", `${a.slug}.json`), JSON.stringify(applyOverrides(rec2), null, 2) + "\n");
       rec.created = true;
     } else if (r.type === "case") {
       // when the case was already renamed by an earlier run, its file has the new slug
@@ -132,7 +139,7 @@ async function main() {
         history.renames[r.oldSlug] = newSlug;
         order = order.map((s) => (s === curSlug ? newSlug : s));
       }
-      fs.writeFileSync(newFile, JSON.stringify(next, null, 2) + "\n");
+      fs.writeFileSync(newFile, JSON.stringify(applyOverrides(next), null, 2) + "\n");
       rec.oldSlug = r.oldSlug;
       rec.slugChanged = newSlug !== r.oldSlug;
     } else {
