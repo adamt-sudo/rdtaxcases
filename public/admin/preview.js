@@ -225,16 +225,38 @@ function dropRepeatedNumber(text) {
       var texts = b.type === "list" ? b.items || [] : b.type === "paragraph" ? [b.text] : b.type === "table" ? (b.rows || []).reduce(function (a, r) { return a.concat(r.cells || []); }, []) : [];
       texts.forEach(function (t) { links += linksIn(String(t || "")).length; });
     });
+    // An HTML body is turned into the page text when the site is built; here it is only looked over (never shown as it was pasted).
+    var htmlInfo = null;
+    var capsule = "";
+    if (typeof d.htmlBody === "string" && d.htmlBody.replace(/\s+/g, "") !== "") {
+      var doc = new DOMParser().parseFromString(d.htmlBody, "text/html");
+      var cap = doc.querySelector("section.answer-capsule");
+      capsule = cap ? cap.textContent.replace(/\s+/g, " ").trim() : "";
+      var n = function (sel) { return doc.querySelectorAll(sel).length; };
+      var meta = typeof d.metaDescription === "string" ? d.metaDescription : typeof d.description === "string" ? d.description : "";
+      var notes = [];
+      if (!capsule && !meta) notes.push("no answer capsule found and the meta description is empty: fill in the meta description");
+      if (meta.length > 155) notes.push("the meta description is " + meta.length + " characters (at most 155)");
+      var info = [];
+      if (n("h1")) info.push("the h1 heading will be removed (the page writes its own title)");
+      if (n("script, style")) info.push("scripts and styles will be removed");
+      htmlInfo = h("div", { className: notes.length ? "bad" : "ok" },
+        "HTML body: " + n("h2, h3, h4") + " headings, " + n("p") + " paragraphs, " + n("li") + " list items, " + n("table") + " tables, " + n("a") + " links. " +
+        "It becomes the page text when the site is built; the text blocks are ignored." +
+        (notes.length ? " Problem: " + notes.join("; ") + "." : "") +
+        (info.length ? " Cleaned automatically: " + info.join("; ") + "." : ""));
+    }
     return h("div", { className: "rdp" },
       problems.length
         ? h("div", { className: "bad" }, "Problems in the text (the check will stop publishing): " + problems.join("; "))
         : h("div", { className: "ok" }, "Text markup is fine. Links in this case: " + links + "."),
+      htmlInfo,
       h("h1", null, plainText(d.title || "")),
       d.articleTitle ? h("p", { className: "sub" }, plainText(d.articleTitle)) : null,
-      d.summary ? h("div", { className: "sum" }, plainText(d.summary)) : null,
+      (d.summary || capsule) ? h("div", { className: "sum" }, plainText(d.summary || capsule)) : null,
       body);
   }
-  ["usa_federal","usa_states","canada","countries","translations"].forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
+  ["usa_federal","usa_states","canada","countries","us_glossary","us_faq","us_legislation","ca_glossary","ca_faq","ca_legislation","translations"].forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
   CMS.registerPreviewStyle(".rdp{font-family:system-ui,sans-serif;color:#1e293b;line-height:1.6;padding:16px;max-width:720px}.rdp h1{font-size:26px;margin:0 0 6px}.rdp h2{font-size:20px;margin:22px 0 6px}.rdp h3{font-size:16px;margin:16px 0 4px}.rdp .sub{font-style:italic;color:#475569;margin:0 0 10px}.rdp .sum{background:#eff6ff;border:1px solid #bfdbfe;padding:10px 12px;border-radius:6px;font-size:14px}.rdp a{color:#1d4ed8;text-decoration:underline}.rdp table{border-collapse:collapse;width:100%;font-size:13px}.rdp th,.rdp td{border-bottom:1px solid #e2e8f0;padding:6px 8px;text-align:left;vertical-align:top}.rdp .bad{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;padding:8px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}.rdp .ok{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;padding:6px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}", { raw: true });
 
   // In the case list, do not show the case number twice (see src/lib/list-label.mjs).

@@ -1,0 +1,197 @@
+# Puts the site (and the editor, /admin) on the server after every push to main. "Publish" in /admin merges the draft into
+# main, which is a push to main, so a published page goes live by itself once everything below has passed.
+#
+#   1. job "Check and build": the same checks as the pull request (npm run check, the link check), then the build, then the
+#      checks of the built site. If any step fails, the job stops and NOTHING is deployed; the run page says why in plain words.
+#   2. job "Put the new release on the server" (only if job 1 passed): sends the built site to the server over SSH, where
+#      /usr/local/bin/rdtaxcases-deploy unpacks it as a new release and switches the live link to it in one step. Then it opens
+#      the live site: if the new release is not what the site now serves, it goes back to the previous release by itself.
+#
+# The server address, the deploy key and the pinned host key are GitHub Secrets (never in a file); the login address of the editor
+# is a repository variable. Setup: docs of the developer ("Automatic deploy: server and GitHub setup").
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+# one deploy at a time; a second publish waits for the first to finish
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Check and build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - id: settings
+        name: The editor's login address is set
+        env:
+          ADMIN_AUTH_URL: ${{ vars.ADMIN_AUTH_URL }}
+        run: test -n "$ADMIN_AUTH_URL"
+
+      - id: install
+        name: Install
+        run: npm ci
+
+      # the commit before this push: the check looks at the pages this push changed
+      - id: base
+        name: Find what changed
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            BEFORE="$(git rev-parse HEAD~1)"
+          fi
+          echo "sha=$BEFORE" >> "$GITHUB_OUTPUT"
+
+      - id: check
+        name: Check the pages (npm run check)
+        run: npm run check -- --base "${{ steps.base.outputs.sha }}"
+
+      - id: links
+        name: Check the links in the pages
+        run: node scripts/check-links.mjs --base "${{ steps.base.outputs.sha }}"
+
+      - id: build
+        name: Build the site
+        env:
+          ADMIN_AUTH_URL: ${{ vars.ADMIN_AUTH_URL }}
+          ADMIN_REPO: ${{ github.repository }}
+        run: npm run build
+
+      - id: built
+        name: Check the built site
+        run: |
+          node scripts/check-canonicals.mjs out
+          node scripts/build-redirects.mjs --check out
+          node scripts/check-absolute-links.mjs out
+          node scripts/check-site-features.mjs out
+
+      - id: package
+        name: Pack the release
+        run: |
+          # the release says which commit it is, so the deploy can see that the live site is the new one
+          printf '%s\n' "$GITHUB_SHA" > out/release.txt
+          tar -czf release.tar.gz -C out .
+          sha256sum release.tar.gz | cut -d' ' -f1 > release.sha256
+          ls -l release.tar.gz
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release
+          path: |
+            release.tar.gz
+            release.sha256
+          retention-days: 3
+
+      - name: What happened (in plain words)
+        if: always()
+        env:
+          SETTINGS: ${{ steps.settings.outcome }}
+          INSTALL: ${{ steps.install.outcome }}
+          CHECK: ${{ steps.check.outcome }}
+          LINKS: ${{ steps.links.outcome }}
+          BUILD: ${{ steps.build.outcome }}
+          BUILT: ${{ steps.built.outcome }}
+          PACKAGE: ${{ steps.package.outcome }}
+        run: |
+          say() { echo "$1" >> "$GITHUB_STEP_SUMMARY"; }
+          say "## Deploy: checks and build"
+          if [ "$SETTINGS" = failure ]; then say "**Nothing was deployed.** The repository variable ADMIN_AUTH_URL (the login address of the editor) is not set in GitHub. The developer must add it (Settings, Secrets and variables, Actions, Variables)."
+          elif [ "$INSTALL" = failure ]; then say "**Nothing was deployed.** The tools the site needs could not be installed. Run the job again; if it fails again, tell the developer."
+          elif [ "$CHECK" = failure ]; then say "**Nothing was deployed.** The automatic check found a problem in a page or case that was published. The red lines in the step 'Check the pages' say which page and what is wrong. Fix that page in /admin and publish it again."
+          elif [ "$LINKS" = failure ]; then say "**Nothing was deployed.** A link inside a page goes to an address that does not exist (it answers 404). The red lines in the step 'Check the links in the pages' say which page and which link. Fix the link in /admin and publish again."
+          elif [ "$BUILD" = failure ]; then say "**Nothing was deployed.** The site could not be built from the published pages. Open the step 'Build the site' for the reason and tell the developer."
+          elif [ "$BUILT" = failure ]; then say "**Nothing was deployed.** The built site failed one of its own safety checks (links, addresses or page features). Open the step 'Check the built site' for the line that says which page, and tell the developer."
+          elif [ "$PACKAGE" = failure ]; then say "**Nothing was deployed.** The release could not be packed. Run the job again; if it fails again, tell the developer."
+          else say "All checks passed and the site was built. The next job puts it on the server."
+          fi
+
+  deploy:
+    name: Put the new release on the server
+    needs: build
+    if: github.repository == 'adamt-sudo/rdtaxcases'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release
+
+      - id: connect
+        name: Prepare the connection
+        run: |
+          test -n "$DEPLOY_HOST" && test -n "$DEPLOY_SSH_KEY" && test -n "$DEPLOY_KNOWN_HOSTS"
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # the server's own host key, pinned: the connection is refused if the server shows another one
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          cat > ~/.ssh/config <<EOF
+          Host server
+            HostName $DEPLOY_HOST
+            Port ${DEPLOY_PORT:-22}
+            User deploy
+            IdentityFile ~/.ssh/deploy_key
+            IdentitiesOnly yes
+            BatchMode yes
+            StrictHostKeyChecking yes
+            UserKnownHostsFile ~/.ssh/known_hosts
+          EOF
+          chmod 600 ~/.ssh/config
+
+      - id: ship
+        name: Send the release; the server switches to it
+        run: ssh server "deploy $GITHUB_SHA $(cat release.sha256)" < release.tar.gz
+
+      - id: live
+        name: Check that the live site is the new release
+        run: |
+          ok=no
+          for i in 1 2 3 4 5 6; do
+            got="$(curl -fsS "https://rdtaxcases.com/release.txt" || true)"
+            if [ "$got" = "$GITHUB_SHA" ]; then ok=yes; break; fi
+            sleep 5
+          done
+          if [ "$ok" = yes ] && curl -fsS -o /dev/null https://rdtaxcases.com/ && curl -fsS -o /dev/null https://rdtaxcases.com/sitemap.xml && curl -fsSL -o /dev/null https://rdtaxcases.com/admin/; then
+            echo "The live site is release $GITHUB_SHA"
+            exit 0
+          fi
+          echo "::error::The live site does not show the new release. Going back to the previous release."
+          ssh server "rollback previous"
+          exit 1
+
+      - name: What happened (in plain words)
+        if: always()
+        env:
+          CONNECT: ${{ steps.connect.outcome }}
+          SHIP: ${{ steps.ship.outcome }}
+          LIVE: ${{ steps.live.outcome }}
+        run: |
+          say() { echo "$1" >> "$GITHUB_STEP_SUMMARY"; }
+          say "## Deploy: the server"
+          if [ "$CONNECT" = failure ]; then say "**The live site was not changed.** The server address, key or host key is missing in GitHub (Settings, Secrets and variables, Actions). The developer must add them."
+          elif [ "$SHIP" = failure ]; then say "**The live site was not changed.** The server did not accept the release (it could not be reached, the key or host key was refused, or the package was not the whole site). Open the step 'Send the release' for the server's own words and tell the developer."
+          elif [ "$LIVE" = failure ]; then say "**The new release was put back.** It was sent to the server, but the live site did not show it, so the server went back to the previous release. Tell the developer."
+          else say "**Live.** The new release is on the live site."
+          fi

@@ -1,0 +1,71 @@
+# Run by hand (Actions, "Rollback", Run workflow): puts the live site back on an earlier release that is still on the server,
+# or lists the releases. Nothing is built; the server only moves its "current" link. The same key and rules as the deploy.
+name: Rollback
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        type: choice
+        options:
+          - rollback
+          - list
+        default: rollback
+      release:
+        description: "For rollback: 'previous' (the release before the live one) or a release name from the list"
+        type: string
+        default: previous
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  rollback:
+    name: Go back to an earlier release
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    if: github.repository == 'adamt-sudo/rdtaxcases'
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+      ACTION: ${{ inputs.action }}
+      RELEASE: ${{ inputs.release }}
+    steps:
+      - name: Prepare the connection
+        run: |
+          test -n "$DEPLOY_HOST" && test -n "$DEPLOY_SSH_KEY" && test -n "$DEPLOY_KNOWN_HOSTS"
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          cat > ~/.ssh/config <<EOF
+          Host server
+            HostName $DEPLOY_HOST
+            Port ${DEPLOY_PORT:-22}
+            User deploy
+            IdentityFile ~/.ssh/deploy_key
+            IdentitiesOnly yes
+            BatchMode yes
+            StrictHostKeyChecking yes
+            UserKnownHostsFile ~/.ssh/known_hosts
+          EOF
+          chmod 600 ~/.ssh/config
+
+      - name: Releases on the server
+        run: ssh server "list" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Go back
+        if: inputs.action == 'rollback'
+        run: |
+          # the release name is checked by the server too; here only letters, numbers, dot, hyphen and underscore pass
+          case "$RELEASE" in
+            ''|*[!A-Za-z0-9._-]*) echo "::error::The release name may only have letters, numbers, dots, hyphens and underscores."; exit 1 ;;
+          esac
+          ssh server "rollback $RELEASE" | tee -a "$GITHUB_STEP_SUMMARY"

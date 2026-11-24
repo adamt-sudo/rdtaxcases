@@ -16,6 +16,8 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { linksIn } from "../src/lib/inline-core.mjs";
+import { hasHtmlBody, resolveHtmlBody } from "./lib/html-body.mjs";
+import { refreshPending } from "./lib/pending.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -78,7 +80,9 @@ for (const f of pageFiles()) {
 }
 const STATIC = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
 const PENDING_FILE = path.join(ROOT, "content", "pending-pages.json");
+// the list in the repository, and the addresses the content links to that are not pages yet (a page added in the editor does not touch the file)
 const pending = new Set(fs.existsSync(PENDING_FILE) ? JSON.parse(fs.readFileSync(PENDING_FILE, "utf8")).pages.map((p) => p.address) : []);
+for (const p of refreshPending({ write: false }).pending) pending.add(p.address);
 const pendingHits = new Map(); // file -> Set of addresses
 
 let errors = 0;
@@ -96,7 +100,8 @@ const warn = (file, msg) => {
 const uses = new Map();
 for (const file of targets()) {
   if (!fs.existsSync(path.join(ROOT, file))) continue;
-  const rec = JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
+  let rec = JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
+  if (hasHtmlBody(rec)) rec = resolveHtmlBody(rec, file.startsWith("content/cases/") ? "case" : "page").record; // the text of a pasted HTML body
   for (const t of textsOf(rec)) {
     for (const l of linksIn(t)) {
       if (!uses.has(l.href)) uses.set(l.href, new Set());

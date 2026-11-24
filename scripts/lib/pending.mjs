@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { linksIn } from "../../src/lib/inline-core.mjs";
+import { hasHtmlBody, resolveHtmlBody } from "./html-body.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.join(__dirname, "..", "..");
@@ -29,12 +30,14 @@ export function allContent() {
   const out = [];
   const casesDir = path.join(ROOT, "content", "cases");
   for (const f of fs.readdirSync(casesDir).filter((x) => x.endsWith(".json")).sort()) {
-    const c = JSON.parse(fs.readFileSync(path.join(casesDir, f), "utf8"));
+    let c = JSON.parse(fs.readFileSync(path.join(casesDir, f), "utf8"));
+    if (hasHtmlBody(c)) c = resolveHtmlBody(c, "case").record; // the text of a pasted HTML body
     out.push({ address: c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`, status: c.status ?? "published", file: `content/cases/${f}`, body: c.body, kind: "case" });
   }
   const pagesDir = path.join(ROOT, "content", "pages");
   for (const f of walkJson(pagesDir)) {
-    const p = JSON.parse(fs.readFileSync(f, "utf8"));
+    let p = JSON.parse(fs.readFileSync(f, "utf8"));
+    if (hasHtmlBody(p)) p = resolveHtmlBody(p, "page").record;
     out.push({ address: "/" + path.relative(pagesDir, f).split(path.sep).join("/").replace(/\.json$/, ""), status: p.status ?? "published", file: path.relative(ROOT, f).split(path.sep).join("/"), body: p.body, kind: "page" });
   }
   return out;
@@ -81,7 +84,10 @@ export function refreshPending({ write = true } = {}) {
       delete o.linkedFrom; // only for the report
       return o;
     });
-    fs.writeFileSync(PENDING_FILE, JSON.stringify({ note: old.note, pages: clean }, null, 2) + "\n");
+    const next = JSON.stringify({ note: old.note, pages: clean }, null, 2) + "\n";
+    // not rewritten when nothing changed (the line endings of the working copy are not a change)
+    const had = fs.existsSync(PENDING_FILE) ? fs.readFileSync(PENDING_FILE, "utf8").replace(/\r\n/g, "\n") : null;
+    if (had !== next) fs.writeFileSync(PENDING_FILE, next);
   }
   return { pending: pages, added, removed };
 }

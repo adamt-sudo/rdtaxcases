@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
+import { FIELD_LABELS, hasHtmlBody, resolveHtmlBody } from "./lib/html-body.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -38,19 +39,27 @@ for (const file of walk(DIR)) {
     bad(`not valid JSON (${e.message})`);
     continue;
   }
+  // an HTML body pasted in the editor becomes the page's text (and its summary and meta description when those are empty)
+  if (hasHtmlBody(p)) {
+    const r = resolveHtmlBody(p, "page");
+    for (const m of r.problems) bad(m);
+    p = r.record;
+  }
+  // the editor keeps the slug in the file; it must be the file's name
+  if (p.slug !== undefined && p.slug !== path.basename(file, ".json")) bad(`the field "${FIELD_LABELS.slug}" is "${p.slug}", the file is ${path.basename(file)}: they must be the same`);
   const a = parseAddress(address, siteMap);
   if (!a.ok) bad(`address ${address}: ${a.problems.join("; ")}`);
   else if (!KINDS.has(a.kind)) bad(`address ${address} is a ${a.kind}, not a glossary term, law or FAQ question`);
   if (a.ok && p.kind !== a.kind) bad(`"kind" is "${p.kind}", the address says ${a.kind}`);
   if (a.ok && p.country !== a.cc) bad(`"country" is "${p.country}", the address says ${a.cc}`);
-  if (typeof p.title !== "string" || !p.title.trim()) bad(`"title" is missing`);
+  if (typeof p.title !== "string" || !p.title.trim()) bad(`the field "${FIELD_LABELS.title}" is empty`);
   if (typeof p.language !== "string" || !p.language) bad(`"language" is missing`);
   if (p.description !== undefined && typeof p.description !== "string") bad(`"description" must be text`);
-  if (typeof p.description === "string" && p.description.length > 155) bad(`"description" is ${p.description.length} characters: at most 155`);
+  if (typeof p.description === "string" && p.description.length > 155) bad(`the field "${FIELD_LABELS.description}" is ${p.description.length} characters: at most 155`);
   if (p.summary !== undefined && typeof p.summary !== "string") bad(`"summary" must be text`);
   for (const k of ["published", "updated"]) if (p[k] !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(p[k])) bad(`"${k}" must be YYYY-MM-DD`);
   if (p.status !== undefined && !STATUSES.has(p.status)) bad(`unknown status "${p.status}"`);
-  if (!Array.isArray(p.body) || !p.body.length) bad(`"body" is empty`);
+  if (!Array.isArray(p.body) || !p.body.length) bad(`the page has no text: fill in the "${FIELD_LABELS.htmlBody}" or add text blocks`);
   else
     p.body.forEach((b, i) => {
       if (!BLOCK_TYPES.has(b.type)) bad(`block ${i + 1}: unknown type "${b.type}"`);
@@ -60,6 +69,8 @@ for (const file of walk(DIR)) {
 }
 if (problems.length) {
   console.error("Page files have problems:\n  " + problems.join("\n  "));
+  // shown on the pull request: one annotation per problem, with the file it is in
+  if (process.env.GITHUB_ACTIONS) for (const m of problems) console.log(`::error file=${m.split(": ")[0]}::${m.split(": ").slice(1).join(": ")}`);
   process.exit(1);
 }
 const out =
