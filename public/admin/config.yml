@@ -76,8 +76,7 @@
           "label": "Court",
           "name": "court",
           "widget": "string",
-          "required": false,
-          "hint": "Full name of the deciding court"
+          "hint": "Full name of the deciding court, for example Tax Court of Canada"
         },
         {
           "label": "Year",
@@ -183,15 +182,35 @@
           ]
         },
         {
+          "label": "Meta description (at most 155 characters)",
+          "name": "metaDescription",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
           "label": "Summary",
           "name": "summary",
           "widget": "text",
-          "hint": "Two to four sentences, from the decision"
+          "required": false,
+          "hint": "Two to four sentences, from the decision. Leave empty to use the answer capsule of the HTML body."
         },
         {
-          "label": "Case text",
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
           "name": "body",
           "widget": "list",
+          "required": false,
           "types": [
             {
               "label": "Heading",
@@ -291,7 +310,7 @@
               ]
             }
           ],
-          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
         }
       ]
     },
@@ -348,8 +367,7 @@
           "label": "Court",
           "name": "court",
           "widget": "string",
-          "required": false,
-          "hint": "Full name of the deciding court"
+          "hint": "Full name of the deciding court, for example Tax Court of Canada"
         },
         {
           "label": "Year",
@@ -656,15 +674,35 @@
           ]
         },
         {
+          "label": "Meta description (at most 155 characters)",
+          "name": "metaDescription",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
           "label": "Summary",
           "name": "summary",
           "widget": "text",
-          "hint": "Two to four sentences, from the decision"
+          "required": false,
+          "hint": "Two to four sentences, from the decision. Leave empty to use the answer capsule of the HTML body."
         },
         {
-          "label": "Case text",
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
           "name": "body",
           "widget": "list",
+          "required": false,
           "types": [
             {
               "label": "Heading",
@@ -764,7 +802,7 @@
               ]
             }
           ],
-          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
         }
       ]
     },
@@ -821,8 +859,7 @@
           "label": "Court",
           "name": "court",
           "widget": "string",
-          "required": false,
-          "hint": "Full name of the deciding court"
+          "hint": "Full name of the deciding court, for example Tax Court of Canada"
         },
         {
           "label": "Year",
@@ -923,15 +960,35 @@
           ]
         },
         {
+          "label": "Meta description (at most 155 characters)",
+          "name": "metaDescription",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
           "label": "Summary",
           "name": "summary",
           "widget": "text",
-          "hint": "Two to four sentences, from the decision"
+          "required": false,
+          "hint": "Two to four sentences, from the decision. Leave empty to use the answer capsule of the HTML body."
         },
         {
-          "label": "Case text",
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
           "name": "body",
           "widget": "list",
+          "required": false,
           "types": [
             {
               "label": "Heading",
@@ -1031,7 +1088,7 @@
               ]
             }
           ],
-          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
         }
       ]
     },
@@ -1088,8 +1145,7 @@
           "label": "Court",
           "name": "court",
           "widget": "string",
-          "required": false,
-          "hint": "Full name of the deciding court"
+          "hint": "Full name of the deciding court, for example Tax Court of Canada"
         },
         {
           "label": "Year",
@@ -1404,15 +1460,35 @@
           ]
         },
         {
+          "label": "Meta description (at most 155 characters)",
+          "name": "metaDescription",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
           "label": "Summary",
           "name": "summary",
           "widget": "text",
-          "hint": "Two to four sentences, from the decision"
+          "required": false,
+          "hint": "Two to four sentences, from the decision. Leave empty to use the answer capsule of the HTML body."
         },
         {
-          "label": "Case text",
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
           "name": "body",
           "widget": "list",
+          "required": false,
           "types": [
             {
               "label": "Heading",
@@ -1512,7 +1588,1255 @@
               ]
             }
           ],
-          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "us_glossary",
+      "label": "USA glossary",
+      "label_singular": "USA glossary term",
+      "description": "USA glossary pages. The address is /us/glossary/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/us/glossary",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /us/ prefix, no /glossary/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "glossary-term"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "us"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-US"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "us_faq",
+      "label": "USA FAQ",
+      "label_singular": "USA FAQ question",
+      "description": "USA FAQ pages. The address is /us/faq/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/us/faq",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /us/ prefix, no /faq/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "faq-question"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "us"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-US"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "us_legislation",
+      "label": "USA legislation",
+      "label_singular": "USA legislation page",
+      "description": "USA legislation pages. The address is /us/legislation/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/us/legislation",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /us/ prefix, no /legislation/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "legislation-page"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "us"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-US"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "ca_glossary",
+      "label": "Canada glossary",
+      "label_singular": "Canada glossary term",
+      "description": "Canada glossary pages. The address is /ca/glossary/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/ca/glossary",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /ca/ prefix, no /glossary/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "glossary-term"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "ca"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-CA"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "ca_faq",
+      "label": "Canada FAQ",
+      "label_singular": "Canada FAQ question",
+      "description": "Canada FAQ pages. The address is /ca/faq/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/ca/faq",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /ca/ prefix, no /faq/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "faq-question"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "ca"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-CA"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
+      "name": "ca_legislation",
+      "label": "Canada legislation",
+      "label_singular": "Canada legislation page",
+      "description": "Canada legislation pages. The address is /ca/legislation/<slug>: type the slug without that prefix.",
+      "folder": "content/pages/ca/legislation",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "title"
+      ],
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /ca/ prefix, no /legislation/ and no slashes (for example funded-research). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)"
+        },
+        {
+          "label": "Meta description (at most 155 characters)",
+          "name": "description",
+          "widget": "string",
+          "required": false,
+          "hint": "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+          "pattern": [
+            "^[\\s\\S]{0,155}$",
+            "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"
+          ]
+        },
+        {
+          "label": "Key phrase",
+          "name": "keyPhrase",
+          "widget": "string",
+          "required": false,
+          "hint": "The phrase the page is about (not shown on the page)"
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "required": false,
+          "hint": "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines."
+        },
+        {
+          "label": "Kind",
+          "name": "kind",
+          "widget": "hidden",
+          "default": "legislation-page"
+        },
+        {
+          "label": "Country",
+          "name": "country",
+          "widget": "hidden",
+          "default": "ca"
+        },
+        {
+          "label": "Language",
+          "name": "language",
+          "widget": "hidden",
+          "default": "en-CA"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            }
+          ]
+        },
+        {
+          "label": "HTML body (paste the Google Doc's HTML here)",
+          "name": "htmlBody",
+          "widget": "text",
+          "required": false,
+          "hint": "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. When this box is filled, the text blocks are ignored."
+        },
+        {
+          "label": "Text blocks (only when there is no HTML body)",
+          "name": "body",
+          "widget": "list",
+          "required": false,
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
         }
       ]
     },
@@ -1564,6 +2888,7 @@
           "label": "Case text",
           "name": "body",
           "widget": "list",
+          "required": true,
           "types": [
             {
               "label": "Heading",
@@ -1663,7 +2988,7 @@
               ]
             }
           ],
-          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+          "hint": "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
         },
         {
           "label": "Reviewed",
