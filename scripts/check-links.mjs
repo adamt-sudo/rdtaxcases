@@ -120,7 +120,7 @@ for (const [href, files] of uses) {
       }
       if (published.has(p)) {
         if (!published.get(p)) error(file, `The link ${href} goes to a case that is not published (a draft or withdrawn).`);
-      } else if (STATIC.has(p) || p.startsWith("/us/states/") || /^\/[a-z]{2}$/.test(p)) {
+      } else if (STATIC.has(p) || p.startsWith("/us/states/") || /^\/[a-z]{2}$/.test(p) || /^\/[a-z]{2}\/(glossary|faq|legislation)$/.test(p)) {
         // a page of the site
       } else if (pending.has(p)) {
         if (!pendingHits.has(file)) pendingHits.set(file, new Set());

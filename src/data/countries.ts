@@ -84,7 +84,7 @@ const ROWS: {
   { slug: "vn", name: "Vietnam", nativeName: "Việt Nam", countryCode: "VN", lang: "en" },
   { slug: "me", name: "Montenegro", nativeName: "Crna Gora", countryCode: "ME", lang: "en" },
   { slug: "fr", name: "France", nativeName: "France", countryCode: "FR", lang: "fr" },
-  { slug: "ca", name: "Canada", nativeName: "Canada", countryCode: "CA", lang: "en" },
+  { slug: "ca", name: "Canada", nativeName: "Canada", countryCode: "CA", lang: "en", locale: "en-CA" },
   { slug: "nz", name: "New Zealand", nativeName: "New Zealand", countryCode: "NZ", lang: "en" },
   { slug: "gb", name: "United Kingdom", nativeName: "United Kingdom", countryCode: "GB", lang: "en" },
   { slug: "au", name: "Australia", nativeName: "Australia", countryCode: "AU", lang: "en" },

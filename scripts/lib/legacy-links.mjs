@@ -62,7 +62,13 @@ export function dedupeExternalLinks(body) {
 /** Rewrites the files in place. Returns what changed: [{ file, kind, from, to }]. */
 export function rewriteLegacyLinks({ write = true } = {}) {
   const casesDir = path.join(ROOT, "content", "cases");
-  const slugs = new Set(fs.readdirSync(casesDir).filter((x) => x.endsWith(".json")).map((x) => x.replace(/\.json$/, "")));
+  const slugs = new Set(
+    fs
+      .readdirSync(casesDir)
+      .filter((x) => x.endsWith(".json"))
+      .filter((x) => JSON.parse(fs.readFileSync(path.join(casesDir, x), "utf8")).jurisdictionGroup !== "country")
+      .map((x) => x.replace(/\.json$/, "")),
+  );
   const histFile = path.join(ROOT, "content", "slug-history.json");
   const renames = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")).renames ?? {} : {};
   const map = new Map();

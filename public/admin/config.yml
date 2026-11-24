@@ -48,10 +48,10 @@
           "label": "Slug (web address)",
           "name": "slug",
           "widget": "string",
-          "hint": "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "hint": "Only the last part of the address: no /ca/ or /us/ prefix and no slashes (the country is set by the list you add the case to). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
           "pattern": [
             "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Use lowercase letters, numbers and hyphens only"
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
           ]
         },
         {
@@ -320,10 +320,10 @@
           "label": "Slug (web address)",
           "name": "slug",
           "widget": "string",
-          "hint": "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "hint": "Only the last part of the address: no /ca/ or /us/ prefix and no slashes (the country is set by the list you add the case to). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
           "pattern": [
             "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Use lowercase letters, numbers and hyphens only"
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
           ]
         },
         {
@@ -769,9 +769,276 @@
       ]
     },
     {
+      "name": "canada",
+      "label": "Canada cases",
+      "description": "Cases from Canadian courts. The address is /ca/<slug>: type the slug without /ca/ (for example northwest-hydraulic-consultants-v-the-queen-1998-tcc).",
+      "folder": "content/cases",
+      "extension": "json",
+      "format": "json",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{title}}, {{caseNumber}}",
+      "sortable_fields": [
+        "title",
+        "year"
+      ],
+      "filter": {
+        "field": "jurisdictionSlug",
+        "value": "ca"
+      },
+      "fields": [
+        {
+          "label": "Slug (web address)",
+          "name": "slug",
+          "widget": "string",
+          "hint": "Only the last part of the address: no /ca/ or /us/ prefix and no slashes (the country is set by the list you add the case to). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "pattern": [
+            "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
+          ]
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "hint": "Case name as it is cited"
+        },
+        {
+          "label": "Subtitle",
+          "name": "articleTitle",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Case number",
+          "name": "caseNumber",
+          "widget": "string",
+          "hint": "Docket number or citation exactly as printed on the decision"
+        },
+        {
+          "label": "Court",
+          "name": "court",
+          "widget": "string",
+          "required": false,
+          "hint": "Full name of the deciding court"
+        },
+        {
+          "label": "Year",
+          "name": "year",
+          "widget": "number",
+          "value_type": "int",
+          "min": 1800,
+          "max": 2100
+        },
+        {
+          "label": "Decision date",
+          "name": "decisionDate",
+          "widget": "string",
+          "required": false,
+          "hint": "As the decision states it, yyyy-mm-dd",
+          "pattern": [
+            "^\\d{4}-\\d{2}-\\d{2}$",
+            "Use yyyy-mm-dd"
+          ]
+        },
+        {
+          "label": "Parties",
+          "name": "parties",
+          "widget": "string",
+          "required": false,
+          "hint": "As named in the decision, separate with \" / \" (anonymised names stay as printed)"
+        },
+        {
+          "label": "Outcome",
+          "name": "outcome",
+          "widget": "text",
+          "required": false,
+          "hint": "The decision's own words, copied exactly"
+        },
+        {
+          "label": "Subject",
+          "name": "subject",
+          "widget": "string"
+        },
+        {
+          "label": "Section",
+          "name": "jurisdictionGroup",
+          "widget": "hidden",
+          "default": "country"
+        },
+        {
+          "label": "Country",
+          "name": "jurisdictionSlug",
+          "widget": "hidden",
+          "default": "ca"
+        },
+        {
+          "label": "Country code",
+          "name": "country",
+          "widget": "hidden",
+          "default": "CA"
+        },
+        {
+          "label": "Language of the page text",
+          "name": "language",
+          "widget": "string",
+          "required": false,
+          "hint": "Code of the language the text is written in, e.g. it, de, es. Leave empty for English."
+        },
+        {
+          "label": "Source link",
+          "name": "sourceDocUrl",
+          "widget": "string",
+          "required": false,
+          "hint": "Official page of the decision where there is one"
+        },
+        {
+          "label": "Where the text comes from",
+          "name": "pdfSource",
+          "widget": "string",
+          "required": false,
+          "hint": "Name the official site or database the decision was read at"
+        },
+        {
+          "label": "Publication state",
+          "name": "status",
+          "widget": "select",
+          "required": false,
+          "default": "draft",
+          "options": [
+            {
+              "label": "Published",
+              "value": "published"
+            },
+            {
+              "label": "Draft (kept, not shown)",
+              "value": "draft"
+            },
+            {
+              "label": "Withdrawn (kept, not shown)",
+              "value": "withdrawn"
+            }
+          ]
+        },
+        {
+          "label": "Summary",
+          "name": "summary",
+          "widget": "text",
+          "hint": "Two to four sentences, from the decision"
+        },
+        {
+          "label": "Case text",
+          "name": "body",
+          "widget": "list",
+          "types": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "hint": "Plain text: no links."
+                }
+              ]
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Paragraph",
+              "name": "paragraph",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "text",
+                  "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                }
+              ]
+            },
+            {
+              "label": "List",
+              "name": "list",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Items",
+                  "name": "items",
+                  "widget": "list",
+                  "field": {
+                    "label": "Item",
+                    "name": "item",
+                    "widget": "text",
+                    "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Table",
+              "name": "table",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Caption (optional)",
+                  "name": "caption",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Column headings",
+                  "name": "headers",
+                  "widget": "list",
+                  "field": {
+                    "label": "Heading",
+                    "name": "heading",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "label": "Rows",
+                  "name": "rows",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Cells",
+                      "name": "cells",
+                      "widget": "list",
+                      "field": {
+                        "label": "Cell",
+                        "name": "cell",
+                        "widget": "text",
+                        "hint": "Links and emphasis: <a href=\"/us/glossary/funded-research\">text</a>, <em>text</em>, <strong>text</strong>, <sub>t</sub>, <sup>2</sup>. Links to this site are paths without a trailing slash; links to other sites are https addresses. A link to a page of this site that does not exist yet shows as plain text on the site. Write &lt; for a literal < sign. The preview shows the result."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "hint": "Build the page from blocks. No reference list and no footnote markers. Put quotation marks only around the court's exact words."
+        }
+      ]
+    },
+    {
       "name": "countries",
-      "label": "Country cases",
-      "description": "Cases from other countries. The text is written in the language of the decision.",
+      "label": "Country cases (other countries)",
+      "description": "Cases from other countries (Canada has its own list). The text is written in the language of the decision.",
       "folder": "content/cases",
       "extension": "json",
       "format": "json",
@@ -793,10 +1060,10 @@
           "label": "Slug (web address)",
           "name": "slug",
           "widget": "string",
-          "hint": "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+          "hint": "Only the last part of the address: no /ca/ or /us/ prefix and no slashes (the country is set by the list you add the case to). Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
           "pattern": [
             "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Use lowercase letters, numbers and hyphens only"
+            "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens"
           ]
         },
         {
@@ -892,10 +1159,6 @@
             {
               "label": "Brazil",
               "value": "br"
-            },
-            {
-              "label": "Canada",
-              "value": "ca"
             },
             {
               "label": "Chile",

@@ -3,7 +3,7 @@ import { cases, getCasesForJurisdiction } from "@/data/cases";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { countries } from "@/data/countries";
 import { getPublishedPages } from "@/data/pages";
-import { hubAddress, hubPages } from "@/components/HubPage";
+import { hubAddress, hubCountries, hubPages } from "@/components/HubPage";
 import { absolute, caseHref, countryHref, stateHref, US_FEDERAL, US_HOME, US_STATES } from "@/lib/urls";
 
 export const dynamic = "force-static";
@@ -54,9 +54,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // The list pages (/us/glossary, /us/faq, /us/legislation), when they have at least one page.
-  const hubRoutes: MetadataRoute.Sitemap = (["glossary-term", "faq-question", "legislation-page"] as const)
-    .filter((kind) => hubPages("us", kind).length > 0)
-    .map((kind) => ({ url: absolute(hubAddress("us", kind)), lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 }));
+  const hubRoutes: MetadataRoute.Sitemap = hubCountries().flatMap((c) =>
+    (["glossary-term", "faq-question", "legislation-page"] as const)
+      .filter((kind) => hubPages(c.code, kind).length > 0)
+      .map((kind) => ({ url: absolute(hubAddress(c.code, kind)), lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 })),
+  );
 
   return [...staticRoutes, ...hubRoutes, ...stateRoutes, ...caseRoutes, ...pageRoutes];
 }

@@ -104,6 +104,8 @@ async function main() {
     }
     let desc = makeDescription(capsule, 155, r.title);
     if (written[r.address]) desc = { text: written[r.address].trim(), method: "written" };
+    // the owner's own meta description (the sheet's column) is used as given
+    if (r.sheetDescription) desc = { text: r.sheetDescription.trim(), method: "sheet" };
     if (desc.text.length > 155) problem(`the description is ${desc.text.length} characters (at most 155)`);
     result.methods[desc.method] = (result.methods[desc.method] ?? 0) + 1;
     const d = describe(blocks);
@@ -115,8 +117,20 @@ async function main() {
     if (r.type === "case" && r.create) {
       // a case with no existing record: created from the row's fields (court and date from the sheet's name, number from the document)
       const body = blocks[0]?.type === "paragraph" && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
-      const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, jurisdictionGroup: "usa-federal", jurisdictionSlug: "federal", summary: capsule, metaDescription: desc.text, body };
-      fs.writeFileSync(path.join(ROOT, "content", "cases", `${a.slug}.json`), JSON.stringify(applyOverrides(rec2), null, 2) + "\n");
+      const group = r.create.jurisdictionGroup ?? "usa-federal";
+      const where = r.create.jurisdictionSlug ?? "federal";
+      const file = path.join(ROOT, "content", "cases", `${a.slug}.json`);
+      // the file name is the slug: a slug that is already the file of a case of another jurisdiction must not overwrite it
+      if (fs.existsSync(file)) {
+        const there = JSON.parse(fs.readFileSync(file, "utf8"));
+        if (there.jurisdictionSlug !== where) {
+          problem(`the slug is already the case file of another jurisdiction (${there.jurisdictionSlug}/${there.slug})`);
+          result.imported.pop();
+          continue;
+        }
+      }
+      const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, jurisdictionGroup: group, jurisdictionSlug: where, ...(r.create.country ? { country: r.create.country } : {}), ...(r.keyPhrase ? { keyPhrase: r.keyPhrase } : {}), summary: capsule, metaDescription: desc.text, body };
+      fs.writeFileSync(file, JSON.stringify(applyOverrides(rec2), null, 2) + "\n");
       rec.created = true;
     } else if (r.type === "case") {
       // when the case was already renamed by an earlier run, its file has the new slug
@@ -143,7 +157,7 @@ async function main() {
       rec.oldSlug = r.oldSlug;
       rec.slugChanged = newSlug !== r.oldSlug;
     } else {
-      const page = { kind: a.kind, country: a.cc, title: cleanTitle(r.type, r.titleOverride ?? r.title), ...(desc.text ? { description: desc.text } : {}), ...(capsule ? { summary: capsule } : {}), language: siteMap.countries[a.cc].htmlLang, status: "published", body: blocks };
+      const page = { kind: a.kind, country: a.cc, title: r.sheetTitle ? r.title.trim() : cleanTitle(r.type, r.titleOverride ?? r.title), ...(r.keyPhrase ? { keyPhrase: r.keyPhrase } : {}), ...(desc.text ? { description: desc.text } : {}), ...(capsule ? { summary: capsule } : {}), language: siteMap.countries[a.cc].htmlLang, status: "published", body: blocks };
       const file = path.join(ROOT, "content", "pages", `${r.address.slice(1)}.json`);
       fs.mkdirSync(path.dirname(file), { recursive: true });
       fs.writeFileSync(file, JSON.stringify(page, null, 2) + "\n");

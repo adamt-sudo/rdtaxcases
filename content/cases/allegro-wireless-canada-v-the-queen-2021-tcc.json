@@ -1,0 +1,562 @@
+{
+  "slug": "allegro-wireless-canada-v-the-queen-2021-tcc",
+  "title": "Allegro Wireless Canada v. The Queen (Mar 2021 TCC)",
+  "caseNumber": "2021 TCC 27",
+  "court": "Tax Court of Canada",
+  "year": 2021,
+  "subject": "Integrating Inaccessible Third-Party Software Creates Technological Uncertainty",
+  "jurisdictionGroup": "country",
+  "jurisdictionSlug": "ca",
+  "country": "CA",
+  "keyPhrase": "Allegro Wireless Canada 2021 TCC",
+  "summary": "Allegro Wireless Canada Inc. v. The Queen, 2021 TCC 27, is a Tax Court of Canada SR&ED decision in which a Canadian software developer won its appeals for the 2010 and 2011 taxation years. The Court held that integrating inaccessible third-party \"black box\" software created technological uncertainty, and that contemporaneous Jira X and FogBugz records proved systematic experimental development.",
+  "metaDescription": "Examine the March 2021 Tax Court of Canada decision in Allegro Wireless Canada Inc v. The Queen regarding SR&ED tax credits in Canada.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "(1) Executive Summary & Case Background"
+    },
+    {
+      "type": "subheading",
+      "text": "Procedural Posture and Jurisprudential Significance"
+    },
+    {
+      "type": "paragraph",
+      "text": "On March 31, 2021, Justice Steven K. D'Arcy of the Tax Court of Canada (TCC) delivered the judgment and reasons for judgment in <em>Allegro Wireless Canada Inc. v. The Queen</em>, 2021 TCC 27 (Dockets 2014-1690(IT)G and 2014-1691(IT)G). Within the Canadian <a href=\"/ca/faq/what-is-sred-program\">Scientific Research and Experimental Development (SR&ED)</a> statutory regime, this ruling represents an exceptional judicial victory for a corporate taxpayer engaged in software development. A 2026 industry review of 50 reported SR&ED cases decided between 2016 and 2026 found that the CRA won outright in 32 (64 percent), taxpayers won outright in only 11 (22 percent), and the remaining 7 were mixed, so that roughly 78 percent of cases ended in full or partial loss for the taxpayer; <a href=\"/ca/faq/sred-eligibility-criteria\">SR&ED eligibility</a> was the issue in 32 of those 50 disputes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Software development claims face particularly acute skepticism during administrative reviews by the Canada Revenue Agency (CRA), where <a href=\"/ca/faq/cra-research-and-technology-advisor-rta-role\">Research and Technology Advisors (RTAs)</a> frequently characterize iterative software coding, system integration, and empirical testing as routine software engineering or standard debugging. Furthermore, once an SR&ED claim enters litigation, downstream claims for subsequent taxation years are frequently held in abeyance during the two-to-four-year trajectory from Notice of Objection through Tax Court scheduling, trial, and judgment, shifting the claimant into a higher-scrutiny risk profile for <a href=\"/ca/faq/does-sred-claim-trigger-cra-tax-audit\">future CRA audits</a>. Against this high-risk litigation backdrop, <em>Allegro Wireless</em> establishes vital legal and technical benchmarks regarding how \"technological uncertainty\" and \"system uncertainty\" manifest when software engineers must integrate proprietary, closed-source third-party systems—referred to by the Court as \"black boxes\"—and underscores the decisive role of contemporaneous issue-tracking databases and properly grounded expert witness testimony."
+    },
+    {
+      "type": "subheading",
+      "text": "The Taxpayer's Technical Operations and Financial Claims"
+    },
+    {
+      "type": "paragraph",
+      "text": "Allegro Wireless Canada Inc. (the Appellant) operated as a specialized Canadian software development enterprise focused on designing and building connectivity and middleware software capable of linking disparate third-party software architectures and mobile hardware devices. Because the commercial developers of the target mobile operating systems and enterprise platforms guarded their proprietary architectures closely, the underlying source code and internal system specifications were frequently unavailable to Allegro's engineering team. Consequently, Allegro's developers were required to interface with undocumented \"black boxes\" whose functional behaviours under complex data synchronization and connectivity loads could not be predicted from publicly available technical documentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Appellant's <a href=\"/ca/glossary/cra-technical-reviewer\">CRA SR&ED technical advisor</a>, Mr. Paul Wong, helped the Appellant set up a system in its bugs/quirks tracking software (particularly Jira X) to keep track of the problems it identified as quirks. Utilizing two bug/quirk-tracking platforms—FogBugz and Jira X—cross-referenced with its source code control system, the Appellant documented the quirks it identified, its hypotheses, the testing its developers carried out, and the ultimate resolution of each issue across five <a href=\"/ca/glossary/scientific-research-and-experimental-development-sred\">SR&ED</a> projects spanning the 2010 and 2011 taxation years; the documents titled \"Allegro Wireless Activity Timeline\" (two pages for 2010 and two and a half pages for 2011) were among the CRA-supplied materials on which the Crown's expert, Dr. Keshav, based his opinion, not the Appellant's primary research records."
+    },
+    {
+      "type": "paragraph",
+      "text": "In its 2010 corporate income tax return, Allegro claimed three SR&ED projects (2010 Project 1, 2010 Project 2, and 2010 Project 3), reporting total qualified SR&ED expenditures of $798,342 and claiming corresponding federal <a href=\"/ca/glossary/investment-tax-credit-itc\">Investment Tax Credits (ITCs)</a> of $279,420. The direct expenditure base filed for 2010 totalled $587,005, consisting of $562,005 in salary and wages and a $25,000 payment to a contractor, supplemented by the elected <a href=\"/ca/faq/sred-proxy-method-overhead\">Prescribed Proxy Amount (PPA)</a> for overhead expenses. In its 2011 corporate income tax return, Allegro claimed two SR&ED projects (2011 Project 1 and 2011 Project 2), reporting total <a href=\"/ca/glossary/qualified-sred-expenditures\">qualified SR&ED expenditures</a> of $615,906 and claiming federal ITCs of $215,567 based on $418,890 in directly engaged employee salaries and wages plus the associated PPA. The Appellant also received federal funding from the National Research Council under its <a href=\"/ca/faq/government-grants-irap-impact-on-sred\">Industrial Research Assistance Program (IRAP)</a>, under a contribution agreement of up to $500,000 for salary and wage costs (of which it received $470,378), and both parties deducted a second form of government assistance referred to as the OITC (the Ontario Innovation Tax Credit), although the Court received no evidence on its nature."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge and Reassessments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon auditing the 2010 and 2011 claims, the <a href=\"/ca/glossary/canada-revenue-agency-cra\">CRA</a> declined to evaluate Allegro's five submitted projects as integrated, holistic development initiatives. Instead, the CRA subdivided the five projects into twelve separate \"Technological Advancement / <a href=\"/ca/glossary/technological-obstacle\">Technological Obstacle</a>\" (TA/TO) components (converting the three 2010 projects alone into seven), and assessed the eligibility of each component separately."
+    },
+    {
+      "type": "paragraph",
+      "text": "For the 2010 taxation year, the Minister of National Revenue accepted the portion of 2010 Project 3 identified by the CRA as TA1/TO1 and the portions of 2010 Project 1 and 2010 Project 2 identified as TA2/TO2, but disallowed TA1/TO1 of 2010 Project 1 and TA1/TO1 and TA3/TO3 of 2010 Project 2; the remaining portion of 2010 Project 3 was not pursued, as the Appellant conceded at the hearing that it did not constitute SR&ED. Financially, the Minister disallowed $697,723 of the $798,342 claimed SR&ED expenditures and denied $244,208 of the $279,420 claimed ITCs for 2010, reducing eligible salaries and wages from $562,005 to $171,979 and disallowing the $25,000 contractor claim in its entirety."
+    },
+    {
+      "type": "paragraph",
+      "text": "For the 2011 taxation year, the Minister accepted 2011 Project 2 in its entirety and the portion of 2011 Project 1 identified as TA2/TO2, but disallowed TA1/TO1 and TA3/TO3 of 2011 Project 1 (the Appellant later conceded TA3/TO3 at the hearing). Financially, the Minister disallowed $463,401 of the $615,906 claimed SR&ED expenditures and denied $162,190 of the $215,567 claimed ITCs for 2011, slashing eligible salaries and wages from $418,890 down to $120,635. Furthermore, in calculating the qualified expenditures for ITC purposes in both years, the CRA deducted under subsection 127(18) an amount different from the IRAP assistance it deducted under paragraph 37(1)(d) (for 2010, $171,979, representing all of the salary and wages for the accepted projects, versus $131,054 of IRAP assistance), an approach the Court rejected."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Statutory and Jurisprudential Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "The adjudication of the dispute rested upon the interlocking provisions of sections 37, 127, and 248 of the Canadian <a href=\"/ca/glossary/income-tax-act-ita\"><em>Income Tax Act</em> (ITA)</a> and Part XXIX (Regulation 2900) of the <em>Income Tax Regulations</em>. Subsection 248(1) of the ITA defines \"scientific research and experimental development\" as a systematic investigation or search that is carried out in a field of science or technology by means of <a href=\"/ca/glossary/experimentation-or-analysis\">experiment or analysis</a>. For <a href=\"/ca/faq/sred-eligibility-for-software-development\">commercial software claimants</a>, eligibility is governed primarily by paragraph (c) of the definition, which encompasses \"experimental development\" undertaken for the purpose of achieving technological advancement for the purpose of creating new, or improving existing, materials, devices, products, or processes, including incremental improvements thereto. Crucially, paragraph (d) of the definition extends SR&ED eligibility to work undertaken by or on behalf of the taxpayer with respect to engineering, design, operations research, mathematical analysis, computer programming, data collection, testing, or psychological research, provided that such work is <a href=\"/ca/glossary/commensurate-with-the-needs\">commensurate with the needs</a>, and directly in support, of work described in paragraph (a), (b) or (c) that is undertaken in Canada by or on behalf of the taxpayer."
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the statutory text of subsection 248(1) into an objective evidentiary standard, Justice D'Arcy relied on the five criteria first outlined by Judge Bowman (as he then was) in <em>Northwest Hydraulic Consultants Limited v. The Queen</em>, 98 DTC 1839 (TCC), and summarized by the Federal Court of Appeal in <em>C.W. Agencies Inc. v. The Queen</em>, 2001 FCA 393, which the courts have used to assist in determining whether an activity constitutes SR&ED; the judgment does not cite <em>Jentel Manufacturing Ltd. v. The Queen</em>, <em>Kam-Press Metal Products Ltd. v. Canada</em> (2021 FCA 88) or <em>National R&D Inc. v. Canada</em> (2022 FCA 72), the latter two having been decided after this judgment. Under the <em>Northwest Hydraulic</em> framework, the Court must determine: first, whether there was a technological risk or uncertainty that could not be removed by <a href=\"/ca/glossary/routine-engineering-or-testing\">routine engineering</a> or standard procedures; second, whether the person claiming to be doing SR&ED formulated hypotheses specifically aimed at reducing or eliminating that technological uncertainty; third, whether the procedures adopted accorded with the total discipline of the scientific method, including the formulation, testing, and modification of hypotheses; fourth, whether the process resulted in a technological advancement; and fifth, whether a detailed record of the hypotheses tested and the results was kept as the work progressed."
+    },
+    {
+      "type": "paragraph",
+      "text": "On the financial side, subsection 37(1) of the ITA governs the deductibility of current SR&ED expenditures carried on in Canada, including directly engaged salaries and wages and eligible Canadian contractor payments, while, for a taxpayer that elects the <a href=\"/ca/glossary/sred-proxy-method\">proxy method</a> under clause 37(8)(a)(ii)(B) and subsection 37(10), subsection 2900(4) of the <em>Income Tax Regulations</em> governs the calculation of the Prescribed Proxy Amount (PPA), 65 percent of the eligible salaries and wages of employees directly engaged in SR&ED carried out in Canada for 2012 and prior taxation years, in lieu of itemized overhead expenses. <a href=\"/ca/legislation/ita-section-127-5-investment-tax-credit-deduction\">Subsection 127(5)</a> and the definitions in subsection 127(9) of the ITA govern the computation of federal SR&ED ITCs, while paragraph 37(1)(d) and subsection 127(18) require that the deductible SR&ED expenditure pool and the \"qualified expenditure\" base for ITC generation, respectively, be reduced by any \"government assistance\" (as defined in subsection 127(9), such as federal NRC-IRAP grants and provincial OITC credits) that the taxpayer has received, is entitled to receive, or can reasonably be expected to receive in respect of the SR&ED."
+    },
+    {
+      "type": "subheading",
+      "text": "The Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Justice D'Arcy allowed the Appellant's appeals for both the 2010 and 2011 <a href=\"/ca/glossary/tax-year\">taxation years</a> with costs (the Public Accounts of Canada for 2023 later recorded a $42,569 tax-related court award paid to Dominion Tax Law in trust for the Appellant) and referred the reassessments back to the Minister for reconsideration and reassessment. On the core question of technical eligibility, the Court ruled in favour of Allegro Wireless on every component that remained in dispute, holding that TA1/TO1 of 2010 Project 1, TA1/TO1 and TA3/TO3 of 2010 Project 2, and TA1/TO1 of 2011 Project 1 constituted SR&ED for purposes of the ITA; the Appellant had conceded the remaining portion of 2010 Project 3 and TA3/TO3 of 2011 Project 1."
+    },
+    {
+      "type": "paragraph",
+      "text": "On the financial computations, the Court performed a granular reconstruction of the expenditure pools. For 2010, the Court left the $25,000 contractor payment out of the expenditure base because the Appellant neither argued that the Minister's assumption (that the subcontractor's work was not SR&ED) was wrong nor provided any evidence supporting the payment, set total allowable SR&ED expenditures at $425,911 by adding to the Minister's $171,979 the salary and wages for the three 2010 components found to be SR&ED, computed the PPA at 65 percent ($276,842), deducted IRAP assistance of $202,889 and OITC assistance of $49,986, and established final 2010 qualifying SR&ED expenditures at $449,878 with corresponding federal ITCs of $157,457. For 2011, the Court set <a href=\"/ca/faq/eligible-sred-expenditures\">total allowable SR&ED expenditures</a> at $355,891, computed the PPA at $231,329, deducted IRAP assistance of $22,386 under both paragraph 37(1)(d) and subsection 127(18) (correcting the CRA's error, which affected both years, of deducting under subsection 127(18) an amount exceeding the government assistance received), deducted OITC assistance of $56,483, and established final 2011 qualifying SR&ED expenditures at $508,351 with corresponding federal ITCs of $177,923."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Financial & Technical Metric",
+        "2010 Taxation Year (Filed by Taxpayer)",
+        "2010 Taxation Year (Assessed by CRA)",
+        "2010 Taxation Year (Held by TCC)",
+        "2011 Taxation Year (Filed by Taxpayer)",
+        "2011 Taxation Year (Assessed by CRA)",
+        "2011 Taxation Year (Held by TCC)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Projects Claimed & Status",
+            "Projects 1, 2, and 3",
+            "TA1/TO1 of P3 and TA2/TO2 of P1 & P2 accepted; TA1/TO1 of P1 and TA1/TO1 & TA3/TO3 of P2 denied",
+            "All disputed segments (TA1/TO1 of P1; TA1/TO1 & TA3/TO3 of P2) held eligible; remainder of P3 conceded",
+            "Projects 1 and 2",
+            "Project 2 and TA2/TO2 of P1 accepted; TA1/TO1 & TA3/TO3 of P1 denied",
+            "Disputed segment (TA1/TO1 of P1) held eligible; TA3/TO3 of P1 conceded"
+          ]
+        },
+        {
+          "cells": [
+            "Eligible SR&ED Salaries & Wages",
+            "$562,005",
+            "$171,979",
+            "$425,911",
+            "$418,890",
+            "$120,635",
+            "$355,891"
+          ]
+        },
+        {
+          "cells": [
+            "Contractor Expenditures",
+            "$25,000",
+            "$0 (Disallowed)",
+            "$0 (No argument or evidence offered by Appellant)",
+            "$0",
+            "$0",
+            "$0"
+          ]
+        },
+        {
+          "cells": [
+            "Direct Expenditure Base (Pre-Proxy)",
+            "$587,005",
+            "$171,979",
+            "$425,911",
+            "$418,890",
+            "$120,635",
+            "$355,891"
+          ]
+        },
+        {
+          "cells": [
+            "IRAP Government Assistance Deducted",
+            "$65,261",
+            "$171,979 (vs. $131,054 deducted under s. 37(1)(d))",
+            "$202,889",
+            "$6,829",
+            "$29,598 (inconsistent with IRAP amount; CRA approach rejected)",
+            "$22,386 (Applied consistently)"
+          ]
+        },
+        {
+          "cells": [
+            "Total Qualifying SR&ED Expenditures",
+            "$798,342",
+            "$100,607 ($697,723 disallowed)",
+            "<strong>$449,878</strong>",
+            "$615,906",
+            "$152,505 ($463,401 disallowed)",
+            "<strong>$508,351</strong>"
+          ]
+        },
+        {
+          "cells": [
+            "Federal SR&ED Investment Tax Credits",
+            "$279,420",
+            "$35,212 ($244,208 disallowed)",
+            "<strong>$157,457</strong>",
+            "$215,567",
+            "$53,377 ($162,190 disallowed)",
+            "<strong>$177,923</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "(2) Core Legal & Evidentiary Failures"
+    },
+    {
+      "type": "paragraph",
+      "text": "A rigorous forensic analysis of <em>Allegro Wireless Canada Inc. v. The Queen</em> reveals a dual-layered set of failures. On one side, the <a href=\"/ca/glossary/taxpayer\">taxpayer</a> conceded two project components, offered no argument or evidence on its $25,000 subcontractor payment, and did not provide details of how it calculated the amounts claimed on its returns, so that at trial the contractor payment remained excluded and the conceded components were removed from the expenditure base. On the other side, the CRA and the Crown's expert witnesses committed severe legal, analytical, and evidentiary errors that caused the Minister's technical disallowances to collapse under cross-examination and judicial scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Taxpayer Compliance, Substantiation, and Financial Deficiencies"
+    },
+    {
+      "type": "subheading",
+      "text": "Initial Technical Positioning vs. Underlying Engineering Evidence"
+    },
+    {
+      "type": "paragraph",
+      "text": "A critical insight emerging from the post-litigation record is that Allegro's victory at the Tax Court did not stem from the belated discovery of new technical evidence; the source control histories, FogBugz bug-tracking entries, and Jira X iteration logs already existed at the time of the initial CRA audit. The judgment itself does not attribute the dispute, which ran from the 2010–2011 taxation years to the 2021 judgment, to deficiencies in the Appellant's compliance presentation; it records that the Appellant's claims did not delineate separate TAs or TOs and that the delineation into TA/TO components was done by the CRA. Moreover, although Mr. Wong, the Appellant's CRA technical advisor, had helped the Appellant set up its quirk-tracking system, his technical review report was the report in which the CRA split the five projects into twelve, demonstrating that <a href=\"/ca/glossary/pre-claim-consultation-pcc\">pre-claim consultation</a> with a CRA advisor does not immunize a taxpayer from adverse reassessment. When Form T661 narratives describe software development in terms of functional product features or multiple sub-objectives without explicitly anchoring every module to an overarching system-level technological uncertainty, CRA reviewers routinely fragment the project into isolated tasks and dismiss each iteration as standard <a href=\"/ca/faq/trial-and-error-vs-systematic-investigation-sred\">trial-and-error programming</a>."
+    },
+    {
+      "type": "subheading",
+      "text": "Total Disallowance of the $25,000 Subcontractor Claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "In its 2010 <a href=\"/ca/glossary/t661-form\">T661</a> filing, Allegro claimed $25,000 in eligible SR&ED contractor expenditures. Under <a href=\"/ca/legislation/ita-section-37-1-sred-expenditure-pool\">subsection 37(1)</a> and the definitions in subsection 127(9) of the ITA, as administered through the CRA's Assistance and Contract Payments Policy, a taxpayer claiming arm's-length contract expenditures must substantiate that the contractor performed directly eligible SR&ED work (or eligible supporting work under paragraph 248(1)(d)) in Canada on the taxpayer's behalf. At trial, Allegro did not argue that the Minister's assumption that the subcontractor's work did not constitute SR&ED was wrong, and provided the Court with no evidence to support a $25,000 payment to a contractor. Consequently, Justice D'Arcy excluded the entire $25,000 <a href=\"/ca/glossary/sred-subcontractor-costs\">contractor payment</a> when determining the Appellant's allowable SR&ED expenditures."
+    },
+    {
+      "type": "subheading",
+      "text": "Overstatement of Directly Engaged Salaries and Wages"
+    },
+    {
+      "type": "paragraph",
+      "text": "While Allegro proved the technical eligibility of all four project components remaining in dispute, the salary base the Court accepted was lower than the amount originally claimed on Form T661, because the Appellant had conceded two components (the remaining portion of 2010 Project 3 and TA3/TO3 of 2011 Project 1) and the Court computed the base from the Respondent's figures. The Appellant did not provide the details of its calculation of the amounts claimed on its tax returns, and neither party provided the per-project calculations the Court requested in May 2019 and again in September 2020; the \"Allegro Wireless Activity Timeline\" documents were CRA-supplied materials used by the Crown's expert, not payroll evidence adduced by the Appellant. Under Regulation 2900(4), the PPA is computed on the <a href=\"/ca/glossary/sred-wages-and-salaries\">salaries and wages</a> of employees directly engaged in SR&ED carried out in Canada, so the Court built the salary base by adding to the Minister's allowed amounts the salary and wages, taken from the Respondent's Exhibits R-9 and R-12, attributable to the components it found to be SR&ED. Justice D'Arcy did not reduce the salary base for overstatement: for 2010 he increased the $171,979 allowed by the Minister to $425,911 (against $562,005 claimed), and for 2011 he increased the $120,635 allowed to $355,891 (against $418,890 claimed); the differences of $136,094 (24.2 percent) and $62,999 (15.0 percent) reflect the conceded components and the Respondent's figures rather than a judicial finding that payroll was overstated. Because the PPA is calculated as 65 percent of this salary base, the lower base produced correspondingly lower proxy amounts ($276,842 for 2010 and $231,329 for 2011) and lower ITCs than claimed."
+    },
+    {
+      "type": "subheading",
+      "text": "Unaccounted Impact of Government Assistance (NRC-IRAP and OITC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Appellant's original ITC claims of $279,420 (on $798,342 of expenditures in 2010) and $215,567 (on $615,906 of expenditures in 2011) reflected the <a href=\"/ca/glossary/enhanced-investment-tax-credit-rate\">35 percent credit rate</a> applied after the Appellant had itself deducted OITC assistance ($88,705 in 2010 and $68,834 in 2011) and IRAP assistance ($65,261 in 2010 and $6,829 in 2011), although it provided no evidence of how it calculated the IRAP amounts or which employees' remuneration the IRAP Grant covered. Under paragraph 37(1)(d) and subsection 127(18) of the ITA, government assistance as defined in <a href=\"/ca/legislation/ita-section-127-9-investment-tax-credit-definitions\">subsection 127(9)</a> must be deducted from the SR&ED expenditure pool and from qualified expenditures before computing the federal ITC; the Court held that the IRAP Grant is government assistance, while the OITC was deducted by both parties as 10 percent of allowable expenditures plus the proxy amount less IRAP assistance, the Court having received no evidence on its nature. At trial, the Appellant did not object to the CRA's calculations except for its treatment of the IRAP Grant (on which the Appellant prevailed), and the Court deducted IRAP assistance of $202,889 for 2010 and $22,386 for 2011 and OITC assistance of $49,986 and $56,483 respectively, which reduced the final net qualifying expenditure pools."
+    },
+    {
+      "type": "subheading",
+      "text": "Administrative, Legal, and Evidentiary Failures of the Tax Authority"
+    },
+    {
+      "type": "subheading",
+      "text": "Artificial Fragmentation of Projects into Isolated TA/TO Segments"
+    },
+    {
+      "type": "paragraph",
+      "text": "A central feature of the CRA's <a href=\"/ca/glossary/sred-review\">administrative review</a> was its decision to split the Appellant's five projects into twelve separate TA/TO components (the three 2010 projects alone became seven), a division the Court noted was made by the CRA, not the Appellant. The Court did not hold that subsection 248(1) prohibits such a subdivision, but Dr. Penn questioned whether it made sense to split 2010 Project 2 into three components, and the Court accepted his view of how that component related to the project as a whole. This issue was most significant for TA3/TO3 of 2010 Project 2. The Appellant's expert, Dr. Gerald Penn, candidly stated that he did not believe TA3/TO3 of 2010 Project 2, considered by itself, constituted experimental development or research. Justice D'Arcy did not rule that the split was legally improper or rely expressly on paragraph (d); instead, having found TA1/TO1 of 2010 Project 2 to be <a href=\"/ca/glossary/experimental-development\">experimental development</a> and noting that the Minister had accepted TA2/TO2, he accepted Dr. Penn's conclusion that TA3/TO3 supported the other portions of 2010 Project 2 in such a way that it contributed to the overall aims of an experimental development project, and held that this work was experimental development."
+    },
+    {
+      "type": "subheading",
+      "text": "Misapprehension of \"Black Box\" System Uncertainty in Software Engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "The reasons do not identify a specific misapplication of the first and fourth criteria of <em>Northwest Hydraulic</em> by the CRA; rather, the Court rejected the Minister's position on the disputed components largely because the Crown's experts lacked any understanding of the Appellant's business and technological environment. The reasons do not set out a Crown argument that the work was routine systems integration using known programming languages; the Respondent's experts instead questioned, on the limited documents provided to them, whether the Appellant had formally presented and validated hypotheses and carried out the required analysis. Justice D'Arcy found that the Appellant faced a <a href=\"/ca/glossary/scientific-or-technological-uncertainty\">technological risk or uncertainty</a> that could not be resolved by routine engineering or standard procedure, because it had to make its platform work with a multitude of devices, servers, and printers whose underlying software it could not access (the so-called \"black boxes\"), in the technological environment of 2010 and 2011; the Court framed this as technological uncertainty and did not use the term \"system uncertainty\". When standard engineering procedures and published specifications in the relevant tax years (2010 and 2011) cannot resolve those black-box incompatibilities, the systematic formulation and testing of hypotheses to overcome those obstacles constitutes experimental development. Furthermore, Dr. Penn opined that Allegro was assembling a proprietary knowledge base of \"experimentally ascertained mobile device behaviours\" that did not exist in any readily accessible form, and the Court accepted his conclusion that the experiments resulted in a technological advancement as consistent with the evidence."
+    },
+    {
+      "type": "subheading",
+      "text": "Catastrophic Failure of the Crown's Expert Witnesses vs. Admissibility of the Appellant's Expert under White Burgess"
+    },
+    {
+      "type": "paragraph",
+      "text": "The decisive turning point at trial occurred during the presentation of expert witness testimony, providing a textbook demonstration of how expert evidence succeeds or fails in the Tax Court of Canada."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Appellant tendered Dr. Gerald Penn, a Professor in the Department of Computer Science at the University of Toronto. The Respondent mounted an aggressive challenge to the admissibility of Dr. Penn's expert report and testimony, triggering a formal <em>voir dire</em> governed by the Supreme Court of Canada's two-step admissibility framework in <em>White Burgess Langille Inman v. Abbott and Haliburton Co.</em>, 2015 SCC 23. The Crown raised concerns with Dr. Penn's qualifications and, regarding his report, with relevance and necessity, focusing on two main concerns: first, that Dr. Penn's report was so dependent on its rebuttal of the <a href=\"/ca/faq/cra-sred-technical-review-process\">technical review report</a> of the CRA's own advisor, Mr. Wong, that his stand-alone opinions could not be extricated; and second, that Dr. Penn relied on untranscribed telephone interviews with Mr. Rupel and Mr. Wayne Hammerschlag, so that the basis for opinions relying on those interviews could not be tested; the reasons do not record an objection that his opinion encroached on the ultimate legal issue."
+    },
+    {
+      "type": "paragraph",
+      "text": "Following the <em>voir dire</em>, Justice D'Arcy dismissed the Crown's objections and admitted Dr. Penn's report, although he ignored pages 17 to 24 (Exhibit C), which commented on documents Mr. Wong provided in response to an undertaking and did not form part of the expert opinion. First, the Court ruled that it had no difficulty differentiating Dr. Penn's comments on Mr. Wong's report from his own conclusions; because the CRA, not the Appellant, had divided Allegro's five projects into twelve projects in Mr. Wong's report, Dr. Penn needed to understand and refer to that report before providing his opinion. Second, during the Crown's cross-examination in the <em>voir dire</em>, Dr. Penn produced two pages of point-form notes briefly summarizing Mr. Rupel's and Mr. Hammerschlag's answers to his questions; Justice D'Arcy held the notes inadmissible as hearsay to prove the facts asserted but admissible as evidence of the basis of his opinion, and found that the factual foundation for Dr. Penn's opinion was proven by admissible evidence because his references to the Appellant's business were consistent with Mr. Rupel's testimony. Third, the Court accepted and relied upon Dr. Penn's expert opinion regarding whether the work performed constituted research and/or experimental development according to the standards of a researcher in information technology."
+    },
+    {
+      "type": "paragraph",
+      "text": "In stark contrast, the Crown tendered two expert witnesses, Dr. Shrinavensen Keshav and Dr. Shirook Ali. Although the Court qualified both as experts in the fields in which they offered opinions, Justice D'Arcy identified a \"fatal flaw\" in both of their expert reports and gave their opinions no weight. Neither Dr. Keshav nor Dr. Ali took steps to acquire a functional understanding of Allegro's specific business environment, software products, or experimental development procedures. Under cross-examination, both Dr. Keshav and Dr. Ali admitted that they were completely unaware of the existence of the Jira X and FogBugz tracking databases where Allegro contemporaneously recorded its hypotheses, experimental test runs, and results. Because Dr. Keshav relied primarily on the Appellant's Form T661 and Dr. Ali relied on a limited set of CRA-supplied documents, without examining the underlying engineering records, Dr. Keshav's conclusion that the Appellant did not formally present and validate hypotheses and Dr. Ali's concern that it was unclear whether the required analysis was conducted lacked the necessary factual foundation."
+    },
+    {
+      "type": "subheading",
+      "text": "Mathematical and Legal Error in Applying IRAP Government Assistance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, the Court identified a statutory error in the CRA's treatment of IRAP <a href=\"/ca/glossary/government-assistance\">government assistance</a> that affected both taxation years. For 2010, the CRA deducted $131,054 of IRAP assistance under paragraph 37(1)(d) when determining the section 37 deduction, but deducted $171,979, all of the salary and wages for the projects it accepted, under subsection 127(18) when determining the qualified expenditures for ITC purposes, and it made a similar calculation for 2011. Justice D'Arcy held that the same amount of government assistance in respect of SR&ED must be deducted under both paragraph 37(1)(d) and <a href=\"/ca/legislation/ita-section-127-18-to-20-sred-government-assistance-reductions\">subsection 127(18)</a>, that subsection 127(18) does not allow a deduction exceeding the assistance received, and fixed the IRAP deduction at $202,889 for 2010 and $22,386 for 2011."
+    },
+    {
+      "type": "heading",
+      "text": "(3) Comparative Summary Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and common-law requirement adjudicated in <em>Allegro Wireless Canada Inc. v. The Queen</em> (2021 TCC 27) against the specific taxpayer deficiency or tax authority failure and the Tax Court of Canada's governing standard of proof."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory or Common-Law Requirement",
+        "Governing Authority (Canadian Jurisdiction)",
+        "Taxpayer Deficiency or CRA / Crown Evidentiary Failure",
+        "Tax Court of Canada Standard of Proof & Final Holding"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1. <a href=\"/ca/faq/defining-technological-uncertainty-for-sred\">Technological Uncertainty</a> (Criterion 1 of <em>Northwest Hydraulic</em>)",
+            "ITA s. 248(1) (\"scientific research and experimental development\"); <em>Northwest Hydraulic Consultants Limited v. The Queen</em>, 98 DTC 1839 (TCC).",
+            "<strong>Taxpayer Issue:</strong> The reasons make no finding that the <a href=\"/ca/faq/cra-sred-claim-forms\">T661</a> framing was deficient; the Appellant's claims did not delineate TAs/TOs, a delineation the CRA itself created. <strong>CRA Failure:</strong> The Crown's experts did not understand the Appellant's environment of inaccessible third-party software (\"black boxes\") that gave rise to technological uncertainty.",
+            "<strong>Standard:</strong> Proof on a <a href=\"/ca/glossary/burden-of-proof\">balance of probabilities</a> that the uncertainty could not be resolved by routine engineering or standard procedures available in the claim years (2010–2011). <strong>Holding:</strong> Working with inaccessible \"black box\" software across many devices, servers, and printers created a technological risk or uncertainty that could not be resolved by <a href=\"/ca/faq/routine-engineering-vs-technological-advancement\">routine engineering</a> or standard procedure."
+          ]
+        },
+        {
+          "cells": [
+            "2. <a href=\"/ca/glossary/hypothesis-formulation\">Formulation of Hypotheses</a> (Criterion 2 of <em>Northwest Hydraulic</em>)",
+            "<a href=\"/ca/legislation/ita-section-248-1-sred-statutory-definitions\">ITA s. 248(1)</a>; <em>Northwest Hydraulic</em> (1998 TCC); <em>C.W. Agencies Inc. v. The Queen</em>, 2001 FCA 393.",
+            "<strong>CRA / Crown Expert Failure:</strong> Dr. Keshav concluded at points that the Appellant did not formally present and validate a hypothesis, relying primarily on Form T661 and unaware of Jira X and FogBugz; Dr. Ali, working from limited CRA-supplied documents, found it unclear whether the required analysis was conducted.",
+            "<strong>Standard:</strong> Specific hypotheses aimed at reducing or eliminating the identified technological uncertainty must be formulated prior to testing. <strong>Holding:</strong> The source code control system and Jira X quirk tracking system, which recorded the hypotheses made, their testing, and their modification, together with Mr. Rupel's testimony, showed that Allegro formulated hypotheses aimed at the identified uncertainty."
+          ]
+        },
+        {
+          "cells": [
+            "3. <a href=\"/ca/glossary/systematic-investigation-or-search\">Systematic Investigation</a> / Scientific Method (Criterion 3 of <em>Northwest Hydraulic</em>)",
+            "ITA s. 248(1); <em>Northwest Hydraulic</em> (1998 TCC); <em>Kam-Press Metal Products Ltd. v. Canada</em>, 2021 FCA 88 (decided after, and not cited in, the Allegro judgment).",
+            "<strong>Taxpayer Issue:</strong> The Appellant's process distinguished routine \"bugs\" from unexplained \"quirks\" and claimed only quirks whose resolution required significant experimentation. <strong>CRA Failure:</strong> The Crown's experts were not informed of, and did not consider, the tracking system the Appellant set up with the help of its CRA technical advisor Mr. Wong in Jira X and FogBugz.",
+            "<strong>Standard:</strong> Procedures must accord with established principles of the scientific method (systematic observation, measurement, experiment, and hypothesis modification) applied flexibly to the claimant's business environment. <strong>Holding:</strong> Satisfied across all disputed projects."
+          ]
+        },
+        {
+          "cells": [
+            "4. <a href=\"/ca/glossary/scientific-or-technological-advancement\">Technological Advancement</a> (Criterion 4 of <em>Northwest Hydraulic</em>)",
+            "ITA s. 248(1)(c); <em>Northwest Hydraulic</em> (1998 TCC); <em>National R&D Inc. v. Canada</em>, 2022 FCA 72 (decided after, and not cited in, the Allegro judgment).",
+            "<strong>CRA Failure:</strong> The reasons do not record a specific CRA argument on technological advancement; the Minister's disallowances rested on the view, supported only by expert reports the Court gave no weight, that the disputed components were not SR&ED.",
+            "<strong>Standard:</strong> The process must generate new technological knowledge or incremental improvements that advance the taxpayer's technological knowledge base beyond standard practice. <strong>Holding:</strong> The Court accepted Dr. Penn's conclusion that the experiments resulted in a technological advancement; his report described the resulting knowledge base of experimentally ascertained mobile device behaviours."
+          ]
+        },
+        {
+          "cells": [
+            "5. <a href=\"/ca/glossary/sred-supporting-documentation\">Contemporaneous Documentation</a> (Criterion 5 of <em>Northwest Hydraulic</em>)",
+            "ITA s. 248(1); <em>Northwest Hydraulic</em> (1998 TCC).",
+            "<strong>CRA / Crown Expert Failure:</strong> Crown experts testified they were entirely unaware of the Jira X and FogBugz logs. <strong>Taxpayer Strength:</strong> Maintained detailed source control, FogBugz, and Jira X records as work progressed.",
+            "<strong>Standard:</strong> Detailed records of hypotheses tested and experimental results must be maintained contemporaneously as the work progresses. <strong>Holding:</strong> The source code control system and Jira X quirk tracking system, as described by Mr. Rupel, established that a detailed record of the hypotheses tested and results achieved was kept as the work progressed."
+          ]
+        },
+        {
+          "cells": [
+            "6. Holistic Project Evaluation & <a href=\"/ca/glossary/sred-support-work\">Supporting Work</a>",
+            "ITA s. 248(1) definition (the Court did not expressly rely on paragraph (d)); expert evidence of Dr. Penn.",
+            "<strong>CRA Failure:</strong> Split five filed projects into twelve TA/TO components and disallowed TA3/TO3 of 2010 Project 2, which Dr. Penn agreed was not experimental development when viewed by itself.",
+            "<strong>Standard:</strong> A component that is not experimental development on its own may be accepted as experimental development where it supports the other portions of the project so as to contribute to the overall aims of an experimental development project (as accepted from Dr. Penn's evidence). <strong>Holding:</strong> TA3/TO3 of 2010 Project 2 was experimental development."
+          ]
+        },
+        {
+          "cells": [
+            "7. Admissibility & Weight of Expert Opinion Evidence",
+            "<em>White Burgess Langille Inman v. Abbott and Haliburton Co.</em>, 2015 SCC 23; <em>R. v. Mohan</em>, [1994] 2 SCR 9; <em>Tax Court of Canada Rules (General Procedure)</em>.",
+            "<strong>Crown Challenge:</strong> Attacked Appellant's expert (Dr. Penn) for relying on CRA advisor Mr. Wong's report and on untranscribed phone interviews with Mr. Rupel and Mr. Hammerschlag. <strong>Crown Expert Failure:</strong> Dr. Keshav and Dr. Ali failed to review Jira X / FogBugz or understand the taxpayer's business.",
+            "<strong>Standard:</strong> Under <em>White Burgess</em> (confirming <em>Mohan</em>), proposed expert evidence must meet the threshold requirements of relevance, necessity, absence of an exclusionary rule, and a properly qualified expert, and then survive a cost-benefit analysis; the extent to which its factual foundation is proven goes to weight. <strong>Holding:</strong> Dr. Penn's interview notes were admissible as evidence of the basis of his opinion (not for their truth), and his factual foundation was proven by Mr. Rupel's consistent testimony; Crown experts given no weight."
+          ]
+        },
+        {
+          "cells": [
+            "8. <a href=\"/ca/glossary/arms-length-relationship\">Arm's-Length</a> Contractor Expenditures",
+            "ITA ss. 37(1), 127(9); CRA Assistance and Contract Payments Policy.",
+            "<strong>Taxpayer Failure:</strong> Claimed $25,000 for a contractor in 2010 but did not argue that the Minister's assumption (that the subcontractor's work was not SR&ED) was wrong and provided no evidence supporting the payment.",
+            "<strong>Standard:</strong> The taxpayer must rebut, with evidence, the Minister's assumption that the contractor's work was not SR&ED. <strong>Holding:</strong> $25,000 contractor expenditure completely disallowed."
+          ]
+        },
+        {
+          "cells": [
+            "9. <a href=\"/ca/faq/calculating-sred-salary-and-wages\">Directly Engaged Salaries, Wages</a> & Prescribed Proxy Amount (PPA)",
+            "<a href=\"/ca/legislation/ita-section-37-1-a-current-sred-expenditures\">ITA s. 37(1)(a)</a>, cl. 37(8)(a)(ii)(B), s. 37(10); <em>Income Tax Regulations</em> s. 2900(4).",
+            "<strong>Taxpayer Deficiency:</strong> Claimed $562,005 (2010) and $418,890 (2011); the accepted base was lower because two components were conceded and the Court used the Respondent's per-project salary figures (Exhibits R-9 and R-12), neither party having supplied the calculations the Court requested.",
+            "<strong>Standard:</strong> Only the proportion of salaries and wages of employees directly engaged in SR&ED may be included in the salary base and PPA calculation. <strong>Holding:</strong> Allowed $425,911 (2010) and $355,891 (2011), with proportionate PPA adjustments."
+          ]
+        },
+        {
+          "cells": [
+            "10. Government Assistance Deductions (NRC-IRAP & OITC)",
+            "ITA ss. 37(1)(d), 127(9) (\"government assistance\", \"qualified expenditure\"), 127(18).",
+            "<strong>Taxpayer Issue:</strong> Provided no evidence of how it calculated its own IRAP deductions or which employees' remuneration the IRAP Grant covered; no evidence was received on the nature of the OITC. <strong>CRA Failure:</strong> Deducted under s. 127(18) all salary and wages for accepted projects ($171,979 in 2010) rather than the IRAP amount deducted under s. 37(1)(d) ($131,054), with a similar approach for 2011.",
+            "<strong>Standard:</strong> The same amount of government assistance (as defined in s. 127(9)) received in respect of SR&ED must be deducted under both s. 37(1)(d) and s. 127(18), and s. 127(18) does not permit a deduction exceeding the assistance received. <strong>Holding:</strong> IRAP deductions fixed at $202,889 (2010) and $22,386 (2011); OITC deductions of $49,986 (2010) and $56,483 (2011)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "(4) Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the judicial holdings of <em>Allegro Wireless Canada Inc. v. The Queen</em> (2021 TCC 27) into actionable compliance protocols for Canadian corporate claimants, the following two industry case studies examine realistic engineering projects confronting the exact legal, technical, contractual, and evidentiary pitfalls identified by Justice D'Arcy."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Enterprise FinTech Middleware & Closed-Source (\"Black Box\") Mobile Biometric Enclave Integration"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Vulnerability Diagnostic"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Toronto-based <a href=\"/ca/glossary/canadian-controlled-private-corporation-ccpc\">Canadian-Controlled Private Corporation (CCPC)</a>, FinSync Architecture Inc., is developing a real-time cryptographic transaction-signing middleware engine designed to bridge legacy enterprise banking mainframes with proprietary biometric security enclaves across fragmented iOS and Android mobile hardware devices. Because smartphone manufacturers lock the source code and hardware abstraction layers of their secure enclaves, FinSync's software architects must treat the mobile hardware enclaves as \"black boxes\". Under high-concurrency background states, undocumented power-management interrupts inside the proprietary mobile operating systems unpredictably terminate cryptographic handshakes without throwing standard error codes."
+    },
+    {
+      "type": "paragraph",
+      "text": "In preparing its SR&ED claim, FinSync faces three acute vulnerabilities mirroring <em>Allegro Wireless</em>: first, its initial T661 draft describes the project as four separate commercial feature deliverables, including a routine data-marshalling parser (analogous to TA3/TO3 in Allegro's 2010 Project 2), inviting the CRA to split the project into isolated TA/TOs and disallow the parser and iterative enclave testing as routine API integration; second, FinSync's developers use Jira to track commercial sprint tickets without distinguishing experimental hypotheses from standard bug fixes; and third, FinSync paid $60,000 to an arm's-length Waterloo cryptography consultancy under a generic master services agreement with lump-sum monthly invoices stating \"Consulting Services Rendered,\" leaving the payment without evidence tying it to SR&ED work, the same gap that led to the exclusion of Allegro's $25,000 contractor claim, where the Appellant offered no evidence at all."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Holistic Architecture Mapping"
+    },
+    {
+      "type": "paragraph",
+      "text": "To preempt the CRA's administrative practice of splitting a single project into disjointed TA/TO fragments, FinSync must restructure its internal SR&ED governance and Form T661 project definition around a unified system-level technological uncertainty. Rather than filing separate sub-objectives tied to product features, the Chief Technology Officer must charter a <a href=\"/ca/faq/grouping-rd-activities-into-sred-projects\">single, cohesive SR&ED project</a> defined by the core system uncertainty: whether a deterministic, zero-drop cryptographic handshake protocol can be achieved across asynchronous, closed-source mobile hardware enclaves (\"black boxes\") whose internal thread-scheduling and power-throttling algorithms are proprietary and inaccessible. Within this unified project charter, the routine data-marshalling parser (the TA3/TO3 equivalent) must be explicitly mapped as an essential telemetry instrumentation harness required to inject test payloads into the black-box enclaves and capture latency metrics, thereby anchoring its legal eligibility as commensurate supporting work under paragraph 248(1)(d) of the ITA rather than claiming it as a standalone technological advancement under paragraph 248(1)(c)."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and Contemporaneous Experimentation Tracking in Jira"
+    },
+    {
+      "type": "paragraph",
+      "text": "To satisfy the second, third, and fifth criteria of <em>Northwest Hydraulic</em> and replicate the evidentiary strength of Allegro's Jira X and FogBugz databases, FinSync must reconfigure its Jira instance to enforce a strict structural separation between commercial software engineering and SR&ED experimental development. FinSync should deploy a dedicated \"SR&ED Experimental Epic\" workflow in Jira containing mandatory custom schema fields that mirror the scientific method, capturing the observed black-box constraint or system uncertainty, the specific mathematical or architectural hypothesis formulated to bypass the undocumented operating system interrupt, the experimental protocol and supporting code modules invoked during the test, and the resulting empirical observations. Every Git commit hash and automated test log must link dynamically to a parent Hypothesis Ticket in Jira, generating a chronological, immutable audit trail proving that code iterations were driven by systematic hypothesis testing rather than <a href=\"/ca/glossary/trial-and-error\">trial-and-error</a> debugging."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Subcontractor Contract Restructuring and Statement of Work Compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "To prevent the disallowance suffered by Allegro on its $25,000 contractor expenditure, FinSync must overhaul its contractual documentation with the Waterloo cryptography consultancy in strict accordance with subsection 37(1), the definitions in subsection 127(9), and the CRA's Assistance and Contract Payments Policy. Prior to the commencement of work (or via a formal, bilateral contract amendment executed contemporaneously with the task), FinSync and the subcontractor must execute a granular Statement of Work (SOW) that explicitly stipulates that all coding, mathematical analysis, and testing services are performed on behalf of FinSync exclusively within Canada, and that all resulting intellectual property vests <em>ab initio</em> in FinSync. Furthermore, the SOW must enumerate the exact experimental hypotheses and supporting test scripts (referenced by FinSync Jira Epic IDs) assigned to the subcontractor, and enforce a mandatory invoicing protocol requiring the subcontractor to submit itemized bi-weekly timesheets cross-referenced to specific Jira Hypothesis Tickets and Git pull requests rather than lump-sum retainer bills."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Experimental Knowledge Base Compilation and Narrative Positioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "At year-end, FinSync must compile its Jira <a href=\"/ca/glossary/sred-logbooks\">experimental logs</a> into a consolidated \"Black-Box Behavioural Matrix\"—directly analogous to the knowledge base of experimentally ascertained mobile device behaviours described in Dr. Penn's expert report, whose conclusions Justice D'Arcy accepted in <em>Allegro Wireless</em>. When drafting Part 2 of Form T661 (Boxes 242, 244, and 246), the <a href=\"/ca/faq/cra-sred-technical-documentation-requirements\">technical narrative</a> must explicitly reference the Jira Hypothesis Ticket sequences, quantify the baseline failure rates of standard API protocols, detail the progression of failed and modified hypotheses, and demonstrate how the newly generated knowledge base of undocumented mobile enclave behaviours resolved the system uncertainty."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Remediation Dimension",
+        "Pre-Restructuring Vulnerability (Allegro Pitfall)",
+        "Post-Restructuring Governance & Evidentiary Protocol (TCC Standard)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Project Scope & Supporting Work (ITA s. 248(1)(c)-(d))",
+            "Filing multiple disconnected TA/TO objectives on Form T661, exposing supporting code modules (like TA3/TO3) to isolated disqualification by the CRA.",
+            "Chartering a single unified project around core \"black-box\" system uncertainty and documenting supporting modules as necessary test harnesses under s. 248(1)(d)."
+          ]
+        },
+        {
+          "cells": [
+            "Contemporaneous Tracking (<em>Northwest Hydraulic</em> Criteria 2, 3 & 5)",
+            "Commingling commercial bug-fix tickets and experimental iterations in standard issue trackers, allowing CRA reviewers to dismiss coding as routine debugging.",
+            "Configuring dedicated Jira SR&ED Epics with mandatory fields for Hypothesis, Experimental Test Protocol, Empirical Observation, and linked Git commits."
+          ]
+        },
+        {
+          "cells": [
+            "Subcontractor Substantiation (ITA ss. 37(1), 127(9))",
+            "Relying on generic master service agreements and unitemized lump-sum invoices, leading to 100% disallowance of contractor costs (as with Allegro's $25,000 claim).",
+            "Executing SR&ED-specific SOWs mandating <a href=\"/ca/faq/sred-work-performed-outside-canada\">Canadian work performance</a>, IP ownership, and itemized invoices tied directly to Jira Hypothesis IDs and code deliverables."
+          ]
+        },
+        {
+          "cells": [
+            "Technological Advancement (<em>Northwest Hydraulic</em> Criterion 4)",
+            "Describing the project outcome in terms of commercial middleware functionality rather than advancements in underlying computer science knowledge.",
+            "Documenting an experimentally ascertained knowledge base of previously undocumented third-party \"black-box\" system behaviours."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Industrial IoT Embedded Firmware, Payroll Allocation Controls, and Government Assistance Ring-Fencing"
+    },
+    {
+      "type": "subheading",
+      "text": "Baseline Scenario and Vulnerability Diagnostic"
+    },
+    {
+      "type": "paragraph",
+      "text": "An Ontario-based industrial automation and robotics manufacturer, AeroSense Controls Ltd., is developing an embedded edge-computing firmware architecture and sensor-fusion algorithm to stabilize autonomous inspection drones operating inside high-electromagnetic-interference (EMI) steel smelting facilities. AeroSense employs 12 full-time firmware and hardware engineers who divide their workweek between eligible SR&ED experimentation (resolving non-linear magnetohydrodynamic sensor drift), commercial client deployments, and routine customer support."
+    },
+    {
+      "type": "paragraph",
+      "text": "AeroSense faces three severe financial and evidentiary vulnerabilities directly mirroring the adjustments and litigation battles in <em>Allegro Wireless</em>: first, AeroSense intends to claim 85 percent to 100 percent of its engineering payroll ($800,000) and the corresponding Prescribed Proxy Amount (PPA) based on retrospective year-end management estimates, risking a reduced salary base if those figures cannot be tied to SR&ED work (in Allegro, where the Appellant provided no details of how it calculated its claim, the Court built the base itself from the Respondent's per-project figures, and the accepted base ended up $136,094 (2010) and $62,999 (2011) below the amounts claimed, reflecting conceded components rather than a judicial finding of overstatement); second, AeroSense received a $250,000 NRC-IRAP contribution agreement written with broad, general project descriptions that overlap both its SR&ED experimentation and its commercial field-trial activities, alongside claiming the <a href=\"/ca/faq/provincial-rd-tax-credits-canada\">Ontario Innovation Tax Credit (OITC)</a>, creating acute exposure to an over-broad government assistance clawback or inconsistent CRA calculation; and third, due to high engineer turnover in the Canadian technology sector, AeroSense lacks a formal evidentiary preservation protocol to ensure an external expert witness could verify the factual foundation of the work years later in a Tax Court <em>voir dire</em> under <em>White Burgess</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step-by-Step Remedial Restructuring Blueprint"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Contemporaneous Activity Timeline Payroll Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid the gap between claimed and accepted salaries seen in Allegro (where salaries of $562,005 in 2010 and $418,890 in 2011 were claimed, but the Court, lacking the parties' per-project calculations, accepted $425,911 and $355,891 respectively after the conceded components were excluded) and protect the Prescribed Proxy Amount (PPA) under Regulation 2900(4), AeroSense must eliminate retrospective year-end percentage estimates. Building upon the \"Allegro Wireless Activity Timeline\" concept referenced by Justice D'Arcy, AeroSense must integrate a mandatory, <a href=\"/ca/glossary/time-tracking-records\">weekly time-allocation ledger</a> directly into its engineering workflow. Every engineer must log hours across three mutually exclusive cost centres separating direct core experimental development under paragraph 248(1)(c), <a href=\"/ca/faq/sred-direct-support-work\">direct commensurate supporting work</a> under paragraph 248(1)(d) (such as building EMI test rigs, sensor data collection, and mathematical analysis), and non-SR&ED commercial or routine engineering. Each weekly time entry in the core and supporting SR&ED categories must require a valid link to an active experimental test log, and must be reviewed and signed off monthly by the Vice President of Engineering, creating a contemporaneous payroll audit trail that withstands both <a href=\"/ca/glossary/cra-financial-reviewer\">CRA financial audits</a> and Tax Court scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and White Burgess Evidentiary Preservation"
+    },
+    {
+      "type": "paragraph",
+      "text": "As demonstrated in <em>Allegro Wireless</em>, an <a href=\"/ca/faq/disputing-cra-sred-review-decision\">SR&ED appeal</a> often reaches trial seven to ten years after the taxation year ends, by which time key developers may have departed the company. In <em>Allegro Wireless</em>, Dr. Penn's evidence was admitted after a <em>White Burgess voir dire</em>: he had reviewed 284 electronic document files, spent significant time understanding the Appellant's business environment, and produced two pages of point-form notes summarizing his telephone interviews with Mr. Rupel and Mr. Hammerschlag, and the Court found his factual references consistent with Mr. Rupel's testimony, whereas the Crown's experts (Dr. Keshav and Dr. Ali) were given no weight because they lacked an understanding of the Appellant's business and were unaware of its bug/quirk tracking software. To make its claim completely <em>voir dire</em>-resilient, AeroSense must implement a \"Litigation-Grade Archive Protocol\" at the close of each fiscal quarter. This protocol requires exporting a complete, read-only snapshot of the engineering tracking database (including all hypothesis tickets, oscilloscope telemetry logs, simulation parameters, and failed firmware branches), coupled with recorded, transcribed quarterly technical exit reviews where lead engineers explain the technological uncertainties encountered and the hypotheses tested. If an independent expert is later retained for litigation, the expert will possess both the raw experimental database and transcribed contemporaneous engineering narratives, neutralizing any hearsay or factual-foundation objection under <em>White Burgess</em>."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Contractual Ring-Fencing of NRC-IRAP Grants and Provincial OITC Reconciliation"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>Allegro Wireless</em>, the deduction of $202,889 (in 2010) and $22,386 (in 2011) in IRAP government assistance, alongside the <a href=\"/ca/glossary/provincial-territorial-rd-tax-credits\">provincial OITC</a>, significantly reduced the taxpayer's net qualified expenditure pool, while also exposing a CRA error, affecting both years, of deducting under subsection 127(18) an amount exceeding the IRAP assistance actually received in respect of SR&ED. Under paragraph 37(1)(d) and subsection 127(18) of the ITA (with \"government assistance\" defined in subsection 127(9)), government assistance only reduces the <a href=\"/ca/glossary/sred-expenditure-pool\">SR&ED expenditure pools</a> to the extent that the assistance can reasonably be considered to be \"in respect of\" the claimed SR&ED. When negotiating its NRC-IRAP Contribution Agreement, AeroSense must work with its Industrial Technology Advisor to contractually ring-fence the funded activities into distinct work packages with separate general ledger cost codes: Work Package A (covering eligible SR&ED sensor-fusion experimentation) and Work Package B (covering non-SR&ED commercial prototype ruggedization, industrial housing fabrication, and market certification). By explicitly allocating IRAP reimbursement claims in the contribution agreement and monthly NRC claim sheets to Work Package B's non-SR&ED commercial payroll, AeroSense legally minimizes the portion of the IRAP grant that is \"in respect of\" SR&ED, thereby preserving the maximum possible unreduced SR&ED expenditure base. Furthermore, for any IRAP funding that does overlap Work Package A, AeroSense must prepare a unified Section 37 / Section 127 Reconciliation Schedule (incorporating the exact <a href=\"/ca/faq/federal-and-provincial-sred-credit-interaction\">OITC provincial assistance calculation</a> on Schedule T2SCH566) to ensure consistent deduction across both the deductible expenditure pool and the federal ITC qualified expenditure pool."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Systematic Experimentation Tracking and Proxy Base Optimization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, to ensure that the directly engaged salary base maximizes the <a href=\"/ca/glossary/prescribed-proxy-amount-ppa\">Prescribed Proxy Amount (PPA)</a> under Regulation 2900(4), AeroSense must track the nexus between its hardware technicians' testing activities and the core firmware hypotheses. Whenever a technician constructs a specialized Faraday cage or operates an EMI signal generator to test a firmware hypothesis, the technician's <a href=\"/ca/faq/sred-employee-time-tracking-requirements\">time log</a> must reference the parent firmware Hypothesis ID, proving that the physical testing is directly in support of experimental development under paragraph 248(1)(d) and ensuring those wages remain fully includable in the PPA salary base."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Remediation Dimension",
+        "Pre-Restructuring Vulnerability (Allegro Pitfall)",
+        "Post-Restructuring Governance & Evidentiary Protocol (TCC Standard)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Directly Engaged Salary Base & PPA (ITA s. 37(1); Reg. 2900(4))",
+            "Claiming high-percentage retrospective salary estimates without granular time separation, risking a reduced salary base and PPA (in Allegro, the accepted base in both 2010 and 2011 was below the amount claimed, reflecting conceded components and the absence of the taxpayer's own per-project calculations).",
+            "Implementing weekly contemporaneous Activity Timeline ledgers segregating Core SR&ED (s. 248(1)(c)), Supporting Work (s. 248(1)(d)), and Routine Commercial tasks linked to test IDs."
+          ]
+        },
+        {
+          "cells": [
+            "Expert Witness Foundation (<em>White Burgess</em>, 2015 SCC 23)",
+            "Relying on unrecorded post-hoc recollections or summary T661 narratives, risking <em>voir dire</em> exclusion or zero evidentiary weight (as befell the Crown's experts Dr. Keshav and Dr. Ali).",
+            "Archiving quarterly read-only snapshots of engineering databases alongside transcribed developer technical reviews to provide an unassailable factual foundation for expert witnesses."
+          ]
+        },
+        {
+          "cells": [
+            "NRC-IRAP & OITC Government Assistance (ITA ss. 37(1)(d), 127(9))",
+            "Accepting broad, undifferentiated IRAP contribution agreements that trigger 100% clawback against the SR&ED pool, or suffering inconsistent CRA deduction calculations.",
+            "Structuring IRAP contribution agreements with segregated work packages and GL codes for SR&ED vs. non-SR&ED commercial tasks, paired with a unified s. 37 / s. 127 / OITC reconciliation schedule."
+          ]
+        },
+        {
+          "cells": [
+            "Supporting Technician Wages (ITA s. 248(1)(d))",
+            "Failing to connect physical lab testing and data collection hours to specific software/firmware hypotheses, leading to exclusion from the proxy salary base.",
+            "Cross-referencing all technician lab testing, data collection, and test-rig fabrication logs directly to the active firmware Hypothesis Ticket ID."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -77,7 +77,7 @@ export function PageView({ page }: { page: PageRecord }) {
     <article className="mx-auto max-w-3xl px-6 py-12" lang={page.language}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
-      <BackLink fallbackHref={hubAddress(page.country, page.kind)} fallbackName={SECTION_LABEL[page.kind]} />
+      <BackLink fallbackHref={hubAddress(page.country, page.kind)} fallbackName={`${country} ${SECTION_LABEL[page.kind]}`} />
       <p className="text-xs font-medium uppercase tracking-wide text-blue-700">
         {SECTION_LABEL[page.kind]} &middot;{" "}
         <SiteLink href={countryHref(page.country)} className="hover:underline">

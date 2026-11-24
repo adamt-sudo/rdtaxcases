@@ -17,6 +17,8 @@ export interface PageRecord {
   description?: string;
   /** The answer capsule of the document as plain text: the answer shown for a FAQ question in its structured data. */
   summary?: string;
+  /** The key phrase the owner gave the page (not shown on the page). */
+  keyPhrase?: string;
   /** Dates as the document states them (ISO yyyy-mm-dd). */
   published?: string;
   updated?: string;

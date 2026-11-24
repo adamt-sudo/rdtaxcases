@@ -43,6 +43,9 @@ export function allContent() {
 const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
 export function isExisting(address, content, countryCodes) {
   if (FIXED.has(address) || /^\/us\/states\/[a-z-]+$/.test(address)) return true;
+  // the list page of a country exists as soon as the country has a page of that type
+  const hub = address.match(/^(\/[a-z]{2}\/(?:glossary|faq|legislation))$/);
+  if (hub && content.some((c) => c.kind === "page" && c.status !== "draft" && c.address.startsWith(hub[1] + "/"))) return true;
   if (/^\/[a-z]{2}$/.test(address) && countryCodes.has(address.slice(1))) return true;
   return content.some((c) => c.address === address && c.status !== "draft" && (c.kind !== "case" || c.status === "published"));
 }
