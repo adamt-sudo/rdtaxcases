@@ -235,13 +235,16 @@ function dropRepeatedNumber(text) {
       var n = function (sel) { return doc.querySelectorAll(sel).length; };
       var meta = typeof d.metaDescription === "string" ? d.metaDescription : typeof d.description === "string" ? d.description : "";
       var notes = [];
-      if (!capsule) notes.push("no answer capsule found (section class=answer-capsule)" + (meta ? "" : ": fill in the meta description"));
+      if (!capsule && !meta) notes.push("no answer capsule found and the meta description is empty: fill in the meta description");
       if (meta.length > 155) notes.push("the meta description is " + meta.length + " characters (at most 155)");
-      if (n("h1")) notes.push("the h1 heading will be removed (the page writes its own title)");
-      if (n("script, style")) notes.push("scripts and styles will be removed");
+      var info = [];
+      if (n("h1")) info.push("the h1 heading will be removed (the page writes its own title)");
+      if (n("script, style")) info.push("scripts and styles will be removed");
       htmlInfo = h("div", { className: notes.length ? "bad" : "ok" },
         "HTML body: " + n("h2, h3, h4") + " headings, " + n("p") + " paragraphs, " + n("li") + " list items, " + n("table") + " tables, " + n("a") + " links. " +
-        "It becomes the page text when the site is built; the text blocks are ignored." + (notes.length ? " Check: " + notes.join("; ") + "." : ""));
+        "It becomes the page text when the site is built; the text blocks are ignored." +
+        (notes.length ? " Problem: " + notes.join("; ") + "." : "") +
+        (info.length ? " Cleaned automatically: " + info.join("; ") + "." : ""));
     }
     return h("div", { className: "rdp" },
       problems.length

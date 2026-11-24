@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import { decodeEntities, inlineProblems, linksIn, normalizeInternalHref, parseInline, plainText, safeHref, hasMarkup } from "../src/lib/inline-core.mjs";
 import { htmlToBlocks, unescapeDoc } from "./import-html-case.mjs";
 import { dropRepeatedNumber } from "../src/lib/list-label.mjs";
+import { resolveHtmlBody } from "./lib/html-body.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 let n = 0;
@@ -94,7 +95,8 @@ ok("hasMarkup", () => {
 ok("every case: markup valid; text without markup unchanged", () => {
   const dir = path.join(__dirname, "..", "content", "cases");
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
-    const c = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    // a case written in the editor with an HTML body is read as the site is built from it
+    const c = resolveHtmlBody(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")), "case").record;
     const texts = c.body.flatMap((b) => (b.type === "list" ? b.items : b.type === "table" ? b.rows.flatMap((r) => (Array.isArray(r) ? r : r.cells)) : [b.text]));
     for (const t of texts) {
       assert.equal(inlineProblems(t).length, 0, `${f}: ${t.slice(0, 60)}`);

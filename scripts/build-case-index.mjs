@@ -54,7 +54,7 @@ for (const f of files) {
     fs.mkdirSync(RESOLVED_DIR, { recursive: true });
     fs.writeFileSync(path.join(RESOLVED_DIR, f), JSON.stringify(c, null, 2) + "\n");
   }
-  if (c.slug !== slug) bad(`slug "${c.slug}" does not match the file name`);
+  if (c.slug !== slug) bad(`the slug field says "${c.slug}" but the file is called ${f}: they must be the same (use only lowercase letters, numbers and hyphens)`);
   for (const k of ["title", "caseNumber", "subject", "jurisdictionGroup", "jurisdictionSlug", "summary"]) {
     if (typeof c[k] !== "string" || !c[k].trim()) bad(`the field "${FIELD_LABELS[k] ?? k}" is empty`);
   }
