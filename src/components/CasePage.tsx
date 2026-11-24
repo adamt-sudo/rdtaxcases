@@ -4,6 +4,7 @@ import { CaseTranslationToggle } from "@/components/CaseTranslationToggle";
 import { BackLink } from "@/components/BackLink";
 import { CopyAttribution } from "@/components/CopyAttribution";
 import type { CaseRecord } from "@/types/case";
+import siteMap from "../../content/site-map.json";
 import { absolute, caseHref, countryHref, listingHref, SITE, stateHref, US_FEDERAL, US_STATES } from "@/lib/urls";
 
 const NOTICE =
@@ -65,9 +66,15 @@ export function CasePage({ caseRecord }: { caseRecord: CaseRecord }) {
     })),
   };
 
+  // the language of the page: the country's (en-CA for Canada, it-IT for Italy...), en-US for the USA
+  const htmlLang =
+    caseRecord.jurisdictionGroup === "country"
+      ? ((siteMap.countries as Record<string, { htmlLang: string }>)[caseRecord.jurisdictionSlug]?.htmlLang ?? caseRecord.language ?? "en")
+      : "en-US";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
+    inLanguage: htmlLang,
     // Stable identifier the US listing pages' Dataset entries can reference by @id.
     "@id": caseUrl,
     headline: caseRecord.title,
@@ -85,7 +92,7 @@ export function CasePage({ caseRecord }: { caseRecord: CaseRecord }) {
   };
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-12">
+    <article className="mx-auto max-w-3xl px-6 py-12" lang={htmlLang}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <BackLink

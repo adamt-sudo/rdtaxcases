@@ -2,8 +2,13 @@ import { countries } from "@/data/countries";
 import { usStateJurisdictions } from "@/data/jurisdictions";
 import { knownAddresses } from "@/data/addresses.index";
 
-const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states", "/us/glossary", "/us/faq", "/us/legislation"]);
+const FIXED = new Set(["/", "/about", "/contact", "/copyright", "/search", "/us", "/us/federal", "/us/states"]);
 const PAGES = new Set(knownAddresses);
+// the list page of a country (/ca/glossary) exists as soon as the country has a page of that type (/ca/glossary/<term>)
+for (const a of knownAddresses) {
+  const m = a.match(/^(\/[a-z]{2}\/(?:glossary|faq|legislation))\/[^/]+$/);
+  if (m) PAGES.add(m[1]);
+}
 const STATES = new Set(usStateJurisdictions.map((s) => `/us/states/${s.slug}`));
 const COUNTRIES = new Set(["us", ...countries.map((c) => c.slug)].map((c) => `/${c}`));
 

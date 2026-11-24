@@ -97,11 +97,16 @@ const body = {
     "Put quotation marks only around the court's exact words.",
 };
 
-function caseFields({ group, slugField }) {
+function caseFields({ group, slugField, countryCode }) {
   return [
     str("Slug (web address)", "slug", {
-      hint: "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
-      pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Use lowercase letters, numbers and hyphens only"],
+      hint:
+        "Only the last part of the address: no /ca/ or /us/ prefix and no slashes (the country is set by the list you add the case to). " +
+        "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+      pattern: [
+        "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens",
+      ],
     }),
     str("Title", "title", { hint: "Case name as it is cited" }),
     str("Subtitle", "articleTitle", { required: false }),
@@ -126,11 +131,13 @@ function caseFields({ group, slugField }) {
     str("Subject", "subject"),
     { label: "Section", name: "jurisdictionGroup", widget: "hidden", default: group },
     slugField,
-    str("Country code", "country", {
-      required: false,
-      hint: "Two letters, e.g. IT. Countries only.",
-      pattern: ["^[A-Z]{2}$", "Two capital letters"],
-    }),
+    countryCode
+      ? { label: "Country code", name: "country", widget: "hidden", default: countryCode }
+      : str("Country code", "country", {
+          required: false,
+          hint: "Two letters, e.g. IT. Countries only.",
+          pattern: ["^[A-Z]{2}$", "Two capital letters"],
+        }),
     str("Language of the page text", "language", {
       required: false,
       hint: "Code of the language the text is written in, e.g. it, de, es. Leave empty for English.",
@@ -172,11 +179,14 @@ const countrySelect = {
   name: "jurisdictionSlug",
   widget: "select",
   options: [...countries]
+    .filter((c) => c.slug !== "ca") // Canada has its own list ("Canada cases"), so a case cannot land in the wrong country
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((c) => ({ label: c.name, value: c.slug })),
 };
 
-const caseCollection = (name, label, group, slugField, description) => ({
+const canadaHidden = { label: "Country", name: "jurisdictionSlug", widget: "hidden", default: "ca" };
+
+const caseCollection = (name, label, group, slugField, description, extra = {}) => ({
   name,
   label,
   description,
@@ -189,8 +199,8 @@ const caseCollection = (name, label, group, slugField, description) => ({
   identifier_field: "title",
   summary: "{{title}}, {{caseNumber}}",
   sortable_fields: ["title", "year"],
-  filter: { field: "jurisdictionGroup", value: group },
-  fields: caseFields({ group, slugField }),
+  filter: extra.filter ?? { field: "jurisdictionGroup", value: group },
+  fields: caseFields({ group, slugField, countryCode: extra.countryCode }),
 });
 
 const config = {
@@ -233,11 +243,19 @@ const config = {
       "Cases from state courts and agencies.",
     ),
     caseCollection(
+      "canada",
+      "Canada cases",
+      "country",
+      canadaHidden,
+      "Cases from Canadian courts. The address is /ca/<slug>: type the slug without /ca/ (for example northwest-hydraulic-consultants-v-the-queen-1998-tcc).",
+      { filter: { field: "jurisdictionSlug", value: "ca" }, countryCode: "CA" },
+    ),
+    caseCollection(
       "countries",
-      "Country cases",
+      "Country cases (other countries)",
       "country",
       countrySelect,
-      "Cases from other countries. The text is written in the language of the decision.",
+      "Cases from other countries (Canada has its own list). The text is written in the language of the decision.",
     ),
     {
       name: "translations",

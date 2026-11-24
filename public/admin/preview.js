@@ -234,7 +234,7 @@ function dropRepeatedNumber(text) {
       d.summary ? h("div", { className: "sum" }, plainText(d.summary)) : null,
       body);
   }
-  ["usa_federal","usa_states","countries","translations"].forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
+  ["usa_federal","usa_states","canada","countries","translations"].forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });
   CMS.registerPreviewStyle(".rdp{font-family:system-ui,sans-serif;color:#1e293b;line-height:1.6;padding:16px;max-width:720px}.rdp h1{font-size:26px;margin:0 0 6px}.rdp h2{font-size:20px;margin:22px 0 6px}.rdp h3{font-size:16px;margin:16px 0 4px}.rdp .sub{font-style:italic;color:#475569;margin:0 0 10px}.rdp .sum{background:#eff6ff;border:1px solid #bfdbfe;padding:10px 12px;border-radius:6px;font-size:14px}.rdp a{color:#1d4ed8;text-decoration:underline}.rdp table{border-collapse:collapse;width:100%;font-size:13px}.rdp th,.rdp td{border-bottom:1px solid #e2e8f0;padding:6px 8px;text-align:left;vertical-align:top}.rdp .bad{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;padding:8px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}.rdp .ok{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;padding:6px 12px;border-radius:6px;font-size:13px;margin:0 0 12px}", { raw: true });
 
   // In the case list, do not show the case number twice (see src/lib/list-label.mjs).

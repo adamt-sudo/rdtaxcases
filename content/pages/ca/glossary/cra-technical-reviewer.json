@@ -1,0 +1,2236 @@
+{
+  "kind": "glossary-term",
+  "country": "ca",
+  "title": "CRA Technical Reviewer - Canadian SR&ED Tax Credit Glossary",
+  "keyPhrase": "CRA Technical Reviewer",
+  "description": "Learn about the role of a CRA Technical Reviewer (Research and Technology Advisor) in evaluating claims in our Canadian SR&ED glossary.",
+  "summary": "A CRA technical reviewer, formally a Research and Technology Advisor (RTA) reporting to a Research and Technology Manager, evaluates whether work claimed under Canada's SR&ED tax incentive program is technically eligible, while a Financial Reviewer verifies expenditures. Once a claim is selected for review it cannot be withdrawn, and unresolved concerns follow a four-stage escalation path.",
+  "language": "en-CA",
+  "status": "published",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "A CRA technical reviewer, formally a Research and Technology Advisor (RTA) reporting to a Research and Technology Manager, evaluates whether work claimed under Canada's SR&ED tax incentive program is technically eligible, while a Financial Reviewer verifies expenditures. Once a claim is selected for review it cannot be withdrawn, and unresolved concerns follow a four-stage escalation path."
+    },
+    {
+      "type": "paragraph",
+      "text": "This report provides a legal, financial, and technical audit of the research and development (R&D) tax incentive architecture, direct funding mechanisms, administrative policies, and controlling judicial precedents of Canada as of late 20261."
+    },
+    {
+      "type": "paragraph",
+      "text": "Canada's flagship federal innovation support mechanism—the <a href=\"/ca/glossary/scientific-research-and-experimental-development-sred\">Scientific Research and Experimental Development (SR&ED)</a> Tax Incentive Program—operates through a dual-benefit statutory structure under the <em>Income Tax Act</em>: an immediate or indefinitely carryforwardable income tax deduction for allowable SR&ED expenditures pooled under Section 37, paired with an Investment Tax Credit (ITC) earned on qualified SR&ED expenditures under Sections 127 and 127.12. Following the enactment of Bill C-15 (which received Royal Assent on March 26, 2026, implementing measures first proposed in the December 2024 Fall Economic Statement and confirmed in Budget 2025), the federal SR&ED regime underwent its most substantial legislative expansion in decades1. For taxation years beginning after December 15, 2024, the enhanced 35% refundable ITC expenditure limit doubled from $3,000,000 to $6,000,000 (yielding up to $2,100,000 in annual cash refunds on current expenditures), the prior-year taxable capital phase-out range widened from $10,000,000–$50,000,000 to $15,000,000–$75,000,000, Eligible Canadian Public Corporations (ECPCs) gained access to the enhanced 35% refundable credit alongside <a href=\"/ca/glossary/canadian-controlled-private-corporation-ccpc\">Canadian-Controlled Private Corporations (CCPCs)</a>, and depreciable capital expenditures and Shared-Use Equipment (SUE) acquired after December 15, 2024 were restored to SR&ED eligibility1. Concurrently, on April 1, 2026, the CRA launched an optional Pre-Claim Approval process providing upfront technical eligibility determinations within eight weeks and a fast-tracked 90-day review service standard1."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the sub-national level, <a href=\"/ca/glossary/provincial-territorial-rd-tax-credits\">provincial and territorial R&D tax credits</a> stack onto the federal framework—most notably Québec's newly consolidated Tax Credit for R&D, Innovation and Pre-Commercialization (CRIC, offering a 30% refundable credit on the first $1,000,000 of eligible expenditures above an exclusion threshold and 20% thereafter for taxation years beginning after March 25, 2025) alongside Québec's 2% Incentive Deduction for the Commercialization of Innovations (IDCI) IP Box, Ontario's trio of corporate incentives (the 8% refundable OITC, 3.5% non-refundable ORDTC, and 20% refundable OBRITC), British Columbia's 10% SR&ED tax credit, and Alberta's 8% to 20% Innovation Employment Grant (IEG)17. Because provincial R&D tax credits and direct federal grants such as the National Research Council of Canada Industrial Research Assistance Program (NRC IRAP) constitute \"government assistance\" under Subsection 127(9) and Paragraph 12(1)(x) of the <em>Income Tax Act</em>, they reduce the federal pool of deductible SR&ED expenditures under Paragraph 37(1)(d) and reduce qualified SR&ED expenditures under Subsection 127(18), requiring sequential calculation to determine <a href=\"/ca/faq/sred-expenditure-recovery-rates\">net effective recovery rates</a>18."
+    },
+    {
+      "type": "heading",
+      "text": "1. Program Scale, Fiscal 2025–2026 CRA Statistical Benchmarks, and Legislative Architecture"
+    },
+    {
+      "type": "subheading",
+      "text": "1.1 National SR&ED Program Scale and CRA Performance Benchmarks (2021–2026)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Administered by the Canada Revenue Agency, <a href=\"/ca/faq/what-is-sred-program\">the SR&ED program</a> is the largest federal source of financial support for industrial research and experimental development in Canada11. According to CRA annual program statistics reported in industry analyses, in the CRA's 2025–2026 fiscal year (ended March 31, 2026), claimant participation rose for the fourth consecutive year to 24,160 claims filed, with the CRA processing 23,677 claims and allowing $4.6 billion in Investment Tax Credits out of $4.9 billion claimed1. Across all processed claims in fiscal 2025–2026, 59% of all ITC dollars allowed were <a href=\"/ca/faq/refundable-vs-non-refundable-sred-tax-credit\">refundable and 41% were non-refundable</a>, yielding an effective cross-program average credit rate of approximately 22% across small, medium, and large claimants combined1."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "CRA Fiscal Year",
+        "Claims Filed",
+        "Claims Processed",
+        "Total ITCs Claimed (CAD)",
+        "Total ITCs Allowed (CAD)",
+        "Claims Accepted as Filed (%)",
+        "Claims Denied (%)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>2021–22</strong>",
+            "20,332",
+            "20,317",
+            "$3.4 billion",
+            "$3.3 billion",
+            "91%",
+            "3%"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2022–23</strong>",
+            "20,464",
+            "20,079",
+            "$3.8 billion",
+            "$3.6 billion",
+            "91%",
+            "4%"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2023–24</strong>",
+            "21,524",
+            "21,537",
+            "$4.4 billion",
+            "$4.2 billion",
+            "91%",
+            "3%"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2024–25</strong>",
+            "22,758",
+            "22,738",
+            "$4.7 billion",
+            "$4.5 billion",
+            "90%",
+            "4%"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2025–26</strong>",
+            "24,160",
+            "23,677",
+            "$4.9 billion",
+            "$4.6 billion",
+            "90%",
+            "4%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In fiscal 2025–2026, the CRA accepted 90% of processed claims as filed, accepted 6% after modifications following technical and financial review, and denied 4%1. The CRA's published <a href=\"/ca/faq/refund-processing-time\">service standards</a> aim to process claims accepted as filed within 60 calendar days of receiving a complete claim, and refundable claims selected for technical or financial review within 180 calendar days, targeting a 90% compliance rate11. In fiscal 2025–2026, the CRA exceeded both benchmarks, meeting the 60-day service standard on 95% of claims accepted as filed and the 180-day service standard on 92.5% of reviewed refundable claims1. No published processing service standard applies to non-refundable SR&ED claims selected for review1."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Claimant Category / Sectoral Dimension",
+        "Sub-Category / Tier",
+        "Share of Processed Claims (2025–26)",
+        "Share of Total ITCs Allowed (2025–26)",
+        "Multi-Year Trend & Analytical Notes"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>By Business Size (Gross Income)</strong>",
+            "Under $4 million",
+            "65%",
+            "33%",
+            "Early-stage and small businesses represent nearly two-thirds of all claimants1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Business Size (Gross Income)</strong>",
+            "$4 million to $20 million",
+            "20%",
+            "23%",
+            "Core growth-stage SME segment benefiting from the $6M expenditure cap1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Business Size (Gross Income)</strong>",
+            "$20 million to $250 million",
+            "12%",
+            "22%",
+            "Mid-market enterprises affected by the 15M–75M phase-out range1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Business Size (Gross Income)</strong>",
+            "Over $250 million",
+            "3%",
+            "22%",
+            "Large corporations claiming the 15% non-refundable basic ITC1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Field of Science / Industry</strong>",
+            "<a href=\"/ca/faq/sred-eligibility-for-software-development\">Software Development</a>",
+            "Not reported",
+            "42.6%",
+            "Largest single discipline; expanded from 35.7% in 2021–221."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Field of Science / Industry</strong>",
+            "Medical Sciences & Engineering",
+            "Not reported",
+            "14.2%",
+            "Second-largest field of science by total credit volume1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Field of Science / Industry</strong>",
+            "Mechanical Engineering",
+            "Not reported",
+            "13.5%",
+            "Core industrial manufacturing, tooling, and process innovation1."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>By Field of Science / Industry</strong>",
+            "Electrical Engineering",
+            "Not reported",
+            "12.5%",
+            "Declined in relative share from 21.0% in 2022–231."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "1.2 Statutory Authority Under the Income Tax Act and Income Tax Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal authority governing federal SR&ED tax incentives is codified across four primary pillars of the <em><a href=\"/ca/glossary/income-tax-act-ita\">Income Tax Act</a></em> (the Act) and Part XXIX of the <em>Income Tax Regulations</em> (the Regulations)2. First, <strong>Subsection 248(1) of the <em>Income Tax Act</em></strong> establishes the statutory definitions of <em>\"scientific research and experimental development\"</em>, <em>\"salary or wages\"</em>, <em>\"specified employee\"</em>, <em>\"specified shareholder\"</em>, <em>\"specified member\"</em> of a partnership, <em>\"person\"</em>, <em>\"taxpayer\"</em>, and <em>\"salary deferral arrangement\"</em>24. Second, <strong>Section 37 of the <em>Income Tax Act</em></strong> governs the computation, accumulation, and deduction of the <strong>Pool of Deductible SR&ED Expenditures</strong> carried on in Canada (Subsection 37(1)), research related to a business of a related corporation (Subsection 37(1.1)), available-for-use timing for capital property (Subsection 37(1.2)), research in Canada's exclusive economic zone (Subsection 37(1.3)), research conducted outside Canada (Subsections 37(1.4), 37(1.5), and 37(2)), disallowance of deductions for acquiring rights in or arising out of SR&ED (Subsection 37(4)), loss restriction events upon acquisition of control (Subsection 37(6.1)), the traditional versus proxy calculation methods (Subsection 37(8) and Subsection 37(10)), salary restrictions for specified employees (Subsections 37(9) to 37(9.5)), and the <a href=\"/ca/faq/sred-claim-filing-deadline\">mandatory prescribed filing deadline</a> (Subsections 37(11) and 37(12))6."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, <strong>Section 127 and Section 127.1 of the <em>Income Tax Act</em></strong> govern the calculation, application, carryback, carryforward, refundability, and recapture of the <strong><a href=\"/ca/glossary/investment-tax-credit-itc\">SR&ED Investment Tax Credit</a></strong>2. Specifically, Section 127 covers the deduction of ITCs against Part I tax payable (Subsection 127(5)), partnership ITC allocations and restrictions on specified members (Subsections 127(8), 127(8.1), 127(8.3), and 127(8.31)), core definitions of <em>\"investment tax credit\"</em>, <em>\"qualified expenditure\"</em>, <em>\"SR&ED qualified expenditure pool\"</em>, <em>\"eligible Canadian public corporation\"</em>, <em>\"first term shared-use-equipment\"</em>, <em>\"second term shared-use-equipment\"</em>, <em>\"government assistance\"</em>, <em>\"non-government assistance\"</em>, <em>\"super-allowance benefit amount\"</em>, and <em>\"contract payment\"</em> (Subsection 127(9)), the enhanced 35% credit addition (Subsection 127(10.1)), expenditure limit formulas (Subsections 127(10.2) to 127(10.6)), time of acquisition (Subsection 127(11.2)), non-arm's-length expenditure transfers and cost adjustments (Subsections 127(11.5), 127(11.6), and 127(13)), reductions for partnership ITC allocations (Subsection 127(12.1)), reductions for assistance and contract payments (Subsections 127(18) to 127(20)), anti-avoidance exclusions (Subsection 127(24)), unpaid amounts (Subsection 127(26)), and ITC recapture rules (Subsections 127(27) to 127(36))2. Section 127.1 establishes the mechanism and definitions for the <strong><a href=\"/ca/glossary/refundable-investment-tax-credit\">Refundable Investment Tax Credit</a></strong> (Subsections 127.1(1), 127.1(2), and 127.1(2.01)), cross-referencing the definition of a <em>\"public corporation\"</em> in <strong>Subsection 89(1)</strong>2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth, <strong>Part XXIX of the <em>Income Tax Regulations</em> (Sections 2900 to 2903)</strong> provides the regulatory mechanics6. Section 2900 prescribes directly attributable expenditures under the traditional method (Subsections 2900(2) and 2900(3)), the 55% Prescribed Proxy Amount (PPA) calculation, ASA proxy salary rules, overall PPA cap, and specified employee restrictions under the proxy method (Subsections 2900(4) to 2900(10)), and Prescribed Depreciable Property (PDP) exclusions (Subsection 2900(11))6. Section 2902 defines <a href=\"/ca/glossary/prescribed-expenditures\">prescribed expenditures</a> that are statutorily excluded from qualified expenditures (such as general administration, legal and accounting fees, interest and financing costs, entertainment, advertising, convention and conference costs, dues to scientific societies, fines, used equipment, and SR&ED claim preparation fees)14. Section 2903 governs prescribed special-purpose buildings33."
+    },
+    {
+      "type": "subheading",
+      "text": "1.3 The 2024 Fall Economic Statement, Budget 2025, and Bill C-15 (S.C. 2026, c. 3) Reforms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Following initial policy proposals in the December 2024 Fall Economic Statement (which had originally proposed raising the expenditure limit to $4.5 million), the Department of Finance released draft legislative proposals for consultation on August 15, 2025, and tabled expanded SR&ED reforms in Budget 2025 on November 4, 20251. These measures were introduced in Parliament as <strong>Bill C-15</strong> (<em>Budget 2025 Implementation Act, No. 1</em>), which passed First Reading on November 18, 2025, and received <strong>Royal Assent on March 26, 2026</strong>, becoming law as Statutes of Canada <strong>S.C. 2026, c. 3</strong>1. Following Royal Assent, the CRA issued updated versions of <strong><a href=\"/ca/glossary/t661-form\">Form T661</a></strong> on May 15, 2026, <strong>Schedule T2SCH31</strong> on May 22, 2026, and <strong>Schedule T2SCH49</strong> on May 29, 20264."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tax auditors and corporate claimants must distinguish carefully between the two statutory effective-date triggers established by Bill C-152. First, under the <strong>Taxation Year Start-Date Trigger (Taxation Years Beginning After December 15, 2024)</strong>, the doubling of the expenditure limit to $6,000,000, the expansion of the taxable capital phase-out range to $15,000,000–$75,000,000, the introduction of the 3-year average gross revenue phase-out method, the extension of the 35% enhanced refundable credit to Eligible Canadian Public Corporations (ECPCs), and the adjustment of the Qualifying Income Limit denominator from $40,000,000 to $60,000,000 apply to <strong>taxation years that begin after December 15, 2024</strong> (that is, on or after December 16, 2024)1. Consequently, a calendar-year corporation whose 2025 taxation year began on January 1, 2025, is entitled to the $6,000,000 expenditure limit for its 2025 and 2026 taxation years, whereas a corporation with a fiscal year running from December 1, 2024, to November 30, 2025, remained subject to the legacy $3,000,000 limit for that entire fiscal period4. Second, under the <strong>Transaction / Acquisition-Date Trigger (After December 15, 2024)</strong>, the restoration of SR&ED capital expenditures, Shared-Use Equipment (SUE), and equipment lease costs applies to depreciable property <strong>acquired and <a href=\"/ca/glossary/available-for-use-afu\">available for use</a> after December 15, 2024</strong>, and lease costs incurred after December 15, 202413. Property acquired or lease expenditures incurred before December 16, 2024, remain ineligible1."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Program Parameter",
+        "Legacy Regime (Tax Years Beginning Before Dec. 16, 2024)",
+        "Enacted Post-Bill C-15 Regime (Tax Years Beginning After Dec. 15, 2024)",
+        "Primary Statutory Authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong><a href=\"/ca/glossary/enhanced-investment-tax-credit-rate\">Enhanced ITC Rate</a></strong>",
+            "<a href=\"/ca/faq/35-percent-vs-15-percent-sred-rates\">35% (15% basic + 20% enhancement)</a>",
+            "35% (15% basic + 20% enhancement)",
+            "ITA Subsections 127(9), 127(10.1)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/glossary/basic-investment-tax-credit-rate\">Basic ITC Rate</a></strong>",
+            "15%",
+            "15% (unchanged)",
+            "ITA Subsection 127(9)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/faq/sred-maximum-expenditure-limit-35-percent-credit\">Maximum Expenditure Limit</a></strong>",
+            "$3,000,000 per associated group",
+            "<strong>$6,000,000</strong> per associated/consolidated group",
+            "ITA Subsections 127(10.2), 127(10.6)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Maximum Annual 35% Refundable Cash Credit (Current Expenditures)</strong>",
+            "$1,050,000",
+            "<strong>$2,100,000</strong>",
+            "ITA Subsections 127(10.1), <a href=\"/ca/legislation/ita-section-127-1-1-refundable-investment-tax-credit\">127.1(1)</a>4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Entities Eligible for Enhanced 35% Rate</strong>",
+            "<a href=\"/ca/faq/what-is-canadian-controlled-private-corporation-ccpc\">Canadian-Controlled Private Corporations (CCPCs) only</a>",
+            "<strong>CCPCs and Eligible Canadian Public Corporations (ECPCs)</strong>",
+            "ITA Subsections 89(1), 127(9), 127.1(1)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>CCPC Prior-Year Taxable Capital Phase-Out Range</strong>",
+            "Begins at $10,000,000; eliminated at $50,000,000 ($40M range)",
+            "Begins at <strong>$15,000,000</strong>; eliminated at <strong>$75,000,000</strong> ($60M range)",
+            "ITA Subsection 127(10.2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3-Year Average Gross Revenue Phase-Out Method</strong>",
+            "Not available",
+            "<strong>$15,000,000 to $75,000,000</strong> (Mandatory for ECPCs; elective for CCPCs)",
+            "ITA Subsection 127(10.6)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Qualifying Income Limit Phase-Out Denominator</strong>",
+            "$40,000,000 ($10M to $50M taxable capital)",
+            "<strong>$60,000,000</strong> ($15M to $75M taxable capital)",
+            "ITA Subsection 127.1(2)4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Depreciable Capital Property & SUE Eligibility</strong>",
+            "Repealed / Excluded (from Jan. 1, 2014 to Dec. 15, 2024)",
+            "<strong>Restored for property acquired & available for use after Dec. 15, 2024</strong>",
+            "ITA Paragraph 37(1)(b), Subsections 37(1.2), 127(9)13"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Equipment Lease Cost Eligibility</strong>",
+            "Excluded (from Jan. 1, 2014 to Dec. 15, 2024)",
+            "<strong>Restored for lease expenditures incurred after Dec. 15, 2024</strong>",
+            "ITA Subclauses 37(8)(a)(ii)(A)(I)–(II), (B)(I), (B)(VI)33"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Refundability Rate on Enhanced Capital ITCs</strong>",
+            "N/A (capital excluded)",
+            "<strong>40% refundable</strong> within the $6,000,000 expenditure limit",
+            "ITA Subsection 127.1(1), (2)1"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Optional CRA Pre-Claim Approval</strong>",
+            "Not available",
+            "<strong>Launched April 1, 2026</strong> (8-week decision; 90-day fast-track review)",
+            "CRA Administrative Framework1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "1.4 Statutory Definition of SR&ED Under Subsection 248(1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong><a href=\"/ca/legislation/ita-section-248-1-sred-statutory-definitions\">Subsection 248(1)</a></strong> of the <em>Income Tax Act</em>, <em>\"scientific research and experimental development\"</em> means systematic investigation or search that is carried out in a field of science or technology by means of experiment or analysis and that falls into one of three core categories, plus commensurate support work, while excluding seven enumerated commercial or routine activities24."
+    },
+    {
+      "type": "paragraph",
+      "text": "The three core qualifying branches of SR&ED are <strong>Paragraph (a) <a href=\"/ca/glossary/basic-research\">Basic research</a></strong>, defined as work undertaken for the advancement of scientific knowledge without a specific practical application in view; <strong>Paragraph (b) Applied research</strong>, defined as work undertaken for the advancement of scientific knowledge with a specific practical application in view; and <strong>Paragraph (c) Experimental development</strong>, defined as work undertaken for the purpose of achieving technological advancement for the purpose of creating new, or improving existing, materials, devices, products, or processes, including incremental improvements thereto24."
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to basic research, applied research, and experimental development, <strong>Paragraph (d)</strong> of the definition includes <strong><a href=\"/ca/glossary/sred-support-work\">support work</a></strong> undertaken by or on behalf of the taxpayer, provided that the work is <strong>commensurate with the needs</strong> (corresponding in amount, size, extent, and duration to what is needed) and <strong>directly in support</strong> of work described in Paragraph (a), (b), or (c) that is undertaken in Canada by or on behalf of the taxpayer24. <a href=\"/ca/faq/sred-direct-support-work\">Support work under Paragraph (d)</a> is strictly limited to the following eight statutory categories24:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Engineering24;",
+        "Design24;",
+        "Operations research24;",
+        "Mathematical analysis24;",
+        "Computer programming24;",
+        "Data collection24;",
+        "Testing24; and",
+        "Psychological research24."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, <strong>Paragraphs (e) through (k)</strong> of Subsection 248(1) explicitly exclude any work with respect to the following seven categories24:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<a href=\"/ca/glossary/market-research\">Market research</a> or sales promotion (Paragraph (e))24;",
+        "Quality control or routine testing of materials, devices, products, or processes (Paragraph (f))24;",
+        "<a href=\"/ca/faq/social-sciences-research-sred-eligibility\">Research in the social sciences or the humanities</a> (Paragraph (g))24;",
+        "Prospecting, exploring, or drilling for, or producing, <a href=\"/ca/faq/sred-excluded-industries\">minerals, petroleum, or natural gas</a> (Paragraph (h))24;",
+        "The <a href=\"/ca/glossary/commercial-production\">commercial production</a> of a new or improved material, device, or product, or the commercial use of a new or improved process (Paragraph (i))24;",
+        "Style changes (Paragraph (j))24; and",
+        "<a href=\"/ca/glossary/routine-data-collection\">Routine data collection</a> (Paragraph (k))24."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The CRA's <em>Guidelines on the Eligibility of Work for SR&ED Tax Incentives</em> emphasize that the decisive factor distinguishing eligible support work (such as Paragraph (d) data collection or testing) from statutorily excluded work (such as Paragraph (f) routine testing or Paragraph (k) routine data collection) is <strong>purpose</strong>24. If data collection or testing is carried out routinely to support normal commercial operations or quality assurance, it is excluded under Paragraphs (f) and (k); conversely, if the same physical testing or data collection technique is executed specifically to directly support scientific research or experimental development work, it qualifies as eligible support work under Paragraph (d)24. Furthermore, the CRA explicitly classifies training, on-the-job learning, hiring experts (employees or consultants) to apply what they already know, and purchasing proprietary knowledge as ineligible activities, because they resolve a company-specific knowledge gap rather than a scientific or technological uncertainty38."
+    },
+    {
+      "type": "subheading",
+      "text": "1.5 Evolution of CRA Eligibility Guidance: From IT-439 and IC 86-4R3 to the \"Why\" and \"How\" Requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "The administrative interpretation of <a href=\"/ca/faq/sred-tax-credit-eligibility\">SR&ED eligibility</a> has evolved through five distinct historical eras while remaining anchored to Subsection 248(1) of the <em>Income Tax Act</em>40. Prior to 1985, Revenue Canada administered R&D incentives under <em>Interpretation Bulletin IT-439</em>, which evaluated whether work met the former <em>Income Tax Regulations</em> definitions of \"applied or basic research\" or \"development\"40. Industry feedback established that IT-439 was insufficient to explain the true meaning of eligible research and development40. In the May 1985 Budget Papers, the Department of Finance recognized IT-439's limitations and amended the statutory terminology to introduce the phrase <em><a href=\"/ca/glossary/experimental-development\">\"experimental development\"</a></em>, confirming that routine engineering and routine development were excluded40. On March 4, 1986, in response to Revenue Canada's request, the Department of Finance confirmed that qualifying activities must embody <a href=\"/ca/glossary/scientific-or-technological-advancement\">scientific or technological advancement</a>, contain elements of scientific or technological uncertainty, and be carried out in a systematic and organized fashion40. Revenue Canada and industry leaders jointly drafted <em>Information Circular 86-4</em> in 1986 (subsequently updated to <strong>IC 86-4R3</strong> in 1994) around these three cornerstone tests, supplemented by a 1992 clarification confirming that work undertaken to achieve technological advancement to create or improve existing materials qualifies whereas routine development work does not40."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1998, in <em>Northwest Hydraulic Consultants Ltd. v. The Queen</em>, 98 DTC 1839 (TCC), Judge Bowman formulated a five-question legal framework based on IC 86-4R3 to evaluate whether claimed work met the statutory definition of SR&ED40. Following Federal Court of Appeal endorsement of Judge Bowman's framework, the CRA published its consolidated <em>Eligibility of Work for SR&ED Investment Tax Credits Policy</em> in 2012 (updated in 2015), formally embedding the five questions into administrative reviews12. As part of a 2020 modernization initiative, the CRA archived the 2015 Policy on August 13, 2021, and published the <strong>Guidelines on the Eligibility of Work for SR&ED Tax Incentives</strong> (updated July 5, 2022), replacing the five questions with two overarching operational requirements—the <strong>\"Why\" Requirement</strong> and the <strong>\"How\" Requirement</strong>12."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <strong>\"Why\" Requirement</strong>, work must be conducted for the advancement of scientific knowledge or for the purpose of achieving a technological advancement24. The focus must be on generating or discovering <em>conceptual knowledge</em> (such as theories or predictive models) rather than purely factual knowledge (such as routine measurements or data)24. New conceptual knowledge is required only when a <strong><a href=\"/ca/glossary/scientific-or-technological-uncertainty\">scientific or technological uncertainty</a></strong> exists—meaning it is uncertain whether a given objective or result can be achieved due to an insufficiency in the available base of scientific or technological knowledge (comprising both internal business knowledge and publicly available resources)11. Recognizing this uncertainty marks the start of an SR&ED project, while advancement is the targeted outcome; attempting to resolve this uncertainty satisfies the \"Why\" requirement regardless of whether the project ultimately <a href=\"/ca/faq/claiming-sred-for-failed-or-abandoned-projects\">succeeds or fails</a> in achieving its objectives11. Conversely, ignored uncertainties or workarounds using existing knowledge do not qualify24."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the <strong>\"How\" Requirement</strong>, work must be a <a href=\"/ca/glossary/systematic-investigation-or-search\">systematic investigation or search</a> carried out in a field of science or technology by means of experiment or analysis24. Merely following standard design methods or systematic problem-solving approaches is insufficient24. Instead, a qualifying systematic investigation or search requires four sequential steps7:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<a href=\"/ca/glossary/hypothesis-formulation\">Generating an idea (hypothesis)</a> consistent with known facts that serves as a starting point for further investigation towards achieving the objective or resolving the problem, expressed as a possible solution, proposed method, or approach7;",
+        "Testing the idea or hypothesis by means of <a href=\"/ca/glossary/experimentation-or-analysis\">experiment or analysis</a>, allowing the idea to evolve and change as a result of testing7;",
+        "Developing <a href=\"/ca/glossary/logical-conclusions\">logical conclusions</a> based on the results or findings of the experiment or analysis7; and",
+        "Keeping <a href=\"/ca/glossary/sred-project-documentation\">documentary evidence</a> that is generated as the work progresses7."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. Federal SR&ED Tax Credit Rates, Thresholds, Expenditure Limits, and Refundability"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1 Mechanics of the Section 37 Pool of Deductible SR&ED Expenditures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong><a href=\"/ca/legislation/ita-section-37-1-sred-expenditure-pool\">Subsection 37(1)</a></strong> of the <em>Income Tax Act</em>, a taxpayer carrying on a business in Canada may accumulate allowable current and post-December 15, 2024 capital SR&ED expenditures in a cumulative running tax account known as the <strong>Pool of Deductible SR&ED Expenditures</strong> (calculated in Part 3, Section C of Form T661)10. Under <strong><a href=\"/ca/legislation/ita-section-37-1-1-sred-pool-adjustments\">Subsection 37(1.1)</a></strong>, if a corporate claimant performs SR&ED related to a business actively carried on by a related corporation (such as a wholly owned subsidiary whose parent is actively engaged in the business), the SR&ED is considered related to the claimant's business10. Under <strong><a href=\"/ca/legislation/ita-section-37-1-3-sred-repayments\">Subsection 37(1.3)</a></strong>, SR&ED carried on in Canada's exclusive economic zone is eligible10. However, under <strong>Subsection 37(4)</strong>, no deduction is permitted for expenditures made to acquire rights in, or arising out of, SR&ED, and <strong>Subsection 37(5)</strong> disallows deductions where amounts are claimed as charitable gifts under Sections 110.1 or 118.110."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Section 37 Pool Component",
+        "Statutory Provision",
+        "Form T661 Line",
+        "Detailed Description and Tax Treatment"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Opening Pool Balance</strong>",
+            "Subsection 37(1)",
+            "Line 450",
+            "Prior year's unclaimed pool balance of deductible SR&ED expenditures carried forward10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/glossary/amalgamation\">Amalgamation</a> / Wind-Up Transfer</strong>",
+            "Subsection 37(1)",
+            "Line 452",
+            "SR&ED expenditure pool transferred from predecessor or subsidiary upon amalgamation or <a href=\"/ca/glossary/windup-of-a-corporation\">wind-up</a>10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Current SR&ED Expenditures</strong>",
+            "<a href=\"/ca/legislation/ita-section-37-1-a-current-sred-expenditures\">Paragraph 37(1)(a)</a>",
+            "Line 400",
+            "Total <a href=\"/ca/faq/eligible-sred-expenditures\">allowable current SR&ED expenditures</a> in Canada (directly engaged salaries/wages, materials consumed/transformed, post-Dec. 15, 2024 equipment leases, SR&ED contracts, third-party payments, and Traditional overhead)10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Capital SR&ED Expenditures</strong>",
+            "<a href=\"/ca/legislation/ita-section-37-1-b-capital-sred-expenditures\">Paragraph 37(1)(b)</a>, Subsection 37(1.2)",
+            "Part 3",
+            "Depreciable property acquired and available for use after December 15, 2024 intended for ASA (≥90%) SR&ED use or value consumption in Canada13."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/glossary/assistance-repayment\">Assistance Repayments</a></strong>",
+            "Paragraph 37(1)(c)",
+            "Line 445",
+            "Repayments made in the year of government or non-government assistance that previously reduced the SR&ED pool10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prior-Year Negative Pool Inclusion</strong>",
+            "Paragraph 37(1)(c.1), Paragraph 12(1)(v)",
+            "Part 3",
+            "Amounts included in net income in a previous year under Paragraph 12(1)(v) due to a negative pool balance10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prior-Year ITC Recapture</strong>",
+            "Paragraphs 37(1)(c.2), 37(1)(c.3)",
+            "Line 453",
+            "Amounts added to Part I tax payable in the preceding year due to corporate/individual or partnership SR&ED ITC recapture10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Government & Non-Government Assistance</strong>",
+            "Paragraph 37(1)(d)",
+            "Lines 429, 431, 432",
+            "Reductions for provincial/territorial R&D credits (Line 429), other government assistance (Line 431), and non-government assistance (Line 432) received, entitled to be received, or reasonably expected to be received10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Super-Allowance Benefit</strong>",
+            "Paragraph 37(1)(d.1)",
+            "Part 3",
+            "Reductions for provincial <a href=\"/ca/glossary/super-allowance-benefit-amount\">super-allowance benefit amounts</a>10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prior-Year Federal ITCs Used</strong>",
+            "Paragraph 37(1)(e)",
+            "Line 435",
+            "Reduction for federal SR&ED ITCs applied against Part I tax, carried back, or refunded in the preceding tax year (including ITCs attributable to the PPA)10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prior-Year Pool & Insolvency Deductions</strong>",
+            "Paragraphs 37(1)(f), 37(1)(f.1)",
+            "Line 460 (prior)",
+            "Reductions for amounts deducted from the pool under Subsection 37(1) or under Section 61.3 (insolvency) in preceding years10."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Asset Dispositions & Loss Restriction Events</strong>",
+            "Paragraph 37(1)(h), Subsection 37(6.1)",
+            "Line 440",
+            "Reductions for sale of SR&ED capital assets and loss restriction event adjustments upon <a href=\"/ca/glossary/acquisition-of-control\">acquisition of control</a>10."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For corporations and individuals, deducting the available Section 37 pool balance (Line 455) on Line 460 is <strong>optional</strong>10. Any undeducted positive balance on Line 470 does not expire and carries forward <strong>indefinitely</strong> to future taxation years10. If reductions (such as prior-year ITC refunds and current-year provincial credits) exceed current-year additions and opening pool balances, the resulting negative pool balance at the end of a <a href=\"/ca/glossary/tax-year\">tax year</a> must be included in net income for tax purposes for that year under <strong>Paragraph 12(1)(v)</strong>, which resolves the negative balance and resets the opening pool balance for the following tax year to nil10."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two mandatory statutory exceptions restrict Section 37 pool carryforwards10. First, a <strong>partnership</strong> cannot carry forward any balance in the pool of deductible SR&ED expenditures to a subsequent tax year; the pool balance at the end of the partnership's fiscal period must be <strong>fully deducted</strong> in calculating the partnership's net income for tax purposes in that year10. Second, when a corporation or trust undergoes a <strong>loss restriction event</strong> (such as an acquisition of control of a corporation or a new majority-interest beneficiary of a trust), <strong>Paragraph 37(1)(h)</strong> and <strong>Subsection 37(6.1)</strong> restrict the deductibility of the pre-acquisition pool: the pool can only be deducted in subsequent years when the business to which the expenditure related continues to be carried on for profit or with a reasonable expectation of profit, and only to the extent of income from that same business or a similar business2."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2 Investment Tax Credit Rates, Entity Classifications, and Refundability Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsections 127(5), 127(9), 127(10.1), and 127.1(1)</strong> of the <em>Income Tax Act</em>, the SR&ED Investment Tax Credit rate and cash refundability percentage depend on four variables: (1) the legal classification of the claimant entity, (2) whether the expenditure falls within or above the claimant's annual expenditure limit, (3) whether the expenditure is of a current nature (including the PPA) or a capital nature, and (4) for a CCPC spending above its expenditure limit, whether it satisfies the definition of a <em>\"qualifying corporation\"</em>2."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Claimant Entity Type",
+        "Expenditure Category & Tier",
+        "Federal ITC Rate",
+        "Refundability Rate on Unused ITC",
+        "Net Cash Refund as % of QRE",
+        "Statutory Authority"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>CCPC (Qualifying or Non-Qualifying, Not Excluded)</strong>",
+            "Current expenditures & PPA <strong>up to Expenditure Limit</strong> ($6M max)",
+            "<strong>35%</strong>",
+            "<strong>100%</strong>",
+            "<strong>35.0%</strong>",
+            "ITA s. 127(10.1), 127.1(1), 127.1(2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>CCPC (Qualifying or Non-Qualifying, Not Excluded)</strong>",
+            "Capital expenditures (post-Dec. 15, 2024) <strong>up to Expenditure Limit</strong>",
+            "<strong>35%</strong>",
+            "<strong>40%</strong>",
+            "<strong>14.0%</strong> (21.0% non-refundable)",
+            "ITA s. 127(10.1), 127.1(1), 127.1(2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>CCPC — Qualifying Corporation (Not Excluded)</strong>",
+            "Current or Capital expenditures <strong>above Expenditure Limit</strong>",
+            "<strong>15%</strong>",
+            "<strong>40%</strong>",
+            "<strong>6.0%</strong> (9.0% non-refundable)",
+            "ITA s. 127(9), 127.1(1), 127.1(2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>CCPC — Non-Qualifying Corporation</strong>",
+            "Current or Capital expenditures <strong>above Expenditure Limit</strong>",
+            "<strong>15%</strong>",
+            "<strong>0%</strong> (Non-refundable)",
+            "<strong>0.0%</strong> (15.0% carryforward/back)",
+            "ITA s. 127(9), 127.1(2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>CCPC — Qualifying Corporation that is an Excluded Corporation</strong>",
+            "All qualified SR&ED expenditures",
+            "<strong>15%</strong>",
+            "<strong>40%</strong>",
+            "<strong>6.0%</strong> (9.0% non-refundable)",
+            "ITA s. 127.1(2)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Eligible Canadian Public Corporation (ECPC)</strong> <em>(Tax years beginning after Dec. 15, 2024)</em>",
+            "Current expenditures & PPA <strong>up to Expenditure Limit</strong> ($6M max)",
+            "<strong>35%</strong>",
+            "<strong>100%</strong>",
+            "<strong>35.0%</strong>",
+            "ITA s. 89(1), 127(9), 127(10.1), 127.1(1)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Eligible Canadian Public Corporation (ECPC)</strong> <em>(Tax years beginning after Dec. 15, 2024)</em>",
+            "Capital expenditures (post-Dec. 15, 2024) <strong>up to Expenditure Limit</strong>",
+            "<strong>35%</strong>",
+            "<strong>40%</strong>",
+            "<strong>14.0%</strong> (21.0% non-refundable)",
+            "ITA s. 127(9), 127(10.1), 127.1(1)2"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Eligible Canadian Public Corporation (ECPC)</strong>",
+            "Current or Capital expenditures <strong>above Expenditure Limit</strong>",
+            "<strong>15%</strong>",
+            "<strong>0%</strong> (Non-refundable)",
+            "<strong>0.0%</strong> (15.0% carryforward/back)",
+            "ITA s. 127(9), 127.1(1)4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Other Corporations</strong> <em>(<a href=\"/ca/faq/foreign-owned-non-ccpc-sred-claims\">Foreign-controlled subsidiaries</a>, non-ECPC public corps)</em>",
+            "All qualified SR&ED expenditures (No expenditure limit)",
+            "<strong>15%</strong>",
+            "<strong>0%</strong> (Non-refundable)",
+            "<strong>0.0%</strong> (15.0% carryforward/back)",
+            "ITA s. 127(5), 127(9)1"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Individuals (Sole Proprietorships) & <a href=\"/ca/faq/sred-eligibility-for-partnerships-and-trusts\">Eligible Trusts</a></strong>",
+            "All qualified SR&ED expenditures (Current & Capital)",
+            "<strong>15%</strong>",
+            "<strong>40%</strong>",
+            "<strong>6.0%</strong> (9.0% non-refundable)",
+            "ITA s. 127(9), 127.1(1), 127.1(2)1"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Partnerships</strong> <em>(Allocated to Non-Specified Members under <a href=\"/ca/legislation/ita-section-127-8-partnership-investment-tax-credit\">s. 127(8)</a>)</em>",
+            "All qualified SR&ED expenditures (Allocated at partnership level)",
+            "<strong>15%</strong>",
+            "Depends on partner status",
+            "Varies by partner",
+            "ITA s. 127(8), 127(8)(b)27"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduced by Bill C-15 for taxation years beginning after December 15, 2024, to address the \"going public penalty\" for domestic corporations, an <strong>Eligible Canadian Public Corporation (ECPC)</strong> is defined under <strong>Subsection 127(9)</strong> and <strong>Subsection 89(1)</strong> by three cumulative statutory criteria: (1) it is a corporation resident in Canada throughout the taxation year; (2) it meets the definition of a <em>\"public corporation\"</em> under Subsection 89(1), meaning its shares are listed on a designated stock exchange; and (3) it is <strong>not controlled, directly or indirectly in any manner whatever, by one or more non-resident persons</strong>16."
+    },
+    {
+      "type": "paragraph",
+      "text": "A <strong>Qualifying Corporation</strong> is defined under <strong>Subsection 127.1(2)</strong> as a CCPC whose <a href=\"/ca/glossary/taxable-income\">taxable income</a> for the immediately preceding taxation year (combined with the taxable incomes of all associated corporations for their last taxation year ending in the preceding calendar year) does <strong>not exceed its Qualifying Income Limit</strong>4. As confirmed in <strong>Section 127.1</strong> and the CRA's <em>SR&ED Investment Tax Credit Policy</em> (Section 4.1), a CCPC (other than an excluded corporation) receives a <strong>100% cash refund on its 35% enhanced ITC for current expenditures and its PPA up to its expenditure limit (and a 40% cash refund on its 35% enhanced ITC for capital expenditures up to its expenditure limit) regardless of whether its prior-year taxable income kept it a qualifying corporation</strong>2. Qualifying Corporation status only determines whether the CCPC can obtain a <strong>40% cash refund on the 15% basic ITC earned on expenditures exceeding its expenditure limit</strong>2."
+    },
+    {
+      "type": "subheading",
+      "text": "2.3 Expenditure Limit Formulas and Phase-Out Mechanics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong><a href=\"/ca/legislation/ita-section-127-10-1-ccpc-enhanced-sred-itc-rate\">Subsection 127(10.1)</a></strong>, the enhanced 35% ITC rate is structured as the 15% basic rate plus a 20% addition on qualified expenditures up to the corporation's annual <strong>Expenditure Limit</strong>2. For taxation years beginning after December 15, 2024, Bill C-15 established two phase-out methodologies under <strong>Subsections 127(10.2) and 127(10.6)</strong>2."
+    },
+    {
+      "type": "subheading",
+      "text": "1. Standard CCPC Taxable Capital Method (Subsection 127(10.2))"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a CCPC (and its associated corporate group) that does not elect to use the gross revenue method, the annual Expenditure Limit is computed as a function of the prior-year <a href=\"/ca/glossary/taxable-capital-employed-in-canada\">taxable capital employed in Canada</a>2:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expenditure Limit = $6,000,000 × ($60,000,000 − A) ÷ $60,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "In this formula, variable A is nil ($0) when the taxable capital employed in Canada of the CCPC (and all associated CCPCs) for the immediately preceding taxation year is <strong>$15,000,000 or less</strong>, and otherwise equals the excess of prior-year taxable capital over <strong>$15,000,000</strong>, capped at <strong>$60,000,000</strong>2. Every <strong>$1,000,000</strong> of <a href=\"/ca/faq/taxable-capital-impact-on-sred-expenditure-limit\">prior-year taxable capital employed in Canada</a> above <strong>$15,000,000</strong> reduces the <strong>$6,000,000</strong> expenditure limit on a straight-line basis by <strong>$100,000</strong>, reaching <strong>$0</strong> when prior-year taxable capital reaches <strong>$75,000,000</strong>2. (For taxation years beginning before December 16, 2024, the maximum limit was $3,000,000 and phased out between $10,000,000 and $50,000,000 of prior-year taxable capital)2."
+    },
+    {
+      "type": "subheading",
+      "text": "2. ECPC and Electing CCPC 3-Year Average Gross Revenue Method (Subsection 127(10.6))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 127(10.6)</strong>, Eligible Canadian Public Corporations (ECPCs) are required to calculate their expenditure limit using <strong>average annual revenue</strong> over the preceding three fiscal years (or the actual number of preceding fiscal years if fewer than three), as reflected in the financial statements of the ECPC or the consolidated financial statements of its consolidated group2:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expenditure Limit = $6,000,000 × ($60,000,000 − A) ÷ $60,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "In this formula, variable A is nil ($0) if the 3-year average annual revenue is <strong>$15,000,000 or less</strong>, and otherwise equals the excess of 3-year average annual revenue over <strong>$15,000,000</strong>, capped at <strong>$60,000,000</strong> (reaching zero at <strong>$75,000,000</strong> of average annual revenue)2. For taxation years beginning after December 15, 2024, a <strong>CCPC may elect</strong> on a prescribed form to calculate its gradual expenditure limit reduction using this 3-year average annual revenue method instead of the taxable capital method; if the CCPC is part of an associated group, all associated CCPCs must jointly elect to use the revenue method2."
+    },
+    {
+      "type": "subheading",
+      "text": "3. Qualifying Income Limit Formula for CCPCs (Subsection 127.1(2))"
+    },
+    {
+      "type": "paragraph",
+      "text": "To determine whether a CCPC is a <em>\"qualifying corporation\"</em> (entitling it to a 40% cash refund on the 15% basic ITC earned on spending above its expenditure limit), the corporation's prior-year taxable income (combined across its associated group) must not exceed its <strong><a href=\"/ca/glossary/qualifying-income-limit\">Qualifying Income Limit</a></strong>, calculated for taxation years beginning after December 15, 2024 as4:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Qualifying Income Limit = $500,000 × ($60,000,000 − A) ÷ $60,000,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where A is the excess of prior-year taxable capital employed in Canada over <strong>$15,000,000</strong>, capped at <strong>$60,000,000</strong> (so the Qualifying Income Limit reaches $0 at $75,000,000 of taxable capital, compared to the pre-Bill C-15 denominator of $40,000,000 between $10,000,000 and $50,000,000 of taxable capital)4."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Prior-Year Taxable Capital (or 3-Year Avg. Revenue)",
+        "Excess Over $15M Threshold (Variable A)",
+        "Annual Expenditure Limit (Subsections 127(10.2) / (10.6))",
+        "Maximum 35% Enhanced ITC (100% Refundable on Current QREs)",
+        "CCPC Qualifying Income Limit (Subsection 127.1(2))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>$15,000,000 or less</strong>",
+            "$0",
+            "<strong>$6,000,000</strong>",
+            "<strong>$2,100,000</strong>",
+            "$500,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>$25,000,000</strong>",
+            "$10,000,000",
+            "<strong>$5,000,000</strong>",
+            "<strong>$1,750,000</strong>",
+            "$416,667"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>$35,000,000</strong>",
+            "$20,000,000",
+            "<strong>$4,000,000</strong>",
+            "<strong>$1,400,000</strong>",
+            "$333,333"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>$45,000,000</strong>",
+            "$30,000,000",
+            "<strong>$3,000,000</strong>",
+            "<strong>$1,050,000</strong>",
+            "$250,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>$60,000,000</strong>",
+            "$45,000,000",
+            "<strong>$1,500,000</strong>",
+            "<strong>$525,000</strong>",
+            "$125,000"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>$75,000,000 or more</strong>",
+            "$60,000,000",
+            "<strong>$0</strong>",
+            "<strong>$0</strong> (15% basic ITC only)",
+            "$0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If a corporation's taxation year is shorter than 51 weeks, its calculated <a href=\"/ca/glossary/sred-expenditure-limit\">Expenditure Limit</a> is prorated based on the number of days in the taxation year divided by 365 (for example, a 273-day short taxation year receives a prorated limit of $4,487,671 instead of $6,000,000)2. <a href=\"/ca/glossary/associated-corporations\">Associated CCPCs</a> must share a single group Expenditure Limit and allocate it among group members on <strong>Schedule T2SCH49</strong>2. Similarly, ECPCs that are members of a consolidated group share the expenditure limit across the consolidated group2."
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Comparative Audit Calculation: Mid-Market CCPC ($35M Taxable Capital, $250,000 Prior-Year Taxable Income, $5,000,000 Qualified Current Spending)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider a CCPC with <strong>$35,000,000</strong> in prior-year taxable capital employed in Canada, <strong>$250,000</strong> in prior-year taxable income, <strong>$0</strong> current-year Part I tax payable, and <strong>$5,000,000</strong> of qualified current SR&ED expenditures4. The table below illustrates the exact statutory impact of Bill C-15:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Calculation Step",
+        "Legacy Pre-Bill C-15 Rules",
+        "Enacted Post-Bill C-15 Rules (2025/2026)",
+        "Net Variance / Audit Impact"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Taxable Capital Excess (A)</strong>",
+            "$35M − $10M = $25,000,000",
+            "$35M − $15M = $20,000,000",
+            "Threshold raised by $5,000,0004"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Expenditure Limit</strong>",
+            "$3M × ($40M − $25M) ÷ $40M = <strong>$1,125,000</strong>",
+            "$6M × ($60M − $20M) ÷ $60M = <strong>$4,000,000</strong>",
+            "Limit increased by <strong>+$2,875,000</strong>4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. 35% Enhanced ITC (100% Refundable)</strong>",
+            "$1,125,000 × 35% = <strong>$393,750</strong>",
+            "$4,000,000 × 35% = <strong>$1,400,000</strong>",
+            "Enhanced ITC up <strong>+$1,006,250</strong>4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Spending Above Expenditure Limit</strong>",
+            "$5,000,000 − $1,125,000 = $3,875,000",
+            "$5,000,000 − $4,000,000 = $1,000,000",
+            "Excess spending reduced by $2,875,0004"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. 15% Basic ITC on Excess Spending</strong>",
+            "$3,875,000 × 15% = <strong>$581,250</strong>",
+            "$1,000,000 × 15% = <strong>$150,000</strong>",
+            "Basic ITC shifted into 35% tier4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>6. Qualifying Income Limit (QIL)</strong>",
+            "$500,000 × $15M ÷ $40M = <strong>$187,500</strong>",
+            "$500,000 × $40M ÷ $60M = <strong>$333,333</strong>",
+            "QIL expanded by +$145,8334"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>7. Qualifying Corporation Status?</strong> <em>(Prior-Year Income $250k vs. QIL)</em>",
+            "<strong>No</strong> ($250,000 &gt; $187,500)",
+            "<strong>Yes</strong> ($250,000 ≤ $333,333)",
+            "Restores 40% refundability on 15% tier4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>8. Cash Refund on 15% Basic ITC (40%)</strong>",
+            "$0 (0% refundable)",
+            "$150,000 × 40% = <strong>$60,000</strong>",
+            "<strong>+$60,000</strong> additional cash refund4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>9. Total Federal ITC Earned</strong>",
+            "$393,750 + $581,250 = <strong>$975,000</strong>",
+            "$1,400,000 + $150,000 = <strong>$1,550,000</strong>",
+            "<strong>+$575,000</strong> (+59.0% total ITC)4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>10. Immediate Cash Refund Received</strong>",
+            "<strong>$393,750</strong>",
+            "$1,400,000 + $60,000 = <strong>$1,460,000</strong>",
+            "<strong>+$1,066,250</strong> (+270.8% cash refund)4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>11. Non-Refundable <a href=\"/ca/glossary/carryforward-of-itc\">Carryforward</a> Balance</strong>",
+            "$581,250",
+            "$150,000 − $60,000 = <strong>$90,000</strong>",
+            "Carryforward available 3 yrs back / 20 fwd4"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.4 Carryback, Carryforward, Assignment, and Taxability of Federal ITCs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong><a href=\"/ca/legislation/ita-section-127-5-investment-tax-credit-deduction\">Subsection 127(5)</a></strong>, any portion of a federal SR&ED ITC that is not applied to reduce federal Part I tax payable in the current taxation year and is not refunded in cash under Section 127.1 (because every refunded dollar is deemed by Subsection 127.1(1) to have been deducted against Part I tax in that year) may be <strong>carried back up to 3 preceding taxation years</strong> or <strong>carried forward up to 20 subsequent taxation years</strong>2. The maximum <a href=\"/ca/glossary/carryback-of-itc\">carryback</a> amount to a prior year is the lesser of the current-year unused ITC and the amount by which Part I tax otherwise payable in that prior year exceeds the ITC available in that prior year2. An acquisition of control of a corporation restricts both the carryforward of unused ITCs earned prior to the acquisition and the carryback of ITCs earned after the acquisition2. Additionally, Section 4.5 of the CRA's <em>SR&ED Investment Tax Credit Policy</em> addresses the assignment of refundable SR&ED ITCs2, and an SR&ED ITC refund cannot be claimed in respect of repayments of assistance or contract payments (which instead generate <a href=\"/ca/glossary/non-refundable-investment-tax-credit\">non-refundable ITCs</a> that can reduce tax payable or be carried back 3 years or forward 20 years)2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal SR&ED ITCs are not included in taxable income in the taxation year they are earned10. Instead, under <strong>Paragraph 37(1)(e)</strong>, any federal SR&ED ITC applied against Part I tax, carried back, or received as a cash refund in Year 1 reduces the claimant's Section 37 <a href=\"/ca/glossary/sred-expenditure-pool\">Pool of Deductible SR&ED Expenditures</a> in <strong>Year 2</strong> (the immediately following taxation year) on Line 435 of Form T661, effectively taxing the credit in the year after receipt (or reducing the deductible pool balance available for future years)10."
+    },
+    {
+      "type": "heading",
+      "text": "3. Qualifying SR&ED Expenditures (QREs) and Cost Calculation Methodologies"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1 Salary or Wages (Subsection 37(8), Subsection 248(1), and Regulation 2900(2))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Employee remuneration forms the core of most Canadian SR&ED claims9. Under <strong>Subsection 248(1)</strong> of the <em>Income Tax Act</em>, <em><a href=\"/ca/glossary/sred-wages-and-salaries\">\"salary or wages\"</a></em> means the income of a taxpayer from an office or employment as computed under Subdivision a of Division B of Part I of the Act, including regular base income, vacation pay, statutory holiday pay, sick leave pay, pay in lieu of termination notice, tips and gratuities, honorariums, director's fees, management fees, and commissions, but <strong>excluding superannuation or pension benefits or retiring allowances</strong>26."
+    },
+    {
+      "type": "subheading",
+      "text": "1. Eligible Employee Scope Under Proxy vs. Traditional Method"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a claimant elects the <strong><a href=\"/ca/glossary/sred-proxy-method\">Proxy Method</a></strong> under <strong>Clause 37(8)(a)(ii)(B)</strong>, only the portion of salary or wages of employees who are <strong>directly engaged</strong> in the prosecution of SR&ED in Canada can be claimed on Lines 300 and 305 of Form T6616. Salaries or wages of employees who support or supervise SR&ED for work not considered directly engaged (such as long-term planning, contract administration, clerical support, or human resources) cannot be claimed under the proxy method because those costs are captured by the 55% Prescribed Proxy Amount6. Conversely, when a claimant uses the <strong><a href=\"/ca/glossary/sred-traditional-method\">Traditional Method</a></strong> under <strong>Clause 37(8)(a)(ii)(A)</strong> and <strong>Paragraph 2900(2)(b)</strong>, salaries or wages for employees <strong>directly undertaking, supervising, or supporting</strong> SR&ED may be included, and administrative or clerical salaries directly related and incremental to the prosecution of SR&ED may be claimed as SR&ED overhead and other expenditures on Line 3606. Under <strong>Regulation 2900(5)</strong>, if an employee spends <strong>all or substantially all (≥90%)</strong> of their working time directly engaged in SR&ED in Canada, 100% of their eligible salary or wages counts toward the claim28."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Inclusions and Exclusions from SR&ED Salary or Wages"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cash outlays for employee <strong>taxable benefits</strong> (such as automobile benefits, housing, board and meals, gifts and awards, interest-free or low-interest loans, group term life insurance policies, and tuition fees) may be included in <a href=\"/ca/faq/calculating-sred-salary-and-wages\">SR&ED salary or wages</a>26. Non-cash taxable benefits may be included in SR&ED salary or wages only if three conditions are met: (1) the value of the benefit is a reasonable estimate of actual costs; (2) the value does not include GST/HST or PST unless no input tax credit can be claimed; and (3) the actual costs to which the non-cash benefit relates are not claimed elsewhere as a business expense26. However, under <strong>Regulation 2900(9)</strong>, <strong>all taxable benefits (under Sections 6 and 7 of the Act) are excluded from the salary base</strong> used to calculate the 55% PPA32."
+    },
+    {
+      "type": "paragraph",
+      "text": "SR&ED salary or wages <strong>never</strong> include: (1) the employer's share of related payroll benefits (such as employer CPP, EI, or pension contributions, which can only be claimed as overhead on Line 360 under the traditional method); (2) extended vacation or extended sick leave (during which employees are considered neither directly engaged nor directly undertaking, supervising, or supporting SR&ED); (3) <strong>stock option benefits</strong> (considered not to be an expenditure incurred for SR&ED); (4) <strong>retiring allowances</strong> (which can only be considered as overhead on Line 360 under the traditional method if ASA or directly attributable to SR&ED); or (5) <strong>dividends</strong> paid to <a href=\"/ca/faq/sred-specified-employees-and-owner-salaries\">owner-managers</a> or founders, which are returns on shares rather than income from an office or employment under Subsection 248(1)6."
+    },
+    {
+      "type": "subheading",
+      "text": "3. Specified Employee Restrictions (Subsections 248(1), 37(9), 37(9.1)–(9.5), and Regulation 2900(7)–(8))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 248(1)</strong>, a <strong><a href=\"/ca/glossary/specified-employee\">\"specified employee\"</a></strong> is an employee who is a <strong>\"specified shareholder\"</strong>—meaning a person who owns, directly or indirectly, at any time in the year, <strong>10% or more of the issued shares of any class</strong> of the corporation or of a related corporation (including shares owned by persons with whom the employee does not deal at arm's length, proportionate holdings through a partnership or fixed trust, and all shares held by a discretionary family trust of which the individual is a beneficiary)—or who <strong>does not deal at arm's length</strong> with the employer corporation (such as a spouse, sibling, or other related family member, even if that family member owns no shares)26. Owning 10% or more of any share class at any point during the tax year makes the individual a specified employee for that year, even if diluted below 10% later in the year28."
+    },
+    {
+      "type": "paragraph",
+      "text": "Specified employees are governed by three strict statutory restrictions26. First, under <strong>Subsection 37(9)</strong>, any <strong>bonus or remuneration based on profits</strong> paid to a specified employee is <strong>completely excluded</strong> from SR&ED salary or wages (whereas bonuses and profit-based remuneration for non-specified employees are allowable on Line 300, though excluded from the PPA salary base on Line 812)26. Second, under <strong>Subsection 37(9.1)</strong>, the maximum amount of SR&ED salary or wages that a claimant can claim for a specified employee (on Line 305) is capped at <strong>5 times the Year's Maximum Pensionable Earnings (YMPE)</strong> determined under Section 18 of the <em>Canada Pension Plan</em>, prorated by the number of days in the taxation year on which the individual was a specified employee26:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Maximum SR&ED salary or wages = 5 × YMPE × (number of days in the taxation year on which the individual was a specified employee ÷ 365)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the <strong>2026 calendar year</strong>, the CPP YMPE is <strong>$74,600.00</strong>, establishing a maximum allowable SR&ED salary cap of <strong>$373,000</strong> (5 × $74,600) per specified employee28. Under <strong>Subsections 37(9.2) to 37(9.5)</strong>, if a specified employee works for two or more associated corporations, none of their salary counts for SR&ED in any of the corporations unless all associated corporations file an agreement on prescribed <strong>Form T1174</strong> allocating a single $373,000 cap among them26."
+    },
+    {
+      "type": "paragraph",
+      "text": "Third, under <strong>Regulation 2900(7)</strong>, when calculating the salary base for the 55% Prescribed Proxy Amount in Part 5 of Form T661 (Boxes 850 to 860), the amount included for a specified employee is limited to the <strong>lesser of</strong>: (1) <strong>75% of the specified employee's total salary or wages</strong> (excluding bonuses, remuneration based on profits, taxable benefits, and prior-year unpaid salary paid in the year) multiplied by the percentage of <a href=\"/ca/faq/sred-employee-time-tracking-requirements\">time spent on SR&ED</a> (and as shown in Form T661 Boxes 852–860 and CRA examples, even when a specified employee spends 100% of their time on SR&ED, their proxy salary base entry cannot exceed <strong>75% of their total salary</strong>); and (2) <strong>2.5 times the YMPE</strong> prorated by the number of days in the taxation year that the claimant employed the individual28:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specified employee salary base = lesser of (75% × total salary or wages) and (2.5 × YMPE × number of days in the taxation year that the claimant employed the individual ÷ 365)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For <strong>2026</strong>, 2.5 × $74,600 equals <strong>$186,500</strong>28. Under <strong>Regulation 2900(8)</strong> and <strong>2900(10)</strong>, if a specified employee is employed by two or more associated corporations in tax years ending in the same calendar year, the total proxy salary base across all associated corporations cannot exceed a single 2.5 × YMPE ($186,500) ceiling28."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory Provision / Parameter",
+        "Non-Specified Employee (Arm's-Length)",
+        "Specified Employee (≥10% Shareholder or Non-Arm's-Length)",
+        "2026 Monetary Ceiling / Rate (2026 YMPE = $74,600)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Regular Base Salary / Wages (SR&ED Share)</strong>",
+            "100% allowable (Line 300)",
+            "Allowable up to statutory cap (Line 305)",
+            "<strong>Max $373,000</strong> (5 × $74,600, prorated by days as specified employee; ITA s. 37(9.1))28"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Bonuses & Remuneration Based on Profits</strong>",
+            "Allowable on Line 300; <strong>excluded from PPA salary base</strong> on Line 812",
+            "<strong>100% Excluded</strong> from both Line 305 and PPA salary base",
+            "<strong>$0</strong> for specified employees (ITA s. 37(9); Reg. 2900(9))26"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Taxable Benefits (Sections 6 & 7)</strong>",
+            "Cash/eligible non-cash allowable on Line 300; <strong>excluded from PPA base</strong> (Line 812)",
+            "Cash/eligible non-cash allowable within cap; <strong>excluded from PPA base</strong>",
+            "<strong>$0</strong> in PPA salary base for all employees (Reg. 2900(9))26"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Proxy Salary Base Inclusion (Part 5 of T661)</strong>",
+            "100% of base SR&ED salary (Line 810 less Line 812)",
+            "<strong>Lesser of:</strong> (i) SR&ED salary, (ii) <strong>75% of total salary</strong>, and (iii) <strong>2.5 × YMPE</strong>",
+            "<strong>Max $186,500</strong> (2.5 × $74,600, prorated by days employed; Reg. 2900(7))28"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Maximum 55% PPA Generated per Employee</strong>",
+            "Uncapped (55% of eligible base SR&ED salary)",
+            "55% of capped proxy salary base",
+            "<strong>Max $102,575</strong> (55% × $186,500) per specified employee28"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Dividends & Stock Option Benefits</strong>",
+            "Excluded",
+            "Excluded",
+            "<strong>$0</strong> (Not salary or wages under ITA s. 248(1))26"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "4. Permissible Salary or Wages for SR&ED Performed Outside Canada (Subsections 37(1.4), 37(1.5), and 37(2))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsections <a href=\"/ca/legislation/ita-section-37-1-4-sred-super-allowance-recapture\">37(1.4)</a>, 37(1.5), and 37(2)</strong>, claimants can earn SR&ED ITCs on permissible salary or wages for SR&ED work carried on outside Canada (reported on Line 307 for non-specified employees and Line 309 for specified employees) up to the <strong>lower of Amount A and Amount B</strong>26. <strong>Amount A</strong> consists of eligible foreign salary or wages that satisfy five cumulative criteria: (1) the SR&ED work was directly undertaken by an employee of the claimant and not by a contractor; (2) the employee was a resident of Canada at the time the expense was incurred; (3) the work was related to a business of the claimant; (4) the <a href=\"/ca/faq/sred-work-performed-outside-canada\">SR&ED work performed outside Canada</a> was an integral part and <strong>solely in support of</strong> SR&ED work carried on in Canada; and (5) the salary or wages paid were <strong>not subject to income or profits tax</strong> from another country9. <strong>Amount B</strong> is <strong>10% of the total SR&ED salary or wages for SR&ED carried on in Canada</strong> (Line 306 = Line 300 + Line 305 on Form T661)9. Permissible foreign salary meeting this test is deemed to be an expenditure made in Canada and enters both the Section 37 pool and the PPA salary base26."
+    },
+    {
+      "type": "subheading",
+      "text": "5. The 180-Day Unpaid Remuneration Rule (Subsection 78(4) and Regulation 2900(9))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 78(4)</strong> of the <em>Income Tax Act</em>, accrued salary or wages remaining unpaid <strong>180 days after the end of the taxation year</strong> in which the expense was incurred are deemed not to have been incurred in that taxation year (and are subtracted on Line 315 of Form T661); instead, they are deemed to be incurred in the subsequent taxation year in which the amount is actually paid (claimed on Line 310)26. Reasonable vacation or holiday pay and deferred amounts under a statutory salary deferral arrangement are excepted from the 180-day rule and deemed paid in the year incurred, but they cannot be included in the PPA salary base26. Furthermore, under <strong>Regulation 2900(9)</strong>, prior-year unpaid salary or wages claimed on Line 310 when paid in a later year are <strong>excluded from the PPA salary base</strong>28."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2 Traditional Method vs. Proxy Method and the Prescribed Proxy Amount (PPA)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 37(10)</strong> of the <em>Income Tax Act</em>, a claimant must elect on every annual Form T661 whether to compute its SR&ED expenditures using the <strong>Proxy Method</strong> (Line 160) or the <strong>Traditional Method</strong> (Line 162)6. This election must be made on the first Form T661 filed for the taxation year and is <strong>irrevocable</strong> for that taxation year once filed6."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the <strong>Proxy Method</strong> is elected on Line 160, the claimant does not specifically identify, track, or claim <a href=\"/ca/faq/sred-proxy-method-overhead\">actual SR&ED overhead</a> or indirect support salaries on Line 3606. Instead, the claimant calculates a notional <strong><a href=\"/ca/glossary/prescribed-proxy-amount-ppa\">Prescribed Proxy Amount (PPA)</a></strong> in Part 5 of Form T661 equal to <strong>55% of the SR&ED salary base</strong> under <strong>Regulation 2900(4)</strong> (reported on Line 820 and carried to Line 502 in Part 4)9. The PPA earns the federal SR&ED Investment Tax Credit as part of <a href=\"/ca/glossary/qualified-sred-expenditures\">Total Qualified SR&ED Expenditures</a> on Line 570, but the PPA is <strong>never included in the Section 37 Pool of Deductible SR&ED Expenditures</strong>; the actual overhead expenses represented by the PPA remain deductible as ordinary business expenses in the year6. To ensure that total qualified SR&ED expenditures, the PPA, and other specified deductions do not exceed total business deductions made in the year, <strong>Regulation 2900(6)</strong> subjects the PPA to an <strong>Overall Cap</strong>32:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Maximum PPA = A − B − C"
+    },
+    {
+      "type": "paragraph",
+      "text": "In this formula, A is the total amounts deducted when calculating net income for tax purposes from the business for the year (including cost of goods sold); B is the sum of specific statutory deductions claimed in the year under <strong>Sections 20</strong> (such as Capital Cost Allowance, interest, and bad debts), <strong>24</strong> (ceasing to carry on a business), <strong>26</strong> (banks), <strong>30</strong> (improving land for farming), <strong>32</strong> (insurance agents/brokers), <strong>37</strong> (SR&ED expenditures claimed on Line 411 of Schedule T2SCH1), <strong>66 to 66.8</strong> (exploration and development expenses), and <strong>104</strong> (trusts); and C is the amount of expenditures incurred for the use of, or the right to use, a building32."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the <strong>Traditional Method</strong> is chosen on Line 162, the PPA is nil (Line 502 = $0), and the claimant itemizes actual SR&ED <a href=\"/ca/glossary/overhead-and-other-expenditures\">overhead and other current expenditures</a> on <strong>Line 360</strong>6. These actual overhead amounts enter <strong>both</strong> the Section 37 deductible pool and the qualified expenditure pool for ITC purposes6. To qualify under <strong>Paragraph 2900(2)(c)</strong> (expenditures directly attributable to the prosecution of SR&ED) or <strong>Subsection 2900(3)</strong> (expenditures directly attributable to the provision of premises, facilities, or equipment for the prosecution of SR&ED), every claimed overhead expenditure must satisfy two cumulative tests6:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>The \"Directly Related\" Test (Section 3.1 of Overhead Policy):</strong> The expenditure must proceed directly without an intervening step or intermediary and must have a direct linkage to at least one of three elements: (i) the <strong>SR&ED work</strong>, (ii) the <strong>SR&ED staff</strong>, or (iii) the <strong>machinery or equipment</strong> used by staff to perform SR&ED34. Indirect linkages (such as related benefits, travel, or training costs for clerical/administrative staff supporting SR&ED employees rather than hands-on SR&ED staff) are disallowed34.",
+        "<strong>The \"Incremental\" (\"But For\") Test (Section 3.2 of Overhead Policy):</strong> The expenditure must satisfy the requirement that <strong>it would not have been incurred had the prosecution of SR&ED not occurred</strong>6. Fixed expenses that the company would incur regardless of whether SR&ED was performed (such as fixed monthly telephone, cellular, or internet plans, or fixed-cost maintenance contracts) fail the incremental test34. Furthermore, even if an expense is directly related and incremental, it is disallowed if it is a <strong>prescribed expenditure under Regulation 2902</strong> (such as fees for preparing SR&ED claims, costs to attend conferences or conventions, interest expenses, or general legal/accounting fees)25."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Expenditure / Cost Category",
+        "Treatment Under Proxy Method (Line 160)",
+        "Treatment Under Traditional Method (Line 162)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Directly Engaged SR&ED Salaries (Lines 300 / 305)</strong>",
+            "Deductible in s. 37 Pool; earns ITC; forms <strong>Salary Base</strong> for 55% PPA6",
+            "Deductible in s. 37 Pool; earns ITC (No PPA calculated)6"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Support/Supervision Salaries Not Directly Engaged & Clerical/HR Support Serving SR&ED Staff</strong>",
+            "Covered by 55% PPA; deducted as regular business expense; <strong>not claimed on T661</strong>6",
+            "Claimed on <strong>Line 360</strong> (deductible in s. 37 Pool + earns ITC) <em>only if directly related & incremental</em>6"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Employer Share of Payroll Benefits (CPP, EI, Group Benefits) for Hands-On SR&ED Staff</strong>",
+            "Covered by 55% PPA; deducted as regular business expense6",
+            "Claimed on <strong>Line 360</strong> for hands-on SR&ED staff (fails if for clerical staff)34"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Variable Utilities (Electricity, Gas, Water) & Shop Supplies Consumed by SR&ED Equipment</strong>",
+            "Covered by 55% PPA; deducted as regular business expense6",
+            "Claimed on <strong>Line 360</strong> at the metered/allocated incremental SR&ED usage share34"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Technical Training, Employee Relocation, & Project Travel for Hands-On SR&ED Staff</strong>",
+            "Covered by 55% PPA; deducted as regular business expense6",
+            "Claimed on <strong>Line 360</strong> if directly related and incremental (conferences & headhunters excluded)6"
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/faq/materials-transformed-vs-materials-consumed-sred\">Materials Consumed (Line 320) or Transformed (Line 325)</a></strong>",
+            "100% in s. 37 Pool; 100% earns ITC6",
+            "100% in s. 37 Pool; 100% earns ITC6"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Arm's-Length <a href=\"/ca/glossary/contract-for-sred\">SR&ED Contracts</a> (Line 340) & Third-Party Payments (Line 370)</strong>",
+            "100% in s. 37 Pool; <strong>80%</strong> earns ITC6",
+            "100% in s. 37 Pool; <strong>80%</strong> earns ITC6"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Equipment Lease Costs (Post-Dec. 15, 2024): ASA Use (≥90%)</strong>",
+            "100% on Line 350 (excludes General-Purpose Office Equipment/Furniture [GPOEF])33",
+            "100% on Line 350 (includes GPOEF if used ≥90% for SR&ED)33"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Equipment Lease Costs (Post-Dec. 15, 2024): Primarily Use (&gt;50% to &lt;90%)</strong>",
+            "<strong>50% of lease cost</strong> on Line 355 (excludes GPOEF; 0% if ≤50% use)33",
+            "Proportional incremental SR&ED usage % claimed on <strong>Line 360</strong> as overhead33"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prescribed Proxy Amount (PPA — Line 502 / Line 820)</strong>",
+            "<strong>55% of Salary Base</strong> (Earns ITC; not in s. 37 Pool)6",
+            "<strong>$0</strong> (Not applicable)6"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Calendar 2026 Audit Comparison: Proxy Method vs. Traditional Method"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider a qualifying CCPC in calendar year 2026 with: (1) <strong>$300,000</strong> in base salaries paid to non-specified employees (100% directly engaged in SR&ED, no bonuses), (2) <strong>$200,000</strong> salary paid to an owner/specified employee who spent <strong>80%</strong> of their time ($160,000) directly engaged in SR&ED, (3) <strong>$30,000</strong> in materials consumed, and (4) <strong>$150,000</strong> in provable incremental SR&ED overhead45:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Calculation Line / Metric",
+        "Traditional Method (Line 162)",
+        "Proxy Method (Line 160)",
+        "Statutory Explanation"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Non-Specified Employee Salaries (Line 300)</strong>",
+            "$300,000",
+            "$300,000",
+            "100% allowable under both methods45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Specified Employee Salary (Line 305)</strong>",
+            "$160,000",
+            "$160,000",
+            "80% × $200,000 = $160,000 (below $373,000 cap of 5 × YMPE)45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Materials Consumed (Line 320)</strong>",
+            "$30,000",
+            "$30,000",
+            "100% allowable under both methods45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Incremental Overhead (Line 360)</strong>",
+            "$150,000",
+            "$0",
+            "Claimed on Line 360 only under Traditional Method45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Total Additions to Section 37 Pool (Line 400)</strong>",
+            "<strong>$640,000</strong>",
+            "<strong>$490,000</strong>",
+            "Under Proxy, the $150,000 overhead is deducted under s. 945"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Specified Employee in PPA Salary Base (Box 860)</strong>",
+            "N/A",
+            "$150,000",
+            "Lesser of: $160,000 (SR&ED pay), <strong>$150,000</strong> (75% × $200,000), and $186,500 (2.5 × YMPE)45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Total PPA Salary Base (Line 818)</strong>",
+            "N/A",
+            "$450,000",
+            "$300,000 + $150,000 = $450,00045"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Prescribed Proxy Amount at 55% (Line 502)</strong>",
+            "$0",
+            "<strong>$247,500</strong>",
+            "55% × $450,000 = $247,500 (Reg. 2900(4))45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Total Qualified SR&ED Expenditures (Line 570)</strong>",
+            "<strong>$640,000</strong>",
+            "<strong>$737,500</strong>",
+            "$490,000 + $247,500 = $737,50045"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Federal SR&ED ITC at 35% (100% Refundable)</strong>",
+            "<strong>$224,000</strong>",
+            "<strong>$258,125</strong>",
+            "Proxy Method yields <strong>+$34,125</strong> higher cash refund unless actual provable overhead exceeds $247,50045"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "3.3 Materials Consumed vs. Materials Transformed, Prototypes, Custom Products, and Production Runs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subclauses 37(8)(a)(ii)(A)(I)–(II), Subclause 37(8)(a)(ii)(B)(V), and Paragraph 2900(2)(a)</strong>, a claimant may include under both the Traditional and Proxy methods the cost of <a href=\"/ca/faq/sred-eligible-materials\">physical, tangible materials</a> (raw materials, substances, or solid, liquid, or gaseous items that compose the body of a tangible object on which SR&ED is carried out or resulting from SR&ED) in the taxation year the materials are actually <strong>consumed</strong> or <strong>transformed</strong> in the prosecution of SR&ED in Canada50. Cost means laid-down cost (invoice price, customs and excise duties, transportation, acquisition, and storage costs, plus direct labour and production overhead for internally manufactured inventory)50. Processing supplies or overhead items that do not compose the body of the thing on which SR&ED is performed are not materials for SR&ED50."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong><a href=\"/ca/glossary/materials-consumed\">Materials consumed</a> (Line 320)</strong> are materials destroyed or rendered <em>virtually valueless</em> in the prosecution of SR&ED in Canada (including experimental production sold as scrap for 10% or less of its original cost)29. <strong><a href=\"/ca/glossary/materials-transformed\">Materials transformed</a> (Line 325)</strong> are materials changed or transformed in the prosecution of SR&ED that retain value (more than 10% of original cost) or are incorporated into an experimental prototype, custom product, or commercial asset44. If the resulting custom product, commercial asset, or experimental production is subsequently sold or converted to commercial use within 20 taxation years, the ITC earned on the transformed materials is subject to <strong><a href=\"/ca/glossary/recapture-of-investment-tax-credit\">ITC Recapture</a></strong> under <strong>Subsections 127(27) to 127(36)</strong>29."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the CRA's <em>SR&ED while Developing an Asset Policy</em> and <em><a href=\"/ca/glossary/context-of-the-production-run\">SR&ED During Production Runs Policy</a></em>, distinct cost-allocation rules govern prototypes, pilot plants, custom products, and commercial production runs51:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Context / Asset Type",
+        "CRA Definition & Eligibility Criteria",
+        "Allowable Expenditure & Recapture Treatment"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Prototypes & Test Copies</strong>",
+            "Original trial model possessing essential characteristics of the intended product, built to test a hypothesis and having no lasting value51.",
+            "Current labour, materials, and overhead qualify; for duplicate copies built strictly for SR&ED testing, costs are claimed as materials consumed/transformed <strong>when testing is completed</strong> (not when constructed), subject to ITC recapture if sold51."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Pilot Plants</strong>",
+            "Non-commercial-scale facility developed and used solely for SR&ED experimental production and isolated from normal commercial operations (cannot be intended for temporary or permanent conversion to commercial use)51.",
+            "Current costs (labour, materials consumed/transformed, contracts, overhead) to develop and operate the pilot plant qualify; post-Dec. 15, 2024 depreciable equipment qualifies under capital rules13."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Custom Products & Commercial Assets</strong>",
+            "Commercial plant or custom asset developed for internal use or sale where SR&ED is undertaken to resolve technological uncertainties51.",
+            "Only SR&ED labour and materials consumed/transformed in the SR&ED portion qualify (claiming total asset material cost upfront is prohibited). If isolating SR&ED work is impossible for both CRA and claimant and the claimant signs a <strong>Subsection 169(2.2) waiver</strong>, the <strong>Alternative Approach</strong> equals: <em>(Total actual development cost − Estimated normal construction cost if technology already existed) + Estimated cost of materials transformed in SR&ED</em>51."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Experimental Production Runs (ED+EP)</strong>",
+            "Experimental development during a <a href=\"/ca/glossary/production-run\">production run</a> where output is <strong>Experimental Production (EP)</strong> required to validate SR&ED objectives, characterized by genuine <strong>technical risk to the process or product</strong> (e.g., exceeding standard process parameters, stability/defect/damage risk)52.",
+            "All direct labour, materials consumed/transformed, and incremental overhead required for the experimental run qualify, <strong>excluding \"excess production\"</strong> beyond what was strictly required for validation. Sale of output triggers ITC recapture on transformed materials52."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Commercial Production Runs (ED+CP)</strong>",
+            "SR&ED performed during a commercial production run where the technical risk criteria for ED+EP are <strong>not</strong> met and regular commercial production continues52.",
+            "Normal commercial production costs are excluded; <strong>only incremental costs</strong> resulting from the SR&ED work (such as incremental material loss/scrap above normal production loss and dedicated SR&ED monitoring labour) qualify52."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "3.4 Arm's-Length Contracts, Non-Arm's-Length Contracts, and Third-Party Payments"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a claimant awards a contract to an <a href=\"/ca/glossary/arms-length-relationship\">arm's-length</a> <strong>taxable supplier</strong> to perform SR&ED on the claimant's behalf <strong>in Canada</strong> under <strong>Subparagraph 37(1)(a)(i.01)</strong> and <strong>subparagraph (a)(ii) of the definition \"qualified expenditure\" in Subsection 127(9)</strong>, <strong>100%</strong> of the contract expenditure is allowable in the Section 37 deductible pool (Line 340), and <strong>80%</strong> qualifies as a qualified expenditure for the SR&ED Investment Tax Credit (after the 20% reduction on Line 529 of Form T661)9. To prevent duplication, the Canadian contractor (performer) must reduce its own qualified SR&ED expenditures by the gross <a href=\"/ca/faq/sred-claims-for-client-contract-work\">contract payment received</a> or receivable under <strong>Subsections 127(9) and 127(18)</strong>22. If a claimant contracts out <em>only</em> Paragraph (d) support work to an arm's-length Canadian contractor, the payer can claim the contract expenditure (at 80% for ITC) if the work is <a href=\"/ca/glossary/commensurate-with-the-needs\">commensurate with the needs</a> and directly in support of core SR&ED performed in Canada by or on behalf of the payer; however, the contractor cannot claim SR&ED on that support work because support work on its own does not meet the definition of SR&ED30. Expenditures for SR&ED work performed <strong>outside Canada</strong> by a contractor cannot be claimed on Form T661 and earn <strong>0% ITC</strong>, though they may be <a href=\"/ca/glossary/sred-deduction-against-income\">deducted against business income</a> under <strong>Subsection 37(2)</strong>30. Additionally, following the restoration of capital expenditures after December 15, 2024, contract expenditures and third-party payments incurred after December 15, 2024, are no longer reduced by capital expenditures of the performer under the former Subsection 37(14) look-through rule13."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a claimant enters into an SR&ED contract with a <strong><a href=\"/ca/glossary/non-arms-length-relationship\">non-arm's-length (NAL)</a> performer</strong> (determined under <strong>Section 251</strong> of the Act), the payer's contract expenditure is deductible in the Section 37 pool (Line 345), but is <strong>not a qualified expenditure for the payer's ITC</strong>9. Instead, the NAL performer claims its own SR&ED expenditures (and amounts received from the NAL payer are not \"contract payments\" reducing the performer's claim), OR the NAL performer may transfer all or part of its qualified expenditures (up to the contract amount) to the NAL payer under <strong><a href=\"/ca/legislation/ita-section-127-13-sred-contract-payment-reductions\">Subsection 127(13)</a></strong> by filing prescribed <strong>Form T1146</strong> (<em>Agreement to Transfer Qualified Expenditures Incurred in Respect of SR&ED Contracts Between Persons Not Dealing at Arm's Length</em>, reported on Line 508 for the payer and Line 544 for the performer)25. Under <strong>Subsection 127(24)</strong>, if a claimant inserts an arm's-length intermediary that subcontracts SR&ED to a party not dealing at arm's length with the claimant for the main purpose of obtaining a qualified expenditure, the payment is excluded30. Furthermore, under <strong>Subsection 127(11.6)</strong>, when a claimant purchases goods or services from a NAL supplier, the qualified expenditure is adjusted and limited to the actual cost to the NAL supplier (Lines 541 and 542)25."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subparagraphs 37(1)(a)(i.1), (ii), and (iii)</strong>, a claimant may claim <strong><a href=\"/ca/glossary/sred-third-party-payments\">Third-Party Payments</a></strong> (direct financial contributions, funding of students or employees doing SR&ED, or payments in kind valued at fair market value) made to six categories of eligible entities (<strong>Entities A to F</strong>) for SR&ED carried on in Canada, provided the SR&ED relates to a business of the claimant and the claimant is <strong>entitled to exploit the results</strong> of the SR&ED48. Like arm's-length contracts, <strong>100%</strong> enters the Section 37 pool (Line 370) and <strong>80%</strong> qualifies for the ITC (via Line 529), and the claimant must attach <strong>Form T1263</strong> (<em>Third-Party Payments for SR&ED</em>) for each payment25."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Characteristic / Statutory Rule",
+        "Third-Party Payments (Line 370 + Form T1263)",
+        "Arm's-Length SR&ED Contracts (Line 340)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Eligible Recipient Entities</strong>",
+            "<strong>Entity A:</strong> Corporation resident in Canada (s. 37(1)(a)(i.1)); <strong>Entity B:</strong> Approved association; <strong>Entity C:</strong> Approved university, college, or research institute; <strong>Entity D:</strong> Tax-exempt non-profit SR&ED corp (s. 149(1)(j)); <strong>Entity E:</strong> Approved granting council (s. 37(1)(a)(ii)); <strong>Entity F:</strong> Non-profit SR&ED corp for basic/applied research with broad applications used in conjunction with claimant's SR&ED (s. 37(1)(a)(iii))48",
+            "Any arm's-length <strong>taxable supplier</strong> performing SR&ED in Canada on behalf of the claimant (s. 37(1)(a)(i.01); s. 127(9) \"qualified expenditure\" (a)(ii))25"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Control & Direction of SR&ED Work</strong>",
+            "Controlled by the <strong>Performer</strong> (university, institute, or consortium)48",
+            "Controlled by the <strong>Payer</strong> (claimant)48"
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/faq/sred-tax-credit-ownership-contractor-vs-payer\">Intellectual Property & Exploitation Rights</a></strong>",
+            "<strong>Non-exclusive</strong> (generally published), but payer must hold a preferential right to exploit the results in its business48",
+            "<strong>Exclusive</strong> to the Payer48"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Number of Funders & Focus</strong>",
+            "Usually more than one payer; often basic or <a href=\"/ca/glossary/applied-research\">applied research</a>48",
+            "Usually limited to one payer; often commercially focused48"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Timing of Tax Recognition (Cash vs. Accrual)</strong>",
+            "<strong>Entities B to E:</strong> Cash basis (year <strong>paid</strong>, exempt from s. 18(9) prepaid expense rules per s. 18(9)(d)); <strong>Entity A:</strong> Accrual basis (year SR&ED is <strong>performed</strong>)48",
+            "<strong>Accrual basis</strong> (year SR&ED work is <strong>performed</strong>, subject to s. 18(9) and s. 127(26))30"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>ITC Qualification Share</strong>",
+            "<strong>80%</strong> of payment qualifies for ITC6",
+            "<a href=\"/ca/faq/sred-contractor-cost-percentage\"><strong>80%</strong> of contract amount qualifies for ITC</a>6"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 127(26)</strong>, current expenditures (other than salary or wages, such as materials, contracts, or overhead) incurred in the taxation year but <strong>not paid within 180 days</strong> of the end of the taxation year must be excluded from qualified expenditures on <strong>Line 520</strong> of Form T661 for that year (for an unpaid arm's-length contract, 20% is deducted on Line 529 and the remaining 80% is deducted on Line 520), and are subsequently added back on <strong>Line 500</strong> in the taxation year actually paid (at 80% for contracts)25. Crucially, unpaid current expenditures must be identified on Form T661 within the <strong>18-month <a href=\"/ca/glossary/sred-reporting-filing-deadline\">SR&ED reporting deadline</a></strong> for the year incurred; if not identified by that deadline, they can <strong>never</strong> be included in qualified expenditures for ITC purposes even when paid in a later year25."
+    },
+    {
+      "type": "subheading",
+      "text": "3.5 Capital Expenditures, Shared-Use Equipment (SUE), and Lease Costs (Post-December 15, 2024 Restoration)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under Bill C-15 (S.C. 2026, c. 3), <a href=\"/ca/faq/sred-capital-equipment-and-machinery-costs\">capital expenditures and equipment lease costs</a> incurred <strong>after December 15, 2024</strong> qualify again for SR&ED deductions and Investment Tax Credits, whereas capital property acquired or lease costs incurred before December 16, 2024 remain ineligible13."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <strong>All or Substantially All (ASA) Depreciable Capital Property</strong> (<strong>Paragraph 37(1)(b), Subsection <a href=\"/ca/legislation/ita-section-37-1-2-sred-expenditure-timing\">37(1.2)</a>, Subclauses 37(8)(a)(ii)(A)(III) and (B)(III), and Subsection 127(9)</strong>), new depreciable property acquired and <strong>available for use</strong> (under <strong>Subsections 13(27) and 37(1.2)</strong>) after December 15, 2024 qualifies as an SR&ED capital expenditure if, at acquisition, it is intended either: (1) to be used during <strong>all or substantially all (≥90%)</strong> of its operating time in its expected useful life in the prosecution of SR&ED carried on in Canada, OR (2) to have <strong>all or substantially all (≥90%) of its value consumed</strong> in the prosecution of SR&ED carried on in Canada13. The capital cost includes the purchase price, legal, accounting, engineering, and installation fees, customs and excise duties, transportation, storage, and (for self-manufactured property) direct material, labour, and attributable overhead excluding profit13. When deducted in the Section 37 pool, the asset is deemed to belong to a separate prescribed class and <strong>cannot</strong> also be claimed for regular <a href=\"/ca/glossary/capital-cost-allowance-cca\">Capital Cost Allowance (CCA)</a> on Schedule T2SCH813. Within the $6,000,000 expenditure limit, the 35% enhanced ITC earned on <a href=\"/ca/glossary/sred-capital-expenditures\">capital expenditures</a> by CCPCs and ECPCs is <strong>40% refundable</strong>2. Statutorily excluded assets include: (i) <strong>land</strong> or leasehold interests in land, inventory, and goodwill; (ii) <strong>buildings</strong> or leasehold interests in buildings (under <strong><a href=\"/ca/legislation/ita-section-37-8-sred-expenditure-definitions\">Paragraphs 37(8)(d) and (e)</a></strong>, except for a <em>prescribed special-purpose building</em> approved under <strong>Regulation 2903</strong>); (iii) <strong>used property</strong> that was used or acquired for use or lease before acquisition by the claimant (<strong>Subparagraph 2902(b)(iii)</strong>); (iv) property used outside Canada; and (v) <strong>Prescribed Depreciable Property (PDP)</strong> under <strong>Regulation 2900(11)</strong>13."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <strong>Shared-Use Equipment (SUE — Subsection 127(9))</strong>, new <a href=\"/ca/glossary/depreciable-property\">depreciable property</a> acquired and available for use after December 15, 2024 that does not meet the ≥90% ASA test because it is used for both SR&ED and commercial work may earn an SR&ED ITC (while its capital cost is depreciated under standard CCA rules on Schedule T2SCH8 rather than entering the Section 37 pool) if it qualifies as <strong>First-Term SUE</strong> and <strong>Second-Term SUE</strong>13. To qualify as SUE, the property must be new, must not be a Prescribed Depreciable Property (PDP) under Regulation 2900(11) (such as equipment intended primarily for non-SR&ED or used in assembling/commissioning a commercial plant), and must <strong>not</strong> be General-Purpose Office Equipment or Furniture (GPOEF)14. If actual usage records establish that the equipment was used <strong>primarily (more than 50%)</strong> of its operating time for SR&ED in Canada during the <strong>\"first period\"</strong> (from the date the property is available for use to the end of the first taxation year ending at least <strong>12 months</strong> after acquisition), <strong>1/4 (25%) of the net capital cost</strong> (excluding borrowed money costs under Section 21 and adjusted for NAL costs under Subsection 127(11.6) and assistance under Subsection 127(18)) qualifies for the SR&ED ITC as <strong>First-Term SUE</strong>14. If the equipment qualified as First-Term SUE and was used <strong>primarily (more than 50%)</strong> of its operating time for SR&ED in Canada through the end of the <strong>\"second period\"</strong> (from acquisition to the end of the first taxation year ending at least <strong>24 months</strong> after acquisition), an <strong>additional 1/4 (25%) of its capital cost</strong> (totalling 50% across both periods) qualifies for the SR&ED ITC as <strong>Second-Term SUE</strong>14."
+    },
+    {
+      "type": "paragraph",
+      "text": "For <strong><a href=\"/ca/glossary/equipment-lease-expenditures\">Equipment Lease Expenditures</a> (Post-December 15, 2024 — Subclauses 37(8)(a)(ii)(A)(I)–(II), (B)(I), and (B)(VI))</strong>, lease costs incurred after December 15, 2024 qualify based on full-tax-year operating time (for a tax year that straddles December 16, 2024, SR&ED usage is measured as a percentage of operating time after December 15, 2024)33. Under the <strong>Proxy Method</strong>, leased equipment (excluding GPOEF) used <strong>≥90% (ASA)</strong> of its operating time for SR&ED is <strong>100% claimable</strong> on Line 350; leased equipment (excluding GPOEF) used <strong>&gt;50% to &lt;90% (Primarily)</strong> is <strong>50% claimable</strong> on Line 355; and leased equipment used <strong>≤50%</strong> is <strong>0% claimable</strong>33. Under the <strong>Traditional Method</strong>, leased equipment (including GPOEF) used <strong>≥90% (ASA)</strong> is <strong>100% claimable</strong> on Line 350, and leased equipment used <strong>&lt;90%</strong> is claimable on <strong>Line 360</strong> as overhead in proportion to its incremental SR&ED usage percentage33. Rent for a <strong>building</strong> is strictly excluded under <strong>Paragraphs 37(8)(d) and (e)</strong> (except for a Regulation 2903 prescribed special-purpose building), requiring reasonable allocation when a lease covers both a building and equipment, though lease costs for non-building structures or non-rigid portable shelters (such as tents or air-supported fabric domes) may qualify33."
+    },
+    {
+      "type": "subheading",
+      "text": "3.6 Recapture of SR&ED Investment Tax Credits (Subsections 127(27) to 127(36))"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsections 127(27) to 127(36)</strong> of the <em>Income Tax Act</em>, an SR&ED Investment Tax Credit earned by a claimant is <strong>recaptured</strong> (added directly to federal Part I tax otherwise payable for the year of disposition or conversion, even in a loss year) if four cumulative statutory conditions are met29:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The claimant acquired a particular corporeal property from a person or partnership in the current taxation year or in any of the <strong>20 preceding taxation years</strong> (the 20-year look-back window under Subsection 127(36))29;",
+        "The cost of the property was a qualified expenditure for SR&ED purposes (specifically: <strong>materials transformed</strong>, <strong>ASA capital assets</strong>, <strong>Shared-Use Equipment (SUE)</strong>, or corporeal property acquired via SR&ED contracts)29;",
+        "The cost of the property was included in computing the claimant's SR&ED ITC at the end of a taxation year29; and",
+        "In the taxation year, the claimant <strong>disposes of</strong> the particular property (or another property that incorporates it) or <strong>converts it to commercial use</strong>29."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Recapture <strong>never</strong> applies to: (1) salaries, wages, or overhead (excluded from the definition of \"cost\" under <strong>Subsection 127(32)</strong>); (2) the disposition or licensing of <strong>Intellectual Property (IP)</strong>, which is incorporeal property; (3) scrap sales or conversions where the proceeds of disposition or Fair Market Value (FMV) are <strong>less than 10%</strong> of the original cost of the property; or (4) non-arm's-length dispositions of SR&ED capital property under <strong>Subsections 127(33) to 127(35)</strong> where the NAL purchaser continues to use the property ASA for SR&ED (until the NAL purchaser subsequently disposes of it or converts it to commercial use)14."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 127(27)</strong>, the recapture amount added to Part I tax payable for a corporation or individual (where no Subsection 127(13) transfer occurred; transferred expenditures are governed by <strong>Subsection 127(29)</strong> and partnerships by <strong>Subsections 127(28), 127(30), and 127(31)</strong>) is the <strong>lesser of</strong>: (1) the <strong>original SR&ED ITC earned</strong> in respect of the particular property; and (2) the <strong>historical ITC rate</strong> (35%, 15%, or pre-2014 20% used when calculating the original ITC on that property) multiplied by the <strong>proceeds of disposition</strong> (if sold to an arm's-length person) or the <strong>Fair Market Value (FMV)</strong> of the property (if converted to commercial use or disposed of to a non-arm's-length party)29. Claimants may use unused SR&ED ITCs to offset Part I tax arising from recapture, and any recapture amount added to <a href=\"/ca/glossary/tax-payable\">Part I tax payable</a> in a taxation year increases the claimant's <strong>Section 37 Pool of Deductible SR&ED Expenditures</strong> for the following taxation year under <strong>Paragraphs 37(1)(c.2) and (c.3)</strong> (Line 453 of Form T661)10."
+    },
+    {
+      "type": "heading",
+      "text": "4. Provincial and Territorial R&D Tax Credits and Intellectual Property Regimes"
+    },
+    {
+      "type": "subheading",
+      "text": "4.1 Complete Jurisdictional Master Matrix of Provincial and Territorial R&D Incentives"
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to the federal SR&ED program, nine Canadian provinces and one territory offer <a href=\"/ca/faq/provincial-rd-tax-credits-canada\">dedicated R&D tax credits</a> or tax-administered grants17. Except for Québec (administered by Revenu Québec on the CO-17 corporate return) and Alberta (administered by Alberta Treasury Board and Finance on the AT1 return), all provincial and territorial R&D tax credits are administered by the <strong>Canada Revenue Agency</strong> alongside the federal T2 or T1 return9."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jurisdiction",
+        "Program Name",
+        "Credit Rate",
+        "Refundability",
+        "Annual Cap / Phase-Out Thresholds",
+        "Carryback / Carryforward",
+        "Prescribed Form(s)",
+        "Statutory Authority",
+        "Filing Deadline"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Ontario</strong>",
+            "<strong>Ontario Innovation Tax Credit (OITC)</strong>",
+            "<strong>8%</strong>",
+            "<strong>100% Refundable</strong>",
+            "<strong>$3,000,000</strong> expenditure limit; phases out at <strong>$500k–$800k</strong> prior-year taxable income & <strong>$25M–$50M</strong> taxable paid-up capital17",
+            "Not applicable (excess refunded)17",
+            "<strong>T2SCH566</strong> / <strong>T2SCH31</strong>17",
+            "<em>Taxation Act, 2007</em> (Ontario)17",
+            "Not specified in CRA summary (mirrors T661)17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Ontario</strong>",
+            "<strong>Ontario R&D Tax Credit (ORDTC)</strong>",
+            "<strong>3.5%</strong>",
+            "<strong>Non-refundable</strong>",
+            "No cap (applies to eligible Ontario SR&ED expenditures)17",
+            "<strong>3 yrs back / 20 yrs forward</strong>18",
+            "<strong>T2SCH508</strong> (plus T2SCH506 / T2SCH507)17",
+            "<em>Taxation Act, 2007</em> (Ontario), s. 38–45 (and s. 46–53)17",
+            "Filed with T2 return17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Ontario</strong>",
+            "<strong>Ontario Business-Research Institute Tax Credit (OBRITC)</strong>",
+            "<strong>20%</strong>",
+            "<strong>100% Refundable</strong>",
+            "<strong>$20,000,000</strong> cap on eligible contracts with qualifying institutes17",
+            "Not applicable (excess refunded)17",
+            "<strong>T2SCH568</strong> & <strong>T2SCH569</strong>17",
+            "<em>Taxation Act, 2007</em> (Ontario), s. 9717",
+            "Not specified in CRA summary17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Québec</strong>",
+            "<strong>Tax Credit for R&D, Innovation & Pre-Commercialization (CRIC)</strong> <em>(Tax years beginning after Mar. 25, 2025)</em>",
+            "<strong>30%</strong> (first $1M above threshold); <strong>20%</strong> (excess)18",
+            "<strong>100% Refundable</strong>",
+            "<strong>$1,000,000</strong> enhanced limit shared by associated group (no asset cap); subject to <strong>Exclusion Threshold</strong> (≥$50,000)19",
+            "Not applicable (refunded)21",
+            "<strong>RD-1029.8.CR</strong>, <strong>RD-1029.8.EN</strong>, & <strong>RD-222</strong> (with CO-17)21",
+            "Québec <em>Taxation Act</em> (Revenu Québec)19",
+            "<strong>12 months</strong> after CO-17 filing due date (18 mos after year-end)21"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Québec</strong>",
+            "<strong>Incentive Deduction for Commercialization of Innovations (IDCI / IP Box)</strong>",
+            "<strong>2.0% effective tax rate</strong> (vs. 11.5% regular)20",
+            "Tax Rate Reduction",
+            "Applies to qualified IP income multiplied by the <strong>OECD Québec Nexus Ratio</strong>19",
+            "Not applicable (income deduction)20",
+            "CO-17 schedules",
+            "Québec <em>Taxation Act</em>19",
+            "Filed with CO-17 return20"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>British Columbia</strong>",
+            "<strong>BC SR&ED Tax Credit</strong>",
+            "<strong>10%</strong>",
+            "<strong>100% Refundable</strong> for CCPCs up to limit; <strong>Non-refundable</strong> above limit / non-CCPCs17",
+            "<strong>$3,000,000</strong> refundable expenditure limit for CCPCs ($300,000 max cash refund); non-refundable otherwise17",
+            "<strong>3 yrs back / 10 yrs forward</strong> (non-refundable portion)17",
+            "<strong>Form T666</strong>17",
+            "<em>Income Tax Act</em> (British Columbia), s. 97–10317",
+            "<strong>18 months</strong> after corporation's tax year-end17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Alberta</strong>",
+            "<strong>Innovation Employment Grant (IEG)</strong>",
+            "<strong>8%</strong> (up to base spending); <strong>20%</strong> (above 2-yr average base)17",
+            "<strong>100% Refundable Grant</strong>",
+            "<strong>$4,000,000</strong> maximum annual eligible R&D spending cap17",
+            "Not applicable17",
+            "<strong>AT1 Schedule 29</strong> & <strong>Form AT4970</strong>17",
+            "<em>Alberta Corporate Tax Act</em>, s. 26.95–26.9917",
+            "<strong>15 months</strong> after corporation's filing due date17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Manitoba</strong>",
+            "<strong><a href=\"/ca/glossary/manitoba-research-and-development-tax-credit\">Manitoba R&D Tax Credit</a></strong>",
+            "<strong>15%</strong>",
+            "<strong>50% Refundable (7.5%)</strong> & <strong>50% Non-refundable (7.5%)</strong> for in-house R&D; <strong>100% Refundable (15%)</strong> for institute contracts17",
+            "Not explicitly capped17",
+            "<strong>3 yrs back / 20 yrs forward</strong> (non-refundable half)17",
+            "<strong>T2SCH380</strong>17",
+            "<em>Income Tax Act</em> (Manitoba), s. 7.317",
+            "<strong>1 year</strong> after filing due date (6 mos after year-end to renounce federally)17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Saskatchewan</strong>",
+            "<strong>Saskatchewan R&D Tax Credit</strong>",
+            "<strong>10%</strong>",
+            "<strong>100% Refundable</strong> for CCPCs on first $1M; <strong>Non-refundable</strong> above $1M & for non-CCPCs17",
+            "<strong>$1,000,000</strong> annual cap for CCPC refundable credit; non-refundable on excess17",
+            "<strong>3 yrs back / 10 yrs forward</strong> (non-refundable portion)17",
+            "<strong>T2SCH403</strong>17",
+            "<em>The Income Tax Act</em> (Saskatchewan), s. 63–63.417",
+            "Not specified in CRA summary17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>New Brunswick</strong>",
+            "<strong><a href=\"/ca/glossary/new-brunswick-research-and-development-tax-credit\">New Brunswick R&D Tax Credit</a></strong>",
+            "<strong>15%</strong>",
+            "<strong>100% Refundable</strong>",
+            "Not explicitly capped17",
+            "Historic 3 yrs back / 7 yrs forward for non-refundable17",
+            "<strong>T2SCH360</strong>17",
+            "<em>New Brunswick Income Tax Act</em>, s. 5917",
+            "Not specified in CRA summary17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Nova Scotia</strong>",
+            "<strong><a href=\"/ca/glossary/nova-scotia-research-and-development-tax-credit\">Nova Scotia R&D Tax Credit</a></strong>",
+            "<strong>15%</strong>",
+            "<strong>100% Refundable</strong>",
+            "Not explicitly capped17",
+            "Not applicable17",
+            "<strong>T2SCH340</strong>17",
+            "<em>Income Tax Act</em> (Nova Scotia), s. 4117",
+            "<strong>18 months</strong> after corporation's tax year-end17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Newfoundland & Labrador</strong>",
+            "<strong><a href=\"/ca/glossary/newfoundland-and-labrador-rd-tax-credit\">Newfoundland & Labrador R&D Tax Credit</a></strong>",
+            "<strong>15%</strong>",
+            "<strong>100% Refundable</strong>",
+            "Not explicitly capped (Base is <strong>not</strong> reduced by other assistance except GST/HST ITCs)17",
+            "Not applicable17",
+            "<strong>T2SCH301</strong> (Corps) & <strong>Form T1129</strong> (Individuals)17",
+            "<em>Income Tax Act</em> (Newfoundland and Labrador), s. 4217",
+            "<strong>12 months</strong> after filing due date17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Yukon</strong>",
+            "<strong>Yukon R&D Tax Credit</strong>",
+            "<strong>15%</strong> (+ <strong>5%</strong> on payments to Yukon University)17",
+            "<strong>100% Refundable</strong>",
+            "Not explicitly capped17",
+            "Not applicable17",
+            "<strong>T2SCH442</strong> (Corps) & <strong>Form T1232</strong> (Individuals)17",
+            "Yukon <em>Income Tax Act</em>17",
+            "12 months after filing due date17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>PEI, NWT, & Nunavut</strong>",
+            "<em>No standalone provincial/territorial R&D tax credit</em>",
+            "N/A",
+            "N/A",
+            "Claimants in PEI, NWT, and Nunavut claim the federal SR&ED ITC without provincial credit reduction44.",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "4.2 Detailed Analysis of Major Provincial R&D and IP Box Regimes"
+    },
+    {
+      "type": "subheading",
+      "text": "1. Québec's 2025–2026 Overhaul: The CRIC and the IDCI IP Box"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Québec Budget speech of <strong>March 25, 2025</strong>, Québec's Minister of Finance introduced the refundable <strong><a href=\"/ca/glossary/quebec-scientific-research-and-experimental-development-tax-credit\">Tax Credit for R&D, Innovation and Pre-Commercialization (CRIC)</a></strong> for <strong>taxation years or partnership fiscal periods beginning after March 25, 2025</strong>19. Concurrently, to streamline the provincial tax system, Québec <strong>abolished seven legacy measures</strong> for taxation years beginning after March 25, 2025: (1) the tax credit for salaries and wages of researchers (formerly Form RD-1029.7-V); (2) the tax credit for university research or research carried out by a public research centre or a research consortium (formerly Form RD-1029.8.6-V); (3) the tax credit for fees and dues paid to a research consortium (formerly Form RD-1029.8.9.03-V); (4) the tax credit for private partnership pre-competitive research (formerly Form RD-1029.8.16.1-V); (5) the tax credit for technological adaptation services; (6) the <strong>industrial design component</strong> of the design tax credits (while retaining the fashion design component); and (7) the <strong>tax holiday for foreign researchers and experts</strong>19. Corporations and individuals with a taxation year or partnership fiscal period beginning <em>before</em> March 26, 2025, claim the former credits for that transitional year19."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>CRIC</strong> is a <strong>100% refundable</strong> corporate tax credit claimed on <strong>Form RD-1029.8.CR</strong> (accompanied by <strong>Form RD-222</strong> for the deduction of R&D expenditures and <strong>Form RD-1029.8.EN</strong> to allocate the $1,000,000 enhanced limit among associated corporations) filed with the Québec <strong>CO-17</strong> corporate return, or no later than <strong>12 months after the CO-17 filing due date</strong>, using <strong>Code 112</strong> for the R&D portion and <strong>Code 113</strong> for the pre-commercialization portion19. In addition to R&D carried out in Québec (salaries, subcontractor payments, and payments to research organizations), the CRIC expands eligibility to <strong>(a) pre-commercialization activities</strong> carried out in Québec as a continuation of R&D activities (such as tests, technological validations, regulatory compliance studies, prototyping, and product design) and <strong>(b) new depreciable capital property</strong> (excluding land, buildings, or rights in a building) acquired and used almost exclusively in Québec for R&D or pre-commercialization (note that a corporation cannot claim both the CRIC and the Québec C3i Tax Credit for Investment and Innovation on Form CO-1029.8.36.II for the same property)19."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before the CRIC rates apply, eligible expenditures are reduced by an annual <strong>Exclusion Threshold</strong> equal to the <strong>greater of</strong>: (1) <strong>$50,000</strong> (prorated for short taxation years), or (2) the sum of the <strong>R&D employees threshold</strong> and the <strong>pre-commercialization employees threshold</strong> (calculated using the basic personal amount applicable to each involved employee)19. Once the exclusion threshold is exceeded, <strong>all qualified corporations</strong>—regardless of total asset size—earn an <strong>enhanced 30% refundable rate on the first $1,000,000</strong> of eligible expenditures above the threshold (shared among associated corporations and prorated for short taxation years), and a <strong>20% basic refundable rate</strong> on all excess eligible expenditures18. When a corporation claims the CRIC as a member of a partnership, the 30% enhanced rate does not apply and a separate Form RD-1029.8.CR is required21."
+    },
+    {
+      "type": "paragraph",
+      "text": "Complementing the CRIC on the commercialization side, Québec operates the <strong>Incentive Deduction for the Commercialization of Innovations (IDCI / DCI)</strong>, commonly known as the <strong>Québec IP Box</strong>19. A corporation with an establishment in Québec that performs R&D in Québec and commercializes a <strong>Qualified Intellectual Property Asset (QIPA)</strong>—including <strong>patents, copyrighted computer programs and software, and plant varieties with breeder's rights</strong>—can reduce its Québec provincial corporate tax rate on eligible commercialization income (from selling, leasing, or licensing qualified IP assets in Québec or internationally) from the standard <strong>11.5% down to as low as 2.0%</strong>20. Eligible income is determined using the <strong>OECD nexus approach</strong>; for taxation years beginning after March 25, 2025, the <strong>Québec nexus ratio</strong> is calculated using R&D expenditures giving entitlement to the CRIC (unreduced by the CRIC exclusion threshold, but excluding pre-commercialization expenditures)19."
+    },
+    {
+      "type": "subheading",
+      "text": "2. Ontario's Three-Tiered Corporate R&D Tax Credit Regime"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations with a <a href=\"/ca/glossary/permanent-establishment\">permanent establishment</a> in Ontario can access three provincial R&D incentives under the <em>Taxation Act, 2007</em> (Ontario)17. First, the <strong>Ontario Innovation Tax Credit (OITC)</strong> provides an <strong>8% refundable tax credit</strong> on up to <strong>$3,000,000</strong> of qualified Ontario SR&ED expenditures; the $3,000,000 expenditure limit phases out when prior-year federal taxable income is between <strong>$500,000 and $800,000</strong> or when prior-year taxable paid-up capital is between <strong>$25,000,000 and $50,000,000</strong>17. Second, the <strong><a href=\"/ca/glossary/ontario-research-and-development-tax-credit-ordtc\">Ontario Research and Development Tax Credit (ORDTC</a> — Sections 38 to 45, Schedule T2SCH508)</strong> provides a <strong>3.5% non-refundable tax credit</strong> on eligible Ontario SR&ED expenditures, with unused credits carrying back 3 years and forward 20 years17. Third, the <strong>Ontario Business-Research Institute Tax Credit (OBRITC — Section 97, Schedules T2SCH568 and T2SCH569)</strong> provides a <strong>20% refundable tax credit</strong> on up to <strong>$20,000,000</strong> of eligible SR&ED contract expenditures with qualifying Ontario research institutes17."
+    },
+    {
+      "type": "heading",
+      "text": "5. Government Assistance, Contract Payments, Direct Grants, and Stacking Mechanics"
+    },
+    {
+      "type": "subheading",
+      "text": "5.1 Statutory Treatment of Government Assistance, Non-Government Assistance, and Contract Payments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong><a href=\"/ca/legislation/ita-section-127-9-investment-tax-credit-definitions\">Subsection 127(9)</a></strong> and <strong>Paragraph 12(1)(x)</strong> of the <em>Income Tax Act</em>, federal SR&ED benefits apply only to a claimant's net unassisted expenditure base18. <strong><a href=\"/ca/glossary/government-assistance\">Government assistance</a></strong> is defined as assistance from a government, municipality, Crown corporation, foreign government, or other public authority (an entity that has a duty to the public, is subject to a significant degree of government control, and uses its profits for the benefit of the public), whether provided directly or indirectly through a government-funded non-profit organization as a grant, subsidy, forgivable loan, deduction from tax, investment allowance, or any other form of assistance, <strong>other than the federal SR&ED ITC itself</strong>22. <strong><a href=\"/ca/glossary/non-government-assistance\">Non-government assistance</a></strong> is any inducement, reimbursement, contribution, or allowance from a non-government source that would be included in income under <strong>Paragraph 12(1)(x)</strong> (read without reference to Subparagraphs 12(1)(x)(v) to (vii))22."
+    },
+    {
+      "type": "paragraph",
+      "text": "All government assistance, non-government assistance, provincial super-allowance benefits (under <strong>Paragraph 37(1)(d.1)</strong>), and SR&ED contract payments that the claimant has received, is entitled to receive, or can reasonably be expected to receive on or before the filing due date reduce the Section 37 Pool of Deductible SR&ED Expenditures under <strong>Paragraph 37(1)(d)</strong> (Lines 429–432) and reduce Qualified SR&ED Expenditures for ITC purposes under <strong><a href=\"/ca/legislation/ita-section-127-18-to-20-sred-government-assistance-reductions\">Subsections 127(18) and 127(19)</a></strong> (Lines 513–517)22. Under <strong>Subsection 127(20)</strong>, non-arm's-length parties may allocate assistance using <strong>Form T1145</strong>22. Because provincial and territorial R&D tax credits are classified as government assistance, <a href=\"/ca/faq/federal-and-provincial-sred-credit-interaction\">provincial credits must be calculated</a> <strong>first</strong>, and the federal SR&ED credit is calculated on the net base (unless a claimant formally renounces a non-refundable provincial R&D credit on or before its filing due date—such as within 6 months of year-end for Manitoba's R&D credit—in which case the renounced credit does not reduce the federal pool or qualified expenditures)17."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two technical rules govern how assistance interacts with the <strong>55% Prescribed Proxy Amount (PPA)</strong> under the Proxy Method22. First, when a claimant receives a direct wage grant such as NRC IRAP, the gross eligible salary incurred is reported on Line 300/305 and enters the <strong>Part 5 Salary Base (Line 818)</strong> unreduced by the grant, generating the full 55% PPA before the IRAP grant is subtracted once on Lines 431 and 51532. Second, as established in the CRA's <em>Assistance and Contract Payments Policy</em> (Section 4.5), when a provincial R&D credit is earned in part on the federal 55% PPA, <strong>100% of the provincial credit</strong> reduces federal Qualified SR&ED Expenditures on Line 513 under <strong>Subsection 127(18)</strong>; however, because the notional PPA is not in the Section 37 deductible pool, the <strong>portion of the provincial R&D tax credit attributable to the PPA does not reduce the Section 37 Pool on Line 429</strong>, and must instead be included directly in taxable income under <strong>Paragraph 12(1)(x)</strong> (on Schedule T2SCH1) in the taxation year received6. Similarly, where a legacy Québec R&D salary credit was earned on support salaries or subcontract salary components that do not qualify under the federal proxy method, that portion of the Québec credit does not reduce the Section 37 pool but is included in income under Paragraph 12(1)(x) in the year received22."
+    },
+    {
+      "type": "subheading",
+      "text": "5.2 Key Federal Direct R&D Grants and Co-Investment Programs"
+    },
+    {
+      "type": "paragraph",
+      "text": "To maximize non-dilutive R&D financing, Canadian corporations frequently coordinate prospective direct grants and clean-economy credits with retrospective SR&ED claims23:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Federal Program Name",
+        "Administering Agency",
+        "Funding Mechanism & Rates",
+        "Eligibility & Interaction with SR&ED"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong><a href=\"/ca/faq/government-grants-irap-impact-on-sred\">NRC Industrial Research Assistance Program (IRAP)</a></strong>",
+            "National Research Council Canada (NRC)",
+            "Non-repayable cost-shared contributions covering <strong>up to 80% of internal technical R&D labour</strong> (and <a href=\"/ca/glossary/sred-subcontractor-costs\">subcontractor costs</a> set by the ITA); typical first-time awards <strong>$75,000–$200,000</strong>; standard projects up to $1M (and decision timelines published up to $10M). Includes <strong>IRAP Clean Technology</strong> stream and <strong>$244.2M Defence Industry Assist</strong> stream (launched Jan. 2026)23.",
+            "Incorporated, for-profit Canadian SMEs with <strong>≤500 full-time employees</strong> (no sole proprietorships, partnerships, or ULCs/LLCs). Strictly <strong>prospective</strong> (must be approved before expenses are incurred). Reduces SR&ED qualified expenditures on Line 515, while gross salary still generates the 55% PPA23."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Strategic Response Fund</strong> <em>(Replaced Strategic Innovation Fund / SIF)</em>",
+            "Innovation, Science and Economic Development Canada (ISED)",
+            "<strong>$5 billion</strong> envelope for large-scale industrial R&D and commercialization scale-up projects (implicit <strong>$10,000,000+</strong> project floor); contributions are <strong>repayable by default</strong>23.",
+            "Government assistance under ITA s. 127(9); reduces SR&ED pool and qualified expenditures on the assisted cost items22."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Canada Strong Fund</strong>",
+            "Government of Canada",
+            "<strong>$25 billion</strong> sovereign wealth co-investment fund (announced April 27, 2026 over three years) co-investing alongside private capital on commercial terms in energy, mining, infrastructure, and advanced manufacturing58.",
+            "Commercial institutional co-investment capital rather than a grant window58."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Regional AI Initiative (RAII) & AI Compute Access Fund</strong>",
+            "Regional Development Agencies / ISED",
+            "RAII provides up to <strong>$5,000,000</strong> in interest-free repayable contributions (up to <strong>50%</strong> of eligible costs, repayable starting 1 year after project completion)57.",
+            "Coordinated with SR&ED and provincial credits for AI commercialization and compute scale-up57."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Clean Technology ITC & Clean Economy ITCs</strong>",
+            "CRA / Natural Resources Canada",
+            "<strong>30% refundable ITC</strong> on eligible clean-tech capital property through 2033 (15% in 2034); <strong>Clean Tech Manufacturing ITC (T2SCH76)</strong> and <strong>Clean Hydrogen ITC (T2SCH74)</strong>23.",
+            "Cannot claim both SR&ED and Clean Technology ITC on the same capital equipment purchase, but can claim SR&ED on R&D labour/overhead and the 30% Clean Technology ITC on the capital asset in the same year23."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "5.3 Multi-Program Stacking Mathematics and Worked Numerical Models"
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Model 1: Federal SR&ED (35% + 55% PPA) + Provincial Credits (Ontario vs. British Columbia) on $100,000 of Direct Engineer Salary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assume a qualifying CCPC incurs <strong>$100,000</strong> of non-specified employee salary (100% directly engaged in SR&ED) and elects the <strong>Proxy Method</strong> (generating a 55% PPA of <strong>$55,000</strong>, for <strong>$155,000</strong> in gross qualified expenditures)18:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Calculation Step",
+        "Ontario CCPC (8% OITC Only — ORDTC Renounced)",
+        "Ontario CCPC (8% OITC + 3.5% ORDTC Claimed)",
+        "British Columbia CCPC (10% BC SR&ED Credit)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. Direct SR&ED Salary (Line 300 / 818)</strong>",
+            "$100,000",
+            "$100,000",
+            "$100,00045"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. 55% Prescribed Proxy Amount (Line 502)</strong>",
+            "$55,000",
+            "$55,000",
+            "$55,00032"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. Gross Qualified Expenditures</strong>",
+            "<strong>$155,000</strong>",
+            "<strong>$155,000</strong>",
+            "<strong>$155,000</strong>45"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. Provincial Refundable Tax Credit</strong>",
+            "8% OITC × $155,000 = <strong>$12,400</strong>",
+            "8% OITC × $155,000 = <strong>$12,400</strong>",
+            "10% BC × $155,000 = <strong>$15,500</strong>17"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. Provincial Non-Refundable Credit</strong>",
+            "$0 (Renounced)",
+            "3.5% ORDTC × ($155,000 − $12,400) = <strong>$4,991</strong>",
+            "$017"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>6. Total Provincial Assistance (Line 513)</strong>",
+            "−$12,400",
+            "−$17,391",
+            "−$15,50018"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>7. Net Federal Qualified Expenditures (Line 570)</strong>",
+            "<strong>$142,600</strong>",
+            "<strong>$137,609</strong>",
+            "<strong>$139,500</strong>18"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>8. Federal 35% Refundable SR&ED ITC</strong>",
+            "35% × $142,600 = <strong>$49,910</strong>",
+            "35% × $137,609 = <strong>$48,163</strong>",
+            "35% × $139,500 = <strong>$48,825</strong>4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>9. Total Combined Credits (Cash + Non-Ref.)</strong>",
+            "<strong>$62,310</strong> (62.31% of salary)",
+            "<strong>$65,554</strong> (65.55% of salary)",
+            "<strong>$64,325</strong> (64.33% of salary)16"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>10. Immediate Cash Refund Received</strong>",
+            "<strong>$62,310</strong> (62.31% cash)",
+            "<strong>$60,563</strong> (60.56% cash)",
+            "<strong>$64,325</strong> (64.33% cash)16"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Worked Model 2: Clean-Tech Multi-Program Stack ($500,000 Project Combining NRC IRAP, Federal SR&ED, and 30% Clean Technology ITC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "As illustrated in industry clean-technology stacking models, when a qualifying CCPC executes a <strong>$500,000</strong> clean-technology R&D project consisting of <strong>$250,000</strong> in R&D labour, <strong>$50,000</strong> in other current R&D expenses, and <strong>$200,000</strong> in new clean-technology capital equipment (routing the labour to IRAP, the capital asset to the 30% Clean Technology ITC, and the remaining unassisted R&D expenditure base to SR&ED)23:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Total Gross Project Cost: $500,000</strong>23.",
+        "<strong>NRC IRAP Grant (80% of $250,000 Eligible Labour): −$200,000</strong> cash contribution23.",
+        "<strong>Federal SR&ED Enhanced ITC (35% of $100,000 Remaining Unassisted R&D Expense Base, being $300,000 of R&D expenditures less the $200,000 IRAP contribution under Subsection 127(18)): −$35,000</strong> refundable credit23.",
+        "<strong>Clean Technology ITC (30% of $200,000 Equipment Purchase): −$60,000</strong> refundable credit23.",
+        "<strong>Net Out-of-Pocket Corporate Cost:</strong> $500,000 − $200,000 − $35,000 − $60,000 = <strong>$205,000</strong> (<strong>59.0% of total project cost covered</strong>)23."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. Governance, Filing Procedures, Prescribed Forms, and Compliance Penalties"
+    },
+    {
+      "type": "subheading",
+      "text": "6.1 Governing Authorities and Statutory Filing Deadlines"
+    },
+    {
+      "type": "paragraph",
+      "text": "The federal SR&ED program is governed by the <strong>Department of Finance Canada</strong> (responsible for legislative policy) and administered by the <strong><a href=\"/ca/glossary/canada-revenue-agency-cra\">Canada Revenue Agency (CRA)</a></strong>1. Under <strong><a href=\"/ca/legislation/ita-section-37-11-sred-filing-deadline\">Subsections 37(11)</a> and 37(12)</strong> and <strong>Paragraph 127(9)(m)</strong> of the <em>Income Tax Act</em>, a claimant must submit prescribed <strong>Form T661</strong> and the applicable ITC schedule (<strong>Schedule T2SCH31</strong> for corporations or <strong>Form T2038(IND)</strong> for individuals and trusts) containing all <strong>prescribed information</strong> on or before the statutory <strong>SR&ED Reporting Deadline</strong>, which is <strong>12 months after the claimant's income tax return filing due date</strong> for the taxation year in which the expenditures were incurred47."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Claimant Entity Type",
+        "Income Tax Return Form",
+        "Standard Tax Return Filing Due Date",
+        "Statutory SR&ED Reporting Deadline (+12 Months)",
+        "Total Window After Fiscal Year-End",
+        "Consequence of Missing Deadline (Subsections 37(11), 37(12), 127(9)(m), & 220(2.2))"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Corporations</strong>",
+            "<strong>T2</strong> (<em>Corporation Income Tax Return</em>)",
+            "<strong>6 months</strong> after taxation year-end (ITA s. 150(1)(a))9",
+            "12 months after T2 filing due date47",
+            "<strong>18 months</strong> after taxation year-end9",
+            "<strong>Mandatory forfeiture:</strong> Expenditures are deemed <strong>not</strong> to be SR&ED expenditures (<a href=\"/ca/legislation/ita-section-37-12-sred-late-filing-penalty\">s. 37(12)</a>) and no ITC is earned (s. 127(9)(m)). Under <strong>Subsection 220(2.2)</strong>, requests to waive filing requirements under s. 220(2.1) <strong>cannot</strong> be made for prescribed SR&ED forms or information9."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Individuals (Sole Proprietorships)</strong>",
+            "<strong>T1</strong> (<em>Income Tax and Benefit Return</em>)",
+            "<strong>June 15</strong> of the following calendar year47",
+            "June 15 of the second following year47",
+            "<strong>17.5 months</strong> (17 ½ months) after Dec. 31 year-end47",
+            "Same statutory forfeiture of SR&ED expenditure status and ITC47."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Trusts Carrying On a Business</strong>",
+            "<strong>T3</strong> (<em>Trust Income Tax and Information Return</em>)",
+            "<strong>90 days</strong> after trust's taxation year-end47",
+            "12 months after the 90-day T3 due date47",
+            "<strong>15 months</strong> (90 days + 12 mos) after trust year-end47",
+            "Same statutory forfeiture of SR&ED expenditure status and ITC47."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Partnerships</strong>",
+            "<strong>T5013</strong> (<em>Partnership Information Return</em>)",
+            "Earliest filing due date of any partner47",
+            "<strong>12 months</strong> after the earliest filing due date of any member47",
+            "<strong>17.5 to 18 months</strong> (depending on partner composition)47",
+            "Individual/corporate partners must also file Form T2038(IND) or Schedule T2SCH31 by their own reporting deadline47."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When an SR&ED reporting deadline falls on a Saturday, Sunday, or CRA-recognized public holiday, the claim is considered filed on time if the CRA receives it or if it is postmarked on or before the next business day47. Note that if Form T661 is filed on time by the reporting deadline, but Schedule T2SCH31 or Form T2038(IND) is filed <em>after</em> the reporting deadline, the claimant can still include the allowable expenditures in the Section 37 deductible pool, but forfeits the ITC on those expenditures47."
+    },
+    {
+      "type": "subheading",
+      "text": "6.2 Comprehensive Architecture of Form T661 and Associated Schedules"
+    },
+    {
+      "type": "paragraph",
+      "text": "To constitute a complete filing by the reporting deadline, all prescribed sections of <strong>Form T661</strong> (<em>Scientific Research and Experimental Development (SR&ED) Expenditures Claim</em>, updated May 15, 2026) and <strong><a href=\"/ca/glossary/t2sch31-form\">Schedule T2SCH31</a></strong> (updated May 22, 2026) must be submitted4:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form T661 Part / Schedule",
+        "Section & Key Line Numbers",
+        "Prescribed Content, Word Limits, and Statutory Function"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Part 1 — General Information</strong>",
+            "Lines 010 to 157",
+            "Claimant name (Line 010), total <a href=\"/ca/faq/grouping-rd-activities-into-sred-projects\">number of SR&ED projects claimed</a> (Line 050), contact information (Lines 100–125), and partnership information (Lines 151–157)44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 2 — Project Information (Section A)</strong>",
+            "Lines 200 to 221",
+            "Project title (Line 200), start date (Line 202), completion or expected completion date (Line 204), <strong>Field of Science or Technology Code</strong> (Line 206), project claim history (Lines 208–210), and collaborative business details (Lines 218–221)44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 2 — Project Descriptions (Section B)</strong>",
+            "<strong>Lines 242, 244, and 246</strong>",
+            "<strong>Line 242 (Max 350 words):</strong> What <a href=\"/ca/glossary/technological-obstacle\">technological obstacles</a>/uncertainties did you overcome to achieve the advancements? <strong>Line 244 (Max 700 words):</strong> What work did you perform in the tax year to overcome the uncertainties described in Line 242? <strong>Line 246 (Max 350 words):</strong> What scientific or technological advancements did you achieve as a result of the work described in Line 244? <em>(For national security \"classified projects\", Section B narratives are kept on a separate sheet and not submitted with the return per Guide T4088 instructions)</em>9."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 2 — Additional Project Info (Section C)</strong>",
+            "Lines 253 to 282",
+            "Person who prepared responses (Lines 253–259), key individuals directly involved and their qualifications/experience (Lines 260–261), foreign salary/contractor indicators (Lines 265–269), and <strong><a href=\"/ca/faq/cra-sred-technical-documentation-requirements\">contemporaneous project planning and evidence</a> checkboxes</strong> (Lines 270–282)44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 3 — Calculation of SR&ED Expenditures</strong>",
+            "<strong>Lines 160–162</strong> (Section A); <strong>Lines 300–400</strong> (Section B); <strong>Lines 429–470</strong> (Section C)",
+            "Irrevocable election of <strong>Proxy Method (Line 160)</strong> vs. <strong>Traditional Method (Line 162)</strong>; itemized allowable expenditures (Lines 300–370, plus post-Dec. 15, 2024 lease lines 350/355) summing to <strong>Line 400</strong>; and computation of the <strong>Section 37 Pool of Deductible SR&ED Expenditures</strong> (Lines 429–470)43."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 4 — Qualified SR&ED Expenditures for ITC</strong>",
+            "Lines 500 to 570",
+            "Additions for prior unpaid amounts paid (Line 500), <strong>Prescribed Proxy Amount (Line 502)</strong>, NAL transfers in (Line 508); reductions for provincial assistance (Line 513), other government assistance (Line 515), non-government assistance/contract payments (Line 517), unpaid amounts at 180 days (Line 520), non-taxable suppliers (Line 528), <strong>20% disallowance on Line 340 contracts & Line 370 third-party payments (Line 529)</strong>, Regulation 2902 prescribed expenditures (Line 530), NAL markups/transfers out (Lines 538–544); summing to <strong>Qualified SR&ED Expenditures (Line 559)</strong>, plus assistance repayments (Line 560), equalling <strong>Total Qualified SR&ED Expenditures (Line 570)</strong>25."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 5 — Prescribed Proxy Amount (PPA)</strong>",
+            "<strong>Lines 810–818</strong> & <strong>Boxes 850–860</strong> (Section A); <strong>Line 820</strong> (Section B)",
+            "Computes non-specified salary base (Line 810 less Line 812 bonuses/benefits = Line 814) plus specified employee capped salary base (Boxes 850–860 = Line 816) to establish <strong>Total Salary Base (Line 818)</strong> and the <strong>55% PPA (Line 820)</strong>32."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 6 — Project Costs</strong>",
+            "Boxes 750 to 758",
+            "Project-by-project cost breakdown of salaries (Box 752), materials (Box 754), contracts (Box 756), and <a href=\"/ca/faq/sred-traditional-method-overhead\">Traditional overhead</a> (Box 758)44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 7 & Part 8</strong>",
+            "Line 605 & Checklist",
+            "Statistics Canada internal R&D data (Line 605) and claim checklist (Part 8)44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 9 — Claim Preparer Information</strong>",
+            "Lines 935 to 975",
+            "Mandatory disclosure of all external claim preparers, billing arrangement, rate, and fee; if no claim preparer assisted, complete Lines 935, 970, and 9759."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Part 10 — Certification</strong>",
+            "Signature Block",
+            "Official certification signature confirming accuracy and completeness44."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/faq/cra-sred-claim-forms\">Supplementary Prescribed Schedules</a></strong>",
+            "<strong>T2SCH31, T2SCH49, T2038(IND), T1145, T1146, T1174, T1263</strong>",
+            "<strong>T2SCH31:</strong> Corporate ITC calculation; <strong>T2SCH49:</strong> Associated CCPC expenditure limit allocation; <strong>T2038(IND):</strong> Individual/Trust ITC; <strong>T1145:</strong> NAL assistance allocation; <strong>T1146:</strong> NAL qualified expenditure transfer; <strong>T1174:</strong> Associated corp specified employee salary allocation; <strong>T1263:</strong> Third-party payment declaration28."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "6.3 Optional Pre-Claim Approval Program (Launched April 1, 2026)"
+    },
+    {
+      "type": "paragraph",
+      "text": "On <strong>April 1, 2026</strong>, the CRA launched the <strong>Optional Pre-Claim Approval</strong> program (replacing its legacy <a href=\"/ca/glossary/pre-claim-consultation-pcc\">Pre-Claim Project Review</a> [PCPR] and Account Executive [AE] services)1. To qualify to apply, the applicant must be a CCPC, another Canadian corporation, or a partnership that: (1) has <strong>gross business income under $25,000,000</strong>; (2) is in good compliance standing with the CRA; and (3) submits a planned or recently started project that has not been included in a previous SR&ED claim and does not involve issues under litigation1."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications are submitted online via the CRA's <em>My Business Account</em> before or early in the project, and the CRA issues a formal eligibility decision within <strong>8 weeks</strong> of receiving a complete application1. While pre-claim approval does not replace the requirement to file Form T661 with the corporate tax return after year-end, refundable claims selected for <a href=\"/ca/glossary/sred-review\">CRA review</a> that contain <strong>only pre-approved projects</strong> (or are selected strictly for expenditure verification) receive an expedited <strong>90-calendar-day service standard</strong>, compared to 180 calendar days for standard reviewed refundable claims1. If pre-approved projects differ significantly from what was initially approved or if unapproved projects are included in the claim, standard 180-day processing times apply9. There is no formal objection process if pre-claim approval is denied, though applicants may resubmit with modifications or file a normal post-year-end claim1."
+    },
+    {
+      "type": "subheading",
+      "text": "6.4 CRA Review Process, Dispute Escalation Path, and Statutory Penalty Regimes"
+    },
+    {
+      "type": "subheading",
+      "text": "1. The Three-Step CRA Review Process and Four-Stage Escalation Path"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/ca/faq/does-sred-claim-trigger-cra-tax-audit\">Claims are selected for review</a> via risk assessment (including AI-assisted risk modelling that auto-approves low-risk claims) or random sampling; once selected for review, <strong>an SR&ED claim cannot be withdrawn</strong>15. A <strong>Research and Technology Advisor (RTA)</strong> (reporting to a Research and Technology Manager [RTM]) evaluates the technical eligibility of the claimed work, while a <strong><a href=\"/ca/glossary/cra-financial-reviewer\">Financial Reviewer (FR)</a></strong> (reporting to a Financial Review Manager [FRM]) verifies the allowability of the claimed expenditures15. Reviews are conducted primarily via virtual videoconferencing (with on-site visits available on a case-by-case basis) across <a href=\"/ca/faq/cra-sred-technical-review-process\">three structured steps</a>: <strong>Step 1 (Start of Review)</strong> involves initial phone contact, issue identification, scheduling, and an initial information request (typically with a 30-day response timeline); <strong>Step 2 (Review Meeting & Information Requests)</strong> involves interviewing the technical personnel who performed or supervised the work, touring facilities, and inspecting contemporaneous evidence; and <strong>Step 3 (End of Review)</strong> provides written review findings and, if disallowances are proposed, a <strong>proposal package granting 30 calendar days</strong> for the claimant to submit written representations before a Notice of Assessment or Reassessment is issued15."
+    },
+    {
+      "type": "paragraph",
+      "text": "If concerns arise during a review, the CRA's <em>Guidelines for Resolving Claimants' SR&ED Concerns</em> establish a <strong><a href=\"/ca/faq/disputing-cra-sred-review-decision\">four-stage escalation path</a></strong>15:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Stage 1 — Talk to the <a href=\"/ca/faq/cra-research-and-technology-advisor-rta-role\">Assigned RTA</a> and/or FR:</strong> Direct communication with the reviewers to clarify facts and submit additional supporting documentation60.",
+        "<strong>Stage 2 — Contact the Research and Technology Manager (RTM) and/or Financial Review Manager (FRM):</strong> If unresolved with the reviewers, escalate to the RTM and/or FRM to review the case facts and perspectives before the file is closed15.",
+        "<strong>Stage 3 — Request an Administrative Review (Form RC532):</strong> If concerns remain unresolved after Stages 1 and 2, and <strong>after receiving the proposal package but before the expiry of the 30-day proposal period and before the file is closed</strong>, the claimant may submit <strong>Form RC532</strong> (<em>Administrative Review</em>) to the <strong>National SR&ED Administrative Review Intake Centre</strong> (which forwards the request within 3 business days to the local SR&ED Assistant Director)15. An Administrative Review is <strong>not</strong> a second technical review; it strictly evaluates whether the technical and financial reviews complied with SR&ED legislation, policies, and procedures, and whether the claimant was granted <strong>due process</strong>15.",
+        "<strong>Stage 4 — File a Formal Notice of Objection (CRA Appeals Branch):</strong> Once a Notice of Assessment or Reassessment is issued, the claimant has <strong>90 calendar days</strong> from the date on the notice to file a formal <strong>Notice of Objection</strong> with the CRA Appeals Branch (and may subsequently appeal to the Tax Court of Canada)15."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2. Statutory Penalty Regimes: Part 9 Claim Preparer Penalty and Gross Negligence Penalty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsections 162(5.1) to 162(5.3)</strong> of the <em>Income Tax Act</em>, if prescribed information regarding the claim preparer (such as preparer name, billing arrangement, contingency rate, and total fee) in <strong>Part 9 of Form T661</strong> is missing, incomplete, or inaccurate, a <strong>$1,000 penalty</strong> applies9. If a claim preparer prepared or assisted in preparing the form, the <strong>claimant and the claim preparer are jointly and severally (or solidarily) liable</strong> for the $1,000 penalty (subject to a due diligence defence under Subsection 162(5.2)), though an omission limited solely to Part 9 does not disallow the SR&ED claim itself9."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under <strong>Subsection 163(2)</strong> (specifically <strong>Paragraphs 163(2)(a) and 163(2)(d)</strong>), a civil <strong><a href=\"/ca/glossary/gross-negligence-penalty-gnp\">Gross Negligence Penalty</a></strong> applies to any person who knowingly, or under circumstances amounting to gross negligence (more than simple oversight or misunderstanding), makes or participates in a false statement or omission in an SR&ED claim31. Under <strong>Subsection 163(3)</strong>, the CRA bears the <a href=\"/ca/glossary/burden-of-proof\">burden of proof</a> on a balance of probabilities31. The penalty equals the <strong>greater of $100 or 50% of the total of</strong>: (1) the understated Part I tax payable reasonably attributable to the <a href=\"/ca/glossary/false-statement-or-omission\">false statement or omission</a> (where <strong>Subsection 163(2.1)</strong> deems taxable income in a loss year not to be less than zero and calculates theoretical Part I tax without allowing retroactive Capital Cost Allowance offsets); <strong>plus</strong> (2) <strong>the entire overstated Refundable ITC claimed</strong> (regardless of whether part of the overstated refund resulted from gross negligence or simple oversight)31."
+    },
+    {
+      "type": "heading",
+      "text": "7. Landmark Canadian Jurisprudence and Audit Precedents"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the CRA publishes administrative guidelines to assist taxpayers, the Federal Court of Appeal has repeatedly confirmed that CRA policies are not binding on the courts and that statutory eligibility under Subsection 248(1) is governed by judicial precedent7."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Name & Citation",
+        "Court & Year",
+        "Core Legal Holding & Audit Precedent"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong><em>Northwest Hydraulic Consultants Ltd. v. The Queen</em></strong>, 98 DTC 1839; [1998] 3 CTC 2520; 1998 CanLII 55341",
+            "Tax Court of Canada (1998)",
+            "<strong>The Foundational 5-Question Test:</strong> Judge Bowman articulated the <a href=\"/ca/faq/sred-eligibility-criteria\">five criteria for SR&ED eligibility</a> and the 5-stage hypothesis methodology, establishing that technological uncertainty exists when an objective cannot be removed by routine engineering or standard procedures accessible to competent professionals in the field, and that failure to achieve the initial objective reinforces rather than invalidates technological uncertainty42."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Consoltex Inc. v. The Queen</em></strong>, 97 DTC 72441",
+            "Tax Court of Canada (1997)",
+            "<strong>Industrial Context of SR&ED:</strong> Confirmed that experimental development carried out in an <a href=\"/ca/faq/sred-for-manufacturing-process-improvements\">industrial manufacturing context</a> qualifies when systematic experimentation and technological uncertainty are demonstrated41."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>RIS-Christie Ltd. v. The Queen</em></strong>, 99 DTC 5087; [1999] 1 CTC 13241",
+            "Federal Court of Appeal (1998)",
+            "<strong>Repeatability and Documentary Evidence:</strong> Allowing the taxpayer's appeal, the FCA endorsed the <em>Northwest Hydraulic</em> approach (para. 10) and held that, once the trial judge had found that the testing produced a technological advancement, he erred in also requiring <a href=\"/ca/glossary/sred-supporting-documentation\">documentary evidence</a> that the tests were repeatable; such a finding gives rise to a rebuttable inference that the work met the SR&ED criteria67."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>C.W. Agencies Inc. v. The Queen</em></strong>, 2001 FCA 393; 2002 DTC 674039",
+            "Federal Court of Appeal (2001)",
+            "<strong>Appellate Adoption of the Five Criteria:</strong> The FCA formally adopted Judge Bowman's five <em>Northwest Hydraulic</em> questions as the binding legal test for Subsection 248(1) across Canada39."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Jentel Manufacturing Ltd. v. The Queen</em></strong>, 2011 TCC 261, aff'd 2011 FCA 35541",
+            "TCC & Federal Court of Appeal (2011)",
+            "<strong><a href=\"/ca/faq/trial-and-error-vs-systematic-investigation-sred\">Trial-and-Error vs. Systematic Investigation</a>:</strong> Affirmed the distinction between ad-hoc trial-and-error adjustments and a systematic investigation governed by the scientific method41."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Joel Theatrical Rigging Contractors (1980) Ltd. v. The Queen</em></strong>, 2017 TCC 639",
+            "Tax Court of Canada (2017)",
+            "<strong>Formulation and Testing of Hypotheses:</strong> Applied the <em>Northwest Hydraulic</em> framework to evaluate whether the taxpayer formulated and tested hypotheses aimed at eliminating technological uncertainty rather than performing <a href=\"/ca/glossary/routine-engineering-or-testing\">routine engineering</a>39."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Kam-Press Metal Products Ltd. v. Canada</em></strong>, 2019 TCC 246, aff'd 2021 FCA 8842",
+            "TCC (2019) & Federal Court of Appeal (2021)",
+            "<strong>Mandatory Adherence to the Scientific Method:</strong> Rejected the <a href=\"/ca/glossary/taxpayer\">taxpayer</a>'s argument that because the words \"scientific method\" do not appear in Subsection 248(1), the criterion should not apply. The FCA reaffirmed that adherence to the scientific method is a mandatory requirement under prior appellate jurisprudence64."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>National R&D Inc. v. Canada</em></strong>, 2020 TCC 47, aff'd 2022 FCA 727",
+            "TCC (2020) & Federal Court of Appeal (2022)",
+            "<strong>2021 CRA Guidelines & Expert Witness Independence:</strong> Held that (1) the CRA's August 2021 \"Why and How\" Guidelines are not inconsistent with <em>Northwest Hydraulic</em> and did not remove the requirement to follow the scientific method; (2) an \"engineering method\" cannot replace the scientific method; and (3) expert witness reports co-authored by the taxpayer or opining on the legal issue are inadmissible under <em>White Burgess</em>7."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Canafric Inc. v. His Majesty the King</em></strong>, 2023 TCC 10839",
+            "Tax Court of Canada (2023)",
+            "<strong>Objective vs. Subjective Knowledge Gap:</strong> Chief Justice Rossiter held (at para. 89) that <em>\"the lacking knowledge must exist in the <a href=\"/ca/glossary/scientific-or-technological-baseline\">base of scientific or technological knowledge</a>, not simply be unknown to the claimant\"</em>39."
+          ]
+        },
+        {
+          "cells": [
+            "<strong><em>Manning Canning Kitchens Inc. v. His Majesty the King</em></strong>, 2024 TCC 15939",
+            "Tax Court of Canada (2024)",
+            "<strong>System-Level Uncertainty Using Known Ingredients:</strong> Justice Bodie ruled in favour of the taxpayer, holding that <a href=\"/ca/faq/defining-technological-uncertainty-for-sred\">technological uncertainty</a> can exist even where publicly available solutions or known preservatives (potassium sorbate, sodium benzoate, and Chiber in a shelf-stable vinegar/cold-pressed drink) are used, provided they have never been used in that specific context and standard procedures cannot resolve the uncertainty39."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "7.1 Detailed Synthesis of Controlling Judicial Principles"
+    },
+    {
+      "type": "subheading",
+      "text": "1. The Five Criteria of Northwest Hydraulic Consultants Ltd. v. The Queen (98 DTC 1839, para. 16)"
+    },
+    {
+      "type": "paragraph",
+      "text": "As formulated by Judge Bowman in <em>Northwest Hydraulic</em> and adopted by the Federal Court of Appeal in <em>C.W. Agencies</em> (2001 FCA 393), <em>Kam-Press</em> (2021 FCA 88), and <em>National R&D</em> (2022 FCA 72), Canadian courts determine SR&ED eligibility by evaluating five sequential questions39:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Was there a technological risk or uncertainty which could not be removed by <a href=\"/ca/faq/routine-engineering-vs-technological-advancement\">routine engineering</a> or standard procedures?</strong> \"Routine engineering\" describes techniques, procedures, and data that are generally accessible to competent professionals in the field39.",
+        "<strong>Did the person claiming to be doing SR&ED formulate hypotheses specifically aimed at reducing or eliminating that technological uncertainty?</strong> Judge Bowman specified that this involves a <strong>five-stage process</strong>: <em>(a) the observation of the subject matter of the problem; (b) the formulation of a clear objective; (c) the identification and articulation of the technological uncertainty; (d) the formulation of an hypothesis or hypotheses designed to reduce or eliminate the uncertainty; and (e) the methodical and systematic testing of the hypotheses</em>42.",
+        "<strong>Did the procedures adopted accord with the total discipline of the scientific method, including the formulation, testing, and modification of the hypotheses?</strong> The procedures must be characterized by trained and systematic observation, measurement, and experiment39.",
+        "<strong>Did the process result in a technological advancement, that is to say an advancement in the general understanding?</strong> \"General\" means something that is known to, or available to, persons knowledgeable in the field. The fact that the initial objective is not achieved invalidates neither the hypothesis formed nor the methods used; on the contrary, the very failure can reinforce the measure of the technological uncertainty42.",
+        "<strong>Did the taxpayer keep a detailed record of the hypotheses, tests, and results as the work progressed?</strong> Detailed contemporaneous records provide the necessary proof that a systematic investigation was conducted7."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2. Reconciling the 2021 CRA \"Why and How\" Guidelines with Federal Court of Appeal Jurisprudence"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>National R&D Inc. v. Canada</em>, 2022 FCA 72, the appellant argued that the CRA's August 2021 <em>Guidelines on the Eligibility of Work for SR&ED Tax Incentives</em>—which replaced the five <em>Northwest Hydraulic</em> questions in CRA publications with the \"Why\" and \"How\" requirements—removed the requirement to follow the scientific method7. The Federal Court of Appeal rejected this argument, holding that the courts' constitutional role is to interpret the <em>Income Tax Act</em> (so administrative guidance is not binding on the courts), and that the 2021 CRA Guidelines are completely consistent with the <em>Northwest Hydraulic</em> common-law test, which must be applied flexibly in a manner suitable for applied sciences and taking into consideration the taxpayer's business environment7. Consequently, every Canadian SR&ED claim narrative on Form T661 (Lines 242, 244, and 246) and its supporting contemporaneous technical file must satisfy both the CRA's \"Why\" and \"How\" framework and all five criteria of the <em>Northwest Hydraulic</em> legal standard7."
+    }
+  ]
+}

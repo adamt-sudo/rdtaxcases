@@ -46,14 +46,16 @@ const walkJson = (d, acc = []) => {
   return acc;
 };
 const pagesDir = path.join(ROOT, "content", "pages");
-const byKind = { glossary: [], faq: [], legislation: [] };
+// published pages by country and kind: byKind.ca.glossary = [addresses]
+const byKind = {};
+const SEG = { "glossary-term": "glossary", "faq-question": "faq", "legislation-page": "legislation" };
 for (const f of walkJson(pagesDir)) {
   const p = JSON.parse(fs.readFileSync(f, "utf8"));
   if ((p.status ?? "published") === "draft") continue;
   const a = "/" + path.relative(pagesDir, f).split(path.sep).join("/").replace(/\.json$/, "");
-  contentPages.push({ address: a, hub: `/us/${p.kind === "glossary-term" ? "glossary" : p.kind === "faq-question" ? "faq" : "legislation"}` });
+  contentPages.push({ address: a, hub: `/${p.country}/${SEG[p.kind]}` });
   if (p.status === "preview") continue;
-  byKind[p.kind === "glossary-term" ? "glossary" : p.kind === "faq-question" ? "faq" : "legislation"].push(a);
+  ((byKind[p.country] ||= { glossary: [], faq: [], legislation: [] })[SEG[p.kind]]).push(a);
 }
 for (const f of fs.readdirSync(path.join(ROOT, "content", "cases")).filter((x) => x.endsWith(".json"))) {
   const c = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "cases", f), "utf8"));
@@ -81,7 +83,16 @@ for (const f of walk(OUT)) {
   // footer links to the list pages
   if (!isNotFound) {
     const footer = (html.match(/<footer[\s\S]*?<\/footer>/) || [""])[0];
-    for (const h of ["/us/glossary", "/us/faq", "/us/legislation"]) if (!footer.includes(`href="${SITE}${h}"`)) bad(`${name}: the footer has no link to ${h}`);
+    // on the pages of a country (/ca, /ca/...) the footer shows only that country's list links; elsewhere, every country's
+    const pageCountry = (name.match(/^([a-z]{2})(?:\/|\.html$)/) || [])[1];
+    const expected = pageCountry && byKind[pageCountry] ? [pageCountry] : Object.keys(byKind);
+    for (const cc of Object.keys(byKind))
+      for (const seg of ["glossary", "faq", "legislation"]) {
+        const h = `/${cc}/${seg}`;
+        const has = footer.includes(`href="${SITE}${h}"`);
+        if (expected.includes(cc) && !has) bad(`${name}: the footer has no link to ${h}`);
+        if (!expected.includes(cc) && has) bad(`${name}: the footer of a ${pageCountry} page links to ${h} (only ${pageCountry} links belong there)`);
+      }
     if (/<a\b[^>]*target="_blank"/.test(footer.replace(/<a\b[^>]*href="https:\/\/(?!rdtaxcases\.com)[^"]*"[^>]*>/g, ""))) bad(`${name}: a footer link to this site opens in a new tab`);
   }
 
@@ -121,9 +132,10 @@ for (const f of walk(OUT)) {
 }
 
 // list pages
-for (const [kind, label] of [["glossary", "Glossary"], ["faq", "FAQ"], ["legislation", "Legislation"]]) {
-  const addr = `/us/${kind}`;
-  const f = path.join(OUT, `us/${kind}.html`);
+const hubJobs = Object.keys(byKind).flatMap((cc) => [["glossary", "Glossary"], ["faq", "FAQ"], ["legislation", "Legislation"]].map(([kind, label]) => [cc, kind, label]));
+for (const [cc, kind, label] of hubJobs) {
+  const addr = `/${cc}/${kind}`;
+  const f = path.join(OUT, `${cc}/${kind}.html`);
   if (!fs.existsSync(f)) {
     bad(`${addr}: the list page does not exist`);
     continue;
@@ -133,10 +145,10 @@ for (const [kind, label] of [["glossary", "Glossary"], ["faq", "FAQ"], ["legisla
   if (!html.includes(`<link rel="canonical" href="${SITE}${addr}"`)) bad(`${addr}: the canonical link is not its own address`);
   if (!sitemap.includes(`<loc>${SITE}${addr}</loc>`)) bad(`${addr}: not in the sitemap`);
   const list = (html.match(/<ul[^>]*data-hub-list[^>]*>[\s\S]*?<\/ul>/) || [""])[0];
-  const missing = byKind[kind].filter((a) => !list.includes(`href="${SITE}${a}"`));
+  const missing = byKind[cc][kind].filter((a) => !list.includes(`href="${SITE}${a}"`));
   if (missing.length) bad(`${addr}: does not link to ${missing.length} page(s), e.g. ${missing[0]}`);
   const listed = (list.match(/<li>/g) || []).length;
-  if (listed !== byKind[kind].length) bad(`${addr}: lists ${listed} page(s), the content has ${byKind[kind].length}`);
+  if (listed !== byKind[cc][kind].length) bad(`${addr}: lists ${listed} page(s), the content has ${byKind[cc][kind].length}`);
   console.log(`${addr}: ${listed} page(s) listed, ${label} list page indexable, canonical and in the sitemap`);
 }
 

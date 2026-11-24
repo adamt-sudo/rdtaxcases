@@ -37,6 +37,8 @@ export interface CaseRecord {
   summary: string;
   /** Meta description of the case page, at most 155 characters (made from the summary). Absent: the summary is used. */
   metaDescription?: string;
+  /** The key phrase the owner gave the page (not shown on the page). */
+  keyPhrase?: string;
   body: CaseContentBlock[];
   /**
    * Fields taken from the decision itself (new cases only; the USA cases are

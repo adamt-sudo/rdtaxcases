@@ -1,0 +1,444 @@
+{
+  "slug": "dazzm-v-the-king-2024-tcc",
+  "title": "DAZZM Inc. v. The King (2024 TCC) Canadian SR&ED Case",
+  "caseNumber": "2024 TCC 129",
+  "court": "Tax Court of Canada",
+  "year": 2024,
+  "subject": "React Performance Sub-Project Qualifies as SR&ED",
+  "jurisdictionGroup": "country",
+  "jurisdictionSlug": "ca",
+  "country": "CA",
+  "keyPhrase": "DAZZM Inc v The King 2024 TCC",
+  "summary": "DAZZM Inc. v. The King, 2024 TCC 129, is a Tax Court of Canada decision of October 8, 2024 holding that a Canadian software company's React performance sub-project qualified as SR&ED. The Court accepted that uncertainty from combining known tools can satisfy the test, and that contemporaneous time sheets are not necessarily required, a key lesson for Canadian SR&ED claimants.",
+  "metaDescription": "Examine the 2024 TCC SR&ED decision in DAZZM Inc. v. The King and understand key compliance takeaways from the Tax Court of Canada.",
+  "body": [
+    {
+      "type": "heading",
+      "text": "1. Executive Summary and Case Background"
+    },
+    {
+      "type": "subheading",
+      "text": "Overview of the Taxpayer's Claim and Technical Context"
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>DAZZM Inc. v. The King</em>, 2024 TCC 129 (also indexed in French as <em>DAZZM Inc. c. Le Roi</em>, 2024 CCI 129), handed down on October 8, 2024, the Tax Court of Canada addressed critical legal and evidentiary questions governing the eligibility of software engineering and information technology (IT) integration projects under the federal <a href=\"/ca/glossary/scientific-research-and-experimental-development-sred\">Scientific Research and Experimental Development (SR&ED)</a> tax incentive program. The Appellant, DAZZM Inc., is a Canadian software company founded in 2010 that develops and sells cloud-based management software in software-as-a-service (SaaS) mode, including an IT service management solution, to public- and private-sector clients (paras. 2 and 16 of the decision). For its taxation year ending June 30, 2018, DAZZM claimed SR&ED expenditures and the corresponding <a href=\"/ca/glossary/investment-tax-credit-itc\">investment tax credits (ITCs)</a> in respect of two projects, Project 1 and Project 2 (para. 3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Following an administrative audit and technical review, the Minister of National Revenue, acting through the <a href=\"/ca/glossary/canada-revenue-agency-cra\">Canada Revenue Agency (CRA)</a>, issued a reassessment dated January 22, 2020 that accepted the expenditures for Project 2 as filed but disallowed most of those claimed for Project 1, a fully flexible, cloud-based solution built on metadata (paras. 1 and 3). Represented by counsel Extra Junior Laguerre (Laguerre Fiscaliste Inc.), the Appellant filed a <a href=\"/ca/faq/disputing-cra-sred-review-decision\">Notice of Appeal</a> on December 14, 2021 under the Court's General Procedure (Docket 2021-3161(IT)G), and the appeal was heard in Montréal on March 27 and 28, 2024. The litigation before Justice Jean Marc Gagnon centred on a key disallowed sub-project—Sub-project 1 of Project 1, titled \"React Performance\"—for which the dispute ultimately concerned $208,853 in <a href=\"/ca/glossary/sred-wages-and-salaries\">payroll expenditures</a>. Project 1's claim, initially $715,044, had been reduced to $278,927 after the CRA's initial analysis; the reassessment allowed only $8,760 and disallowed $270,167, and at the outset of the hearing the Respondent conceded $61,314 for Sub-projects 2, 3 and 4 (paras. 4 to 6)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Sub-project 1, DAZZM's engineering team sought to architect a high-performance web application by integrating four established software libraries and architectural patterns: React, Redux, Styled Components, and Higher-Order Components (HOCs). While each of these open-source tools functioned predictably in isolation, their combined implementation generated severe, unexpected system-level performance bottlenecks. Specifically, while developing version 5 of its software, the team found that React alone was not the problem even with 50,000 HOCs, but that its combination with Redux, Styled Component and Recompose produced response times far above the acceptable threshold of less than 300 milliseconds, although it was never certain whether the number of HOCs or some other weaker link was the sole cause (paras. 19, 24, 32 and 33). To investigate and mitigate these bottlenecks, DAZZM's developers formulated a series of testable hypotheses, evaluated and rejected standard publicly documented optimization techniques, and iteratively coded, benchmarked, and modified unconventional architectural workarounds."
+    },
+    {
+      "type": "subheading",
+      "text": "The Tax Authority's Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CRA disallowed Sub-project 1 during the <a href=\"/ca/glossary/sred-review\">administrative review stage</a>, and in its Amended Reply the Respondent relied on four of the five criteria of the governing test, contending that there was no technological uncertainty, no hypotheses aimed at reducing it, no procedure consistent with the scientific method, and no approach aimed at achieving technological advancement (paras. 89 and 90); three themes from the audit and the trial are summarized below. First, the Minister asserted an absence of technological uncertainty, maintaining that because React, Redux, Styled Components, and HOCs were mature, publicly documented technologies, combining them constituted routine software engineering and standard debugging rather than the resolution of genuine <a href=\"/ca/glossary/scientific-or-technological-uncertainty\">scientific or technological uncertainty</a>. The CRA's <a href=\"/ca/faq/cra-research-and-technology-advisor-rta-role\">research and technology advisor (RTA)</a>, Mr. Guillevic, characterized the work as the second, optimization step of ordinary software development carried out with existing methods and community knowledge, and examined individual activities (such as connecting interface elements directly to the Redux store or reducing HOC calls) rather than the overall problem (paras. 13 and 69 to 77)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Second, the CRA raised the absence of contemporaneous records: during the audit the RTA asked for a chronological, month-by-month description of the activities, the employees involved and their hours, and DAZZM could not provide <a href=\"/ca/faq/sred-employee-time-tracking-requirements\">contemporaneous time sheets</a> (para. 81). At trial, however, the Respondent described the evidence of time spent as reconstructed rather than contemporaneous while expressly accepting that this was not fatal to the project's qualification as SR&ED; the amount of the expenditures was not in dispute, and the fifth criterion (detailed records) was not raised in the Amended Reply (paras. 9, 13 and 118). Third, the Minister contended that the Appellant's overall approach was not aimed at achieving <a href=\"/ca/glossary/scientific-or-technological-advancement\">technological advancement</a> (para. 89(d)), and the RTA testified that a performance gain is a technological advancement only when it is significant, for example a program that runs 100 times faster (para. 80), whereas DAZZM's work improved response time from 1,300 to 692 milliseconds without reaching its target of less than 300 milliseconds (paras. 31 and 33)."
+    },
+    {
+      "type": "subheading",
+      "text": "Governing Canadian Statutory and Jurisprudential Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "<a href=\"/ca/faq/what-is-sred-program\">The SR&ED program</a>—operating since 1986 as Canada's largest federal business innovation incentive, receiving 22,758 claims and allowing $4.5 billion in investment tax credits in the April 1, 2024 to March 31, 2025 fiscal period—is governed by the <em>Income Tax Act</em> (Canada) (ITA). <a href=\"/ca/faq/sred-eligibility-for-software-development\">Software projects</a> represent the single largest category within the program, accounting for 40.8% of all approved SR&ED investment tax credits in 2024–2025. Under subsection 248(1) of the ITA, \"scientific research and experimental development\" is defined as a systematic investigation or search that is carried out in a field of science or technology by means of experiment or analysis and that is undertaken for the purpose of <a href=\"/ca/glossary/basic-research\">basic research</a> (work undertaken for the advancement of scientific knowledge without a specific practical application in view), applied research (work undertaken for the advancement of scientific knowledge with a specific practical application in view), or experimental development (work undertaken for the purpose of achieving technological advancement for the purpose of creating new, or improving existing, materials, devices, products, or processes, including incremental improvements thereto)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Where a taxpayer performs qualifying basic research, applied research or experimental development, subsection 248(1) also permits the inclusion of commensurate \"support work\"—specifically engineering, design, operations research, mathematical analysis, computer programming, data collection, testing, and psychological research—where such activities directly support and are <a href=\"/ca/glossary/commensurate-with-the-needs\">commensurate with the needs</a> of that work. Conversely, subsection 248(1) expressly excludes market research or sales promotion, quality control or routine testing, research in the social sciences or the humanities, prospecting, exploring or drilling for, or producing, minerals, petroleum or natural gas, the commercial production of a new or improved material, device or product or the commercial use of a new or improved process, style changes, and routine data collection; debugging using established methods, code refactoring for maintainability, data entry or migration, and the routine application of standard frameworks or APIs without addressing their underlying technological limitations likewise do not, by themselves, constitute SR&ED."
+    },
+    {
+      "type": "paragraph",
+      "text": "Qualifying expenditures—including direct salaries and wages, materials consumed or transformed, 80% of eligible Canadian subcontractor payments, and overhead calculated either via the traditional itemized method or the <a href=\"/ca/glossary/prescribed-proxy-amount-ppa\">Prescribed Proxy Amount (PPA)</a> method at 55% of the direct salary base (with capital expenditures excluded for property acquired after 2013, an exclusion reversed for property acquired on or after December 16, 2024)—are pooled under section 37 of the ITA (including subsection 37(6.1) provisions) and generate ITCs under section 127. For a qualifying Canadian-controlled private corporation (CCPC) in the 2018 taxation year at issue, the federal ITC was a <a href=\"/ca/legislation/ita-section-127-10-1-ccpc-enhanced-sred-itc-rate\">35% refundable credit</a> on the first $3 million of qualified expenditures (subject to phase-out where prior-year taxable income lay between $500,000 and $800,000 or prior-year taxable capital lay between $10 million and $50 million), and a 15% credit on excess amounts (non-refundable for non-CCPC entities); the taxable income factor has since been removed, and following Budget 2025 (enacted by Bill C-15, which received Royal Assent on March 26, 2026) the enhanced limit is $6 million for taxation years beginning on or after December 16, 2024, with a taxable capital phase-out range of $15 million to $75 million, and the enhanced credit has been extended to eligible Canadian public corporations. Claimants must file Form T661 (specifically Part 2 technical narratives at Lines 242, 244, and 246, alongside Parts 4 through 7 financial schedules) and Schedule T2SCH31 within the strict, non-extendable <a href=\"/ca/legislation/ita-section-37-11-sred-filing-deadline\">statutory deadline of 18 months</a> following the end of the taxation year in which the expenditures were incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "To determine whether an activity meets the statutory definition in <a href=\"/ca/legislation/ita-section-248-1-sred-statutory-definitions\">subsection 248(1)</a>, Canadian courts apply the five-question analytical framework established by Justice Bowman in <em>Northwest Hydraulic Consultants Ltd. v. The Queen</em>, 98 DTC 1839 (TCC), and reflected in CRA administrative guidance, including Information Circular IC86-4R3 and the CRA's current Guidelines on the Eligibility of Work for SR&ED Tax Incentives. Under this <a href=\"/ca/faq/sred-eligibility-criteria\">cumulative five-part test</a>, the Court evaluates: first, whether there was a scientific or a technological risk or uncertainty that could not be removed by routine engineering or standard procedures; second, whether the person claiming to be doing SR&ED formulated hypotheses specifically aimed at reducing or eliminating that scientific or technological uncertainty; third, whether the procedures adopted accorded with the total discipline of the scientific method, including the formulation, testing, and modification of hypotheses; fourth, whether the process resulted in a scientific or a technological advancement; and fifth, whether a detailed record of the hypotheses tested and the results was kept as the work progressed."
+    },
+    {
+      "type": "subheading",
+      "text": "The Court's Final Holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Justice Gagnon allowed the appeal with costs, holding that the $208,853 in payroll expenditures for Sub-project 1 qualified as SR&ED, and referred the reassessment back to the Minister on the basis that DAZZM incurred additional <a href=\"/ca/glossary/qualified-sred-expenditures\">SR&ED qualified expenditures</a> totalling $270,167 (which includes the Respondent's $61,314 concession for Sub-projects 2 to 4) and is entitled to the corresponding ITC (paras. 6 and 121). While recognizing at paragraph 88 that the onus is on the appellant to demonstrate that the activities qualified as SR&ED, the Court rejected the Minister's narrow, component-by-component assessment."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a landmark clarification for the Canadian IT sector, Justice Gagnon accepted in substance (without using the label) that what this report calls \"system uncertainty\"—<a href=\"/ca/faq/defining-technological-uncertainty-for-sred\">technological uncertainty</a> arising from the unpredictable interactions among multiple known components when integrated into a complex architecture—satisfies the first criterion of <em>Northwest Hydraulic</em>. At paragraph 91, the Court explained that the project focused on a technological uncertainty existing in the combination of tools used, with the Appellant's software serving as the medium to explore that uncertainty. At paragraph 99, Justice Gagnon concluded that \"there was a major uncertainty as to how to make the tools work in harmony to reach adequate performance levels and achieve a workable result\". Furthermore, the Court held that the systematic rejection of multiple hypotheses constituted a valid technological advancement even though the performance issue was not fully resolved, and explicitly stated at paragraph 119, when addressing the fifth criterion that the Respondent had not raised (para. 118), that while the CRA's RTA \"would have liked to see contemporaneous time sheets for the work performed, they are not necessarily required for work to be eligible as qualifying SRED\", finding that criterion met because Mr. Lamoureux could explain the total time spent and had statistics on the performance improvements following the work (para. 120). Although, as a trial-level decision rendered under the General Procedure (and thus of greater precedential weight than the informal procedure decisions the Court itself discounted at paragraph 91), it is not strictly binding under the doctrine of <em>stare decisis</em>, the decision carries substantial persuasive authority for Canadian SR&ED administration and litigation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Case Attribute",
+        "Details in DAZZM Inc. v. The King"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Neutral Citation</strong>",
+            "<em>2024 TCC 129</em> (English) / <em>2024 CCI 129</em> (French)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Court & Jurisdiction</strong>",
+            "Tax Court of Canada (Federal Jurisdiction, Canada)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Date of Decision</strong>",
+            "October 8, 2024"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Presiding Judge</strong>",
+            "The Honourable Justice Jean Marc Gagnon"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Procedural Track</strong>",
+            "General Procedure (Docket 2021-3161(IT)G)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong><a href=\"/ca/glossary/tax-year\">Taxation Year</a> at Issue</strong>",
+            "Taxation Year Ending June 30, 2018"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Disputed Project & Quantum</strong>",
+            "Sub-project 1 (\"React Performance\") of Project 1 — $208,853 in disputed payroll expenditures; $270,167 in total additional qualified expenditures recognized, including the $61,314 concession for Sub-projects 2 to 4"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Core Technical Stack</strong>",
+            "React, Redux, Styled Components, and Higher-Order Components (HOCs)"
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Disposition</strong>",
+            "Appeal allowed with costs; Sub-project 1's $208,853 held to be SR&ED, and reassessment referred back on the basis of $270,167 in additional qualified expenditures and the corresponding ITC"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. Core Legal and Evidentiary Failures Triggering the Dispute"
+    },
+    {
+      "type": "paragraph",
+      "text": "To understand the full import of <em>DAZZM Inc. v. The King</em>, tax practitioners and corporate counsel must examine an essential duality in the case record. While the <a href=\"/ca/glossary/taxpayer\">taxpayer</a> ultimately prevailed at trial through strong oral testimony and alternative performance evidence, the record shows that the CRA's denial rested chiefly on its RTA's view that the work was routine performance optimization, while documentation issues (a substantially reduced resubmitted claim and the absence of contemporaneous time sheets) added friction, leading to multi-year litigation between the January 22, 2020 reassessment and the October 8, 2024 judgment (paras. 4 and 69 to 83). Indeed, industry audit-defense analyses frequently cite <em>DAZZM Inc.</em> alongside companion jurisprudence as a stark illustration of how post-hoc reconstruction of records and imprecise framing of integration work trigger administrative disallowances. Evaluating the exact legal, technical, and evidentiary flashpoints in <em>DAZZM Inc.</em>—contextualized within the broader 2024 Tax Court SR&ED jurisprudence, including <em>Biscuiterie Dominic Inc. v. The King</em>, 2024 TCC 97, <em>Manning Canning Kitchens Inc. v. The King</em>, 2024 TCC 159, and <em>Total Energy Services Inc. v. The King</em> (2024)—reveals the precise vulnerabilities that jeopardize Canadian SR&ED claims."
+    },
+    {
+      "type": "subheading",
+      "text": "Component-Level Framing versus System-Level Technological Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary substantive catalyst for the dispute was the collision between how software integration work was initially described and how <a href=\"/ca/glossary/cra-technical-reviewer\">CRA Research and Technology Advisors (RTAs)</a> evaluate \"technological uncertainty\". Under CRA policy, scientific or technological uncertainty exists only when whether a given result or objective can be achieved, or how to achieve it, is unknown or uncertain due to an insufficiency of <a href=\"/ca/glossary/scientific-or-technological-baseline\">available scientific or technological knowledge</a>. The legal test is strictly objective rather than subjective: it is irrelevant that the claimant's internal engineering team did not know how to solve a problem if a skilled practitioner in the field could have deduced the solution from publicly available literature, open-source repositories, or vendor documentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In <em>DAZZM Inc.</em>, the taxpayer's development stack comprised four ubiquitous open-source tools: React, Redux, Styled Components, and HOCs. When a claimant's Form T661 Part 2 narrative (specifically Line 242) frames a project in terms of implementing or configuring known frameworks, or describes what the commercial software product does rather than the underlying architectural impediment, CRA reviewers routinely categorize the work as \"<a href=\"/ca/faq/routine-engineering-vs-technological-advancement\">routine engineering</a>\" or \"standard configuration\". During the audit of DAZZM's 2018 claim, the CRA disaggregated Sub-project 1 into isolated coding tasks. Because the four tools were open-source, designed to work together, used by millions of people every day and supported by known performance-optimization strategies, the Minister concluded that no technological uncertainty existed (paras. 13, 76 and 83)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Justice Gagnon rejected this task-level reductionism, holding that the project must be examined as a whole rather than task by task (para. 94). The Court accepted evidence that React by itself performed adequately even with 50,000 HOCs, that the problem arose from its combination with Redux, Styled Component and Recompose, and that none of the public sources consulted (library documentation, GitHub, Reddit and the React team itself) resolved it, while the RTA, who had never programmed with these tools, could not identify any public-domain solution (paras. 26 to 28, 32, 79, 83, 84 and 95). As Justice Gagnon emphasized at paragraphs 91 and 99, the technological uncertainty resided not in the individual tools, but in how to make those tools operate harmoniously within a unified system architecture to achieve acceptable performance thresholds. However, the fact that DAZZM had to litigate to establish this distinction is instructive: the Court attributed the dispute largely to the RTA's generalized analysis (he did not specifically request the documents he considered determinative, did not contact the React team, and gave vague explanations, paras. 82, 85, 97 and 98), but taxpayers can still reduce the risk of a disallowance by explicitly quantifying baseline system constraints and documenting why public knowledge of each component fails to resolve the inter-component conflict."
+    },
+    {
+      "type": "subheading",
+      "text": "Absence of Contemporaneous Timesheets and Reliance on Retroactive Reconstruction"
+    },
+    {
+      "type": "paragraph",
+      "text": "A second point of friction in <em>DAZZM Inc.</em> centred on the fifth <em>Northwest Hydraulic</em> criterion (a detailed record of the hypotheses tested and results kept as the work progressed), although the Respondent did not plead this criterion and the amount of the expenditures was not in dispute (paras. 9 and 118). During the 2018 taxation year, DAZZM did not maintain contemporaneous timesheets recording the specific hours each software developer devoted to resolving the React, Redux, and HOC performance bottleneck. Instead, the time evidence was reconstructed rather than contemporaneous (para. 13), although Mr. Lamoureux testified that all of the Appellant's work was documented internally, that the documents submitted to the CRA were only summaries, and that he had statistics on the performance improvements (paras. 45 and 120)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Canadian SR&ED administration, retroactive documentation—where technical narratives or labour allocations are reconstructed from memory months after the fiscal year-end—is treated with intense skepticism by <a href=\"/ca/glossary/cra-financial-reviewer\">CRA Financial Reviewers</a> and RTAs. According to the CRA's annual program statistics for the April 1, 2024 to March 31, 2025 fiscal period, 90% of SR&ED claims were accepted as filed, 6% were accepted after modifications and 4% were denied, so claims that do not pass without a <a href=\"/ca/faq/does-sred-claim-trigger-cra-tax-audit\">detailed audit</a> are a minority, but one in which narrative and documentation gaps carry significant financial exposure. A 30% disallowance on a $400,000 claim results in a $120,000 clawback before professional fees and interest. When a taxpayer claims high salary allocations (particularly allocations exceeding 80% of an engineer's time) without granular <a href=\"/ca/glossary/time-tracking-records\">time-tracking records</a>, calendar logs, or dated repository artifacts, CRA reviewers routinely disallow or slash the expenditure base. Conversely, many companies inadvertently under-claim <a href=\"/ca/faq/eligible-sred-expenditures\">eligible expenditures</a> by claiming only dedicated R&D personnel while failing to track developers who spend 30% of their time on qualifying support or experimental activities across the year. Several legal and industry commentaries suggest that the CRA's administrative denial in <em>DAZZM Inc.</em> was driven in substantial part by documentation reconstructed after the fact; the reasons themselves, however, show that the denial rested principally on the RTA's view that the work was routine performance optimization lacking technological uncertainty, and the Respondent accepted at trial that the non-contemporaneous time evidence was not fatal (paras. 13, 69 to 77 and 83)."
+    },
+    {
+      "type": "paragraph",
+      "text": "At trial, Justice Gagnon addressed the fifth criterion at paragraph 119, even though the Respondent had not raised it (para. 118), stating that although the CRA's RTA, Mr. Guillevic, \"would have liked to see contemporaneous time sheets for the work performed, they are not necessarily required for work to be eligible as qualifying SRED\". This approach is consistent with other recent jurisprudence not cited in the DAZZM reasons, notably <em>Manning Canning Kitchens Inc. v. The King</em>, 2024 TCC 159 (judgment of December 13, 2024), where the Court noted at paragraph 30 that the functional purpose of <a href=\"/ca/glossary/sred-project-documentation\">SR&ED documentation</a> is to enable the researcher to keep track of hypotheses formulated, tests conducted, and results observed to facilitate follow-up action. In <em>DAZZM Inc.</em>, the taxpayer bridged the timesheet gap because Mr. Lamoureux, whose testimony made a favourable impression on the Court and was not undermined in cross-examination (paras. 14 and 47), could explain the total time spent on the work, had statistics on the performance improvements achieved, and had a detailed account of his activities and results (para. 120)."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, in <em>Biscuiterie Dominic Inc. v. The King</em>, 2024 TCC 97 (decided July 16, 2024), the taxpayer lost its appeal because it failed to make a <em>prima facie</em> demonstration of <a href=\"/ca/glossary/experimentation-or-analysis\">systematic experimentation</a> backed by credible, contemporaneous experimental records. Furthermore, the administrative landscape has tightened considerably since the 2018 taxation year at issue in <em>DAZZM Inc.</em>: with the launch of the CRA's optional Pre-Claim Approval process on April 1, 2026, and the CRA's announced use of artificial intelligence (AI) in the risk assessment of SR&ED claims, relying on litigation to cure missing contemporaneous records is a high-risk strategy. Under the \"Capture-vs-Generation\" test promoted by some industry advisers (a vendor framework rather than an official CRA standard), narratives generated from retrospective prompts rather than captured directly from dated source artifacts (such as Git commit hashes, pull request descriptions, and ticket logs) are said to face heightened scrutiny."
+    },
+    {
+      "type": "subheading",
+      "text": "Misconceptions Regarding Unresolved Technical Problems and Negative Results"
+    },
+    {
+      "type": "paragraph",
+      "text": "A third point of legal friction in <em>DAZZM Inc.</em> involved the fourth <em>Northwest Hydraulic</em> question: whether the process resulted in a technological advancement. During the 2018 taxation year, DAZZM's engineering team tested multiple public solutions and custom architectural modifications, but failed to achieve a complete resolution of the React, Redux, and HOC performance degradation. At the audit stage, CRA reviewers frequently conflate commercial or functional failure with the absence of technological advancement, arguing that if the software still exhibited latency or if hypotheses were abandoned, no advancement occurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Justice Gagnon firmly rejected this misconception. Applying <em>Northwest Hydraulic</em>, the Court held that technological advancement does not require commercial triumph or complete problem resolution; rather, the systematic testing and falsification of multiple legitimate hypotheses advances the technological knowledge base by establishing the boundary conditions under which specific architectural combinations fail. Specifically, the Court found that although the Appellant failed to achieve the required performance gains (and discontinued version 5, which never reached the market), rejecting its hypotheses was productive, eliminated many possible solutions and added to the measure of the technological uncertainty, consistent with Northwest Hydraulic (paras. 39, 116 and 117)."
+    },
+    {
+      "type": "subheading",
+      "text": "Contractual, Subcontractor, and Anti-Avoidance Compliance Pressures"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the core dispute in <em>DAZZM Inc.</em> revolved around technological uncertainty, hypotheses, the scientific method and technological advancement under subsection 248(1), with the expenditure amounts themselves not in dispute (para. 9), the broader statutory architecture examined by the Tax Court in 2024 highlights related structural pitfalls regarding expenditure eligibility and corporate structuring. Under section 37 and subsection 127(9) of the ITA, salaries and wages of employees directly engaged in SR&ED qualify at 100% and remain eligible for the 55% Prescribed Proxy Amount (PPA) overhead calculation, whereas payments to <a href=\"/ca/glossary/arms-length-relationship\">arm's-length</a> Canadian subcontractors performing SR&ED on the claimant's behalf are restricted to 80% of the contract amount and are excluded from the PPA salary base. When software companies fail to specify in statement-of-work contracts that the subcontractor is performing specific experimental development tasks on behalf of the payor, or fail to retain intellectual property rights and avoid funded-research or <a href=\"/ca/legislation/ita-section-127-18-sred-contract-payment-reductions\">contract-payment reductions</a> under subsections 127(18) to 127(20), the CRA routinely disqualifies subcontractor expenditures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Similarly, as demonstrated in the companion 2024 ruling <em>Total Energy Services Inc. v. The King</em>, 2024 TCC 12 (affirmed in 2025 FCA 77), a loss-trading case concerning the 2010 and 2011 taxation years rather than an SR&ED eligibility dispute, the CRA and the Tax Court strictly enforce the General Anti-Avoidance Rule (GAAR) and loss or credit streaming restrictions under subsections 37(6.1), 111(4), and 111(5) of the ITA where taxpayers attempt to acquire corporate entities primarily to access unused <a href=\"/ca/glossary/sred-expenditure-pool\">SR&ED expenditure pools</a> and tax losses, which the Court held at paragraph 111 to be a misuse and abuse of the Act. Practitioners must also account for institutional audit pressures, including CRA's internal \"Tax Earned by Audit\" (TEBA) performance metrics tied to organizational performance and executive compensation and penalty jurisprudence such as <em>Abeilles Service de Conditionnement Inc. v. The Queen</em>, 2014 TCC 313, which incentivize aggressive administrative challenges whenever a taxpayer's technical narratives or financial allocations exhibit ambiguity."
+    },
+    {
+      "type": "heading",
+      "text": "3. Comparative Summary Table: Statutory Requirements, Taxpayer Vulnerabilities, and Judicial Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following table maps each statutory and jurisprudential requirement addressed in <em>DAZZM Inc. v. The King</em> (and its companion 2024 TCC jurisprudence) against the specific administrative vulnerabilities that provoked the CRA's disallowance and the exact standard of proof articulated by the Tax Court of Canada."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statutory / Legal Requirement",
+        "Governing Authority (ITA & Case Law)",
+        "Taxpayer's Administrative Vulnerability / CRA's Disallowance Position",
+        "Tax Court of Canada's Standard of Proof & Holding in DAZZM Inc."
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>1. <a href=\"/ca/glossary/burden-of-proof\">Burden of Proof</a></strong>",
+            "ITA s. 248(1), <a href=\"/ca/legislation/ita-section-37-1-sred-expenditure-pool\">s. 37(1)</a>; <em>DAZZM Inc.</em>, para. 88; <em>Biscuiterie Dominic Inc.</em>, 2024 TCC 97",
+            "At audit, narratives and reconstructed estimates failed to persuade the CRA RTA that work exceeded routine software development, resulting in reassessment.",
+            "<strong>Balance of Probabilities (<em>Prima Facie</em> Demolishing Minister's Assumptions):</strong> The appellant bears the burden to demonstrate that activities constituted SR&ED (para. 88). Satisfied at trial through credible witness testimony that was not undermined in cross-examination (paras. 14, 47 and 102), supported by performance statistics (para. 120)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>2. Scientific or Technological Uncertainty</strong>",
+            "ITA s. 248(1); <em>Northwest Hydraulic</em> Q1; <em>DAZZM Inc.</em>, paras. 91, 99; <a href=\"/ca/faq/cra-sred-claim-forms\">T661</a> Line 242",
+            "<strong>Component-Level Framing:</strong> DAZZM integrated four well-known open-source tools (React, Redux, Styled Components, HOCs). CRA assessed tasks in isolation and argued that using known libraries involved no objective uncertainty.",
+            "<strong>Holistic \"System Uncertainty\" Standard:</strong> Uncertainty must be evaluated at the overall project/system level, not the isolated task level. Combining known components satisfies the test when their architectural interactions create unpredictable bottlenecks that cannot be resolved via public knowledge (paras. 91, 99)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>3. <a href=\"/ca/glossary/hypothesis-formulation\">Formulation of Specific Hypotheses</a></strong>",
+            "<a href=\"/ca/glossary/income-tax-act-ita\">ITA</a> s. 248(1); <em>Northwest Hydraulic</em> Q2; T661 Line 244",
+            "CRA contended that the developers were merely troubleshooting and applying standard code optimizations rather than testing formal scientific hypotheses.",
+            "<strong>Testable Causal Assumptions:</strong> The taxpayer must formulate clear, testable technical assumptions specifically aimed at identifying and reducing the system-level bottleneck. Justice Gagnon found DAZZM's assumptions legitimate and unchallenged by the Minister."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>4. <a href=\"/ca/glossary/systematic-investigation-or-search\">Systematic Investigation</a> (Scientific Method)</strong>",
+            "ITA s. 248(1); <em>Northwest Hydraulic</em> Q3; T661 Line 244",
+            "Risk of appearing as ad-hoc \"<a href=\"/ca/glossary/trial-and-error\">trial and error</a>\" coding or routine bug fixing when iterative experiments are not chronologically mapped to baseline metrics.",
+            "<strong>Iterative Hypothesis-Test-Result Loop:</strong> Work must follow a methodical cycle of exhausting known public solutions, coding custom architectural modifications, measuring quantitative performance outcomes against benchmarks, and modifying code accordingly."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>5. Technological Advancement</strong>",
+            "ITA s. 248(1); <em>Northwest Hydraulic</em> Q4; T661 Line 246",
+            "<strong>Unresolved Bottleneck:</strong> The Respondent pleaded that DAZZM's overall approach was not aimed at technological advancement (para. 89(d)), and the RTA testified that a performance gain qualifies only if significant, e.g. 100 times faster (para. 80), while DAZZM never reached its target of less than 300 milliseconds.",
+            "<strong>Advancement via Negative Results (Knowledge Generation):</strong> Commercial or functional success is not required. Systematic falsification and rejection of multiple hypotheses advances technological knowledge by mapping system constraints and proving which approaches are infeasible."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>6. <a href=\"/ca/glossary/sred-supporting-documentation\">Contemporaneous Documentation</a> & Time Tracking</strong>",
+            "ITA s. 37(1), s. 248(1); <em>Northwest Hydraulic</em> Q5; <em>DAZZM Inc.</em>, para. 119; <em>Manning Canning</em>, para. 30",
+            "<strong>Absence of Contemporaneous Timesheets:</strong> DAZZM could not provide contemporaneous time sheets at audit (para. 81) and its time evidence was reconstructed; the Respondent nonetheless accepted this was not fatal (para. 13) and did not plead the fifth criterion (para. 118).",
+            "<strong>Functional Evidentiary Standard:</strong> Contemporaneous timesheets are \"not necessarily required for work to be eligible as qualifying SRED\" (para. 119). Alternative evidence suffices: here, credible testimony explaining the total time spent, statistics on the performance improvements, and a detailed account of activities and results (para. 120)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. Two Applied Remedial Case Studies"
+    },
+    {
+      "type": "paragraph",
+      "text": "To translate the legal holdings of <em>DAZZM Inc. v. The King</em> and the CRA's administrative review criteria—including the post-April 2026 Pre-Claim Approval and AI-screening protocols—into actionable compliance frameworks, the following two industry case studies demonstrate step-by-step how Canadian taxpayers can proactively remediate the exact pitfalls exposed in the ruling."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 1: Enterprise FinTech SaaS Platform (High-Concurrency Distributed State and UI Rendering Integration)"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Pitfall Profile"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Toronto-based <a href=\"/ca/glossary/canadian-controlled-private-corporation-ccpc\">Canadian-controlled private corporation (CCPC)</a> develops a real-time algorithmic treasury and foreign-exchange (FX) risk management SaaS platform for institutional banking clients. During its fiscal year, the company incurs $650,000 in developer salaries and $120,000 in third-party <a href=\"/ca/glossary/sred-subcontractor-costs\">software contractor fees</a> integrating an open-source streaming data broker (Apache Kafka), a bidirectional WebSocket state-synchronization layer, and a browser-based React and Redux micro-frontend architecture. Under burst market conditions exceeding 15,000 state mutations per second, the integrated stack exhibits severe memory leaks, state-desynchronization race conditions, and browser main-thread lockups."
+    },
+    {
+      "type": "paragraph",
+      "text": "The company faces four acute disallowance risks directly mirroring the audit triggers in <em>DAZZM Inc.</em>. First, its initial draft <a href=\"/ca/glossary/t661-form\">Form T661</a> narratives describe building a \"high-speed FX trading dashboard using Kafka, WebSockets, and React\" to \"improve customer experience,\" inviting the CRA to reject the claim as routine component integration using publicly documented tools and business-oriented prose. Second, three initial architectural modifications—hot-key promotion, a two-tier client cache, and custom topic sharding—fail completely to resolve the contention, leading the Chief Financial Officer to question whether <a href=\"/ca/faq/claiming-sred-for-failed-or-abandoned-projects\">failed experiments can be claimed</a>. Third, developers do not keep daily SR&ED timesheets; management intends to allocate a flat 85% of six <a href=\"/ca/faq/calculating-sred-salary-and-wages\">engineers' salaries</a> at year-end based on retrospective interviews and a generative AI prompt. Fourth, two <a href=\"/ca/faq/sred-tax-credit-ownership-contractor-vs-payer\">external Canadian contractors</a> are engaged under generic \"Staff Augmentation – Senior React Developer\" agreements that do not reference SR&ED or intellectual property ownership."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and Pre-Project Technological Baseline Audit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before commencing experimental coding, the Chief Technology Officer (CTO) must establish a formal SR&ED System Uncertainty Charter that shifts governance from isolated task management to project-level technical evaluation. Because the CRA evaluates whether a solution was knowable from publicly available sources at the start of the project rather than in hindsight, the engineering lead must document a mandatory \"<a href=\"/ca/glossary/prior-knowledge\">Prior Art and Public Knowledge</a> Exhaustion Log\" prior to experimental branching. This governance artifact must record the exact version numbers of React, Redux, and the WebSocket client, cite the official vendor documentation and open-source repository issue trackers consulted, and mathematically define why standard configurations (such as React.memo, standard Redux connection selectors, or default WebSocket frame buffering) fail when combined under the specific concurrency threshold of 15,000 mutations per second. By establishing that no qualified practitioner could deduce the interaction behaviour from existing public documentation, the taxpayer transforms a vulnerable component-integration narrative into an objective, project-level system uncertainty squarely aligned with paragraphs 91 and 99 of <em>DAZZM Inc.</em>"
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Technical Documentation and Capture-Based T661 Narrative Engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "To withstand the CRA's AI-assisted risk assessment and <a href=\"/ca/faq/cra-sred-technical-review-process\">RTA technical review</a>, and to meet the \"Capture-vs-Generation\" test promoted by some industry advisers (a vendor framework, not an official CRA standard), the company must prohibit retrospective, prompt-generated narratives at filing time. Instead, the engineering workflow must embed structured metadata tags directly into Jira tickets, Git commit messages, and Pull Request (PR) templates as the work occurs. Each PR addressing the state-synchronization bottleneck must capture four mandatory technical data points: the specific causal hypothesis being tested, the quantitative baseline metric prior to code modification, the architectural experiment implemented, and the benchmarked telemetry result."
+    },
+    {
+      "type": "paragraph",
+      "text": "When compiling Form T661 Part 2 at year-end, the three <a href=\"/ca/faq/cra-sred-technical-documentation-requirements\">technical narratives</a> must be synthesized directly from these dated repository artifacts. In Line 242 (Technological Uncertainty, strictly capped at 350 words), the narrative must articulate the system-level conflict between Redux's synchronous store-notification loop, garbage-collection overhead in browser engines, and high-frequency WebSocket frame ingestion, explaining why no publicly known architectural pattern could maintain sub-50-millisecond frame rendering without dropping state consistency. In Line 244 (Work Performed, strictly capped at 700 words), the claimant must present a chronological sequence of hypothesis-test-result iterations tied to specific Git commit hashes, ticket IDs, and PR numbers. Crucially, this section must detail the three failed architectures: Iteration 1, where hot-key promotion degraded long-tail rendering performance; Iteration 2, where a two-tier memory cache produced state inconsistency under concurrent writes; and Iteration 3, where custom sharding alone failed to resolve hot-key contention, before detailing Iteration 4's custom off-main-thread ring-buffer bypass. Finally, in Line 246 (Technological Advancement, strictly capped at 350 words), the narrative must quantify the new technical knowledge generated regarding the exact performance boundary conditions where standard React and Redux state propagation collapses under concurrent WebSocket streams, directly applying Justice Gagnon's holding that the systematic falsification of hypotheses constitutes a qualifying technological advancement."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Automated Experimentation and Labour Tracking Protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "Although Justice Gagnon held at paragraph 119 of <em>DAZZM Inc.</em> that contemporaneous timesheets are not strictly mandatory as a matter of law, relying on oral testimony to rescue a claim in Tax Court is financially inefficient and poorly aligned with the project-planning documentation expected under the CRA's optional Pre-Claim Approval process launched on April 1, 2026. Rather than forcing developers to fill out manual monthly spreadsheets—which suffer from a 20% to 40% memory drift and fail to link hours to technical problems—the company must deploy an automated repository-capture system integrated with Git, Jira, and continuous-integration pipelines. On a daily and weekly cadence, developer hours are automatically categorized by linking commit timestamps, pull request reviews, branch lifecycle durations, and benchmark test runs to specific SR&ED sub-project epics. This architecture ensures that when an engineer's SR&ED time allocation exceeds the 80% high-scrutiny threshold, or when a distributed team member spends 30% of their year on <a href=\"/ca/faq/sred-direct-support-work\">qualifying support programming</a> and data collection, every claimed dollar in Part 4 and Part 6 of Form T661 is anchored to an immutable, dated source artifact."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Contractual and Subcontractor Restructuring"
+    },
+    {
+      "type": "paragraph",
+      "text": "To preserve the <a href=\"/ca/faq/sred-contractor-cost-percentage\">80% eligible subcontractor expenditure</a> inclusion under section 37 and subsection 127(9) of the ITA, the company must overhaul its generic \"Staff Augmentation\" agreements prior to work commencement. Corporate counsel must execute a Master SR&ED Subcontractor Agreement and Statement of Work (SOW) stipulating that the Canadian-resident contractor is engaged specifically to perform experimental development and directly commensurate computer programming and testing <a href=\"/ca/glossary/sred-support-work\">support work</a> (as defined in subsection 248(1) of the ITA) on behalf of the corporation to resolve the articulated system uncertainty. The contract must vest 100% of all foreground intellectual property, source code, experimental logs, and test data <em>ab initio</em> in the hiring corporation, and obligate the contractor to submit bi-weekly invoices itemized by specific SR&ED ticket IDs and commit hashes so that qualifying experimental work is cleanly segregated from excluded commercial maintenance."
+    },
+    {
+      "type": "subheading",
+      "text": "Case Study 2: Industrial AgTech and Food Processing Automation (Hardware-Software Sensor Fusion and Shelf-Stable Process Control)"
+    },
+    {
+      "type": "subheading",
+      "text": "Scenario and Pitfall Profile"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Saskatoon-based agricultural and food-processing equipment manufacturer (a <a href=\"/ca/faq/what-is-canadian-controlled-private-corporation-ccpc\">CCPC</a>) undertakes a project to develop an automated, inline cold-pasteurization and rapid-canning control system capable of producing a shelf-stable, cold-pressed botanical beverage without thermal degradation of bioactive compounds. Rather than inventing new physical sensors or actuators from scratch, the engineering team integrates four commercially available subsystems: ultrasonic cavitation transducers, hyperspectral optical sensors, programmable logic controllers (PLCs), and an embedded edge-computing neural network inference module."
+    },
+    {
+      "type": "paragraph",
+      "text": "During pilot runs, acoustic cavitation bubbles generated by the ultrasonic transducers scatter the hyperspectral optical wavelengths, causing the PLC feedback loop to misread microbial turbidity and trigger erratic pressure oscillations that rupture the beverage cans. After nine months of experimentation and $480,000 in direct labour and <a href=\"/ca/glossary/materials-consumed\">consumed raw materials</a>, the company halts the project prior to commercial deployment because the cavitation-optical interference cannot be suppressed below a 4% false-positive rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "The company faces acute disallowance risks under the principles examined in <em>DAZZM Inc.</em>, <em>Manning Canning Kitchens Inc.</em>, and <em>Biscuiterie Dominic Inc.</em>. First, because all four hardware and software modules were purchased off-the-shelf, the CRA RTA asserts that connecting commercial industrial equipment is <a href=\"/ca/glossary/routine-engineering-or-testing\">routine engineering</a>. Second, because the project was abandoned without a commercial product launch, the company's external accountants question whether the $480,000 expenditure pool is disqualified due to technical failure. Third, shop-floor engineers recorded their experimental parameters on physical whiteboards that were erased weekly, leaving only purchasing invoices for ruptured cans and a summary slide deck reconstructed six months after year-end."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 1: Project Governance and System-Level Uncertainty Isolation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Management must restructure project governance to separate routine commercial plant commissioning from the core <a href=\"/ca/glossary/experimental-development\">experimental development</a> envelope. Drawing directly on <em>DAZZM Inc.</em> (paragraphs 91 and 99) and <em>Manning Canning Kitchens Inc.</em> (paragraph 10), the R&D project charter must define the holistic system-level technological uncertainty: while ultrasonic transducers, hyperspectral sensors, and PLC controllers are individually mature technologies, their coupled operation within a high-pressure, multiphase fluid-flow chamber creates unpredictable acoustic-optical interference and non-linear control latency that cannot be predicted or resolved using standard engineering equations or vendor integration manuals. Furthermore, the charter must document comprehensive background research confirming that no comparable shelf-stable cold-pressed canning process existed in the public domain at the commencement of the project, framing the integrated hardware-software control architecture as the experimental medium used to investigate this multi-physics interaction uncertainty."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 2: Contemporaneous Experimental Recordkeeping (Overcoming Biscuiterie Dominic and DAZZM Audit Friction)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To avoid the fatal evidentiary collapse seen in <em>Biscuiterie Dominic Inc.</em> (2024 TCC 97) and satisfy the functional documentation standard affirmed in <em>Manning Canning</em> (paragraph 30) and <em>DAZZM Inc.</em> (paragraph 119), the company must immediately eliminate ephemeral whiteboard tracking. The R&D director must institute a digital <a href=\"/ca/glossary/sred-logbooks\">Electronic Laboratory and Shop-Floor Trial Log</a> (ELN) coupled with version-controlled PLC and edge-firmware repositories."
+    },
+    {
+      "type": "paragraph",
+      "text": "For every pilot run, the ELN must contemporaneously capture the formal Design of Experiments (DoE) hypothesis (for example, testing whether applying a custom Kalman filter combined with pulsed phase-locked ultrasonic duty cycles decouples cavitation bubble collapse from hyperspectral sensor acquisition windows), the exact firmware build hash and sensor calibration parameters, quantitative telemetry logs (measuring optical signal-to-noise ratios, pressure oscillation amplitudes, and microbial reduction counts), and a post-run analytical conclusion explaining why the hypothesis was falsified or modified to guide the subsequent test. By maintaining these records as the work progresses, the documentation fulfills the exact legal purpose articulated by the Tax Court: enabling the researcher to track hypotheses formulated, tests conducted, and results observed to facilitate proper follow-up action."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 3: Substantiating Technological Advancement via Negative Results and Consumed Materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Part 2 of Form T661 (Line 246), the technical advisor must leverage Justice Gagnon's holding in <em>DAZZM Inc.</em> regarding technological advancement through negative results. The narrative must demonstrate that although the residual 4% false-positive threshold prevented commercial release, the systematic testing and rejection of multiple distinct acoustic-optical synchronization hypotheses established the exact physical and algorithmic boundary conditions governing multiphase acoustic scattering in cold-pressed botanical matrices. In accordance with <em>Northwest Hydraulic</em> and <em>DAZZM Inc.</em>, proving that specific integration architectures cannot overcome the physical-algorithmic bottleneck confirms the severity of the system uncertainty and advances the technological knowledge base. Simultaneously, the ELN batch logs must cross-reference the exact quantities of raw botanical juice and aluminum cans destroyed during each dated experimental trial run, substantiating their full deductibility as \"<a href=\"/ca/faq/materials-transformed-vs-materials-consumed-sred\">materials consumed or transformed</a> in performing SR&ED\" under subsection 37(1) and Part 4 of Form T661, while the company elects the 55% Prescribed Proxy Amount (PPA) method in Part 5 to capture overhead on direct engineering wages without itemized overhead tracking."
+    },
+    {
+      "type": "subheading",
+      "text": "Step 4: Commercial Contract Segregation and Expenditure Pool Protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where the equipment manufacturer tests the prototype line in collaboration with a commercial beverage producer, legal counsel must structure the commercial agreement to prevent the $480,000 expenditure pool from being reduced or disqualified as a \"contract payment\" (funded research) under <a href=\"/ca/legislation/ita-section-127-9-investment-tax-credit-definitions\">subsection 127(9)</a> of the ITA. Specifically, the contract must be drafted as a conditional commercial supply agreement for future validated production machinery rather than a <a href=\"/ca/glossary/contract-for-sred\">service contract to perform R&D</a> on the client's behalf, explicitly stipulating that the equipment manufacturer bears 100% of the financial and technical risk of failed experimental development, retains exclusive ownership of all background and foreground process intellectual property, and receives no reimbursement for experimental trial costs if the performance specifications are not achieved."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Remediation Dimension",
+        "Pre-Remediation Vulnerability (Audit Disallowance Trigger)",
+        "Post-DAZZM Compliant Governance & Documentation Architecture"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "<strong>Technical Framing (T661 Line 242)</strong>",
+            "Describing product features or isolated component configuration of known tools (React, Redux, PLCs, sensors).",
+            "Quantifying emergent <strong>system uncertainty</strong> arising from non-linear interactions among known components that defy public literature (paras. 91, 99)."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Experimentation Tracking (T661 Line 244)</strong>",
+            "Ad-hoc debugging, unrecorded whiteboard trials, or filing-time narratives generated from prompts without source artifacts.",
+            "Automated capture linking every hypothesis-test-result iteration to dated Git commit hashes, PRs, DoE batch logs, and quantitative benchmarks."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Advancement Articulation (T661 Line 246)</strong>",
+            "Abandoning claims on unresolved bottlenecks or describing commercial business outcomes.",
+            "Documenting <strong>technological advancement via negative results</strong> by mapping the boundary conditions and infeasibility of rejected hypotheses."
+          ]
+        },
+        {
+          "cells": [
+            "<strong>Labour & Cost Substantiation (Part 4 / Part 6)</strong>",
+            "Flat year-end percentage estimates (e.g., 85%–100% of salary) reconstructed from memory without corroborating project artifacts.",
+            "Weekly automated repository/ticket time categorization corroborated by development stage timelines and SOW-segregated subcontractor invoicing."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. Strategic Conclusions for Canadian SR&ED Practitioners"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tax Court of Canada's ruling in <em>DAZZM Inc. v. The King</em>, 2024 TCC 129, represents a pivotal milestone in Canadian SR&ED jurisprudence. Substantively, Justice Gagnon's recognition of system uncertainty dismantles the CRA's long-standing administrative tendency to automatically disqualify software and systems-integration projects merely because the constituent frameworks, libraries, or hardware modules are publicly known. Equally vital is the Court's reaffirmation that unresolved technical bottlenecks and systematically falsified hypotheses constitute legitimate technological advancements, and that the absence of formal contemporaneous timesheets is not legally fatal where credible testimony and objective project records substantiate the claim (paragraph 119)."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, from a tax risk-management perspective, corporate taxpayers must never mistake the Court's evidentiary flexibility at trial for an invitation to relax contemporaneous compliance. DAZZM Inc. was forced to endure an administrative disallowance and years of Tax Court litigation in part because its records lacked contemporaneous time sheets and its technical case required detailed explanation at trial to overcome the RTA's generalized view that the work was routine performance optimization (paras. 81 to 83 and 120). In the contemporary enforcement environment—characterized by the CRA's optional Pre-Claim Approval process launched in April 2026 and its announced use of AI in risk assessment—Canadian claimants must combine the substantive legal doctrine of <em>DAZZM Inc.</em> (framing claims around holistic system uncertainty and boundary-condition advancements) with capture-based, artifact-linked contemporaneous documentation to secure full <a href=\"/ca/faq/sred-tax-credit-eligibility\">SR&ED tax credit</a> approval at first instance without litigation."
+    }
+  ]
+}
