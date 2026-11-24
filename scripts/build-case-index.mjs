@@ -13,10 +13,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
+import { FIELD_LABELS, hasHtmlBody, resolveHtmlBody } from "./lib/html-body.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const DIR = path.join(ROOT, "content", "cases");
+// A case with an HTML body (pasted in the editor) is built from a resolved copy: the HTML turned into text blocks (generated, not committed).
+const RESOLVED_DIR = path.join(ROOT, "src", "data", "html-bodies", "cases");
 const ORDER_FILE = path.join(ROOT, "content", "case-order.json");
 const OUT = path.join(ROOT, "src", "data", "cases.index.ts");
 const TDIR = path.join(ROOT, "content", "translations");
@@ -29,7 +32,9 @@ const siteMap = loadSiteMap();
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json")).sort();
 let raggedTables = 0;
 const bySlug = new Map();
+const resolvedSlugs = new Set();
 const problems = [];
+fs.rmSync(RESOLVED_DIR, { recursive: true, force: true });
 
 for (const f of files) {
   const slug = f.replace(/\.json$/, "");
@@ -41,13 +46,22 @@ for (const f of files) {
     continue;
   }
   const bad = (m) => problems.push(`${f}: ${m}`);
+  if (hasHtmlBody(c)) {
+    const r = resolveHtmlBody(c, "case");
+    for (const m of r.problems) bad(m);
+    c = r.record;
+    resolvedSlugs.add(slug);
+    fs.mkdirSync(RESOLVED_DIR, { recursive: true });
+    fs.writeFileSync(path.join(RESOLVED_DIR, f), JSON.stringify(c, null, 2) + "\n");
+  }
   if (c.slug !== slug) bad(`slug "${c.slug}" does not match the file name`);
   for (const k of ["title", "caseNumber", "subject", "jurisdictionGroup", "jurisdictionSlug", "summary"]) {
-    if (typeof c[k] !== "string" || !c[k].trim()) bad(`"${k}" is missing`);
+    if (typeof c[k] !== "string" || !c[k].trim()) bad(`the field "${FIELD_LABELS[k] ?? k}" is empty`);
   }
+  if (resolvedSlugs.has(slug) && (typeof c.court !== "string" || !c.court.trim())) bad(`the field "${FIELD_LABELS.court}" is empty`);
   if (c.sourceDocUrl !== undefined && typeof c.sourceDocUrl !== "string") bad(`"sourceDocUrl" must be text`);
   if (c.metaDescription !== undefined && (typeof c.metaDescription !== "string" || c.metaDescription.length > 155)) bad(`"metaDescription" must be text of at most 155 characters`);
-  if (!Number.isInteger(c.year)) bad(`"year" must be a whole number`);
+  if (!Number.isInteger(c.year)) bad(`the field "${FIELD_LABELS.year}" is empty or not a whole number`);
   if (!GROUPS.has(c.jurisdictionGroup)) bad(`unknown jurisdictionGroup "${c.jurisdictionGroup}"`);
   // the case's web address follows the link spec: lowercase a-z, 0-9, single hyphens, at most 100 characters, and not a reserved word
   if (GROUPS.has(c.jurisdictionGroup) && typeof c.slug === "string") {
@@ -60,7 +74,7 @@ for (const f of files) {
   if (c.sourcePdfPath && !fs.existsSync(path.join(ROOT, "public", c.sourcePdfPath))) {
     bad(`sourcePdfPath ${c.sourcePdfPath} does not exist in public/`);
   }
-  if (!Array.isArray(c.body) || c.body.length === 0) bad(`"body" is empty`);
+  if (!Array.isArray(c.body) || c.body.length === 0) bad(`the case has no text: fill in the "${FIELD_LABELS.htmlBody}" or add text blocks`);
   else {
     c.body.forEach((b, i) => {
       if (!BLOCK_TYPES.has(b.type)) bad(`block ${i + 1}: unknown type "${b.type}"`);
@@ -135,6 +149,8 @@ if (fs.existsSync(TDIR)) {
 
 if (problems.length) {
   console.error("Case files have problems:\n  " + problems.join("\n  "));
+  // shown on the pull request: one annotation per problem, with the file it is in
+  if (process.env.GITHUB_ACTIONS) for (const p of problems) console.log(`::error file=content/cases/${p.split(": ")[0]}::${p.split(": ").slice(1).join(": ")}`);
   process.exit(1);
 }
 
@@ -146,7 +162,8 @@ const ordered = [
 ];
 
 const imports = [
-  ...ordered.map((s, i) => `import c${i} from "../../content/cases/${s}.json";`),
+  // a case with an HTML body is imported from its resolved copy (src/data/html-bodies/cases), so the pasted HTML is not in the site
+  ...ordered.map((s, i) => `import c${i} from "${resolvedSlugs.has(s) ? "./html-bodies/cases" : "../../content/cases"}/${s}.json";`),
   ...[...trBySlug.keys()].sort().map((s, i) => `import t${i} from "../../content/translations/${s}.json";`),
 ];
 const body =

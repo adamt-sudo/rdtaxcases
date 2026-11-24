@@ -87,15 +87,38 @@ const blockTypes = [
   },
 ];
 
+// The text of a page, built block by block. Optional: a page with an HTML body (below) takes its text from that.
 const body = {
-  label: "Case text",
+  label: "Text blocks (only when there is no HTML body)",
   name: "body",
   widget: "list",
+  required: false,
   types: blockTypes,
   hint:
-    "Build the page from blocks. No reference list and no footnote markers. " +
-    "Put quotation marks only around the court's exact words.",
+    "Build the page from blocks, or leave this empty and paste the document's HTML in the HTML body box instead. " +
+    "No reference list and no footnote markers. Put quotation marks only around the court's exact words.",
 };
+
+// The HTML of a Google Doc, pasted. It is turned into the page's text when the site is built, with the same cleaning and
+// link rules as the bulk import (scripts/lib/html-body.mjs). When it is filled, it is the page text and the blocks are ignored.
+const htmlBodyField = {
+  label: "HTML body (paste the Google Doc's HTML here)",
+  name: "htmlBody",
+  widget: "text",
+  required: false,
+  hint:
+    "Paste the document's HTML. It becomes the page text when the site is built: the document's title heading, scripts, styles, reference lists and footnote numbers are removed; " +
+    "links to this site are fixed (a link to a page that does not exist yet shows as plain text and is listed as pending); each outside address is linked once. " +
+    "The answer capsule (the box at the start, <section class=\"answer-capsule\">) becomes the summary and, when the meta description is empty, the meta description. " +
+    "When this box is filled, the text blocks are ignored.",
+};
+
+const metaDescriptionField = (name) =>
+  str("Meta description (at most 155 characters)", name, {
+    required: false,
+    hint: "The sentence search results show. At most 155 characters. Leave empty to use the first sentence of the answer capsule in the HTML body. The check stops the page if both are empty.",
+    pattern: ["^[\\s\\S]{0,155}$", "At most 155 characters. Shorten it, or leave it empty to use the answer capsule"],
+  });
 
 function caseFields({ group, slugField, countryCode }) {
   return [
@@ -113,7 +136,7 @@ function caseFields({ group, slugField, countryCode }) {
     str("Case number", "caseNumber", {
       hint: "Docket number or citation exactly as printed on the decision",
     }),
-    str("Court", "court", { required: false, hint: "Full name of the deciding court" }),
+    str("Court", "court", { hint: "Full name of the deciding court, for example Tax Court of Canada" }),
     { label: "Year", name: "year", widget: "number", value_type: "int", min: 1800, max: 2100 },
     str("Decision date", "decisionDate", {
       required: false,
@@ -162,7 +185,12 @@ function caseFields({ group, slugField, countryCode }) {
         { label: "Withdrawn (kept, not shown)", value: "withdrawn" },
       ],
     },
-    text("Summary", "summary", { hint: "Two to four sentences, from the decision" }),
+    metaDescriptionField("metaDescription"),
+    text("Summary", "summary", {
+      required: false,
+      hint: "Two to four sentences, from the decision. Leave empty to use the answer capsule of the HTML body.",
+    }),
+    htmlBodyField,
     body,
   ];
 }
@@ -202,6 +230,73 @@ const caseCollection = (name, label, group, slugField, description, extra = {}) 
   filter: extra.filter ?? { field: "jurisdictionGroup", value: group },
   fields: caseFields({ group, slugField, countryCode: extra.countryCode }),
 });
+
+// ---- glossary, FAQ and legislation pages (content/pages/<cc>/<folder>/<slug>.json), one list per country and section.
+// ONE place to say which countries the editor offers them for: add a country code here (its section folders and language come
+// from content/site-map.json, its name from src/data/countries.ts) and its three lists appear. Italy: add "it".
+const PAGE_COUNTRIES = ["us", "ca"];
+const siteMap = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "site-map.json"), "utf8"));
+const SECTIONS = [
+  { key: "glossary", kind: "glossary-term", label: "glossary", one: "glossary term" },
+  { key: "faq", kind: "faq-question", label: "FAQ", one: "FAQ question" },
+  { key: "legislation", kind: "legislation-page", label: "legislation", one: "legislation page" },
+];
+const countryName = (cc) => (cc === "us" ? "USA" : countries.find((c) => c.slug === cc)?.name ?? cc.toUpperCase());
+
+function pageCollection(cc, section) {
+  const sm = siteMap.countries[cc];
+  if (!sm) throw new Error(`PAGE_COUNTRIES has "${cc}", which is not in content/site-map.json`);
+  const name = countryName(cc);
+  return {
+    name: `${cc}_${section.key}`,
+    label: `${name} ${section.label}`,
+    label_singular: `${name} ${section.one}`,
+    description: `${name} ${section.label} pages. The address is /${cc}/${sm.folders[section.key]}/<slug>: type the slug without that prefix.`,
+    folder: `content/pages/${cc}/${sm.folders[section.key]}`,
+    extension: "json",
+    format: "json",
+    create: true,
+    delete: true,
+    slug: "{{fields.slug}}",
+    identifier_field: "title",
+    summary: "{{title}}",
+    sortable_fields: ["title"],
+    fields: [
+      str("Slug (web address)", "slug", {
+        hint:
+          `Only the last part of the address: no /${cc}/ prefix, no /${sm.folders[section.key]}/ and no slashes (for example funded-research). ` +
+          "Lowercase letters, numbers and hyphens. Cannot be changed after saving.",
+        pattern: [
+          "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "Type only the last part of the address, with no /ca/ or /us/ prefix and no slashes: lowercase letters, numbers and hyphens",
+        ],
+      }),
+      str("Title", "title", { hint: "The page title, as the other pages of this list have it (for example: Defining Technological Uncertainty | Canada FAQ)" }),
+      metaDescriptionField("description"),
+      str("Key phrase", "keyPhrase", { required: false, hint: "The phrase the page is about (not shown on the page)" }),
+      text("Summary", "summary", {
+        required: false,
+        hint: "The short answer. Leave empty to use the answer capsule of the HTML body. For a FAQ question it is the answer shown to search engines.",
+      }),
+      { label: "Kind", name: "kind", widget: "hidden", default: section.kind },
+      { label: "Country", name: "country", widget: "hidden", default: cc },
+      { label: "Language", name: "language", widget: "hidden", default: sm.htmlLang },
+      {
+        label: "Publication state",
+        name: "status",
+        widget: "select",
+        required: false,
+        default: "draft",
+        options: [
+          { label: "Published", value: "published" },
+          { label: "Draft (kept, not shown)", value: "draft" },
+        ],
+      },
+      htmlBodyField,
+      body,
+    ],
+  };
+}
 
 const config = {
   backend: {
@@ -257,6 +352,7 @@ const config = {
       countrySelect,
       "Cases from other countries (Canada has its own list). The text is written in the language of the decision.",
     ),
+    ...PAGE_COUNTRIES.flatMap((cc) => SECTIONS.map((s) => pageCollection(cc, s))),
     {
       name: "translations",
       label: "English translations (reviewer only)",
@@ -278,7 +374,7 @@ const config = {
         str("Title", "title"),
         str("Subtitle", "articleTitle", { required: false }),
         text("Summary", "summary"),
-        body,
+        { ...body, label: "Case text", required: true },
         {
           label: "Reviewed",
           name: "reviewed",
@@ -359,13 +455,32 @@ ${core}
       var texts = b.type === "list" ? b.items || [] : b.type === "paragraph" ? [b.text] : b.type === "table" ? (b.rows || []).reduce(function (a, r) { return a.concat(r.cells || []); }, []) : [];
       texts.forEach(function (t) { links += linksIn(String(t || "")).length; });
     });
+    // An HTML body is turned into the page text when the site is built; here it is only looked over (never shown as it was pasted).
+    var htmlInfo = null;
+    var capsule = "";
+    if (typeof d.htmlBody === "string" && d.htmlBody.replace(/\\s+/g, "") !== "") {
+      var doc = new DOMParser().parseFromString(d.htmlBody, "text/html");
+      var cap = doc.querySelector("section.answer-capsule");
+      capsule = cap ? cap.textContent.replace(/\\s+/g, " ").trim() : "";
+      var n = function (sel) { return doc.querySelectorAll(sel).length; };
+      var meta = typeof d.metaDescription === "string" ? d.metaDescription : typeof d.description === "string" ? d.description : "";
+      var notes = [];
+      if (!capsule) notes.push("no answer capsule found (section class=answer-capsule)" + (meta ? "" : ": fill in the meta description"));
+      if (meta.length > 155) notes.push("the meta description is " + meta.length + " characters (at most 155)");
+      if (n("h1")) notes.push("the h1 heading will be removed (the page writes its own title)");
+      if (n("script, style")) notes.push("scripts and styles will be removed");
+      htmlInfo = h("div", { className: notes.length ? "bad" : "ok" },
+        "HTML body: " + n("h2, h3, h4") + " headings, " + n("p") + " paragraphs, " + n("li") + " list items, " + n("table") + " tables, " + n("a") + " links. " +
+        "It becomes the page text when the site is built; the text blocks are ignored." + (notes.length ? " Check: " + notes.join("; ") + "." : ""));
+    }
     return h("div", { className: "rdp" },
       problems.length
         ? h("div", { className: "bad" }, "Problems in the text (the check will stop publishing): " + problems.join("; "))
         : h("div", { className: "ok" }, "Text markup is fine. Links in this case: " + links + "."),
+      htmlInfo,
       h("h1", null, plainText(d.title || "")),
       d.articleTitle ? h("p", { className: "sub" }, plainText(d.articleTitle)) : null,
-      d.summary ? h("div", { className: "sum" }, plainText(d.summary)) : null,
+      (d.summary || capsule) ? h("div", { className: "sum" }, plainText(d.summary || capsule)) : null,
       body);
   }
   ${names}.forEach(function (n) { CMS.registerPreviewTemplate(n, Preview); });

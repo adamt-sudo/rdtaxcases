@@ -35,6 +35,14 @@ import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { checkRecord, pdfText } from "./lib/check.mjs";
 import { hasMarkup, inlineProblems, plainText } from "../src/lib/inline-core.mjs";
+import { FIELD_LABELS, hasHtmlBody, resolveHtmlBody } from "./lib/html-body.mjs";
+
+/** A content file as the site is built from it: an HTML body pasted in the editor is turned into text blocks. { rec, extra: problems } */
+function loadRecord(raw, kind) {
+  if (!hasHtmlBody(raw)) return { rec: raw, extra: [] };
+  const r = resolveHtmlBody(raw, kind);
+  return { rec: r.record, extra: r.problems };
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -61,9 +69,9 @@ const note = (msg) => console.log(msg);
 function changedFiles() {
   let out;
   try {
-    out = git("diff", "--name-status", "--no-renames", `${BASE}...HEAD`, "--", "content/cases", "content/translations", "public/documents");
+    out = git("diff", "--name-status", "--no-renames", `${BASE}...HEAD`, "--", "content/cases", "content/pages", "content/translations", "public/documents");
   } catch {
-    out = git("diff", "--name-status", "--no-renames", BASE, "--", "content/cases", "content/translations", "public/documents");
+    out = git("diff", "--name-status", "--no-renames", BASE, "--", "content/cases", "content/pages", "content/translations", "public/documents");
   }
   return out
     .split("\n")
@@ -127,12 +135,14 @@ function formatProblems(rec) {
   const blocking = [];
   const notices = [];
   for (const k of ["title", "caseNumber", "subject", "jurisdictionGroup", "jurisdictionSlug", "summary"]) {
-    if (typeof rec[k] !== "string" || !rec[k].trim()) blocking.push(`The field "${k}" is empty.`);
+    if (typeof rec[k] !== "string" || !rec[k].trim()) blocking.push(`The field "${FIELD_LABELS[k] ?? k}" is empty.`);
   }
-  if (!Number.isInteger(rec.year)) blocking.push('The field "year" must be a whole number.');
+  if (!Number.isInteger(rec.year)) blocking.push(`The field "${FIELD_LABELS.year}" must be a whole number.`);
+  if (typeof rec.court !== "string" || !rec.court.trim()) blocking.push(`The field "${FIELD_LABELS.court}" (the deciding court) is empty.`);
+  if (typeof rec.metaDescription === "string" && rec.metaDescription.length > 155) blocking.push(`The meta description is ${rec.metaDescription.length} characters. At most 155.`);
+  if (typeof rec.slug !== "string" || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(rec.slug)) blocking.push("The slug must be only lowercase letters, numbers and hyphens, with no /ca/ or /us/ prefix and no slashes.");
   if (rec.jurisdictionGroup === "country") {
     if (!/^[A-Z]{2}$/.test(rec.country ?? "")) blocking.push('The field "country" must be a two-letter country code, e.g. AU.');
-    if (!rec.court?.trim()) blocking.push('The field "court" (the deciding court) is empty.');
     if (!rec.decisionDate) notices.push("The decision date is empty.");
   }
   if (rec.sourceDocUrl !== undefined && rec.sourceDocUrl !== "" && !/^https?:\/\/\S+$/.test(rec.sourceDocUrl)) {
@@ -180,14 +190,43 @@ for (const ch of changes.filter((c) => /^public\/documents\//.test(c.file) && c.
   error(ch.file, "A PDF was added or changed. The site does not publish PDFs: do not add files to public/documents.");
 }
 for (const ch of caseChanges.filter((c) => c.status !== "D")) {
-  const rec = JSON.parse(fs.readFileSync(path.join(ROOT, ch.file), "utf8"));
+  const { rec, extra } = loadRecord(JSON.parse(fs.readFileSync(path.join(ROOT, ch.file), "utf8")), "case");
   const now = formatProblems(rec);
-  const before = ch.status === "A" ? null : readAtBase(ch.file);
+  now.blocking.unshift(...extra); // the HTML body is broken, or the meta description / summary cannot be made from it
+  const before0 = ch.status === "A" ? null : readAtBase(ch.file);
+  const before = before0 ? loadRecord(before0, "case").rec : null;
   const had = new Set(before ? formatProblems(before).blocking : []);
   for (const m of now.blocking.filter((m) => !had.has(m))) error(ch.file, m);
   for (const m of now.blocking.filter((m) => had.has(m))) warn(ch.file, `${m} (already there before this change; not blocking)`);
   for (const m of now.notices) warn(ch.file, m);
   if (!now.blocking.length && !now.notices.length) note(`${ch.file}: format ok`);
+}
+
+// Glossary, FAQ and legislation pages (content/pages): the same kind of plain checks.
+const pageChanges = changes.filter((c) => /^content\/pages\/.+\.json$/.test(c.file) && c.status !== "D");
+const pageNames = (file) => file.replace(/^content\/pages\//, "").replace(/\.json$/, "").split("/");
+for (const ch of pageChanges) {
+  const { rec, extra } = loadRecord(JSON.parse(fs.readFileSync(path.join(ROOT, ch.file), "utf8")), "page");
+  const [cc, , slug] = pageNames(ch.file);
+  const blocking = [...extra];
+  if (typeof rec.title !== "string" || !rec.title.trim()) blocking.push(`The field "${FIELD_LABELS.title}" is empty.`);
+  if (typeof slug !== "string" || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug)) blocking.push("The slug must be only lowercase letters, numbers and hyphens, with no /ca/ or /us/ prefix and no slashes.");
+  if (rec.slug !== undefined && rec.slug !== slug) blocking.push(`The slug field says "${rec.slug}", the file is called ${slug}.json: they must be the same.`);
+  if (rec.country !== cc) blocking.push(`The page is in the ${cc} folder but its country is "${rec.country}".`);
+  if (typeof rec.description !== "string" || !rec.description.trim()) blocking.push(`The field "${FIELD_LABELS.description}" is empty.`);
+  else if (rec.description.length > 155) blocking.push(`The meta description is ${rec.description.length} characters. At most 155.`);
+  if (!Array.isArray(rec.body) || !rec.body.length) blocking.push(`The page has no text: fill in the "${FIELD_LABELS.htmlBody}" or add text blocks.`);
+  for (const { where, text: stored, markup } of textsOf(rec).filter((t) => t.where !== "the header fields")) {
+    if (markup) for (const m of new Set(inlineProblems(stored))) blocking.push(`${where}: ${m}.`);
+    const t = plainText(stored).trim();
+    if (SECTION.test(t)) blocking.push(`${where} is a "${t.slice(0, 30)}" section. Remove the references list.`);
+    if (/\[cite[^\]]*\]/i.test(t)) blocking.push(`${where} has a [cite: n] marker. Remove it.`);
+  }
+  const before0 = ch.status === "A" ? null : readAtBase(ch.file);
+  const had = new Set(before0 ? [...loadRecord(before0, "page").extra] : []);
+  for (const m of blocking.filter((m) => !had.has(m))) error(ch.file, m);
+  for (const m of blocking.filter((m) => had.has(m))) warn(ch.file, `${m} (already there before this change; not blocking)`);
+  if (!blocking.length) note(`${ch.file}: format ok`);
 }
 
 const referenced = new Set();

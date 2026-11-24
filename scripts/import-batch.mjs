@@ -21,8 +21,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import { describe, htmlToBlocks, loadDoc, unescapeDoc } from "./import-html-case.mjs";
-import { prepareDoc } from "./lib/doc-clean.mjs";
+import { describe, loadDoc } from "./import-html-case.mjs";
+import { convertDoc } from "./lib/html-body.mjs";
 import { makeDescription } from "./lib/describe.mjs";
 import { loadSiteMap, parseAddress } from "./lib/page-address.mjs";
 import { refreshPending } from "./lib/pending.mjs";
@@ -39,12 +39,8 @@ export const cleanTitle = (type, t) => {
   return s;
 };
 
-/** Convert one document. Returns { blocks, capsule, report }. */
-export function convertDoc(text) {
-  const prep = prepareDoc(unescapeDoc(text));
-  const { blocks, report } = htmlToBlocks(prep.html);
-  return { blocks, capsule: prep.capsule, h1: prep.h1, report: { ...report, ...prep.report } };
-}
+// Convert one document: { blocks, capsule, report }. It lives in lib/html-body.mjs, shared with the editor's HTML body field.
+export { convertDoc };
 
 async function main() {
   const args = process.argv.slice(2);
