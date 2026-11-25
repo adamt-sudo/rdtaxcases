@@ -178,7 +178,9 @@ function caseFields({ group, slugField, countryCode }) {
       name: "status",
       widget: "select",
       required: false,
-      default: "draft",
+      // a new page is shown (published) unless this is changed: a page must not be hidden by mistake
+      default: "published",
+      hint: "Published: shown on the site once it has been put live. Draft: saved but hidden.",
       options: [
         { label: "Published", value: "published" },
         { label: "Draft (kept, not shown)", value: "draft" },
@@ -286,7 +288,8 @@ function pageCollection(cc, section) {
         name: "status",
         widget: "select",
         required: false,
-        default: "draft",
+        default: "published",
+        hint: "Published: shown on the site once it has been put live. Draft: saved but hidden.",
         options: [
           { label: "Published", value: "published" },
           { label: "Draft (kept, not shown)", value: "draft" },
@@ -314,9 +317,9 @@ const config = {
       openAuthoring: "{{message}}",
     },
   },
-  // Every change becomes a draft first; publishing is a separate step that
-  // only the people with merge rights on the repository can complete.
-  publish_mode: "editorial_workflow",
+  // One step: "Publish" commits straight to the branch (main). That push starts .github/workflows/deploy.yml, which runs every check
+  // and only then puts the site live. (Before: editorial_workflow, a draft pull request first.)
+  publish_mode: "simple",
   media_folder: "public/documents",
   public_folder: "/documents",
   site_url: "https://rdtaxcases.com",
