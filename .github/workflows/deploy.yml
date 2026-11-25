@@ -1,5 +1,7 @@
-# Puts the site (and the editor, /admin) on the server after every push to main. "Publish" in /admin merges the draft into
-# main, which is a push to main, so a published page goes live by itself once everything below has passed.
+# Puts the site (and the editor, /admin) on the server after every push to main. "Publish" in /admin commits the page straight
+# to main, which is a push to main, so a published page goes live by itself once everything below has passed. If a check
+# fails, GitHub emails the person who published (the email names the failed step; the run's summary says which page and which
+# box to fix in /admin: scripts/explain-failure.mjs).
 #
 #   1. job "Check and build": the same checks as the pull request (npm run check, the link check), then the build, then the
 #      checks of the built site. If any step fails, the job stops and NOTHING is deployed; the run page says why in plain words.
@@ -11,9 +13,17 @@
 # is a repository variable. Setup: docs of the developer ("Automatic deploy: server and GitHub setup").
 name: Deploy
 
+# the title of each run (and of the failure email) is the editor's own message, for example: Publish - Add Canada cases "my-case"
+run-name: Publish - ${{ github.event.head_commit.message }}
+
 on:
   push:
     branches: [main]
+
+# bash with "stop if any command of a pipe fails", so a failed check is not hidden by the logging below
+defaults:
+  run:
+    shell: bash
 
 # one deploy at a time; a second publish waits for the first to finish
 concurrency:
@@ -59,28 +69,34 @@ jobs:
           fi
           echo "sha=$BEFORE" >> "$GITHUB_OUTPUT"
 
+      # The step names are what the failure email shows, so they say in plain words what a failure means.
+      # Each step's output is kept in logs/ so the summary can list the pages and boxes to fix.
       - id: check
-        name: Check the pages (npm run check)
-        run: npm run check -- --base "${{ steps.base.outputs.sha }}"
+        name: "Check the pages (if this fails, a page needs fixing in /admin)"
+        run: |
+          mkdir -p logs
+          npm run check -- --base "${{ steps.base.outputs.sha }}" 2>&1 | tee logs/check.log
 
       - id: links
-        name: Check the links in the pages
-        run: node scripts/check-links.mjs --base "${{ steps.base.outputs.sha }}"
+        name: "Check the links (if this fails, a link in a page is broken)"
+        run: node scripts/check-links.mjs --base "${{ steps.base.outputs.sha }}" 2>&1 | tee logs/links.log
 
       - id: build
-        name: Build the site
+        name: "Build the site (if this fails, a page cannot be built)"
         env:
           ADMIN_AUTH_URL: ${{ vars.ADMIN_AUTH_URL }}
           ADMIN_REPO: ${{ github.repository }}
-        run: npm run build
+        run: npm run build 2>&1 | tee logs/build.log
 
       - id: built
-        name: Check the built site
+        name: "Check the built site (if this fails, tell the developer)"
         run: |
-          node scripts/check-canonicals.mjs out
-          node scripts/build-redirects.mjs --check out
-          node scripts/check-absolute-links.mjs out
-          node scripts/check-site-features.mjs out
+          {
+            node scripts/check-canonicals.mjs out
+            node scripts/build-redirects.mjs --check out
+            node scripts/check-absolute-links.mjs out
+            node scripts/check-site-features.mjs out
+          } 2>&1 | tee logs/built.log
 
       - id: package
         name: Pack the release
@@ -114,12 +130,17 @@ jobs:
           say "## Deploy: checks and build"
           if [ "$SETTINGS" = failure ]; then say "**Nothing was deployed.** The repository variable ADMIN_AUTH_URL (the login address of the editor) is not set in GitHub. The developer must add it (Settings, Secrets and variables, Actions, Variables)."
           elif [ "$INSTALL" = failure ]; then say "**Nothing was deployed.** The tools the site needs could not be installed. Run the job again; if it fails again, tell the developer."
-          elif [ "$CHECK" = failure ]; then say "**Nothing was deployed.** The automatic check found a problem in a page or case that was published. The red lines in the step 'Check the pages' say which page and what is wrong. Fix that page in /admin and publish it again."
-          elif [ "$LINKS" = failure ]; then say "**Nothing was deployed.** A link inside a page goes to an address that does not exist (it answers 404). The red lines in the step 'Check the links in the pages' say which page and which link. Fix the link in /admin and publish again."
-          elif [ "$BUILD" = failure ]; then say "**Nothing was deployed.** The site could not be built from the published pages. Open the step 'Build the site' for the reason and tell the developer."
-          elif [ "$BUILT" = failure ]; then say "**Nothing was deployed.** The built site failed one of its own safety checks (links, addresses or page features). Open the step 'Check the built site' for the line that says which page, and tell the developer."
+          elif [ "$CHECK" = failure ]; then say "**Nothing was deployed. The page you published has a problem; the live site is unchanged.** The list below says which page and which box to fix in /admin."
+          elif [ "$LINKS" = failure ]; then say "**Nothing was deployed. A link inside a page you published goes to an address that does not exist (it answers 404); the live site is unchanged.** The list below says which page and which link to fix in /admin."
+          elif [ "$BUILD" = failure ]; then say "**Nothing was deployed. The site could not be built from the published pages; the live site is unchanged.** The list below says which page, if it is known."
+          elif [ "$BUILT" = failure ]; then say "**Nothing was deployed. The built site failed one of its own safety checks; the live site is unchanged.** Open the step 'Check the built site' for the line that says which page, and tell the developer."
           elif [ "$PACKAGE" = failure ]; then say "**Nothing was deployed.** The release could not be packed. Run the job again; if it fails again, tell the developer."
           else say "All checks passed and the site was built. The next job puts it on the server."
+          fi
+          # which page and which box, in plain words (from the red lines of the checks)
+          if [ "$CHECK" = failure ] || [ "$LINKS" = failure ] || [ "$BUILD" = failure ] || [ "$BUILT" = failure ]; then
+            say ""
+            node scripts/explain-failure.mjs logs/*.log >> "$GITHUB_STEP_SUMMARY"
           fi
 
   deploy:

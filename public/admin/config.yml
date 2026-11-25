@@ -16,7 +16,7 @@
       "openAuthoring": "{{message}}"
     }
   },
-  "publish_mode": "editorial_workflow",
+  "publish_mode": "simple",
   "media_folder": "public/documents",
   "public_folder": "/documents",
   "site_url": "https://rdtaxcases.com",
@@ -165,7 +165,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -657,7 +658,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -943,7 +945,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -1443,7 +1446,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -1673,7 +1677,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -1881,7 +1886,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -2089,7 +2095,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -2297,7 +2304,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -2505,7 +2513,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
@@ -2713,7 +2722,8 @@
           "name": "status",
           "widget": "select",
           "required": false,
-          "default": "draft",
+          "default": "published",
+          "hint": "Published: shown on the site once it has been put live. Draft: saved but hidden.",
           "options": [
             {
               "label": "Published",
