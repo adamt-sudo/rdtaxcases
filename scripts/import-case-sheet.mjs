@@ -130,7 +130,7 @@ for (const r0 of rows) {
 // the cases that are new go through the importer's pipeline (text from the document, pending list rebuilt)
 if (toCreate.length) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "case-sheet-"));
-  fs.writeFileSync(path.join(tmp, "rows.json"), JSON.stringify(toCreate.map(({ _line, ...x }) => x)));
+  fs.writeFileSync(path.join(tmp, "rows.json"), JSON.stringify(toCreate.map((c) => Object.fromEntries(Object.entries(c).filter(([k]) => k !== "_line")))));
   const cmd = ["scripts/import-batch.mjs", "--rows", path.join(tmp, "rows.json"), "--docs", docsDir, "--report", path.join(tmp, "report.json"), ...(write ? ["--write"] : [])];
   const out = execFileSync(process.execPath, cmd, { cwd: ROOT, encoding: "utf8", maxBuffer: 256 * 1024 * 1024 });
   const rep = JSON.parse(fs.readFileSync(path.join(tmp, "report.json"), "utf8"));
