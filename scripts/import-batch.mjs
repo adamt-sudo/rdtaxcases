@@ -125,7 +125,7 @@ async function main() {
           continue;
         }
       }
-      const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, jurisdictionGroup: group, jurisdictionSlug: where, ...(r.create.country ? { country: r.create.country } : {}), ...(r.keyPhrase ? { keyPhrase: r.keyPhrase } : {}), summary: capsule, metaDescription: desc.text, body };
+      const rec2 = { slug: a.slug, title: r.create.title, caseNumber: r.create.caseNumber, court: r.create.court, year: r.create.year, decisionDate: r.create.decisionDate, subject: r.create.subject, ...(r.create.outcome ? { outcome: r.create.outcome } : {}), ...(r.create.language ? { language: r.create.language } : {}), jurisdictionGroup: group, jurisdictionSlug: where, ...(r.create.country ? { country: r.create.country } : {}), ...(r.keyPhrase ? { keyPhrase: r.keyPhrase } : {}), summary: capsule, metaDescription: desc.text, body };
       fs.writeFileSync(file, JSON.stringify(applyOverrides(rec2), null, 2) + "\n");
       rec.created = true;
     } else if (r.type === "case") {
