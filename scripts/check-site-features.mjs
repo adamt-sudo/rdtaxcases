@@ -3,6 +3,7 @@
 //   - the Zendesk widget script is in the <head> of every page, once, with the key of src/lib/site-config.ts
 //   - the three list pages (/us/glossary, /us/faq, /us/legislation) exist, are indexable, have their own canonical, are in the
 //     sitemap, and link to every page of their type; the footer of every page links to them
+//   - every published case is on its list page, on the search page and in the sitemap
 //   - every glossary, FAQ, legislation and case page starts with the Back button (a plain link to its list page)
 //   - every link inside the content of those pages opens in a new tab (target="_blank" rel="noopener", never noreferrer);
 //     the header, footer and breadcrumb links stay in the same tab
@@ -62,11 +63,33 @@ for (const f of fs.readdirSync(path.join(ROOT, "content", "cases")).filter((x) =
   if ((c.status ?? "published") !== "published") continue;
   const a = c.jurisdictionGroup === "country" ? `/${c.jurisdictionSlug}/${c.slug}` : `/us/${c.slug}`;
   const hub = c.jurisdictionGroup === "usa-federal" ? "/us/federal" : c.jurisdictionGroup === "usa-states" ? `/us/states/${c.jurisdictionSlug}` : `/${c.jurisdictionSlug}`;
-  contentPages.push({ address: a, hub });
+  contentPages.push({ address: a, hub, isCase: true });
 }
 const contentByAddress = new Map(contentPages.map((p) => [p.address, p]));
 
 const sitemap = read("sitemap.xml");
+
+// Every published case is listed on its list page (a country's page, /us/federal or its state's page), on the search page and in the
+// sitemap. A case missing from one of them is a case people cannot find, so the build fails.
+{
+  const searchHtml = fs.existsSync(path.join(OUT, "search.html")) ? read("search.html") : "";
+  const hubHtml = new Map();
+  let n = 0;
+  for (const p of contentPages.filter((x) => x.isCase)) {
+    const link = `href="${SITE}${p.address}"`;
+    if (!hubHtml.has(p.hub)) {
+      const file = path.join(OUT, `${p.hub.slice(1)}.html`);
+      hubHtml.set(p.hub, fs.existsSync(file) ? fs.readFileSync(file, "utf8") : null);
+    }
+    const list = hubHtml.get(p.hub);
+    if (list === null) bad(`${p.address}: its list page ${p.hub} was not built`);
+    else if (!list.includes(link)) bad(`${p.address}: a published case that is missing from its list page ${p.hub}`);
+    if (!searchHtml.includes(link)) bad(`${p.address}: a published case that is missing from the search page`);
+    if (!sitemap.includes(`<loc>${SITE}${p.address}</loc>`)) bad(`${p.address}: a published case that is missing from the sitemap`);
+    n++;
+  }
+  console.log(`${n} published case(s) checked: each is on its list page, on the search page and in the sitemap.`);
+}
 
 for (const f of walk(OUT)) {
   const name = rel(f);
