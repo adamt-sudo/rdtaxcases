@@ -66,11 +66,13 @@ export function CasePage({ caseRecord }: { caseRecord: CaseRecord }) {
     })),
   };
 
-  // the language of the page: the country's (en-CA for Canada, it-IT for Italy...), en-US for the USA
+  // the language of the page: the country's (en-CA for Canada, it-IT for Italy...), en-US for the USA. A case written in another
+  // language than its country's main one (a French case in Canada, fr-CA) says so; the same language keeps the country's code.
+  const countryLang = (siteMap.countries as Record<string, { htmlLang: string }>)[caseRecord.jurisdictionSlug]?.htmlLang;
+  const ownLang = caseRecord.language;
+  const sameLanguage = !!ownLang && !!countryLang && ownLang.split("-")[0].toLowerCase() === countryLang.split("-")[0].toLowerCase();
   const htmlLang =
-    caseRecord.jurisdictionGroup === "country"
-      ? ((siteMap.countries as Record<string, { htmlLang: string }>)[caseRecord.jurisdictionSlug]?.htmlLang ?? caseRecord.language ?? "en")
-      : "en-US";
+    caseRecord.jurisdictionGroup === "country" ? (ownLang && !sameLanguage ? ownLang : (countryLang ?? ownLang ?? "en")) : "en-US";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",

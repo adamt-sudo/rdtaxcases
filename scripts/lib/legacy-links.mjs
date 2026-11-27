@@ -73,13 +73,16 @@ function linkMap() {
       .map((x) => x.replace(/\.json$/, "")),
   );
   const histFile = path.join(ROOT, "content", "slug-history.json");
-  const renames = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")).renames ?? {} : {};
+  const hist = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")) : {};
+  const renames = hist.renames ?? {};
   const map = new Map();
   for (const s of slugs) map.set(`/cases/${s}`, `/us/${s}`);
   for (const [o, n] of Object.entries(renames)) {
     map.set(`/cases/${o}`, `/us/${n}`);
     map.set(`/us/${o}`, `/us/${n}`);
   }
+  // a case of another country removed as a duplicate: a link to its address goes to the kept page
+  for (const [o, n] of Object.entries(hist.countryRenames ?? {})) map.set(o, n);
   const rules = loadLinkRules();
   for (const [from, to] of Object.entries(rules.aliases)) map.set(from, to);
   return { map, rules };
