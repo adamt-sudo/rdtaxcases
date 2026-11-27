@@ -58,6 +58,13 @@ export function oldToNew() {
       rows.push({ old: `/us/${o}`, next: `/us/${c.slug}`, kind: "case-renamed", title: c.title });
     }
   }
+  // "countryRenames": a case of another country that was removed because it is the same case as another page
+  // ({ "/ca/old-address": "/ca/kept-address" }): a 301 straight to the kept page. A target that is itself an old address would be a chain.
+  const countryRenames = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")).countryRenames ?? {} : {};
+  for (const [o, n] of Object.entries(countryRenames)) {
+    if (countryRenames[n]) throw new Error(`content/slug-history.json: ${o} -> ${n}, but ${n} is itself redirected (a chain)`);
+    rows.push({ old: o, next: n, kind: "case-merged", title: o.split("/").pop() });
+  }
   rows.push({ old: "/usa/federal", next: "/us/federal", kind: "listing", title: "USA Federal" });
   rows.push({ old: "/usa/states", next: "/us/states", kind: "listing", title: "USA States" });
   for (const s of usStateJurisdictions) rows.push({ old: `/usa/states/${s.slug}`, next: `/us/states/${s.slug}`, kind: "state", title: s.name });
@@ -97,4 +104,4 @@ fs.writeFileSync(path.join(ROOT, "deploy", "redirects.nginx.map"), lines.join("\
 const q = (v) => `"${String(v).replace(/"/g, '""')}"`;
 fs.writeFileSync(path.join(ROOT, "deploy", "redirects.csv"), "﻿Old address,New address,Kind,Title\r\n" + rows.map((r) => [r.old, r.next, r.kind, r.title].map(q).join(",")).join("\r\n") + "\r\n");
 const n = (k) => rows.filter((r) => r.kind === k).length;
-console.log(`${rows.length} redirects (${n("case")} cases, ${n("listing")} listing pages, ${n("state")} state pages), each also with a trailing slash: ${rows.length * 2} map lines.`);
+console.log(`${rows.length} redirects (${n("case")} cases, ${n("case-merged")} merged cases, ${n("listing")} listing pages, ${n("state")} state pages), each also with a trailing slash: ${rows.length * 2} map lines.`);

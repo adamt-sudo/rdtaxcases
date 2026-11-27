@@ -1,7 +1,7 @@
 // Tests for the case sheet layout (scripts/lib/case-sheet.mjs): columns found by header, optional Decision date and Language columns,
 // plain problems per row, and the check of a case number against its document.
 import assert from "node:assert/strict";
-import { checkNumber, docIdOf, headCitations, readCaseSheet } from "./lib/case-sheet.mjs";
+import { checkNumber, citationSeries, detectLanguage, docIdOf, headCitations, languageCode, normaliseCourt, readCaseSheet } from "./lib/case-sheet.mjs";
 import { loadSiteMap } from "./lib/page-address.mjs";
 
 const siteMap = loadSiteMap();
@@ -65,6 +65,37 @@ group("a case number is checked against its document", () => {
   assert.equal(checkNumber(doc, "2023 TCC 24"), "not-in-document");
   assert.deepEqual(headCitations(doc), ["2023 TCC 18", "2022 FCA 1"]);
   assert.equal(docIdOf("not a link"), null);
+});
+
+group("only a number of the same kind can contradict the document", () => {
+  assert.equal(citationSeries("2023 TCC 18"), "neutral");
+  assert.equal(citationSeries("[1998] 3 C.T.C. 2520"), "ctc");
+  assert.equal(citationSeries("88 DTC 1363"), "dtc");
+  assert.equal(citationSeries("1998 CanLII 553 (TCC)"), "canlii");
+  assert.equal(citationSeries("A-290-21"), "docket");
+  const doc = "<p>Data Kinetics Ltd. v. The Queen, [1998] 3 C.T.C. 2226, is a decision.</p>";
+  // a CanLII citation next to the document's C.T.C. citation can be the same decision: not a contradiction
+  assert.equal(checkNumber(doc, "1998 CanLII 590 (TCC)", "[1998] 3 C.T.C. 2226"), "not-in-document");
+  // another C.T.C. number is a contradiction
+  assert.equal(checkNumber(doc, "[1998] 3 C.T.C. 2227", "[1998] 3 C.T.C. 2226"), "contradicts-site");
+});
+
+group("court names have one spelling", () => {
+  assert.equal(normaliseCourt("Federal Court - Trial Division"), "Federal Court – Trial Division");
+  assert.equal(normaliseCourt("Federal Court – Trial Division"), "Federal Court – Trial Division");
+  assert.equal(normaliseCourt("Federal Court — Trial  Division"), "Federal Court – Trial Division");
+  assert.equal(normaliseCourt("Tax Court of Canada"), "Tax Court of Canada");
+  assert.equal(normaliseCourt("Court of Québec - Criminal"), "Court of Québec – Criminal");
+});
+
+group("a language name becomes a code, and the text decides if it is true", () => {
+  assert.equal(languageCode("French", "en-CA"), "fr-CA");
+  assert.equal(languageCode("English", "en-CA"), "en-CA");
+  assert.equal(languageCode("fr", "en-CA"), "fr");
+  assert.equal(languageCode("fr-CA", "en-CA"), "fr-CA");
+  assert.equal(languageCode("Klingon", "en-CA"), "");
+  assert.equal(detectLanguage("<p>Le tribunal a conclu que les dépenses ne sont pas admissibles dans cette affaire, et la Cour a rejeté l'appel.</p>"), "fr");
+  assert.equal(detectLanguage("<p>The Court held that the expenditures are not eligible, and the appeal was dismissed.</p>"), "en");
 });
 
 console.log(`case sheet layout: ${groups} groups of tests passed`);

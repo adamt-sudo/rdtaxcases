@@ -34,6 +34,47 @@ const COLUMNS = {
 };
 const REQUIRED = ["address", "doc", "title", "caseNumber", "court", "year"];
 
+/** One spelling of the court names: a dash with spaces around it ("Federal Court - Trial Division", "Federal Court — Trial Division") is " – ". */
+export const normaliseCourt = (court) => String(court ?? "").replace(/\s+/g, " ").replace(/\s[-–—]\s/g, " – ").trim();
+
+const LANGUAGE_NAMES = { english: "en", french: "fr", francais: "fr", "français": "fr", anglais: "en", italian: "it", german: "de", spanish: "es", portuguese: "pt" };
+/**
+ * The language of a row as a code: "French" -> "fr-CA" for a Canadian row (the region of the country's own language code, `countryLang`),
+ * "fr" -> "fr", "fr-CA" -> "fr-CA". Returns "" when it is neither a known language name nor a code.
+ */
+export function languageCode(value, countryLang) {
+  const v = String(value ?? "").trim();
+  if (!v) return "";
+  const base = LANGUAGE_NAMES[v.toLowerCase()];
+  if (base) {
+    const region = String(countryLang ?? "").split("-")[1];
+    return region ? `${base}-${region}` : base;
+  }
+  return /^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(v) ? v : "";
+}
+
+const FRENCH_WORDS = /\b(le|la|les|des|du|une|est|dans|pour|que|qui|aux|sur|par|ses|cette|ont|été|dont|avec|sont|l'|d')\b/gi;
+const ENGLISH_WORDS = /\b(the|and|of|is|in|to|that|for|was|with|by|are|this|which|from|has|not)\b/gi;
+/** The language of a document's text, "fr" or "en", from the first 6000 characters (a count of common words of each language). */
+export function detectLanguage(docText) {
+  const t = plainDoc(docText).slice(0, 6000);
+  return (t.match(FRENCH_WORDS) ?? []).length > (t.match(ENGLISH_WORDS) ?? []).length ? "fr" : "en";
+}
+
+/**
+ * The kind of a case number: a neutral citation (2023 TCC 18), a C.T.C. reporter citation ([1998] 3 C.T.C. 2520), a DTC citation (88 DTC 1363),
+ * a CanLII citation (1998 CanLII 553 (TCC)) or a docket number. Two numbers of different kinds can name the same decision, so only
+ * a different number of the same kind is a contradiction.
+ */
+export function citationSeries(number) {
+  const n = String(number).trim();
+  if (/CanLII/i.test(n)) return "canlii";
+  if (/C\.T\.C\./.test(n)) return "ctc";
+  if (/\bDTC\b/.test(n)) return "dtc";
+  if (/^\d{4} [A-Z]{2,5} \d+$/.test(n)) return "neutral";
+  return "docket";
+}
+
 /** The document id of a Google Doc link. */
 export const docIdOf = (url) => (String(url).match(/\/document\/d\/([A-Za-z0-9_-]{20,})/) || [])[1] ?? null;
 
@@ -59,7 +100,7 @@ export function readCaseSheet(csvText, siteMap) {
       subject: get("subject"),
       outcome: get("outcome"),
       caseNumber: get("caseNumber"),
-      court: get("court"),
+      court: normaliseCourt(get("court")),
       year: get("year"),
       decisionDate: get("decisionDate"),
       language: get("language"),
@@ -82,7 +123,7 @@ export function readCaseSheet(csvText, siteMap) {
     if (idx.decisionDate >= 0 && row.decisionDate && (!/^\d{4}-\d{2}-\d{2}$/.test(row.decisionDate) || Number.isNaN(Date.parse(row.decisionDate)))) {
       row.problems.push(`the decision date "${row.decisionDate}" is not yyyy-mm-dd`);
     }
-    if (idx.language >= 0 && row.language && !/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(row.language)) row.problems.push(`the language "${row.language}" is not a language code (for example fr)`);
+    if (idx.language >= 0 && row.language && !languageCode(row.language, "")) row.problems.push(`the language "${row.language}" is not a language name or code (for example French or fr)`);
     return row;
   });
   return { rows, missingColumns, found: Object.fromEntries(Object.entries(idx).map(([k, v]) => [k, v >= 0])) };
@@ -107,7 +148,8 @@ const squash = (s) => s.toLowerCase().replace(/[()\s ]+/g, "");
 export function checkNumber(docText, number, current = null) {
   const text = squash(plainDoc(docText));
   if (text.includes(squash(number))) return "agrees";
-  if (current && text.includes(squash(current))) return "contradicts-site";
+  // a contradiction needs the same kind of number: the site's is in the document, the sheet's is another number of the same kind
+  if (current && citationSeries(current) === citationSeries(number) && text.includes(squash(current))) return "contradicts-site";
   return "not-in-document";
 }
 

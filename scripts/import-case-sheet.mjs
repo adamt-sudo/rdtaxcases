@@ -8,9 +8,14 @@
 //     case number, court, year, summary (the subject), outcome and, if the sheet has the columns, decision date and language;
 //   - a case that is on the site is UPDATED: the sheet's case number, court, year, subject, outcome (and decision date, language, title,
 //     key phrase, meta description when they differ). Its text is not touched.
-//   - GUARD: when the document contains the number the site has now and does not contain the sheet's number, the sheet's number is
-//     probably another decision's. Then the number, court and year are kept (the rest is updated) and the row is listed, unless
-//     --apply-contradicting is given.
+//   - GUARD: when the document contains the number the site has now and does not contain the sheet's number, and both are numbers of
+//     the same kind (two neutral citations, two C.T.C. citations...), the sheet's number is probably another decision's. Then the
+//     number, court and year are kept (the rest is updated) and the row is listed, unless --apply-contradicting is given. A number
+//     of another kind (a CanLII or DTC citation next to a C.T.C. one) can name the same decision and is accepted.
+//   - LANGUAGE: "French" (or fr) makes the page fr-CA (the region of the country's own language) only if the document's text is French;
+//     a row that says French over an English document is reported and left in the country's language.
+//   - --duplicate 73:17: row 73 is the same case as row 17: row 17 stays the case, row 73's page is removed and its address
+//     301-redirects to row 17's (content/slug-history.json, "countryRenames"; deploy/redirects.nginx.map is made from it).
 //   - --hold 12,13: rows (sheet line numbers) that are not touched at all, because the owner is still confirming them.
 //   - --overrides: { "96": { "court": "...", "note": "why" } } corrects a field of a row for this run (the note is reported).
 // Only cases of other countries are handled (the address /xx/<slug>); the USA cases are matched by name with import-batch.
@@ -20,7 +25,7 @@ import os from "node:os";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadSiteMap } from "./lib/page-address.mjs";
-import { checkNumber, headCitations, readCaseSheet } from "./lib/case-sheet.mjs";
+import { checkNumber, detectLanguage, headCitations, languageCode, readCaseSheet } from "./lib/case-sheet.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -41,7 +46,9 @@ if (missingColumns.length) {
 const hold = new Set((opt("--hold") ?? "").split(",").map((x) => x.trim()).filter(Boolean).map(Number));
 const overrides = opt("--overrides") ? JSON.parse(fs.readFileSync(opt("--overrides"), "utf8")) : {};
 const docsDir = opt("--docs");
-const result = { created: [], updated: [], unchanged: [], held: [], flagged: [], problems: [] };
+// --duplicate 73:17 : row 73 is the same case as row 17. Row 17 is the case; row 73's page is removed and its address 301-redirects to row 17's.
+const duplicates = new Map((opt("--duplicate") ?? "").split(",").filter(Boolean).map((x) => x.split(":").map(Number)));
+const result = { created: [], updated: [], unchanged: [], held: [], merged: [], flagged: [], problems: [] };
 const flag = (r, kind, text) => result.flagged.push({ line: r.line, title: r.title, kind, text });
 const toCreate = [];
 
@@ -57,6 +64,7 @@ for (const r0 of rows) {
     result.held.push({ line: r.line, title: r.title, reason: "not touched: the owner is still confirming this row" });
     continue;
   }
+  if (duplicates.has(r.line)) continue; // handled after the loop
   if (r.problems.length) {
     result.held.push({ line: r.line, title: r.title, reason: r.problems.join("; ") });
     continue;
@@ -71,6 +79,19 @@ for (const r0 of rows) {
   const year = Number(r.year);
   const numberYear = (r.caseNumber.match(/^(\d{4}) [A-Z]+ \d+$/) || [])[1];
   if (numberYear && Number(numberYear) !== year) flag(r, "year differs", `the year column says ${year}, the case number ${r.caseNumber} says ${numberYear}`);
+
+  // The page language is stored only when the page is in another language than its country's main one (French in Canada: fr-CA)
+  // AND the document's text really is in that language. A row that says French over an English document is reported and not set.
+  const countryLang = siteMap.countries[r.cc]?.htmlLang ?? "";
+  const code = found.language && r.language ? languageCode(r.language, countryLang) : "";
+  const docLang = detectLanguage(doc);
+  let language = null;
+  if (code) {
+    const wanted = code.split("-")[0].toLowerCase();
+    const main = countryLang.split("-")[0].toLowerCase();
+    if (docLang !== wanted) flag(r, "language", `the sheet says ${r.language}, the document's text is ${docLang === "fr" ? "French" : "English"}${wanted === main ? "" : ": the language was not set"}`);
+    else if (wanted !== main) language = code;
+  }
 
   if (!fs.existsSync(file)) {
     const verdict = checkNumber(doc, r.caseNumber);
@@ -91,7 +112,7 @@ for (const r0 of rows) {
         ...(found.decisionDate && r.decisionDate ? { decisionDate: r.decisionDate } : {}),
         subject: r.subject || r.title,
         ...(r.outcome ? { outcome: r.outcome } : {}),
-        ...(found.language && r.language ? { language: r.language } : {}),
+        ...(language ? { language } : {}),
         jurisdictionGroup: "country",
         jurisdictionSlug: r.cc,
         country: r.cc.toUpperCase(),
@@ -114,7 +135,7 @@ for (const r0 of rows) {
   if (r.subject) set.subject = r.subject;
   if (r.outcome) set.outcome = r.outcome;
   if (found.decisionDate && r.decisionDate) set.decisionDate = r.decisionDate;
-  if (found.language && r.language) set.language = r.language;
+  if (language) set.language = language;
   if (r.title) set.title = r.title;
   if (r.keyPhrase) set.keyPhrase = r.keyPhrase;
   if (r.description) set.metaDescription = r.description;
@@ -125,6 +146,34 @@ for (const r0 of rows) {
   }
   result.updated.push({ line: r.line, title: r.title, changed: changes.map(([k, v]) => ({ field: k, from: cur[k] ?? null, to: v })), numberKept: keep });
   if (write) fs.writeFileSync(file, JSON.stringify({ ...cur, ...set }, null, 2) + "\n");
+}
+
+// duplicates: the page of the duplicate row is removed and its address redirects (301, straight to the kept page, no chain)
+if (duplicates.size) {
+  const histFile = path.join(ROOT, "content", "slug-history.json");
+  const history = fs.existsSync(histFile) ? JSON.parse(fs.readFileSync(histFile, "utf8")) : { note: "", renames: {} };
+  const merged = (history.countryRenames ??= {});
+  const byLine = new Map(rows.map((x) => [x.line, x]));
+  for (const [dupLine, keepLine] of duplicates) {
+    const dup = byLine.get(dupLine), keep = byLine.get(keepLine);
+    if (!dup || !keep || !dup.slug || !keep.slug || dup.cc !== keep.cc) {
+      result.problems.push({ line: dupLine, problem: `--duplicate ${dupLine}:${keepLine}: the rows are not two cases of one country` });
+      continue;
+    }
+    const from = `/${dup.cc}/${dup.slug}`, to = `/${keep.cc}/${keep.slug}`;
+    if (dup.caseNumber !== keep.caseNumber) flag(dup, "duplicate with another number", `row ${dupLine} says ${dup.caseNumber}, row ${keepLine} says ${keep.caseNumber}`);
+    // no chains: whatever pointed at the removed address now points at the kept one; the kept address is never an old address
+    for (const [o, n] of Object.entries(merged)) if (n === from) merged[o] = to;
+    delete merged[to];
+    merged[from] = to;
+    const file = path.join(ROOT, "content", "cases", `${dup.slug}.json`);
+    result.merged.push({ line: dupLine, title: dup.title, address: from, redirectsTo: to, pageRemoved: fs.existsSync(file) });
+    if (write) {
+      if (fs.existsSync(file)) fs.rmSync(file);
+      history.countryRenames = Object.fromEntries(Object.entries(merged).sort());
+      fs.writeFileSync(histFile, JSON.stringify(history, null, 2) + "\n");
+    }
+  }
 }
 
 // the cases that are new go through the importer's pipeline (text from the document, pending list rebuilt)
@@ -144,7 +193,8 @@ if (toCreate.length) {
 }
 
 const n = (a) => a.length;
-console.log(`${write ? "Done" : "Would do"}: created ${n(result.created)}, updated ${n(result.updated)} (${result.updated.filter((u) => u.numberKept).length} with the case number kept), unchanged ${n(result.unchanged)}, held ${n(result.held)}, flagged ${n(result.flagged)}.`);
+console.log(`${write ? "Done" : "Would do"}: created ${n(result.created)}, updated ${n(result.updated)} (${result.updated.filter((u) => u.numberKept).length} with the case number kept), unchanged ${n(result.unchanged)}, merged ${n(result.merged)}, held ${n(result.held)}, flagged ${n(result.flagged)}.`);
+for (const m of result.merged) console.log(`  merged row ${m.line}: ${m.address} -> ${m.redirectsTo}`);
 for (const h of result.held) console.log(`  held  row ${h.line}: ${h.title} -- ${h.reason}`);
 if (opt("--report")) fs.writeFileSync(opt("--report"), JSON.stringify(result, null, 1));
 if (!write) console.log("Nothing saved (add --write to save).");
