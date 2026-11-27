@@ -7,7 +7,9 @@
 //   - a case that is not on the site yet is CREATED from its Google Doc (the same pipeline as scripts/import-batch.mjs), with the sheet's
 //     case number, court, year, summary (the subject), outcome and, if the sheet has the columns, decision date and language;
 //   - a case that is on the site is UPDATED: the sheet's case number, court, year, subject, outcome (and decision date, language, title,
-//     key phrase, meta description when they differ). Its text is not touched.
+//     key phrase, meta description when they differ). Its text is not touched, unless --refresh-text is given: then the text of a page
+//     that differs from its document (the owner corrected the document after the import) is read again from the document. Without the
+//     flag the run only reports which pages have text older than their document.
 //   - GUARD: when the document contains the number the site has now and does not contain the sheet's number, and both are numbers of
 //     the same kind (two neutral citations, two C.T.C. citations...), the sheet's number is probably another decision's. Then the
 //     number, court and year are kept (the rest is updated) and the row is listed, unless --apply-contradicting is given. A number
@@ -26,12 +28,16 @@ import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadSiteMap } from "./lib/page-address.mjs";
 import { checkNumber, detectLanguage, headCitations, languageCode, readCaseSheet } from "./lib/case-sheet.mjs";
+import { convertDoc } from "./lib/html-body.mjs";
+import { applyLinkRules, dedupeExternalLinks } from "./lib/legacy-links.mjs";
+import { plainText } from "../src/lib/inline-core.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
 const opt = (n) => (args.includes(n) ? args[args.indexOf(n) + 1] : undefined);
 const write = args.includes("--write");
 const applyContradicting = args.includes("--apply-contradicting");
+const refreshText = args.includes("--refresh-text");
 if (!opt("--csv") || !opt("--docs")) {
   console.error("Usage: node scripts/import-case-sheet.mjs --csv sheet.csv --docs <folder> [--hold 12,13] [--overrides file.json] [--apply-contradicting] [--report r.json] [--write]");
   process.exit(1);
@@ -48,7 +54,7 @@ const overrides = opt("--overrides") ? JSON.parse(fs.readFileSync(opt("--overrid
 const docsDir = opt("--docs");
 // --duplicate 73:17 : row 73 is the same case as row 17. Row 17 is the case; row 73's page is removed and its address 301-redirects to row 17's.
 const duplicates = new Map((opt("--duplicate") ?? "").split(",").filter(Boolean).map((x) => x.split(":").map(Number)));
-const result = { created: [], updated: [], unchanged: [], held: [], merged: [], flagged: [], problems: [] };
+const result = { created: [], updated: [], unchanged: [], held: [], merged: [], textOutOfDate: [], flagged: [], problems: [] };
 const flag = (r, kind, text) => result.flagged.push({ line: r.line, title: r.title, kind, text });
 const toCreate = [];
 
@@ -139,12 +145,25 @@ for (const r0 of rows) {
   if (r.title) set.title = r.title;
   if (r.keyPhrase) set.keyPhrase = r.keyPhrase;
   if (r.description) set.metaDescription = r.description;
-  const changes = Object.entries(set).filter(([k, v]) => cur[k] !== v);
+  const changes = Object.entries(set).filter(([k, v]) => cur[k] !== v).map(([k, v]) => ({ field: k, from: cur[k] ?? null, to: v }));
+  // the text of the page against its document, converted by the importer's pipeline: a page can be older than its (corrected) document
+  const { blocks, capsule } = convertDoc(doc);
+  dedupeExternalLinks(blocks);
+  applyLinkRules(blocks);
+  const fresh = blocks[0]?.type === "paragraph" && capsule && plainText(blocks[0].text).replace(/\s+/g, " ").trim() === capsule ? blocks.slice(1) : blocks;
+  const textOld = JSON.stringify(cur.body) !== JSON.stringify(fresh);
+  if (textOld) {
+    result.textOutOfDate.push({ line: r.line, title: r.title, blocksNow: cur.body.length, blocksFromDocument: fresh.length, refreshed: refreshText });
+    if (refreshText) {
+      set.body = fresh;
+      changes.push({ field: "body", from: `${cur.body.length} blocks`, to: `${fresh.length} blocks` });
+    }
+  }
   if (!changes.length) {
     result.unchanged.push({ line: r.line, title: r.title });
     continue;
   }
-  result.updated.push({ line: r.line, title: r.title, changed: changes.map(([k, v]) => ({ field: k, from: cur[k] ?? null, to: v })), numberKept: keep });
+  result.updated.push({ line: r.line, title: r.title, changed: changes, numberKept: keep });
   if (write) fs.writeFileSync(file, JSON.stringify({ ...cur, ...set }, null, 2) + "\n");
 }
 
@@ -195,6 +214,13 @@ if (toCreate.length) {
 const n = (a) => a.length;
 console.log(`${write ? "Done" : "Would do"}: created ${n(result.created)}, updated ${n(result.updated)} (${result.updated.filter((u) => u.numberKept).length} with the case number kept), unchanged ${n(result.unchanged)}, merged ${n(result.merged)}, held ${n(result.held)}, flagged ${n(result.flagged)}.`);
 for (const m of result.merged) console.log(`  merged row ${m.line}: ${m.address} -> ${m.redirectsTo}`);
+if (result.textOutOfDate.length) {
+  console.log(
+    refreshText
+      ? `${n(result.textOutOfDate)} page(s) had text older than their document: the text was ${write ? "refreshed" : "to be refreshed"} (rows ${result.textOutOfDate.map((t) => t.line).join(", ")}).`
+      : `${n(result.textOutOfDate)} page(s) have text older than their document (rows ${result.textOutOfDate.map((t) => t.line).join(", ")}). Their text was NOT changed: add --refresh-text to refresh it from the documents.`,
+  );
+}
 for (const h of result.held) console.log(`  held  row ${h.line}: ${h.title} -- ${h.reason}`);
 if (opt("--report")) fs.writeFileSync(opt("--report"), JSON.stringify(result, null, 1));
 if (!write) console.log("Nothing saved (add --write to save).");

@@ -304,7 +304,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Valoris FinTech Solutions Inc. (\"Valoris\") is a Toronto-based CCPC providing real-time regulatory compliance and anti-money laundering (AML) transaction monitoring software to Canadian credit unions. Valoris operates a legacy core transaction engine built on a multi-tiered architecture utilizing .NET Framework 4.8 and an on-premise relational database (Microsoft SQL Server 2014). Due to strict multi-year data residency and regulatory audit-lock agreements with its credit union clients, Valoris is contractually and economically prohibited from migrating its clients to cloud-native graph databases or upgrading the underlying database engine. Within these rigid architectural and capital constraints, Valoris launches the \"Velocity-AML Project\" during its 2026 taxation year to achieve two technical objectives: first, developing a deterministic in-memory graph-traversal and entity-resolution caching mechanism within the legacy relational architecture capable of joining and scoring 10 million cross-institutional transaction records with a maximum p99 response latency under 250 milliseconds; and second, devising a custom lock-free concurrency control protocol to prevent thread starvation during simultaneous high-frequency read/write ingestion without triggering SQL Server 2014 tempdb contention."
+      "text": "Valoris FinTech Solutions Inc. (\"Valoris\") is a Toronto-based CCPC providing real-time regulatory compliance and anti-money laundering (AML) transaction monitoring software to Canadian credit unions. Valoris operates a legacy core transaction engine built on a multi-tiered architecture utilizing .NET Framework 4.8 and an on-premise relational database (Microsoft SQL Server 2014). Due to strict multi-year data residency and regulatory audit-lock agreements with its credit union clients, Valoris is contractually and economically prohibited from migrating its clients to cloud-native graph databases or upgrading the underlying database engine. Within these rigid architectural and capital constraints, Valoris launches the \"Velocity-AML Project\" during its 2026 taxation year to achieve two technical objectives: first, developing a deterministic in-memory graph-traversal and entity-resolution caching mechanism within the legacy relational architecture capable of joining and scoring 10 million cross-institutional transaction records with a maximum response latency under 250 milliseconds; and second, devising a custom lock-free concurrency control protocol to prevent thread starvation during simultaneous high-frequency read/write ingestion without triggering SQL Server 2014 tempdb contention."
     },
     {
       "type": "subheading",
@@ -355,8 +355,8 @@
             "a4f89c1 sred/exp-01-H01",
             "<strong>H1:</strong> Implementing a custom compressed BitArray adjacency matrix in L2 application memory will bypass SQL 2014 query plan overhead and reduce 3-hop entity resolution latency below 250 ms.",
             "Ingested 10M synthetic AML records; fixed thread pool at 32 threads; executed 1,000 concurrent 3-hop lookups against the BitArray structure.",
-            "<strong>p99 Latency:</strong> 890 ms <strong>GC Pause:</strong> 410 ms <strong>Heap Usage:</strong> 14.2 GB",
-            "<strong>Analysis:</strong> BitArray allocation exceeded the 85,000-byte .NET Large Object Heap (LOH) threshold, triggering Gen-2 Garbage Collection pauses that spiked tail latency. <strong>Modification:</strong> Formulate <strong>H2</strong> to eliminate LOH fragmentation via unmanaged off-heap memory pointers."
+            "<strong>Latency:</strong> 890 ms <strong>GC Pause:</strong> 410 ms <strong>Heap Usage:</strong> 14.2 GB",
+            "<strong>Analysis:</strong> BitArray allocation exceeded the 85,000-byte .NET Large Object Heap (LOH) threshold, triggering Gen-2 Garbage Collection pauses that spiked latency. <strong>Modification:</strong> Formulate <strong>H2</strong> to eliminate LOH fragmentation via unmanaged off-heap memory pointers."
           ]
         },
         {
@@ -365,7 +365,7 @@
             "7b2e04d sred/exp-01-H02",
             "<strong>H2:</strong> Partitioning the adjacency index into fixed 64 KB unmanaged memory arenas using Marshal.AllocHGlobal will eliminate GC pauses and isolate latency strictly to pointer traversal time.",
             "Replaced managed arrays with unmanaged ring buffers; held dataset (10M rows) and concurrency (32 threads) constant; profiled CPU cache misses via hardware counters.",
-            "<strong>p99 Latency:</strong> 340 ms <strong>GC Pause:</strong> 0 ms <strong>L3 Cache Miss Rate:</strong> 68.4%",
+            "<strong>Latency:</strong> 340 ms <strong>GC Pause:</strong> 0 ms <strong>L3 Cache Miss Rate:</strong> 68.4%",
             "<strong>Analysis:</strong> GC pauses were eliminated, but non-contiguous pointer chasing across unmanaged blocks caused severe CPU L3 cache misses during multi-hop joins. <strong>Modification:</strong> Formulate <strong>H3</strong> to restructure node layout using a cache-oblivious Compressed Sparse Row (CSR) byte-aligned format."
           ]
         },
@@ -373,9 +373,9 @@
           "cells": [
             "<strong>EXP-01.3</strong> 2026-04-15 16:10 EST",
             "9c5d11e sred/exp-01-H03",
-            "<strong>H3:</strong> Aligning unmanaged CSR vertex offsets to 64-byte CPU cache lines with SIMD vectorized bit-packing will reduce L3 cache misses below 15% and achieve sub-250 ms p99 latency.",
+            "<strong>H3:</strong> Aligning unmanaged CSR vertex offsets to 64-byte CPU cache lines with SIMD vectorized bit-packing will reduce L3 cache misses below 15% and achieve sub-250 ms latency.",
             "Implemented SIMD (System.Numerics.Vector) CSR traversal over 64-byte aligned memory blocks; ran identical 10M record / 32-thread benchmark suite.",
-            "<strong>p99 Latency:</strong> 182 ms <strong>GC Pause:</strong> 0 ms <strong>L3 Cache Miss Rate:</strong> 11.2%",
+            "<strong>Latency:</strong> 182 ms <strong>GC Pause:</strong> 0 ms <strong>L3 Cache Miss Rate:</strong> 11.2%",
             "<strong>Analysis:</strong> Hypothesis H3 validated. Technological advancement achieved: discovered a deterministic relationship between 64-byte CSR cache alignment and unmanaged memory traversal under .NET 4.8 constraints."
           ]
         }

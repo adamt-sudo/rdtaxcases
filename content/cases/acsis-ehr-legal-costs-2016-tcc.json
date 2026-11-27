@@ -294,7 +294,7 @@
     },
     {
       "type": "paragraph",
-      "text": "MedSync Analytics Inc. (\"MedSync\"), an Ontario-based <a href=\"/ca/glossary/canadian-controlled-private-corporation-ccpc\">Canadian-Controlled Private Corporation</a> (CCPC), is developing a next-generation cloud-native Electronic Health Record (EHR) federation engine designed to ingest, normalize, and run real-time clinical decision support (CDS) machine learning models across asynchronous, heterogeneous hospital data streams (HL7 v2, FHIR R4, and unstructured DICOM metadata). During its 2025 fiscal year, MedSync incurred $1.8 million in developer salaries and subcontractor fees, claiming a <a href=\"/ca/glossary/enhanced-investment-tax-credit-rate\">35% refundable SR&ED Investment Tax Credit</a> ($630,000)."
+      "text": "MedSync Analytics Inc. (\"MedSync\"), an Ontario-based <a href=\"/ca/glossary/canadian-controlled-private-corporation-ccpc\">Canadian-Controlled Private Corporation</a> (CCPC), is developing a next-generation cloud-native Electronic Health Record (EHR) federation engine designed to ingest, normalize, and run real-time clinical decision support (CDS) machine learning models across asynchronous, heterogeneous hospital data streams (structured clinical messages and unstructured DICOM metadata). During its 2025 fiscal year, MedSync incurred $1.8 million in developer salaries and subcontractor fees, claiming a <a href=\"/ca/glossary/enhanced-investment-tax-credit-rate\">35% refundable SR&ED Investment Tax Credit</a> ($630,000)."
     },
     {
       "type": "paragraph",
@@ -310,7 +310,7 @@
     },
     {
       "type": "paragraph",
-      "text": "To prevent the CRA from conflating business objectives with technological uncertainty, MedSync must institute a dual-track governance architecture that separates product management from experimental engineering oversight. At the start of each fiscal quarter, MedSync's Chief Technology Officer and Lead Systems Architect must convene a formal SR&ED Technical Steering Committee. Before any experimental sprint commences, the committee must execute an Architectural Benchmark and Knowledge Base Assessment. This governance protocol requires senior engineers to document the <a href=\"/ca/glossary/prior-knowledge\">existing state of the art</a>—citing public HL7/FHIR standards, open-source graph database limitations, and peer-reviewed computer science literature—to establish the precise boundary where standard engineering ends and system-level technological uncertainty begins. By formally recording why standard horizontal scaling or off-the-shelf caching cannot resolve the memory fragmentation versus real-time latency trade-off, MedSync establishes an unassailable evidentiary foundation for Criterion 1 of <em>Northwest Hydraulic</em>."
+      "text": "To prevent the CRA from conflating business objectives with technological uncertainty, MedSync must institute a dual-track governance architecture that separates product management from experimental engineering oversight. At the start of each fiscal quarter, MedSync's Chief Technology Officer and Lead Systems Architect must convene a formal SR&ED Technical Steering Committee. Before any experimental sprint commences, the committee must execute an Architectural Benchmark and Knowledge Base Assessment. This governance protocol requires senior engineers to document the <a href=\"/ca/glossary/prior-knowledge\">existing state of the art</a>—citing public health-data interoperability standards, open-source graph database limitations, and peer-reviewed computer science literature—to establish the precise boundary where standard engineering ends and system-level technological uncertainty begins. By formally recording why standard horizontal scaling or off-the-shelf caching cannot resolve the memory fragmentation versus real-time latency trade-off, MedSync establishes an unassailable evidentiary foundation for Criterion 1 of <em>Northwest Hydraulic</em>."
     },
     {
       "type": "subheading",
@@ -349,18 +349,18 @@
         {
           "cells": [
             "<strong>Phase 1 (EXP-2025-01):</strong> Zero-Copy In-Memory Graph Reconciliation",
-            "Implementing a lock-free concurrent graph traversal algorithm in Rust using epoch-based memory reclamation will resolve state-contention locks and maintain p99 latency under 10,000 concurrent HL7/FHIR ingestion streams.",
+            "Implementing a lock-free concurrent graph traversal algorithm in Rust using epoch-based memory reclamation will resolve state-contention locks and maintain latency under 10,000 concurrent clinical ingestion streams.",
             "Simulated 10,000 concurrent clinical ingestion threads over a 72-hour stress test against 50M synthetic patient nodes; profiled heap fragmentation and CPU cache-miss ratios against baseline locking models.",
-            "<strong>Hypothesis Refuted:</strong> Epoch pinning under skewed clinical document sizes caused unbounded tail-latency spikes and memory exhaustion. <strong>Advancement:</strong> Quantified the exact mathematical boundary where lock-free epoch reclamation fails under variable-payload HL7 streams.",
-            "<strong>Eligible Activity III:</strong> 4,200 <a href=\"/ca/faq/sred-employee-time-tracking-requirements\">hours tracked</a> via Jira SR&ED Epic tags (100% eligible). <strong>Excluded Activity IV:</strong> 850 hours of UI dashboard and standard FHIR parser coding excluded."
+            "<strong>Hypothesis Refuted:</strong> Epoch pinning under skewed clinical document sizes caused unbounded latency spikes and memory exhaustion. <strong>Advancement:</strong> Quantified the exact mathematical boundary where lock-free epoch reclamation fails under variable-payload clinical message streams.",
+            "<strong>Eligible Activity III:</strong> 4,200 <a href=\"/ca/faq/sred-employee-time-tracking-requirements\">hours tracked</a> via Jira SR&ED Epic tags (100% eligible). <strong>Excluded Activity IV:</strong> 850 hours of UI dashboard and standard interoperability parser coding excluded."
           ]
         },
         {
           "cells": [
             "<strong>Phase 2 (EXP-2025-02):</strong> Hybrid Vector-Indexed Delta Caching",
-            "Partitioning mutable clinical state into an append-only vector delta log coupled with asynchronous deterministic compaction will eliminate heap fragmentation while holding p99 query latency below 50 milliseconds.",
+            "Partitioning mutable clinical state into an append-only vector delta log coupled with asynchronous deterministic compaction will eliminate heap fragmentation while holding query latency below 50 milliseconds.",
             "Executed comparative parametric benchmarks across 12 compaction interval permutations and 4 vector quantization thresholds using anonymized hospital telemetry streams.",
-            "<strong>Hypothesis Confirmed (Modified):</strong> Achieved a p99 latency of 38 milliseconds with zero out-of-memory faults only after introducing an adaptive backpressure controller on compaction threads. <strong>Advancement:</strong> Created a novel deterministic state-compaction architecture for high-concurrency health informatics.",
+            "<strong>Hypothesis Confirmed (Modified):</strong> Achieved a latency of 38 milliseconds with zero out-of-memory faults only after introducing an adaptive backpressure controller on compaction threads. <strong>Advancement:</strong> Created a novel deterministic state-compaction architecture for high-concurrency health informatics.",
             "<strong>Eligible Activity III:</strong> 3,600 hours of core systems engineering and algorithmic validation. <strong>Subcontractors:</strong> Canadian <a href=\"/ca/glossary/arms-length-relationship\">arm's-length</a> testing contractor invoices isolated at 80% eligible basis under ITA s. 127(9)."
           ]
         }
