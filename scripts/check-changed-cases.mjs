@@ -33,7 +33,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { checkRecord, pdfText } from "./lib/check.mjs";
+import { checkRecord, GLUED, pdfText } from "./lib/check.mjs";
 import { hasMarkup, inlineProblems, plainText } from "../src/lib/inline-core.mjs";
 import { FIELD_LABELS, hasHtmlBody, resolveHtmlBody } from "./lib/html-body.mjs";
 
@@ -127,7 +127,6 @@ const textsOf = (rec) =>
     );
 
 const SECTION = /^(works cited|references|sources|bibliography|footnotes|notes)\s*:?$/i;
-const GLUED = /[a-z)\]”"’]\d{1,3}(?=[\s.,;:)”"’]|$)/g;
 const SENTENCES = (t) => (t.match(/[^.!?]+[.!?]+(\s|$)/g) ?? [t]).length;
 
 /** Format problems of a case: { blocking: [...], notices: [...] }, each a short sentence. */

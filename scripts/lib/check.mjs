@@ -27,6 +27,12 @@ export function norm(s) {
     .toLowerCase();
 }
 export const CJK_RE = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}\p{Script=Thai}]/u;
+/**
+ * A footnote number stuck to the text before it: digits right after a closing bracket ("1997)3 "), a closing quote that follows a letter or
+ * punctuation ('word"3 '), or a word of four or more lowercase letters ("holdings3 "). Short names, formulas and versions with digits
+ * (k1, p99, v1.2, Fe2Al5, R4) and a number after an opening quote ('"40 trials"') are not footnote numbers.
+ */
+export const GLUED = /(?:[a-z]{4,}|[)\]]|(?<=[a-z.,;])[”"’])\d{1,3}(?=[\s.,;:)”"’]|$)/g;
 /** letters and digits only, for matching across line and page breaks */
 const flat = (s) => norm(s).replace(/[^\p{L}\p{N}]/gu, "");
 const words = (s) => norm(s).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
